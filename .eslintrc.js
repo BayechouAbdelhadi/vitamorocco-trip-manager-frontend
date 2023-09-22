@@ -20,7 +20,7 @@ module.exports = {
     // Sets up: { parser: '@typescript-eslint/parser', plugins: ['@typescript-eslint'] }
     'airbnb-typescript',
     'airbnb/hooks',
-    'plugin:@typescript-eslint/recommended',
+    // 'plugin:@typescript-eslint/recommended',
     'plugin:promise/recommended',
     'plugin:compat/recommended',
     'plugin:eslint-comments/recommended',

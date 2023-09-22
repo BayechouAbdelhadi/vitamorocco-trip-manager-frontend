@@ -1,7 +1,6 @@
-import React from 'react';
-import { Page } from '../../components/Page/Page';
+import { Page } from '../../common/components/Page/Page';
 import { useCounter } from '../../database/counter';
-import { useCounter as useCounterRedux } from '../../store/counter';
+import { useCounter as useCounterRedux } from '../../store/front/counter';
 
 export const Home = (): JSX.Element => {
   const { counter, handleDecrementClick, handleIncrementClick } = useCounter();

@@ -1,7 +1,5 @@
-import { Action, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { ofType } from 'redux-observable';
-import { ignoreElements, Observable, tap } from 'rxjs';
-import { RootState, useAppDispatch, useAppSelector } from '../helpers';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { RootState, useAppDispatch, useAppSelector } from '../../helpers';
 
 // Slice
 export const counterSlice = createSlice({
@@ -22,15 +20,6 @@ export const counterSlice = createSlice({
 });
 const { increment, decrement } = counterSlice.actions;
 
-// Epic
-export const counterEpic = (actions$: Observable<Action>): Observable<Action> =>
-  actions$.pipe(
-    ofType(decrement, increment),
-    // eslint-disable-next-line no-console
-    tap((action) => console.log(`Epic: ${action.type}`)),
-    ignoreElements()
-  );
-
 // Hook
 export const useCounter = (): {
   counter: { count: number };
@@ -45,3 +34,5 @@ export const useCounter = (): {
     handleIncrementClick: () => dispatch(increment()),
   };
 };
+
+export default counterSlice.reducer;

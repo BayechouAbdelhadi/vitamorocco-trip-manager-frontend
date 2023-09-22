@@ -1,6 +1,6 @@
-import React, { PropsWithChildren, ReactNode } from 'react';
+import { PropsWithChildren, ReactNode } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { app } from '../../common/constants';
+import { app } from '../../constants';
 import { LayoutContainer, LayoutContainerProps } from '../LayoutContainer/LayoutContainer';
 
 interface PageProps extends LayoutContainerProps {

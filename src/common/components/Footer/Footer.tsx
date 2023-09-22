@@ -1,5 +1,4 @@
-import React from 'react';
-import { app } from '../../common/constants';
+import { app } from '../../constants';
 import { LayoutContainer } from '../LayoutContainer/LayoutContainer';
 
 export const Footer = (): JSX.Element => (
