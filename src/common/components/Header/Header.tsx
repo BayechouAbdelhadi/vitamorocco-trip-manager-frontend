@@ -4,6 +4,8 @@ import { LayoutContainer } from '../LayoutContainer/LayoutContainer';
 
 export const Header = (): JSX.Element => (
   <LayoutContainer role="banner" Tag="header">
-    <Link to="/">Logo</Link>
+    <LayoutContainer role="nav" Tag="nav">
+      <Link to="/">Logo</Link>
+    </LayoutContainer>
   </LayoutContainer>
 );

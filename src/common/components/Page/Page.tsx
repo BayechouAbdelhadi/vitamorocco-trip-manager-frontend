@@ -14,7 +14,6 @@ export const Page = ({
   children,
   description,
   elements,
-  isFluid,
   keywords,
   title,
 }: PropsWithChildren<PageProps>): JSX.Element => (
@@ -25,7 +24,7 @@ export const Page = ({
       <title>{title}</title>
       {elements}
     </Helmet>
-    <LayoutContainer isFluid={isFluid} role="main" Tag="main">
+    <LayoutContainer role="main" Tag="main">
       {children}
     </LayoutContainer>
   </HelmetProvider>
