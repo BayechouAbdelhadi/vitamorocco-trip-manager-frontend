@@ -1,14 +1,15 @@
-@use "../../../assets/scss/theme";
+@use '../../../assets/scss/theme';
 
 .fluid {
-  max-width: theme.$max-width;
+    min-width: theme.$max-width;
 }
 
 .root {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 
-  div {
-    flex: 1;
-  }
+    div {
+        flex: 1;
+    }
 }

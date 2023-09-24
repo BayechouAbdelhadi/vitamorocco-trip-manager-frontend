@@ -1,11 +1,11 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
 import { LayoutContainer } from '../LayoutContainer/LayoutContainer';
+import Navbar from './NavBar';
 
 export const Header = (): JSX.Element => (
   <LayoutContainer role="banner" Tag="header">
-    <LayoutContainer role="nav" Tag="nav">
-      <Link to="/">Logo</Link>
-    </LayoutContainer>
+    {
+      //Put any thing you want to add in the header Like coordinates(Phone number and email...)
+    }
+    <Navbar />
   </LayoutContainer>
 );
