@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
-import "./Dropdown.css";
-import { NavLink } from "./NavBarLink";
+import { Link } from 'react-router-dom';
+import './Dropdown.css';
+import { NavItem } from './NavBar';
 
 interface DropDownProps {
-    link: NavLink;
+    link: NavItem;
 }
 
 function Dropdown({ link }: DropDownProps) {
