@@ -1,6 +1,6 @@
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Button, Menu, MenuItem, PopoverOrigin } from '@mui/material';
-import { NavItem } from './NavBar';
+import { NavItem } from './constants';
 
 interface NavBarItemProps {
     toggleMenu: (index: number, el: HTMLElement | null) => void;
