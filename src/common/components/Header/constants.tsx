@@ -31,23 +31,23 @@ export const NAVBAR_ITEMS: NavItem[] = [
         dropdown: [
             {
                 text: 'Gallery',
-                href: '/servies/gallery',
+                href: '/services/gallery',
                 dropdown: [],
-                id: 'servies-gallery',
+                id: 'services-gallery',
                 anchorEl: null,
             },
             {
                 text: 'FAQs',
-                href: '/servies/faqs',
+                href: '/services/faqs',
                 dropdown: [],
-                id: 'servies-faqs',
+                id: 'services-faqs',
                 anchorEl: null,
             },
             {
                 text: 'Tips',
-                href: '/servies/tips',
+                href: '/services/tips',
                 dropdown: [],
-                id: '/servies-tips',
+                id: '/services-tips',
                 anchorEl: null,
             },
         ],
@@ -94,12 +94,12 @@ export const NAVBAR_ITEMS: NavItem[] = [
         icon: <InfoIcon />,
     },
     {
-        text: 'Contacts',
-        href: '/contacts',
+        text: 'Contact',
+        href: '/contact',
         dropdown: [
             //FromDB
         ],
-        id: 'contacts',
+        id: 'contact',
         anchorEl: null,
         icon: <ContactPageIcon />,
     },

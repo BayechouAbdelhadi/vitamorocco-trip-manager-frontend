@@ -22,13 +22,13 @@ export default function PrimarySearchAppBar() {
         setMobileMoreAnchorEl(mobileMoreAnchorEl !== null ? null : event.currentTarget);
     };
 
-
     const toggleMenu = (index: number, el: HTMLElement | null) => {
-        setNavBarItems((NavBarItems) =>
-            NavBarItems.map((menuItem, i) => (i === index ? { ...menuItem, anchorEl: el } : menuItem))
-        );
+        if (navBarItems[index].anchorEl !== el) {
+            setNavBarItems((NavBarItems) =>
+                NavBarItems.map((menuItem, i) => (i === index ? { ...menuItem, anchorEl: el } : menuItem))
+            );
+        }
     };
-
     const mobileMenuId = 'primary-search-account-menu-mobile';
     const renderMobileMenu = (
         <Drawer
@@ -49,7 +49,7 @@ export default function PrimarySearchAppBar() {
                     {<CloseIcon width="30" className="close-drawing-icon" />}
                 </IconButton>
             </div>
-            <Divider sx={{width: "100%"}} />
+            <Divider sx={{ width: '100%' }} />
             <List>
                 {navBarItems.map((navBarItem) => (
                     <MobileNavbarItem navBarItem={navBarItem} key={navBarItem.id} />
@@ -80,7 +80,10 @@ export default function PrimarySearchAppBar() {
                             />
                         ))}
                     </Box>
-                    <Box sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }} className="mobile-menu-button-container">
+                    <Box
+                        sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}
+                        className="mobile-menu-button-container"
+                    >
                         <IconButton
                             size="large"
                             aria-label="show more"
