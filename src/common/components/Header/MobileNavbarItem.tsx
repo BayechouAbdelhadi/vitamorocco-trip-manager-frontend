@@ -36,10 +36,12 @@ const MobileNavbarItem = ({ navBarItem }: NavBarItemProps) => {
             </ListItem>
             {expanded && (
                 <div className="nav-item-details">
-                    <Typography>
-                        Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat. Aliquam eget maximus est,
-                        id dignissim quam.
-                    </Typography>
+                    {navBarItem.dropdown.map((dropDownItem) => (
+                        <ListItemButton className="mobile-nav-bar-button" key={dropDownItem.id}>
+                            {dropDownItem.icon}
+                            <Typography className="mobile-nav-bar-button-text">{dropDownItem.text}</Typography>
+                        </ListItemButton>
+                    ))}
                 </div>
             )}
         </>

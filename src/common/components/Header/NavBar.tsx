@@ -16,7 +16,6 @@ const drawerWidth = 300;
 export default function PrimarySearchAppBar() {
     const [navBarItems, setNavBarItems] = useState<NavItem[]>(NAVBAR_ITEMS);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState<null | HTMLElement>(null);
-
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
     const handleMobileMenuClose = () => {
@@ -47,9 +46,12 @@ export default function PrimarySearchAppBar() {
             variant="persistent"
             anchor="right"
             open={isMobileMenuOpen}
+            className="mobile-menu-drawer"
         >
             <div className="drawer-header">
-                <IconButton onClick={handleMobileMenuClose}>{<CloseIcon width="30" />}</IconButton>
+                <IconButton onClick={handleMobileMenuClose}>
+                    {<CloseIcon width="30" className="close-drawing-icon" />}
+                </IconButton>
             </div>
             <Divider />
             <List>
@@ -82,7 +84,7 @@ export default function PrimarySearchAppBar() {
                             />
                         ))}
                     </Box>
-                    <Box sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}>
+                    <Box sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }} className="mobile-menu-button-container">
                         <IconButton
                             size="large"
                             aria-label="show more"
