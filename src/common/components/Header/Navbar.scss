@@ -4,12 +4,11 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .tool-bar {
     display: flex;
-    justify-content: space-between;
     gap: 50px;
 
     .mobile-menu-button-container {
