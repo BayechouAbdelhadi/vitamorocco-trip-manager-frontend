@@ -3,7 +3,6 @@
     padding: 20px 15%;
     background-position: center;
     background-size: cover;
-    box-shadow: var(--light-shadow);
     border-radius: 10px;
 }
 
@@ -24,7 +23,6 @@
 .bottomcontent .socialicons {
     display: flex;
     margin-top: 20px;
-    /* background-color: blueviolet; */
 }
 
 .graytext-container {
@@ -42,11 +40,6 @@
     content: " & ";
 }
 
-@media (max-width: 1130px) {
-    .footer {
-        padding: 20px 90px
-    }
-}
 
 @media (max-width: 1000px) {
     .footer-grid {
