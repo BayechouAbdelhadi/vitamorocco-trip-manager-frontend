@@ -1,293 +1,90 @@
-// import { Menu as MenuIcon } from '@mui/icons-material';
-// import { Button, Hidden, IconButton, Menu, MenuItem, Toolbar } from '@mui/material';
-// import React, { useState } from 'react';
-// import { LayoutContainer } from '../LayoutContainer/LayoutContainer';
-// import Logo from '../logo/Logo';
-// import NavBarLink, { NavLink } from './NavBarLink';
-
-// const links: NavLink[] = [
-//     {
-//         text: 'Item1',
-//         href: '/home/ok/pop',
-//         dropdown: [
-//             { text: 'hjhjhj', href: '/home/ok/pop', dropdown: [] },
-//             { text: 'hjhjhj', href: '/home/ok/pop', dropdown: [] },
-//             { text: 'hjhjhj', href: '/home/ok/pop', dropdown: [] },
-//         ],
-//     },
-//     {
-//         text: 'Item2',
-//         href: '/home/ok/pop',
-//         dropdown: [],
-//     },
-//     {
-//         text: 'Item3',
-//         href: '/home/ok/pop',
-//         dropdown: [],
-//     },
-// ];
-
-// const styles = {
-//     navbar: {
-//         backgroundColor: '#f8f4f4',
-//         color: '#fff',
-//     },
-//     linksContainer: {
-//         display: 'flex',
-//         alignItems: 'center',
-//     },
-//     mobBtn: {
-//         color: '#fff',
-//         cursor: 'pointer',
-//     },
-// };
-
-// function Navbar() {
-//     const linksrow = links.map((link) => <NavBarLink key={link.text} link={link} />);
-
-//     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-
-//     const handleMenuClick = (event: React.MouseEvent<HTMLElement>) => {
-//         setAnchorEl(event.currentTarget);
-//     };
-
-//     const handleMenuClose = () => {
-//         setAnchorEl(null);
-//     };
-
-//     return (
-//         <LayoutContainer role="nav" Tag="nav">
-//             <Toolbar style={styles.navbar}>
-//                 <Logo />
-//                 <Hidden smDown>
-//                     <div style={styles.linksContainer}>{linksrow}</div>
-//                 </Hidden>
-//                 <Hidden mdUp>
-//                     <IconButton color="inherit" aria-label="menu" style={styles.mobBtn} onClick={handleMenuClick}>
-//                         <MenuIcon />
-//                     </IconButton>
-//                     <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
-//                         {linksrow}
-//                         <MenuItem>
-//                             <Button>Okk</Button>
-//                         </MenuItem>
-//                     </Menu>
-//                 </Hidden>
-//             </Toolbar>
-//         </LayoutContainer>
-//     );
-// }
-
-// export default Navbar;
-
-import AccountCircle from '@mui/icons-material/AccountCircle';
-import MailIcon from '@mui/icons-material/Mail';
+import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import AppBar from '@mui/material/AppBar';
-import Badge from '@mui/material/Badge';
+import { Divider, Drawer, List } from '@mui/material';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import * as React from 'react';
-import { NavLink } from './NavBarLink';
+import { useState } from 'react';
+import Logo from '../logo/Logo';
+import MobileNavbarItem from './MobileNavbarItem';
+import NavbarItem from './NavBarItem';
+import './Navbar.scss';
+import { NAVBAR_ITEMS, NavItem } from './constants';
 
-const links: NavLink[] = [
-    {
-        text: 'Item1',
-        href: '/home/ok/pop',
-        dropdown: [
-            {
-                text: 'd1',
-                href: '/home/ok/pop',
-                dropdown: [],
-                id: 'd1-control',
-                anchorEl: null,
-            },
-            {
-                text: 'd2',
-                href: '/home/ok/pop',
-                dropdown: [],
-                id: 'd2-control',
-                anchorEl: null,
-            },
-            {
-                text: 'd3',
-                href: '/home/ok/pop',
-                dropdown: [],
-                id: 'd3-control',
-                anchorEl: null,
-            },
-        ],
-        id: 'Item1-control',
-        anchorEl: null,
-    },
-    {
-        text: 'Item2',
-        href: '/home/ok/pop',
-        dropdown: [],
-        id: 'Item2-control',
-        anchorEl: null,
-    },
-    {
-        text: 'Item3',
-        href: '/home/ok/pop',
-        dropdown: [
-            {
-                text: 'd11',
-                href: '/home/ok/pop',
-                dropdown: [],
-                id: 'd11-control',
-                anchorEl: null,
-            },
-            {
-                text: 'd12',
-                href: '/home/ok/pop',
-                dropdown: [],
-                id: 'd12-control',
-                anchorEl: null,
-            },
-            {
-                text: 'd13',
-                href: '/home/ok/pop',
-                dropdown: [],
-                id: 'd13-control',
-                anchorEl: null,
-            },
-        ],
-        id: 'Item3-control',
-        anchorEl: null,
-    },
-];
+const drawerWidth = 300;
 
 export default function PrimarySearchAppBar() {
-    const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-    const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState<null | HTMLElement>(null);
-
-    const isMenuOpen = Boolean(anchorEl);
+    const [navBarItems, setNavBarItems] = useState<NavItem[]>(NAVBAR_ITEMS);
+    const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState<null | HTMLElement>(null);
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
-
-    const handleProfileMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
-        setAnchorEl(event.currentTarget);
-    };
 
     const handleMobileMenuClose = () => {
         setMobileMoreAnchorEl(null);
-    };
-
-    const handleMenuClose = () => {
-        setAnchorEl(null);
-        handleMobileMenuClose();
     };
 
     const handleMobileMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
         setMobileMoreAnchorEl(event.currentTarget);
     };
 
-    const menuId = 'primary-search-account-menu';
-    const renderMenu = (
-        <Menu
-            anchorEl={anchorEl}
-            anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-            }}
-            id={menuId}
-            keepMounted
-            transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-            }}
-            open={isMenuOpen}
-            onClose={handleMenuClose}
-        >
-            <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-            <MenuItem onClick={handleMenuClose}>My account</MenuItem>
-        </Menu>
-    );
+    const toggleMenu = (index: number, el: HTMLElement | null) => {
+        console.log('toggle', index, el);
+        setNavBarItems((NavBarItems) =>
+            NavBarItems.map((menuItem, i) => (i === index ? { ...menuItem, anchorEl: el } : menuItem))
+        );
+    };
 
     const mobileMenuId = 'primary-search-account-menu-mobile';
     const renderMobileMenu = (
-        <Menu
-            anchorEl={mobileMoreAnchorEl}
-            anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
+        <Drawer
+            sx={{
+                width: drawerWidth,
+                flexShrink: 0,
+                '& .MuiDrawer-paper': {
+                    width: drawerWidth,
+                },
             }}
-            id={mobileMenuId}
-            keepMounted
-            transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-            }}
+            variant="persistent"
+            anchor="right"
             open={isMobileMenuOpen}
-            onClose={handleMobileMenuClose}
+            className="mobile-menu-drawer"
         >
-            <MenuItem>
-                <IconButton size="large" aria-label="show 4 new mails" color="inherit">
-                    <Badge badgeContent={4} color="error">
-                        <MailIcon />
-                    </Badge>
+            <div className="drawer-header">
+                <IconButton onClick={handleMobileMenuClose}>
+                    {<CloseIcon width="30" className="close-drawing-icon" />}
                 </IconButton>
-                <p>Messages</p>
-            </MenuItem>
-            <MenuItem>
-                <IconButton size="large" aria-label="show 17 new notifications" color="inherit">
-                    <Badge badgeContent={17} color="error">
-                        <NotificationsIcon />
-                    </Badge>
-                </IconButton>
-                <p>Notifications</p>
-            </MenuItem>
-            <MenuItem onClick={handleProfileMenuOpen}>
-                <IconButton
-                    size="large"
-                    aria-label="account of current user"
-                    aria-controls="primary-search-account-menu"
-                    aria-haspopup="true"
-                    color="inherit"
-                >
-                    <AccountCircle />
-                </IconButton>
-                <p>Profile</p>
-            </MenuItem>
-        </Menu>
+            </div>
+            <Divider />
+            <List>
+                {navBarItems.map((navBarItem) => (
+                    <MobileNavbarItem navBarItem={navBarItem} key={navBarItem.id} />
+                ))}
+            </List>
+        </Drawer>
     );
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
-                <Toolbar>
-                    <Typography variant="h6" noWrap component="div" sx={{ display: { xs: 'none', sm: 'block' } }}>
-                        Vita Morocco
-                    </Typography>
-                    <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-                        <IconButton size="large" aria-label="show 4 new mails" color="inherit">
-                            <Badge badgeContent={4} color="error">
-                                <MailIcon />
-                            </Badge>
-                        </IconButton>
-                        <IconButton size="large" aria-label="show 17 new notifications" color="inherit">
-                            <Badge badgeContent={17} color="error">
-                                <NotificationsIcon />
-                            </Badge>
-                        </IconButton>
-                        <IconButton
-                            size="large"
-                            edge="end"
-                            aria-label="account of current user"
-                            aria-controls={menuId}
-                            aria-haspopup="true"
-                            onClick={handleProfileMenuOpen}
-                            color="inherit"
-                        >
-                            <AccountCircle />
-                        </IconButton>
+            <div color="transparent" className="navbar">
+                <Toolbar
+                    className="tool-bar"
+                    sx={{
+                        justifyContent: { xs: 'space-between', md: 'center' },
+                        maxWidth: { md: '80%', lg: '60%', xs: '100%' },
+                    }}
+                >
+                    <Logo />
+                    <Box sx={{ display: { xs: 'none', md: 'flex', justifyContent: 'space-between' } }}>
+                        {navBarItems.map((navBarItem, i) => (
+                            <NavbarItem
+                                key={navBarItem.id}
+                                toggleMenu={toggleMenu}
+                                index={i}
+                                navBarItem={navBarItem}
+                                type={'laptop'}
+                            />
+                        ))}
                     </Box>
-                    <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+                    <Box sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }} className="mobile-menu-button-container">
                         <IconButton
                             size="large"
                             aria-label="show more"
@@ -300,9 +97,8 @@ export default function PrimarySearchAppBar() {
                         </IconButton>
                     </Box>
                 </Toolbar>
-            </AppBar>
+            </div>
             {renderMobileMenu}
-            {renderMenu}
         </Box>
     );
 }
