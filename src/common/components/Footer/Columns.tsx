@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { HashLink } from 'react-router-hash-link'
-import './Columns.css'
+import './Columns.scss'
 
 
 function Columns({ column }: any) {
