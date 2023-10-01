@@ -2,16 +2,17 @@ import { CssBaseline } from '@mui/material';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import { store } from '../../../store';
-import { Layout } from '../Layout/Layout';
+import { MainLayout } from '../MainLayout/MainLayout';
 import { Routes } from '../Routes/Routes';
 
 export const App = (): JSX.Element => (
     <Provider store={store}>
+        {/* Normalize the display (CSS) in browsers */}
         <CssBaseline />
         <BrowserRouter>
-            <Layout>
+            <MainLayout>
                 <Routes />
-            </Layout>
+            </MainLayout>
         </BrowserRouter>
     </Provider>
 );

@@ -1,5 +1,4 @@
 import Dexie from 'dexie';
-// eslint-disable-next-line import/no-cycle
 import { Counter, ICounter } from './counter/Counter';
 
 class Database extends Dexie {

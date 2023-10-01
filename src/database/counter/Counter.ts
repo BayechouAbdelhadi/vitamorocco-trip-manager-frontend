@@ -1,5 +1,4 @@
 import { PromiseExtended } from 'dexie';
-// eslint-disable-next-line import/no-cycle
 import { db } from '..';
 
 export interface ICounter {
