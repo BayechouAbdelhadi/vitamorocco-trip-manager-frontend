@@ -3,13 +3,15 @@ import ErrorBoundaryRoutes from '../../common/components/ErrorBoundary/ErrorBoun
 import { lazyComponent } from '../../common/utils';
 const Activity = lazyComponent('Activity', import('./Activity'));
 const Activities = lazyComponent('Activities', import('./Activities'));
+const PageNotFound = lazyComponent('PageNotFound', import('../PageNotFound/PageNotFound'));
 
 const ActivitiesRoutes = () => {
     return (
         <ErrorBoundaryRoutes>
             <Route path="">
-                <Route index path="" element={<Activities />} />
-                <Route path=":id" element={<Activity />} />
+                <Route path="" element={<Activities />} />
+                <Route path=":activityId" element={<Activity />} />
+                <Route element={<PageNotFound />} path="*" />
             </Route>
         </ErrorBoundaryRoutes>
     );
