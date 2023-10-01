@@ -12,7 +12,7 @@
     grid-gap: 30px;
 }
 
-.bottomcontent {
+.bottom-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,24 +20,16 @@
     margin-top: 25px;
 }
 
-.bottomcontent .socialicons {
-    display: flex;
-    margin-top: 20px;
-}
-
-.graytext-container {
-    color: var(--gray-text);
-}
-
-.graytext-container {
+.rights-reserved {
+    color: #696e93;
     a {
         font-size: inherit;
         text-decoration: none;
-    }
-}
 
-.graytext-container a:last-child::before {
-    content: " & ";
+        &:last-child::before{
+            content: " & ";
+        }
+    }
 }
 
 

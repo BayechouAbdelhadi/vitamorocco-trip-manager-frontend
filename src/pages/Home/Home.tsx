@@ -9,7 +9,8 @@ export const Home = (): JSX.Element => {
 
     return (
         <Page description={homeText} keywords={homeText} title={homeText}>
-            Home
+            <p>Home</p>
+            <img src="https://img.freepik.com/photos-premium/image-galaxie-coloree-dans-ciel-ai-generative_791316-9864.jpg?w=2000"/>
         </Page>
     );
 };

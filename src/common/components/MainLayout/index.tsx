@@ -9,16 +9,16 @@ const Footer = lazyComponent('Footer', import('../Footer/Footer'));
 const Header = lazyComponent('Header', import('../Header/Header'));
 
 export const MainLayout = ({ children }: PropsWithChildren<Record<string, unknown>>): JSX.Element => (
-  <LayoutContainer className='main-container'>
+  <div className='main-container'>
     <ErrorBoundarySuspense>
       <Header />
     </ErrorBoundarySuspense>
     <ErrorBoundarySuspense>
-      <SocialMediaIcons displayColumn={true}/>
+      <SocialMediaIcons displayColumn float/>
     </ErrorBoundarySuspense>
     <ErrorBoundarySuspense>{children}</ErrorBoundarySuspense>
     <ErrorBoundarySuspense>
       <Footer />
     </ErrorBoundarySuspense>
-  </LayoutContainer>
+  </div>
 );

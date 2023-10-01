@@ -2,6 +2,8 @@ import { PropsWithChildren, ReactNode } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { app } from '../../constants';
 import { LayoutContainer, LayoutContainerProps } from '../LayoutContainer/LayoutContainer';
+import SocialMediaIcons from '../SocialMediaIcons';
+import './Page.scss';
 
 interface PageProps extends LayoutContainerProps {
   description: string;
@@ -24,8 +26,8 @@ export const Page = ({
       <title>{title}</title>
       {elements}
     </Helmet>
-    <LayoutContainer role="main" Tag="main">
+    <main className='page'>
       {children}
-    </LayoutContainer>
+    </main>
   </HelmetProvider>
 );

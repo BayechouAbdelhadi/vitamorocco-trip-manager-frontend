@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { HashLink } from 'react-router-hash-link'
-import './Columns.scss'
+import './FooterColumn.scss'
+import Logo from '../Logo'
 
 
-function Columns({ column }: any) {
+function FooterColumn({ column }: any) {
+
   const [expanded, setExpanded] = useState(false)
 
-  function determineLink(link: any) {
+  function FooterLink(link: any) {
     // open external link in a new tab
     if (column.blank) {
       return (
@@ -16,7 +18,7 @@ function Columns({ column }: any) {
         </a>
       )
     }
-
+  
     // internal link (belongs to this website)
     return (
       <HashLink smooth to={link.link + '#top'} className='link-container'>
@@ -29,12 +31,12 @@ function Columns({ column }: any) {
   return (
     <div className="col">
       <div className='column-title' onClick={() => setExpanded(!expanded)}>
-        <h3>{column.title}</h3>
+        {column.title ? <h3>{column.title}</h3> : <Logo/>}
         {!column.logo && <i className={`fal fa-arrow-${expanded ? 'right transformed' : 'right'}`}></i>}
       </div>
       <div className={expanded ? "expand expanded" : 'expand'}>
         <div className='columnlinks' > {column.links?.map(
-            (link: any) => determineLink(link)
+            (link: any) => <FooterLink key={link.title} link={link}/>
           )}
         </div>
       </div>
@@ -42,4 +44,4 @@ function Columns({ column }: any) {
   )
 }
 
-export default Columns
+export default FooterColumn
