@@ -18,16 +18,12 @@ export default function PrimarySearchAppBar() {
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState<null | HTMLElement>(null);
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
-    const handleMobileMenuClose = () => {
-        setMobileMoreAnchorEl(null);
+    const toggleMobileMenu = (event: React.MouseEvent<HTMLElement>) => {
+        setMobileMoreAnchorEl(mobileMoreAnchorEl !== null ? null : event.currentTarget);
     };
 
-    const handleMobileMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
-        setMobileMoreAnchorEl(event.currentTarget);
-    };
 
     const toggleMenu = (index: number, el: HTMLElement | null) => {
-        console.log('toggle', index, el);
         setNavBarItems((NavBarItems) =>
             NavBarItems.map((menuItem, i) => (i === index ? { ...menuItem, anchorEl: el } : menuItem))
         );
@@ -44,16 +40,16 @@ export default function PrimarySearchAppBar() {
                 },
             }}
             variant="persistent"
-            anchor="right"
+            anchor="left"
             open={isMobileMenuOpen}
             className="mobile-menu-drawer"
         >
             <div className="drawer-header">
-                <IconButton onClick={handleMobileMenuClose}>
+                <IconButton onClick={toggleMobileMenu}>
                     {<CloseIcon width="30" className="close-drawing-icon" />}
                 </IconButton>
             </div>
-            <Divider />
+            <Divider sx={{width: "100%"}} />
             <List>
                 {navBarItems.map((navBarItem) => (
                     <MobileNavbarItem navBarItem={navBarItem} key={navBarItem.id} />
@@ -90,7 +86,7 @@ export default function PrimarySearchAppBar() {
                             aria-label="show more"
                             aria-controls={mobileMenuId}
                             aria-haspopup="true"
-                            onClick={handleMobileMenuOpen}
+                            onClick={toggleMobileMenu}
                             color="inherit"
                         >
                             <MenuIcon />

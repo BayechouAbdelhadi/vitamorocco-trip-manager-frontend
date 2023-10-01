@@ -27,7 +27,7 @@
     }
     .drawer-header {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         max-height: 50px !important;
         color: $text-color-on-primary;

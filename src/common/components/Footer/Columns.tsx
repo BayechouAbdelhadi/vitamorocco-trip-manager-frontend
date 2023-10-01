@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { HashLink } from 'react-router-hash-link'
 import './Columns.css'
 
+
 function Columns({ column }: any) {
   const [expanded, setExpanded] = useState(false)
 

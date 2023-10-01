@@ -1,5 +1,5 @@
 import { app } from '../../constants';
- import { LayoutContainer } from '../LayoutContainer/LayoutContainer';
+import { LayoutContainer } from '../LayoutContainer/LayoutContainer';
 
 // export const Footer = (): JSX.Element => (
 //   <LayoutContainer role="contentinfo" Tag="footer">
@@ -9,8 +9,9 @@ import { app } from '../../constants';
 // );
 
 
+import { Link } from'react-router-dom';
 import Columns from './Columns'
-import './Footer.css'
+import './Footer.scss'
 import { contactboxes, services } from '../../constants'
 import SocialMediaIcons from '../SocialMediaIcons';
 
@@ -18,9 +19,9 @@ export const Footer = (): JSX.Element => {
 
   const columns = [
     {
-      title: <img 
+      title: <img
         src="https://vitamarruecos.com/wp-content/uploads/2023/07/logo-horiz-morocc-800.png" width="200" height="70"
-        style={{objectFit: "contain", backgroundColor: "black"}}
+        style={{ objectFit: "contain", backgroundColor: "black" }}
       />,
       logo: true
     },
@@ -84,12 +85,12 @@ export const Footer = (): JSX.Element => {
       </div>
       <div className="bottomcontent">
         <div className="rightsreserved">
-          <small className='graytext'>
-            All Rights Reserved &#xA9; {new Date().getFullYear()} <strong>{app.name}</strong>,
-            Made by {app.developers.join(" - ")}
+          <small className='graytext-container'>
+            All Rights Reserved &#xA9; {new Date().getFullYear()} <Link to="/"><strong>{app.name}</strong></Link>,
+            Made by {app.developers.map(developer => <a key={developer.fullName} target="__blank" href={developer.linkedInLink}><strong>{developer.fullName}</strong></a>)}
           </small>
         </div>
-        <SocialMediaIcons/>
+        <SocialMediaIcons />
       </div>
     </footer>
   )

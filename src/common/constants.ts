@@ -1,14 +1,23 @@
 export const app = {
   name: 'Vita Morocco',
-  developers: ['BAYECHOU Abdelhadi', 'JARIDI Mustapha']
+  developers: [
+    {
+      fullName: 'BAYECHOU Abdelhadi',
+      linkedInLink: 'https://linkedin.com/in/abdelhadi-bayechou'
+    }
+    , {
+      fullName: 'JARIDI Mustapha',
+      linkedInLink: 'https://linkedin.com/in/mustapha-jaridi'
+    }
+  ]
 };
 
 export const socialicons = [
-  {text: 'Twitter', icon: 'fab fa-twitter', link: 'https://www.twitter.com/'},
-  {text: 'Facebook', icon: 'fab fa-facebook', link: 'https://www.facebook.com'},
-  {text: 'Instagram', icon: 'fab fa-instagram', link: 'https://www.instagram.com/'},
-  {text: 'Pinterest', icon: 'fab fa-pinterest', link: 'https://www.pinterest.com/'},
-  {text: 'YouTube', icon: 'fab fa-youtube', link: 'https://www.youtube.com/'},
+  { text: 'Twitter', icon: 'fab fa-twitter', link: 'https://www.twitter.com/' },
+  { text: 'Facebook', icon: 'fab fa-facebook', link: 'https://www.facebook.com' },
+  { text: 'Instagram', icon: 'fab fa-instagram', link: 'https://www.instagram.com/' },
+  { text: 'Pinterest', icon: 'fab fa-pinterest', link: 'https://www.pinterest.com/' },
+  { text: 'YouTube', icon: 'fab fa-youtube', link: 'https://www.youtube.com/' },
 ]
 
 export const contactboxes = [
@@ -56,7 +65,7 @@ export const services = [
     title: 'Responsive',
     icon: 'fad fa-mobile-android',
     link: '/services'
-  }, 
+  },
   {
     text: 'Designs made with you in mind! ',
     title: 'Stunning Design',

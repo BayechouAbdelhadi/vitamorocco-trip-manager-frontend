@@ -27,6 +27,21 @@
     /* background-color: blueviolet; */
 }
 
+.graytext-container {
+    color: var(--gray-text);
+}
+
+.graytext-container {
+    a {
+        font-size: inherit;
+        text-decoration: none;
+    }
+}
+
+.graytext-container a:last-child::before {
+    content: " & ";
+}
+
 @media (max-width: 1130px) {
     .footer {
         padding: 20px 90px
