@@ -1,13 +1,30 @@
-import { Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
-import './Logo.css';
-function Logo() {
+import './Logo.scss';
+import { Box } from '@mui/material';
+
+interface LogoProps {
+    shrinkable?: boolean;
+}
+
+function Logo({shrinkable = false}: LogoProps) {
     return (
-        <Link className="logo" to="">
-            <img src="https://i.imgur.com/QQ8FTjR.png" alt="" />
-            <Typography variant="h6" noWrap component="div">
-                Vita Morocco
-            </Typography>
+        <Link className="logo" to="/">
+            <Box component="img" src="./logo-vita-morocco.svg" alt="logo" sx={{
+
+                display:  shrinkable ? {
+                    xs: 'none',
+                    md: 'block',
+                } : 'block',
+            }} />
+
+            <Box component="img" src="./mini-logo-vita-morocco.svg" alt="logo" sx={{
+                display: shrinkable ? {
+                    xs: 'block',
+                    md: 'none',
+                } : 'none',
+            }} />
+        
+
         </Link>
     );
 }

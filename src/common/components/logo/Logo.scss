@@ -1,0 +1,15 @@
+@import '../../../assets/scss/theme';
+
+
+.logo {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 200px;
+        height: 70px;
+        object-fit: contain;
+    }
+}

@@ -14,15 +14,13 @@ import Columns from './Columns'
 import './Footer.scss'
 import { contactboxes, services } from '../../constants'
 import SocialMediaIcons from '../SocialMediaIcons';
+import Logo from '../logo/Logo';
 
 export const Footer = (): JSX.Element => {
 
   const columns = [
     {
-      title: <img
-        src="https://vitamarruecos.com/wp-content/uploads/2023/07/logo-horiz-morocc-800.png" width="200" height="70"
-        style={{ objectFit: "contain", backgroundColor: "black" }}
-      />,
+      title: <Logo/>,
       logo: true
     },
     {

@@ -68,7 +68,7 @@ export default function PrimarySearchAppBar() {
                         maxWidth: { md: '80%', lg: '60%', xs: '100%' },
                     }}
                 >
-                    <Logo />
+                    <Logo shrinkable />
                     <Box sx={{ display: { xs: 'none', md: 'flex', justifyContent: 'space-between' } }}>
                         {navBarItems.map((navBarItem, i) => (
                             <NavbarItem
