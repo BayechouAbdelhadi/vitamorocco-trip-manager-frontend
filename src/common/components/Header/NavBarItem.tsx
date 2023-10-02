@@ -19,20 +19,20 @@ const NavbarItem = ({ navBarItem, index, type, toggleMenu }: NavBarItemProps) =>
 
     return (
         <div>
-            <Link to={navBarItem.href}>
-                <Button
-                    size="large"
-                    aria-label="show more"
-                    aria-owns={hasDropdown ? `${navBarItem.id}-${type}` : undefined}
-                    aria-haspopup="true"
-                    onMouseOver={(e) => toggleMenu(index, e.currentTarget)}
-                    onClick={hasDropdown ? (e) => toggleMenu(index, e.currentTarget) : undefined}
-                    color="inherit"
-                    endIcon={hasDropdown ? <KeyboardArrowDownIcon /> : undefined}
-                >
-                    {navBarItem.text}
-                </Button>
-            </Link>
+            <Button
+                size="large"
+                aria-label="show more"
+                aria-owns={hasDropdown ? `${navBarItem.id}-${type}` : undefined}
+                aria-haspopup="true"
+                onMouseOver={(e) => toggleMenu(index, e.currentTarget)}
+                onClick={hasDropdown ? (e) => toggleMenu(index, e.currentTarget) : undefined}
+                color="inherit"
+                endIcon={hasDropdown ? <KeyboardArrowDownIcon /> : undefined}
+                component={Link}
+                to={navBarItem.href}
+            >
+                {navBarItem.text}
+            </Button>
             {hasDropdown && (
                 <Menu
                     anchorEl={navBarItem.anchorEl}
@@ -50,9 +50,14 @@ const NavbarItem = ({ navBarItem, index, type, toggleMenu }: NavBarItemProps) =>
                     sx={{ width: '240px' }}
                 >
                     {navBarItem.dropdown.map((menuItem) => (
-                        <Link to={menuItem.href} key={`${menuItem.id}-${type}`}>
-                            <MenuItem sx={{ width: '240px' }}>{menuItem.text}</MenuItem>
-                        </Link>
+                        <MenuItem
+                            sx={{ width: '240px' }}
+                            component={Link}
+                            to={menuItem.href}
+                            key={`${menuItem.id}-${type}`}
+                        >
+                            {menuItem.text}
+                        </MenuItem>
                     ))}
                 </Menu>
             )}
