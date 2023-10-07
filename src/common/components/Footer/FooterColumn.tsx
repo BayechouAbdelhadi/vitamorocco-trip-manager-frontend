@@ -1,7 +1,7 @@
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import Logo from '../Logo';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import Logo from '../logo';
 import './FooterColumn.scss';
 
 interface FooterColumnProps {
@@ -32,7 +32,7 @@ function FooterLink({ title, link, is_blank_target: isBlankTarget = false }: Foo
     );
 }
 
-function FooterColumn({ title, is_logo: isLogo = false, links = []}: FooterColumnProps) {
+function FooterColumn({ title, is_logo: isLogo = false, links = [] }: FooterColumnProps) {
     const [expanded, setExpanded] = useState(false);
 
     return (
