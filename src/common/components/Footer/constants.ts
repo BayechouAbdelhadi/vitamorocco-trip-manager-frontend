@@ -1,76 +1,63 @@
 const CONTACT_BOXES = [
   {
-    title: 'Call Me',
-    text: '(+212) 634234556',
+    title: '(+212) 634234556',
     link: 'tel:212634234556',
-    icon: 'fad fa-phone',
   },
   {
-    title: 'Email Me',
-    text: 'vitamorocco@gmail.com',
+    title: 'vitamorocco@gmail.com',
     link: 'mailto:vitamorocco@gmail.com',
-    icon: 'fad fa-envelope'
   },
   {
-    title: 'Visit Me',
-    text: '48 bis Rue des fleurs, 62100 Calais',
+    title: '48 bis Rue des fleurs, 62100 Calais',
     link: 'https://www.google.com/maps',
-    icon: 'fad fa-map-marker-alt'
+    is_blank_target: true
   }
 ]
 
 const SERVICES = [
   {
-    text: 'Powerful, simple and modern websites!',
     title: 'Web Design',
-    icon: 'fad fa-browser',
+    description: 'Powerful, simple and modern websites!',
     link: '/services'
   },
   {
-    text: 'Websites are made with   love and creativity!',
     title: 'Creativity',
-    icon: 'fad fa-pencil-paintbrush',
+    description: 'Websites are made with   love and creativity!',
     link: '/services'
   },
   {
-    text: 'Modern and stylistic designs to your website!',
     title: 'Modern',
-    icon: 'fad fa-sparkles',
+    description: 'Modern and stylistic designs to your website!',
     link: '/services'
   },
   {
-    text: 'User and device friendly websites!',
     title: 'Responsive',
-    icon: 'fad fa-mobile-android',
+    description: 'User and device friendly websites!',
     link: '/services'
   },
   {
-    text: 'Designs made with you in mind! ',
     title: 'Stunning Design',
-    icon: 'fad fa-layer-group',
+    description: 'Designs made with you in mind! ',
     link: '/services'
   },
   {
-    text: 'Clear, neat and organized code!',
     title: 'Organization',
-    icon: 'fad fa-broom',
+    description: 'Clear, neat and organized code!',
     link: '/services'
   },
   {
     title: 'More!',
-    icon: 'fad fa-th',
     link: '/services'
   }
 ]
 
 export const FOOTER_LINKS = [
     {
-      logo: true,
+      is_logo: true,
     },
     {
       title: 'Features',
       links: SERVICES,
-      isLinkTitle: true
     },
     {
       title: 'Contact Me',
@@ -80,35 +67,31 @@ export const FOOTER_LINKS = [
       title: 'Portfolio',
       links: [
         {
-          text: 'Github',
-          icon: 'fab fa-github',
-          link: 'https://github.com/'
+          title: 'Github',
+          link: 'https://github.com/',
+          is_blank_target: true
         },
         {
-          text: 'Dribbble',
-          icon: 'fab fa-dribbble',
-          link: 'https://dribbble.com/'
+          title: 'Dribbble',
+          link: 'https://dribbble.com/',
+          is_blank_target: true
         }
       ],
-      blank: true
     },
     {
       title: 'Policies',
       links: [
         {
-          text: 'Privacy Policy',
+          title: 'Privacy Policy',
           link: '/website/privacy',
-          icon: 'fad fa-shield'
         },
         {
-          text: 'Terms and Conditions',
+          title: 'Terms and Conditions',
           link: '/website/terms',
-          icon: 'fad fa-file'
         },
         {
-          text: 'Learn More',
+          title: 'Learn More',
           link: '/website/about',
-          icon: 'fad fa-info-circle'
         }
       ]
     }
