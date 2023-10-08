@@ -1,6 +1,6 @@
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Divider, Drawer, List } from '@mui/material';
+import { Drawer, List } from '@mui/material';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
@@ -38,10 +38,9 @@ export default function PrimarySearchAppBar() {
         >
             <div className="drawer-header">
                 <IconButton onClick={toggleMobileMenu}>
-                    {<CloseIcon width="30" className="close-drawing-icon" />}
+                    {<CloseIcon width="30" className="close-drawing-icon" color="primary"/>}
                 </IconButton>
             </div>
-            <Divider sx={{ width: '100%' }} />
             <List>
                 {NAVBAR_ITEMS.map((navBarItem) => (
                     <MobileNavbarItem navBarItem={navBarItem} key={navBarItem.id} />

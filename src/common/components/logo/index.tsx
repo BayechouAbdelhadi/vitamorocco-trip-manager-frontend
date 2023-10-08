@@ -34,6 +34,12 @@ function Logo({ shrinkable = false }: LogoProps) {
                               md: 'none',
                           }
                         : 'none',
+                    width: shrinkable
+                        ? {
+                              xs: 100,
+                              md: 200,
+                          }
+                        : 200,
                 }}
             />
         </Link>
