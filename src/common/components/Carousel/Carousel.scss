@@ -1,0 +1,14 @@
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: calc(100vw * 9 / 16);
+
+    img {
+        height: 100%;
+        width: 100vw;
+        // height: calc(100vh * 9 / 16);
+        object-fit: contain;
+    }
+}
