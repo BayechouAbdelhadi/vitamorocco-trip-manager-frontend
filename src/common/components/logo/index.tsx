@@ -20,6 +20,7 @@ function Logo({ shrinkable = false }: LogoProps) {
                               md: 'block',
                           }
                         : 'block',
+                    width: 200,
                 }}
             />
 
@@ -34,12 +35,7 @@ function Logo({ shrinkable = false }: LogoProps) {
                               md: 'none',
                           }
                         : 'none',
-                    width: shrinkable
-                        ? {
-                              xs: 100,
-                              md: 200,
-                          }
-                        : 200,
+                    width: 80,
                 }}
             />
         </Link>
