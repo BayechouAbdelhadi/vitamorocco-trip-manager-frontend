@@ -1,7 +1,7 @@
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import Logo from '../logo';
+import ExpandIcon from '@mui/icons-material/ExpandMore';
+import Logo from '../Logo';
 import './FooterColumn.scss';
 
 interface FooterColumnProps {
@@ -39,7 +39,7 @@ function FooterColumn({ title, is_logo: isLogo = false, links = [] }: FooterColu
         <div>
             <div className="column-title" onClick={() => setExpanded(!expanded)}>
                 {title ? <h3>{title}</h3> : <Logo />}
-                {!isLogo && <ArrowForwardIcon className={`arrow-icon ${expanded ? 'transformed' : ''}`} />}
+                {!isLogo && <ExpandIcon className={`arrow-icon ${expanded ? 'transformed' : ''}`} />}
             </div>
             <div className={expanded ? 'expand expanded' : 'expand'}>
                 <div className="column-links">
