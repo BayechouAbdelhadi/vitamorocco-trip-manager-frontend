@@ -5,16 +5,15 @@ import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import { useState } from 'react';
+import Logo from '../logo';
 import MobileNavbarItem from './MobileNavbarItem';
 import NavbarItem from './NavBarItem';
 import './Navbar.scss';
-import { NAVBAR_ITEMS, NavItem } from './constants';
-import Logo from '../logo';
+import { NAVBAR_ITEMS } from './constants';
 
 const drawerWidth = 300;
 
 export default function PrimarySearchAppBar() {
-    const [navBarItems, setNavBarItems] = useState<NavItem[]>(NAVBAR_ITEMS);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState<null | HTMLElement>(null);
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
@@ -22,13 +21,6 @@ export default function PrimarySearchAppBar() {
         setMobileMoreAnchorEl(mobileMoreAnchorEl !== null ? null : event.currentTarget);
     };
 
-    const toggleMenu = (index: number, el: HTMLElement | null) => {
-        if (navBarItems[index].anchorEl !== el) {
-            setNavBarItems((NavBarItems) =>
-                NavBarItems.map((menuItem, i) => (i === index ? { ...menuItem, anchorEl: el } : menuItem))
-            );
-        }
-    };
     const mobileMenuId = 'primary-search-account-menu-mobile';
     const renderMobileMenu = (
         <Drawer
@@ -51,7 +43,7 @@ export default function PrimarySearchAppBar() {
             </div>
             <Divider sx={{ width: '100%' }} />
             <List>
-                {navBarItems.map((navBarItem) => (
+                {NAVBAR_ITEMS.map((navBarItem) => (
                     <MobileNavbarItem navBarItem={navBarItem} key={navBarItem.id} />
                 ))}
             </List>
@@ -70,14 +62,8 @@ export default function PrimarySearchAppBar() {
                 >
                     <Logo shrinkable />
                     <Box sx={{ display: { xs: 'none', md: 'flex', justifyContent: 'space-between' } }}>
-                        {navBarItems.map((navBarItem, i) => (
-                            <NavbarItem
-                                key={navBarItem.id}
-                                toggleMenu={toggleMenu}
-                                index={i}
-                                navBarItem={navBarItem}
-                                type={'laptop'}
-                            />
+                        {NAVBAR_ITEMS.map((navBarItem) => (
+                            <NavbarItem key={navBarItem.id} navBarItem={navBarItem} type={'laptop'} />
                         ))}
                     </Box>
                     <Box

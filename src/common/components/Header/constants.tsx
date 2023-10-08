@@ -12,7 +12,6 @@ export interface NavItem {
     href: string;
     text: string;
     dropdown: NavItem[];
-    anchorEl: HTMLElement | null;
     icon?: JSX.Element;
 }
 
@@ -22,7 +21,7 @@ export const NAVBAR_ITEMS: NavItem[] = [
         href: '/',
         dropdown: [],
         id: 'home',
-        anchorEl: null,
+
         icon: <HomeIcon />,
     },
     {
@@ -34,25 +33,22 @@ export const NAVBAR_ITEMS: NavItem[] = [
                 href: '/services/gallery',
                 dropdown: [],
                 id: 'services-gallery',
-                anchorEl: null,
             },
             {
                 text: 'FAQs',
                 href: '/services/faqs',
                 dropdown: [],
                 id: 'services-faqs',
-                anchorEl: null,
             },
             {
                 text: 'Tips',
                 href: '/services/tips',
                 dropdown: [],
                 id: '/services-tips',
-                anchorEl: null,
             },
         ],
         id: 'services',
-        anchorEl: null,
+
         icon: <ServiceIcon />,
     },
     {
@@ -62,7 +58,7 @@ export const NAVBAR_ITEMS: NavItem[] = [
             //FromDB
         ],
         id: 'excursions',
-        anchorEl: null,
+
         icon: <EventAvailableIcon />,
     },
     {
@@ -72,7 +68,7 @@ export const NAVBAR_ITEMS: NavItem[] = [
             //FromDB
         ],
         id: 'tours',
-        anchorEl: null,
+
         icon: <CabinIcon />,
     },
     {
@@ -82,7 +78,7 @@ export const NAVBAR_ITEMS: NavItem[] = [
             //FromDB
         ],
         id: 'activities',
-        anchorEl: null,
+
         icon: <RowingIcon />,
     },
     {
@@ -90,7 +86,7 @@ export const NAVBAR_ITEMS: NavItem[] = [
         href: '/about',
         dropdown: [],
         id: 'about',
-        anchorEl: null,
+
         icon: <InfoIcon />,
     },
     {
@@ -100,7 +96,7 @@ export const NAVBAR_ITEMS: NavItem[] = [
             //FromDB
         ],
         id: 'contact',
-        anchorEl: null,
+
         icon: <ContactPageIcon />,
     },
 ];
