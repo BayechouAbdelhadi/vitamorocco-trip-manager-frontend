@@ -5,8 +5,8 @@ import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import { useState } from 'react';
+import Logo from '../Logo';
 import LanguagePicker from '../lang';
-import Logo from '../logo';
 import MobileNavbarItem from './MobileNavbarItem';
 import NavbarItem from './NavBarItem';
 import './Navbar.scss';
@@ -39,12 +39,16 @@ export default function PrimarySearchAppBar() {
         >
             <div className="drawer-header">
                 <IconButton onClick={toggleMobileMenu}>
-                    {<CloseIcon width="30" className="close-drawing-icon" color="primary"/>}
+                    {<CloseIcon width="30" className="close-drawing-icon" color="primary" />}
                 </IconButton>
             </div>
             <List>
                 {NAVBAR_ITEMS.map((navBarItem) => (
-                    <MobileNavbarItem navBarItem={navBarItem} key={navBarItem.id} />
+                    <MobileNavbarItem
+                        navBarItem={navBarItem}
+                        key={navBarItem.id}
+                        onSelect={() => setMobileMoreAnchorEl(null)}
+                    />
                 ))}
             </List>
         </Drawer>

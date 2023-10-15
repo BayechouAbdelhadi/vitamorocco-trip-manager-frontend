@@ -7,10 +7,12 @@ import { NavItem } from './constants';
 
 interface NavBarItemProps {
     navBarItem: NavItem;
+    onSelect: () => void;
 }
-const MobileNavbarItem = ({ navBarItem }: NavBarItemProps) => {
+const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
     const hasDropdown = navBarItem.dropdown.length > 0;
     const [expanded, setExpanded] = useState<boolean>(false);
+
     const toggleExp = () => {
         setExpanded(!expanded);
     };
@@ -20,7 +22,12 @@ const MobileNavbarItem = ({ navBarItem }: NavBarItemProps) => {
             <ListItem className="mobile-nav-bar-item" disablePadding>
                 {hasDropdown ? (
                     <>
-                        <ListItemButton className="mobile-nav-bar-button" component={Link} to={navBarItem.href}>
+                        <ListItemButton
+                            className="mobile-nav-bar-button"
+                            component={Link}
+                            to={navBarItem.href}
+                            onClick={onSelect}
+                        >
                             {navBarItem.icon}
                             <Typography className="mobile-nav-bar-button-text">{navBarItem.text}</Typography>
                         </ListItemButton>
@@ -29,7 +36,12 @@ const MobileNavbarItem = ({ navBarItem }: NavBarItemProps) => {
                         </IconButton>
                     </>
                 ) : (
-                    <ListItemButton className="mobile-nav-bar-button" component={Link} to={navBarItem.href}>
+                    <ListItemButton
+                        className="mobile-nav-bar-button"
+                        component={Link}
+                        to={navBarItem.href}
+                        onClick={onSelect}
+                    >
                         {navBarItem.icon}
                         <Typography className="mobile-nav-bar-button-text">{navBarItem.text}</Typography>
                     </ListItemButton>
@@ -43,6 +55,7 @@ const MobileNavbarItem = ({ navBarItem }: NavBarItemProps) => {
                             key={dropDownItem.id}
                             component={Link}
                             to={dropDownItem.href}
+                            onClick={onSelect}
                         >
                             {dropDownItem.icon}
                             <Typography className="mobile-nav-bar-button-text">{dropDownItem.text}</Typography>
