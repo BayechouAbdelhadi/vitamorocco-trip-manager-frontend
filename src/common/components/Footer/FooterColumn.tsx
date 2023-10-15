@@ -1,7 +1,7 @@
 import ExpandIcon from '@mui/icons-material/ExpandMore';
 import { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import Logo from '../logo';
+import Logo from '../Logo';
 import './FooterColumn.scss';
 
 interface FooterColumnProps {
