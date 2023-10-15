@@ -1,4 +1,26 @@
 .page {
     // height: 2000px;
     overflow-x: hidden;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        flex-shrink: 0; // Prevent the title from growing
+    }
+
+    .content {
+        flex-grow: 1; // Allow the content to grow and take up the remaining space
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
 }

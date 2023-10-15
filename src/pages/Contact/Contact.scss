@@ -1,0 +1,65 @@
+/* ContactForm.scss */
+.contact-page {
+    .contact-form-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .contact-us-img {
+            width: 45%;
+            min-width: 400px;
+            margin: 0 auto; /* Center the image horizontally */
+
+            @media (max-width: 768px) {
+                width: 100%; /* Full width on smaller screens */
+                min-width: auto; /* Remove the minimum width */
+            }
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 50%;
+            margin: 0 auto;
+
+            @media (max-width: 768px) {
+                max-width: 100%; /* Full width on smaller screens */
+            }
+
+            .name-fields {
+                display: flex;
+                gap: 10px;
+            }
+
+            .form-field {
+                margin: 10px 0;
+
+                .MuiTextField-root {
+                    width: 100%;
+                }
+            }
+
+            .contact-message {
+                text-align: center;
+            }
+        }
+
+        .submit-button {
+            margin-top: 20px;
+        }
+    }
+
+    .map {
+        width: 100%;
+        height: 500px;
+        border: 0;
+        filter: grayscale(90%); /* Apply a grayscale filter by default */
+        transition: filter 0.3s ease; /* Add a smooth transition effect */
+
+        &:hover,
+        &:active {
+            filter: grayscale(0%); /* Remove the grayscale filter on hover or touch */
+        }
+    }
+}
