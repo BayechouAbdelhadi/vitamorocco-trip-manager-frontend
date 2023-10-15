@@ -1,11 +1,15 @@
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next'; // Import the useTranslation hook
 import { Page } from '../../common/components/Page/Page';
 import './Contact.scss';
-const ContactText = 'Contact';
+
+const ContactText = 'contact.title';
 
 export const Contact = (): JSX.Element => {
+    const { t } = useTranslation(); // 'contact' should match the namespace in your i18n configuration
+
     const [formData, setFormData] = useState({
         firstname: '',
         lastname: '',
@@ -34,14 +38,14 @@ export const Contact = (): JSX.Element => {
     };
 
     return (
-        <Page description={ContactText} keywords={ContactText} title={ContactText} className="contact-page">
+        <Page description={t(ContactText)} keywords={t(ContactText)} title={t(ContactText)} className="contact-page">
             <div className="contact-form-container">
                 <img src="/contact-us.svg" alt="contact-us" className="contact-us-img" />
                 <form onSubmit={handleSubmit} className="contact-form">
-                    <div className="contact-message">Please fill out the form to contact us.</div>
+                    <div className="contact-message">{t('contact.message')}</div>
                     <div className="name-fields">
                         <TextField
-                            label="First Name"
+                            label={t('firstName')}
                             variant="outlined"
                             fullWidth
                             value={firstname}
@@ -50,9 +54,8 @@ export const Contact = (): JSX.Element => {
                             name="firstname"
                             className="form-field"
                         />
-
                         <TextField
-                            label="Last Name"
+                            label={t('lastName')}
                             variant="outlined"
                             fullWidth
                             value={lastname}
@@ -62,9 +65,8 @@ export const Contact = (): JSX.Element => {
                             className="form-field"
                         />
                     </div>
-
                     <TextField
-                        label="Email"
+                        label={t('email')}
                         variant="outlined"
                         fullWidth
                         value={email}
@@ -73,9 +75,8 @@ export const Contact = (): JSX.Element => {
                         name="email"
                         className="form-field"
                     />
-
                     <TextField
-                        label="Message"
+                        label={t('message')}
                         variant="outlined"
                         fullWidth
                         multiline
@@ -86,9 +87,8 @@ export const Contact = (): JSX.Element => {
                         name="message"
                         className="form-field"
                     />
-
                     <Button type="submit" variant="contained" color="primary">
-                        Submit
+                        {t('submit')}
                     </Button>
                 </form>
             </div>
