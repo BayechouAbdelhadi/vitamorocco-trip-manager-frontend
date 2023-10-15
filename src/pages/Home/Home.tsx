@@ -4,7 +4,6 @@ import { Page } from '../../common/components/Page/Page';
 // import { useCounter } from '../../database/counter';
 // import { useCounter as useCounterRedux } from '../../store/front/counter';
 
-
 const IMAGES = [
     {
         id: '444',
@@ -29,7 +28,6 @@ const IMAGES = [
     },
 ];
 
-
 export const Home = (): JSX.Element => {
     // const { counter, handleDecrementClick, handleIncrementClick } = useCounter();
     // const { counter: c, handleDecrementClick: hDC, handleIncrementClick: hIC } = useCounterRedux();
@@ -39,12 +37,12 @@ export const Home = (): JSX.Element => {
         <Page description={homeText} keywords={homeText} title={homeText}>
             <Box
                 style={{
-                    maxWidth: '1200px',
+                    maxWidth: '2500px',
                     width: '100%',
                     margin: '0 auto',
                 }}
                 sx={{
-                    aspectRatio: { xs: '9/6', md: '9/3' },
+                    aspectRatio: { xs: '9/6', md: '9/3', lg: '9/3' },
                 }}
             >
                 <Carousel images={IMAGES} />
@@ -52,9 +50,6 @@ export const Home = (): JSX.Element => {
                     Link
                 </a>
             </Box>
-            <a href="/" style={{ fontSize: '4rem' }}>
-                Link
-            </a>
         </Page>
     );
 };
