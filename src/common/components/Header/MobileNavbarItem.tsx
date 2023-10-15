@@ -2,6 +2,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { IconButton, ListItem, ListItemButton, Typography } from '@mui/material';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { NavItem } from './constants';
 
 interface NavBarItemProps {
@@ -19,7 +20,7 @@ const MobileNavbarItem = ({ navBarItem }: NavBarItemProps) => {
             <ListItem className="mobile-nav-bar-item" disablePadding>
                 {hasDropdown ? (
                     <>
-                        <ListItemButton className="mobile-nav-bar-button">
+                        <ListItemButton className="mobile-nav-bar-button" component={Link} to={navBarItem.href}>
                             {navBarItem.icon}
                             <Typography className="mobile-nav-bar-button-text">{navBarItem.text}</Typography>
                         </ListItemButton>
@@ -28,7 +29,7 @@ const MobileNavbarItem = ({ navBarItem }: NavBarItemProps) => {
                         </IconButton>
                     </>
                 ) : (
-                    <ListItemButton className="mobile-nav-bar-button">
+                    <ListItemButton className="mobile-nav-bar-button" component={Link} to={navBarItem.href}>
                         {navBarItem.icon}
                         <Typography className="mobile-nav-bar-button-text">{navBarItem.text}</Typography>
                     </ListItemButton>
@@ -37,7 +38,12 @@ const MobileNavbarItem = ({ navBarItem }: NavBarItemProps) => {
             {expanded && (
                 <div className="nav-item-details">
                     {navBarItem.dropdown.map((dropDownItem) => (
-                        <ListItemButton className="mobile-nav-bar-button" key={dropDownItem.id}>
+                        <ListItemButton
+                            className="mobile-nav-bar-button"
+                            key={dropDownItem.id}
+                            component={Link}
+                            to={dropDownItem.href}
+                        >
                             {dropDownItem.icon}
                             <Typography className="mobile-nav-bar-button-text">{dropDownItem.text}</Typography>
                         </ListItemButton>
