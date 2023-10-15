@@ -1,8 +1,7 @@
 import { Page } from '../../common/components/Page/Page';
+const AboutText = 'About';
 
 export const About = (): JSX.Element => {
-    const AboutText = 'About';
-
     return (
         <Page description={AboutText} keywords={AboutText} title={AboutText}>
             About

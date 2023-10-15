@@ -5,11 +5,12 @@ import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import { useState } from 'react';
+import LanguagePicker from '../lang';
+import Logo from '../logo';
 import MobileNavbarItem from './MobileNavbarItem';
 import NavbarItem from './NavBarItem';
 import './Navbar.scss';
 import { NAVBAR_ITEMS } from './constants';
-import Logo from '../logo';
 
 const drawerWidth = 300;
 
@@ -64,6 +65,7 @@ export default function PrimarySearchAppBar() {
                         {NAVBAR_ITEMS.map((navBarItem) => (
                             <NavbarItem key={navBarItem.id} navBarItem={navBarItem} type={'laptop'} />
                         ))}
+                        <LanguagePicker />
                     </Box>
                     <Box
                         sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}
