@@ -39,19 +39,22 @@ export const Home = (): JSX.Element => {
         <Page description={homeText} keywords={homeText} title={homeText}>
             <Box
                 style={{
-                    maxWidth: "1200px",
-                    width: "100%",
-                    margin: "0 auto",
+                    maxWidth: '1200px',
+                    width: '100%',
+                    margin: '0 auto',
                 }}
                 sx={{
-                    aspectRatio: { xs: "9/6", md: "9/3" }
+                    aspectRatio: { xs: '9/6', md: '9/3' },
                 }}
             >
                 <Carousel images={IMAGES} />
-                <a href="/" style={{ fontSize: "4rem" }}>
+                <a href="/" style={{ fontSize: '4rem' }}>
                     Link
                 </a>
             </Box>
+            <a href="/" style={{ fontSize: '4rem' }}>
+                Link
+            </a>
         </Page>
     );
 };

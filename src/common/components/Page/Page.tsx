@@ -17,7 +17,7 @@ export const Page = ({
     elements,
     keywords,
     title,
-    className,
+    className = '',
 }: PropsWithChildren<PageProps>): JSX.Element => (
     <HelmetProvider>
         <Helmet defaultTitle={app.name} titleTemplate={`${app.name} | %s`}>
