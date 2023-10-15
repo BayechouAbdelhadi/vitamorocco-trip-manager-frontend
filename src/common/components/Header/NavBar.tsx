@@ -5,11 +5,11 @@ import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import { useState } from 'react';
-import Logo from '../Logo';
 import MobileNavbarItem from './MobileNavbarItem';
 import NavbarItem from './NavBarItem';
 import './Navbar.scss';
 import { NAVBAR_ITEMS } from './constants';
+import Logo from '../logo';
 
 const drawerWidth = 300;
 
