@@ -9,6 +9,7 @@ interface PageProps extends LayoutContainerProps {
     elements?: ReactNode;
     keywords?: string;
     title: string;
+    displayTitle?: boolean;
 }
 
 export const Page = ({
@@ -18,6 +19,7 @@ export const Page = ({
     keywords,
     title,
     className = '',
+    displayTitle = true,
 }: PropsWithChildren<PageProps>): JSX.Element => (
     <HelmetProvider>
         <Helmet defaultTitle={app.name} titleTemplate={`${app.name} | %s`}>
@@ -27,7 +29,7 @@ export const Page = ({
             {elements}
         </Helmet>
         <main className="page">
-            <h1 className="title">{title}</h1>
+            {displayTitle && <h1 className="title">{title}</h1>}
             <div className={`content ${className}`}>{children}</div>
         </main>
     </HelmetProvider>

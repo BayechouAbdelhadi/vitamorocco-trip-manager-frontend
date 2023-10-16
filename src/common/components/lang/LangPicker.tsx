@@ -3,8 +3,10 @@ import { Button, Menu, MenuItem } from '@mui/material';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AvailableLanguage, languages } from '../../../locales';
-
-const LanguagePicker: React.FC = () => {
+interface LanguagePickerProps {
+    className?: string;
+}
+const LanguagePicker = ({ className = '' }: LanguagePickerProps): JSX.Element => {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
     const [selectedLanguage, setSelectedLanguage] = useState<AvailableLanguage>(AvailableLanguage.EN); // Default language is English
     const { i18n, t } = useTranslation();
@@ -20,7 +22,7 @@ const LanguagePicker: React.FC = () => {
     };
 
     return (
-        <div>
+        <div className={className}>
             <Button startIcon={<LanguageIcon />} onClick={handleLanguageChange}>
                 {languages.find((lang) => lang.key === selectedLanguage)?.flag}
             </Button>

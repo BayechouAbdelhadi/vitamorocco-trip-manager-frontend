@@ -34,7 +34,7 @@ export const Home = (): JSX.Element => {
     const homeText = 'Home';
 
     return (
-        <Page description={homeText} keywords={homeText} title={homeText}>
+        <Page description={homeText} keywords={homeText} title={homeText} displayTitle={false}>
             <Box
                 style={{
                     maxWidth: '2500px',
@@ -46,7 +46,6 @@ export const Home = (): JSX.Element => {
                 }}
             >
                 <Carousel images={IMAGES} />
-
             </Box>
         </Page>
     );
