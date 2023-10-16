@@ -46,9 +46,7 @@ export const Home = (): JSX.Element => {
                 }}
             >
                 <Carousel images={IMAGES} />
-                <a href="/" style={{ fontSize: '4rem' }}>
-                    Link
-                </a>
+
             </Box>
         </Page>
     );

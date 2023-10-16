@@ -2,28 +2,20 @@ import LanguageIcon from '@mui/icons-material/Language';
 import { Button, Menu, MenuItem } from '@mui/material';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-
-type Language = 'fr' | 'es' | 'en' | 'pt';
-
-const languages = [
-    { key: 'fr', name: 'french', flag: '🇫🇷' },
-    { key: 'es', name: 'spanish', flag: '🇪🇸' },
-    { key: 'en', name: 'english', flag: '🇺🇸' },
-    { key: 'pt', name: 'portuguese', flag: '🇵🇹' },
-];
+import { AvailableLanguage, languages } from '../../../locales';
 
 const LanguagePicker: React.FC = () => {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-    const [selectedLanguage, setSelectedLanguage] = useState<Language>('en'); // Default language is English
+    const [selectedLanguage, setSelectedLanguage] = useState<AvailableLanguage>(AvailableLanguage.EN); // Default language is English
     const { i18n, t } = useTranslation();
 
     const handleLanguageChange = (event: React.MouseEvent<HTMLButtonElement>) => {
         setAnchorEl(event.currentTarget);
     };
 
-    const handleClose = (language: string) => {
+    const handleClose = (language: AvailableLanguage) => {
         setAnchorEl(null);
-        setSelectedLanguage(language as Language);
+        setSelectedLanguage(language);
         i18n.changeLanguage(language);
     };
 
