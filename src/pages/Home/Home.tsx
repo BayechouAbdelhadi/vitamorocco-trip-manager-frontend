@@ -35,18 +35,7 @@ export const Home = (): JSX.Element => {
 
     return (
         <Page description={homeText} keywords={homeText} title={homeText} displayTitle={false}>
-            <Box
-                style={{
-                    maxWidth: '2500px',
-                    width: '100%',
-                    margin: '0 auto',
-                }}
-                sx={{
-                    aspectRatio: { xs: '9/6', md: '9/3', lg: '9/3' },
-                }}
-            >
-                <Carousel images={IMAGES} />
-            </Box>
+            <Carousel images={IMAGES} />
         </Page>
     );
 };
