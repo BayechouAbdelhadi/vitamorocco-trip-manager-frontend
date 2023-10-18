@@ -9,15 +9,19 @@ import "./Carousel.scss"
 type ImageSliderProps = {
     images: {
         id: string
-        name: string
+        title: string
         description: string
         url: string
         alt: string
-    }[]
+    }[],
+    maxWidth?: string
+    height?: string
+    slideInterval?: number
 }
 
-export default function Carousel({ images }: ImageSliderProps) {
+export default function Carousel({ images, slideInterval = 4000, maxWidth = '1600px', height = '100%' }: ImageSliderProps) {
     const [imageIndex, setImageIndex] = useState(0)
+    const [isHovered, setIsHovered] = useState(false);
 
     function showNextImage() {
         setImageIndex(index => {
@@ -34,36 +38,34 @@ export default function Carousel({ images }: ImageSliderProps) {
     }
 
     useEffect(() => {
-        const autoplayInterval = setInterval(showNextImage, 4000); // Changer d'image toutes les 4 secondes
+        const autoplayInterval = setInterval(() => {
+            if (!isHovered) {
+                showNextImage()
+            }
+        }, slideInterval); // Change image every `slideInterval` seconds
 
         return () => {
             clearInterval(autoplayInterval);
         };
-    }, []);
+    }, [isHovered]);
 
     return (
         <Box
-            style={{
-                maxWidth: '1600px',
+            sx={{
+                height: height,
+                maxWidth: maxWidth,
                 width: '100%',
                 margin: '0 auto',
-            }}
-            sx={{
                 aspectRatio: { xs: '9/6', md: '9/3', lg: '9/3' },
             }}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
         >
             <section
                 aria-label="Image Slider"
                 style={{ width: "100%", height: "100%", position: "relative" }}
             >
-                <div
-                    style={{
-                        width: "100%",
-                        height: "100%",
-                        display: "flex",
-                        overflow: "hidden",
-                    }}
-                >
+                <div className="img-slider-img-container">
                     {images.map(({ url, alt }, index) => (
                         <img
                             key={url}
