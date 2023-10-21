@@ -1,4 +1,3 @@
-import { Box, SvgIcon } from '@mui/material';
 import Carousel from '../../common/components/Carousel';
 import { Page } from '../../common/components/Page/Page';
 // import { useCounter } from '../../database/counter';

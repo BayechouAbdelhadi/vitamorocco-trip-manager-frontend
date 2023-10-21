@@ -47,22 +47,20 @@ const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
                     </ListItemButton>
                 )}
             </ListItem>
-            {expanded && (
-                <div className="nav-item-details">
-                    {navBarItem.dropdown.map((dropDownItem) => (
-                        <ListItemButton
-                            className="mobile-nav-bar-button"
-                            key={dropDownItem.id}
-                            component={Link}
-                            to={dropDownItem.href}
-                            onClick={onSelect}
-                        >
-                            {dropDownItem.icon}
-                            <Typography className="mobile-nav-bar-button-text">{dropDownItem.text}</Typography>
-                        </ListItemButton>
-                    ))}
-                </div>
-            )}
+            <div className={`nav-item-details ${expanded ? 'active' : ''}`}>
+                {navBarItem.dropdown.map((dropDownItem) => (
+                    <ListItemButton
+                        className="mobile-nav-bar-button"
+                        key={dropDownItem.id}
+                        component={Link}
+                        to={dropDownItem.href}
+                        onClick={onSelect}
+                    >
+                        {dropDownItem.icon}
+                        <Typography className="mobile-nav-bar-button-text">{dropDownItem.text}</Typography>
+                    </ListItemButton>
+                ))}
+            </div>
         </>
     );
 };
