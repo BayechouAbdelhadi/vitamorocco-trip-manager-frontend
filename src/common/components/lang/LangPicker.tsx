@@ -3,6 +3,7 @@ import { Button, Menu, MenuItem } from '@mui/material';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AvailableLanguage, languages } from '../../../locales';
+import { FranceFlag } from '../Flags/Flags';
 interface LanguagePickerProps {
     className?: string;
 }
@@ -24,12 +25,12 @@ const LanguagePicker = ({ className = '' }: LanguagePickerProps): JSX.Element =>
     return (
         <div className={className}>
             <Button startIcon={<LanguageIcon />} onClick={handleLanguageChange}>
-                {languages.find((lang) => lang.key === selectedLanguage)?.flag}
+                {languages.find((lang) => lang.key === selectedLanguage)?.flag()}
             </Button>
             <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={() => handleClose(selectedLanguage)}>
                 {languages.map((language) => (
                     <MenuItem key={language.key} onClick={() => handleClose(language.key)}>
-                        {language.flag} {t(language.name)}
+                        {language.flag()} &nbsp; {t(language.name)}
                     </MenuItem>
                 ))}
             </Menu>

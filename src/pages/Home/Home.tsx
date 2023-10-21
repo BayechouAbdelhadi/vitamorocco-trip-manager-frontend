@@ -3,6 +3,7 @@ import { Page } from '../../common/components/Page/Page';
 // import { useCounter } from '../../database/counter';
 // import { useCounter as useCounterRedux } from '../../store/front/counter';
 import { EnglishFlag, FranceFlag, PortugalFlag, SpanishFlag } from '../../common/components/Flags/Flags';
+import { Box } from '@mui/material';
 
 const IMAGES = [
     {
@@ -30,8 +31,6 @@ const IMAGES = [
 
 
 export const Home = (): JSX.Element => {
-    // const { counter, handleDecrementClick, handleIncrementClick } = useCounter();
-    // const { counter: c, handleDecrementClick: hDC, handleIncrementClick: hIC } = useCounterRedux();
     const homeText = 'Home';
 
     return (
