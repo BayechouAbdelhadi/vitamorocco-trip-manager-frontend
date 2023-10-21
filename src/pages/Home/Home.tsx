@@ -35,12 +35,6 @@ export const Home = (): JSX.Element => {
 
     return (
         <Page description={homeText} keywords={homeText} title={homeText} displayTitle={false}>
-            <div style={{ display: 'flex', gap: '2rem', border: "3px solid red", width: "200px", height: "200px" }}>
-                <EnglishFlag />
-                <SpanishFlag />
-                <PortugalFlag />
-                <FranceFlag />
-            </div>
             <Carousel images={IMAGES} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', flexWrap: 'wrap' }}>
                 <Carousel images={IMAGES} slideInterval={3000} maxWidth='600px' height='400px' />
