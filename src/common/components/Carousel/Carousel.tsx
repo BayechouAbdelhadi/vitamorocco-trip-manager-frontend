@@ -4,6 +4,10 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import AdjustIcon from '@mui/icons-material/Adjust';
 import CircleIcon from '@mui/icons-material/Circle';
+
+import { useElementSize } from 'usehooks-ts'
+
+
 import "./Carousel.scss"
 
 type ImageSliderProps = {
@@ -22,6 +26,8 @@ type ImageSliderProps = {
 export default function Carousel({ images, slideInterval = 4000, maxWidth = '1600px', height = '100%' }: ImageSliderProps) {
     const [imageIndex, setImageIndex] = useState(0)
     const [isHovered, setIsHovered] = useState(false);
+
+    const displayControls = images.length > 1
 
     function showNextImage() {
         setImageIndex(index => {
@@ -77,38 +83,43 @@ export default function Carousel({ images, slideInterval = 4000, maxWidth = '160
                         />
                     ))}
                 </div>
-                <button
-                    onClick={showPrevImage}
-                    className="img-slider-btn"
-                    style={{ left: 0 }}
-                    aria-label="View Previous Image"
-                >
-                    <ArrowBackIosNewIcon aria-hidden />
-                </button>
-                <button
-                    onClick={showNextImage}
-                    className="img-slider-btn"
-                    style={{ right: 0 }}
-                    aria-label="View Next Image"
-                >
-                    <ArrowForwardIosIcon aria-hidden />
-                </button>
-                <div className="img-slider-dot-btn-container">
-                    {images.map((_, index) => (
+                {displayControls &&
+                    <>
                         <button
-                            key={index}
-                            className="img-slider-dot-btn"
-                            aria-label={`View Image ${index + 1}`}
-                            onClick={() => setImageIndex(index)}
+                            onClick={showPrevImage}
+                            className="img-slider-btn"
+                            style={{ left: 0 }}
+                            aria-label="View Previous Image"
                         >
-                            {index === imageIndex ? (
-                                <AdjustIcon aria-hidden />
-                            ) : (
-                                <CircleIcon aria-hidden />
-                            )}
+                            <ArrowBackIosNewIcon aria-hidden />
                         </button>
-                    ))}
-                </div>
+                        <button
+                            onClick={showNextImage}
+                            className="img-slider-btn"
+                            style={{ right: 0 }}
+                            aria-label="View Next Image"
+                        >
+                            <ArrowForwardIosIcon aria-hidden />
+                        </button>
+                        <div className="img-slider-dot-btn-container">
+                            {images.map((_, index) => (
+                                <button
+                                    key={index}
+                                    className="img-slider-dot-btn"
+                                    aria-label={`View Image ${index + 1}`}
+                                    onClick={() => setImageIndex(index)}
+                                >
+                                    {index === imageIndex ? (
+                                        <AdjustIcon aria-hidden />
+                                    ) : (
+                                        <CircleIcon aria-hidden />
+                                    )}
+                                </button>
+                            ))}
+                        </div>
+                    </>
+
+                }
             </section>
         </Box>
     )

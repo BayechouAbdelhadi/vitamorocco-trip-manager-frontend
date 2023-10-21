@@ -35,7 +35,7 @@ const PrimarySearchAppBar: React.FC = () => {
                         {NAVBAR_ITEMS.map((navBarItem) => (
                             <NavbarItem key={navBarItem.id} navBarItem={navBarItem} type={'laptop'} />
                         ))}
-                        <LanguagePicker />
+                        <LanguagePicker className='lang-picker' />
                     </Box>
                     <Box
                         sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}

@@ -1,17 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import useScrollDetection from '../../../../hooks/front/useScrollDetection'
 import './ScrollToTopButton.scss'
 
 const ScrollToTopButton: React.FC = () => {
-    const [isVisible, setIsVisible] = useState(false);
-
-    const handleScroll = () => {
-        if (window.scrollY > 100) {
-            setIsVisible(true);
-        } else {
-            setIsVisible(false);
-        }
-    };
+    const isVisible = useScrollDetection(150);
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -19,14 +12,6 @@ const ScrollToTopButton: React.FC = () => {
             behavior: 'smooth',
         });
     };
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
 
     if (!isVisible) return null
