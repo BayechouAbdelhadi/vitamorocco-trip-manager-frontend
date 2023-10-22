@@ -1,12 +1,9 @@
-import CabinIcon from '@mui/icons-material/Cabin';
-import ContactPageIcon from '@mui/icons-material/ContactPage';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import ContactIcon from '@mui/icons-material/Call';
+import GalleryIcon from '@mui/icons-material/Collections';
+import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 import HomeIcon from '@mui/icons-material/Home';
-import { default as ServiceIcon } from '@mui/icons-material/HomeRepairService';
-import RowingIcon from '@mui/icons-material/Rowing';
-
 import InfoIcon from '@mui/icons-material/Info';
-
+import TourIcon from '@mui/icons-material/ShareLocation';
 export interface NavItem {
     id: string;
     href: string;
@@ -24,33 +21,7 @@ export const NAVBAR_ITEMS: NavItem[] = [
 
         icon: <HomeIcon />,
     },
-    {
-        text: 'Services',
-        href: '/services',
-        dropdown: [
-            {
-                text: 'Gallery',
-                href: '/services/gallery',
-                dropdown: [],
-                id: 'services-gallery',
-            },
-            {
-                text: 'FAQs',
-                href: '/services/faqs',
-                dropdown: [],
-                id: 'services-faqs',
-            },
-            {
-                text: 'Tips',
-                href: '/services/tips',
-                dropdown: [],
-                id: '/services-tips',
-            },
-        ],
-        id: 'services',
 
-        icon: <ServiceIcon />,
-    },
     {
         text: 'Excursions',
         href: '/excursions',
@@ -59,7 +30,7 @@ export const NAVBAR_ITEMS: NavItem[] = [
         ],
         id: 'excursions',
 
-        icon: <EventAvailableIcon />,
+        icon: <DirectionsBusIcon />,
     },
     {
         text: 'Tours',
@@ -69,17 +40,51 @@ export const NAVBAR_ITEMS: NavItem[] = [
         ],
         id: 'tours',
 
-        icon: <CabinIcon />,
+        icon: <TourIcon />,
     },
-    {
-        text: 'Activities',
-        href: '/activities',
-        dropdown: [
-            //FromDB
-        ],
-        id: 'activities',
+    // {
+    //     text: 'Activities',
+    //     href: '/activities',
+    //     dropdown: [
+    //         //FromDB
+    //     ],
+    //     id: 'activities',
 
-        icon: <RowingIcon />,
+    //     icon: <RowingIcon />,
+    // },
+    // {
+    //     text: 'Services',
+    //     href: '/services',
+    //     dropdown: [
+    //         {
+    //             text: 'Gallery',
+    //             href: '/services/gallery',
+    //             dropdown: [],
+    //             id: 'services-gallery',
+    //         },
+    //         {
+    //             text: 'FAQs',
+    //             href: '/services/faqs',
+    //             dropdown: [],
+    //             id: 'services-faqs',
+    //         },
+    //         {
+    //             text: 'Tips',
+    //             href: '/services/tips',
+    //             dropdown: [],
+    //             id: '/services-tips',
+    //         },
+    //     ],
+    //     id: 'services',
+
+    //     icon: <ServiceIcon />,
+    // },
+    {
+        text: 'Gallery',
+        href: '/services/gallery',
+        dropdown: [],
+        id: 'services-gallery',
+        icon: <GalleryIcon />,
     },
     {
         text: 'About',
@@ -97,6 +102,6 @@ export const NAVBAR_ITEMS: NavItem[] = [
         ],
         id: 'contact',
 
-        icon: <ContactPageIcon />,
+        icon: <ContactIcon />,
     },
 ];

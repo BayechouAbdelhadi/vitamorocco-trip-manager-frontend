@@ -9,9 +9,8 @@
 
 .tool-bar {
     display: flex;
-    gap: 50px;
+    gap: 15%;
     padding: 5px;
-
     .mobile-menu-button-container {
         button {
             svg {
@@ -59,7 +58,6 @@
         gap: 50px;
         width: 80%;
         padding: 5px;
-
 
         .mobile-nav-bar-button-text {
             text-align: left;
