@@ -28,18 +28,23 @@
 
 }
 
+.whatsapp-icon:hover {
+    color: #fff;
+    background-color: #26b14b;
+}
+
 .facebook-icon:hover {
     color: #fff;
     background-color: #4c69ba;
 }
 
-/* .instagram-icon {
+.instagram-icon {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s;
-} */
+}
 
 .instagram-icon:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -49,7 +54,7 @@
     -webkit-text-fill-color: initial;
 }
 
-.youtube-icon:hover {
+.tiktok-icon:hover {
     color: #fff;
-    background-color: #E60023
+    background-color: #282828
 }
