@@ -39,7 +39,12 @@ function FooterColumn({ title, is_logo: isLogo = false, links = [] }: FooterColu
         <div>
             <div className="column-title" onClick={() => setExpanded(!expanded)}>
                 {title ? <h3>{title}</h3> : <Logo />}
-                {!isLogo && <ExpandIcon className={`arrow-icon ${expanded ? 'transformed' : ''}`} />}
+                {!isLogo &&
+                    <ExpandIcon
+                        className={`arrow-icon ${expanded ? 'transformed' : ''}`}
+                        sx={{ display: { xs: 'block', md: 'none', lg: 'none' } }}
+                    />
+                }
             </div>
             <div className={expanded ? 'expand expanded' : 'expand'}>
                 <div className="column-links">

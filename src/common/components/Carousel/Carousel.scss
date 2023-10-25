@@ -41,7 +41,7 @@
 
 .img-slider-dot-btn-container {
     position: absolute;
-    bottom: .5rem;
+    bottom: .25rem;
     left: 50%;
     display: flex;
     gap: .25rem;
@@ -52,8 +52,6 @@
     all: unset;
     display: block;
     cursor: pointer;
-    width: 1rem;
-    height: 1rem;
     transition: scale 100ms ease-in-out;
 
     &:is(:hover, :focus-visible) {
@@ -63,8 +61,6 @@
     &>* {
         stroke: white;
         fill: black;
-        height: 100%;
-        width: 100%;
     }
 }
 

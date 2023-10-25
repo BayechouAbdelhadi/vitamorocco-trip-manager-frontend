@@ -5,9 +5,6 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import AdjustIcon from '@mui/icons-material/Adjust';
 import CircleIcon from '@mui/icons-material/Circle';
 
-import { useElementSize } from 'usehooks-ts'
-
-
 import "./Carousel.scss"
 
 type ImageSliderProps = {
@@ -23,7 +20,7 @@ type ImageSliderProps = {
     slideInterval?: number
 }
 
-export default function Carousel({ images, slideInterval = 4000, maxWidth = '1600px', height = '100%' }: ImageSliderProps) {
+export default function Carousel({ images, slideInterval = 5000, maxWidth = '1600px', height = '100%' }: ImageSliderProps) {
     const [imageIndex, setImageIndex] = useState(0)
     const [isHovered, setIsHovered] = useState(false);
 
@@ -110,9 +107,9 @@ export default function Carousel({ images, slideInterval = 4000, maxWidth = '160
                                     onClick={() => setImageIndex(index)}
                                 >
                                     {index === imageIndex ? (
-                                        <AdjustIcon aria-hidden />
+                                        <AdjustIcon aria-hidden sx={{ fontSize: { xs: 'small', md: 'medium' } }} />
                                     ) : (
-                                        <CircleIcon aria-hidden />
+                                        <CircleIcon aria-hidden sx={{ fontSize: { xs: 'small', md: 'medium' } }} />
                                     )}
                                 </button>
                             ))}

@@ -22,18 +22,19 @@
 
 .rights-reserved {
     color: #696e93;
+
     a {
         font-size: inherit;
         text-decoration: none;
 
-        &:last-child::before{
+        &:last-child::before {
             content: " & ";
         }
     }
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .footer-grid {
         display: flex;
         flex-direction: column;

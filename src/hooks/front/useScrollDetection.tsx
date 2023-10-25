@@ -13,13 +13,6 @@ const useScrollDetection = (scrollThreshold: number) => {
         }
     };
 
-    // useEffect(() => {
-    //     window.addEventListener('scroll', handleScroll);
-
-    //     return () => {
-    //         window.removeEventListener('scroll', handleScroll);
-    //     };
-    // }, []);
     useEventListener('scroll', handleScroll)
 
     return isVisible;

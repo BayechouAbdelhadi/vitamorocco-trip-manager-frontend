@@ -36,6 +36,8 @@ export const Home = (): JSX.Element => {
     return (
         <Page description={homeText} keywords={homeText} title={homeText} displayTitle={false}>
             <Carousel images={IMAGES} />
+            <Carousel images={IMAGES} />
+            <Carousel images={IMAGES} />
         </Page>
     );
 };

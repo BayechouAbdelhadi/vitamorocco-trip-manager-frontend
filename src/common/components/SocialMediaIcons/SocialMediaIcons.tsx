@@ -11,7 +11,7 @@ interface ISocialMediaIcons {
 }
 
 export default function SocialMediaIcons({ displayColumn = false, float = false }: ISocialMediaIcons) {
-    const isVisible = useScrollDetection(150);
+    const isVisible = useScrollDetection(300);
 
     if (!isVisible) return null
 
