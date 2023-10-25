@@ -1,0 +1,62 @@
+/* included-service-card.scss */
+.included-services-card {
+    .included-services-title {
+        text-align: left;
+        margin: 1rem;
+    }
+    /* Styles for the Grid container */
+    .included-services-container {
+        max-width: 90%;
+        margin: 0;
+        padding: 10px;
+        gap: 10px;
+
+        /* Styles for each Grid item (service card) */
+        .included-item {
+            padding: 10px; /* Adjust padding as needed */
+            max-width: 250px;
+            min-width: 160px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            /* Replace border with box shadow */
+            /* Styles for the icon */
+            .icon {
+                /* Add styles for the icon here */
+            }
+
+            /* Styles for the service name */
+            .name {
+                font-size: 1.25rem; /* Adjust the font size as needed */
+            }
+
+            /* Styles for the service description */
+            .description {
+                text-align: center;
+                word-wrap: break-word;
+                font-size: 0.875rem; /* Adjust the font size as needed */
+            }
+            // &:last-child {
+            //     border-right: none !important;
+            // }
+            &:hover {
+                box-shadow: 0 0 2px 2px rgb(245, 203, 18);
+            }
+        }
+    }
+}
+
+.excluded-services-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .excluded-services-title {
+        text-align: left;
+        margin: 1rem;
+    }
+    ul {
+        justify-self: flex-start;
+    }
+}

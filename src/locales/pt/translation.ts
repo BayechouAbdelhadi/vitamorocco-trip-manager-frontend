@@ -17,11 +17,42 @@ export const TRANSLATION_PT = {
     // E
     ERROR_TRANSLATION, // Assuming ERROR_TRANSLATION is an object with its own alphabetical order
     email: 'E-mail',
+    excluded_services: {
+        food_drink: 'Comida e bebida.',
+        monuments_entrance: 'Entradas dos monumentos.',
+        tip_propina: 'Dica.',
+    },
     // F
     firstName: 'Nome',
     // G
     // H
     // I
+    included_services: {
+        private_tour: {
+            name: 'Tour privado',
+            description: 'Não haverá mais pessoas no grupo. Você pode parar quando quiser.',
+        },
+        pickup_at: {
+            name: 'Pegar em',
+            description: 'Pegar no hotel, riad, aeroporto ou onde preferir.',
+        },
+        transport: {
+            name: 'Transporte',
+            description: 'Transporte em 4x4, Minivan ou micro-ônibus, dependendo do número de viajantes.',
+        },
+        driver_guide: {
+            name: 'Motorista-guia',
+            description: 'Espanhol, inglês, francês',
+        },
+        expenses: {
+            name: 'Despesas',
+            description: 'Combustível, portagens e todas as despesas associadas.',
+        },
+        local_guide: {
+            name: 'Guia local',
+            description: 'Disponível',
+        },
+    },
     // J
     // K
     // L

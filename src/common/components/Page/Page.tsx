@@ -20,6 +20,7 @@ export const Page = ({
     title,
     className = '',
     displayTitle = true,
+    style,
 }: PropsWithChildren<PageProps>): JSX.Element => (
     <HelmetProvider>
         <Helmet defaultTitle={app.name} titleTemplate={`${app.name} | %s`}>
@@ -30,7 +31,9 @@ export const Page = ({
         </Helmet>
         <main className="page">
             {displayTitle && <h1 className="title">{title}</h1>}
-            <div className={`content ${className}`}>{children}</div>
+            <div className={`content ${className}`} style={style}>
+                {children}
+            </div>
         </main>
     </HelmetProvider>
 );
