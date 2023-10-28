@@ -32,7 +32,7 @@ export const IncludedServiceCard = () => {
                         key={service.name}
                         xs={12}
                         sm={6}
-                        md={2}
+                        md={1}
                         className="included-item"
                         component={Paper}
                         elevation={3}
