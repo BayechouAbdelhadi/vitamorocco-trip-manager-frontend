@@ -1,9 +1,6 @@
-import Carousel from '../../common/components/Carousel';
-import { Page } from '../../common/components/Page/Page';
-// import { useCounter } from '../../database/counter';
-// import { useCounter as useCounterRedux } from '../../store/front/counter';
-import { EnglishFlag, FranceFlag, PortugalFlag, SpanishFlag } from '../../common/components/Flags/Flags';
-import { Box } from '@mui/material';
+import Carousel from '../../common/components/Carousel'
+import { Page } from '../../common/components/Page/Page'
+import TitleBarImageList from '../../common/components/TitleBarImageList'
 
 const IMAGES = [
     {
@@ -36,8 +33,16 @@ export const Home = (): JSX.Element => {
     return (
         <Page description={homeText} keywords={homeText} title={homeText} displayTitle={false}>
             <Carousel images={IMAGES} />
-            <Carousel images={IMAGES} />
-            <Carousel images={IMAGES} />
+            {/* <Carousel images={IMAGES} /> */}
+            {/* <Carousel images={IMAGES} /> */}
+            <span>Our Destinations</span>
+            <h2>Some of Traveler&apos;s Favourite Destinations</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit voluptas soluta,
+                est veritatis obcaecati nostrum optio molestiae in aspernatur mollitia consequuntur nemo enim
+                dolore et qui ut, eveniet consectetur?
+            </p>
+            <TitleBarImageList />
         </Page>
     );
 };

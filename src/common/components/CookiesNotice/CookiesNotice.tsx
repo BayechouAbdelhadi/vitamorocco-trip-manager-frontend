@@ -29,10 +29,10 @@ const CookiesNotice: React.FC = () => {
 
     return (
         <div className="cookies-notice">
-            <span>
+            <div>
                 <strong>Cookie Policy</strong>
                 <hr style={{ width: "100%" }} />
-            </span>
+            </div>
             <p>
                 We use cookies to personalise content, to provide social media features and to analyse our traffic.
                 This website uses cookies to ensure you get the best experience on our website.
