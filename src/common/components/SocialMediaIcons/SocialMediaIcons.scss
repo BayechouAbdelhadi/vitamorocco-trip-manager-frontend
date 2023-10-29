@@ -25,7 +25,6 @@
 .icon {
     padding: 4px;
     border-radius: 50%;
-
 }
 
 .whatsapp-icon:hover {
@@ -38,14 +37,6 @@
     background-color: #4c69ba;
 }
 
-.instagram-icon {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s;
-}
-
 .instagram-icon:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     color: #fff;
@@ -55,6 +46,9 @@
 }
 
 .tiktok-icon:hover {
-    color: #fff;
-    background-color: #282828
+    background: #fff
+}
+
+.trip-advisor-icon:hover {
+    background: #39cd63
 }

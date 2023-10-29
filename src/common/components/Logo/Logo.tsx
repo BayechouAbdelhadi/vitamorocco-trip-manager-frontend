@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import './Logo.scss';
+import { scrollToTop } from '../../utils';
 
 interface LogoProps {
     shrinkable?: boolean;
@@ -8,7 +9,10 @@ interface LogoProps {
 
 function Logo({ shrinkable = false }: LogoProps) {
     return (
-        <Link className="logo" to="/">
+        <Link
+            to="/"
+            className="logo"
+            onClick={scrollToTop}>
             <Box
                 component="img"
                 src="/logo-vita-morocco.svg"
@@ -16,9 +20,9 @@ function Logo({ shrinkable = false }: LogoProps) {
                 sx={{
                     display: shrinkable
                         ? {
-                              xs: 'none',
-                              md: 'block',
-                          }
+                            xs: 'none',
+                            md: 'block',
+                        }
                         : 'block',
                     width: 200,
                 }}
@@ -31,9 +35,9 @@ function Logo({ shrinkable = false }: LogoProps) {
                 sx={{
                     display: shrinkable
                         ? {
-                              xs: 'block',
-                              md: 'none',
-                          }
+                            xs: 'block',
+                            md: 'none',
+                        }
                         : 'none',
                     width: 80,
                 }}

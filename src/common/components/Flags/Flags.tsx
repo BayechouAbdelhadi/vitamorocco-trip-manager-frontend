@@ -1,8 +1,8 @@
 import { SvgIcon } from '@mui/material';
 
 export const EnglishFlag = () => (
-    <SvgIcon>
-        <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-us" viewBox="0 0 640 480">
+    <SvgIcon fontSize='small'>
+        <svg viewBox="0 0 640 480">
             <path fill="#bd3d44" d="M0 0h640v480H0" />
             <path stroke="#fff" strokeWidth="37" d="M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 425h640" />
             <path fill="#192f5d" d="M0 0h364.8v258.5H0" />
@@ -15,8 +15,8 @@ export const EnglishFlag = () => (
 )
 
 export const FranceFlag = () => (
-    <SvgIcon>
-        <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-fr" viewBox="0 0 640 480">
+    <SvgIcon fontSize='small'>
+        <svg viewBox="0 0 640 480">
             <path fill="#fff" d="M0 0h640v480H0z" />
             <path fill="#002654" d="M0 0h213.3v480H0z" />
             <path fill="#ce1126" d="M426.7 0H640v480H426.7z" />
@@ -25,8 +25,8 @@ export const FranceFlag = () => (
 )
 
 export const PortugalFlag = () => (
-    <SvgIcon>
-        <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-pt" viewBox="0 0 640 480">
+    <SvgIcon fontSize='small'>
+        <svg viewBox="0 0 640 480">
             <path fill="red" d="M256 0h384v480H256z" />
             <path fill="#060" d="M0 0h256v480H0z" />
             <g fill="#ff0" fillRule="evenodd" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".6">
@@ -79,8 +79,8 @@ export const PortugalFlag = () => (
 
 
 export const SpanishFlag = () => (
-    <SvgIcon>
-        <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-es" viewBox="0 0 640 480">
+    <SvgIcon fontSize='small'>
+        <svg viewBox="0 0 640 480">
             <path fill="#AA151B" d="M0 0h640v480H0z" />
             <path fill="#F1BF00" d="M0 120h640v240H0z" />
             <path fill="#ad1519" d="m127.3 213.3-.8-.1-1-1-.7-.4-.6-.8s-.7-1.1-.4-2c.3-.9.9-1.2 1.4-1.5a12 12 0 0 1 1.5-.5l1-.4 1.3-.3.5-.3c.2 0 .7 0 1-.2l1-.2 1.6.1h4.8c.4 0 1.2.3 1.4.4a35 35 0 0 0 2 .7c.5.1 1.6.3 2.2.6.5.3.9.7 1.1 1l.5 1v1.1l-.5.8-.6 1-.8.6s-.5.5-1 .4c-.4 0-4.8-.8-7.6-.8s-7.3.9-7.3.9" />
