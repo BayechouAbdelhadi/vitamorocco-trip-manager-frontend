@@ -1,9 +1,10 @@
 import { PropsWithChildren } from 'react';
 import { lazyComponent } from '../../utils';
+import ScrollToTopButton from '../Buttons/ScrollToTopButton';
+import CookiesNotice from '../CookiesNotice';
 import { ErrorBoundarySuspense } from '../ErrorBoundarySuspense/ErrorBoundarySuspense';
 import SocialMediaIcons from '../SocialMediaIcons';
 import './MainLayout.scss';
-import ScrollToTopButton from '../Buttons/ScrollToTopButton';
 
 const Footer = lazyComponent('Footer', import('../Footer/Footer'));
 const Header = lazyComponent('Header', import('../Header/Header'));
@@ -22,6 +23,9 @@ export const MainLayout = ({ children }: PropsWithChildren<Record<string, unknow
     </ErrorBoundarySuspense>
     <ErrorBoundarySuspense>
       <ScrollToTopButton />
+    </ErrorBoundarySuspense>
+    <ErrorBoundarySuspense>
+      <CookiesNotice />
     </ErrorBoundarySuspense>
   </div>
 );

@@ -1,0 +1,42 @@
+.cookies-notice {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+
+    max-width: 700px;
+    width: 100%;
+
+    background-color: #333;
+    /* Text color */
+    color: #fff;
+    padding: 2rem;
+    z-index: 4000;
+
+    a {
+        color: #ff9900;
+        /* Link color */
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    button {
+        background-color: #ff9900;
+        /* Button background color */
+        color: #fff;
+        /* Button text color */
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #ffcc66;
+            /* Button background color on hover */
+        }
+    }
+}
