@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import './CookiesNotice.scss'
+import { Button } from '@mui/material';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { scrollToTop } from '../../utils';
-import { Button } from '@mui/material';
+import './CookiesNotice.scss';
 
 const CookiesNotice: React.FC = () => {
     const [isCookieAccepted, setIsCookieAccepted] = useState(false);
 
     const handleAccept = () => {
-        document.cookie = 'cookieAccepted=true'
+        document.cookie = 'cookieAccepted=true';
 
         // Update the state to hide the notice
         setIsCookieAccepted(true);
@@ -20,7 +20,6 @@ const CookiesNotice: React.FC = () => {
         if (isCookieAccepted) {
             setIsCookieAccepted(true);
         }
-
     }, []);
 
     if (isCookieAccepted) {
@@ -31,14 +30,18 @@ const CookiesNotice: React.FC = () => {
         <div className="cookies-notice">
             <div>
                 <strong>Cookie Policy</strong>
-                <hr style={{ width: "100%" }} />
+                <hr style={{ width: '100%' }} />
             </div>
             <p>
-                We use cookies to personalise content, to provide social media features and to analyse our traffic.
-                This website uses cookies to ensure you get the best experience on our website.
+                We use cookies to personalise content, to provide social media features and to analyse our traffic. This
+                website uses cookies to ensure you get the best experience on our website.
             </p>
-            <Link to="/faqs" onClick={scrollToTop}>FAQs</Link>
-            <Link to="/cookie-policy" onClick={scrollToTop}>Learn more</Link>
+            <Link to="/faqs" onClick={scrollToTop}>
+                FAQs
+            </Link>
+            <Link to="/cookie-policy" onClick={scrollToTop}>
+                Learn more
+            </Link>
             <Button onClick={handleAccept}>Accept Cookies</Button>
         </div>
     );

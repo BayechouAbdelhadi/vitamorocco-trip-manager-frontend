@@ -1,6 +1,6 @@
 import { PropsWithChildren, ReactNode } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { app } from '../../constants';
+import { app } from '../../constants/appConstants';
 import { LayoutContainerProps } from '../LayoutContainer/LayoutContainer';
 import './Page.scss';
 

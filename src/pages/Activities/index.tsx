@@ -1,6 +1,6 @@
 import { Route } from 'react-router-dom';
 import ErrorBoundaryRoutes from '../../common/components/ErrorBoundary/ErrorBoundaryRoutes';
-import { lazyComponent } from '../../common/utils';
+import { lazyComponent } from '../../common/utils/lazy';
 const Activity = lazyComponent('Activity', import('./Activity'));
 const Activities = lazyComponent('Activities', import('./Activities'));
 const PageNotFound = lazyComponent('PageNotFound', import('../PageNotFound/PageNotFound'));

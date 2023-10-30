@@ -1,6 +1,6 @@
 import { Route, Routes as RoutesRRD } from 'react-router-dom';
 import { pages } from '../../../pages';
-import { lazyComponent } from '../../utils';
+import { lazyComponent } from '../../utils/lazy';
 
 const PageNotFound = lazyComponent('PageNotFound', import('../../../pages/PageNotFound/PageNotFound'));
 

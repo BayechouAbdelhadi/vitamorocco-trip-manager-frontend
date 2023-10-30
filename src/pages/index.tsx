@@ -1,4 +1,4 @@
-import { lazyComponent } from '../common/utils';
+import { lazyComponent } from '../common/utils/lazy';
 import { ServicesRoutes } from './Services';
 import { ToursRoutes } from './Tours';
 import { ExcursionsRoutes } from './Excursions';
