@@ -10,20 +10,24 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
 import { Excursion } from '../../../common/types/excursion';
+import { truncateText } from '../../../common/utils';
 interface ExcursionSummaryProps {
     excursion: Excursion;
-}   
+}
 
 export default function ExcursionSummary({ excursion }: ExcursionSummaryProps) {
     const navigate = useNavigate();
     const goToExcursion = () => {
         navigate(`./${excursion.id}`, { relative: 'path' });
     };
+
+    const truncatedDescription = truncateText(excursion.description, 24);
+
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345 }} onClick={goToExcursion}>
             <CardHeader
                 action={
-                    <IconButton aria-label="view excursion" onClick={goToExcursion}>
+                    <IconButton aria-label="view excursion">
                         <VisibilityIcon />
                     </IconButton>
                 }
@@ -34,11 +38,10 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps) {
                 height="250"
                 image="https://mui.com/static/images/cards/paella.jpg"
                 alt={`excursion ${excursion.title}`}
-                onClick={goToExcursion}
             />
             <CardContent>
                 <Typography variant="body2" color="text.secondary">
-                    {excursion.description}
+                    {truncatedDescription}
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
