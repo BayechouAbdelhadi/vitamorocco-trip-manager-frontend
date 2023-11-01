@@ -22,8 +22,6 @@ export const Excursion = (): JSX.Element => {
         enabled: Boolean(excursionId), // Only enable the query when excursionId is defined
     });
 
-    console.log(excursion);
-
     return (
         <Page
             description={ExcursionText}

@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom';
 import { Excursion } from '../../../common/types/excursion';
 interface ExcursionSummaryProps {
     excursion: Excursion;
-}
+}   
 
 export default function ExcursionSummary({ excursion }: ExcursionSummaryProps) {
     const navigate = useNavigate();
@@ -27,18 +27,18 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps) {
                         <VisibilityIcon />
                     </IconButton>
                 }
-                title={excursion.title.fr}
+                title={excursion.title}
             />
             <CardMedia
                 component="img"
                 height="250"
                 image="https://mui.com/static/images/cards/paella.jpg"
-                alt={`excursion ${excursion.title.fr}`}
+                alt={`excursion ${excursion.title}`}
                 onClick={goToExcursion}
             />
             <CardContent>
                 <Typography variant="body2" color="text.secondary">
-                    {excursion.description.fr}
+                    {excursion.description}
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>

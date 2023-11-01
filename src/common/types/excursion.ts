@@ -1,15 +1,8 @@
-export interface Translation {
-    fr: string;
-    es: string;
-    en: string;
-    ar: string;
-    pt: string;
-}
 
 export interface Excursion {
     id: string;
-    title: Translation;
-    description: Translation;
+    title: string;
+    description: string;
     destinationCity: string;
     includedServices: string[];
     departureCity: string;
@@ -17,8 +10,8 @@ export interface Excursion {
     returnPickupTime: string;
     journeyTime: number;
     journeyTimeUnit: string;
-    highlights: Translation[];
+    highlights: string[];
     journeyUnit: string;
     duration: number;
-    frequency: Translation;
+    frequency: string;
 }
