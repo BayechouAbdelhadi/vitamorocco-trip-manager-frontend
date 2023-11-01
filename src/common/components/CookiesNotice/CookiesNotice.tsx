@@ -14,9 +14,16 @@ const CookiesNotice: React.FC = () => {
         setIsCookieAccepted(true);
     };
 
+    const handleDeny = () => {
+        document.cookie = 'cookieAccepted=false'
+
+        // Update the state to hide the notice
+        setIsCookieAccepted(true);
+    };
+
     useEffect(() => {
         // Check if the "cookieAccepted" cookie is set
-        const isCookieAccepted = document.cookie.split(';').some((item) => item.trim().startsWith('cookieAccepted'));
+        const isCookieAccepted = document.cookie.split(';').some((item) => item.trim().startsWith('cookieAccepted=true'));
         if (isCookieAccepted) {
             setIsCookieAccepted(true);
         }
@@ -30,7 +37,7 @@ const CookiesNotice: React.FC = () => {
     return (
         <div className="cookies-notice">
             <div>
-                <strong>Cookie Policy</strong>
+                <strong>Cookies Policy</strong>
                 <hr style={{ width: "100%" }} />
             </div>
             <p>
@@ -39,7 +46,8 @@ const CookiesNotice: React.FC = () => {
             </p>
             <Link to="/faqs" onClick={scrollToTop}>FAQs</Link>
             <Link to="/cookie-policy" onClick={scrollToTop}>Learn more</Link>
-            <Button onClick={handleAccept}>Accept Cookies</Button>
+            <Button onClick={handleAccept}>Accept All</Button>
+            <Button onClick={handleDeny}>Refuse All</Button>
         </div>
     );
 };

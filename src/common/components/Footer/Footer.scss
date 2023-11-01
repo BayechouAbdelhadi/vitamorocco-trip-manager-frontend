@@ -25,10 +25,13 @@
 
     a {
         font-size: inherit;
-        text-decoration: none;
 
         &:last-child::before {
             content: " & ";
+        }
+
+        &:hover {
+            text-decoration: underline;
         }
     }
 }
