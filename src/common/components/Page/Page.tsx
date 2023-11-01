@@ -1,6 +1,6 @@
 import { PropsWithChildren, ReactNode } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { app } from '../../constants';
+import { app } from '../../constants/appConstants';
 import { LayoutContainerProps } from '../LayoutContainer/LayoutContainer';
 import './Page.scss';
 
@@ -30,7 +30,7 @@ export const Page = ({
             {elements}
         </Helmet>
         <main className="page">
-            {displayTitle && <h1 className="title">{title}</h1>}
+            {displayTitle && <h2 className="title">{title}</h2>}
             <div className={`content ${className}`} style={style}>
                 {children}
             </div>

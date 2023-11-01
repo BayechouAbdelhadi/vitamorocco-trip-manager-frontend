@@ -1,13 +1,12 @@
-import { app } from '../../constants'
-import { Link } from 'react-router-dom'
-import FooterColumns from './FooterColumns'
-import SocialMediaIcons from '../SocialMediaIcons'
-import './Footer.scss'
-import { scrollToTop } from '../../utils'
-
+import { Link } from 'react-router-dom';
+import { app } from '../../constants/appConstants';
+import SocialMediaIcons from '../SocialMediaIcons';
+import './Footer.scss';
+import FooterColumns from './FooterColumns';
+import { scrollToTop } from '../../utils';
 
 export const Footer = (): JSX.Element => {
-  return (
+    return (
     <footer className="footer">
       <FooterColumns />
       <div className="bottom-content">
@@ -19,4 +18,4 @@ export const Footer = (): JSX.Element => {
       </div>
     </footer>
   )
-}
+};
