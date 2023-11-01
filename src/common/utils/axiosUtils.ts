@@ -17,6 +17,17 @@ export async function authorizedPut<T>(url: string, data: any, options?: AxiosRe
         .then((res) => res.data);
 }
 
+export async function authorizedPatch<T>(url: string, operations: Array<Object>, options?: AxiosRequestConfig) {
+    return axios
+        .patch<T>(url, operations, {
+            // ...options,
+            headers: {
+                'Content-Type': 'application/json-patch+json',
+            },
+        })
+        .then((res) => res.data);
+}
+
 export async function authorizedDelete<T>(url: string, options?: AxiosRequestConfig) {
     return axios
         .delete<T>(url, {
@@ -45,6 +56,10 @@ export async function vitaPost<T>(url: string, data: any, options?: AxiosRequest
 
 export async function vitaPut<T>(url: string, data: any, options?: AxiosRequestConfig) {
     return authorizedPut<T>(join(VITA_API_PREFIX, url), data, options);
+}
+
+export async function vitaPatch<T>(url: string, operations: Array<Object>, options?: AxiosRequestConfig) {
+    return authorizedPatch<T>(join(VITA_API_PREFIX, url), operations, options);
 }
 
 export async function vitaDelete<T>(url: string, options?: AxiosRequestConfig) {

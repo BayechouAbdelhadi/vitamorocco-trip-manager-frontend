@@ -31,7 +31,7 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps) {
             />
             <CardMedia
                 component="img"
-                height="194"
+                height="250"
                 image="https://mui.com/static/images/cards/paella.jpg"
                 alt={`excursion ${excursion.title.fr}`}
                 onClick={goToExcursion}

@@ -30,7 +30,7 @@ export const Page = ({
             {elements}
         </Helmet>
         <main className="page">
-            {displayTitle && <h1 className="title">{title}</h1>}
+            {displayTitle && <h2 className="title">{title}</h2>}
             <div className={`content ${className}`} style={style}>
                 {children}
             </div>
