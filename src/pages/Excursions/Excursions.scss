@@ -1,7 +1,15 @@
-.excursions-container{
+.excursions-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap:1rem;
+    gap: 1rem;
     padding: 0 1rem 1rem 1rem;
+}
+.excursion-summary-test {
+    max-height: 150px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Number of lines to display before truncating */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

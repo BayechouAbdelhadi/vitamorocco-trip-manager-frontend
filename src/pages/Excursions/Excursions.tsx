@@ -20,7 +20,7 @@ export const Excursions = (): JSX.Element => {
                     {excursions?.map((excursion) => (
                         <ExcursionSummary key={excursion.id} excursion={excursion} />
                     ))}
-                    {excursions?.map((excursion) => (
+                    {/* {excursions?.map((excursion) => (
                         <ExcursionSummary key={excursion.id} excursion={excursion} />
                     ))}
                     {excursions?.map((excursion) => (
@@ -55,7 +55,7 @@ export const Excursions = (): JSX.Element => {
                     ))}
                     {excursions?.map((excursion) => (
                         <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
+                    ))} */}
                 </div>
             )}
         </Page>

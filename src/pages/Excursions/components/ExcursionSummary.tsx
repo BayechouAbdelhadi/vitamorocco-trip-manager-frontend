@@ -10,18 +10,15 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
 import { Excursion } from '../../../common/types/excursion';
-import { truncateText } from '../../../common/utils';
 interface ExcursionSummaryProps {
-    excursion: Excursion;
+    readonly excursion: Excursion;
 }
 
-export default function ExcursionSummary({ excursion }: ExcursionSummaryProps) {
+export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): JSX.Element {
     const navigate = useNavigate();
     const goToExcursion = () => {
         navigate(`./${excursion.id}`, { relative: 'path' });
     };
-
-    const truncatedDescription = truncateText(excursion.description, 24);
 
     return (
         <Card sx={{ maxWidth: 345 }} onClick={goToExcursion}>
@@ -40,8 +37,8 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps) {
                 alt={`excursion ${excursion.title}`}
             />
             <CardContent>
-                <Typography variant="body2" color="text.secondary">
-                    {truncatedDescription}
+                <Typography variant="body2" color="text.secondary" className="excursion-summary-test">
+                    {excursion.description}
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
