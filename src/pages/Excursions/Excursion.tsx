@@ -44,14 +44,30 @@ export const Excursion = (): JSX.Element => {
             </div>
             <div className="excursion-description">
                 <div className="description-text-container">
-                    <Typography variant="h5">Description</Typography>
+                    <Typography variant="h5" className="setcion-title">
+                        Description
+                    </Typography>
                     <Typography variant="body1" className="description-text">
                         {excursion?.description}
                     </Typography>
                 </div>
-
                 <div className="description-img-container">
                     <img src="https://mui.com/static/images/cards/paella.jpg" alt="description-image" />
+                </div>
+            </div>
+            <Typography variant="h5" className="setcion-title highlights-title">
+                Highlights
+            </Typography>
+            <div className="excursion-highlights">
+                <div className="highlights-img-container">
+                    <img src="https://mui.com/static/images/cards/paella.jpg" alt="highlights-image" />
+                </div>
+                <div className="highlights-text-container">
+                    <ul>
+                        {excursion?.highlights.map((heighlight) => (
+                            <li key={heighlight}>{heighlight}</li>
+                        ))}
+                    </ul>
                 </div>
             </div>
             <IncludedServiceCard services={excursion?.includedServices || []} />

@@ -4,9 +4,10 @@
         width: 100%;
         justify-content: space-around;
         flex-wrap: wrap;
+
         .description-text-container {
             flex: 1;
-            padding: 1rem;
+            padding: 0 1rem;
             .description-text {
                 text-align: justify;
             }
@@ -25,4 +26,41 @@
             }
         }
     }
+
+    .excursion-highlights {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .highlights-text-container {
+            flex: 1;
+            padding: 1rem;
+            .highlights-text {
+                text-align: justify;
+            }
+        }
+
+        .highlights-img-container {
+            flex: 1;
+            padding: 0 1rem;
+            display: flex;
+            // align-items: center;
+            justify-content: center;
+
+            img {
+                width: 100%;
+                min-width: 300px;
+            }
+        }
+    }
+}
+.setcion-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.highlights-title {
+    width: 100%;
+    text-align: left;
+    padding-left: 1rem;
 }
