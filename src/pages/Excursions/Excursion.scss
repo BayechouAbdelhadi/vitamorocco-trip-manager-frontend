@@ -1,0 +1,28 @@
+.excursion-detail {
+    .excursion-description {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .description-text-container {
+            flex: 1;
+            padding: 1rem;
+            .description-text {
+                text-align: justify;
+            }
+        }
+
+        .description-img-container {
+            flex: 1;
+            padding: 1rem;
+            display: flex;
+            // align-items: center;
+            justify-content: center;
+
+            img {
+                width: 100%;
+                min-width: 300px;
+            }
+        }
+    }
+}

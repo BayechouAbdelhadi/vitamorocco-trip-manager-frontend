@@ -3,11 +3,15 @@ import { useTranslation } from 'react-i18next';
 import { INCLUDED_SERVICES } from '../../constant';
 import './ExcursionService.scss';
 
-export const IncludedServiceList = () => {
+interface IncludedServicesProps {
+    services: string[];
+}
+
+export const IncludedServiceList = ({ services }: IncludedServicesProps) => {
     const { t } = useTranslation();
     return (
         <ul>
-            {INCLUDED_SERVICES.map((service) => (
+            {INCLUDED_SERVICES.filter((s) => services.includes(s.name)).map((service) => (
                 <li key={service.name}>
                     <div>
                         {t(`included_services.${service.name}.name`)} ,{' '}
@@ -19,14 +23,14 @@ export const IncludedServiceList = () => {
     );
 };
 
-export const IncludedServiceCard = () => {
+export const IncludedServiceCard = ({ services }: IncludedServicesProps) => {
     const { t } = useTranslation(); // Initialize the translation hook
 
     return (
         <div className="included-services-card">
             <h3 className="included-services-title">What is included</h3>
             <Grid container spacing={2} justifyContent="center" className="included-services-container">
-                {INCLUDED_SERVICES.map((service) => (
+                {INCLUDED_SERVICES.filter((s) => services.includes(s.name)).map((service) => (
                     <Grid
                         item
                         key={service.name}

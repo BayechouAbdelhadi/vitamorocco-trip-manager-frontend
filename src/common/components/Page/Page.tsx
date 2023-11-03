@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import { PropsWithChildren, ReactNode } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { app } from '../../constants/appConstants';
@@ -30,7 +31,13 @@ export const Page = ({
             {elements}
         </Helmet>
         <main className="page">
-            {displayTitle && <h2 className="title">{title}</h2>}
+            {displayTitle && (
+                <div className="title">
+                    <Typography variant="h3" className="title-text">
+                        {title}
+                    </Typography>
+                </div>
+            )}
             <div className={`content ${className}`} style={style}>
                 {children}
             </div>

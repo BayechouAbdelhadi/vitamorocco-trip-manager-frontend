@@ -1,12 +1,9 @@
-import Carousel from '../../common/components/Carousel'
-import { Page } from '../../common/components/Page/Page'
+import Carousel from '../../common/components/Carousel';
+import { Page } from '../../common/components/Page/Page';
 import ContactUs from './ContactUs';
-import Gallery from './Gallery';
 import Destinations from './Destinations';
+import Gallery from './Gallery';
 import Welcome from './Welcome';
-import { Divider, Stack } from '@mui/material';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
 
 const IMAGES = [
     {
@@ -31,7 +28,6 @@ const IMAGES = [
         url: 'https://i.imgur.com/S1oE8qI.jpg',
     },
 ];
-
 
 export const Home = (): JSX.Element => {
     const homeText = 'Home';
