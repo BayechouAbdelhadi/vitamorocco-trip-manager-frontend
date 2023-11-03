@@ -1,5 +1,3 @@
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -9,6 +7,7 @@ import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
+import ShareButton from '../../../common/components/Buttons/ShareButton/ShareButton';
 import { Excursion } from '../../../common/types/excursion';
 import { defaultImage } from '../../../common/utils/imageUtils';
 interface ExcursionSummaryProps {
@@ -44,12 +43,18 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
-                <IconButton aria-label="add to favorites">
-                    <FavoriteIcon />
-                </IconButton>
-                <IconButton aria-label="share">
-                    <ShareIcon />
-                </IconButton>
+                {/*
+                    <IconButton aria-label="add to favorites">
+                        <FavoriteIcon />
+                    </IconButton>
+                */}
+                <ShareButton
+                    shareData={{
+                        title: `excursion ${excursion.title}`,
+                        text: 'Check out this link!',
+                        url: `${window.location.href}/${excursion.id}`,
+                    }}
+                />
             </CardActions>
         </Card>
     );
