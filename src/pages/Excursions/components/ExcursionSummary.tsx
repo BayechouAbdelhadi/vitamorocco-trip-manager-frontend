@@ -10,6 +10,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
 import { Excursion } from '../../../common/types/excursion';
+import { defaultImage } from '../../../common/utils/imageUtils';
 interface ExcursionSummaryProps {
     readonly excursion: Excursion;
 }
@@ -33,8 +34,9 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
             <CardMedia
                 component="img"
                 height="250"
-                image="https://mui.com/static/images/cards/paella.jpg"
+                image={'https://mui.com/static/images/cards/paella.jpg'}
                 alt={`excursion ${excursion.title}`}
+                onError={defaultImage.small.errorHandler}
             />
             <CardContent>
                 <Typography variant="body2" color="text.secondary" className="excursion-summary-test">

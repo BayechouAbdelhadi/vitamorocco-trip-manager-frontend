@@ -6,6 +6,7 @@ import AdjustIcon from '@mui/icons-material/Adjust';
 import CircleIcon from '@mui/icons-material/Circle';
 
 import "./Carousel.scss"
+import { defaultImage } from "../../utils/imageUtils";
 
 type ImageSliderProps = {
     images: {
@@ -64,10 +65,7 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '160
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
-            <section
-                aria-label="Image Slider"
-                style={{ width: "100%", height: "100%", position: "relative" }}
-            >
+            <section aria-label="Image Slider" style={{ width: '100%', height: '100%', position: 'relative' }}>
                 <div className="img-slider-img-container">
                     {images.map(({ url, alt }, index) => (
                         <img
@@ -77,10 +75,11 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '160
                             aria-hidden={imageIndex !== index}
                             className="img-slider-img"
                             style={{ translate: `${-100 * imageIndex}%` }}
+                            onError={defaultImage.large.errorHandler}
                         />
                     ))}
                 </div>
-                {displayControls &&
+                {displayControls && (
                     <>
                         <button
                             onClick={showPrevImage}
@@ -115,9 +114,8 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '160
                             ))}
                         </div>
                     </>
-
-                }
+                )}
             </section>
         </Box>
-    )
+    );
 }

@@ -40,7 +40,7 @@ export const Contact = (): JSX.Element => {
     return (
         <Page description={t(ContactText)} keywords={t(ContactText)} title={t(ContactText)} className="contact-page">
             <div className="contact-form-container">
-                <img src="/contact-us.svg" alt="contact-us" className="contact-us-img" />
+                <img src="/img/contact-us.svg" alt="contact-us" className="contact-us-img" />
                 <form onSubmit={handleSubmit} className="contact-form">
                     <div className="contact-message">{t('contact.message')}</div>
                     <div className="name-fields">

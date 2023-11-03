@@ -15,7 +15,7 @@ function Logo({ shrinkable = false }: LogoProps) {
             onClick={scrollToTop}>
             <Box
                 component="img"
-                src="/logo-vita-morocco.svg"
+                src="/img/logo-vita-morocco.svg"
                 alt="logo"
                 sx={{
                     display: shrinkable
@@ -30,7 +30,7 @@ function Logo({ shrinkable = false }: LogoProps) {
 
             <Box
                 component="img"
-                src="/mini-logo-vita-morocco.svg"
+                src="/img/mini-logo-vita-morocco.svg"
                 alt="logo"
                 sx={{
                     display: shrinkable

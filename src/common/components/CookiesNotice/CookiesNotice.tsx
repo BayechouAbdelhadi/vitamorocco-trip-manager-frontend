@@ -24,9 +24,9 @@ const CookiesNotice: React.FC = () => {
     useEffect(() => {
         // Check if the "cookieAccepted" cookie is set
         const isCookieAccepted = document.cookie.split(';').some((item) => item.trim().startsWith('cookieAccepted=true'));
-        if (isCookieAccepted) {
-            setIsCookieAccepted(true);
-        }
+        // // if (isCookieAccepted) {
+            setIsCookieAccepted(isCookieAccepted);
+        // }
     }, []);
 
     if (isCookieAccepted) {
