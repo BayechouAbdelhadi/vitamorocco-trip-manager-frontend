@@ -8,7 +8,7 @@ export default function Gallery() {
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit voluptas soluta,
             </p>
-            <TitleBarImageList itemData={itemData} />
+            <TitleBarImageList itemData={itemData} showLoadMore />
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { Box } from "@mui/material";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
@@ -21,7 +21,7 @@ type ImageSliderProps = {
     slideInterval?: number
 }
 
-export default function Carousel({ images, slideInterval = 5000, maxWidth = '1600px', height = '100%' }: ImageSliderProps) {
+export default function Carousel({ images, slideInterval = 5000, maxWidth = '2400px', height = '100%' }: ImageSliderProps) {
     const [imageIndex, setImageIndex] = useState(0)
     const [isHovered, setIsHovered] = useState(false);
 
@@ -41,6 +41,7 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '160
         })
     }
 
+    // handle image sliding animation
     useEffect(() => {
         const autoplayInterval = setInterval(() => {
             if (!isHovered) {
@@ -60,23 +61,28 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '160
                 maxWidth: maxWidth,
                 width: '100%',
                 margin: '0 auto',
-                aspectRatio: { xs: '9/6', md: '9/3', lg: '9/3' },
+                aspectRatio: { xs: '3/4', md: '9/3', lg: '9/3' },
             }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
             <section aria-label="Image Slider" style={{ width: '100%', height: '100%', position: 'relative' }}>
-                <div className="img-slider-img-container">
+                <div className="img-slider-container">
                     {images.map(({ url, alt }, index) => (
-                        <img
-                            key={url}
-                            src={url}
-                            alt={alt}
-                            aria-hidden={imageIndex !== index}
-                            className="img-slider-img"
-                            style={{ translate: `${-100 * imageIndex}%` }}
-                            onError={defaultImage.large.errorHandler}
-                        />
+                        <div key={url} className="img-slider-item">
+                            <img
+                                src={url}
+                                alt={alt}
+                                aria-hidden={imageIndex !== index}
+                                className="img-slider-img"
+                                style={{ translate: `${-100 * imageIndex}%` }}
+                                onError={defaultImage.large.errorHandler}
+                            />
+                            <div className="img-slider-content">
+                                <h2>{images[imageIndex].title}</h2>
+                                <p>{images[imageIndex].description}</p>
+                            </div>
+                        </div>
                     ))}
                 </div>
                 {displayControls && (
@@ -87,7 +93,7 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '160
                             style={{ left: 0 }}
                             aria-label="View Previous Image"
                         >
-                            <ArrowBackIosNewIcon aria-hidden />
+                            <ArrowBackIosNewIcon aria-hidden sx={{ fontSize: { xs: 'medium', md: '2rem' } }} />
                         </button>
                         <button
                             onClick={showNextImage}
@@ -95,7 +101,7 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '160
                             style={{ right: 0 }}
                             aria-label="View Next Image"
                         >
-                            <ArrowForwardIosIcon aria-hidden />
+                            <ArrowForwardIosIcon aria-hidden sx={{ fontSize: { xs: 'medium', md: '2rem' } }} />
                         </button>
                         <div className="img-slider-dot-btn-container">
                             {images.map((_, index) => (

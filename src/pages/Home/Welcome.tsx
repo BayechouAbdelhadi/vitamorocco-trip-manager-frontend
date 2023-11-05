@@ -7,7 +7,7 @@ function Welcome() {
         <div style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', background: "#a28585" }}>
             <h2>Welcome To Vita Morocco</h2>
             <h1>The Best Travel Service Provider</h1>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap' }}>
                 <div>
                     <h3>Explore Morocco With Us</h3>
                     <p>
@@ -23,7 +23,7 @@ function Welcome() {
                     </button>
                 </div>
                 <div>
-                    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=448&h=350&fit=crop&auto=format" alt="Home" />
+                    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=380&h=350&fit=crop&auto=format" alt="Home" />
                 </div>
             </div>
         </div>

@@ -15,12 +15,13 @@ type ImageListProps = {
     rows?: number
     cols?: number
     featured?: boolean
-  }[]
+  }[],
+  showLoadMore?: boolean
 }
 
-export default function TitlebarImageList({ itemData }: ImageListProps) {
+export default function TitlebarImageList({ itemData, showLoadMore = false }: ImageListProps) {
   return (
-    <ImageList sx={{ maxWidth: '900px', width: '100%' }}>
+    <ImageList sx={{ maxWidth: '900px', width: '100%', display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
       {/* <ImageListItem key="Subheader" cols={3}>
         <ListSubheader component="div">December</ListSubheader>
       </ImageListItem> */}
@@ -28,7 +29,7 @@ export default function TitlebarImageList({ itemData }: ImageListProps) {
         <ImageListItem key={item.img} sx={{ margin: '1rem 1rem' }}>
           <img
             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-            src={`${item.img}?w=248&fit=crop&auto=format`}
+            src={`${item.img}?w=248&0&h=350&fit=crop&auto=format`}
             alt={item.title}
             loading="lazy"
           />
@@ -46,9 +47,11 @@ export default function TitlebarImageList({ itemData }: ImageListProps) {
           />
         </ImageListItem>
       ))}
-      <ImageListItem cols={3}>
-        <Button>Load More</Button>
-      </ImageListItem>
+      {showLoadMore &&
+        <ImageListItem style={{ width: "100%" }}>
+          <Button>Load More</Button>
+        </ImageListItem>
+      }
     </ImageList>
   );
 }
