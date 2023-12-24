@@ -71,7 +71,7 @@ export const Excursion = (): JSX.Element => {
                         }}
                         rightPane={{
                             element: (
-                                <ul>
+                                <ul className="no-bullets">
                                     {excursion?.highlights.map((heighlight) => (
                                         <li key={heighlight}>{heighlight}</li>
                                     ))}
