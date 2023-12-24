@@ -24,6 +24,7 @@ export const Excursion = (): JSX.Element => {
     });
 
     const excursionTitle = excursion?.title ?? ExcursionText;
+
     if (isLoading) {
         return <CircularProgress />;
     }
@@ -79,6 +80,29 @@ export const Excursion = (): JSX.Element => {
                             className: 'content-pane',
                         }}
                     />
+                    <PanedSection
+                        title={
+                            <Typography variant="h5" className="setcion-title left-title">
+                                Trip details
+                            </Typography>
+                        }
+                        leftPane={{
+                            element: <>Some details</>,
+                            className: 'content-pane',
+                        }}
+                        rightPane={{
+                            element: (
+                                <iframe
+                                    title={excursion?.title}
+                                    src={`https://www.google.com/maps/embed?pb=${excursion?.mapLink}`}
+                                    allowFullScreen
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                ></iframe>
+                            ),
+                            className: 'visual-pane map',
+                        }}
+                    />
                     <Typography variant="h5" className="setcion-title left-title">
                         What is included
                     </Typography>
@@ -92,3 +116,8 @@ export const Excursion = (): JSX.Element => {
         </Page>
     );
 };
+
+/**
+ *
+ * <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20107.803983360976!2d1.8483819259612682!3d50.95191232391747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc3f75d7f1e363%3A0xacbed9e08cd279f4!2sCalais!5e0!3m2!1sfr!2sfr!4v1703432512164!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ */

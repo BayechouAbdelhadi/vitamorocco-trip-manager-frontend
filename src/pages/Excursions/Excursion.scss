@@ -23,6 +23,15 @@
         width: 100%;
         min-width: 300px;
     }
+
+    &.map {
+        width: 100%;
+        min-height: 500px;
+        iframe {
+            width: 100%;
+            min-width: 350px;
+        }
+    }
 }
 
 .content-pane {

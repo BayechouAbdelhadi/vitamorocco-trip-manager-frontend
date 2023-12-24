@@ -14,4 +14,5 @@ export interface Excursion {
     journeyUnit: string;
     duration: number;
     frequency: string;
+    mapLink: string;
 }
