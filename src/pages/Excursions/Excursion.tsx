@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
 import { Page } from '../../common/components/Page/Page';
-import TextWithLines from '../../common/components/TitleBarImageList/TitleWithLines';
+import PanedSection from '../../common/components/panes/SectionedPanes';
 import { getExcursion } from '../../common/services/excursionService';
 import './Excursion.scss';
 import { ExcludedServiceList } from './components/excursion-services/ExcludedServices';
@@ -14,8 +14,6 @@ const ExcursionText = 'Excursion';
 export const Excursion = (): JSX.Element => {
     const { excursionId } = useParams();
     const { t, i18n } = useTranslation();
-
-    console.log(i18n.language);
 
     const {
         data: excursion,
@@ -35,43 +33,62 @@ export const Excursion = (): JSX.Element => {
             description={excursionTitle}
             keywords={excursionTitle}
             title="Destination details"
-            style={{ padding: '5px 10px' }}
             className="excursion-detail"
         >
-            <div className="title">
-                <TextWithLines text="Destination" />
-                <Typography variant="h4">{excursionTitle}</Typography>
-            </div>
-            <div className="excursion-description">
-                <div className="description-text-container">
-                    <Typography variant="h5" className="setcion-title">
-                        Description
+            {isLoading ? (
+                <CircularProgress />
+            ) : (
+                <>
+                    <PanedSection
+                        title={
+                            <Typography variant="h5" className="setcion-title left-title">
+                                Description
+                            </Typography>
+                        }
+                        leftPane={{
+                            element: (
+                                <Typography variant="body1" className="description-text">
+                                    {excursion?.description}
+                                </Typography>
+                            ),
+                            className: 'content-pane',
+                        }}
+                        rightPane={{
+                            element: <img src="https://mui.com/static/images/cards/paella.jpg" alt="description" />,
+                            className: 'visual-pane',
+                        }}
+                    />
+                    <PanedSection
+                        title={
+                            <Typography variant="h5" className="setcion-title left-title">
+                                Highlights
+                            </Typography>
+                        }
+                        leftPane={{
+                            element: <img src="https://mui.com/static/images/cards/paella.jpg" alt="highlights" />,
+                            className: 'visual-pane',
+                        }}
+                        rightPane={{
+                            element: (
+                                <ul>
+                                    {excursion?.highlights.map((heighlight) => (
+                                        <li key={heighlight}>{heighlight}</li>
+                                    ))}
+                                </ul>
+                            ),
+                            className: 'content-pane',
+                        }}
+                    />
+                    <Typography variant="h5" className="setcion-title left-title">
+                        What is included
                     </Typography>
-                    <Typography variant="body1" className="description-text">
-                        {excursion?.description}
+                    <IncludedServiceCard services={excursion?.includedServices ?? []} />
+                    <Typography variant="h5" className="setcion-title left-title">
+                        What is not included
                     </Typography>
-                </div>
-                <div className="description-img-container">
-                    <img src="https://mui.com/static/images/cards/paella.jpg" alt="description-image" />
-                </div>
-            </div>
-            <Typography variant="h5" className="setcion-title highlights-title">
-                Highlights
-            </Typography>
-            <div className="excursion-highlights">
-                <div className="highlights-img-container">
-                    <img src="https://mui.com/static/images/cards/paella.jpg" alt="highlights-image" />
-                </div>
-                <div className="highlights-text-container">
-                    <ul>
-                        {excursion?.highlights.map((heighlight) => (
-                            <li key={heighlight}>{heighlight}</li>
-                        ))}
-                    </ul>
-                </div>
-            </div>
-            <IncludedServiceCard services={excursion?.includedServices || []} />
-            <ExcludedServiceList />
+                    <ExcludedServiceList />
+                </>
+            )}
         </Page>
     );
 };

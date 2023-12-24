@@ -6,8 +6,6 @@ export const ExcludedServiceList = () => {
 
     return (
         <div className="excluded-services-list">
-            <h3 className="excluded-services-title">What is not included</h3>
-
             <ul>
                 {EXCLUDED_SERVICES.map((service) => (
                     <li key={service}>

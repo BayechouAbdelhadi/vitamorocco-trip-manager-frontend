@@ -28,7 +28,6 @@ export const IncludedServiceCard = ({ services }: IncludedServicesProps) => {
 
     return (
         <div className="included-services-card">
-            <h3 className="included-services-title">What is included</h3>
             <Grid container spacing={2} justifyContent="center" className="included-services-container">
                 {INCLUDED_SERVICES.filter((s) => services.includes(s.name)).map((service) => (
                     <Grid
