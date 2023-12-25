@@ -23,27 +23,27 @@ export const ExcursionDetails = ({ excursion }: ExcursionDetailsInterface): JSX.
             leftPane={{
                 element: (
                     <ul className="no-bullets">
-                        <li className="excursion-detail-item">
+                        <li className="excursion-detail-item padded">
                             <ShutterSpeedIcon color="primary" /> Duration: {excursion?.duration}{' '}
                             {excursion?.durationUnit}
                         </li>
-                        <li className="excursion-detail-item">
+                        <li className="excursion-detail-item padded">
                             <CalendarMonthIcon color="primary" />
                             Available: {excursion?.frequency}
                         </li>
-                        <li className="excursion-detail-item">
+                        <li className="excursion-detail-item padded">
                             <HourglassTopIcon color="primary" />
                             Time of pick-up departure: {excursion?.departurePickupTime} local time your hotel
                         </li>
-                        <li className="excursion-detail-item">
+                        <li className="excursion-detail-item padded">
                             <HourglassBottomIcon color="primary" />
                             Return Time: {excursion?.returnPickupTime} local time
                         </li>
-                        <li className="excursion-detail-item">
+                        <li className="excursion-detail-item padded">
                             <HailIcon color="primary" />
                             Pick up and drop off From Your Hotel
                         </li>
-                        <li className="excursion-detail-item">
+                        <li className="excursion-detail-item padded">
                             <TimerIcon color="primary" />
                             Journey time {excursion?.departureCity}-{excursion?.destinationCity}:{' '}
                             {excursion?.journeyTime} {excursion?.journeyTimeUnit}

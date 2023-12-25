@@ -25,7 +25,7 @@ const theme = createTheme({
         },
     },
     typography: {
-        fontFamily: 'Arial, sans-serif',
+        fontFamily: 'system-ui',
         // You can define typography options here
     },
     // Add more theme options as needed

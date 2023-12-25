@@ -11,7 +11,7 @@
         li {
             display: flex;
             align-items: center;
-            padding: 12px 0;
+            padding: 6px 0;
             box-sizing: border-box;
             gap: 1rem;
         }
@@ -87,6 +87,10 @@
     svg {
         width: 33px;
         height: 33px;
+    }
+    &.padded{
+        padding: 12px 0;
+
     }
 }
 

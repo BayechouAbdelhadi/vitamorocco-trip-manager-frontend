@@ -1,4 +1,4 @@
-import { CircularProgress, Typography } from '@mui/material';
+import { CircularProgress, Container, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
@@ -44,7 +44,7 @@ export const Excursion = (): JSX.Element => {
                 <CircularProgress />
             ) : (
                 excursion && (
-                    <>
+                    <Container>
                         <div className="title">
                             <TextWithLines text="Destination" />
                             <Typography variant="h4">{excursionTitle}</Typography>
@@ -84,8 +84,8 @@ export const Excursion = (): JSX.Element => {
                                 element: <ExcludedServiceList />,
                                 className: 'content-pane',
                             }}
-                        />
-                    </>
+                        /> 
+                    </Container>
                 )
             )}
         </Page>
