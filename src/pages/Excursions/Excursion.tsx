@@ -13,11 +13,12 @@ import { ExcursionHighlights } from './components/ExcursionHighlights';
 import { ExcursionPricing } from './components/ExcursionPricing';
 import { ExcludedServiceList } from './components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from './components/excursion-services/IncludedServices';
+
 const ExcursionText = 'Excursion';
 
 export const Excursion = (): JSX.Element => {
     const { excursionId } = useParams();
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     const {
         data: excursion,
@@ -37,7 +38,7 @@ export const Excursion = (): JSX.Element => {
         <Page
             description={excursionTitle}
             keywords={excursionTitle}
-            title="Destination details"
+            title={t('destination_details')}
             className="excursion-detail"
         >
             {isLoading ? (
@@ -46,7 +47,7 @@ export const Excursion = (): JSX.Element => {
                 excursion && (
                     <Container>
                         <div className="title">
-                            <TextWithLines text="Destination" />
+                            <TextWithLines text={t('destination')} />
                             <Typography variant="h4">{excursionTitle}</Typography>
                         </div>
                         <ExcursionDescription excursion={excursion} />
@@ -55,7 +56,7 @@ export const Excursion = (): JSX.Element => {
                         <PanedSection
                             title={
                                 <Typography variant="h5" className="setcion-title left-title">
-                                    Pricing
+                                    {t('pricing')}
                                 </Typography>
                             }
                             leftPane={{
@@ -66,7 +67,7 @@ export const Excursion = (): JSX.Element => {
                         <PanedSection
                             title={
                                 <Typography variant="h5" className="setcion-title left-title">
-                                    What is included
+                                    {t('whats_included')}
                                 </Typography>
                             }
                             leftPane={{
@@ -77,14 +78,14 @@ export const Excursion = (): JSX.Element => {
                         <PanedSection
                             title={
                                 <Typography variant="h5" className="setcion-title left-title">
-                                    What is not included
+                                    {t('whats_not_included')}
                                 </Typography>
                             }
                             leftPane={{
                                 element: <ExcludedServiceList />,
                                 className: 'content-pane',
                             }}
-                        /> 
+                        />
                     </Container>
                 )
             )}

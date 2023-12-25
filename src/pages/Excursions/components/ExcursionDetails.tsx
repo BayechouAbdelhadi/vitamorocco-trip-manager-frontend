@@ -5,6 +5,7 @@ import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import ShutterSpeedIcon from '@mui/icons-material/ShutterSpeed';
 import TimerIcon from '@mui/icons-material/Timer';
 import { Typography } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
 import { Excursion } from '../../../common/types/excursion';
 
@@ -13,40 +14,44 @@ interface ExcursionDetailsInterface {
     excursion: Excursion;
 }
 export const ExcursionDetails = ({ excursion }: ExcursionDetailsInterface): JSX.Element => {
+    const { t } = useTranslation();
     return (
         <PanedSection
             title={
                 <Typography variant="h5" className="setcion-title left-title">
-                    Trip details
+                    {t('trip_details')}
                 </Typography>
             }
             leftPane={{
                 element: (
                     <ul className="no-bullets">
                         <li className="excursion-detail-item padded">
-                            <ShutterSpeedIcon color="primary" /> Duration: {excursion?.duration}{' '}
+                            <ShutterSpeedIcon color="primary" /> {t('duration')}: {excursion?.duration}{' '}
                             {excursion?.durationUnit}
                         </li>
                         <li className="excursion-detail-item padded">
                             <CalendarMonthIcon color="primary" />
-                            Available: {excursion?.frequency}
+                            {t('available')}: {excursion?.frequency}
                         </li>
                         <li className="excursion-detail-item padded">
                             <HourglassTopIcon color="primary" />
-                            Time of pick-up departure: {excursion?.departurePickupTime} local time your hotel
+                            {t('pick_up_time_departure')}: {excursion?.departurePickupTime} ({t('local_time')})
                         </li>
                         <li className="excursion-detail-item padded">
                             <HourglassBottomIcon color="primary" />
-                            Return Time: {excursion?.returnPickupTime} local time
+                            {t('return_time')}: {excursion?.returnPickupTime} ({t('local_time')})
                         </li>
                         <li className="excursion-detail-item padded">
                             <HailIcon color="primary" />
-                            Pick up and drop off From Your Hotel
+                            {t('pick_up_and_drop_off_from_hotel')}
                         </li>
                         <li className="excursion-detail-item padded">
                             <TimerIcon color="primary" />
-                            Journey time {excursion?.departureCity}-{excursion?.destinationCity}:{' '}
-                            {excursion?.journeyTime} {excursion?.journeyTimeUnit}
+                            {t('journey_time')}
+                            <strong>
+                                {excursion?.departureCity}-{excursion?.destinationCity}
+                            </strong>
+                            : {excursion?.journeyTime} {excursion?.journeyTimeUnit}
                         </li>
                     </ul>
                 ),

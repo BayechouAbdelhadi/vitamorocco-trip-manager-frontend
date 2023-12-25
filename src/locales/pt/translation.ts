@@ -4,6 +4,7 @@ import { ERROR_TRANSLATION } from './error';
 
 export const TRANSLATION_PT = {
     // A
+    available: 'Disponível',
     ...ALERT_TRANSLATION,
     // B
     // C
@@ -14,6 +15,10 @@ export const TRANSLATION_PT = {
     CONFIRM_TRANSLATION, // Assuming CONFIRM_TRANSLATION is an object with its own alphabetical order
     // D
     date: 'Data',
+    description: 'Descrição',
+    destination: 'Destino',
+    destination_details: 'Detalhes do destino',
+    duration: 'Duração',
     // E
     ERROR_TRANSLATION, // Assuming ERROR_TRANSLATION is an object with its own alphabetical order
     email: 'E-mail',
@@ -26,6 +31,7 @@ export const TRANSLATION_PT = {
     firstName: 'Nome',
     // G
     // H
+    highlights: 'Destaques',
     // I
     included_services: {
         private_tour: {
@@ -54,22 +60,35 @@ export const TRANSLATION_PT = {
         },
     },
     // J
+    journey_time: 'Tempo de viagem',
     // K
     // L
     lastName: 'Sobrenome',
+    local_time: 'Hora local',
     // M
     message: 'Mensagem',
     // N
     // O
     // P
+    pick_up_time_departure: 'Hora de partida para a coleta"',
+    pick_up_and_drop_off_from_hotel: 'Coleta e entrega no seu hotel',
+    pricing: 'Preços',
+    pricing_message:
+        'O preço do passeio/excursão depende do número de viajantes. Abaixo, indicamos os preços de acordo com o número de viajantes, bem como os serviços incluídos. Decida-se e entre em contato conosco.',
+    pricing_warning:
+        'Preços válidos para qualquer época do ano, exceto Natal e Páscoa (verifique preços e disponibilidade).',
     // Q
     // R
+    return_time: 'Hora de retorno',
     // S
     submit: 'Enviar',
     // T
+    trip_details: 'Detalhes da viagem',
     // U
     // V
     // W
+    whats_included: 'O que está incluído',
+    whats_not_included: 'O que não está incluído',
     // X
     // Y
     // Z

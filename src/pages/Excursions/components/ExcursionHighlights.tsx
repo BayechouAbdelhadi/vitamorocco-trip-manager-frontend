@@ -1,17 +1,19 @@
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import { Typography } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
 import { Excursion } from '../../../common/types/excursion';
-import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
 interface ExcursionHighlightsInterface {
     excursion: Excursion;
 }
 export const ExcursionHighlights = ({ excursion }: ExcursionHighlightsInterface): JSX.Element => {
+    const { t } = useTranslation();
     return (
         <PanedSection
             title={
                 <Typography variant="h5" className="setcion-title left-title">
-                    Highlights
+                    {t('highlights')}
                 </Typography>
             }
             leftPane={{

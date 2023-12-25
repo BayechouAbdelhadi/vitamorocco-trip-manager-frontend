@@ -1,3 +1,4 @@
+import { Container } from '@mui/material';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import React, { useState } from 'react';
@@ -39,67 +40,69 @@ export const Contact = (): JSX.Element => {
 
     return (
         <Page description={t(ContactText)} keywords={t(ContactText)} title={t(ContactText)} className="contact-page">
-            <div className="contact-form-container">
-                <img src="/img/contact-us.svg" alt="contact-us" className="contact-us-img" />
-                <form onSubmit={handleSubmit} className="contact-form">
-                    <div className="contact-message">{t('contact.message')}</div>
-                    <div className="name-fields">
+            <Container>
+                <div className="contact-form-container">
+                    <img src="/img/contact-us.svg" alt="contact-us" className="contact-us-img" />
+                    <form onSubmit={handleSubmit} className="contact-form">
+                        <div className="contact-message">{t('contact.message')}</div>
+                        <div className="name-fields">
+                            <TextField
+                                label={t('firstName')}
+                                variant="outlined"
+                                fullWidth
+                                value={firstname}
+                                onChange={handleInputChange}
+                                margin="normal"
+                                name="firstname"
+                                className="form-field"
+                            />
+                            <TextField
+                                label={t('lastName')}
+                                variant="outlined"
+                                fullWidth
+                                value={lastname}
+                                onChange={handleInputChange}
+                                margin="normal"
+                                name="lastname"
+                                className="form-field"
+                            />
+                        </div>
                         <TextField
-                            label={t('firstName')}
+                            label={t('email')}
                             variant="outlined"
                             fullWidth
-                            value={firstname}
+                            value={email}
                             onChange={handleInputChange}
                             margin="normal"
-                            name="firstname"
+                            name="email"
                             className="form-field"
                         />
                         <TextField
-                            label={t('lastName')}
+                            label={t('message')}
                             variant="outlined"
                             fullWidth
-                            value={lastname}
+                            multiline
+                            rows={4}
+                            value={message}
                             onChange={handleInputChange}
                             margin="normal"
-                            name="lastname"
+                            name="message"
                             className="form-field"
                         />
-                    </div>
-                    <TextField
-                        label={t('email')}
-                        variant="outlined"
-                        fullWidth
-                        value={email}
-                        onChange={handleInputChange}
-                        margin="normal"
-                        name="email"
-                        className="form-field"
-                    />
-                    <TextField
-                        label={t('message')}
-                        variant="outlined"
-                        fullWidth
-                        multiline
-                        rows={4}
-                        value={message}
-                        onChange={handleInputChange}
-                        margin="normal"
-                        name="message"
-                        className="form-field"
-                    />
-                    <Button type="submit" variant="contained" color="primary">
-                        {t('submit')}
-                    </Button>
-                </form>
-            </div>
-
-            <iframe
-                className="map"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d108690.19292973392!2d-8.026930121735917!3d31.645662069611056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAv%20Al%20Amira%2C%20Marrakech%2C%20Morocco!5e0!3m2!1sfr!2sus!4v1697394995363!5m2!1sfr!2sus"
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+                        <Button type="submit" variant="contained" color="primary">
+                            {t('submit')}
+                        </Button>
+                    </form>
+                </div>
+                <iframe
+                    title="map"
+                    className="map"
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d108690.19292973392!2d-8.026930121735917!3d31.645662069611056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAv%20Al%20Amira%2C%20Marrakech%2C%20Morocco!5e0!3m2!1sfr!2sus!4v1697394995363!5m2!1sfr!2sus"
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </Container>
         </Page>
     );
 };
