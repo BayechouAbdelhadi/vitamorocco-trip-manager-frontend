@@ -1,4 +1,3 @@
-
 export interface Excursion {
     id: string;
     title: string;
@@ -11,8 +10,10 @@ export interface Excursion {
     journeyTime: number;
     journeyTimeUnit: string;
     highlights: string[];
+    pricing: string[];
     journeyUnit: string;
     duration: number;
+    durationUnit: string;
     frequency: string;
     mapLink: string;
 }

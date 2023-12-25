@@ -75,7 +75,11 @@ const getHeaders = (body?: any, headers?: any) => {
 
     const contentType = getContentType(body); // TODO validate if its still necessary with axios
     // const defaultHeaders: any = { Authorization: localStorage.getItem("access_token") };
-    const defaultHeaders: any = { 'X-Client': 'react' };
+    const defaultHeaders: any = {
+        'X-Client': 'react',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+    };
 
     if (contentType) {
         defaultHeaders['Content-Type'] = contentType;

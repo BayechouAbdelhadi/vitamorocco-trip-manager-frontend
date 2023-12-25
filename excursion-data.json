@@ -64,6 +64,36 @@
             "ar": "توقف لالتقاط الصور."
         }
     ],
+    "pricing": [
+        {
+            "fr": "Groupe de 1 à 6 personnes : 160€",
+            "en": "Group of 1 to 6 people: 160€",
+            "es": "Grupo de 1 a 6 personas: 160€",
+            "pt": "Grupo de 1 a 6 pessoas: 160€",
+            "ar": "مجموعة من 1 إلى 6 أشخاص: 160 يورو"
+        },
+        {
+            "fr": "Groupe de 7 à 10 personnes : 220€",
+            "en": "Group of 7 to 10 people: 220€",
+            "es": "Grupo de 7 a 10 personas: 220€",
+            "pt": "Grupo de 7 a 10 pessoas: 220€",
+            "ar": "مجموعة من 7 إلى 10 أشخاص: 220 يورو"
+        },
+        {
+            "fr": "Groupe de 11 à 14 personnes : 250€",
+            "en": "Group of 11 to 14 people: 250€",
+            "es": "Grupo de 11 a 14 personas: 250€",
+            "pt": "Grupo de 11 a 14 pessoas: 250€",
+            "ar": "مجموعة من 11 إلى 14 شخصًا: 250 يورو"
+        },
+        {
+            "fr": "Groupe de 15 à 16 personnes : 300€",
+            "en": "Group of 15 to 16 people: 300€",
+            "es": "Grupo de 15 a 16 personas: 300€",
+            "pt": "Grupo de 15 a 16 pessoas: 300€",
+            "ar": "مجموعة من 15 إلى 16 شخصًا: 300 يورو"
+        }
+    ],
     "duration": 1,
     "durationUnit": "day",
     "frequency": {
