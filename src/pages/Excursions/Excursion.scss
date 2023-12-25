@@ -49,7 +49,7 @@
 }
 
 .setcion-title {
-    margin-bottom: 0.5rem 0;
+    margin: 1rem 0.5rem;
     font-weight: bold;
 }
 .left-title {
@@ -80,8 +80,9 @@
     display: flex;
     min-width: 300px;
     justify-content: left;
+    text-align: justify;
+    text-justify: inter-word;
 }
-
 .excursion-detail-item {
     svg {
         width: 33px;

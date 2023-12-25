@@ -3,14 +3,16 @@ import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
 import { Page } from '../../common/components/Page/Page';
+import TextWithLines from '../../common/components/TitleBarImageList/TitleWithLines';
+import PanedSection from '../../common/components/panes/SectionedPanes';
 import { getExcursion } from '../../common/services/excursionService';
 import './Excursion.scss';
 import { ExcursionDescription } from './components/ExcursionDescription';
 import { ExcursionDetails } from './components/ExcursionDetails';
 import { ExcursionHighlights } from './components/ExcursionHighlights';
+import { ExcursionPricing } from './components/ExcursionPricing';
 import { ExcludedServiceList } from './components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from './components/excursion-services/IncludedServices';
-import { ExcursionPricing } from './components/ExcursionPricing';
 const ExcursionText = 'Excursion';
 
 export const Excursion = (): JSX.Element => {
@@ -43,21 +45,46 @@ export const Excursion = (): JSX.Element => {
             ) : (
                 excursion && (
                     <>
+                        <div className="title">
+                            <TextWithLines text="Destination" />
+                            <Typography variant="h4">{excursionTitle}</Typography>
+                        </div>
                         <ExcursionDescription excursion={excursion} />
                         <ExcursionHighlights excursion={excursion} />
                         <ExcursionDetails excursion={excursion} />
-                        <Typography variant="h5" className="setcion-title left-title">
-                           Pricing
-                        </Typography>
-                        <ExcursionPricing excursion={excursion} />
-                        <Typography variant="h5" className="setcion-title left-title">
-                            What is included
-                        </Typography>
-                        <IncludedServiceCard services={excursion.includedServices ?? []} />
-                        <Typography variant="h5" className="setcion-title left-title">
-                            What is not included
-                        </Typography>
-                        <ExcludedServiceList />
+                        <PanedSection
+                            title={
+                                <Typography variant="h5" className="setcion-title left-title">
+                                    Pricing
+                                </Typography>
+                            }
+                            leftPane={{
+                                element: <ExcursionPricing excursion={excursion} />,
+                                className: 'content-pane',
+                            }}
+                        />
+                        <PanedSection
+                            title={
+                                <Typography variant="h5" className="setcion-title left-title">
+                                    What is included
+                                </Typography>
+                            }
+                            leftPane={{
+                                element: <IncludedServiceCard services={excursion.includedServices ?? []} />,
+                                className: 'content-pane',
+                            }}
+                        />
+                        <PanedSection
+                            title={
+                                <Typography variant="h5" className="setcion-title left-title">
+                                    What is not included
+                                </Typography>
+                            }
+                            leftPane={{
+                                element: <ExcludedServiceList />,
+                                className: 'content-pane',
+                            }}
+                        />
                     </>
                 )
             )}

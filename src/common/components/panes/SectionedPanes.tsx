@@ -7,16 +7,16 @@ interface Pane {
 
 interface PanedSectionInterface {
     title?: JSX.Element;
-    leftPane: Pane;
-    rightPane: Pane;
+    leftPane?: Pane;
+    rightPane?: Pane;
 }
 const PanedSection: React.FC<PanedSectionInterface> = ({ title, leftPane, rightPane }) => {
     return (
         <div className="sectioned-pane-container">
             {title}
             <div className="panes-container">
-                <div className={`pane ${leftPane.className ?? ''}`}>{leftPane.element}</div>
-                <div className={`pane ${rightPane.className ?? ''}`}>{rightPane.element}</div>
+                {leftPane && <div className={`pane ${leftPane.className ?? ''}`}>{leftPane.element}</div>}
+                {rightPane && <div className={`pane ${rightPane.className ?? ''}`}>{rightPane.element}</div>}
             </div>
         </div>
     );
