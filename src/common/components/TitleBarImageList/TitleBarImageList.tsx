@@ -21,15 +21,14 @@ type ImageListProps = {
 
 export default function TitlebarImageList({ itemData, showLoadMore = false }: ImageListProps) {
   return (
-    <ImageList sx={{ maxWidth: '900px', width: '100%', display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
+    <ImageList sx={{ maxWidth: '1200px', width: '100%', display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
       {/* <ImageListItem key="Subheader" cols={3}>
         <ListSubheader component="div">December</ListSubheader>
       </ImageListItem> */}
       {itemData.map((item) => (
-        <ImageListItem key={item.img} sx={{ margin: '1rem 1rem' }}>
+        <ImageListItem key={item.img} sx={{ margin: '.5rem' }}>
           <img
-            srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-            src={`${item.img}?w=248&0&h=350&fit=crop&auto=format`}
+            src={`${item.img}?w=400&0&h=420&fit=crop&auto=format`}
             alt={item.title}
             loading="lazy"
           />

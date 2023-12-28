@@ -21,7 +21,7 @@ type ImageSliderProps = {
     slideInterval?: number
 }
 
-export default function Carousel({ images, slideInterval = 5000, maxWidth = '2400px', height = '100%' }: ImageSliderProps) {
+export default function Carousel({ images, slideInterval = 5000, maxWidth = '100vw' }: ImageSliderProps) {
     const [imageIndex, setImageIndex] = useState(0)
     const [isHovered, setIsHovered] = useState(false);
 
@@ -57,11 +57,10 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '240
     return (
         <Box
             sx={{
-                height: height,
                 maxWidth: maxWidth,
                 width: '100%',
                 margin: '0 auto',
-                aspectRatio: { xs: '3/4', md: '9/3', lg: '9/3' },
+                aspectRatio: { xs: '3/4', md: '8/3' },
             }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -80,7 +79,7 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '240
                             />
                             <div className="img-slider-content">
                                 <h2>{images[imageIndex].title}</h2>
-                                <p>{images[imageIndex].description}</p>
+                                <a href="https://www.google.com" target="__blank">{images[imageIndex].description}</a>
                             </div>
                         </div>
                     ))}
