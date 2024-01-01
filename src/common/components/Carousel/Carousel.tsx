@@ -21,7 +21,7 @@ type ImageSliderProps = {
     slideInterval?: number
 }
 
-export default function Carousel({ images, slideInterval = 5000, maxWidth = '100vw' }: ImageSliderProps) {
+export default function Carousel({ images, slideInterval = 6000, maxWidth = '100vw' }: ImageSliderProps) {
     const [imageIndex, setImageIndex] = useState(0)
     const [isHovered, setIsHovered] = useState(false);
 
@@ -79,7 +79,7 @@ export default function Carousel({ images, slideInterval = 5000, maxWidth = '100
                             />
                             <div className="img-slider-content">
                                 <h2>{images[imageIndex].title}</h2>
-                                <a href="https://www.google.com" target="__blank">{images[imageIndex].description}</a>
+                                <a href="https://www.google.com" target="__blank"><i>{images[imageIndex].description}</i></a>
                             </div>
                         </div>
                     ))}

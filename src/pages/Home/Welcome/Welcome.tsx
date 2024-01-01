@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom'
-import { scrollToTop } from '../../../common/utils'
+import Divider from '@mui/material/Divider';
 import './Welcome.scss'
-import TextWithLines from '../../../common/components/TitleBarImageList/TitleWithLines'
+import { Chip, Typography } from '@mui/material';
 
 function Welcome() {
     return (
@@ -9,10 +8,13 @@ function Welcome() {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            margin: '0 30px'
+            margin: '0 30px',
+            position: 'relative',
         }}
         >
-            <h2>Welcome To Vita Morocco</h2>
+            <div style={{ width: '100%' }}>
+                <Divider sx={{ borderBottomWidth: '45px' }} ><h2>Welcome To Vita Morocco</h2></Divider>
+            </div>
             <h1 style={{ fontStyle: 'italic' }} >The Best Travel Service Provider</h1>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
                 <div style={{
@@ -29,19 +31,14 @@ function Welcome() {
                     <h4>
                         Our goal is to provide the best iteneraries with real  & authentic experience
                     </h4>
-                    <button>
-                        <Link to="/" onClick={scrollToTop}>
-                            Get Started
-                        </Link>
-                    </button>
                 </div>
                 <img
-                    style={{
-                        borderRadius: '10px',
-                    }}
-                    src="/img/not-found-small.png"
-                    alt="Home" />
-
+                    className='welcome-image'
+                    src="/img/welcome.jpg"
+                    alt="Home"
+                    height={250}
+                    width={350}
+                />
             </div>
         </div>
     )

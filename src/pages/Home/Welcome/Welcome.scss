@@ -1,14 +1,16 @@
 h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: clamp(1.3rem, 2.3vw, 2rem);
     margin-bottom: 10px;
+    position: relative;
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-size: 3rem;
+    font-size: clamp(1.5rem, 3.3vw, 3rem);
     margin-bottom: 20px;
 }
 
@@ -16,11 +18,13 @@ p {
     color: #555;
 }
 
-// button {
-//     background-color: #B14C59;
-//     color: #fff;
-//     border: none;
-//     padding: 10px 20px;
-//     font-size: 1rem;
-//     cursor: pointer;
-// }
+.welcome-image {
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.css-3dvkce-MuiDivider-root::after,
+.css-3dvkce-MuiDivider-root::before {
+    border-top: 3px solid #B14C59;
+    ;
+}

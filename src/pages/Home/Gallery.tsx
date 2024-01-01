@@ -1,9 +1,12 @@
+import { Divider } from '@mui/material';
 import TitleBarImageList from '../../common/components/TitleBarImageList'
 
 export default function Gallery() {
     return (
-        <div style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', background: "#72c9e3" }}>
-            <h3>Gallery</h3>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <div style={{ width: '100%' }}>
+                <Divider sx={{ borderBottomWidth: '45px' }} ><h3>Gallery</h3></Divider>
+            </div>
             <h2>Memories We Collect</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit voluptas soluta,
@@ -61,28 +64,5 @@ const itemData = [
         img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
         title: 'Fern',
         author: '@katie_wasserman',
-    },
-    {
-        img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-        title: 'Mushrooms',
-        author: '@silverdalex',
-        rows: 2,
-        cols: 2,
-    },
-    {
-        img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-        title: 'Tomato basil',
-        author: '@shelleypauls',
-    },
-    {
-        img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-        title: 'Sea star',
-        author: '@peterlaster',
-    },
-    {
-        img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-        title: 'Bike',
-        author: '@southside_customs',
-        cols: 2,
     },
 ];

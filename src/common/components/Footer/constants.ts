@@ -52,49 +52,48 @@ const SERVICES = [
 ]
 
 export const FOOTER_LINKS = [
-    {
-      is_logo: true,
-    },
-    {
-      title: 'Features',
-      links: SERVICES,
-    },
-    {
-      title: 'Contact Me',
-      links: CONTACT_BOXES,
-    },
-    {
-      title: 'Portfolio',
-      links: [
-        {
-          title: 'Github',
-          link: 'https://github.com/',
-          is_blank_target: true
-        },
-        {
-          title: 'Dribbble',
-          link: 'https://dribbble.com/',
-          is_blank_target: true
-        }
-      ],
-    },
-    {
-      title: 'Policies',
-      links: [
-        {
-          title: 'Privacy Policy',
-          link: '/website/privacy',
-        },
-        {
-          title: 'Terms and Conditions',
-          link: '/website/terms',
-        },
-        {
-          title: 'Learn More',
-          link: '/website/about',
-        }
-      ]
-    }
-  ]
+  {
+    is_logo: true,
+  },
+  {
+    title: 'Features',
+    // links: SERVICES,
+  },
+  {
+    title: 'Contact Me',
+    // links: CONTACT_BOXES,
+  },
+  {
+    title: 'Portfolio',
+    // links: [
+    //   {
+    //     title: 'Github',
+    //     link: 'https://github.com/',
+    //     is_blank_target: true
+    //   },
+    //   {
+    //     title: 'Dribbble',
+    //     link: 'https://dribbble.com/',
+    //     is_blank_target: true
+    //   }
+    // ],
+  },
+  {
+    title: 'Policies',
+    // links: [
+    //   {
+    //     title: 'Privacy Policy',
+    //     link: '/website/privacy',
+    //   },
+    //   {
+    //     title: 'Terms and Conditions',
+    //     link: '/website/terms',
+    //   },
+    //   {
+    //     title: 'Learn More',
+    //     link: '/website/about',
+    //   }
+    // ]
+  }
+]
 
-  
