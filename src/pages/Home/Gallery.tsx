@@ -1,24 +1,23 @@
-import { Divider } from '@mui/material';
 import TitleBarImageList from '../../common/components/TitleBarImageList'
+import TextWithLines from '../../common/components/TitleBarImageList/TitleWithLines';
 
 export default function Gallery() {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div style={{ width: '100%' }}>
-                <Divider sx={{ borderBottomWidth: '45px' }} ><h3>Gallery</h3></Divider>
-            </div>
+            <TextWithLines text='Gallery' />
             <h2>Memories We Collect</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit voluptas soluta,
             </p>
-            <TitleBarImageList itemData={itemData} showLoadMore />
+            {/* <TitleBarImageList itemData={itemData} showLoadMore /> */}
+            <TitleBarImageList itemData={itemData} />
         </div>
     )
 }
 
 const itemData = [
     {
-        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        img: '/img/destinations/excursion.jpeg',
         title: 'Breakfast',
         author: '@bkristastucchio',
         rows: 2,
@@ -26,29 +25,29 @@ const itemData = [
         featured: true,
     },
     {
-        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        img: '/img/destinations/activity.jpeg',
         title: 'Burger',
         author: '@rollelflex_graphy726',
     },
     {
-        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        img: '/img/destinations/tour.jpg',
         title: 'Camera',
         author: '@helloimnik',
     },
     {
-        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        img: '/img/1.jpg',
         title: 'Coffee',
         author: '@nolanissac',
         cols: 2,
     },
     {
-        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        img: '/img/2.jpg',
         title: 'Hats',
         author: '@hjrc33',
         cols: 2,
     },
     {
-        img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
+        img: '/img/welcome.jpg',
         title: 'Honey',
         author: '@arwinneil',
         rows: 2,

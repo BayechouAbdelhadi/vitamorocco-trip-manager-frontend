@@ -3,6 +3,7 @@ import { Page } from '../../common/components/Page/Page';
 import ContactUs from './ContactUs';
 import Destinations from './Destinations';
 import Gallery from './Gallery';
+import TripAdvisorReviews from './TripAdvisorReviews';
 import Welcome from './Welcome/Welcome';
 
 const IMAGES = [
@@ -30,6 +31,7 @@ export const Home = (): JSX.Element => {
             <Carousel images={IMAGES} />
             <Welcome />
             <Destinations />
+            <TripAdvisorReviews slides={['/img/2.jpg', '/img/1.jpg', '/img/2.jpg', '/img/1.jpg']} />
             <Gallery />
             <ContactUs />
         </Page>

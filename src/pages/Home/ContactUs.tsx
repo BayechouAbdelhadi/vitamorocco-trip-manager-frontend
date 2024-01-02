@@ -1,14 +1,13 @@
-import { Button, Divider } from '@mui/material'
+import { Button } from '@mui/material'
 import { Link } from 'react-router-dom'
 import { scrollToTop } from '../../common/utils'
+import TextWithLines from '../../common/components/TitleBarImageList/TitleWithLines'
 
 function ContactUs() {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div style={{ width: '100%' }}>
-                <Divider sx={{ borderBottomWidth: '45px' }} ><h3>Are You Ready</h3></Divider>
-            </div>
-            <h2>Explore With US</h2>
+            <TextWithLines text='Gallery' />
+            <h2>Are You Ready</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit voluptas soluta,
             </p>

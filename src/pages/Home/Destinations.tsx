@@ -1,13 +1,11 @@
-import { Divider } from "@mui/material";
 import TitleBarImageList from "../../common/components/TitleBarImageList"
+import TextWithLines from "../../common/components/TitleBarImageList/TitleWithLines";
 
 
 function Destinations() {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '1rem' }}>
-            <div style={{ width: '100%' }}>
-                <Divider sx={{ borderBottomWidth: '45px' }} ><h2>Our Destinations</h2></Divider>
-            </div>
+            <TextWithLines text='Our Destinations' />
             <h2>Our Traveler&apos;s Favourite Destinations</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

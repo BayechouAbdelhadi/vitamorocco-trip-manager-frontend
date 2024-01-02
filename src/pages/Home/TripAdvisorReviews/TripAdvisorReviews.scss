@@ -1,0 +1,56 @@
+.swiper {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+    --swiper-pagination-color: rgba(56, 245, 255, 1);
+    --swiper-pagination-bullet-inactive-color: white;
+}
+
+@media (max-width: 490px) {
+    .swiper {
+        max-width: 370px !important;
+    }
+}
+
+.swiper-slide {
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+    width: 15px;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.button-next,
+.button-prev {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(56, 245, 255, 0.2);
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+:is(.button-next, .button-prev):hover {
+    background-color: rgba(56, 245, 255, 0.3);
+}
+
+.button-next {
+    right: 10px;
+}
+
+.button-prev {
+    left: 10px;
+}

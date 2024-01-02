@@ -69,3 +69,9 @@ img {
     width: 100%;
     text-align: center;
 }
+
+
+.css-3dvkce-MuiDivider-root::after,
+.css-3dvkce-MuiDivider-root::before {
+    border-top: 3px solid #B14C59 !important;
+}

@@ -1,6 +1,7 @@
 import Divider from '@mui/material/Divider';
 import './Welcome.scss'
 import { Chip, Typography } from '@mui/material';
+import TextWithLines from '../../../common/components/TitleBarImageList/TitleWithLines';
 
 function Welcome() {
     return (
@@ -12,9 +13,7 @@ function Welcome() {
             position: 'relative',
         }}
         >
-            <div style={{ width: '100%' }}>
-                <Divider sx={{ borderBottomWidth: '45px' }} ><h2>Welcome To Vita Morocco</h2></Divider>
-            </div>
+            <TextWithLines text='Welcome To Vita Morocco' />
             <h1 style={{ fontStyle: 'italic' }} >The Best Travel Service Provider</h1>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
                 <div style={{

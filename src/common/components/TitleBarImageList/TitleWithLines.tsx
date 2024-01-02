@@ -1,34 +1,23 @@
-import { styled } from '@mui/system';
+import { Divider } from '@mui/material';
 
-const TextContainer = styled('div')({
-    display: 'flex',
-    alignItems: 'center',
-    minWidth: 400,
-});
-
-const Line = styled('div')({
-    flex: 1,
-    height: '1px',
-    backgroundColor: '#E5CF0A',
-    margin: '0',
-});
-
-const Text = styled('p')(({ theme }) => ({
-    flex: 1,
-    textAlign: 'center',
-    fontSize: '16px',
-    color: theme.palette.primary.main,
-}));
 interface TextWithLinesProps {
     text: string;
 }
 function TextWithLines({ text }: TextWithLinesProps) {
     return (
-        <TextContainer>
-            <Line />
-            <Text color="primary"> {text}</Text>
-            <Line />
-        </TextContainer>
+        <div style={{ width: '100%' }}>
+            <Divider sx={{ borderBottomWidth: '45px' }}>
+                <h3 style={{
+                    "fontFamily": 'Playfair Display',
+                    "fontWeight": '600',
+                    "fontSize": "clamp(1.3rem, 2.3vw, 2rem)",
+                    "marginBottom": "10px",
+                    "position": "relative"
+                }}>
+                    {text}
+                </h3>
+            </Divider>
+        </div>
     );
 }
 
