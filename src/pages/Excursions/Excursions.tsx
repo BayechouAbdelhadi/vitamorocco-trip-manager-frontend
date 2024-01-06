@@ -7,12 +7,32 @@ import './Excursions.scss';
 
 const ExcursionsText = 'Excursions';
 
+const excursions = [{
+    id: "string",
+    title: "string",
+    description: "string",
+    destinationCity: "string",
+    includedServices: ["string[]"],
+    departureCity: "string",
+    departurePickupTime: "string",
+    returnPickupTime: "string",
+    journeyTime: 1,
+    journeyTimeUnit: "string",
+    highlights: ["string"],
+    pricing: ["string[]"],
+    journeyUnit: "string",
+    duration: 2,
+    durationUnit: "string",
+    frequency: "string",
+    mapLink: "string",
+}]
+
 export const Excursions = (): JSX.Element => {
-    const { data: excursions, isLoading } = useQuery('excursions', getExcursions);
+    // const { data: excursions, isLoading } = useQuery('excursions', getExcursions);
 
     return (
         <Page description={ExcursionsText} keywords={ExcursionsText} title={ExcursionsText}>
-            {isLoading ? (
+            {false ? (
                 // <>Loading.........</>
                 <CircularProgress />
             ) : (
@@ -20,42 +40,6 @@ export const Excursions = (): JSX.Element => {
                     {excursions?.map((excursion) => (
                         <ExcursionSummary key={excursion.id} excursion={excursion} />
                     ))}
-                    {/* {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))} */}
                 </div>
             )}
         </Page>

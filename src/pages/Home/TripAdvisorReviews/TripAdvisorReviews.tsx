@@ -3,13 +3,14 @@ import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import Review from "./Review";
+import TextWithLines from "../../../common/components/TitleBarImageList/TitleWithLines";
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./TripAdvisorReviews.scss";
-import TextWithLines from "../../../common/components/TitleBarImageList/TitleWithLines";
 
 
 
@@ -19,26 +20,28 @@ interface Props {
 
 function TripAdvisorReviews({ slides }: Props) {
 
+    const isXs = useMediaQuery('(max-width:600px)');
+
     return (
         <div>
             <TextWithLines text="What our clients say" />
             <Swiper
-                modules={[EffectCoverflow, Navigation, Pagination]}
-                navigation={{
-                    prevEl: ".button-prev",
-                    nextEl: ".button-next",
-                }}
-                speed={1000}
-                slidesPerView={"auto"}
-                centeredSlides
+                effect={'coverflow'}
+                grabCursor
+                slidesPerView={isXs ? 'auto' : 3}
                 loop
-                effect={"coverflow"}
                 coverflowEffect={{
                     rotate: 50,
                     stretch: 0,
                     depth: 100,
                     modifier: 1,
                     slideShadows: true,
+                }}
+                pagination
+                modules={[EffectCoverflow, Pagination, Navigation]}
+                navigation={{
+                    prevEl: ".button-prev",
+                    nextEl: ".button-next",
                 }}
             >
                 {slides.map((slide, index) => (

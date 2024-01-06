@@ -1,13 +1,10 @@
 .swiper {
     width: 100%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px auto;
+    max-width: 1100px;
+    padding: 40px 10px;
 
     --swiper-pagination-color: rgba(56, 245, 255, 1);
-    --swiper-pagination-bullet-inactive-color: white;
+    --swiper-pagination-bullet-inactive-color: rgb(211, 36, 36);
 }
 
 @media (max-width: 490px) {
@@ -17,11 +14,10 @@
 }
 
 .swiper-slide {
+    background-position: center;
+    background-size: cover;
     width: 300px;
     height: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .swiper-pagination-bullet-active {
@@ -48,9 +44,9 @@
 }
 
 .button-next {
-    right: 10px;
+    right: 5px;
 }
 
 .button-prev {
-    left: 10px;
+    left: 5px;
 }

@@ -20,19 +20,39 @@ export const Excursion = (): JSX.Element => {
     const { excursionId } = useParams();
     const { t } = useTranslation();
 
-    const {
-        data: excursion,
-        isLoading,
-        isError,
-    } = useQuery(`excursion-${excursionId}`, () => getExcursion(excursionId as string), {
-        enabled: Boolean(excursionId), // Only enable the query when excursionId is defined
-    });
+    // const {
+    //     data: excursion,
+    //     isLoading,
+    //     isError,
+    // } = useQuery(`excursion-${excursionId}`, () => getExcursion(excursionId as string), {
+    //     enabled: Boolean(excursionId), // Only enable the query when excursionId is defined
+    // });
+
+    const excursion = {
+        id: "string",
+        title: "string",
+        description: "string",
+        destinationCity: "string",
+        includedServices: ["string[]"],
+        departureCity: "string",
+        departurePickupTime: "string",
+        returnPickupTime: "string",
+        journeyTime: 1,
+        journeyTimeUnit: "string",
+        highlights: ["string", "eeeeeee"],
+        pricing: ["string[]", "qqqqqqqqq"],
+        journeyUnit: "string",
+        duration: 2,
+        durationUnit: "string",
+        frequency: "string",
+        mapLink: "!1m18!1m12!1m3!1d2989.341307824481!2d1.8580233745480654!3d50.94727291058907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc3f73ce311321%3A0x8eb283b3a5494c64!2sCentre%20Commercial%20Calais%20Coeur%20De%20Vie!5e0!3m2!1sen!2sfr!4v1704567234458!5m2!1sen!2sfr"
+    }
 
     const excursionTitle = excursion?.title ?? ExcursionText;
 
-    if (isLoading) {
-        return <CircularProgress />;
-    }
+    // if (isLoading) {
+    //     return <CircularProgress />;
+    // }
 
     return (
         <Page
@@ -41,7 +61,7 @@ export const Excursion = (): JSX.Element => {
             title={t('destination_details')}
             className="excursion-detail"
         >
-            {isLoading ? (
+            {false ? (
                 <CircularProgress />
             ) : (
                 excursion && (
