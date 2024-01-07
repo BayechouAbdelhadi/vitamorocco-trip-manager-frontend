@@ -4,9 +4,9 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import AdjustIcon from '@mui/icons-material/Adjust';
 import CircleIcon from '@mui/icons-material/Circle';
+import { defaultImage } from "../../utils/imageUtils";
 
 import "./Carousel.scss"
-import { defaultImage } from "../../utils/imageUtils";
 
 type ImageSliderProps = {
     images: {

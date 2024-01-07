@@ -11,6 +11,7 @@
     display: flex;
     gap: 15%;
     padding: 5px;
+
     .mobile-menu-button-container {
         button {
             svg {
@@ -139,6 +140,8 @@
 }
 
 .lang-picker {
+    font-family: 'Segoe UI', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Android Emoji';
+
     button {
         font-size: 16px;
 

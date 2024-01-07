@@ -1,18 +1,9 @@
-import Divider from '@mui/material/Divider';
 import './Welcome.scss'
-import { Chip, Typography } from '@mui/material';
 import TextWithLines from '../../../common/components/TitleBarImageList/TitleWithLines';
 
 function Welcome() {
     return (
-        <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            margin: '0 30px',
-            position: 'relative',
-        }}
-        >
+        <div className='welcome-container'>
             <TextWithLines text='Welcome To Vita Morocco' />
             <h1 style={{ fontStyle: 'italic' }} >The Best Travel Service Provider</h1>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>

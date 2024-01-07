@@ -1,24 +1,29 @@
-h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    font-size: clamp(1.3rem, 2.3vw, 2rem);
-    margin-bottom: 10px;
+.welcome-container {
     position: relative;
-}
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    font-size: 3rem;
-    font-size: clamp(1.5rem, 3.3vw, 3rem);
-    margin-bottom: 20px;
-}
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        font-size: clamp(1.3rem, 2.3vw, 2rem);
+        margin-bottom: 10px;
+    }
 
-p {
-    color: #555;
-}
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        font-size: 3rem;
+        font-size: clamp(1.5rem, 3.3vw, 3rem);
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-.welcome-image {
-    object-fit: cover;
-    border-radius: 30px;
+    p {
+        color: #555;
+    }
+
+    .welcome-image {
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
 }

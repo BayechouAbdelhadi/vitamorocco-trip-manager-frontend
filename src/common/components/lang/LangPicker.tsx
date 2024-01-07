@@ -32,30 +32,19 @@ const LanguagePicker = ({ className = '' }: LanguagePickerProps): JSX.Element =>
             });
     };
 
-    const SelectedFlag = () => languages.find((lang) => lang.key === selectedLanguage)?.flag() ?? null;
-
-    const renderOtherFlags = useMemo(
-        () => (
-            <>
+    return (
+        <div className={className}>
+            <Button startIcon={<LanguageIcon />} onClick={handleLanguageChange}>
+                {languages.find((lang) => lang.key === selectedLanguage)?.flag}
+            </Button>
+            <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={() => handleClose(selectedLanguage)}>
                 {languages
                     .filter((lang) => lang.key !== selectedLanguage)
                     .map((language) => (
                         <MenuItem key={language.key} onClick={() => handleClose(language.key)}>
-                            {language.flag()} &nbsp; {t(language.name)}
+                            {language.flag} &nbsp; {t(language.name)}
                         </MenuItem>
                     ))}
-            </>
-        ),
-        [languages]
-    );
-
-    return (
-        <div className={className}>
-            <Button startIcon={<LanguageIcon />} onClick={handleLanguageChange}>
-                <SelectedFlag />
-            </Button>
-            <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={() => handleClose(selectedLanguage)}>
-                {renderOtherFlags}
             </Menu>
         </div>
     );

@@ -25,11 +25,10 @@ export const tranlationResources: Record<AvailableLanguage, LanguageResource> = 
     [AvailableLanguage.PT]: { translation: TRANSLATION_PT },
 });
 
-
 export const languages = Object.freeze([
-    { key: AvailableLanguage.FR, name: 'Français', flag: FranceFlag },
-    { key: AvailableLanguage.ES, name: 'Español', flag: SpanishFlag },
-    { key: AvailableLanguage.EN, name: 'English', flag: EnglishFlag },
-    { key: AvailableLanguage.PT, name: 'Português', flag: PortugalFlag },
+    { key: AvailableLanguage.FR, name: 'Français', flag: '🇫🇷' },
+    { key: AvailableLanguage.ES, name: 'Español', flag: '🇪🇸' },
+    { key: AvailableLanguage.EN, name: 'English', flag: '🇺🇸' },
+    { key: AvailableLanguage.PT, name: 'Português', flag: '🇵🇹' },
 ]);
 
