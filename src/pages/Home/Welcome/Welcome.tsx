@@ -1,5 +1,5 @@
 import './Welcome.scss'
-import TextWithLines from '../../../common/components/TitleBarImageList/TitleWithLines';
+import TextWithLines from '../../../common/components/QuiltedImageList/TitleWithLines';
 
 function Welcome() {
     return (

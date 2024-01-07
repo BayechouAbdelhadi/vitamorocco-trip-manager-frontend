@@ -1,8 +1,9 @@
 import { Button } from "@mui/material";
-import TextWithLines from "../../../common/components/TitleBarImageList/TitleWithLines";
+import TextWithLines from "../../../common/components/QuiltedImageList/TitleWithLines";
 import { defaultImage } from "../../../common/utils/imageUtils";
 
 import './Services.scss'
+import { Link } from "react-router-dom";
 
 
 function Services() {
@@ -24,12 +25,11 @@ function Services() {
                             width={320}
                             loading="lazy"
                             onError={defaultImage.small.errorHandler}
-
                         />
                         <div className="service-information">
                             <h2><em>{service.title}</em></h2>
                             <p>{service.description}</p>
-                            <Button component="a">en savoir plus</Button>
+                            <Button component={Link} to="/excursions">en savoir plus</Button>
                         </div>
                     </div>
                 )}

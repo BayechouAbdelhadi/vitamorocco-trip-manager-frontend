@@ -3,7 +3,7 @@ import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import Review from "./Review";
-import TextWithLines from "../../../common/components/TitleBarImageList/TitleWithLines";
+import TextWithLines from "../../../common/components/QuiltedImageList/TitleWithLines";
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 import "swiper/css";
@@ -46,7 +46,7 @@ function TripAdvisorReviews({ slides }: Props) {
             >
                 {slides.map((slide, index) => (
                     <SwiperSlide key={index}>
-                        <Review url="/img/1.jpg" title="title" description="description" alt="alt" />
+                        <Review url={slide} title="title" description="description" alt="alt" />
                     </SwiperSlide>
                 ))}
                 <div className="button-prev">
