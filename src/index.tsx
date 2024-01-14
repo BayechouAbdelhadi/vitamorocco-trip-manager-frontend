@@ -1,3 +1,5 @@
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { enableAllPlugins } from 'immer';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
@@ -14,7 +16,9 @@ const root = createRoot(document.getElementById('root') as HTMLElement);
 root.render(
     <StrictMode>
         <ErrorBoundary>
-            <App />
+            <LocalizationProvider dateAdapter={AdapterDayjs}>
+                <App />
+            </LocalizationProvider>
         </ErrorBoundary>
     </StrictMode>
 );
