@@ -1,41 +1,75 @@
+import StarIcon from '@mui/icons-material/Star';
 import { Container } from '@mui/material';
+import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
+import { DateTimeValidationError, PickerChangeHandlerContext } from '@mui/x-date-pickers';
+import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
+import dayjs, { Dayjs } from 'dayjs';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next'; // Import the useTranslation hook
+import { useMutation } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
+import SelectBox from '../../common/components/select/select';
+import contactService from '../../common/services/contactService';
+import { HousingRegime, HousingType, Contact as Message } from '../../common/types/contact';
 import './Contact.scss';
+import { HOUSING_REGIME, HOUSING_TYPES } from './constants';
 
 const ContactText = 'contact.title';
+const initialContact: Omit<Message, 'fullName'> & { firstname: string; lastname: string } = {
+    firstname: '',
+    lastname: '',
+    email: '',
+    phoneNumber: '',
+    subject: '',
+    message: '',
+    numberOfAdults: 0,
+    numberOfKids: 0,
+    departureDate: null,
+    returnDate: null,
+    housingType: null,
+    housingCategory: null,
+    housingRegime: null,
+    flexibleDates: null,
+};
 
 export const Contact = (): JSX.Element => {
     const { t } = useTranslation(); // 'contact' should match the namespace in your i18n configuration
+    const { isLoading, isSuccess, mutateAsync } = useMutation(contactService.saveContact);
+    const [contactData, setContactData] = useState(initialContact);
 
-    const [formData, setFormData] = useState({
-        firstname: '',
-        lastname: '',
-        email: '',
-        message: '',
-    });
-
-    const { firstname, lastname, email, message } = formData;
-
-    const handleSubmit = (e: React.FormEvent) => {
+    function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
-        // You can handle form submission here
-        console.log('First Name:', firstname);
-        console.log('Last Name:', lastname);
-        console.log('Email:', email);
-        console.log('Message:', message);
-        // You can send data to the server or perform other actions here
-    };
+        const { firstname, lastname, ...otherContactFields } = contactData;
+
+        const contact: Message = { fullName: `${lastname} ${firstname}`, ...otherContactFields };
+
+        return mutateAsync(contact).then(() => {
+            setContactData(initialContact);
+        });
+    }
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
-        setFormData({
-            ...formData,
+        setContactData({
+            ...contactData,
             [name]: value,
         });
+    };
+
+    const handleDepartureDateChange = (
+        value: Dayjs | null,
+        context: PickerChangeHandlerContext<DateTimeValidationError>
+    ) => {
+        setContactData({ ...contactData, departureDate: value?.toISOString() ?? null });
+    };
+
+    const handleReturnDateChange = (
+        value: Dayjs | null,
+        context: PickerChangeHandlerContext<DateTimeValidationError>
+    ) => {
+        setContactData({ ...contactData, returnDate: value?.toISOString() ?? null });
     };
 
     return (
@@ -45,12 +79,19 @@ export const Contact = (): JSX.Element => {
                     <img src="/img/contact-us.svg" alt="contact-us" className="contact-us-img" />
                     <form onSubmit={handleSubmit} className="contact-form">
                         <div className="contact-message">{t('contact.message')}</div>
-                        <div className="name-fields">
+                        {isSuccess && (
+                            <Alert severity="success" variant="outlined">
+                                Thank you for contacting us. Your message has been received. You can expect to receive a
+                                response within 24 hours at the email address you provided.{' '}
+                            </Alert>
+                        )}
+                        <div className="groupped-fields">
                             <TextField
                                 label={t('firstName')}
+                                required
                                 variant="outlined"
                                 fullWidth
-                                value={firstname}
+                                value={contactData.firstname}
                                 onChange={handleInputChange}
                                 margin="normal"
                                 name="firstname"
@@ -58,38 +99,144 @@ export const Contact = (): JSX.Element => {
                             />
                             <TextField
                                 label={t('lastName')}
+                                required
                                 variant="outlined"
                                 fullWidth
-                                value={lastname}
+                                value={contactData.lastname}
                                 onChange={handleInputChange}
                                 margin="normal"
                                 name="lastname"
                                 className="form-field"
                             />
                         </div>
+                        <div className="groupped-fields">
+                            <TextField
+                                label={t('email')}
+                                required
+                                variant="outlined"
+                                fullWidth
+                                value={contactData.email}
+                                onChange={handleInputChange}
+                                margin="normal"
+                                name="email"
+                                className="form-field"
+                            />
+                            <TextField
+                                label={t('phoneNumber')}
+                                required
+                                variant="outlined"
+                                fullWidth
+                                value={contactData.phoneNumber}
+                                onChange={handleInputChange}
+                                margin="normal"
+                                name="phoneNumber"
+                                className="form-field"
+                            />
+                        </div>
                         <TextField
-                            label={t('email')}
+                            label={t('subject')}
+                            required
                             variant="outlined"
                             fullWidth
-                            value={email}
+                            value={contactData.subject}
                             onChange={handleInputChange}
                             margin="normal"
-                            name="email"
+                            name="subject"
                             className="form-field"
                         />
+                        {
+                            //Fields of reservation
+                        }
+                        <div className="groupped-fields">
+                            <TextField
+                                label={t('numberOfAdults')}
+                                required
+                                variant="outlined"
+                                type="number"
+                                value={contactData.numberOfAdults}
+                                onChange={handleInputChange}
+                                margin="normal"
+                                name="numberOfAdults"
+                                className="form-field"
+                            />
+                            <TextField
+                                label={t('numberOfKids')}
+                                required
+                                variant="outlined"
+                                type="number"
+                                value={contactData.numberOfKids}
+                                onChange={handleInputChange}
+                                margin="normal"
+                                name="numberOfKids"
+                                className="form-field"
+                            />
+                        </div>
+                        <div className="groupped-fields">
+                            <DateTimePicker
+                                label="departureDate"
+                                value={dayjs(contactData.departureDate)}
+                                onChange={handleDepartureDateChange}
+                                className="contact-date-picker form-field"
+                            />
+                            <DateTimePicker
+                                label="returnDate"
+                                value={dayjs(contactData.returnDate)}
+                                onChange={handleReturnDateChange}
+                                className="contact-date-picker form-field"
+                            />
+                        </div>
+                        <div className="groupped-fields">
+                            <SelectBox
+                                options={HOUSING_TYPES.map((t) => ({ label: t, value: t }))}
+                                value={contactData.housingType ?? ''}
+                                onChange={(value: string) => {
+                                    setContactData({ ...contactData, housingType: value as HousingType });
+                                }}
+                                label="housingType"
+                                labelId="housing-type"
+                                parentClassName="form-field"
+                            />
+                            <SelectBox
+                                options={[1, 2, 3, 4, 5].map((i) => ({
+                                    label: (
+                                        <div className="category-star-row">
+                                            <div>{i}</div> <StarIcon />
+                                        </div>
+                                    ),
+                                    value: i.toString(),
+                                }))}
+                                value={contactData.housingCategory?.toString() ?? ''}
+                                onChange={(value: string) => {
+                                    setContactData({ ...contactData, housingCategory: parseInt(value) });
+                                }}
+                                label="housingCategory"
+                                labelId="housing-category"
+                                parentClassName="form-field"
+                            />
+                            <SelectBox
+                                options={HOUSING_REGIME.map((t) => ({ label: t, value: t }))}
+                                value={contactData.housingRegime ?? ''}
+                                onChange={(value: string) => {
+                                    setContactData({ ...contactData, housingRegime: value as HousingRegime });
+                                }}
+                                label="housingRegime"
+                                labelId="housing-regime"
+                                parentClassName="form-field"
+                            />
+                        </div>
                         <TextField
                             label={t('message')}
                             variant="outlined"
                             fullWidth
                             multiline
-                            rows={4}
-                            value={message}
+                            rows={10}
+                            value={contactData.message}
                             onChange={handleInputChange}
                             margin="normal"
                             name="message"
                             className="form-field"
                         />
-                        <Button type="submit" variant="contained" color="primary">
+                        <Button type="submit" variant="contained" color="primary" disabled={isLoading}>
                             {t('submit')}
                         </Button>
                     </form>

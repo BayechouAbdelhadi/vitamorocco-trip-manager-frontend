@@ -28,13 +28,15 @@
                 padding: 10px;
             }
 
-            .name-fields {
+            .groupped-fields {
                 display: flex;
+                justify-content: space-between;
                 gap: 10px;
             }
 
             .form-field {
                 margin: 10px 0;
+                flex: 1;
 
                 .MuiTextField-root {
                     width: 100%;
@@ -64,5 +66,15 @@
                 filter: grayscale(0%); /* Remove the grayscale filter on hover or touch */
             }
         }
+    }
+}
+
+.category-star-row {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    svg {
+        color: gold;
     }
 }
