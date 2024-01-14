@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom';
-import TitleBarImageList from '../../common/components/QuiltedImageList'
+import QuiltedImageList from '../../common/components/QuiltedImageList'
 import TextWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 import { Button } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 export default function Gallery() {
+    const { t } = useTranslation();
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <TextWithLines text='Gallery' />
-            <h2>Memories We Collect</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit voluptas soluta,
-            </p>
-            <TitleBarImageList itemData={itemData} />
-            <Button component={Link} to='/services/gallery'>See More</Button>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
+            <TextWithLines text={t('gallery')} />
+            <h2>{t('memories_we_collect.title')}</h2>
+            <p>{t('memories_we_collect.description')}</p>
+            <QuiltedImageList itemData={itemData} />
+            <Button component={Link} to='/services/gallery'>{t('see_more')}</Button>
         </div>
     )
 }
@@ -56,24 +56,5 @@ const itemData = [
     {
         img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
         title: 'Fern',
-    },
-    {
-        img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-        title: 'Mushrooms',
-        rows: 2,
-        cols: 2,
-    },
-    {
-        img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-        title: 'Tomato basil',
-    },
-    {
-        img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-        title: 'Sea star',
-    },
-    {
-        img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-        title: 'Bike',
-        cols: 2,
-    },
+    }
 ];

@@ -16,7 +16,7 @@
     z-index: 4000;
 
     a {
-        color: #ff9900;
+        color: #ff385c;
         /* Link color */
         text-decoration: none;
 
@@ -26,7 +26,7 @@
     }
 
     button {
-        background-color: #ff9900;
+        background-color: #ff385c;
         /* Button background color */
         color: #fff;
         /* Button text color */
@@ -35,7 +35,7 @@
         cursor: pointer;
 
         &:hover {
-            background-color: #ffcc66;
+            background-color: #fc5775;
             /* Button background color on hover */
         }
     }

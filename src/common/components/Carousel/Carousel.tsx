@@ -1,10 +1,12 @@
-import { useEffect, useRef, useState } from "react"
-import { Box } from "@mui/material";
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import AdjustIcon from '@mui/icons-material/Adjust';
-import CircleIcon from '@mui/icons-material/Circle';
-import { defaultImage } from "../../utils/imageUtils";
+import { useEffect, useState } from "react"
+import { Box } from "@mui/material"
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew'
+import AdjustIcon from '@mui/icons-material/Adjust'
+import CircleIcon from '@mui/icons-material/Circle'
+import { defaultImage } from "../../utils/imageUtils"
+import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom"
 
 import "./Carousel.scss"
 
@@ -13,8 +15,9 @@ type ImageSliderProps = {
         id: string
         title: string
         description: string
-        url: string
+        img_src: string
         alt: string
+        link: string
     }[],
     maxWidth?: string
     height?: string
@@ -23,7 +26,9 @@ type ImageSliderProps = {
 
 export default function Carousel({ images, slideInterval = 6000, maxWidth = '100vw' }: ImageSliderProps) {
     const [imageIndex, setImageIndex] = useState(0)
-    const [isHovered, setIsHovered] = useState(false);
+    const [isHovered, setIsHovered] = useState(false)
+
+    const { t } = useTranslation()
 
     const displayControls = images.length > 1
 
@@ -67,10 +72,10 @@ export default function Carousel({ images, slideInterval = 6000, maxWidth = '100
         >
             <section aria-label="Image Slider" style={{ width: '100%', height: '100%', position: 'relative' }}>
                 <div className="img-slider-container">
-                    {images.map(({ url, alt }, index) => (
-                        <div key={url} className="img-slider-item">
+                    {images.map(({ img_src, alt }, index) => (
+                        <div key={img_src} className="img-slider-item">
                             <img
-                                src={url}
+                                src={img_src}
                                 alt={alt}
                                 aria-hidden={imageIndex !== index}
                                 className="img-slider-img"
@@ -78,8 +83,8 @@ export default function Carousel({ images, slideInterval = 6000, maxWidth = '100
                                 onError={defaultImage.large.errorHandler}
                             />
                             <div className="img-slider-content">
-                                <h2>{images[imageIndex].title}</h2>
-                                <a href="https://www.google.com" target="__blank"><i>{images[imageIndex].description}</i></a>
+                                <h2>{t(`carousel.${imageIndex}.title`)}</h2>
+                                <Link to={images[imageIndex].link}><i>{t(`carousel.${imageIndex}.description`)}</i></Link>
                             </div>
                         </div>
                     ))}

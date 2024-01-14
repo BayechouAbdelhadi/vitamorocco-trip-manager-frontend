@@ -5,6 +5,8 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import Review from "./Review";
 import TextWithLines from "../../../common/components/QuiltedImageList/TitleWithLines";
 import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTranslation } from "react-i18next";
+
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -39,10 +41,11 @@ const REVIEWS = [
 function TripAdvisorReviews() {
 
     const isXs = useMediaQuery('(max-width:600px)');
+    const { t } = useTranslation();
 
     return (
         <div>
-            <TextWithLines text="What our clients say" />
+            <TextWithLines text={t('customer_testimonials')} />
             <Swiper
                 effect={'coverflow'}
                 grabCursor
@@ -64,7 +67,7 @@ function TripAdvisorReviews() {
             >
                 {REVIEWS.map((review, index) => (
                     <SwiperSlide key={`${review.pseudo}-${index}`}>
-                        <Review avatar={review.avatar} pseudo={review.pseudo} text={review.text} alt={`avatar-{index}`} />
+                        <Review index={index} avatar={review.avatar} pseudo={review.pseudo} text={review.text} alt={`avatar-{index}`} />
                     </SwiperSlide>
                 ))}
                 <div className="button-prev">

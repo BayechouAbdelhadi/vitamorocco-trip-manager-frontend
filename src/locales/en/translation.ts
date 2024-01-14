@@ -4,59 +4,87 @@ import { ERROR_TRANSLATION } from './error';
 
 export const TRANSLATION_EN = {
     // A
+    accept_all: 'Accept All',
+    activities: {
+        title: 'Activities',
+        description: 'Immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you'
+    },
     available: 'Available',
     ...ALERT_TRANSLATION,
     // B
+    client_testimonials: 'Customer Testimonials',
     // C
+    carousel: {
+        0: {
+            title: 'Item 1, Note that the development build is not optimized.',
+            description: 'cliquer pour savoir plus'
+        },
+        1: {
+            title: 'Item 2, To create a production build, use npm run build.',
+            description: 'savoir plus sur ce tour'
+        },
+        2: {
+            title: 'Item 3, Note that the development build is not optimized.',
+            description: 'découvrir plus sur cette activité'
+        },
+    },
     contact: {
         title: 'Contact',
         message: 'Please fill out the form to contact us',
     },
-    CONFIRM_TRANSLATION, // Assuming CONFIRM_TRANSLATION is an object with its own alphabetical order
+    CONFIRM_TRANSLATION,
+    cookies_policy: {
+        title: 'Cookies Policy',
+        text: 'We use cookies to personalise content, to provide social media features and to analyse our traffic. This website uses cookies to ensure you get the best experience on our website.'
+    },
+    customer_testimonials: 'Customer Testimonials',
     // D
     date: 'Date',
     description: 'Description',
     destination: 'Destination',
     destination_details: 'Destination details',
+    driver_guide: {
+        name: 'Driver-guide',
+        description: 'Spanish, English, French ',
+    },
     duration: 'Duration',
     // E
-    ERROR_TRANSLATION, // Assuming ERROR_TRANSLATION is an object with its own alphabetical order
     email: 'Email',
+    ERROR_TRANSLATION, // Assuming ERROR_TRANSLATION is an object with its own alphabetical order
     excluded_services: {
         food_drink: 'Food and drink.',
         monuments_entrance: 'Entrances of the monuments.',
         tip_propina: 'Tips  or Propina.',
     },
+    expenses: {
+        name: 'Expenses',
+        description: 'Fuel, tolls and all associated expenses.',
+    },
+    explore_morocco_with_us: 'Explore Morocco with us',
     // F
+    faqs: 'FAQs',
     firstName: 'First Name',
     // G
+    gallery: 'Gallery',
     // H
     highlights: 'Highlits',
     // I
     included_services: {
-        private_tour: {
-            name: 'Private tour',
-            description: 'There will be no more people in the group. You can stop whenever you want.',
+        local_guide: {
+            name: 'Local guide',
+            description: 'Available',
         },
         pickup_at: {
             name: 'Pick up at',
             description: 'Pick up at the hotel, riad, airport or wherever you want.',
         },
+        private_tour: {
+            name: 'Private tour',
+            description: 'There will be no more people in the group. You can stop whenever you want.',
+        },
         transport: {
             name: 'Transport',
             description: 'Transport in 4×4, Minivan or minibus, depending on the number travelers.',
-        },
-        driver_guide: {
-            name: 'Driver-guide',
-            description: 'Spanish, English, French ',
-        },
-        expenses: {
-            name: 'Expenses',
-            description: 'Fuel, tolls and all associated expenses.',
-        },
-        local_guide: {
-            name: 'Local guide',
-            description: 'Available',
         },
     },
     // J
@@ -64,14 +92,20 @@ export const TRANSLATION_EN = {
     // K
     // L
     lastName: 'Last Name',
+    learn_more: 'Learn more',
     local_time: 'Local time',
     // M
+    memories_we_collect: {
+        title: 'Memories We Collect',
+        description: 'explore the memorable moments captured throughout our travels. Visual and narrative testimonies invite you to relive the essence of each destination, creating a unique gallery of shared experiences. Discover the visual treasures that bring our adventures to life and capture the essence of every journey.'
+    },
     message: 'Message',
     // N
     // O
+    our_services: 'Our services',
     // P
-    pick_up_time_departure: 'Time of pick-up departure',
     pick_up_and_drop_off_from_hotel: 'Time of pick-up departure',
+    pick_up_time_departure: 'Time of pick-up departure',
     pricing: 'Pricing',
     pricing_message:
         'The price of the excursion depends on the number of travellers. Below we indicate the prices according to travellers, as well as the services they include. Make up your mind and contact us',
@@ -80,17 +114,51 @@ export const TRANSLATION_EN = {
     // Q
     // R
     return_time: 'Return time',
+    reviews: {
+        0: {
+            text: 'Vita Morocco delivered an exceptional 10-day trip, exploring Marrakech, Fes, the desert, and Chefchaouen. The diverse itinerary showcased the cultural richness of Morocco. Mohamed, our guide driver, was outstanding, contributing to the overall memorable experience. Highly recommended.'
+        },
+        1: {
+            text: 'I did a trip with Mohamed from vita morocco for 10 days, One of the best tours in my Life with my wife, we visited a lot of cities, Marrakech, fes, the desert of merzouga, thanks tò the perefct organiztion of vita morocco and the service of Mohamed with his knowledge, we learned a lot about his country and berbera.'
+        },
+        2: {
+            text: 'Our 7 day 1800km tour through Morocco out of Marrakech by Vita Morocco, with our guide and driver Mohamed was perfectly executed. Mohamed\'s wealth of knowledge of the different regions allowed us to easily access the cultural differences of all of the different regions that we were lucky enough to visit. Accommodation each night was brilliant and Mohamed was very flexible and great company. Loved this trip.'
+        },
+        3: {
+            text: 'Our holiday in Morocco was magical! Partly thanks to Vita Morocco. It started with a fantastic tour through the city. Thanks to a knowledgeable guide, who thought we should experience the city, it was great. That means: taste, see, smell. Experience with all our senses. The excursion we had to Ourika Valley with the waterfalls and Agafay desert was also an experience we will never forget. Put on your walking shoes, because it is quite a climb to the top. Along the way you will enjoy beautiful views, refreshing river water and the waterfalls themselves are definitely worth it. We also undertook an excursion to Essaouira. Wonderful if you want to escape the hustle and bustle of Marrakech.'
+        },
+    },
     // S
+    see_more: 'See more',
+    services: {
+        activities: {
+            title: 'activities',
+            description: 'immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you'
+        },
+        excursions: {
+            title: 'excursions',
+            description: 'Explore a variety of options in the excursions section, and keep in mind that we can tailor them to match your preferences'
+        },
+        title: 'Our services',
+        tours: {
+            title: 'tours',
+            description: 'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences'
+        },
+    },
+    special_request_description: 'If you prefer to avoid organized trips in large groups and appreciate a more flexible approach, VitaMarruecos simplifies your travel experience by allowing you to leave at your own pace, without constraints, and to personalize your itinerary according to your own tastes and interests.',
     submit: 'Submit',
     // T
+    tour: 'Tour',
     trip_details: 'Trip details',
     // U
     // V
+    vita_morocco_definition: 'Vita Morocco is a local travel company, specialized in organizing trips, holidays, shared and private tours, honeymoon and different activities in Morocco.',
+    vita_morocco_goal: 'Our goal is to provide the best iteneraries with real & authentic experience',
     // W
+    welcome_to_vita_morocco: 'Welcome to Vita Morocco',
     whats_included: 'What is included',
     whats_not_included: 'What is not included',
     // X
     // Y
     // Z
-    // ...
 };

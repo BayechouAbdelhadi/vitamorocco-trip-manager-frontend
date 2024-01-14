@@ -1,10 +1,10 @@
-import Carousel from '../../common/components/Carousel';
-import { Page } from '../../common/components/Page/Page';
-import ContactUs from './ContactUs';
-import Services from './Services/Services';
-import Gallery from './Gallery';
-import TripAdvisorReviews from './TripAdvisorReviews';
-import Welcome from './Welcome/Welcome';
+import { Page } from '../../common/components/Page/Page'
+import Carousel from '../../common/components/Carousel'
+import ContactUs from './ContactUs'
+import Services from './Services/Services'
+import Gallery from './Gallery'
+import TripAdvisorReviews from './TripAdvisorReviews'
+import Welcome from './Welcome/Welcome'
 
 const IMAGES = [
     {
@@ -12,14 +12,24 @@ const IMAGES = [
         title: 'Item 1, Note that the development build is not optimized.',
         description: 'cliquer pour savoir plus',
         alt: 'alt for Item 1',
-        url: '/img/1.jpg',
+        img_src: '/img/1.jpg',
+        link: '/excursions/string'
     },
     {
         id: '445',
         title: 'Item 2, To create a production build, use npm run build.',
         description: 'savoir plus sur ce tour',
         alt: 'alt for Item 2',
-        url: '/img/2.jpg',
+        img_src: '/img/2.jpg',
+        link: '/tours/string'
+    },
+    {
+        id: '446',
+        title: 'Item 3, To create a production build, use npm run build.',
+        description: 'savoir plus sur ce tour',
+        alt: 'alt for Item 3',
+        img_src: '/img/2.jpg',
+        link: '/tours/string'
     },
 ];
 

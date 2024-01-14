@@ -2,14 +2,16 @@ import { Button } from "@mui/material";
 import TextWithLines from "../../../common/components/QuiltedImageList/TitleWithLines";
 import { defaultImage } from "../../../common/utils/imageUtils";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import './Services.scss'
 
 
 function Services() {
+    const { t } = useTranslation();
     return (
         <>
-            <TextWithLines text='Our Services' />
+            <TextWithLines text={t('our_services')} />
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', gap: '1.5rem', padding: '1rem' }}>
                 {SERVICES.map(service =>
                     <div key={service.img} className="service-card">
@@ -23,9 +25,9 @@ function Services() {
                             onError={defaultImage.small.errorHandler}
                         />
                         <div className="service-card-information">
-                            <h2><em>{service.title}</em></h2>
-                            <p>{service.description}</p>
-                            <Button component={Link} to="/excursions">en savoir plus</Button>
+                            <h2><em>{t(`services.${service.title}.title`)}</em></h2>
+                            <p>{t(`services.${service.title}.description`)}</p>
+                            <Button component={Link} to="/excursions">{t('see_more')}</Button>
                         </div>
                     </div>
                 )}
@@ -39,20 +41,20 @@ export default Services
 const SERVICES = [
     {
         img: '/img/destinations/excursion.jpeg',
-        title: 'Excursions',
-        description: '@En el apartado de excursiones puedes encontrar muchas opciones, p En el apartado de excursiones puedes encontrar',
+        title: 'excursions',
+        description: 'Explore a variety of options in the excursions section, and keep in mind that we can tailor them to match your preferences',
         rows: 2,
         cols: 2,
         featured: true,
     },
     {
         img: '/img/destinations/tour.jpg',
-        title: 'Tours',
-        description: '@En el apartado de excursiones puedes encontrar muchas opciones, p En el apartado de excursiones puedes encontrar',
+        title: 'tours',
+        description: 'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences',
     },
     {
         img: '/img/destinations/activity.jpeg',
-        title: 'Activities',
-        description: '@En el apartado de excursiones puedes encontrar muchas opciones, p En el apartado de excursiones puedes encontrar',
+        title: 'activities',
+        description: 'immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you',
     }
 ];
