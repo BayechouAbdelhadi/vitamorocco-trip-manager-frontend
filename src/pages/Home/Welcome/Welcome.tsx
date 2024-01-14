@@ -5,7 +5,7 @@ function Welcome() {
     return (
         <div className='welcome-container'>
             <TextWithLines text='Welcome To Vita Morocco' />
-            <h1 style={{ fontStyle: 'italic' }} >The Best Travel Service Provider</h1>
+            {/* <h2 style={{ fontStyle: 'italic' }} >The Best Travel Service Provider</h2> */}
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
                 <div style={{
                     display: 'flex',
@@ -13,14 +13,12 @@ function Welcome() {
                     maxWidth: '600px',
                     gap: '0.5rem'
                 }}>
-                    <h3>Explore Morocco With Us</h3>
-                    <p>
+                    {/* <h3>Explore Morocco With Us</h3> */}
+                    <h3>
                         Vita Morocco is a local travel company, specialized in organizing trips, holidays, shared
                         and private tours, honeymoon and different activities in Morocco.
-                    </p>
-                    <h4>
-                        Our goal is to provide the best iteneraries with real  & authentic experience
-                    </h4>
+                    </h3>
+                    <h4>Our goal is to provide the best iteneraries with real  & authentic experience</h4>
                 </div>
                 <img
                     className='welcome-image'
@@ -30,7 +28,7 @@ function Welcome() {
                     width={350}
                 />
             </div>
-        </div>
+        </div >
     )
 }
 

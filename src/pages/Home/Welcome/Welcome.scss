@@ -3,17 +3,9 @@
 
     h2 {
         font-family: 'Playfair Display', serif;
-        font-weight: 600;
+        font-weight: 700;
         font-size: clamp(1.3rem, 2.3vw, 2rem);
         margin-bottom: 10px;
-    }
-
-    h1 {
-        font-family: 'Playfair Display', serif;
-        font-weight: 600;
-        font-size: 3rem;
-        font-size: clamp(1.5rem, 3.3vw, 3rem);
-        margin-bottom: 20px;
         text-align: center;
     }
 
@@ -25,5 +17,4 @@
         object-fit: cover;
         border-radius: 5px;
     }
-
 }

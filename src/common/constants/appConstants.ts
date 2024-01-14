@@ -2,11 +2,13 @@ export const app = {
   name: 'Vita Morocco',
   developers: [
     {
-      fullName: 'BAYECHOU Abdelhadi',
+      initials: 'AB',
+      fullName: 'Abdelhadi BAYECHOU',
       linkedInLink: 'https://linkedin.com/in/abdelhadi-bayechou'
-    }
-    , {
-      fullName: 'JARIDI Mustapha',
+    },
+    {
+      initials: 'MJ',
+      fullName: 'MustaphaJA RIDI',
       linkedInLink: 'https://linkedin.com/in/mustapha-jaridi'
     }
   ]

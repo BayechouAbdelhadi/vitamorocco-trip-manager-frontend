@@ -32,7 +32,7 @@ export const Home = (): JSX.Element => {
             <div style={{ width: '100%', maxWidth: '1400px', padding: '0px 30px' }}>
                 <Welcome />
                 <Services />
-                <TripAdvisorReviews slides={['/img/2.jpg', '/img/1.jpg', '/img/2.jpg', '/img/1.jpg']} />
+                <TripAdvisorReviews />
                 <Gallery />
                 <ContactUs />
             </div>

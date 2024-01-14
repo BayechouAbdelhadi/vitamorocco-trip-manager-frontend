@@ -1,24 +1,20 @@
 import { Button } from "@mui/material";
 import TextWithLines from "../../../common/components/QuiltedImageList/TitleWithLines";
 import { defaultImage } from "../../../common/utils/imageUtils";
+import { Link } from "react-router-dom";
 
 import './Services.scss'
-import { Link } from "react-router-dom";
 
 
 function Services() {
     return (
-        <div>
+        <>
             <TextWithLines text='Our Services' />
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', gap: '2rem', padding: '2.5rem' }}>
-                {services.map(service =>
-                    <div key={service.img} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'relative' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', gap: '1.5rem', padding: '1rem' }}>
+                {SERVICES.map(service =>
+                    <div key={service.img} className="service-card">
                         <img
-                            style={{
-                                objectFit: 'cover',
-                                borderRadius: '5px',
-                                filter: 'brightness(60%)'
-                            }}
+                            className="service-card-img"
                             src={service.img}
                             alt={service.title}
                             height={380}
@@ -26,7 +22,7 @@ function Services() {
                             loading="lazy"
                             onError={defaultImage.small.errorHandler}
                         />
-                        <div className="service-information">
+                        <div className="service-card-information">
                             <h2><em>{service.title}</em></h2>
                             <p>{service.description}</p>
                             <Button component={Link} to="/excursions">en savoir plus</Button>
@@ -34,16 +30,16 @@ function Services() {
                     </div>
                 )}
             </div>
-        </div >
+        </ >
     )
 }
 
 export default Services
 
-const services = [
+const SERVICES = [
     {
         img: '/img/destinations/excursion.jpeg',
-        title: 'Breakfast',
+        title: 'Excursions',
         description: '@En el apartado de excursiones puedes encontrar muchas opciones, p En el apartado de excursiones puedes encontrar',
         rows: 2,
         cols: 2,
@@ -51,12 +47,12 @@ const services = [
     },
     {
         img: '/img/destinations/tour.jpg',
-        title: 'Burger',
+        title: 'Tours',
         description: '@En el apartado de excursiones puedes encontrar muchas opciones, p En el apartado de excursiones puedes encontrar',
     },
     {
         img: '/img/destinations/activity.jpeg',
-        title: 'Camera',
+        title: 'Activities',
         description: '@En el apartado de excursiones puedes encontrar muchas opciones, p En el apartado de excursiones puedes encontrar',
     }
 ];

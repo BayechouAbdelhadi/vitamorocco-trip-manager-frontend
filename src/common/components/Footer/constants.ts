@@ -8,46 +8,64 @@ const CONTACT_BOXES = [
     link: 'mailto:vitamorocco@gmail.com',
   },
   {
-    title: '48 bis Rue des fleurs, 62100 Calais',
-    link: 'https://www.google.com/maps',
-    is_blank_target: true
+    title: 'Formulaire',
+    link: '/contact',
+  },
+  // {
+  //   title: '48 bis Rue des fleurs, 62100 Calais',
+  //   link: 'https://www.google.com/maps',
+  //   is_blank_target: true
+  // }
+]
+
+const EXCURSIONS = [
+  {
+    title: 'Ayt ben haddou',
+    description: '',
+    link: '/excursions/aytBenHaddou'
+  },
+  {
+    title: 'Merzouga',
+    description: 'Websites are made with   love and creativity!',
+    link: '/excursions/Merzouga'
+  },
+  {
+    title: 'Chefchaoun',
+    description: 'Modern and stylistic designs to your website!',
+    link: '/excursions/Chefchaoun'
   }
 ]
 
-const SERVICES = [
+const TOURS = [
   {
-    title: 'Web Design',
-    description: 'Powerful, simple and modern websites!',
-    link: '/services'
+    title: 'Ayt ben haddou',
+    description: '',
+    link: '/tours/ayt-ben-haddou'
   },
   {
-    title: 'Creativity',
+    title: 'Marrakech-Essaouira',
     description: 'Websites are made with   love and creativity!',
-    link: '/services'
+    link: '/tours/marrakech-essaouira'
   },
   {
-    title: 'Modern',
+    title: 'Marrakech-Tanger',
     description: 'Modern and stylistic designs to your website!',
-    link: '/services'
+    link: '/tours/marrakech-tanger'
+  }
+]
+
+const POLICIES = [
+  {
+    title: 'Privacy Policy',
+    link: '/privacy',
   },
   {
-    title: 'Responsive',
-    description: 'User and device friendly websites!',
-    link: '/services'
+    title: 'Terms and Conditions',
+    link: '/terms',
   },
   {
-    title: 'Stunning Design',
-    description: 'Designs made with you in mind! ',
-    link: '/services'
-  },
-  {
-    title: 'Organization',
-    description: 'Clear, neat and organized code!',
-    link: '/services'
-  },
-  {
-    title: 'More!',
-    link: '/services'
+    title: 'Learn More',
+    link: '/about',
   }
 ]
 
@@ -56,44 +74,20 @@ export const FOOTER_LINKS = [
     is_logo: true,
   },
   {
-    title: 'Features',
-    // links: SERVICES,
+    title: 'Excursions',
+    links: EXCURSIONS,
   },
   {
-    title: 'Contact Me',
-    // links: CONTACT_BOXES,
+    title: 'Tours',
+    links: TOURS,
   },
   {
-    title: 'Portfolio',
-    // links: [
-    //   {
-    //     title: 'Github',
-    //     link: 'https://github.com/',
-    //     is_blank_target: true
-    //   },
-    //   {
-    //     title: 'Dribbble',
-    //     link: 'https://dribbble.com/',
-    //     is_blank_target: true
-    //   }
-    // ],
+    title: 'Contacts',
+    links: CONTACT_BOXES,
   },
   {
     title: 'Policies',
-    // links: [
-    //   {
-    //     title: 'Privacy Policy',
-    //     link: '/website/privacy',
-    //   },
-    //   {
-    //     title: 'Terms and Conditions',
-    //     link: '/website/terms',
-    //   },
-    //   {
-    //     title: 'Learn More',
-    //     link: '/website/about',
-    //   }
-    // ]
+    links: POLICIES
   }
 ]
 

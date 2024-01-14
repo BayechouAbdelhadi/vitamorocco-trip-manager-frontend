@@ -1,27 +1,27 @@
-import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
+import FormatQuoteIcon from '@mui/icons-material/FormatQuote'
+import { Button } from '@mui/material'
 
 import './Review.scss'
 
 type ReviewProps = {
-    title: string
-    description: string
-    url: string
+    avatar: string
+    pseudo: string
+    text: string
     alt: string
 }
 
-const Review = ({ url, alt }: ReviewProps) => {
-    return <article className="review">
-        <div className="img-container">
-            <img src={url} alt={alt} className="person-img" />
-            <span className="quote-icon"><FormatQuoteIcon /></span>
-        </div>
-        <h4 className="author">{"name"}</h4>
-        <p className="info">
-            Vita Morocco delivered an exceptional 10-day trip, exploring Marrakech, Fes, the desert,
-            and Chefchaouen. The diverse itinerary showcased the cultural richness of Morocco. Mohamed,
-            our guide driver, was outstanding, contributing to the overall memorable experience. Highly recommended.
-        </p>
-    </article>;
-};
+const Review = ({ avatar, pseudo, text, alt }: ReviewProps) => {
+    return (
+        <article className="review">
+            <div className="avatar-container">
+                <img src={avatar} alt={alt} className="avatar-img" loading='lazy' />
+                <span className="quote-icon"><FormatQuoteIcon /></span>
+            </div>
+            <h4 className="author">{pseudo}</h4>
+            <p className="text">{text}</p>
+            <Button component="a" href="https://www.tripadvisor.com/Attraction_Review-g293734-d26194088-Reviews-Vita_Morocco-Marrakech_Marrakech_Safi.html" target='__blank'>Plus</Button>
+        </article>
+    )
+}
 
 export default Review;

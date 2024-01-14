@@ -1,11 +1,15 @@
-import { Divider } from '@mui/material';
+import { Box, Divider } from '@mui/material';
 
 interface TextWithLinesProps {
     text: string;
 }
 function TextWithLines({ text }: TextWithLinesProps) {
     return (
-        <div style={{ width: '100%', margin: '20px 0' }}>
+        <Box sx={{
+            width: { xs: '100%', md: '80%' },
+            margin: '3rem auto'
+        }}
+        >
             <Divider sx={{ borderBottomWidth: '45px' }}>
                 <h3 style={{
                     "fontFamily": 'Playfair Display',
@@ -16,7 +20,7 @@ function TextWithLines({ text }: TextWithLinesProps) {
                     {text}
                 </h3>
             </Divider>
-        </div>
+        </Box>
     );
 }
 
