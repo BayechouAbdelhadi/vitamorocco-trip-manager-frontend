@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import QuiltedImageList from '../../common/components/QuiltedImageList'
 import TextWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
-import { Button } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
 export default function Gallery() {
@@ -10,7 +10,11 @@ export default function Gallery() {
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
             <TextWithLines text={t('gallery')} />
             <h2>{t('memories_we_collect.title')}</h2>
-            <p>{t('memories_we_collect.description')}</p>
+            <Typography sx={{
+                width: { xs: '100%', md: '70%' },
+                textAlign: 'center',
+                lineHeight: 2.5
+            }}>{t('memories_we_collect.description')}</Typography>
             <QuiltedImageList itemData={itemData} />
             <Button component={Link} to='/services/gallery'>{t('see_more')}</Button>
         </div>

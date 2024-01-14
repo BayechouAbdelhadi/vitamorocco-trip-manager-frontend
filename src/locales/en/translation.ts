@@ -139,7 +139,6 @@ export const TRANSLATION_EN = {
             title: 'excursions',
             description: 'Explore a variety of options in the excursions section, and keep in mind that we can tailor them to match your preferences'
         },
-        title: 'Our services',
         tours: {
             title: 'tours',
             description: 'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences'

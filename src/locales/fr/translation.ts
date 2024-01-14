@@ -139,7 +139,10 @@ export const TRANSLATION_FR = {
             title: 'Circuits',
             description: 'Découvrez une gamme captivante d\'itinéraires soigneusement conçus pour vous offrir des expériences de voyage inoubliables'
         },
-        title: 'Nos services',
+        activities: {
+            title: 'activities',
+            description: 'plongez-vous dans une diversité d’expériences enrichissantes à découvrir dans notre pays. Des escapades culturelles aux aventures en plein air, explorez les possibilités infinies qui vous attendent'
+        },
     },
     special_request_description: 'Si vous préférez éviter les voyages organisés en grands groupes et appréciez une approche plus flexible, Vita Maroc simplifie votre expérience de voyage en vous permettant de partir à votre propre rythme, sans contraintes, et de personnaliser votre itinéraire selon vos goûts et intérêts.',
     submit: 'Soumettre',

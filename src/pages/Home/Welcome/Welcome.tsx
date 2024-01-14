@@ -15,7 +15,7 @@ function Welcome() {
                     maxWidth: '600px',
                     gap: '0.5rem'
                 }}>
-                    <h3>{t('explore_morocco_with_us')}</h3>
+                    <h3><em>{t('explore_morocco_with_us')}</em></h3>
                     <p>{t('vita_morocco_definition')}</p>
                     <p>{t('vita_morocco_goal')}</p>
                 </div>
