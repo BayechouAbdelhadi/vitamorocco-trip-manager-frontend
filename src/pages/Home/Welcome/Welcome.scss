@@ -20,3 +20,11 @@
         border-radius: 5px;
     }
 }
+
+@media (max-width: 490px) {
+
+    p,
+    h3 {
+        text-align: center;
+    }
+}
