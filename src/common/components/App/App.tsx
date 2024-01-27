@@ -14,9 +14,9 @@ export const App = (): JSX.Element => (
             <ThemeProvider theme={theme}>
                 <CssBaseline />
                 <BrowserRouter>
-                    <MainLayout>
-                        <Routes />
-                    </MainLayout>
+                    {/* <MainLayout> */}
+                    <Routes />
+                    {/* </MainLayout> */}
                 </BrowserRouter>
             </ThemeProvider>
         </QueryClientProvider>

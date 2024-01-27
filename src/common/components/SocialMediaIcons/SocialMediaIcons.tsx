@@ -21,7 +21,7 @@ export default function SocialMediaIcons({ displayColumn = false, float = false 
                 display: { md: 'flex', xs: float ? 'none' : 'flex' },
             }}
             className={`social-media-icons-container ${displayColumn && 'column'} ${float && 'float-container'}`}>
-            <a href='https://www.whatsapp.com/vitamorocco/' target='__blank'>
+            <a href='https://wa.me/message/RECE76NM33GCB1' target='__blank'>
                 <WhatsAppIcon color="success" fontSize="large" className="icon whatsapp-icon" />
             </a>
             <a href='https://www.instagram.com/vitamorocco/' target='__blank'>
