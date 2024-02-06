@@ -2,7 +2,7 @@ import { Route } from 'react-router-dom';
 import ErrorBoundaryRoutes from '../../common/components/ErrorBoundary/ErrorBoundaryRoutes';
 import { lazyComponent } from '../../common/utils/lazy';
 const Tips = lazyComponent('Tips', import('./Tips'));
-const Faqs = lazyComponent('Faqs', import('./Faqs'));
+const Faqs = lazyComponent('Faqs', import('./Faqs/Faqs'));
 const Gallery = lazyComponent('Gallery', import('./Gallery'));
 const Services = lazyComponent('Services', import('./Services'));
 const PageNotFound = lazyComponent('PageNotFound', import('../PageNotFound/PageNotFound'));

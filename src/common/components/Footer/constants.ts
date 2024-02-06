@@ -57,15 +57,15 @@ const TOURS = [
 const POLICIES = [
   {
     title: 'Privacy Policy',
-    link: '/privacy',
+    link: 'services/privacy',
   },
   {
     title: 'Terms and Conditions',
-    link: '/terms',
+    link: 'services/terms',
   },
   {
-    title: 'Learn More',
-    link: '/about',
+    title: 'FAQs',
+    link: 'services/faqs',
   }
 ]
 
