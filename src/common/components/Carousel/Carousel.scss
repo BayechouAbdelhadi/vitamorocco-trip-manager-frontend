@@ -123,3 +123,24 @@
         animation: squish 200ms ease-in-out;
     }
 }
+
+@media (max-width: 480px) {
+    .img-slider-container {
+        .img-slider-item {
+            .img-slider-content {
+                position: absolute;
+                top: 40%;
+                left: 35%;
+                transform: translate(-40%, -35%);
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

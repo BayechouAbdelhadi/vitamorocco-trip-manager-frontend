@@ -12,7 +12,7 @@ const IMAGES = [
         title: 'Item 1, Note that the development build is not optimized.',
         description: 'cliquer pour savoir plus',
         alt: 'alt for Item 1',
-        img_src: '/img/1.jpg',
+        img_src: '/img/welcome.jpg',
         link: '/excursions/string'
     },
     {
@@ -20,7 +20,7 @@ const IMAGES = [
         title: 'Item 2, To create a production build, use npm run build.',
         description: 'savoir plus sur ce tour',
         alt: 'alt for Item 2',
-        img_src: '/img/2.jpg',
+        img_src: '/img/3.jpeg',
         link: '/tours/string'
     },
     {
@@ -28,7 +28,7 @@ const IMAGES = [
         title: 'Item 3, To create a production build, use npm run build.',
         description: 'savoir plus sur ce tour',
         alt: 'alt for Item 3',
-        img_src: '/img/2.jpg',
+        img_src: '/img/4.jpg',
         link: '/tours/string'
     },
 ];

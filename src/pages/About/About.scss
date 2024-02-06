@@ -1,0 +1,13 @@
+.about-container {
+    width: 60%;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 490px) {
+
+    .about-container {
+        width: 90%;
+    }
+
+}

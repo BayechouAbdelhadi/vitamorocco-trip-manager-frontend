@@ -6,6 +6,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import MobileNavbarItem from './MobileNavbarItem';
 import LanguagePicker from '../lang';
 import { NAVBAR_ITEMS } from './constants';
+import Logo from '../Logo';
 
 const drawerWidth = 300;
 
@@ -30,6 +31,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isMobileMenuOpen, toggleMobileM
             className="mobile-menu-drawer"
         >
             <div className="drawer-header">
+                <Logo shrinkable />
                 <IconButton onClick={toggleMobileMenu}>
                     <CloseIcon width="30" className="close-drawing-icon" color="primary" />
                 </IconButton>
@@ -38,7 +40,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isMobileMenuOpen, toggleMobileM
                 {NAVBAR_ITEMS.map((navBarItem) => (
                     <MobileNavbarItem navBarItem={navBarItem} key={navBarItem.id} onSelect={toggleMobileMenu} />
                 ))}
-                <LanguagePicker className="mobile-lang-picker" />
+                {/* <LanguagePicker className="mobile-lang-picker" /> */}
             </List>
         </Drawer>
     );

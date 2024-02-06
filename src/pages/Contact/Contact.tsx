@@ -147,7 +147,7 @@ export const Contact = (): JSX.Element => {
                         {
                             //Fields of reservation
                         }
-                        <div className="groupped-fields">
+                        {/* <div className="groupped-fields">
                             <TextField
                                 label={t('numberOfAdults')}
                                 required
@@ -223,7 +223,7 @@ export const Contact = (): JSX.Element => {
                                 labelId="housing-regime"
                                 parentClassName="form-field"
                             />
-                        </div>
+                        </div> */}
                         <TextField
                             label={t('message')}
                             variant="outlined"
