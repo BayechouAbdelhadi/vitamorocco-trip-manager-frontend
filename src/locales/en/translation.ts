@@ -37,6 +37,7 @@ export const TRANSLATION_EN = {
         title: 'Cookies Policy',
         text: 'We use cookies to personalise content, to provide social media features and to analyse our traffic. This website uses cookies to ensure you get the best experience on our website.'
     },
+    country: 'country',
     customer_testimonials: 'Customer Testimonials',
     // D
     date: 'Date',

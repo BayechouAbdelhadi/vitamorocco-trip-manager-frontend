@@ -67,14 +67,16 @@ export const Excursions = (): JSX.Element => {
     return (
         <Page description={ExcursionsText} keywords={ExcursionsText} title={ExcursionsText}>
             {false ? (
-                // <>Loading.........</>
                 <CircularProgress />
             ) : (
-                <div className="excursions-container">
-                    {excursions?.map((excursion) => (
-                        <ExcursionSummary key={excursion.id} excursion={excursion} />
-                    ))}
-                </div>
+                <>
+                    <h1>TODO : image and title in middle for every page</h1>
+                    <div className="excursions-container">
+                        {excursions?.map((excursion) => (
+                            <ExcursionSummary key={excursion.id} excursion={excursion} />
+                        ))}
+                    </div>
+                </>
             )}
         </Page>
     );

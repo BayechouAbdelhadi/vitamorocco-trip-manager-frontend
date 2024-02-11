@@ -84,24 +84,24 @@ const TABS = [
         label: "Services & offers",
         component: <>
             <p>
-                <strong>VITA MOROCCO</strong>VITA MOROCCO offers a diverse range of Morocco Tours,
+                <strong>VITA MOROCCO</strong> offers a diverse range of Morocco Tours,
                 Excursions, Day Trips, activities, Accommodation and much more.
             </p>
             <p>
-                In VITA MOROCCO we offer the best experienced drivers and knowledgeable local guides,
+                In <strong>VITA MOROCCO</strong> we offer the best experienced drivers and knowledgeable local guides,
                 that speaks fluent languages, English, Spanish, Italian, French, Arabic and Tamazight. With a
-                big variety of services, you can explore Morocco on your terms with VITA MOROCCO.
+                big variety of services, you can explore Morocco on your terms with <strong>VITA MOROCCO</strong>.
                 Whether you prefer Accommodation in hotel or a Riad, Standard Berber Camp or Luxury
                 Desert Camps, we can provide you with everything you wish, Offering you the best of
                 Morocco from the Imperial City Tours, Desert Tours & adventures, Family trips, Private &
                 shared Tours, Atlas Mountains trek, Luxury VIP experiences, or a budget-friendly adventure
                 we cater to your every wish. Travel serenely as we handle your transfers, accommodations,
-                visits, activities and more. Enjoy the best prices and top-notch services with VITA MOROCCO.
+                visits, activities and more. Enjoy the best prices and top-notch services with <strong>VITA MOROCCO</strong>.
                 Your journey, your way.
             </p>
             <p>
                 We are committed to ensuring the utmost safety and trust in every Morocco trip we offer.
-                Our team of experts at VITA MOROCCO is well-versed in implementing rigorous safety
+                Our team of experts at <strong>VITA MOROCCO</strong> is well-versed in implementing rigorous safety
                 measures, ensuring a secure and enjoyable travel experience for our valued customers. Our
                 focus is on delivering meticulously planned Morocco travel products, distinguished by
                 uniqueness and high quality, all tailored to the preferences of our customers, and offered at
@@ -123,11 +123,11 @@ const TABS = [
                 long to stay in each place and site. And when to stop, your personalized journey awaits in Morocco.
 
             </p>
-            <p>
+            <h3>
                 <strong>
                     <em>&quot;Morocco, Crafted to Your Dreams&quot;</em>
                 </strong>
-            </p>
+            </h3>
         </>
     },
     {

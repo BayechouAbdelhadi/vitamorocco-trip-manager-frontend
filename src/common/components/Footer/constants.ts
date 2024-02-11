@@ -1,67 +1,91 @@
 const CONTACT_BOXES = [
   {
-    title: '(+212) 634234556',
-    link: 'tel:212634234556',
+    title: '(+212) 662310037',
+    link: 'tel:212662310037',
+  },
+  {
+    title: 'contact@vitamorocco.com',
+    link: 'mailto:contact@vitamorocco.com',
   },
   {
     title: 'vitamorocco@gmail.com',
     link: 'mailto:vitamorocco@gmail.com',
-  },
-  {
-    title: 'Formulaire',
-    link: '/contact',
-  },
-  // {
-  //   title: '48 bis Rue des fleurs, 62100 Calais',
-  //   link: 'https://www.google.com/maps',
-  //   is_blank_target: true
-  // }
+  }
 ]
 
 const EXCURSIONS = [
   {
-    title: 'Ayt ben haddou',
+    title: 'Ouarzazate',
     description: '',
-    link: '/excursions/aytBenHaddou'
+    link: '/excursions/ouarzazate'
   },
   {
-    title: 'Merzouga',
+    title: 'Essaouira Mogador',
     description: 'Websites are made with   love and creativity!',
-    link: '/excursions/Merzouga'
+    link: '/excursions/essaouira_mogador'
   },
   {
-    title: 'Chefchaoun',
+    title: 'Ourika Valley',
     description: 'Modern and stylistic designs to your website!',
-    link: '/excursions/Chefchaoun'
-  }
+    link: '/excursions/ourika_valley'
+  },
+  {
+    title: 'Ouzoud Waterfalls',
+    description: 'Modern and stylistic designs to your website!',
+    link: '/excursions/ouzoud_waterfalls'
+  },
+  {
+    title: 'Marrakech City Tour',
+    description: 'Modern and stylistic designs to your website!',
+    link: '/excursions/marrakech_city_tour'
+  },
+  {
+    title: 'Casablanca',
+    description: 'Modern and stylistic designs to your website!',
+    link: '/excursions/casablanca'
+  },
 ]
 
 const TOURS = [
   {
-    title: 'Ayt ben haddou',
+    title: 'Popular tours',
     description: '',
-    link: '/tours/ayt-ben-haddou'
+    link: '/tours'
   },
   {
-    title: 'Marrakech-Essaouira',
+    title: 'From Marrakech',
     description: 'Websites are made with   love and creativity!',
-    link: '/tours/marrakech-essaouira'
+    link: '/tours/from_marrakech'
   },
   {
-    title: 'Marrakech-Tanger',
+    title: 'From Fes',
+    description: 'Websites are made with   love and creativity!',
+    link: '/tours/from_fes'
+  },
+  {
+    title: 'From Casablanca',
+    description: 'Websites are made with   love and creativity!',
+    link: '/tours/from_casablanca'
+  },
+  {
+    title: 'From Tanger',
     description: 'Modern and stylistic designs to your website!',
-    link: '/tours/marrakech-tanger'
+    link: '/tours/tanger'
   }
 ]
 
 const POLICIES = [
   {
-    title: 'Privacy Policy',
-    link: 'services/privacy',
+    title: 'About Us',
+    link: '/about',
   },
+  // {
+  //   title: 'Privacy Policy',
+  //   link: 'services/privacy',
+  // },
   {
     title: 'Terms and Conditions',
-    link: 'services/terms',
+    link: 'services/terms_and_conditions',
   },
   {
     title: 'FAQs',
@@ -86,7 +110,7 @@ export const FOOTER_LINKS = [
     links: CONTACT_BOXES,
   },
   {
-    title: 'Policies',
+    title: 'Company',
     links: POLICIES
   }
 ]

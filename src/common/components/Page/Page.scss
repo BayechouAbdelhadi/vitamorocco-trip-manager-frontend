@@ -11,6 +11,12 @@
         justify-content: center;
         align-items: center;
         flex-shrink: 0; // Prevent the title from growing
+
+        .title-text {
+            font-family: Verdana, Geneva, sans-serif;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
     }
 
     .content {

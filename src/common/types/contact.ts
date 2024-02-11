@@ -6,17 +6,19 @@ export type Contact = {
 
     phoneNumber: string;
 
+    country: string;
+
     subject: string;
 
     message: string;
 
-    numberOfAdults: number| null;
+    numberOfAdults: number | null;
 
-    numberOfKids: number| null;
+    numberOfKids: number | null;
 
-    departureDate: string| null;
+    departureDate: string | null;
 
-    returnDate: string| null;
+    returnDate: string | null;
 
     housingType: HousingType | null;
 

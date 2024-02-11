@@ -83,10 +83,6 @@ export const Excursion = (): JSX.Element => {
             ) : (
                 excursion && (
                     <Container>
-                        <div className="title">
-                            <TextWithLines text={t('destination')} />
-                            <Typography variant="h4">{excursionTitle}</Typography>
-                        </div>
                         <ExcursionDescription excursion={excursion} />
                         <ExcursionHighlights excursion={excursion} />
                         <ExcursionDetails excursion={excursion} />

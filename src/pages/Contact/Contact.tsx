@@ -21,6 +21,7 @@ const initialContact: Omit<Message, 'fullName'> & { firstname: string; lastname:
     firstname: '',
     lastname: '',
     email: '',
+    country: '',
     phoneNumber: '',
     subject: '',
     message: '',
@@ -109,16 +110,27 @@ export const Contact = (): JSX.Element => {
                                 className="form-field"
                             />
                         </div>
+                        <TextField
+                            label={t('email')}
+                            required
+                            variant="outlined"
+                            fullWidth
+                            value={contactData.email}
+                            onChange={handleInputChange}
+                            margin="normal"
+                            name="email"
+                            className="form-field"
+                        />
                         <div className="groupped-fields">
                             <TextField
-                                label={t('email')}
+                                label={t('country')}
                                 required
                                 variant="outlined"
                                 fullWidth
-                                value={contactData.email}
+                                value={contactData.country}
                                 onChange={handleInputChange}
                                 margin="normal"
-                                name="email"
+                                name="country"
                                 className="form-field"
                             />
                             <TextField

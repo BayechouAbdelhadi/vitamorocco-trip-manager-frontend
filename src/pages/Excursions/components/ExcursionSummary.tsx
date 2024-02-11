@@ -21,7 +21,7 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
     };
 
     return (
-        <Card sx={{ maxWidth: 345 }} onClick={goToExcursion}>
+        <Card className="excursion-summary-card-container" onClick={goToExcursion}>
             <CardHeader
                 action={
                     <IconButton aria-label="view excursion">
@@ -38,7 +38,7 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
                 onError={defaultImage.small.errorHandler}
             />
             <CardContent>
-                <Typography variant="body2" color="text.secondary" className="excursion-summary-test">
+                <Typography variant="body2" color="text.secondary" className="excursion-summary">
                     {excursion.description}
                 </Typography>
             </CardContent>
@@ -48,13 +48,13 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
                         <FavoriteIcon />
                     </IconButton>
                 */}
-                <ShareButton
+                {/* <ShareButton
                     shareData={{
                         title: `excursion ${excursion.title}`,
                         text: 'Check out this link!',
                         url: `${window.location.href}/${excursion.id}`,
                     }}
-                />
+                /> */}
             </CardActions>
         </Card>
     );

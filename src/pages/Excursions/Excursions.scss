@@ -5,11 +5,19 @@
     gap: 1rem;
     padding: 0 1rem 1rem 1rem;
 }
-.excursion-summary-test {
+
+
+.excursion-summary {
     max-height: 150px;
     display: -webkit-box;
-    -webkit-line-clamp: 5; /* Number of lines to display before truncating */
+    -webkit-line-clamp: 5;
+    /* Number of lines to display before truncating */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.excursion-summary-card-container {
+    max-width: 345px;
+    cursor: pointer;
 }

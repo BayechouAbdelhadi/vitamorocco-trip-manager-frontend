@@ -10,7 +10,7 @@ import { scrollToTop } from '../../../common/utils';
 import './Faqs.scss'
 
 export const Faqs = (): JSX.Element => {
-    const FaqsText = 'Faqs';
+    const FaqsText = 'FAQS';
 
     return (
         <Page description={FaqsText} keywords={FaqsText} title={FaqsText} className='faqs-container'>
@@ -39,7 +39,7 @@ export const Faqs = (): JSX.Element => {
             </ol>
             <h4>
                 Did our FAQs address your inquiries effectively? If you have more questions, we&apos;re here to
-                assist you further. <Button component={Link} to="/contact" onClick={scrollToTop}>Don&apos;t hesitate to connect!</Button>
+                assist you further. <Link to="/contact" onClick={scrollToTop} style={{ color: "#ff385c" }}>Don&apos;t hesitate to connect!</Link>
             </h4>
         </Page>
     );
