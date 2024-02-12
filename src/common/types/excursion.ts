@@ -1,4 +1,4 @@
-export interface Excursion {
+export type Excursion = Partial<{
     id: string;
     title: string;
     description: string;
@@ -16,4 +16,6 @@ export interface Excursion {
     durationUnit: string;
     frequency: string;
     mapLink: string;
+    summaryImg: string;
 }
+>

@@ -30,7 +30,7 @@ export const TRANSLATION_EN = {
     },
     contact: {
         title: 'Contact',
-        message: 'Please fill out the form to contact us',
+        message: 'Please fill out the form',
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {

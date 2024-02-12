@@ -7,7 +7,6 @@ function Welcome() {
     return (
         <div className='welcome-container'>
             <TextWithLines text={t('welcome_to_vita_morocco')} />
-            {/* <h2 style={{ fontStyle: 'italic' }} >The Best Travel Service Provider</h2> */}
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
                 <div style={{
                     display: 'flex',

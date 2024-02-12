@@ -23,10 +23,10 @@ export const ExcursionHighlights = ({ excursion }: ExcursionHighlightsInterface)
             rightPane={{
                 element: (
                     <ul className="no-bullets">
-                        {excursion?.highlights.map((heighlight) => (
-                            <li key={heighlight} className="excursion-detail-item">
+                        {excursion?.highlights?.map((highlight: string) => (
+                            <li key={highlight} className="excursion-detail-item">
                                 <ArrowRightIcon color="primary" />
-                                {heighlight}
+                                {highlight}
                             </li>
                         ))}
                     </ul>

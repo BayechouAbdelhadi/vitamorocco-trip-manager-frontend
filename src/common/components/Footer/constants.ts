@@ -10,7 +10,11 @@ const CONTACT_BOXES = [
   {
     title: 'vitamorocco@gmail.com',
     link: 'mailto:vitamorocco@gmail.com',
-  }
+  },
+  {
+    title: 'Contact Us',
+    link: '/contact',
+  },
 ]
 
 const EXCURSIONS = [

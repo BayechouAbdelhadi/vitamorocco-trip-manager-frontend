@@ -1,5 +1,5 @@
 import StarIcon from '@mui/icons-material/Star';
-import { Container } from '@mui/material';
+import { Container, useMediaQuery } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
@@ -15,6 +15,7 @@ import contactService from '../../common/services/contactService';
 import { HousingRegime, HousingType, Contact as Message } from '../../common/types/contact';
 import './Contact.scss';
 import { HOUSING_REGIME, HOUSING_TYPES } from './constants';
+import TextWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 
 const ContactText = 'contact.title';
 const initialContact: Omit<Message, 'fullName'> & { firstname: string; lastname: string } = {
@@ -39,6 +40,8 @@ export const Contact = (): JSX.Element => {
     const { t } = useTranslation(); // 'contact' should match the namespace in your i18n configuration
     const { isLoading, isSuccess, mutateAsync } = useMutation(contactService.saveContact);
     const [contactData, setContactData] = useState(initialContact);
+
+    const isXs = useMediaQuery('(max-width:600px)');
 
     function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
@@ -76,10 +79,11 @@ export const Contact = (): JSX.Element => {
     return (
         <Page description={t(ContactText)} keywords={t(ContactText)} title={t(ContactText)} className="contact-page">
             <Container>
+                <TextWithLines text={t('contact.message')} />
                 <div className="contact-form-container">
                     <img src="/img/contact-us.svg" alt="contact-us" className="contact-us-img" />
+                    {/* {!isXs && <img src="/img/contact-us.svg" alt="contact-us" className="contact-us-img" />} */}
                     <form onSubmit={handleSubmit} className="contact-form">
-                        <div className="contact-message">{t('contact.message')}</div>
                         {isSuccess && (
                             <Alert severity="success" variant="outlined">
                                 Thank you for contacting us. Your message has been received. You can expect to receive a
@@ -253,14 +257,14 @@ export const Contact = (): JSX.Element => {
                         </Button>
                     </form>
                 </div>
-                <iframe
+                {/* <iframe
                     title="map"
                     className="map"
                     src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d108690.19292973392!2d-8.026930121735917!3d31.645662069611056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAv%20Al%20Amira%2C%20Marrakech%2C%20Morocco!5e0!3m2!1sfr!2sus!4v1697394995363!5m2!1sfr!2sus"
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                ></iframe> */}
             </Container>
         </Page>
     );

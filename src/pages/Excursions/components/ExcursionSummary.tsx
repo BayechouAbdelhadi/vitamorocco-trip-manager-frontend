@@ -33,7 +33,7 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
             <CardMedia
                 component="img"
                 height="250"
-                image={'/img/1.jpg'}
+                image={`/img/excursions/${excursion.id}/${excursion.summaryImg}`}
                 alt={`excursion ${excursion.title}`}
                 onError={defaultImage.small.errorHandler}
             />

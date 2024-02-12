@@ -9,11 +9,14 @@
         .contact-us-img {
             width: 45%;
             min-width: 400px;
-            margin: 0 auto; /* Center the image horizontally */
+            margin: 0 auto;
+            /* Center the image horizontally */
 
             @media (max-width: 768px) {
-                width: 100%; /* Full width on smaller screens */
-                min-width: auto; /* Remove the minimum width */
+                width: 100%;
+                /* Full width on smaller screens */
+                min-width: auto;
+                /* Remove the minimum width */
             }
         }
 
@@ -24,7 +27,8 @@
             margin: 0 auto;
 
             @media (max-width: 768px) {
-                max-width: 100%; /* Full width on smaller screens */
+                max-width: 100%;
+                /* Full width on smaller screens */
                 padding: 10px;
             }
 
@@ -42,10 +46,6 @@
                     width: 100%;
                 }
             }
-
-            .contact-message {
-                text-align: center;
-            }
         }
 
         .submit-button {
@@ -58,12 +58,17 @@
         height: 500px;
         border: 0;
         margin-top: 1rem;
+
         @media (min-width: 900px) {
-            filter: grayscale(90%); /* Apply a grayscale filter by default */
-            transition: filter 0.3s ease; /* Add a smooth transition effect */
+            filter: grayscale(90%);
+            /* Apply a grayscale filter by default */
+            transition: filter 0.3s ease;
+
+            /* Add a smooth transition effect */
             &:hover,
             &:active {
-                filter: grayscale(0%); /* Remove the grayscale filter on hover or touch */
+                filter: grayscale(0%);
+                /* Remove the grayscale filter on hover or touch */
             }
         }
     }
@@ -74,6 +79,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+
     svg {
         color: gold;
     }

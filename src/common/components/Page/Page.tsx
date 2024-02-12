@@ -6,12 +6,14 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { app } from '../../constants/appConstants';
 import { LayoutContainerProps } from '../LayoutContainer/LayoutContainer';
 import './Page.scss';
+import { defaultImage } from '../../utils/imageUtils';
 
 interface PageProps extends LayoutContainerProps {
     description: string;
     elements?: ReactNode;
     keywords?: string;
     title: string;
+    imgSrc?: string;
     displayTitle?: boolean;
 }
 
@@ -21,6 +23,7 @@ export const Page = ({
     elements,
     keywords,
     title,
+    imgSrc = '',
     className = '',
     displayTitle = true,
     style,
@@ -37,6 +40,12 @@ export const Page = ({
             <main className="page">
                 {displayTitle && (
                     <div className="title">
+                        <img
+                            src={imgSrc}
+                            alt={`title-${title}`}
+                            className='title-img'
+                            onError={defaultImage.large.errorHandler} 
+                            />
                         <Typography variant={isXs ? 'h4' : 'h3'} className="title-text">
                             {title}
                         </Typography>
