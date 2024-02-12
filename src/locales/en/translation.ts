@@ -75,6 +75,14 @@ export const TRANSLATION_EN = {
             name: 'Local guide',
             description: 'Available',
         },
+        expenses: {
+            name: 'Expenses',
+            description: 'Fuel, tolls and all associated expenses.',
+        },
+        driver_guide: {
+            name: 'Driver guide',
+            description: 'Driver-guide who speaks Spanish, English or French.',
+        },
         pickup_at: {
             name: 'Pick up at',
             description: 'Pick up at the hotel, riad, airport or wherever you want.',
@@ -105,7 +113,7 @@ export const TRANSLATION_EN = {
     // O
     our_services: 'Our services',
     // P
-    pick_up_and_drop_off_from_hotel: 'Time of pick-up departure',
+    pick_up_and_drop_off_from_hotel: 'Pick up and drop off from Your Hotel',
     pick_up_time_departure: 'Time of pick-up departure',
     pricing: 'Pricing',
     pricing_message:

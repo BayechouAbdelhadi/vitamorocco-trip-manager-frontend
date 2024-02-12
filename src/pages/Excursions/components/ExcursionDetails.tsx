@@ -35,7 +35,7 @@ export const ExcursionDetails = ({ excursion }: ExcursionDetailsInterface): JSX.
                         </li>
                         <li className="excursion-detail-item padded">
                             <HourglassTopIcon color="primary" />
-                            {t('pick_up_time_departure')}: {excursion?.departurePickupTime} ({t('local_time')})
+                            {t('pick_up_time_departure')} : {excursion?.departurePickupTime} ({t('local_time')})
                         </li>
                         <li className="excursion-detail-item padded">
                             <HourglassBottomIcon color="primary" />
