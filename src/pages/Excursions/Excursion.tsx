@@ -5,13 +5,13 @@ import { useParams } from 'react-router-dom';
 import { Page } from '../../common/components/Page/Page';
 import PanedSection from '../../common/components/panes/SectionedPanes';
 import { getExcursion } from '../../common/services/excursionService';
-import './Excursion.scss';
 import { ExcursionDescription } from './components/ExcursionDescription';
 import { ExcursionDetails } from './components/ExcursionDetails';
 import { ExcursionHighlights } from './components/ExcursionHighlights';
 import { ExcursionPricing } from './components/ExcursionPricing';
 import { ExcludedServiceList } from './components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from './components/excursion-services/IncludedServices';
+import './Excursion.scss';
 
 const ExcursionText = 'Excursion';
 
@@ -39,7 +39,7 @@ export const Excursion = (): JSX.Element => {
         <Page
             description={excursionTitle}
             keywords={excursionTitle}
-            title={t('destination_details')}
+            title={excursionTitle}
             imgSrc={`/img/excursions/${excursion?.id}/${excursion?.summaryImg}`}
             className="excursion-detail"
         >

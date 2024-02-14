@@ -17,10 +17,13 @@ const CONTACT_BOXES = [
   },
 ]
 
-const EXCURSIONS = [
+export const EXCURSIONS = [
+  {
+    title: 'Popular Excursions',
+    link: '/excursions',
+  },
   {
     title: 'Ouarzazate',
-    description: '',
     link: '/excursions/ouarzazate'
   },
   {
@@ -30,50 +33,41 @@ const EXCURSIONS = [
   },
   {
     title: 'Ourika Valley',
-    description: 'Modern and stylistic designs to your website!',
     link: '/excursions/ourika_valley'
   },
   {
     title: 'Ouzoud Waterfalls',
-    description: 'Modern and stylistic designs to your website!',
     link: '/excursions/ouzoud_waterfalls'
   },
   {
     title: 'Marrakech City Tour',
-    description: 'Modern and stylistic designs to your website!',
     link: '/excursions/marrakech_city_tour'
   },
   {
     title: 'Casablanca',
-    description: 'Modern and stylistic designs to your website!',
     link: '/excursions/casablanca'
   },
 ]
 
-const TOURS = [
+export const TOURS = [
   {
     title: 'Popular tours',
-    description: '',
     link: '/tours'
   },
   {
     title: 'From Marrakech',
-    description: 'Websites are made with   love and creativity!',
     link: '/tours/from_marrakech'
   },
   {
     title: 'From Fes',
-    description: 'Websites are made with   love and creativity!',
     link: '/tours/from_fes'
   },
   {
     title: 'From Casablanca',
-    description: 'Websites are made with   love and creativity!',
     link: '/tours/from_casablanca'
   },
   {
     title: 'From Tanger',
-    description: 'Modern and stylistic designs to your website!',
     link: '/tours/tanger'
   }
 ]

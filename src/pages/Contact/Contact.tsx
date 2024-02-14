@@ -1,5 +1,5 @@
 import StarIcon from '@mui/icons-material/Star';
-import { Container, useMediaQuery } from '@mui/material';
+import { Container } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
@@ -7,17 +7,19 @@ import { DateTimeValidationError, PickerChangeHandlerContext } from '@mui/x-date
 import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
 import dayjs, { Dayjs } from 'dayjs';
 import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next'; // Import the useTranslation hook
+import { useTranslation } from 'react-i18next';
 import { useMutation } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
 import SelectBox from '../../common/components/select/select';
 import contactService from '../../common/services/contactService';
 import { HousingRegime, HousingType, Contact as Message } from '../../common/types/contact';
-import './Contact.scss';
 import { HOUSING_REGIME, HOUSING_TYPES } from './constants';
 import TextWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 
+import './Contact.scss';
+
 const ContactText = 'contact.title';
+
 const initialContact: Omit<Message, 'fullName'> & { firstname: string; lastname: string } = {
     firstname: '',
     lastname: '',
@@ -40,8 +42,6 @@ export const Contact = (): JSX.Element => {
     const { t } = useTranslation(); // 'contact' should match the namespace in your i18n configuration
     const { isLoading, isSuccess, mutateAsync } = useMutation(contactService.saveContact);
     const [contactData, setContactData] = useState(initialContact);
-
-    const isXs = useMediaQuery('(max-width:600px)');
 
     function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
@@ -77,7 +77,7 @@ export const Contact = (): JSX.Element => {
     };
 
     return (
-        <Page description={t(ContactText)} keywords={t(ContactText)} title={t(ContactText)} className="contact-page">
+        <Page description={t(ContactText)} keywords={t(ContactText)} title={t(ContactText)} imgSrc="img/contact/contact_title.jpg" className="contact-page">
             <Container>
                 <TextWithLines text={t('contact.message')} />
                 <div className="contact-form-container">
@@ -190,13 +190,13 @@ export const Contact = (): JSX.Element => {
                         <div className="groupped-fields">
                             <DateTimePicker
                                 label="Departure Date"
-                                value={dayjs(contactData.departureDate)}
+                                value={dayjs(contactData.departureDate ?? new Date())}
                                 onChange={handleDepartureDateChange}
                                 className="form-field"
                             />
                             <DateTimePicker
                                 label="Return Date"
-                                value={dayjs(contactData.returnDate)}
+                                value={dayjs(contactData.returnDate ?? new Date())}
                                 onChange={handleReturnDateChange}
                                 className="form-field"
                             />

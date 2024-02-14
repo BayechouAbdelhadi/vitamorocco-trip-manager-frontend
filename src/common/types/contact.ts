@@ -39,7 +39,7 @@ export enum HousingType {
 
 export enum HousingRegime {
     BED_AND_BREAKFAST = 'BED AND BREAK FAST',
-    HALF_PENSION = 'HALFP ENSION',
+    HALF_PENSION = 'HALF PENSION',
     FULL_BOARD = 'FULL BOARD',
     ALL_INCLUSIVE = 'ALL INCLUSIVE',
 }

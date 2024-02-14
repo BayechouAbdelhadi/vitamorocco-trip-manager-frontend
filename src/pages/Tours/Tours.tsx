@@ -18,12 +18,12 @@ export const Tours = (): JSX.Element => {
                 <>
                     <TitleWithLines text="Our Exclusive Routes & Itineraries" />
                     <p>
-                        VITA MOROCCO offers a unique, personalized travel experience, tailored specifically to your preferences and
+                        <strong>VITA MOROCCO</strong> offers a unique, personalized travel experience, tailored specifically to your preferences and
                         desires for exploring Morocco. Our approach ensures that you are the central focus of your journey,
                         providing an opportunity to immerse yourself in the vibrant Moroccan culture on your terms.
                     </p>
                     <p>
-                        With VITA MOROCCO, planning your trip is effortless. Inform us of your available days, the size of your group,
+                        With <strong>VITA MOROCCO</strong>, planning your trip is effortless. Inform us of your available days, the size of your group,
                         your preferred accommodation style (Riad / Hotel / Villa), Category (Luxury, Standard, or Superior), and your
                         interests or desired activities. We will carefully organize every aspect to suit your taste. Our bespoke
                         itineraries are delivered with private, comfortable transportation options, Mini-vans, 4x4 Toyota,  or Minibus,
@@ -35,7 +35,7 @@ export const Tours = (): JSX.Element => {
                         range of interests and preferences, ensuring a truly personalized travel experience.
                     </p>
                     <p>
-                        Let VITA MOROCCO transform your visit to Morocco into an unforgettable adventure.
+                        Let <strong>VITA MOROCCO</strong> transform your visit to Morocco into an unforgettable adventure.
                     </p>
                     <a className="email-link" href="mailto:contact@vitamorocco.com">contact@vitamorocco.com</a>
                     <h3>Discover the essence of Morocco with us</h3>

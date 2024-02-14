@@ -17,8 +17,8 @@ export const About = (): JSX.Element => {
     };
 
     return (
-        <Page description={AboutText} keywords={AboutText} title={AboutText} className='about-container' style={{ justifyContent: 'flex-start' }}>
-            <Box sx={{ maxWidth: { xs: 350, sm: 680 }, bgcolor: 'background.paper' }}>
+        <Page description={AboutText} keywords={AboutText} title={AboutText} imgSrc='img/about/about_title.jpg' className='about-container' style={{ justifyContent: 'flex-start' }}>
+            <Box sx={{ maxWidth: { xs: 350, sm: 680 }, marginTop: '1rem', bgcolor: 'background.paper' }}>
                 <Tabs
                     value={value}
                     onChange={handleChange}

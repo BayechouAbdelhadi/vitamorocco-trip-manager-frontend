@@ -4,6 +4,7 @@ import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import TourIcon from '@mui/icons-material/ShareLocation';
+import { EXCURSIONS, TOURS } from '../Footer/constants';
 export interface NavItem {
     id: string;
     href: string;
@@ -25,9 +26,14 @@ export const NAVBAR_ITEMS: NavItem[] = [
     {
         text: 'Excursions',
         href: '/excursions',
-        dropdown: [
-            //FromDB
-        ],
+        dropdown: EXCURSIONS.map(e => (
+            {
+                text: e.title,
+                href: e.link,
+                id: e.title,
+                dropdown: []
+            }
+        )),
         id: 'excursions',
 
         icon: <DirectionsBusIcon />,
@@ -35,9 +41,14 @@ export const NAVBAR_ITEMS: NavItem[] = [
     {
         text: 'Tours',
         href: '/tours',
-        dropdown: [
-            //FromDB
-        ],
+        dropdown: TOURS.map(e => (
+            {
+                text: e.title,
+                href: e.link,
+                id: e.title,
+                dropdown: []
+            }
+        )),
         id: 'tours',
 
         icon: <TourIcon />,
