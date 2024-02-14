@@ -92,7 +92,7 @@ export const Contact = (): JSX.Element => {
                         )}
                         <div className="groupped-fields">
                             <TextField
-                                label={t('firstName')}
+                                label={t('first_name')}
                                 required
                                 variant="outlined"
                                 fullWidth
@@ -103,7 +103,7 @@ export const Contact = (): JSX.Element => {
                                 className="form-field"
                             />
                             <TextField
-                                label={t('lastName')}
+                                label={t('last_name')}
                                 required
                                 variant="outlined"
                                 fullWidth
@@ -138,7 +138,7 @@ export const Contact = (): JSX.Element => {
                                 className="form-field"
                             />
                             <TextField
-                                label={t('phoneNumber')}
+                                label={t('phone_number')}
                                 required
                                 variant="outlined"
                                 fullWidth
@@ -163,9 +163,9 @@ export const Contact = (): JSX.Element => {
                         {
                             //Fields of reservation
                         }
-                        {/* <div className="groupped-fields">
+                        <div className="groupped-fields">
                             <TextField
-                                label={t('numberOfAdults')}
+                                label={t('number_of_adults')}
                                 required
                                 variant="outlined"
                                 type="number"
@@ -176,8 +176,8 @@ export const Contact = (): JSX.Element => {
                                 className="form-field"
                             />
                             <TextField
-                                label={t('numberOfKids')}
-                                required
+                                label={t('number_of_kids')}
+                                // required
                                 variant="outlined"
                                 type="number"
                                 value={contactData.numberOfKids}
@@ -189,16 +189,16 @@ export const Contact = (): JSX.Element => {
                         </div>
                         <div className="groupped-fields">
                             <DateTimePicker
-                                label="departureDate"
+                                label="Departure Date"
                                 value={dayjs(contactData.departureDate)}
                                 onChange={handleDepartureDateChange}
-                                className="contact-date-picker form-field"
+                                className="form-field"
                             />
                             <DateTimePicker
-                                label="returnDate"
+                                label="Return Date"
                                 value={dayjs(contactData.returnDate)}
                                 onChange={handleReturnDateChange}
-                                className="contact-date-picker form-field"
+                                className="form-field"
                             />
                         </div>
                         <div className="groupped-fields">
@@ -208,7 +208,7 @@ export const Contact = (): JSX.Element => {
                                 onChange={(value: string) => {
                                     setContactData({ ...contactData, housingType: value as HousingType });
                                 }}
-                                label="housingType"
+                                label={t("accomodation_type")}
                                 labelId="housing-type"
                                 parentClassName="form-field"
                             />
@@ -225,7 +225,7 @@ export const Contact = (): JSX.Element => {
                                 onChange={(value: string) => {
                                     setContactData({ ...contactData, housingCategory: parseInt(value) });
                                 }}
-                                label="housingCategory"
+                                label={t("category")}
                                 labelId="housing-category"
                                 parentClassName="form-field"
                             />
@@ -235,11 +235,11 @@ export const Contact = (): JSX.Element => {
                                 onChange={(value: string) => {
                                     setContactData({ ...contactData, housingRegime: value as HousingRegime });
                                 }}
-                                label="housingRegime"
+                                label={t("regime")}
                                 labelId="housing-regime"
                                 parentClassName="form-field"
                             />
-                        </div> */}
+                        </div>
                         <TextField
                             label={t('message')}
                             variant="outlined"

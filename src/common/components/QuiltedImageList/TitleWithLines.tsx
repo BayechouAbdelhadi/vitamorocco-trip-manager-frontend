@@ -3,6 +3,7 @@ import { Box, Divider, Typography, useMediaQuery } from '@mui/material';
 interface TextWithLinesProps {
     text: string;
 }
+
 function TextWithLines({ text }: TextWithLinesProps) {
     const isXs = useMediaQuery('(max-width:600px)');
     return (
@@ -15,6 +16,7 @@ function TextWithLines({ text }: TextWithLinesProps) {
                 <Typography variant={isXs ? 'h4' : 'h3'} style={{
                     "fontWeight": '600',
                     "fontSize": "clamp(1.3rem, 2.3vw, 2rem)",
+                    "fontFamily": "Verdana, sans-serif",
                     "position": "relative"
                 }}>
                     {text}

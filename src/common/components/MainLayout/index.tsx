@@ -26,7 +26,7 @@ export const MainLayout = ({ children }: PropsWithChildren<Record<string, unknow
             <ScrollToTopButton />
         </ErrorBoundarySuspense>
         <ErrorBoundarySuspense>
-          <CookiesNotice />
+            <CookiesNotice />
         </ErrorBoundarySuspense>
     </div>
 );

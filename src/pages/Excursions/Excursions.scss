@@ -1,5 +1,8 @@
+@import '../../assets/scss/theme';
+
 .excursions-page-container {
     width: 70%;
+    text-align: justify;
 }
 
 @media (max-width: 490px) {
@@ -30,4 +33,14 @@
 .excursion-summary-card-container {
     max-width: 345px;
     cursor: pointer;
+}
+
+.email-link {
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: underline;
+        color: $primary-color;
+        transition: all 0.3s
+    }
 }
