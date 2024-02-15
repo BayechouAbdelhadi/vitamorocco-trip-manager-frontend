@@ -19,8 +19,8 @@ export default function SocialMediaIcons({ displayColumn = false, float = false 
     return (
         <Box
             sx={{
-                // display: { md: 'flex', xs: float ? 'none' : 'flex' },
-                display: 'flex',
+                display: { md: 'flex', xs: float ? 'none' : 'flex' },
+                // display: 'flex',
                 border: '1px solid rgb(202, 202, 202)',
             }}
             className={`social-media-icons-container ${displayColumn && 'column'} ${float && 'float-container'}`}

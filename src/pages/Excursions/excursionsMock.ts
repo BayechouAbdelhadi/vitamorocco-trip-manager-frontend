@@ -469,6 +469,20 @@ export const excursionsMock = [
             // "ar": "الصويرة موغادور"
         },
         "summaryImg": "marrakech_city_tour_summary.jpg",
+        "descriptionImg": "marrakech_city_tour_summary.jpg",
+        "highlightImgs": [
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+            "marrakech_city_tour_summary.jpg",
+        ],
         "description": {
             // "fr": "Essaouira, ou la perle de l'Atlantique, cette ville classée au patrimoine mondial, conserve le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils ont vécu pendant des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Tuya, ses coopératives de femmes pour l'huile d'argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons de faire un arrêt dans une coopérative de femmes pour assister à la démonstration de femmes locales préparant de l'huile d'argan. À votre arrivée dans la ville, vous pouvez faire une visite gratuite de la médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons vous fournir un guide local qui vous fera visiter la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (c'est recommandé) pour profiter au maximum de la journée.",
             "en": "Marrakech is the most famous and exciting of the Morocco's Imperial cities. An experienced and knowledgeable guide will show you the red city on this full-day guided sightseeing tour in Marrakech. You will be able to immerse yourself in the vivid art, rich history, local culture, ancient sites, vibrant souks, Moroccan handicrafts, palaces, and gardens... The most iconic places in Marrakech are unquestionably the central Djemaa el Fna square, and the Koutoubia Mosque with its beautiful Minaret, a landmark in the heart of the city. The Bahia Palace, the Ben Youssef Medersa, the Saadian Tombs, the Majorelle Gardens and le Jardin Secret are all places revealing Marrakech's fascination and beauty. You will undoubtedly wish to spend more days exploring this Magical and unique city.",

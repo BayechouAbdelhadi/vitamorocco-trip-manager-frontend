@@ -23,7 +23,7 @@ export const EXCURSIONS = [
     link: '/excursions',
   },
   {
-    title: 'Ouarzazate',
+    title: 'Ait Ben Haddou',
     link: '/excursions/ouarzazate'
   },
   {

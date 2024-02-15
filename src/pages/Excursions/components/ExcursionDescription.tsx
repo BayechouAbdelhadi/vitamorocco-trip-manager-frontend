@@ -2,6 +2,7 @@ import { Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
 import { Excursion } from '../../../common/types/excursion';
+import { defaultImage } from '../../../common/utils/imageUtils';
 
 const ExcursionText = 'Excursion';
 interface ExcursionDescriptionInterface {
@@ -25,7 +26,11 @@ export const ExcursionDescription = ({ excursion }: ExcursionDescriptionInterfac
                 className: 'content-pane',
             }}
             rightPane={{
-                element: <img src="https://mui.com/static/images/cards/paella.jpg" alt="description" />,
+                element: <img
+                    src={`/img/excursions/${excursion.id}/${excursion.descriptionImg}`}
+                    alt="description"
+                    onError={defaultImage.large.errorHandler}
+                />,
                 className: 'visual-pane',
             }}
         />

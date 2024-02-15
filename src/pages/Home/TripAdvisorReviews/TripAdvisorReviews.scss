@@ -1,29 +1,28 @@
-.swiper {
+.trip-advisor-reviews-swiper {
     width: 100%;
     max-width: 1100px;
     padding: 40px 10px;
 
-    --swiper-pagination-color: rgba(56, 245, 255, 1);
-    --swiper-pagination-bullet-inactive-color: rgb(211, 36, 36);
-}
+    --swiper-pagination-color: rgb(188, 141, 74);
 
-@media (max-width: 490px) {
-    .swiper {
-        max-width: 380px !important;
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 450px;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 15px;
+        border-radius: 10px;
+        transition: width 0.3s ease;
     }
 }
 
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 450px;
-}
-
-.swiper-pagination-bullet-active {
-    width: 15px;
-    border-radius: 10px;
-    transition: width 0.3s ease;
+@media (max-width: 490px) {
+    .trip-advisor-reviews-swiper {
+        max-width: 380px !important;
+    }
 }
 
 .button-next,

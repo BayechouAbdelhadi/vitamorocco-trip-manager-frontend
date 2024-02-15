@@ -33,8 +33,6 @@ export const Excursion = (): JSX.Element => {
         return <CircularProgress />;
     }
 
-    console.log('`test`', `img/excursions/${excursion?.id}/${excursion?.summaryImg}`)
-
     return (
         <Page
             description={excursionTitle}

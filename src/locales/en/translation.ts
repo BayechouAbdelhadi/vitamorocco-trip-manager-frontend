@@ -70,7 +70,7 @@ export const TRANSLATION_EN = {
     // G
     gallery: 'Gallery',
     // H
-    highlights: 'Highlits',
+    highlights: 'Highlights',
     // I
     included_services: {
         local_guide: {

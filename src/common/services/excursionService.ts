@@ -21,7 +21,7 @@ const mapper = (): Array<Excursion> => excursionsMock.map(exMock => {
         title: title.en as string,
         description: description.en as string,
         highlights: highlights.map((h: any) => h.en as string),
-        pricing: pricing.map((h: any) => h.en as string),
+        pricing: pricing.map((p: any) => p.en as string),
         frequency: frequency.en as string,
     };
 
