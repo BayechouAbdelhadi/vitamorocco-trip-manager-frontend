@@ -36,8 +36,9 @@
             padding-right: 12px;
             font-variant-numeric: tabular-nums;
             align-self: flex-start;
-            background-image: linear-gradient(to bottom, rgb(232, 176, 221), orangered);
+            background-image: linear-gradient(to bottom, rgb(188, 141, 74), rgb(188, 141, 74));
             background-attachment: fixed;
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }

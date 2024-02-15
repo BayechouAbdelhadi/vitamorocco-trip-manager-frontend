@@ -1,7 +1,7 @@
-import { CircularProgress, Container, Typography } from '@mui/material';
+import { Button, CircularProgress, Container, Typography, useTheme } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Page } from '../../common/components/Page/Page';
 import PanedSection from '../../common/components/panes/SectionedPanes';
 import { getExcursion } from '../../common/services/excursionService';
@@ -12,10 +12,12 @@ import { ExcursionPricing } from './components/ExcursionPricing';
 import { ExcludedServiceList } from './components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from './components/excursion-services/IncludedServices';
 import './Excursion.scss';
+import { scrollToTop } from '../../common/utils';
 
 const ExcursionText = 'Excursion';
 
 export const Excursion = (): JSX.Element => {
+    const theme = useTheme()
     const { excursionId } = useParams();
     const { t } = useTranslation();
 
@@ -82,6 +84,13 @@ export const Excursion = (): JSX.Element => {
                                 className: 'content-pane',
                             }}
                         />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fugiat repellat laborum vel recusandae nisi
+                            eaque? Nihil eligendi, reiciendis suscipit assumenda facere excepturi, quas delectus corrupti optio expedita quia molestias.
+                        </p>
+                        <Button component={Link} className='secondary-button' to="/contact" sx={{ margin: '20px 0' }} onClick={scrollToTop}>
+                            {t('contact.title')}
+                        </Button>
                     </Container>
                 )
             )}
