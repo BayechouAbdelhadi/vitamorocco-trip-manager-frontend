@@ -5,16 +5,16 @@ import { Excursion } from '../types/excursion';
 import { vitaGet } from '../utils/axiosUtils';
 
 // export const getExcursions = () => vitaGet<Excursion[]>('excursions?summary=true');
-export const getExcursions = () => Promise.resolve(mapper());
+export const getExcursions = () => Promise.resolve(ExcursionsMapper());
 
 // export const getExcursion = (id: string) => vitaGet<Excursion>(`excursions/${id}`);
-export const getExcursion = (id: string) => Promise.resolve(mapper().find(excursion => excursion.id === id));
+export const getExcursion = (id: string) => Promise.resolve(ExcursionsMapper().find(excursion => excursion.id === id));
 
 
 export default { getExcursions };
 
 
-const mapper = (): Array<Excursion> => excursionsMock.map(exMock => {
+const ExcursionsMapper = (): Array<Excursion> => excursionsMock.map(exMock => {
     const { title, description, highlights, pricing, frequency, ...common } = exMock
     const excursion: Excursion = {
         ...common as Partial<Excursion>,

@@ -12,7 +12,7 @@ export const Excursions = (): JSX.Element => {
 
     return (
         <Page description={ExcursionsText} keywords={ExcursionsText} title={ExcursionsText} imgSrc='img/excursions/excursions_title.jpg' className='excursions-page-container'>
-            {false ? (
+            {isLoading ? (
                 <CircularProgress />
             ) : (
                 <>

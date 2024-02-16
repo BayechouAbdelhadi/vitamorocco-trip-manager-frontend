@@ -1,9 +1,9 @@
 export const toursMock = [
     {
-        "id": "ouarzazate",
+        "id": "3 days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains",
         "title": {
-            "fr": "Ouarzazate",
-            "en": "Ouarzazate",
+            "fr": "3 days Trip Fes To Marrakech through Sahara Desert & Atlas Mountains",
+            "en": "3 days Trip Fes To Marrakech through Sahara Desert & Atlas Mountains",
             "es": "Ouarzazate",
             "pt": "Ouarzazate",
             "ar": ""
@@ -11,12 +11,24 @@ export const toursMock = [
         "summaryImg": "ouarzazate_summary.jpg",
         "description": {
             // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
-            "en": "This long excursion leads us through the High Atlas on an impressive mountain road that winds through picturesque valleys and through numerous Berber villages and semi-precious stone vendors until we reach Tizi n'Tichka, the highest mountain pass in the Atlas at 2,260m. Pick up at the hotel or Riad where you are staying and early departure from Marrakech, we will cross the High Atlas on the way to the port of Tichka (the highest road pass in Africa) where we will admire the peaks of the chain and the beautiful Berber villages with houses traditional adobe. We will arrive at the Kasbah of Ait Benhaddou, the most famous of these fortifications, it is a sandcastle bordered by blossoming almond trees, recognized for its extraordinary beauty even by UNESCO, which is located within the buildings that are world heritage sites. Ait Ben Haddou (the best preserved in Morocco); We will visit and discover the charm of its impressive Kasbahs. Ouarzazate road This world heritage served as a natural setting for several films: Lawrence of Arabia, the Mummy, Gladiator... Then, we will continue to Ouarzazate to have lunch in front of the famous Taourirt Kasbah. Visit of the kasbah and return to Marrakech. The excursion from Marrakech to Ouarzazate starts as early as possible (it is recommended) to enjoy the maximum of the day.",
+            "en": `VITA MOROCCO Travel agency offers the Best Sahara Desert trips from Fes. And these 3-
+            day Sahara Desert tour Fes to Marrakech is one of the Popular Tours that travellers take.
+            This trip lets you travel from the north of Morocco “Fes” to Marrakech's central city. This tour
+            is ideal for combining two Moroccan Imperial cities (Fez & Marrakech). Also, a perfect option
+            for those travellers who are looking for a short Sahara Desert tour, depart from Fes and ends
+            in Marrakech through Merzouga desert & Atlas Mountains.
+            These 3 days desert tour from Fes to Marrakech via Sahara Desert offers you the chance to
+            discover the south of Morocco. Experience Camel rides and spends the night in Berber
+            (Amazigh) desert camp. Discover the most interesting sites that southeast Morocco has to
+            offer: Ceder forests, Gorges, Valleys, Oasis, UNESCO world heritage sites, Kasbahs, and
+            High Atlas Mountains.
+            Join our Private 3 days trip from Fes to Marrakech and let us show you the best of Morocco,
+            Landscapes, Berbers lifestyle, adventures, joy…`,
             // "es": "Essaouira, o la perla del Atlántico, esta ciudad Patrimonio de la Humanidad, conserva el encanto y la autenticidad de una tierra perdida en el tiempo. Essaouira se ha convertido en una etapa esencial en el viaje a Marruecos. El explorador aventurero quedará fascinado por la amabilidad hospitalaria de la gente de esta ciudad, lo que no es sorprendente, ya que han vivido durante siglos en el cruce de culturas, civilizaciones y religiones. La ciudad es conocida por sus fábricas de madera de tuya, las cooperativas de mujeres para el aceite de argán y las alfombras. En nuestra excursión a Essaouira, le sugerimos hacer una parada en una cooperativa de mujeres para presenciar la demostración de mujeres locales preparando aceite de argán. A su llegada a la ciudad, puede hacer un recorrido gratuito por la Medina de Essaouira, visitar el puerto y luego disfrutar de un almuerzo de pescado fresco a la parrilla en los restaurantes locales del puerto. Si lo desea, podemos proporcionarle un guía local que le mostrará la ciudad. La excursión desde Marrakech a Essaouira comienza lo más temprano posible (se recomienda) para aprovechar al máximo el día.",
             // "pt": "Essaouira, ou a pérola do Atlântico, esta cidade Patrimônio Mundial, mantém o charme e autenticidade de uma terra perdida no tempo. Essaouira tornou-se uma etapa essencial na viagem a Marrocos. O explorador aventureiro ficará fascinado com a amabilidade acolhedora do povo desta cidade, o que não é surpreendente, já que eles viveram por séculos no cruzamento de culturas, civilizações e religiões. A cidade é conhecida por suas fábricas de madeira de Thuya, cooperativas de mulheres para o óleo de argan e tapetes. Na nossa excursão a Essaouira, sugerimos fazer uma paragem numa cooperativa de mulheres para assistir à demonstração de mulheres locais a preparar óleo de argan. Ao chegar à cidade, pode fazer um passeio gratuito pela Medina de Essaouira, visitar o porto e depois desfrutar de um almoço com peixe fresco grelhado nos restaurantes locais do porto. Se desejar, podemos providenciar um guia local que lhe mostrará a cidade. A excursão de Marraquexe a Essaouira começa o mais cedo possível (recomenda-se) para aproveitar ao máximo o dia.",
             // "ar": ""
         },
-        "destinationCity": "Ouarzazate",
+        "destinationCity": "Marrakech",
         "includedServices": [
             "private_tour",
             "pickup_at",
@@ -25,7 +37,7 @@ export const toursMock = [
             "expenses",
             "local_guide"
         ],
-        "departureCity": "Ouarzazate",
+        "departureCity": "Fes",
         "departurePickupTime": "07:00 or 08:00 AM",
         "returnPickupTime": "05:30 PM",
         "journeyTime": 4,

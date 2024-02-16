@@ -20,5 +20,6 @@ export type Excursion = Partial<
         summaryImg: string;
         descriptionImg: string;
         highlightImgs: string[];
+        steps: string[];
     }
 >

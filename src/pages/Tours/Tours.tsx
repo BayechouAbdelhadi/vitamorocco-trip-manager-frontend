@@ -1,18 +1,19 @@
 import { useQuery } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
-import { getExcursions } from '../../common/services/excursionService';
+import { getTours } from '../../common/services/tourService';
 import ExcursionSummary from '../Excursions/components/ExcursionSummary';
 import { CircularProgress } from '@mui/material';
 import '../Excursions/Excursions.scss';
 import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
+
 const ToursText = 'Tours';
 
 export const Tours = (): JSX.Element => {
-    const { data: excursions, isLoading } = useQuery('excursions', getExcursions);
+    const { data: excursions, isLoading } = useQuery('tours', getTours);
 
     return (
-        <Page description={ToursText} keywords={ToursText} title={ToursText} imgSrc='img/excursions/excursions_title.jpg' className='excursions-page-container'>
-            {false ? (
+        <Page description={ToursText} keywords={ToursText} title={ToursText} imgSrc='img/tours/tours_title.jpg' className='excursions-page-container'>
+            {isLoading ? (
                 <CircularProgress />
             ) : (
                 <>
