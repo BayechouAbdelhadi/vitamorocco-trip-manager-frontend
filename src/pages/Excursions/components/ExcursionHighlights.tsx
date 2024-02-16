@@ -24,7 +24,6 @@ interface ExcursionHighlightsInterface {
 export const ExcursionHighlights = ({ excursion }: ExcursionHighlightsInterface): JSX.Element => {
     const { t } = useTranslation();
 
-    console.log('excursion?.highlightsImgs', excursion?.highlightImgs)
     return (
         <PanedSection
             title={

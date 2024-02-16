@@ -20,6 +20,12 @@ export type Excursion = Partial<
         summaryImg: string;
         descriptionImg: string;
         highlightImgs: string[];
-        steps: string[];
+        steps: Step[];
+        informationList: string[];
     }
 >
+
+export type Step = {
+    title: string,
+    description: string
+}

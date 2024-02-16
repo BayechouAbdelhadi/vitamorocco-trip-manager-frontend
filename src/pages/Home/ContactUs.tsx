@@ -14,7 +14,7 @@ function ContactUs() {
                 textAlign: 'center',
                 lineHeight: 2.5
             }}>{t('special_request_description')}</Typography>
-            <Button component={Link} to="/contact" sx={{ margin: '20px 0' }} onClick={scrollToTop}>
+            <Button component={Link} to="/contact" className='secondary-button' sx={{ margin: '20px 0' }} onClick={scrollToTop}>
                 {t('contact.title')}
             </Button>
         </div>

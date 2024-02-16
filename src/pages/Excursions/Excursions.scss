@@ -33,6 +33,10 @@
 .excursion-summary-card-container {
     max-width: 345px;
     cursor: pointer;
+
+    span {
+        text-align: left;
+    }
 }
 
 .email-link {

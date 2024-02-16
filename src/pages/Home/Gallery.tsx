@@ -16,7 +16,7 @@ export default function Gallery() {
                 lineHeight: 2.5
             }}>{t('memories_we_collect.description')}</Typography>
             <QuiltedImageList itemData={itemData} />
-            <Button component={Link} to='/services/gallery'>{t('see_more')}</Button>
+            <Button component={Link} to='/services/gallery' className='secondary-button'>{t('see_more')}</Button>
         </div>
     )
 }

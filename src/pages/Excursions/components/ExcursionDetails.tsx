@@ -45,14 +45,14 @@ export const ExcursionDetails = ({ excursion }: ExcursionDetailsInterface): JSX.
                             <HailIcon color="primary" />
                             {t('pick_up_and_drop_off_from_hotel')}
                         </li>
-                        <li className="excursion-detail-item padded">
+                        {/* <li className="excursion-detail-item padded">
                             <TimerIcon color="primary" />
                             {t('journey_time')}
                             <strong>
                                 {excursion?.departureCity}-{excursion?.destinationCity}
                             </strong>
                             : {excursion?.journeyTime} {excursion?.journeyTimeUnit}
-                        </li>
+                        </li> */}
                     </ul>
                 ),
                 className: 'content-pane',

@@ -67,6 +67,7 @@ export const TRANSLATION_EN = {
     // F
     faqs: 'FAQs',
     first_name: 'First Name',
+    full_detailed_itinerary: "Full detailed Itinerary",
     // G
     gallery: 'Gallery',
     // H
@@ -98,6 +99,7 @@ export const TRANSLATION_EN = {
             description: 'Transport in 4×4, Minivan or minibus, depending on the number travelers.',
         },
     },
+    information: 'Information',
     // J
     journey_time: 'Journey time',
     // K

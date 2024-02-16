@@ -1,6 +1,6 @@
 export const toursMock = [
     {
-        "id": "3 days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains",
+        "id": "3_days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains",
         "title": {
             "fr": "3 days Trip Fes To Marrakech through Sahara Desert & Atlas Mountains",
             "en": "3 days Trip Fes To Marrakech through Sahara Desert & Atlas Mountains",
@@ -8,11 +8,11 @@ export const toursMock = [
             "pt": "Ouarzazate",
             "ar": ""
         },
-        "summaryImg": "ouarzazate_summary.jpg",
+        "summaryImg": "3_days_trip_fes_to_marrakech_summary.jpg",
         "description": {
             // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
-            "en": `VITA MOROCCO Travel agency offers the Best Sahara Desert trips from Fes. And these 3-
-            day Sahara Desert tour Fes to Marrakech is one of the Popular Tours that travellers take.
+            "en": `VITA MOROCCO Travel agency offers the Best Sahara Desert trips from Fes. And these 3-day Sahara Desert tour Fes to Marrakech 
+            is one of the Popular Tours that travellers take.
             This trip lets you travel from the north of Morocco “Fes” to Marrakech's central city. This tour
             is ideal for combining two Moroccan Imperial cities (Fez & Marrakech). Also, a perfect option
             for those travellers who are looking for a short Sahara Desert tour, depart from Fes and ends
@@ -38,92 +38,165 @@ export const toursMock = [
             "local_guide"
         ],
         "departureCity": "Fes",
-        "departurePickupTime": "07:00 or 08:00 AM",
+        "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
-        "journeyTime": 4,
+        // "journeyTime": 4,
         "journeyTimeUnit": "hours",
         "highlights": [
             {
                 // "fr": "Visitez le port traditionnel d'Essaouira.",
-                "en": "Enjoy the sightseeing between Marrakech and Ouarzazate during this excursion.",
+                "en": "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
                 // "es": "Visita el puerto tradicional de Essaouira.",
                 // "pt": "Visite o tradicional porto de Essaouira.",
                 // "ar": "زيارة ميناء الصويرة التقليدي."
             },
             {
                 // "fr": "Découvrez le rôle de Skala.",
-                "en": "Visit the largest movie studio in North Africa.",
+                "en": "Travel across the High Atlas Mountains.",
                 // "es": "Explora el papel de Skala.",
                 // "pt": "Explore o papel de Skala.",
                 // "ar": "اكتشف دور سكالا."
             },
             {
                 // "fr": "Visitez l'ancienne médina avec ses artisans et cèdres, ses forgerons, ses tisserands, bijoutiers c'est… sa place Moulay Hassan et bien sûr ses souks.",
-                "en": "Visit the kasbah Taouirt.",
+                "en": "Visit the UNESCO World Heritage Site of Kasbah Ait Ben Haddou.",
                 // "es": "Visite la antigua medina con sus artesanos y cedros, sus herreros, sus tejedores, sus joyeros... su plaza Moulay Hassan y, por supuesto, sus zocos.",
                 // "pt": "Visite a antiga medina com os seus artesãos e cedros, os seus ferreiros, os seus tecelões, os seus joalheiros… a sua Place Moulay Hassan e claro os seus souks.",
                 // "ar": "قم بزيارة المدينة القديمة بحرفيها وأرزها والحدادين والنساجين والصائغين... ساحة مولاي حسن وبالطبع أسواقها."
             },
             {
                 // "fr": "Détendez-vous sur une belle plage.",
-                "en": "Visit the famous Kasbah of Ait Ben Haddou. (World heritage of UNESCO)",
+                "en": "Explore Dades & Todra Gorges, Palm groves & valleys.",
                 // "es": "Relájate en una hermosa playa.",
                 // "pt": "Relaxe em uma bela praia.",
                 // "ar": "استرخ على الشاطئ الجميل."
             },
             {
                 // "fr": "Visitez une coopérative féminine d'arganier (facultatif).",
-                "en": " Discover the most beautiful scenes of villages and high mountain views.",
+                "en": "Experience a Camel ride in Merzouga dunes & Experience Sandboarding.",
                 // "es": "Visita a una Cooperativa Femenina de Argán (opcional).",
                 // "pt": "Visite uma Cooperativa Feminina de Argan (opcional).",
                 // "ar": "زيارة جمعية تعاونية أرغان النسائية (اختياري)."
             },
             {
                 // "fr": "Faites des arrêts pour prendre des photos.",
-                "en": "Visit a Female Cooperative of Argan (optional).",
+                "en": "Enjoy a spectacular sunset & sunrise Camel ride.",
                 // "es": "Haga paradas para tomar fotografías.",
                 // "pt": "Faça paradas para tirar fotos.",
                 // "ar": "توقف لالتقاط الصور."
             },
             {
                 // "fr": "Faites des arrêts pour prendre des photos.",
-                "en": "Have stops for photo shooting.",
+                "en": "Visit the biggest film studios in north Africa.",
                 // "es": "Haga paradas para tomar fotografías.",
                 // "pt": "Faça paradas para tirar fotos.",
                 // "ar": "توقف لالتقاط الصور."
-            }
+            },
+            {
+                // "fr": "Faites des arrêts pour prendre des photos.",
+                "en": "Spend an overnight in a nomadic desert camp.",
+                // "es": "Haga paradas para tomar fotografías.",
+                // "pt": "Faça paradas para tirar fotos.",
+                // "ar": "توقف لالتقاط الصور."
+            },
+            {
+                // "fr": "Faites des arrêts pour prendre des photos.",
+                "en": "Take memorable Pictures in one of the best parts of Morocco.",
+                // "es": "Haga paradas para tomar fotografías.",
+                // "pt": "Faça paradas para tirar fotos.",
+                // "ar": "توقف لالتقاط الصور."
+            },
+            {
+                // "fr": "Faites des arrêts pour prendre des photos.",
+                "en": "Immerse yourself inside a rich and different culture.",
+                // "es": "Haga paradas para tomar fotografías.",
+                // "pt": "Faça paradas para tirar fotos.",
+                // "ar": "توقف لالتقاط الصور."
+            },
+            {
+                // "fr": "Faites des arrêts pour prendre des photos.",
+                "en": "Taste a big variety of different food and dishes.",
+                // "es": "Haga paradas para tomar fotografías.",
+                // "pt": "Faça paradas para tirar fotos.",
+                // "ar": "توقف لالتقاط الصور."
+            },
+            {
+                // "fr": "Faites des arrêts pour prendre des photos.",
+                "en": "Pass through the Switzerland of Morocco “Ifrane”.",
+                // "es": "Haga paradas para tomar fotografías.",
+                // "pt": "Faça paradas para tirar fotos.",
+                // "ar": "توقف لالتقاط الصور."
+            },
+            {
+                // "fr": "Faites des arrêts pour prendre des photos.",
+                "en": "A panoramic stop on the Ziz Valley.",
+                // "es": "Haga paradas para tomar fotografías.",
+                // "pt": "Faça paradas para tirar fotos.",
+                // "ar": "توقف لالتقاط الصور."
+            },
         ],
-        "pricing": [
+        "steps": [
             {
-                // "fr": "Groupe de 1 à 6 personnes : 160€",
-                "en": "Group of 1 to 6 people: 170€",
-                // "es": "Grupo de 1 a 6 personas: 160€",
-                // "pt": "Grupo de 1 a 6 pessoas: 160€",
-                // "ar": "مجموعة من 1 إلى 6 أشخاص: 160 يورو"
+                title: "Fes - Atlas Mountains - Ifrane - Azrou - Ziz Valley - Merzouga Sahara Desert (Camel Adventure & overnight in desert camp)",
+                description: `Around 8:00 Am our Driver/guide will pick you up from Your Hotel/Riad in Fes. Then,
+                start our 3-day Sahara desert tour from Fes to Marrakech passing through the middle
+                Atlas Mountains. The first stop in our Fes Sahara Marrakech trip will be in “Ifrane” city,
+                known as the “Switzerland of Morocco”. There you will enjoy Ifrane stunning views &
+                Forest. Afterward, We will have a stop in “Azrou” to see the monkeys in the cedar forest
+                (Barbary Macaque). We will have time to take pictures with monkeys on the road. Our
+                Private 3-day desert trip Fes to Marrakech Continuous to “Midelt” city for a lunch in a
+                local restaurant (Optional).
+                Later, we will head toward the Sahara Desert, we will pass through “Tizi n'Talghamt
+                pass” to reach “Errachidia” city while admiring the views of Ziz gorges. Furthermore, We
+                will have free time to take pictures & Memorable moments in the panoramic views of
+                “Ziz valley”. Our road trip continues to Merzouga Erg Chebbi across Tafilalte Oasis
+                “Aoufous” & “Erfoud” (Known for its fossils Museums and dates). We will have a visit to a
+                local fossils craft workshop. (optional)
+                Before Sunset, we will arrive in Merzouga Sahara Desert. Where you will enjoy a lifetime
+                Experience. Starting with riding camels into Erg Chebbi sand dunes in order to reach
+                our authentic Berber desert Camp Merzouga. The camel rides Adventure takes
+                approximately 1:30H with a break on top of the dune to enjoy the thrilling views of the
+                sunset, try the sandboarding (Optional), enjoy the views, take memorable pictures.
+                Following this, you'll continue to the camp where you'll be welcomed with a glass of min
+                tea and relax until dinner time. After dinner there's you will relish traditional Berber
+                drumming music, enjoy the starry sky, Shooting stars, Campfire, Exchange cultures &
+                Histories with nomads. Then sleep in a private nomadic desert tent.`
             },
             {
-                // "fr": "Groupe de 7 à 10 personnes : 220€",
-                "en": "Group of 7 to 10 people: 250€",
-                // "es": "Grupo de 7 a 10 personas: 220€",
-                // "pt": "Grupo de 7 a 10 pessoas: 220€",
-                // "ar": "مجموعة من 7 إلى 10 أشخاص: 220 يورو"
+                title: "Merzuga desert - Rissani - Tinjdad - Todra Valley & Gorges - Dades Valley",
+                description: `Today, on our 3 days Fes to Marrakech tour itinerary. You will wake up early to
+                appreciate a breathtaking sunrise over Merzouga erg Chebbi. After breakfast & shower
+                in the desert camp, we will go back to Merzouga Village, either back by camel trekking or
+                4WD (as you wish). Then, we will drive to Rissani, we will visit the traditional Market the
+                biggest one in the air. Subsequently, our 3-days Morocco desert tour goes on through
+                many Berber (Amazigh) villages, Mellab, Tinjdad, Jorf and this last one knows for the
+                wells of an old irrigation system. We will have a stop there to visit this attraction. The
+                lunch will be in Mellab or Tinjdad (Optional).
+                The next stop will be at Todra valley to admire one of the old and beautiful oases in the
+                southeast of Morocco and the canyons of Todra gorges, which are about 300m in height.
+                Also, the power of water could make its own way across the rocks. This Gorge is known
+                for climbing and hiking. Finally, we will drive to Dades Gorge, where we will spend the
+                2nd night of our trip, an overnight stay in a Riad.`
             },
             {
-                // "fr": "Groupe de 11 à 14 personnes : 250€",
-                "en": "Group of 11 to 14 people: 280€",
-                // "es": "Grupo de 11 a 14 personas: 250€",
-                // "pt": "Grupo de 11 a 14 pessoas: 250€",
-                // "ar": "مجموعة من 11 إلى 14 شخصًا: 250 يورو"
+                title: "Dades Valley - Roses Valley - Ouarzazate - Ait Ben Haddou - High Atlas Mountains – Marrakech",
+                description: `On The last day of our 3-day desert tour Fez to Marrakech, We will have breakfast in
+                breathtaking views of Dades gorge. Then continue our trip to Marrakech through Roses
+                valley & Skoura Oases palm groves.
+                The next stop will be in Ouarzazate, where we will have a quick visit to the Kasbah of
+                Taourirt and after 27 km of the road, we will reach Ait Ben Haddou Kasbah, a UNESCO
+                World Heritage site. It has been used as a backdrop for shooting numerous Hollywood
+                Movies including “Lawrence of Arabia”, “Gladiator”, “Kingdom of Heaven”, “Prince of
+                Persia” and much more… The Kasbahs (fortresses) reflect the Exotic Moroccan
+                architecture & cultures.
+                After exploring the kasbah, we will continue a little further on High Atlas Mountains
+                through the “Tichka pass” which will lead us to the Red City Marrakech, where our trip
+                ends.
+                `
             },
-            {
-                // "fr": "Groupe de 15 à 16 personnes : 300€",
-                "en": "Group of 15 to 16 people: 320€",
-                // "es": "Grupo de 15 a 16 personas: 300€",
-                // "pt": "Grupo de 15 a 16 pessoas: 300€",
-                // "ar": "مجموعة من 15 إلى 16 شخصًا: 300 يورو"
-            }
         ],
-        "duration": 1,
+        "pricing": [],
+        "duration": 3,
         "durationUnit": "day",
         "frequency": {
             "fr": "chaque jour",
@@ -131,7 +204,20 @@ export const toursMock = [
             "es": "Cada día",
             "pt": "Diariamente",
             "ar": "كل يوم"
-        }
+        },
+        informationList: [
+            `Our travel agency, have both choices:
+            Fes to Marrakech via desert Sahara 3 days luxury desert tour.
+            Fes to Marrakech via Sahara Desert 3 days Standard Tour (Basic), Depends on your
+            choice.`,
+            `Our Fez to Marrakech 3 Days desert Safari is a private Trip. We are sure that the best
+            way to get into the deepest Moroccan culture is through private tours. because You
+            can stop whenever & wherever you like while you're exploring the country by your
+            way`,
+            `You can always ask your driver-guide about skipping some stops or add some other
+            stops to spend more time where you like.`,
+            `Our guests can choose to go to the camp on a camel trek or by 4WD car.`
+        ]
     },
     {
         "id": "essaouira_mogador",
