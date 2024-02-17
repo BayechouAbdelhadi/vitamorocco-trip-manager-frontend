@@ -23,42 +23,33 @@ export default function Gallery() {
 
 const itemData = [
     {
-        img: '/img/1.jpg',
-        title: 'Breakfast',
+        img: '/img/home_gallery/1.jpg',
         rows: 2,
         cols: 2,
     },
     {
-        img: '/img/2.jpg',
-        title: 'Burger',
+        img: '/img/home_gallery/1.jpg',
     },
     {
-        img: '/img/welcome.jpg',
-        title: 'Camera',
+        img: '/img/home_gallery/1.jpg',
     },
     {
-        img: '/img/destinations/activity.jpeg',
-        title: 'Coffee',
+        img: '/img/home_gallery/1.jpg',
         cols: 2,
     },
     {
-        img: '/img/destinations/tour.jpg',
-        title: 'Hats',
+        img: '/img/home_gallery/1.jpg',
         cols: 2,
     },
     {
-        img: '/img/destinations/excursion.jpeg',
-        title: 'Honey',
-        author: '@arwinneil',
+        img: '/img/home_gallery/1.jpg',
         rows: 2,
         cols: 2,
     },
     {
-        img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-        title: 'Basketball',
+        img: '/img/home_gallery/1.jpg',
     },
     {
-        img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-        title: 'Fern',
+        img: '/img/home_gallery/1.jpg',
     }
 ];

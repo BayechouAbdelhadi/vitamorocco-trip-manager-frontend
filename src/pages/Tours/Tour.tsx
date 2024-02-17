@@ -70,6 +70,7 @@ export const Tour = (): JSX.Element => {
                         />
                         <ExcludedServiceList />
                         <TourInformation informationList={tour.informationList ?? []} />
+                        <hr />
                         <p>
                             Our tours are fully customizable to cater to your unique interests and preferences. Whether you&apos;re seeking adventure, culture, relaxation, or a blend of experiences,
                             we&apos;ve got you covered. Simply reach out to us with your ideas, and we&apos;ll tailor the perfect itinerary just for you.

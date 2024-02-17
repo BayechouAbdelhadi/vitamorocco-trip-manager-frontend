@@ -13,7 +13,6 @@ function srcset(image: string, size: number, rows = 1, cols = 1) {
 
 type ImageListProps = {
   itemData: {
-    title: string
     img: string
     rows?: number
     cols?: number
@@ -33,7 +32,7 @@ export default function QuiltedImageList({ itemData }: ImageListProps) {
         <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
           <img
             {...srcset(item.img, ROW_HEIGHT, item.rows, item.cols)}
-            alt={item.title}
+            alt={"gallery-image"}
             loading="lazy"
             onError={defaultImage.small.errorHandler}
           />
