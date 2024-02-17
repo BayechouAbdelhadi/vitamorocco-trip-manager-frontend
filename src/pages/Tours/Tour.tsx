@@ -63,8 +63,20 @@ export const Tour = (): JSX.Element => {
                                     {t('whats_included')}
                                 </Typography>
                             }
+                            // leftPane={{
+                            //     element: <IncludedServiceCard services={tour.includedServices ?? []} />,
+                            //     className: 'content-pane',
+                            // }}
                             leftPane={{
-                                element: <IncludedServiceCard services={tour.includedServices ?? []} />,
+                                element: <div className="excluded-services-list">
+                                    <ul>
+                                        {tour.includedServices?.map((service) => (
+                                            <li key={service}>
+                                                <div>{service}</div>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>,
                                 className: 'content-pane',
                             }}
                         />
