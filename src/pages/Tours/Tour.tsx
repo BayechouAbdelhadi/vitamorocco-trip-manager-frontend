@@ -7,16 +7,16 @@ import PanedSection from '../../common/components/panes/SectionedPanes';
 import { ExcursionDescription } from '../Excursions/components/ExcursionDescription';
 import { ExcursionDetails } from '../Excursions/components/ExcursionDetails';
 import { ExcursionHighlights } from '../Excursions/components/ExcursionHighlights';
-import { ExcursionPricing } from '../Excursions/components/ExcursionPricing';
 import { ExcludedServiceList } from '../Excursions/components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from '../Excursions/components/excursion-services/IncludedServices';
 import { scrollToTop } from '../../common/utils';
 import { getTour } from '../../common/services/tourService';
 import { TourSteps } from './TourSteps';
+import TourInformation from './TourInformation';
+import { TourPricing } from './TourPricing';
 
 import '../Excursions//Excursion.scss';
 import './Tour.scss';
-import TourInformation from './TourInformation';
 
 
 const TourText = 'Tour';
@@ -48,16 +48,15 @@ export const Tour = (): JSX.Element => {
             imgSrc={`/img/tours/${tour?.id}/${tour?.summaryImg}`}
             className="excursion-detail"
         >
-            {false ? (
-                <CircularProgress />
-            ) : (
+            {
                 tour && (
                     <Container>
                         <ExcursionDescription excursion={tour} />
                         <ExcursionHighlights excursion={tour} />
                         <ExcursionDetails excursion={tour} />
                         <TourSteps steps={tour.steps ?? []} />
-                        <ExcursionPricing excursion={tour} />
+                        {/* <ExcursionPricing excursion={tour} /> */}
+                        <TourPricing />
                         <PanedSection
                             title={
                                 <Typography variant="h5" className="setcion-title left-title">
@@ -81,7 +80,7 @@ export const Tour = (): JSX.Element => {
                         </Button>
                     </Container>
                 )
-            )}
+            }
         </Page>
     );
 };
