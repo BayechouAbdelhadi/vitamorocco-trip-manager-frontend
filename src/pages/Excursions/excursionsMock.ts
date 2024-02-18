@@ -395,7 +395,7 @@ export const excursionsMock = [
         },
         "summaryImg": "ouzoud_waterfalls_summary.jpg",
         "titleImg": "ouzoud_waterfalls_summary.jpg",
-        "descriptionImg": "ouzoud_waterfalls_summary.jpg",
+        "descriptionImg": "description.jpg",
         "description": {
             // "fr": "Essaouira, ou la perle de l'Atlantique, cette ville classée au patrimoine mondial, conserve le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils ont vécu pendant des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Tuya, ses coopératives de femmes pour l'huile d'argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons de faire un arrêt dans une coopérative de femmes pour assister à la démonstration de femmes locales préparant de l'huile d'argan. À votre arrivée dans la ville, vous pouvez faire une visite gratuite de la médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons vous fournir un guide local qui vous fera visiter la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (c'est recommandé) pour profiter au maximum de la journée.",
             "en": "The Ouzoud waterfalls, located near a village with the same name, with their impressive 100 meters of altitude are what give strength to the waters of the el-Abid river. Pick up at the hotel or Riad where you are staying and early departure towards the OUZOUD waterfalls. Before we will make a stop at Iminifri, a natural bridge of great beauty, with fossilization of the roots of the trees. Then we will head towards Ouzoud, we will enjoy a day under the waterfalls, where we can find water drops of up to 50 meters high. The Ouzoud waterfalls are the largest and most impressive waterfalls in North Africa. They have a height of 110 meters and are located in the province of Tanaghmeilt, 150 kilometers from Marrakech, in the Atlas Mountains. The walk through the waterfalls is very beautiful, you can surround the waterfalls on both sides while you see the vegetation and fauna (it is very common to see monkeys). The most intrepid and hot can choose to bathe in the river, it is a very clean water although it's pretty cold. At middle day you can enjoy a pleasant meal sitting on a terrace overlooking the waterfalls. In the Evening, we return to Marrakech.",
@@ -446,6 +446,13 @@ export const excursionsMock = [
                 // "pt": "Relaxe em uma bela praia.",
                 // "ar": "استرخ على الشاطئ الجميل."
             }
+        ],
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
         ],
         "pricing": [
             {
