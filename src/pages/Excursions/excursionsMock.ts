@@ -245,7 +245,8 @@ export const excursionsMock = [
             "es": "Cada día",
             "pt": "Diariamente",
             "ar": "كل يوم"
-        }
+        },
+        mapLink: "!1m18!1m12!1m3!1d13606.092442581028!2d-9.766361931770096!3d31.509789574536523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira%2C%20Morocco!5e0!3m2!1sen!2sfr!4v1708270858970!5m2!1sen!2sfr"
     },
     {
         "id": "ourika_valley",
@@ -367,7 +368,8 @@ export const excursionsMock = [
             "es": "Cada día",
             "pt": "Diariamente",
             "ar": "كل يوم"
-        }
+        },
+        mapLink: "!1m18!1m12!1m3!1d27260.40036054459!2d-7.772029813599161!3d31.343797314978787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbaaa5746eb2bfd%3A0x8c590a8e535966d3!2sOurika%20Valley!5e0!3m2!1sen!2sfr!4v1708270962557!5m2!1sen!2sfr"
     },
     {
         "id": "ouzoud_waterfalls",
@@ -468,7 +470,8 @@ export const excursionsMock = [
             "es": "Cada día",
             "pt": "Diariamente",
             "ar": "كل يوم"
-        }
+        },
+        mapLink: "!1m18!1m12!1m3!1d6765.99216374487!2d-6.724752444338294!3d32.01521982252586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda48d6c7dbd3851%3A0x6e9e0fe22217dc35!2sOuzoud%20Falls!5e0!3m2!1sen!2sfr!4v1708271033641!5m2!1sen!2sfr"
     },
     {
         "id": "marrakech_city_tour",
@@ -597,7 +600,8 @@ export const excursionsMock = [
             "es": "Cada día",
             "pt": "Diariamente",
             "ar": "كل يوم"
-        }
+        },
+        mapLink: "!1m18!1m12!1m3!1d108702.95891202535!2d-8.090253643835684!3d31.634741149362032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakesh%2C%20Morocco!5e0!3m2!1sen!2sfr!4v1708271093825!5m2!1sen!2sfr"
     },
     {
         "id": "casablanca",
@@ -705,6 +709,7 @@ export const excursionsMock = [
             "es": "Cada día",
             "pt": "Diariamente",
             "ar": "كل يوم"
-        }
+        },
+        mapLink: "!1m18!1m12!1m3!1d106376.56000908204!2d-7.66939298514783!3d33.572403231143035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca%2C%20Morocco!5e0!3m2!1sen!2sfr!4v1708271144588!5m2!1sen!2sfr"
     },
 ]
