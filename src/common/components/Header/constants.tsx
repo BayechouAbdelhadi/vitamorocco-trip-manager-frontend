@@ -3,6 +3,7 @@ import GalleryIcon from '@mui/icons-material/Collections';
 import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
+import RowingIcon from '@mui/icons-material/Rowing';
 import TourIcon from '@mui/icons-material/ShareLocation';
 import { EXCURSIONS, TOURS } from '../Footer/constants';
 export interface NavItem {
@@ -53,16 +54,16 @@ export const NAVBAR_ITEMS: NavItem[] = [
 
         icon: <TourIcon />,
     },
-    // {
-    //     text: 'Activities',
-    //     href: '/activities',
-    //     dropdown: [
-    //         //FromDB
-    //     ],
-    //     id: 'activities',
+    {
+        text: 'Activities',
+        href: '/activities',
+        dropdown: [
+            //FromDB
+        ],
+        id: 'activities',
 
-    //     icon: <RowingIcon />,
-    // },
+        icon: <RowingIcon />,
+    },
     // {
     //     text: 'Services',
     //     href: '/services',

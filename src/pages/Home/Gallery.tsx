@@ -28,28 +28,29 @@ const itemData = [
         cols: 2,
     },
     {
-        img: '/img/home_gallery/1.jpg',
-    },
-    {
-        img: '/img/home_gallery/1.jpg',
-    },
-    {
-        img: '/img/home_gallery/1.jpg',
-        cols: 2,
-    },
-    {
-        img: '/img/home_gallery/1.jpg',
-        cols: 2,
-    },
-    {
-        img: '/img/home_gallery/1.jpg',
+        img: '/img/home_gallery/2.jpg',
         rows: 2,
-        cols: 2,
     },
     {
-        img: '/img/home_gallery/1.jpg',
+        img: '/img/home_gallery/3.jpg',
     },
     {
-        img: '/img/home_gallery/1.jpg',
+        img: '/img/home_gallery/4.jpg',
+    },
+    {
+        img: '/img/home_gallery/5.jpg',
+        rows: 2,
+    },
+    {
+        img: '/img/home_gallery/6.jpg',
+        rows: 2,
+    },
+    {
+        img: '/img/home_gallery/7.jpg',
+        rows: 2,
+    },
+    {
+        img: '/img/home_gallery/8.jpg',
+        rows: 2,
     }
 ];
