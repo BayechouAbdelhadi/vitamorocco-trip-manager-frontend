@@ -90,6 +90,7 @@ export const excursionsMock = [
             'highlight_4.jpg',
             'highlight_5.jpg',
             'highlight_6.jpg',
+            'highlight_7.jpg',
         ],
         "pricing": [
             {
@@ -142,6 +143,8 @@ export const excursionsMock = [
             "ar": "الصويرة موغادور"
         },
         "summaryImg": "essaouira_summary.jpg",
+        "titleImg": "title.jpg",
+        "descriptionImg": "description.jpg",
         "description": {
             "fr": "Essaouira, ou la perle de l'Atlantique, cette ville classée au patrimoine mondial, conserve le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils ont vécu pendant des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Tuya, ses coopératives de femmes pour l'huile d'argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons de faire un arrêt dans une coopérative de femmes pour assister à la démonstration de femmes locales préparant de l'huile d'argan. À votre arrivée dans la ville, vous pouvez faire une visite gratuite de la médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons vous fournir un guide local qui vous fera visiter la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (c'est recommandé) pour profiter au maximum de la journée.",
             "en": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
@@ -206,6 +209,16 @@ export const excursionsMock = [
                 "pt": "Faça paradas para tirar fotos.",
                 "ar": "توقف لالتقاط الصور."
             }
+        ],
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
         ],
         "pricing": [
             {
@@ -381,6 +394,8 @@ export const excursionsMock = [
             // "ar": "الصويرة موغادور"
         },
         "summaryImg": "ouzoud_waterfalls_summary.jpg",
+        "titleImg": "ouzoud_waterfalls_summary.jpg",
+        "descriptionImg": "ouzoud_waterfalls_summary.jpg",
         "description": {
             // "fr": "Essaouira, ou la perle de l'Atlantique, cette ville classée au patrimoine mondial, conserve le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils ont vécu pendant des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Tuya, ses coopératives de femmes pour l'huile d'argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons de faire un arrêt dans une coopérative de femmes pour assister à la démonstration de femmes locales préparant de l'huile d'argan. À votre arrivée dans la ville, vous pouvez faire une visite gratuite de la médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons vous fournir un guide local qui vous fera visiter la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (c'est recommandé) pour profiter au maximum de la journée.",
             "en": "The Ouzoud waterfalls, located near a village with the same name, with their impressive 100 meters of altitude are what give strength to the waters of the el-Abid river. Pick up at the hotel or Riad where you are staying and early departure towards the OUZOUD waterfalls. Before we will make a stop at Iminifri, a natural bridge of great beauty, with fossilization of the roots of the trees. Then we will head towards Ouzoud, we will enjoy a day under the waterfalls, where we can find water drops of up to 50 meters high. The Ouzoud waterfalls are the largest and most impressive waterfalls in North Africa. They have a height of 110 meters and are located in the province of Tanaghmeilt, 150 kilometers from Marrakech, in the Atlas Mountains. The walk through the waterfalls is very beautiful, you can surround the waterfalls on both sides while you see the vegetation and fauna (it is very common to see monkeys). The most intrepid and hot can choose to bathe in the river, it is a very clean water although it's pretty cold. At middle day you can enjoy a pleasant meal sitting on a terrace overlooking the waterfalls. In the Evening, we return to Marrakech.",
@@ -483,19 +498,19 @@ export const excursionsMock = [
             // "ar": "الصويرة موغادور"
         },
         "summaryImg": "marrakech_city_tour_summary.jpg",
-        "descriptionImg": "marrakech_city_tour_summary.jpg",
+        "descriptionImg": "description.jpg",
+        "titleImg": "title.jpg",
         "highlightImgs": [
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
-            "marrakech_city_tour_summary.jpg",
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
+            'highlight_10.jpg',
         ],
         "description": {
             // "fr": "Essaouira, ou la perle de l'Atlantique, cette ville classée au patrimoine mondial, conserve le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils ont vécu pendant des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Tuya, ses coopératives de femmes pour l'huile d'argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons de faire un arrêt dans une coopérative de femmes pour assister à la démonstration de femmes locales préparant de l'huile d'argan. À votre arrivée dans la ville, vous pouvez faire une visite gratuite de la médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons vous fournir un guide local qui vous fera visiter la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (c'est recommandé) pour profiter au maximum de la journée.",
@@ -613,6 +628,8 @@ export const excursionsMock = [
             // "ar": "الصويرة موغادور"
         },
         "summaryImg": "casablanca_summary.jpg",
+        "titleImg": "title.jpg",
+        "descriptionImg": "description.jpg",
         "description": {
             // "fr": "Essaouira, ou la perle de l'Atlantique, cette ville classée au patrimoine mondial, conserve le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils ont vécu pendant des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Tuya, ses coopératives de femmes pour l'huile d'argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons de faire un arrêt dans une coopérative de femmes pour assister à la démonstration de femmes locales préparant de l'huile d'argan. À votre arrivée dans la ville, vous pouvez faire une visite gratuite de la médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons vous fournir un guide local qui vous fera visiter la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (c'est recommandé) pour profiter au maximum de la journée.",
             "en": "Casablanca is the largest & big city in Morocco, with population of almost 5 million, and it's the eighth-largest in the Arab world. Casablanca has Morocco's chief port and one of the largest economic & financial centres in Africa. Located on Morocco's Atlantic coast, Casablanca came to prominence as one of the most important cities of the Berber Barghawata kingdom in the mid-8th century. In the 14th century, it was used as a key port by the Merinids; and in the 15th century, it became known as a safe harbour for a pirate. Casablanca came under Portuguese control shortly afterward in 1755, the town was largely destroyed by an earthquake. It was rebuilt by Sultan Mohammed Ben Abdallah and was colonized in the 20th century by the French. Our Day trip will start from Marrakech by Picking you up at 07H00 in the morning from your hotel/Riad, heading to the White city ( Casabalnca). Discover the emblematic places of Casablanca on a guided walking tour (Optional). Casablanca, Dar El Baïda in Arabic, owes its name, \"white city\", to a group of Spanish and Portuguese navigators seduced by the white facades, facing the sea, of the houses of the Anfa district. Explore this dynamic city and admire its boulevards and modern infrastructure. Stroll through the harbours district, renowned for its small squares and arcade alleys: the marriage between a modern urban setting and the labyrinthine passages of the traditional Medina. Continue the visit to the United Nations Square and the superb Mohammed V Square. Then join the central market to admire the royal palace of the city. Visit the colourful Harbors district and discover the Mahkama, the city's court. Visit the city's two religious' epicentres, Notre-Dame Cathedral in Lourdes and the famous Hassan II Mosque. End the ride in the residential area of Anfa and shop for souvenirs in the brand-new shopping centre that faces the sea, in the evening we will be back to Marrakech around 20:00. The excursion from Marrakech to Ouarzazate starts as early as possible (it is recommended) to enjoy the maximum of the day.",
@@ -677,6 +694,12 @@ export const excursionsMock = [
                 "pt": "Faça paradas para tirar fotos.",
                 "ar": "توقف لالتقاط الصور."
             }
+        ],
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
         ],
         "pricing": [
             {
