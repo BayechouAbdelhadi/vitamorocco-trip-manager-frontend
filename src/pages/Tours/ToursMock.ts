@@ -704,7 +704,7 @@ export const toursMock = [
             "Accommodation with half board except Fez, Marrakech, Casablanca, Chefchaouen, Essaouira.",
             "SIM Card with 10GB Internet for each one in the Group."
         ],
-        "departureCity": "Marrakech",
+        "departureCity": "Casablanca",
         "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
         // "journeyTime": 4,

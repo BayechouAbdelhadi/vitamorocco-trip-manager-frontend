@@ -10,7 +10,7 @@ interface NavBarItemProps {
 }
 
 const NavbarItem = ({ navBarItem, type }: NavBarItemProps) => {
-    const hasDropdown = navBarItem.dropdown.length > 0;
+    const hasDropdown = (navBarItem.dropdown ?? []).length > 0;
 
     return hasDropdown ? (
         <DropDown navBarItem={navBarItem} type={type} />
@@ -21,7 +21,7 @@ const NavbarItem = ({ navBarItem, type }: NavBarItemProps) => {
 
 const SimpleNavbarItem = ({ navBarItem }: NavBarItemProps) => {
     return (
-        <Button size="large" color="inherit" component={Link} to={navBarItem.href}>
+        <Button size="large" color="inherit" component={Link} to={navBarItem.href ?? '#'}>
             {navBarItem.text}
         </Button>
     );

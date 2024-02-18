@@ -10,7 +10,7 @@ interface NavBarItemProps {
     onSelect: () => void;
 }
 const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
-    const hasDropdown = navBarItem.dropdown.length > 0;
+    const hasDropdown =( navBarItem.dropdown ??[]).length > 0;
     const [expanded, setExpanded] = useState<boolean>(false);
 
     const toggleExp = () => {
@@ -25,7 +25,7 @@ const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
                         <ListItemButton
                             className="mobile-nav-bar-button"
                             component={Link}
-                            to={navBarItem.href}
+                            to={navBarItem.href ?? '#'}
                             onClick={onSelect}
                         >
                             {navBarItem.icon}
@@ -39,7 +39,7 @@ const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
                     <ListItemButton
                         className="mobile-nav-bar-button"
                         component={Link}
-                        to={navBarItem.href}
+                        to={navBarItem.href ?? '#'}
                         onClick={onSelect}
                     >
                         {navBarItem.icon}
@@ -48,12 +48,12 @@ const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
                 )}
             </ListItem>
             <div className={`nav-item-details ${expanded ? 'active' : ''}`}>
-                {navBarItem.dropdown.map((dropDownItem) => (
+                {navBarItem.dropdown?.map((dropDownItem) => (
                     <ListItemButton
                         className="mobile-nav-bar-button"
                         key={dropDownItem.id}
                         component={Link}
-                        to={dropDownItem.href}
+                        to={dropDownItem.href ?? '#'}
                         onClick={onSelect}
                     >
                         {dropDownItem.icon}

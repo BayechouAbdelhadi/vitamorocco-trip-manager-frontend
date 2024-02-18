@@ -1,32 +1,33 @@
-export type Excursion = Partial<
-    {
-        id: string;
-        title: string;
-        description: string;
-        destinationCity: string;
-        includedServices: string[];
-        departureCity: string;
-        departurePickupTime: string;
-        returnPickupTime: string;
-        journeyTime: number;
-        journeyTimeUnit: string;
-        highlights: string[];
-        pricing: string[];
-        journeyUnit: string;
-        duration: number;
-        durationUnit: string;
-        frequency: string;
-        mapLink: string;
-        summaryImg: string;
-        titleImg: string;
-        descriptionImg: string;
-        highlightImgs: string[];
-        steps: Step[];
-        informationList: string[];
-    }
->
+export type Excursion = {
+    id: string;
+    title: string;
+    description: string;
+    destinationCity: string;
+    includedServices: string[];
+    departureCity: string;
+    departurePickupTime: string;
+    returnPickupTime: string;
+    journeyTime: number;
+    journeyTimeUnit: string;
+    highlights: string[];
+    pricing: string[];
+    journeyUnit: string;
+    duration: number;
+    durationUnit: string;
+    frequency: string;
+    mapLink: string;
+    summaryImg: string;
+    titleImg: string;
+    descriptionImg: string;
+    highlightImgs: string[];
+    steps: Step[];
+    informationList: string[];
+};
+
+export type CommonExcursionProperties = Omit<Excursion, 'title' | 'description' | 'highlights' | 'pricing' | 'frequency'>;
+
 
 export type Step = {
-    title: string,
-    description: string
-}
+    title: string;
+    description: string;
+};
