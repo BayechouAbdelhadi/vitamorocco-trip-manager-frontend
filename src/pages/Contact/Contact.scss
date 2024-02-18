@@ -20,34 +20,6 @@
             }
         }
 
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-            max-width: 50%;
-            margin: 0 auto;
-
-            @media (max-width: 768px) {
-                max-width: 100%;
-                /* Full width on smaller screens */
-                padding: 10px;
-            }
-
-            .groupped-fields {
-                display: flex;
-                justify-content: space-between;
-                gap: 10px;
-            }
-
-            .form-field {
-                margin: 10px 0;
-                flex: 1;
-
-                .MuiTextField-root {
-                    width: 100%;
-                }
-            }
-        }
-
         .submit-button {
             margin-top: 20px;
         }
