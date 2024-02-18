@@ -517,7 +517,7 @@ export const excursionsMock = [
             "pt": "Marrakech City Tour",
             // "ar": "الصويرة موغادور"
         },
-        "summaryImg": "marrakech_city_tour_summary.jpg",
+        "summaryImg": "summary.jpg",
         "descriptionImg": "description.jpg",
         "titleImg": "title.jpg",
         "highlightImgs": [

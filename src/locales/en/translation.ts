@@ -145,6 +145,7 @@ export const TRANSLATION_EN = {
             text: 'Our holiday in Morocco was magical! Partly thanks to Vita Morocco. It started with a fantastic tour through the city. Thanks to a knowledgeable guide, who thought we should experience the city, it was great. That means: taste, see, smell. Experience with all our senses. The excursion we had to Ourika Valley with the waterfalls and Agafay desert was also an experience we will never forget. Put on your walking shoes, because it is quite a climb to the top. Along the way you will enjoy beautiful views, refreshing river water and the waterfalls themselves are definitely worth it. We also undertook an excursion to Essaouira. Wonderful if you want to escape the hustle and bustle of Marrakech.'
         },
     },
+    refuse_all: "Refuse All",
     // S
     see_more: 'See more',
     services: {
