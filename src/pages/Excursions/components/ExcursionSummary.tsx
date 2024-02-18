@@ -10,6 +10,7 @@ import { useNavigate } from 'react-router-dom';
 import ShareButton from '../../../common/components/Buttons/ShareButton/ShareButton';
 import { Excursion } from '../../../common/types/excursion';
 import { defaultImage } from '../../../common/utils/imageUtils';
+import { scrollToTop } from '../../../common/utils';
 interface ExcursionSummaryProps {
     readonly excursion: Excursion;
 }
@@ -18,6 +19,7 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
     const navigate = useNavigate();
     const goToExcursion = () => {
         navigate(`./${excursion.id}`, { relative: 'path' });
+        scrollToTop()
     };
 
     return (

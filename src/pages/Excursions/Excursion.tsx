@@ -40,7 +40,7 @@ export const Excursion = (): JSX.Element => {
             description={excursionTitle}
             keywords={excursionTitle}
             title={excursionTitle}
-            imgSrc={`/img/excursions/${excursion?.id}/${excursion?.summaryImg}`}
+            imgSrc={`/img/excursions/${excursion?.id}/${excursion?.titleImg}`}
             className="excursion-detail"
         >
             {false ? (
@@ -51,17 +51,7 @@ export const Excursion = (): JSX.Element => {
                         <ExcursionDescription excursion={excursion} />
                         <ExcursionHighlights excursion={excursion} />
                         <ExcursionDetails excursion={excursion} />
-                        <PanedSection
-                            title={
-                                <Typography variant="h5" className="setcion-title left-title">
-                                    {t('pricing')}
-                                </Typography>
-                            }
-                            leftPane={{
-                                element: <ExcursionPricing excursion={excursion} />,
-                                className: 'content-pane',
-                            }}
-                        />
+                        <ExcursionPricing excursion={excursion} />
                         <PanedSection
                             title={
                                 <Typography variant="h5" className="setcion-title left-title">
@@ -84,6 +74,7 @@ export const Excursion = (): JSX.Element => {
                                 className: 'content-pane',
                             }}
                         />
+                        <hr />
                         <p>
                             Our excursions are fully customizable to cater to your unique interests and preferences.
                             Whether you&apos;re seeking adventure, culture, relaxation, or a blend of experiences, we&apos;ve got you covered.

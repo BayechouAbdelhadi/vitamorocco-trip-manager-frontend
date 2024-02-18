@@ -18,6 +18,7 @@ export type Excursion = Partial<
         frequency: string;
         mapLink: string;
         summaryImg: string;
+        titleImg: string;
         descriptionImg: string;
         highlightImgs: string[];
         steps: Step[];

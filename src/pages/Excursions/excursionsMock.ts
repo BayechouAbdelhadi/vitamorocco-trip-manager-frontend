@@ -1,14 +1,16 @@
 export const excursionsMock = [
     {
-        "id": "ouarzazate",
+        "id": "ait_ben_haddou",
         "title": {
-            "fr": "Ouarzazate",
+            "fr": "Ait ben haddou",
             "en": "Ait ben haddou",
-            "es": "Ouarzazate",
-            "pt": "Ouarzazate",
-            "ar": ""
+            "es": "Ait ben haddou",
+            "pt": "Ait ben haddou",
+            "ar": "Ait ben haddou"
         },
-        "summaryImg": "ouarzazate_summary.jpg",
+        "summaryImg": "ait_ben_haddou_summary.jpg",
+        "titleImg": "ait_ben_haddou_title.jpg",
+        "descriptionImg": "ait_ben_haddou_description.jpg",
         "description": {
             // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
             "en": "This long excursion leads us through the High Atlas on an impressive mountain road that winds through picturesque valleys and through numerous Berber villages and semi-precious stone vendors until we reach Tizi n'Tichka, the highest mountain pass in the Atlas at 2,260m. Pick up at the hotel or Riad where you are staying and early departure from Marrakech, we will cross the High Atlas on the way to the port of Tichka (the highest road pass in Africa) where we will admire the peaks of the chain and the beautiful Berber villages with houses traditional adobe. We will arrive at the Kasbah of Ait Benhaddou, the most famous of these fortifications, it is a sandcastle bordered by blossoming almond trees, recognized for its extraordinary beauty even by UNESCO, which is located within the buildings that are world heritage sites. Ait Ben Haddou (the best preserved in Morocco); We will visit and discover the charm of its impressive Kasbahs. Ouarzazate road This world heritage served as a natural setting for several films: Lawrence of Arabia, the Mummy, Gladiator... Then, we will continue to Ouarzazate to have lunch in front of the famous Taourirt Kasbah. Visit of the kasbah and return to Marrakech. The excursion from Marrakech to Ouarzazate starts as early as possible (it is recommended) to enjoy the maximum of the day.",
@@ -81,6 +83,14 @@ export const excursionsMock = [
                 // "ar": "توقف لالتقاط الصور."
             }
         ],
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+        ],
         "pricing": [
             {
                 // "fr": "Groupe de 1 à 6 personnes : 160€",
@@ -119,7 +129,8 @@ export const excursionsMock = [
             "es": "Cada día",
             "pt": "Diariamente",
             "ar": "كل يوم"
-        }
+        },
+        mapLink: "!1m18!1m12!1m3!1d54692.05524796233!2d-7.162798641870804!3d31.047043031206268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Benhaddou%2C%20Morocco!5e0!3m2!1sen!2sfr!4v1708269361259!5m2!1sen!2sfr"
     },
     {
         "id": "essaouira_mogador",

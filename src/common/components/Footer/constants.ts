@@ -24,7 +24,7 @@ export const EXCURSIONS = [
   },
   {
     title: 'Ait Ben Haddou',
-    link: '/excursions/ouarzazate'
+    link: '/excursions/ait_ben_haddou'
   },
   {
     title: 'Essaouira Mogador',
