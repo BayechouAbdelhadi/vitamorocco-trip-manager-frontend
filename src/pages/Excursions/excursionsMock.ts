@@ -268,9 +268,11 @@ export const excursionsMock = [
             "en": "Ourika Valley",
             "es": "Ourika Valley",
             "pt": "Ourika Valley",
-            "ar": "الصويرة موغادور"
+            // "ar": "الصويرة موغادور"
         },
         "summaryImg": "ourika_valley_summary.jpg",
+        "titleImg": "title.jpg",
+        "descriptionImg": "description.jpg",
         "description": {
             // "fr": "Essaouira, ou la perle de l'Atlantique, cette ville classée au patrimoine mondial, conserve le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils ont vécu pendant des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Tuya, ses coopératives de femmes pour l'huile d'argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons de faire un arrêt dans une coopérative de femmes pour assister à la démonstration de femmes locales préparant de l'huile d'argan. À votre arrivée dans la ville, vous pouvez faire une visite gratuite de la médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons vous fournir un guide local qui vous fera visiter la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (c'est recommandé) pour profiter au maximum de la journée.",
             "en": "We will visit the Fantastic Ourika valley and the many small towns along the valley. Then We continue to Setti Fatma where you can enjoy the delicious gastronomy of the area and a short walk through the waterfalls. Pick up at the hotel or Riad where you are staying and start the excursion to the Ourika Valley. In the heart of the Berber country, the Ourika Valley continues to be one of the most beautiful and best-preserved valleys in Morocco, the small villages clinging to the flanks of the massifs, waterfalls and rocky landscapes that blend with the omnipresent desert, all this forms a wild and seductive harmony in the confines of the western Atlas. On the excursion from Marrakech to the atlas you can visit the Berber souk every Monday, Thursday and Friday, and we suggest one to the Botanical Garden, and another visit to a Berber house, which opens the door for you and invites you to see how to prepare the traditional bread, and take a Moroccan tea. When we arrive at the village “Setti Fadma”, we can -if you wishprovide you with the service of a local guide who will show you the waterfalls inside the mountains. At the end, you can have lunch at a local restaurant, facing the river that prepares Moroccan cuisine (approximately €12/menu). Then return to Marrakech around 5:00 p.m.",
@@ -343,6 +345,17 @@ export const excursionsMock = [
                 // "ar": "توقف لالتقاط الصور."
             }
         ],
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
+        ],
         "pricing": [
             {
                 // "fr": "Groupe de 1 à 6 personnes : 160€",
@@ -387,14 +400,14 @@ export const excursionsMock = [
     {
         "id": "ouzoud_waterfalls",
         "title": {
-            // "fr": "Ouzoud Waterfalls",
+            "fr": "Ouzoud Waterfalls",
             "en": "Ouzoud Waterfalls",
-            // "es": "Ouzoud Waterfalls",
-            // "pt": "Ouzoud Waterfalls",
+            "es": "Ouzoud Waterfalls",
+            "pt": "Ouzoud Waterfalls",
             // "ar": "الصويرة موغادور"
         },
         "summaryImg": "ouzoud_waterfalls_summary.jpg",
-        "titleImg": "ouzoud_waterfalls_summary.jpg",
+        "titleImg": "title.jpg",
         "descriptionImg": "description.jpg",
         "description": {
             // "fr": "Essaouira, ou la perle de l'Atlantique, cette ville classée au patrimoine mondial, conserve le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils ont vécu pendant des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Tuya, ses coopératives de femmes pour l'huile d'argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons de faire un arrêt dans une coopérative de femmes pour assister à la démonstration de femmes locales préparant de l'huile d'argan. À votre arrivée dans la ville, vous pouvez faire une visite gratuite de la médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons vous fournir un guide local qui vous fera visiter la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (c'est recommandé) pour profiter au maximum de la journée.",
