@@ -19,9 +19,10 @@ import { useMemo } from 'react';
 
 interface ExcursionHighlightsInterface {
     excursion: Excursion;
+    type?: string
 }
 
-export const ExcursionHighlights = ({ excursion }: ExcursionHighlightsInterface): JSX.Element => {
+export const ExcursionHighlights = ({ excursion, type = 'excursions' }: ExcursionHighlightsInterface): JSX.Element => {
     const { t } = useTranslation();
 
     return (
@@ -32,7 +33,7 @@ export const ExcursionHighlights = ({ excursion }: ExcursionHighlightsInterface)
                 </Typography>
             }
             leftPane={{
-                element: <HighLightsSwiper highlightsImgs={excursion?.highlightImgs?.map(imgName => `/img/excursions/${excursion.id}/${imgName}`)} />,
+                element: <HighLightsSwiper highlightsImgs={excursion?.highlightImgs?.map(imgName => `/img/${type}/${excursion.id}/${imgName}`)} />,
                 className: 'visual-pane',
             }}
             rightPane={{

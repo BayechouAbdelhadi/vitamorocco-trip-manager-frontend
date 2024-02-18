@@ -2,14 +2,14 @@ import { toursMock } from '../../pages/Tours/ToursMock';
 import { Excursion } from '../types/excursion';
 
 
-export const getTour = (id: string) => Promise.resolve(ToursMapper().find(excursion => excursion.id === id));
+export const getTour = (id: string) => Promise.resolve(ToursMapper().find(tour => tour.id === id));
 export const getTours = () => Promise.resolve(ToursMapper());
 
 
 
 const ToursMapper = (): Array<Excursion> => toursMock.map(exMock => {
     const { title, description, highlights, pricing, frequency, ...common } = exMock
-    const excursion: Excursion = {
+    const tour: Excursion = {
         ...common as Partial<Excursion>,
         title: title.en as string,
         description: description.en as string,
@@ -18,5 +18,5 @@ const ToursMapper = (): Array<Excursion> => toursMock.map(exMock => {
         frequency: frequency.en as string,
     };
 
-    return excursion;
+    return tour;
 })

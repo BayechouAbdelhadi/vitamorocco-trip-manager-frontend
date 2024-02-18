@@ -13,9 +13,10 @@ import { defaultImage } from '../../../common/utils/imageUtils';
 import { scrollToTop } from '../../../common/utils';
 interface ExcursionSummaryProps {
     readonly excursion: Excursion;
+    type?: string
 }
 
-export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): JSX.Element {
+export default function ExcursionSummary({ excursion, type = 'excursions' }: ExcursionSummaryProps): JSX.Element {
     const navigate = useNavigate();
     const goToExcursion = () => {
         navigate(`./${excursion.id}`, { relative: 'path' });
@@ -35,7 +36,7 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
             <CardMedia
                 component="img"
                 height="250"
-                image={`/img/excursions/${excursion.id}/${excursion.summaryImg}`}
+                image={`/img/${type}/${excursion.id}/${excursion.summaryImg}`}
                 alt={`excursion ${excursion.title}`}
                 onError={defaultImage.small.errorHandler}
             />

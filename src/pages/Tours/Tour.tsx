@@ -51,8 +51,8 @@ export const Tour = (): JSX.Element => {
             {
                 tour && (
                     <Container>
-                        <ExcursionDescription excursion={tour} />
-                        <ExcursionHighlights excursion={tour} />
+                        <ExcursionDescription excursion={tour} type={'tours'} />
+                        <ExcursionHighlights excursion={tour} type={'tours'} />
                         <ExcursionDetails excursion={tour} />
                         <TourSteps steps={tour.steps ?? []} />
                         {/* <ExcursionPricing excursion={tour} /> */}

@@ -4,11 +4,13 @@ export const toursMock = [
         "title": {
             "fr": "3 days Trip Fes To Marrakech through Sahara Desert & Atlas Mountains",
             "en": "3 days Trip Fes To Marrakech through Sahara Desert & Atlas Mountains",
-            "es": "Ouarzazate",
-            "pt": "Ouarzazate",
+            "es": "",
+            "pt": "",
             "ar": ""
         },
-        "summaryImg": "3_days_trip_fes_to_marrakech_summary.jpg",
+        "summaryImg": "summary.jpg",
+        "titleImg": "title.jpg",
+        "descriptionImg": "description.jpg",
         "description": {
             // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
             "en": `VITA MOROCCO Travel agency offers the Best Sahara Desert trips from Fes. And these 3-day Sahara Desert tour Fes to Marrakech 
@@ -140,6 +142,17 @@ export const toursMock = [
                 // "pt": "Faça paradas para tirar fotos.",
                 // "ar": "توقف لالتقاط الصور."
             },
+        ],
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
         ],
         "steps": [
             {
@@ -643,7 +656,9 @@ export const toursMock = [
             "pt": "Ouarzazate",
             "ar": ""
         },
-        "summaryImg": "13_days_grand_tour_of_morocco_from_casablanca_to_chefchaouen_summary.jpg",
+        "summaryImg": "summary.jpg",
+        "titleImg": "title.jpg",
+        "descriptionImg": "description.jpg",
         "description": {
             // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
             "en": `VITA MOROCCO offers to its clients the best Tours in Morocco and make their trips easy and

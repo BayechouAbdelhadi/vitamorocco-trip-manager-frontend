@@ -9,7 +9,7 @@ import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLi
 const ToursText = 'Tours';
 
 export const Tours = (): JSX.Element => {
-    const { data: excursions, isLoading } = useQuery('tours', getTours);
+    const { data: tours, isLoading } = useQuery('tours', getTours);
 
     return (
         <Page description={ToursText} keywords={ToursText} title={ToursText} imgSrc='img/tours/tours_title.jpg' className='excursions-page-container'>
@@ -41,8 +41,8 @@ export const Tours = (): JSX.Element => {
                     <a className="email-link" href="mailto:contact@vitamorocco.com">contact@vitamorocco.com</a>
                     <h3>Discover the essence of Morocco with us</h3>
                     <div className="excursions-container">
-                        {excursions?.map((excursion) => (
-                            <ExcursionSummary key={excursion.id} excursion={excursion} />
+                        {tours?.map((tour) => (
+                            <ExcursionSummary key={tour.id} excursion={tour} type={'tours'} />
                         ))}
                     </div>
                 </>

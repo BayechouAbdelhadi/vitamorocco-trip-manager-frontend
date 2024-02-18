@@ -7,8 +7,9 @@ import { defaultImage } from '../../../common/utils/imageUtils';
 const ExcursionText = 'Excursion';
 interface ExcursionDescriptionInterface {
     excursion: Excursion;
+    type?: string
 }
-export const ExcursionDescription = ({ excursion }: ExcursionDescriptionInterface): JSX.Element => {
+export const ExcursionDescription = ({ excursion, type = 'excursions' }: ExcursionDescriptionInterface): JSX.Element => {
     const { t } = useTranslation();
     return (
         <PanedSection
@@ -27,7 +28,7 @@ export const ExcursionDescription = ({ excursion }: ExcursionDescriptionInterfac
             }}
             rightPane={{
                 element: <img
-                    src={`/img/excursions/${excursion.id}/${excursion.descriptionImg}`}
+                    src={`/img/${type}/${excursion.id}/${excursion.descriptionImg}`}
                     alt="description"
                     onError={defaultImage.large.errorHandler}
                 />,
