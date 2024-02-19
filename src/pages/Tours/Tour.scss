@@ -1,0 +1,19 @@
+.steps-li {
+    @media (max-width: 480px) {
+        li::before {
+            padding-right: 0px;
+        }
+    }
+}
+
+.information-lo {
+    padding: 10px;
+
+    .information-li {
+        margin: 0.5rem 0;
+
+        &::marker {
+            font-weight: bold;
+        }
+    }
+}

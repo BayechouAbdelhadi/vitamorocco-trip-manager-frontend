@@ -1,57 +1,29 @@
 import ContactIcon from '@mui/icons-material/Call';
 import GalleryIcon from '@mui/icons-material/Collections';
-import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
-import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
-import TourIcon from '@mui/icons-material/ShareLocation';
+import RowingIcon from '@mui/icons-material/Rowing';
 export interface NavItem {
-    id: string;
-    href: string;
-    text: string;
-    dropdown: NavItem[];
+    id?: string;
+    href?: string;
+    text?: string;
+    dropdown?: NavItem[];
     icon?: JSX.Element;
+    description?: string;
+    is_logo?: boolean;
+    is_blank_target?: boolean;
 }
 
 export const NAVBAR_ITEMS: NavItem[] = [
     {
-        text: 'Home',
-        href: '/',
-        dropdown: [],
-        id: 'home',
-
-        icon: <HomeIcon />,
-    },
-
-    {
-        text: 'Excursions',
-        href: '/excursions',
+        text: 'Activities',
+        href: '/activities',
         dropdown: [
             //FromDB
         ],
-        id: 'excursions',
+        id: 'activities',
 
-        icon: <DirectionsBusIcon />,
+        icon: <RowingIcon />,
     },
-    {
-        text: 'Tours',
-        href: '/tours',
-        dropdown: [
-            //FromDB
-        ],
-        id: 'tours',
-
-        icon: <TourIcon />,
-    },
-    // {
-    //     text: 'Activities',
-    //     href: '/activities',
-    //     dropdown: [
-    //         //FromDB
-    //     ],
-    //     id: 'activities',
-
-    //     icon: <RowingIcon />,
-    // },
     // {
     //     text: 'Services',
     //     href: '/services',

@@ -30,7 +30,7 @@ export const TRANSLATION_FR = {
     client_testimonials: 'Témoignages clients',
     contact: {
         title: 'Contact',
-        message: 'Veuillez remplir le formulaire pour nous contacter',
+        message: 'Veuillez remplir le formulaire',
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {

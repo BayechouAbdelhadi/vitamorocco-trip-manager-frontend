@@ -2,18 +2,35 @@
     min-height: 80vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     .title {
-        height: 80px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0; // Prevent the title from growing
+        width: 100%;
+        position: relative;
+
+        .title-img {
+            object-fit: cover;
+            width: 100%;
+            height: 500px;
+        }
+
+        .title-text {
+            position: absolute;
+            background-color: rgb(188, 141, 74, 0.7);
+            padding: 1rem;
+            top: 50%;
+            left: 50%;
+            color: white;
+            transform: translate(-50%, -50%);
+            font-family: Verdana, sans-serif;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
     }
 
     .content {
-        flex-grow: 1; // Allow the content to grow and take up the remaining space
+        flex-grow: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;

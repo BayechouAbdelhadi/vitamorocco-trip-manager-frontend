@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import './Services.scss'
+import { scrollToTop } from "../../../common/utils";
 
 
 function Services() {
@@ -27,7 +28,7 @@ function Services() {
                         <div className="service-card-information">
                             <h2><em>{t(`services.${service.title}.title`)}</em></h2>
                             <p>{t(`services.${service.title}.description`)}</p>
-                            <Button component={Link} to="/excursions">{t('see_more')}</Button>
+                            <Button component={Link} to={`/${service.title}`} onClick={scrollToTop}>{t('see_more')}</Button>
                         </div>
                     </div>
                 )}
@@ -53,7 +54,7 @@ const SERVICES = [
         description: 'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences',
     },
     {
-        img: '/img/destinations/activity.jpeg',
+        img: '/img/destinations/activity.jpg',
         title: 'activities',
         description: 'immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you',
     }

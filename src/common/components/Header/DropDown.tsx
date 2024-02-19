@@ -46,9 +46,9 @@ function DropDown({ navBarItem, type }: DropDownProps) {
                     className="dropdown-menu" // Apply class name
                     id={`${navBarItem.id}-${type}`}
                 >
-                    {navBarItem.dropdown.map((menuItem) => (
+                    {navBarItem.dropdown?.map((menuItem) => (
                         <Link
-                            to={menuItem.href}
+                            to={menuItem.href ?? '#'}
                             key={`${menuItem.id}-${type}`}
                             onClick={closeMenu}
                             className="dropdown-item" // Apply class name

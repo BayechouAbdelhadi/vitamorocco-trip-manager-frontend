@@ -1,4 +1,4 @@
-export interface Excursion {
+export type Excursion = {
     id: string;
     title: string;
     description: string;
@@ -16,4 +16,18 @@ export interface Excursion {
     durationUnit: string;
     frequency: string;
     mapLink: string;
-}
+    summaryImg: string;
+    titleImg: string;
+    descriptionImg: string;
+    highlightImgs: string[];
+    steps: Step[];
+    informationList: string[];
+};
+
+export type CommonExcursionProperties = Omit<Excursion, 'title' | 'description' | 'highlights' | 'pricing' | 'frequency'>;
+
+
+export type Step = {
+    title: string;
+    description: string;
+};

@@ -6,6 +6,8 @@
         "node": "18.17.1"
     },
     "dependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+        "@emailjs/browser": "^4.1.0",
         "@emotion/styled": "^11.11.0",
         "@fontsource/source-sans-pro": "^4.5.11",
         "@mui/icons-material": "^5.14.9",
@@ -17,6 +19,7 @@
         "dayjs": "^1.11.10",
         "dexie": "^3.2.4",
         "dexie-react-hooks": "^1.1.6",
+        "emailjs-com": "^3.2.0",
         "fake-indexeddb": "^3.1.8",
         "husky": "^8.0.3",
         "i18next": "^23.5.1",
@@ -41,7 +44,6 @@
         "swiper": "^11.0.5",
         "use-immer": "^0.7.0",
         "usehooks-ts": "^2.9.1",
-        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
         "web-vitals": "^2.1.4"
     },
     "devDependencies": {
@@ -57,6 +59,11 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build"
+    },
+    "browser": {
+        "fs": false,
+        "path": false,
+        "os": false
     },
     "eslintConfig": {},
     "browserslist": [

@@ -1,9 +1,11 @@
-import { Box, Divider } from '@mui/material';
+import { Box, Divider, Typography, useMediaQuery } from '@mui/material';
 
 interface TextWithLinesProps {
     text: string;
 }
+
 function TextWithLines({ text }: TextWithLinesProps) {
+    const isXs = useMediaQuery('(max-width:600px)');
     return (
         <Box sx={{
             width: { xs: '100%', md: '80%' },
@@ -11,14 +13,14 @@ function TextWithLines({ text }: TextWithLinesProps) {
         }}
         >
             <Divider sx={{ borderBottomWidth: '45px' }}>
-                <h3 style={{
-                    "fontFamily": 'Playfair Display',
+                <Typography variant={isXs ? 'h4' : 'h3'} style={{
                     "fontWeight": '600',
                     "fontSize": "clamp(1.3rem, 2.3vw, 2rem)",
+                    "fontFamily": "Verdana, sans-serif",
                     "position": "relative"
                 }}>
                     {text}
-                </h3>
+                </Typography>
             </Divider>
         </Box>
     );

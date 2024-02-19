@@ -10,18 +10,21 @@ import { useNavigate } from 'react-router-dom';
 import ShareButton from '../../../common/components/Buttons/ShareButton/ShareButton';
 import { Excursion } from '../../../common/types/excursion';
 import { defaultImage } from '../../../common/utils/imageUtils';
+import { scrollToTop } from '../../../common/utils';
 interface ExcursionSummaryProps {
     readonly excursion: Excursion;
+    type?: string
 }
 
-export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): JSX.Element {
+export default function ExcursionSummary({ excursion, type = 'excursions' }: ExcursionSummaryProps): JSX.Element {
     const navigate = useNavigate();
     const goToExcursion = () => {
         navigate(`./${excursion.id}`, { relative: 'path' });
+        scrollToTop()
     };
 
     return (
-        <Card sx={{ maxWidth: 345 }} onClick={goToExcursion}>
+        <Card className="excursion-summary-card-container" onClick={goToExcursion}>
             <CardHeader
                 action={
                     <IconButton aria-label="view excursion">
@@ -33,12 +36,13 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
             <CardMedia
                 component="img"
                 height="250"
-                image={'/img/1.jpg'}
+                loading='lazy'
+                image={`/img/${type}/${excursion.id}/${excursion.summaryImg}`}
                 alt={`excursion ${excursion.title}`}
                 onError={defaultImage.small.errorHandler}
             />
             <CardContent>
-                <Typography variant="body2" color="text.secondary" className="excursion-summary-test">
+                <Typography variant="body2" color="text.secondary" className="excursion-summary">
                     {excursion.description}
                 </Typography>
             </CardContent>
@@ -48,13 +52,13 @@ export default function ExcursionSummary({ excursion }: ExcursionSummaryProps): 
                         <FavoriteIcon />
                     </IconButton>
                 */}
-                <ShareButton
+                {/* <ShareButton
                     shareData={{
                         title: `excursion ${excursion.title}`,
                         text: 'Check out this link!',
                         url: `${window.location.href}/${excursion.id}`,
                     }}
-                />
+                /> */}
             </CardActions>
         </Card>
     );

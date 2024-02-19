@@ -4,6 +4,7 @@ import { ERROR_TRANSLATION } from './error';
 
 export const TRANSLATION_EN = {
     // A
+    accomodation_type: 'Accomodation type',
     accept_all: 'Accept All',
     activities: {
         title: 'Activities',
@@ -14,6 +15,7 @@ export const TRANSLATION_EN = {
     // B
     client_testimonials: 'Customer Testimonials',
     // C
+    category: 'Category',
     carousel: {
         0: {
             title: 'Item 1, Note that the development build is not optimized.',
@@ -30,13 +32,14 @@ export const TRANSLATION_EN = {
     },
     contact: {
         title: 'Contact',
-        message: 'Please fill out the form to contact us',
+        message: 'Please fill out the form',
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {
         title: 'Cookies Policy',
         text: 'We use cookies to personalise content, to provide social media features and to analyse our traffic. This website uses cookies to ensure you get the best experience on our website.'
     },
+    country: 'Country',
     customer_testimonials: 'Customer Testimonials',
     // D
     date: 'Date',
@@ -63,16 +66,25 @@ export const TRANSLATION_EN = {
     explore_morocco_with_us: 'Explore Morocco with us',
     // F
     faqs: 'FAQs',
-    firstName: 'First Name',
+    first_name: 'First Name',
+    full_detailed_itinerary: "Full detailed Itinerary",
     // G
     gallery: 'Gallery',
     // H
-    highlights: 'Highlits',
+    highlights: 'Highlights',
     // I
     included_services: {
         local_guide: {
             name: 'Local guide',
             description: 'Available',
+        },
+        expenses: {
+            name: 'Expenses',
+            description: 'Fuel, tolls and all associated expenses.',
+        },
+        driver_guide: {
+            name: 'Driver guide',
+            description: 'Driver-guide who speaks Spanish, English or French.',
         },
         pickup_at: {
             name: 'Pick up at',
@@ -87,11 +99,12 @@ export const TRANSLATION_EN = {
             description: 'Transport in 4×4, Minivan or minibus, depending on the number travelers.',
         },
     },
+    information: 'Information',
     // J
     journey_time: 'Journey time',
     // K
     // L
-    lastName: 'Last Name',
+    last_name: 'Last Name',
     learn_more: 'Learn more',
     local_time: 'Local time',
     // M
@@ -101,10 +114,13 @@ export const TRANSLATION_EN = {
     },
     message: 'Message',
     // N
+    number_of_kids: 'Kids',
+    number_of_adults: 'Adults',
     // O
     our_services: 'Our services',
     // P
-    pick_up_and_drop_off_from_hotel: 'Time of pick-up departure',
+    phone_number: 'Telephone',
+    pick_up_and_drop_off_from_hotel: 'Pick up and drop off from Your Hotel',
     pick_up_time_departure: 'Time of pick-up departure',
     pricing: 'Pricing',
     pricing_message:
@@ -113,6 +129,7 @@ export const TRANSLATION_EN = {
         'Prices valid for any time of the year, except Christmas and Easter (check prices and availability).',
     // Q
     // R
+    regime: 'Regime',
     return_time: 'Return time',
     reviews: {
         0: {
@@ -128,6 +145,7 @@ export const TRANSLATION_EN = {
             text: 'Our holiday in Morocco was magical! Partly thanks to Vita Morocco. It started with a fantastic tour through the city. Thanks to a knowledgeable guide, who thought we should experience the city, it was great. That means: taste, see, smell. Experience with all our senses. The excursion we had to Ourika Valley with the waterfalls and Agafay desert was also an experience we will never forget. Put on your walking shoes, because it is quite a climb to the top. Along the way you will enjoy beautiful views, refreshing river water and the waterfalls themselves are definitely worth it. We also undertook an excursion to Essaouira. Wonderful if you want to escape the hustle and bustle of Marrakech.'
         },
     },
+    refuse_all: "Refuse All",
     // S
     see_more: 'See more',
     services: {
@@ -144,7 +162,8 @@ export const TRANSLATION_EN = {
             description: 'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences'
         },
     },
-    special_request_description: 'If you prefer to avoid organized trips in large groups and appreciate a more flexible approach, VitaMarruecos simplifies your travel experience by allowing you to leave at your own pace, without constraints, and to personalize your itinerary according to your own tastes and interests.',
+    special_request_description: 'If you prefer to avoid organized trips in large groups and appreciate a more flexible approach, <b>Vita Morocco</b> simplifies your travel experience by allowing you to leave at your own pace, without constraints, and to personalize your itinerary according to your own tastes and interests.',
+    subject: 'Subject',
     submit: 'Submit',
     // T
     tour: 'Tour',

@@ -4,17 +4,17 @@ import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import React, { useState } from 'react';
 import Logo from '../Logo';
-import LanguagePicker from '../lang';
 import MobileMenu from './MobileMenu'; // Import the MobileMenu component
 import NavbarItem from './NavBarItem';
 import './Navbar.scss';
-import { NAVBAR_ITEMS } from './constants';
+import useNavBar from '../../../hooks/front/useNavBar';
 
 const mobileMenuId = 'primary-search-account-menu-mobile';
 
 const PrimarySearchAppBar: React.FC = () => {
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState<null | HTMLElement>(null);
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
+    const navLinks = useNavBar();
 
     const toggleMobileMenu = (event: React.MouseEvent<HTMLElement>) => {
         setMobileMoreAnchorEl(mobileMoreAnchorEl !== null ? null : event.currentTarget);
@@ -32,10 +32,10 @@ const PrimarySearchAppBar: React.FC = () => {
                 >
                     <Logo shrinkable />
                     <Box sx={{ display: { xs: 'none', md: 'flex', justifyContent: 'space-between' } }}>
-                        {NAVBAR_ITEMS.map((navBarItem) => (
+                        {navLinks.map((navBarItem) => (
                             <NavbarItem key={navBarItem.id} navBarItem={navBarItem} type={'laptop'} />
                         ))}
-                        <LanguagePicker className='lang-picker' />
+                        {/* <LanguagePicker className='lang-picker' /> */}
                     </Box>
                     <Box
                         sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}

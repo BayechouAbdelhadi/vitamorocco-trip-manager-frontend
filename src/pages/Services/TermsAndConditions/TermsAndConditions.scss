@@ -1,0 +1,34 @@
+.terms-and-conditions-container {
+    width: 60%;
+    text-align: justify;
+
+    li::marker,
+    span {
+        font-weight: 900;
+        line-height: 3;
+    }
+
+    ul {
+        padding-left: 10px;
+    }
+
+    li {
+        margin: 2rem 0;
+    }
+
+    .sub-li {
+        margin: 0;
+    }
+}
+
+
+
+
+
+@media (max-width: 490px) {
+
+    .terms-and-conditions-container {
+        width: 90%;
+    }
+
+}

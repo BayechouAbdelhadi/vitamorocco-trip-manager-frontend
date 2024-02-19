@@ -15,50 +15,42 @@ export default function Gallery() {
                 textAlign: 'center',
                 lineHeight: 2.5
             }}>{t('memories_we_collect.description')}</Typography>
-            <QuiltedImageList itemData={itemData} />
-            <Button component={Link} to='/services/gallery'>{t('see_more')}</Button>
+            <QuiltedImageList images={images} />
+            <Button component={Link} to='/services/gallery' className='secondary-button'>{t('see_more')}</Button>
         </div>
     )
 }
 
-const itemData = [
+const images = [
     {
-        img: '/img/1.jpg',
-        title: 'Breakfast',
+        url: '/img/home_gallery/1.jpg',
         rows: 2,
         cols: 2,
     },
     {
-        img: '/img/2.jpg',
-        title: 'Burger',
-    },
-    {
-        img: '/img/welcome.jpg',
-        title: 'Camera',
-    },
-    {
-        img: '/img/destinations/activity.jpeg',
-        title: 'Coffee',
-        cols: 2,
-    },
-    {
-        img: '/img/destinations/tour.jpg',
-        title: 'Hats',
-        cols: 2,
-    },
-    {
-        img: '/img/destinations/excursion.jpeg',
-        title: 'Honey',
-        author: '@arwinneil',
+        url: '/img/home_gallery/2.jpg',
         rows: 2,
-        cols: 2,
     },
     {
-        img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-        title: 'Basketball',
+        url: '/img/home_gallery/3.jpg',
     },
     {
-        img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-        title: 'Fern',
+        url: '/img/home_gallery/4.jpg',
+    },
+    {
+        url: '/img/home_gallery/5.jpg',
+        rows: 2,
+    },
+    {
+        url: '/img/home_gallery/6.jpg',
+        rows: 2,
+    },
+    {
+        url: '/img/home_gallery/7.jpg',
+        rows: 2,
+    },
+    {
+        url: '/img/home_gallery/8.jpg',
+        rows: 2,
     }
 ];

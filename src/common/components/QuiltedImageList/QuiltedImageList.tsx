@@ -12,15 +12,14 @@ function srcset(image: string, size: number, rows = 1, cols = 1) {
 }
 
 type ImageListProps = {
-  itemData: {
-    title: string
-    img: string
+  images: {
+    url: string
     rows?: number
     cols?: number
   }[]
 }
 
-export default function QuiltedImageList({ itemData }: ImageListProps) {
+export default function QuiltedImageList({ images }: ImageListProps) {
   const ROW_HEIGHT = 200
   return (
     <ImageList
@@ -29,11 +28,11 @@ export default function QuiltedImageList({ itemData }: ImageListProps) {
       cols={4}
       rowHeight={ROW_HEIGHT}
     >
-      {itemData.map((item) => (
-        <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
+      {images.map((image) => (
+        <ImageListItem key={image.url} cols={image.cols || 1} rows={image.rows || 1}>
           <img
-            {...srcset(item.img, ROW_HEIGHT, item.rows, item.cols)}
-            alt={item.title}
+            {...srcset(image.url, ROW_HEIGHT, image.rows, image.cols)}
+            alt={"gallery-image"}
             loading="lazy"
             onError={defaultImage.small.errorHandler}
           />

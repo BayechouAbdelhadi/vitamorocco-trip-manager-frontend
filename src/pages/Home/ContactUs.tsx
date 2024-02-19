@@ -2,7 +2,7 @@ import { Button, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
 import { scrollToTop } from '../../common/utils'
 import TextWithLines from '../../common/components/QuiltedImageList/TitleWithLines'
-import { useTranslation } from 'react-i18next'
+import { Trans, useTranslation } from 'react-i18next'
 
 function ContactUs() {
     const { t } = useTranslation();
@@ -13,8 +13,10 @@ function ContactUs() {
                 width: { xs: '100%', md: '70%' },
                 textAlign: 'center',
                 lineHeight: 2.5
-            }}>{t('special_request_description')}</Typography>
-            <Button component={Link} to="/contact" sx={{ margin: '20px 0' }} onClick={scrollToTop}>
+            }}>
+                <Trans i18nKey={"special_request_description"} components={{ b: <b /> }} />
+            </Typography>
+            <Button component={Link} to="/contact" className='secondary-button' sx={{ margin: '20px 0' }} onClick={scrollToTop}>
                 {t('contact.title')}
             </Button>
         </div>

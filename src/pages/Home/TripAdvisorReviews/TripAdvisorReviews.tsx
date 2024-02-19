@@ -64,6 +64,7 @@ function TripAdvisorReviews() {
                     prevEl: ".button-prev",
                     nextEl: ".button-next",
                 }}
+                className="trip-advisor-reviews-swiper"
             >
                 {REVIEWS.map((review, index) => (
                     <SwiperSlide key={`${review.pseudo}-${index}`}>

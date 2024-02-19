@@ -10,14 +10,12 @@
     width: 100%;
 
     background-color: #333;
-    /* Text color */
     color: #fff;
     padding: 2rem;
     z-index: 4000;
 
     a {
-        color: #ff385c;
-        /* Link color */
+        color: rgb(188, 141, 74);
         text-decoration: none;
 
         &:hover {
@@ -26,17 +24,14 @@
     }
 
     button {
-        background-color: #ff385c;
-        /* Button background color */
+        background-color: rgb(188, 141, 74);
         color: #fff;
-        /* Button text color */
         border: none;
         padding: 5px 10px;
         cursor: pointer;
 
         &:hover {
-            background-color: #fc5775;
-            /* Button background color on hover */
+            background-color: rgb(205, 153, 80);
         }
     }
 }

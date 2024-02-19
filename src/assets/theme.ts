@@ -3,7 +3,7 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
     palette: {
         primary: {
-            main: '#ff385c', // Warm primary color (similar to Airbnb's red)
+            main: 'rgb(188, 141, 74);',
         },
         secondary: {
             main: '#6c757d', // Cool secondary color (gray)

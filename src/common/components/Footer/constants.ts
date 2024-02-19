@@ -1,93 +1,58 @@
+import { NavItem } from '../Header/constants';
+
 const CONTACT_BOXES = [
-  {
-    title: '(+212) 634234556',
-    link: 'tel:212634234556',
-  },
-  {
-    title: 'vitamorocco@gmail.com',
-    link: 'mailto:vitamorocco@gmail.com',
-  },
-  {
-    title: 'Formulaire',
-    link: '/contact',
-  },
-  // {
-  //   title: '48 bis Rue des fleurs, 62100 Calais',
-  //   link: 'https://www.google.com/maps',
-  //   is_blank_target: true
-  // }
-]
-
-const EXCURSIONS = [
-  {
-    title: 'Ayt ben haddou',
-    description: '',
-    link: '/excursions/aytBenHaddou'
-  },
-  {
-    title: 'Merzouga',
-    description: 'Websites are made with   love and creativity!',
-    link: '/excursions/Merzouga'
-  },
-  {
-    title: 'Chefchaoun',
-    description: 'Modern and stylistic designs to your website!',
-    link: '/excursions/Chefchaoun'
-  }
-]
-
-const TOURS = [
-  {
-    title: 'Ayt ben haddou',
-    description: '',
-    link: '/tours/ayt-ben-haddou'
-  },
-  {
-    title: 'Marrakech-Essaouira',
-    description: 'Websites are made with   love and creativity!',
-    link: '/tours/marrakech-essaouira'
-  },
-  {
-    title: 'Marrakech-Tanger',
-    description: 'Modern and stylistic designs to your website!',
-    link: '/tours/marrakech-tanger'
-  }
-]
+    {
+        text: '(+212) 662310037',
+        href: 'tel:212662310037',
+    },
+    {
+        text: 'contact@vitamorocco.com',
+        href: 'mailto:contact@vitamorocco.com',
+    },
+    {
+        text: 'vitamorocco@gmail.com',
+        href: 'mailto:vitamorocco@gmail.com',
+    },
+    {
+        text: 'Contact Us',
+        href: '/contact',
+    },
+];
 
 const POLICIES = [
-  {
-    title: 'Privacy Policy',
-    link: '/privacy',
-  },
-  {
-    title: 'Terms and Conditions',
-    link: '/terms',
-  },
-  {
-    title: 'Learn More',
-    link: '/about',
-  }
-]
+    {
+        text: 'About Us',
+        href: '/about',
+    },
+    // {
+    //   text: 'Privacy Policy',
+    //   href: 'services/privacy',
+    // },
+    {
+        text: 'Terms and Conditions',
+        href: 'services/terms_and_conditions',
+    },
+    {
+        text: 'FAQs',
+        href: 'services/faqs',
+    },
+];
 
-export const FOOTER_LINKS = [
-  {
-    is_logo: true,
-  },
-  {
-    title: 'Excursions',
-    links: EXCURSIONS,
-  },
-  {
-    title: 'Tours',
-    links: TOURS,
-  },
-  {
-    title: 'Contacts',
-    links: CONTACT_BOXES,
-  },
-  {
-    title: 'Policies',
-    links: POLICIES
-  }
-]
-
+export const FOOTER_LINKS: NavItem[] = [
+    // {
+    //   text: 'Excursions',
+    //   href: EXCURSIONS,
+    // },
+    // {
+    //   text: 'Tours',
+    //   href: TOURS,
+    // },
+    {
+        text: 'Contacts',
+        dropdown: CONTACT_BOXES,
+    },
+    {
+        text: 'Company',
+        dropdown: POLICIES,
+    },
+];

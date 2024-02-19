@@ -9,27 +9,27 @@ import Welcome from './Welcome/Welcome'
 const IMAGES = [
     {
         id: '444',
-        title: 'Item 1, Note that the development build is not optimized.',
-        description: 'cliquer pour savoir plus',
-        alt: 'alt for Item 1',
-        img_src: '/img/1.jpg',
-        link: '/excursions/string'
+        title: 'Crafting Dreams into Stunning Realities',
+        description: 'Start your Dream with a Click',
+        alt: 'Crafting Dreams into Stunning Realities',
+        img_src: '/img/carousel/1.jpg',
+        link: '/tours'
     },
     {
         id: '445',
-        title: 'Item 2, To create a production build, use npm run build.',
-        description: 'savoir plus sur ce tour',
+        title: 'From Excursions to Day Trips & Activities, we\'ve got everything covered.',
+        description: 'Dive into the Adventure',
         alt: 'alt for Item 2',
-        img_src: '/img/2.jpg',
-        link: '/tours/string'
+        img_src: '/img/carousel/2.jpeg',
+        link: '/excursions'
     },
     {
         id: '446',
-        title: 'Item 3, To create a production build, use npm run build.',
-        description: 'savoir plus sur ce tour',
+        title: 'Personalized itineraries & Trips, experience unforgettable holidays across Morocco.',
+        description: 'Contact us now And start Tomorrow',
         alt: 'alt for Item 3',
-        img_src: '/img/2.jpg',
-        link: '/tours/string'
+        img_src: '/img/carousel/3.jpg',
+        link: '/contact'
     },
 ];
 

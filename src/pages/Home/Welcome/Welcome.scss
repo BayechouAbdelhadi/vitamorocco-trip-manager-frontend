@@ -10,8 +10,6 @@
     }
 
     p {
-        color: #555;
-        font-weight: 700;
         line-height: 2;
     }
 
@@ -23,8 +21,11 @@
 
 @media (max-width: 490px) {
 
-    p,
-    h3 {
-        text-align: center;
+    .welcome-container {
+
+        p,
+        h3 {
+            text-align: center;
+        }
     }
 }
