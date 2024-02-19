@@ -36,6 +36,7 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
             <CardMedia
                 component="img"
                 height="250"
+                loading='lazy'
                 image={`/img/${type}/${excursion.id}/${excursion.summaryImg}`}
                 alt={`excursion ${excursion.title}`}
                 onError={defaultImage.small.errorHandler}

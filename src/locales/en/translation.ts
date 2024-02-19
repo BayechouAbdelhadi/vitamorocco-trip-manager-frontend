@@ -162,7 +162,7 @@ export const TRANSLATION_EN = {
             description: 'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences'
         },
     },
-    special_request_description: 'If you prefer to avoid organized trips in large groups and appreciate a more flexible approach, VitaMarruecos simplifies your travel experience by allowing you to leave at your own pace, without constraints, and to personalize your itinerary according to your own tastes and interests.',
+    special_request_description: 'If you prefer to avoid organized trips in large groups and appreciate a more flexible approach, <b>Vita Morocco</b> simplifies your travel experience by allowing you to leave at your own pace, without constraints, and to personalize your itinerary according to your own tastes and interests.',
     subject: 'Subject',
     submit: 'Submit',
     // T

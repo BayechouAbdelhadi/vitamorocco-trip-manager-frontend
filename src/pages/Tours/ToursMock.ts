@@ -247,7 +247,9 @@ export const toursMock = [
             "pt": "Ouarzazate",
             "ar": ""
         },
-        "summaryImg": "3_days_trip_marrakech_to_merzouga_summary.jpg",
+        "summaryImg": "summary.jpg",
+        "titleImg": "title.jpg",
+        "descriptionImg": "description.jpg",
         "description": {
             // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
             "en": `On this 3 days Sahara Desert Trip from Marrakech, you will have a unique opportunity to

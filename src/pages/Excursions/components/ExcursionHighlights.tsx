@@ -11,9 +11,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation'
+import 'swiper/css/autoplay';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import { useMemo } from 'react';
 
 
@@ -76,12 +77,13 @@ export function HighLightsSwiper({ highlightsImgs = [] }: HighLightsSwiperInterf
             }}
             navigation={true}
             loop
-            modules={[Pagination, Navigation]}
+            autoplay={{ delay: 3000 }}
+            modules={[Pagination, Navigation, Autoplay]}
             className="excursion-swiper"
         >
             {imgs.map((url, index) => (
                 <SwiperSlide key={`highlightsImgsUrls-${index}`}>
-                    <img src={url} alt={`highlightsImgsUrls-${index}`} />
+                    <img src={url} alt={`highlightsImgsUrls-${index}`} loading="lazy" />
                 </SwiperSlide>
             ))}
         </Swiper>
