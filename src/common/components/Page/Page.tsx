@@ -44,6 +44,7 @@ export const Page = ({
                             src={imgSrc}
                             alt={`title-${title}`}
                             className='title-img'
+                            onError={defaultImage.large.errorHandler}
                         />
                         <Typography variant={isXs ? 'h4' : 'h3'} className="title-text">
                             {title}

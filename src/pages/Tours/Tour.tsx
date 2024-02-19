@@ -10,6 +10,7 @@ import { ExcursionHighlights } from '../Excursions/components/ExcursionHighlight
 import { ExcludedServiceList } from '../Excursions/components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from '../Excursions/components/excursion-services/IncludedServices';
 import { scrollToTop } from '../../common/utils';
+import DoneIcon from '@mui/icons-material/Done';
 import { getTour } from '../../common/services/tourService';
 import { TourSteps } from './TourSteps';
 import TourInformation from './TourInformation';
@@ -70,9 +71,10 @@ export const Tour = (): JSX.Element => {
                         leftPane={{
                             element: (
                                 <div className="excluded-services-list">
-                                    <ul>
+                                    <ul className="no-bullets">
                                         {tour.includedServices?.map((service) => (
                                             <li key={service}>
+                                                <DoneIcon color="primary" />
                                                 <div>{service}</div>
                                             </li>
                                         ))}
@@ -91,7 +93,7 @@ export const Tour = (): JSX.Element => {
                         you covered. Simply reach out to us with your ideas, and we&apos;ll tailor the perfect itinerary
                         just for you.
                     </p>
-                    <p style={{marginBottom:20}}>
+                    <p style={{ marginBottom: 20 }}>
                         <strong>Contact us to transform your travel dreams into reality!</strong>
                     </p>
                     <ContactForm subject={`Tour ${tour?.title}`} />
