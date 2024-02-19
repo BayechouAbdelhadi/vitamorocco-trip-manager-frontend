@@ -15,7 +15,6 @@ export const saveContact = (contact: Contact) => {
         user_id: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
         template_params: contact,
     };
-    console.log(data)
 
     return axios.post('https://api.emailjs.com/api/v1.0/email/send', data);
 };

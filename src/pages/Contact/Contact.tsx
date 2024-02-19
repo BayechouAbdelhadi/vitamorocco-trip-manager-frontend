@@ -29,12 +29,12 @@ const initialContact: Omit<Message, 'fullName'> & { firstname: string; lastname:
     message: '',
     numberOfAdults: 1,
     numberOfKids: 0,
-    departureDate: null,
-    returnDate: null,
+    departureDate: new Date().toISOString(),
+    returnDate: new Date().toISOString(),
     housingType: null,
     housingCategory: null,
     housingRegime: null,
-    flexibleDates: null,
+    flexibleDates: true,
 };
 
 export const Contact = (): JSX.Element => {
@@ -108,14 +108,14 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
         value: Dayjs | null,
         context: PickerChangeHandlerContext<DateTimeValidationError>
     ) => {
-        setContactData({ ...contactData, departureDate: value?.toISOString() ?? new Date()?.toISOString() });
+        setContactData({ ...contactData, departureDate: value?.toISOString() || null });
     };
 
     const handleReturnDateChange = (
         value: Dayjs | null,
         context: PickerChangeHandlerContext<DateTimeValidationError>
     ) => {
-        setContactData({ ...contactData, returnDate: value?.toISOString() ?? new Date()?.toISOString() });
+        setContactData({ ...contactData, returnDate: value?.toISOString() || null });
     };
 
     return (
@@ -220,13 +220,13 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
             <div className="groupped-fields">
                 <DateTimePicker
                     label="Departure Date"
-                    value={dayjs(contactData.departureDate ?? new Date())}
+                    value={dayjs(contactData.departureDate)}
                     onChange={handleDepartureDateChange}
                     className="form-field"
                 />
                 <DateTimePicker
                     label="Return Date"
-                    value={dayjs(contactData.returnDate ?? new Date())}
+                    value={dayjs(contactData.returnDate)}
                     onChange={handleReturnDateChange}
                     className="form-field"
                 />
