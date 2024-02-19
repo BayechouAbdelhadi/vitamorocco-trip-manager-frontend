@@ -14,9 +14,8 @@ import TextWithLines from '../../common/components/QuiltedImageList/TitleWithLin
 import SelectBox from '../../common/components/select/select';
 import contactService from '../../common/services/contactService';
 import { HousingRegime, HousingType, Contact as Message } from '../../common/types/contact';
-import { HOUSING_REGIME, HOUSING_TYPES } from './constants';
-
 import './Contact.scss';
+import { HOUSING_REGIME, HOUSING_TYPES } from './constants';
 
 const ContactText = 'contact.title';
 
@@ -28,7 +27,7 @@ const initialContact: Omit<Message, 'fullName'> & { firstname: string; lastname:
     phoneNumber: '',
     subject: '',
     message: '',
-    numberOfAdults: 0,
+    numberOfAdults: 1,
     numberOfKids: 0,
     departureDate: null,
     returnDate: null,
@@ -109,14 +108,14 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
         value: Dayjs | null,
         context: PickerChangeHandlerContext<DateTimeValidationError>
     ) => {
-        setContactData({ ...contactData, departureDate: value?.toISOString() ?? null });
+        setContactData({ ...contactData, departureDate: value?.toISOString() ?? new Date()?.toISOString() });
     };
 
     const handleReturnDateChange = (
         value: Dayjs | null,
         context: PickerChangeHandlerContext<DateTimeValidationError>
     ) => {
-        setContactData({ ...contactData, returnDate: value?.toISOString() ?? null });
+        setContactData({ ...contactData, returnDate: value?.toISOString() ?? new Date()?.toISOString() });
     };
 
     return (
