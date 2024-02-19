@@ -84,6 +84,7 @@ export function HighLightsSwiper({ highlightsImgs = [] }: HighLightsSwiperInterf
             {imgs.map((url, index) => (
                 <SwiperSlide key={`highlightsImgsUrls-${index}`}>
                     <img src={url} alt={`highlightsImgsUrls-${index}`} loading="lazy" />
+                    <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                 </SwiperSlide>
             ))}
         </Swiper>

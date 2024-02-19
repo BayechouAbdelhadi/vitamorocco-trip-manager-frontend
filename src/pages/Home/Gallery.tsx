@@ -15,42 +15,42 @@ export default function Gallery() {
                 textAlign: 'center',
                 lineHeight: 2.5
             }}>{t('memories_we_collect.description')}</Typography>
-            <QuiltedImageList itemData={itemData} />
+            <QuiltedImageList images={images} />
             <Button component={Link} to='/services/gallery' className='secondary-button'>{t('see_more')}</Button>
         </div>
     )
 }
 
-const itemData = [
+const images = [
     {
-        img: '/img/home_gallery/1.jpg',
+        url: '/img/home_gallery/1.jpg',
         rows: 2,
         cols: 2,
     },
     {
-        img: '/img/home_gallery/2.jpg',
+        url: '/img/home_gallery/2.jpg',
         rows: 2,
     },
     {
-        img: '/img/home_gallery/3.jpg',
+        url: '/img/home_gallery/3.jpg',
     },
     {
-        img: '/img/home_gallery/4.jpg',
+        url: '/img/home_gallery/4.jpg',
     },
     {
-        img: '/img/home_gallery/5.jpg',
+        url: '/img/home_gallery/5.jpg',
         rows: 2,
     },
     {
-        img: '/img/home_gallery/6.jpg',
+        url: '/img/home_gallery/6.jpg',
         rows: 2,
     },
     {
-        img: '/img/home_gallery/7.jpg',
+        url: '/img/home_gallery/7.jpg',
         rows: 2,
     },
     {
-        img: '/img/home_gallery/8.jpg',
+        url: '/img/home_gallery/8.jpg',
         rows: 2,
     }
 ];
