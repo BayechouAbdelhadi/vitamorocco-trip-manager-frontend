@@ -74,7 +74,7 @@ export const Tour = (): JSX.Element => {
                                     <ul className="no-bullets">
                                         {tour.includedServices?.map((service) => (
                                             <li key={service}>
-                                                <DoneIcon color="primary" />
+                                                <DoneIcon color="success" />
                                                 <div>{service}</div>
                                             </li>
                                         ))}
