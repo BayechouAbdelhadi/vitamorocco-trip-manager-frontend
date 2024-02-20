@@ -48,7 +48,7 @@ export const toursMock = [
         "departureCity": "Fes",
         "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
-        // "journeyTime": 4,
+        "journeyTime": 4,
         "journeyTimeUnit": "hours",
         "highlights": [
             {
@@ -281,7 +281,7 @@ export const toursMock = [
         "departureCity": "Marrakech",
         "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
-        // "journeyTime": 4,
+        "journeyTime": 4,
         "journeyTimeUnit": "hours",
         "highlights": [
             {
@@ -487,7 +487,7 @@ export const toursMock = [
         "departureCity": "Marrakech",
         "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
-        // "journeyTime": 4,
+        "journeyTime": 4,
         "journeyTimeUnit": "hours",
         "highlights": [
             {
@@ -733,7 +733,7 @@ export const toursMock = [
         "departureCity": "Casablanca",
         "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
-        // "journeyTime": 4,
+        "journeyTime": 4,
         "journeyTimeUnit": "hours",
         "highlights": [
             {
@@ -1002,7 +1002,7 @@ export const toursMock = [
         "departureCity": "Fes",
         "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
-        // "journeyTime": 4,
+        "journeyTime": 4,
         "journeyTimeUnit": "hours",
         "highlights": [
             {
@@ -1273,7 +1273,7 @@ export const toursMock = [
         "departureCity": "Marrakech",
         "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
-        // "journeyTime": 4,
+        "journeyTime": 4,
         "journeyTimeUnit": "hours",
         "highlights": [
             {
@@ -1411,7 +1411,7 @@ export const toursMock = [
             stops to spend more time where you like.`,
             `The best option to visit Marrakech and the area is by having everything already setup, so you don’t get lost with what you need to chose or no! by choosing this package
             you will visit the maximum possible of places in Marrakech and the surrounding.`
-        ]
+        ],
     },
     {
         "id": "5_days_special_offer_marrakech_to_sahara_desert",
@@ -1460,7 +1460,7 @@ export const toursMock = [
         "departureCity": "Marrakech",
         "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
-        // "journeyTime": 4,
+        "journeyTime": 4,
         "journeyTimeUnit": "hours",
         "highlights": [
             {
@@ -1470,7 +1470,7 @@ export const toursMock = [
                 "en": "Discover the interesting sites in Marrakech."
             },
             {
-                "en": "Stop at panoramic sightseeing’s to admire Valleys & Berber villages views."
+                "en": "Stop at panoramic sightseeing's to admire Valleys & Berber villages views."
             },
             {
                 "en": "Travel across the High Atlas Mountains."

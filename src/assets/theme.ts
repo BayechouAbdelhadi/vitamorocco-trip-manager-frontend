@@ -29,6 +29,7 @@ const theme = createTheme({
         // You can define typography options here
     },
     // Add more theme options as needed
-});
+}, { index: 1 },  //  optional argument for jss, to set position after mui stylesheets
+);
 
 export default theme;
