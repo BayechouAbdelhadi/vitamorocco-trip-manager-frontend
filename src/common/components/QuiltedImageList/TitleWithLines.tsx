@@ -12,7 +12,7 @@ function TextWithLines({ text }: TextWithLinesProps) {
             margin: '3rem auto'
         }}
         >
-            <Divider sx={{ borderBottomWidth: '45px' }}>
+            <Divider sx={{ borderBottomWidth: '45px' }} className="title-text-divider">
                 <Typography variant={isXs ? 'h4' : 'h3'} style={{
                     "fontWeight": '600',
                     "fontSize": "clamp(1.3rem, 2.3vw, 2rem)",

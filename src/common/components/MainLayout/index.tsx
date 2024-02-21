@@ -16,7 +16,7 @@ export const MainLayout = ({ children }: PropsWithChildren<Record<string, unknow
             <Header />
         </ErrorBoundarySuspense>
         <ErrorBoundarySuspense>
-            <SocialMediaIcons displayColumn float />
+            <SocialMediaIcons float />
         </ErrorBoundarySuspense>
         <ErrorBoundarySuspense>{children}</ErrorBoundarySuspense>
         <ErrorBoundarySuspense>

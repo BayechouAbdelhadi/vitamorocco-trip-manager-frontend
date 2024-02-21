@@ -24,7 +24,7 @@ export const Excursion = (): JSX.Element => {
         data: excursion,
         isLoading,
         isError,
-    } = useQuery(`excursion-${excursionId}`, () => getExcursion(excursionId as string), {
+    } = useQuery(['excursion', excursionId], () => getExcursion(excursionId as string), {
         enabled: Boolean(excursionId), // Only enable the query when excursionId is defined
     });
 

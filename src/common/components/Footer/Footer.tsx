@@ -11,10 +11,10 @@ export const Footer = (): JSX.Element => {
       <FooterColumns />
       <div className="bottom-content">
         <small className='rights-reserved'>
-          All Rights Reserved &#xA9; 2015-{new Date().getFullYear()} <Link to="/" onClick={scrollToTop}><strong>{app.name}</strong></Link>
+          All Rights Reserved &#xA9; 2019-{new Date().getFullYear()} <Link to="/" onClick={scrollToTop}><strong>{app.name}</strong></Link>
         </small>
         {/* Made by {app.developers.map(developer => <a key={developer.initials} target="__blank" href={developer.linkedInLink}><strong>{developer.initials}</strong></a>)} */}
-        <SocialMediaIcons />
+        {/* <SocialMediaIcons /> */}
       </div>
     </footer>
   )

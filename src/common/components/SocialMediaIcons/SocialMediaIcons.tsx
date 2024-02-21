@@ -19,11 +19,10 @@ export default function SocialMediaIcons({ displayColumn = false, float = false 
     return (
         <Box
             sx={{
-                display: { md: 'flex', xs: float ? 'none' : 'flex' },
-                // display: 'flex',
+                display: 'flex',
                 border: '1px solid rgb(202, 202, 202)',
             }}
-            className={`social-media-icons-container ${displayColumn && 'column'} ${float && 'float-container'}`}
+            className={`social-media-icons-container ${float && (isXs ? 'float-bottom' : 'column float-left')}`}
         >
             <a href='https://wa.me/message/RECE76NM33GCB1' target='__blank'>
                 <WhatsAppIcon color="success" fontSize={isXs ? "medium" : "large"} className="icon whatsapp-icon" />

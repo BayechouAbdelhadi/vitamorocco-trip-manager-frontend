@@ -32,7 +32,7 @@ export const Tour = (): JSX.Element => {
         data: tour,
         isLoading,
         isError,
-    } = useQuery(`tour-${tourId}`, () => getTour(tourId as string), {
+    } = useQuery(['tour', tourId], () => getTour(tourId as string), {
         enabled: Boolean(tourId), // Only enable the query when tourId is defined
     });
 

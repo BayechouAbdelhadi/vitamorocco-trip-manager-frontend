@@ -1,8 +1,15 @@
-.float-container {
+.float-left {
     position: fixed;
-    left: 2px;
+    left: 5px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.float-bottom {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .social-media-icons-container {

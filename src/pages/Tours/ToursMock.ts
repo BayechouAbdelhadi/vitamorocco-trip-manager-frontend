@@ -224,7 +224,7 @@ export const toursMock = [
             "pt": "Diariamente",
             "ar": "كل يوم"
         },
-        informationList: [
+        "informationList": [
             `Our travel agency, have both choices:
             Fes to Marrakech via desert Sahara 3 days luxury desert tour.
             Fes to Marrakech via Sahara Desert 3 days Standard Tour (Basic), Depends on your
@@ -236,7 +236,8 @@ export const toursMock = [
             `You can always ask your driver-guide about skipping some stops or add some other
             stops to spend more time where you like.`,
             `Our guests can choose to go to the camp on a camel trek or by 4WD car.`
-        ]
+        ],
+        "mapLink": "!1m64!1m12!1m3!1d3447699.052951429!2d-8.290697874440756!3d32.44878247207188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m49!3e0!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97ffbc8fdf5f09%3A0x7226e3098ee4628!2sTinejdad!3m2!1d31.512853399999997!2d-5.0234472!4m5!1s0xdbd332a576e9eb1%3A0x14e34a1d12e39647!2sTinghir!3m2!1d31.5204633!2d-5.5302337!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdbb67b796faf4b1%3A0x1fb864688fbc92b8!2sSkoura!3m2!1d31.0604911!2d-6.555654!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708467555644!5m2!1sfr!2sma",
     },
     {
         "id": "3_days_trip_marrakech_to_merzouga_sahara_desert",
@@ -440,6 +441,7 @@ export const toursMock = [
             "pt": "Diariamente",
             "ar": "كل يوم"
         },
+        "mapLink": "!1m76!1m12!1m3!1d3447709.245826738!2d-8.643263000524586!3d32.44851605544867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xda2d39b1e3122c3%3A0xab5f7e8e815955a2!2stodra%20gorges%2C%20Tinghir!3m2!1d31.5895278!2d-5.5968086!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd99c57a5f7a25f3%3A0x607ac220c3dd35a4!2sOuled%20Chaker!3m2!1d31.7782643!2d-4.2240446!4m5!1s0xd98bf42e8441e9f%3A0x88269ca6a8dbb536!2sMidelt!3m2!1d32.6799423!2d-4.7329267999999995!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!5e0!3m2!1sfr!2sma!4v1708469035140!5m2!1sfr!2sma"
     },
     {
         "id": "3_days_trip_marrakech_to_fez_through_sahara_desert",
@@ -659,7 +661,7 @@ export const toursMock = [
             "pt": "Diariamente",
             "ar": "كل يوم"
         },
-        informationList: [
+        "informationList": [
             `Our travel agency, have both choices:
             Fes to Marrakech via desert Sahara 3 days luxury desert tour.
             Fes to Marrakech via Sahara Desert 3 days Standard Tour (Basic), Depends on your
@@ -934,7 +936,7 @@ export const toursMock = [
             "pt": "Diariamente",
             "ar": "كل يوم"
         },
-        informationList: [
+        "informationList": [
             `Our travel agency, have both choices:
             13-days / 12-nights Grand Tour of Morocco luxury trip.
             13-days / 12-nights Grand Tour of Morocco Standard trip (Basic), Depends on your
@@ -949,7 +951,8 @@ export const toursMock = [
             `The tour can be adapted to your interests, the starting point can be changed, the
             stops can be modified`,
             `The Tour can be All inclusive.`,
-        ]
+        ],
+        "mapLink": "!1m76!1m12!1m3!1d3425519.895130664!2d-9.52707137954194!3d33.02395789180619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca!3m2!1d33.5731104!2d-7.5898433999999995!4m5!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat!3m2!1d34.0083637!2d-6.8538748!4m5!1s0xd0b265e6402d907%3A0x91548980ce97ea0c!2sChefchaouen!3m2!1d35.168796!2d-5.268364099999999!4m5!1s0xda0687d6a592af5%3A0x89bf317b312f3e62!2sVolubilis%2C%20Mekn%C3%A8s!3m2!1d34.0708021!2d-5.552679299999999!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira!3m2!1d31.5084926!2d-9.7595041!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708470746514!5m2!1sfr!2sma",
     },
     {
         "id": "4_days_tour_fes_to_marrakech_through_sahara_desert_and_atlas_mountains",
@@ -1215,7 +1218,7 @@ export const toursMock = [
             "pt": "Diariamente",
             "ar": "كل يوم"
         },
-        informationList: [
+        "informationList": [
             `Our travel agency, have both choices:
             Fes to Marrakech Sahara Desert 4 days luxury Trip.
             Fes to Marrakech Sahara Desert 4 days Standard Trip (Basic), Depends on your
@@ -1399,7 +1402,7 @@ export const toursMock = [
             "pt": "Diariamente",
             "ar": "كل يوم"
         },
-        informationList: [
+        "informationList": [
             `Our travel agency, have both choices:
             Marrakech & surrounding 5 days luxury Trip.
             Marrakech & surrounding 5 days Standard Trip (Basic), Depends on your choice.`,
@@ -1616,7 +1619,8 @@ export const toursMock = [
             `You can always ask your driver-guide about skipping some stops or add some other
             stops to spend more time where you like.`,
             `Our customers can choose to go to the camp on a camel trek or by 4WD car.`
-        ]
+        ],
+        "mapLink": "!1m76!1m12!1m3!1d3497511.7013296336!2d-8.661706603568263!3d31.12254900003135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sA%C3%A9roport%20international%20Marrakech-M%C3%A9nara%2C%20Marrakech!3m2!1d31.6008085!2d-8.0252375!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xda2d39b1e3122c3%3A0xab5f7e8e815955a2!2stodra%20gorges%2C%20Tinghir!3m2!1d31.5895278!2d-5.5968086!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97722e4e641617%3A0x82298ec0b0417a51!2sRissani!3m2!1d31.2798384!2d-4.2589619!4m5!1s0xdbb80538b38a023%3A0x5668a92d056600dd!2sAgdz!3m2!1d30.7041312!2d-6.4530072999999994!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708469614412!5m2!1sfr!2sma"
     },
 
 ]
