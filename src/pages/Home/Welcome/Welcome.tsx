@@ -14,23 +14,27 @@ function Welcome() {
                     maxWidth: '600px',
                     gap: '0.5rem'
                 }}>
-                    <h3><em>{t('explore_morocco_with_us')}</em></h3>
+                    {/* <h3><em>{t('explore_morocco_with_us')}</em></h3> */}
                     {/* <p>{t('vita_morocco_definition')}</p> */}
                     {/* <p>{t('vita_morocco_goal')}</p> */}
                     <p>
-                        <strong>VITA MOROCCO</strong> is a Small local tour company based in Marrakech, created and managed by
-                        authentic local Imazighen, the Founder is Mohamed he is young man 25 years old with a
-                        degree in Travel agency & Tourism from the southeast of Morocco, with more than 12 years
-                        experience in the Tourism sector, specialized in creating personalized and authentic travel
-                        experiences.
+                        <strong>VITA MOROCCO</strong> is your ultimate travel companion for exploring the enchanting landscapes, vibrant cultures,
+                        and rich traditions of Morocco. Our mission is to inspire travelers to venture beyond their comfort zones,
+                        immersing themselves in the unique beauty and diversity that Morocco has to offer.</p>
+                    <p>
+                        From the bustling markets
+                        of Marrakech to the historic streets of Fes, we curate a wide array of <strong>Tours and Activities</strong> designed to cater to every
+                        adventurer&apos;s needs. Whether you&apos;re interested in <strong>Day trips, City excursions</strong>, or <strong>Guided tours</strong> through Morocco&apos;s most
+                        iconic cities, <strong>VITA MOROCCO</strong> equips you with all the essential information and tips to make your vacation truly unforgettable.
+                        Join us to enrich your life with new experiences and discoveries in Morocco.
                     </p>
                 </div>
                 <img
-                    className='welcome-image'
+                    className="welcome-image"
                     src="/img/welcome.jpg"
                     alt="Home"
                     loading="lazy"
-                    height={250}
+                    height={350}
                     width={350}
                 />
             </div>

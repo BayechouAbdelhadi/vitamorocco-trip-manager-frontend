@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import { Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
@@ -15,7 +16,6 @@ import 'swiper/css/autoplay';
 
 // import required modules
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
-import { useMemo } from 'react';
 
 
 interface ExcursionHighlightsInterface {

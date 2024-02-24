@@ -4,7 +4,6 @@ import PanedSection from '../../../common/components/panes/SectionedPanes';
 import { Excursion } from '../../../common/types/excursion';
 import { defaultImage } from '../../../common/utils/imageUtils';
 
-const ExcursionText = 'Excursion';
 interface ExcursionDescriptionInterface {
     excursion: Excursion;
     type?: string

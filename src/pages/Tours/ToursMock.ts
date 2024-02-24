@@ -872,6 +872,24 @@ export const toursMock = [
                 // "ar": "توقف لالتقاط الصور."
             },
         ],
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
+            'highlight_16.jpg',
+        ],
         "steps": [
             {
                 title: "Casablanca airport - Casablanca (sightseeing)",

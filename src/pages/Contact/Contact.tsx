@@ -50,8 +50,7 @@ export const Contact = (): JSX.Element => {
             <Container>
                 <TextWithLines text={t('contact.message')} />
                 <div className="contact-form-container">
-                    <img src="/img/contact-us.svg" alt="contact-us" className="contact-us-img" />
-                    {/* {!isXs && <img src="/img/contact-us.svg" alt="contact-us" className="contact-us-img" />} */}
+                    <img src="/img/contact-us.svg" alt="contact-us" className="contact-us-img" loading="lazy" />
                     <ContactForm />
                 </div>
                 {/* <iframe

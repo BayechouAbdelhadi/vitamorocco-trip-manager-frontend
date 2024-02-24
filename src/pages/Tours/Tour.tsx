@@ -36,6 +36,8 @@ export const Tour = (): JSX.Element => {
         enabled: Boolean(tourId), // Only enable the query when tourId is defined
     });
 
+    console.log('tour', tour)
+
     const tourTitle = tour?.title ?? TourText;
 
     if (isLoading) {

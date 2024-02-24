@@ -23,7 +23,6 @@ export default function QuiltedImageList({ images }: ImageListProps) {
   const ROW_HEIGHT = 200
   return (
     <ImageList
-      className='image-list-container'
       variant="quilted"
       cols={4}
       rowHeight={ROW_HEIGHT}

@@ -1,12 +1,5 @@
-.image-list-container {
-    img {
-        object-fit: cover;
-    }
-}
-
 @media (max-width: 490px) {
-    .image-list-container {
-        display: flex;
-        flex-direction: column;
+    .MuiImageList-quilted {
+        grid-template-columns: auto !important;
     }
 }

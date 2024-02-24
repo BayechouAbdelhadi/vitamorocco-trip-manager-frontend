@@ -41,7 +41,7 @@ export default Services
 
 const SERVICES = [
     {
-        img: '/img/destinations/excursion.jpeg',
+        img: '/img/destinations/excursion.jpg',
         title: 'excursions',
         description: 'Explore a variety of options in the excursions section, and keep in mind that we can tailor them to match your preferences',
         rows: 2,

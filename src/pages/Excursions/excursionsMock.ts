@@ -25,7 +25,6 @@ export const excursionsMock = [
             "transport",
             "driver_guide",
             "expenses",
-            "local_guide"
         ],
         "departureCity": "Ouarzazate",
         "departurePickupTime": "07:00 or 08:00 AM",
@@ -91,6 +90,15 @@ export const excursionsMock = [
             'highlight_5.jpg',
             'highlight_6.jpg',
             'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
+            'highlight_16.jpg',
         ],
         "pricing": [
             {
@@ -404,17 +412,12 @@ export const excursionsMock = [
             "en": "Ouzoud Waterfalls",
             "es": "Ouzoud Waterfalls",
             "pt": "Ouzoud Waterfalls",
-            // "ar": "الصويرة موغادور"
         },
         "summaryImg": "ouzoud_waterfalls_summary.jpg",
         "titleImg": "title.jpg",
         "descriptionImg": "description.jpg",
         "description": {
-            // "fr": "Essaouira, ou la perle de l'Atlantique, cette ville classée au patrimoine mondial, conserve le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils ont vécu pendant des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Tuya, ses coopératives de femmes pour l'huile d'argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons de faire un arrêt dans une coopérative de femmes pour assister à la démonstration de femmes locales préparant de l'huile d'argan. À votre arrivée dans la ville, vous pouvez faire une visite gratuite de la médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons vous fournir un guide local qui vous fera visiter la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (c'est recommandé) pour profiter au maximum de la journée.",
             "en": "The Ouzoud waterfalls, located near a village with the same name, with their impressive 100 meters of altitude are what give strength to the waters of the el-Abid river. Pick up at the hotel or Riad where you are staying and early departure towards the OUZOUD waterfalls. Before we will make a stop at Iminifri, a natural bridge of great beauty, with fossilization of the roots of the trees. Then we will head towards Ouzoud, we will enjoy a day under the waterfalls, where we can find water drops of up to 50 meters high. The Ouzoud waterfalls are the largest and most impressive waterfalls in North Africa. They have a height of 110 meters and are located in the province of Tanaghmeilt, 150 kilometers from Marrakech, in the Atlas Mountains. The walk through the waterfalls is very beautiful, you can surround the waterfalls on both sides while you see the vegetation and fauna (it is very common to see monkeys). The most intrepid and hot can choose to bathe in the river, it is a very clean water although it's pretty cold. At middle day you can enjoy a pleasant meal sitting on a terrace overlooking the waterfalls. In the Evening, we return to Marrakech.",
-            // "es": "Essaouira, o la perla del Atlántico, esta ciudad Patrimonio de la Humanidad, conserva el encanto y la autenticidad de una tierra perdida en el tiempo. Essaouira se ha convertido en una etapa esencial en el viaje a Marruecos. El explorador aventurero quedará fascinado por la amabilidad hospitalaria de la gente de esta ciudad, lo que no es sorprendente, ya que han vivido durante siglos en el cruce de culturas, civilizaciones y religiones. La ciudad es conocida por sus fábricas de madera de tuya, las cooperativas de mujeres para el aceite de argán y las alfombras. En nuestra excursión a Essaouira, le sugerimos hacer una parada en una cooperativa de mujeres para presenciar la demostración de mujeres locales preparando aceite de argán. A su llegada a la ciudad, puede hacer un recorrido gratuito por la Medina de Essaouira, visitar el puerto y luego disfrutar de un almuerzo de pescado fresco a la parrilla en los restaurantes locales del puerto. Si lo desea, podemos proporcionarle un guía local que le mostrará la ciudad. La excursión desde Marrakech a Essaouira comienza lo más temprano posible (se recomienda) para aprovechar al máximo el día.",
-            // "pt": "Essaouira, ou a pérola do Atlântico, esta cidade Patrimônio Mundial, mantém o charme e autenticidade de uma terra perdida no tempo. Essaouira tornou-se uma etapa essencial na viagem a Marrocos. O explorador aventureiro ficará fascinado com a amabilidade acolhedora do povo desta cidade, o que não é surpreendente, já que eles viveram por séculos no cruzamento de culturas, civilizações e religiões. A cidade é conhecida por suas fábricas de madeira de Thuya, cooperativas de mulheres para o óleo de argan e tapetes. Na nossa excursão a Essaouira, sugerimos fazer uma paragem numa cooperativa de mulheres para assistir à demonstração de mulheres locais a preparar óleo de argan. Ao chegar à cidade, pode fazer um passeio gratuito pela Medina de Essaouira, visitar o porto e depois desfrutar de um almoço com peixe fresco grelhado nos restaurantes locais do porto. Se desejar, podemos providenciar um guia local que lhe mostrará a cidade. A excursão de Marraquexe a Essaouira começa o mais cedo possível (recomenda-se) para aproveitar ao máximo o dia.",
-            // "ar": "الصويرة، أو لؤلؤة المحيط الأطلسي، هذه المدينة ذات التراث العالمي تحتفظ بسحر وأصالة الأرض التي ضاعت في الزمن. أصبحت الصويرة محطة ضرورية في رحلة إلى المغرب. سيُغرم المستكشف المغامر بلطف سكان هذه المدينة الضيافيين، وهو أمر ليس مفاجئًا لأنهم عاشوا لقرون عديدة على تقاطع الثقافات والحضارات والأديان. تُعرف المدينة جيدًا بمصانعها لخشب التويا وتعاونيات النساء لإنتاج زيت الأركان والسجاد. في رحلتنا إلى الصويرة، نقترح توقفًا في تعاونية للنساء لمشاهدة عرض تحضير النساء المحليات لزيت الأركان. عند وصولك إلى المدينة، يمكنك القيام بجولة مجانية في المدينة القديمة (المدينة القديمة) في الصويرة، ثم زيارة الميناء، وبعد ذلك الاستمتاع بوجبة غداء تتضمن أسماكًا طازجة تُشوى في مطاعم الميناء المحلية. إذا كنت ترغب، يمكننا توفير مرشد محلي سيقوم بجولتك في المدينة. تبدأ الرحلة من مراكش إلى الصويرة في أقرب وقت ممكن (يُفضل) للاستفادة القصوى من اليوم."
         },
         "destinationCity": "Ouzoud Waterfalls",
         "includedServices": [
@@ -423,7 +426,6 @@ export const excursionsMock = [
             "transport",
             "driver_guide",
             "expenses",
-            "local_guide"
         ],
         "departureCity": "Ourika Valley",
         "departurePickupTime": "08:30 AM",
@@ -432,32 +434,16 @@ export const excursionsMock = [
         "journeyTimeUnit": "hours",
         "highlights": [
             {
-                // "fr": "Visitez le port traditionnel d'Essaouira.",
-                "en": "- Discover the most beautiful waterfalls of Ouzoud.",
-                // "es": "Visita el puerto tradicional de Essaouira.",
-                // "pt": "Visite o tradicional porto de Essaouira.",
-                // "ar": "زيارة ميناء الصويرة التقليدي."
+                "en": "Discover the most beautiful waterfalls of Ouzoud.",
             },
             {
-                // "fr": "Découvrez le rôle de Skala.",
                 "en": "Enjoy a berbere tasty delicious meal in front of the waterfalls.",
-                // "es": "Explora el papel de Skala.",
-                // "pt": "Explore o papel de Skala.",
-                // "ar": "اكتشف دور سكالا."
             },
             {
-                // "fr": "Visitez l'ancienne médina avec ses artisans et cèdres, ses forgerons, ses tisserands, bijoutiers c'est… sa place Moulay Hassan et bien sûr ses souks.",
                 "en": "A tour guided walk to discover the charm of this wonderful place.",
-                // "es": "Visite la antigua medina con sus artesanos y cedros, sus herreros, sus tejedores, sus joyeros... su plaza Moulay Hassan y, por supuesto, sus zocos.",
-                // "pt": "Visite a antiga medina com os seus artesãos e cedros, os seus ferreiros, os seus tecelões, os seus joalheiros… a sua Place Moulay Hassan e claro os seus souks.",
-                // "ar": "قم بزيارة المدينة القديمة بحرفيها وأرزها والحدادين والنساجين والصائغين... ساحة مولاي حسن وبالطبع أسواقها."
             },
             {
-                // "fr": "Détendez-vous sur une belle plage.",
                 "en": "A visit to the famous Iminifri gate in the region of Azilal.",
-                // "es": "Relájate en una hermosa playa.",
-                // "pt": "Relaxe em uma bela praia.",
-                // "ar": "استرخ على الشاطئ الجميل."
             }
         ],
         "highlightImgs": [
@@ -466,6 +452,10 @@ export const excursionsMock = [
             'highlight_3.jpg',
             'highlight_4.jpg',
             'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
         ],
         "pricing": [
             {
