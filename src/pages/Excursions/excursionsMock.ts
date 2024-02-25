@@ -560,35 +560,50 @@ export const excursionsMock = [
             'highlight_11.jpg',
             'highlight_12.jpg',
             'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
+            'highlight_16.jpg',
+            'highlight_17.jpg',
+            'highlight_18.jpg',
+            'highlight_19.jpg',
+            'highlight_20.jpg',
+            'highlight_21.jpg',
+            'highlight_22.jpg',
+            'highlight_23.jpg',
+            'highlight_24.jpg',
+            'highlight_25.jpg',
+            'highlight_26.jpg',
+            'highlight_27.jpg',
+            'highlight_28.jpg',
         ],
         "pricing": [
             {
-                // "fr": "Groupe de 1 à 6 personnes : 160€",
+                "fr": "Groupe de 1 à 6 personnes : 100€",
                 "en": "Group of 1 to 6 people: 100€",
-                // "es": "Grupo de 1 a 6 personas: 160€",
-                // "pt": "Grupo de 1 a 6 pessoas: 160€",
-                // "ar": "مجموعة من 1 إلى 6 أشخاص: 160 يورو"
+                "es": "Grupo de 1 a 6 personas: 100€",
+                "pt": "Grupo de 1 a 6 pessoas: 100€",
+                "ar": "مجموعة من 1 إلى 6 أشخاص: 100 يورو"
             },
             {
-                // "fr": "Groupe de 7 à 10 personnes : 220€",
+                "fr": "Groupe de 7 à 10 personnes : 150€",
                 "en": "Group of 7 to 10 people: 150€",
-                // "es": "Grupo de 7 a 10 personas: 220€",
-                // "pt": "Grupo de 7 a 10 pessoas: 220€",
-                // "ar": "مجموعة من 7 إلى 10 أشخاص: 220 يورو"
+                "es": "Grupo de 7 a 10 personas: 150€",
+                "pt": "Grupo de 7 a 10 pessoas: 150€",
+                "ar": "مجموعة من 7 إلى 10 أشخاص: 150 يورو"
             },
             {
-                // "fr": "Groupe de 11 à 14 personnes : 250€",
+                "fr": "Groupe de 11 à 14 personnes : 200€",
                 "en": "Group of 11 to 14 people: 200€",
-                // "es": "Grupo de 11 a 14 personas: 250€",
-                // "pt": "Grupo de 11 a 14 pessoas: 250€",
-                // "ar": "مجموعة من 11 إلى 14 شخصًا: 250 يورو"
+                "es": "Grupo de 11 a 14 personas: 200€",
+                "pt": "Grupo de 11 a 14 pessoas: 200€",
+                "ar": "مجموعة من 11 إلى 14 شخصًا: 200 يورو"
             },
             {
-                // "fr": "Groupe de 15 à 16 personnes : 300€",
+                "fr": "Groupe de 15 à 16 personnes : 250€",
                 "en": "Group of 15 to 16 people: 250€",
-                // "es": "Grupo de 15 a 16 personas: 300€",
-                // "pt": "Grupo de 15 a 16 pessoas: 300€",
-                // "ar": "مجموعة من 15 إلى 16 شخصًا: 300 يورو"
+                "es": "Grupo de 15 a 16 personas: 250€",
+                "pt": "Grupo de 15 a 16 pessoas: 250€",
+                "ar": "مجموعة من 15 إلى 16 شخصًا: 250 يورو"
             }
         ],
         "duration": 1,
