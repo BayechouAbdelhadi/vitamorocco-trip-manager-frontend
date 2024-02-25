@@ -36,8 +36,6 @@ export const Tour = (): JSX.Element => {
         enabled: Boolean(tourId), // Only enable the query when tourId is defined
     });
 
-    console.log('tour', tour)
-
     const tourTitle = tour?.title ?? TourText;
 
     if (isLoading) {
@@ -49,7 +47,7 @@ export const Tour = (): JSX.Element => {
             description={tourTitle}
             keywords={tourTitle}
             title={tourTitle}
-            imgSrc={`/img/tours/${tour?.id}/${tour?.summaryImg}`}
+            imgSrc={`/img/tours/${tour?.id}/${tour?.titleImg}`}
             className="excursion-detail"
         >
             {tour && (
