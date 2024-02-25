@@ -252,11 +252,11 @@ export const excursionsMock = [
                 "ar": "مجموعة من 11 إلى 14 شخصًا: 250 يورو"
             },
             {
-                "fr": "Groupe de 15 à 16 personnes : 300€",
-                "en": "Group of 15 to 16 people: 300€",
-                "es": "Grupo de 15 a 16 personas: 300€",
-                "pt": "Grupo de 15 a 16 pessoas: 300€",
-                "ar": "مجموعة من 15 إلى 16 شخصًا: 300 يورو"
+                "fr": "Groupe de 15 à 19 personnes : 300€",
+                "en": "Group of 15 to 19 people: 300€",
+                "es": "Grupo de 15 a 19 personas: 300€",
+                "pt": "Grupo de 15 a 19 pessoas: 300€",
+                "ar": "مجموعة من 15 إلى 19 شخصًا: 300 يورو"
             }
         ],
         "duration": 1,
@@ -485,18 +485,6 @@ export const excursionsMock = [
         "summaryImg": "summary.jpg",
         "descriptionImg": "description.jpg",
         "titleImg": "title.jpg",
-        "highlightImgs": [
-            'highlight_1.jpg',
-            'highlight_2.jpg',
-            'highlight_3.jpg',
-            'highlight_4.jpg',
-            'highlight_5.jpg',
-            'highlight_6.jpg',
-            'highlight_7.jpg',
-            'highlight_8.jpg',
-            'highlight_9.jpg',
-            'highlight_10.jpg',
-        ],
         "description": {
             "en": "Marrakech is the most famous and exciting of the Morocco's Imperial cities. An experienced and knowledgeable guide will show you the red city on this full-day guided sightseeing tour in Marrakech. You will be able to immerse yourself in the vivid art, rich history, local culture, ancient sites, vibrant souks, Moroccan handicrafts, palaces, and gardens... The most iconic places in Marrakech are unquestionably the central Djemaa el Fna square, and the Koutoubia Mosque with its beautiful Minaret, a landmark in the heart of the city. The Bahia Palace, the Ben Youssef Medersa, the Saadian Tombs, the Majorelle Gardens and le Jardin Secret are all places revealing Marrakech's fascination and beauty. You will undoubtedly wish to spend more days exploring this Magical and unique city.",
         },
@@ -557,6 +545,21 @@ export const excursionsMock = [
                 // "pt": "Faça paradas para tirar fotos.",
                 // "ar": "توقف لالتقاط الصور."
             }
+        ],
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
         ],
         "pricing": [
             {
