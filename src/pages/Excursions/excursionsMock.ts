@@ -679,12 +679,6 @@ export const excursionsMock = [
             'highlight_8.jpg',
             'highlight_9.jpg',
             'highlight_10.jpg',
-            'highlight_11.jpg',
-            'highlight_12.jpg',
-            'highlight_13.jpg',
-            'highlight_14.jpg',
-            'highlight_15.jpg',
-            'highlight_16.jpg',
         ],
         "pricing": [
             {
