@@ -1636,4 +1636,346 @@ export const toursMock = [
         ],
         "mapLink": "!1m76!1m12!1m3!1d3497511.7013296336!2d-8.661706603568263!3d31.12254900003135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sA%C3%A9roport%20international%20Marrakech-M%C3%A9nara%2C%20Marrakech!3m2!1d31.6008085!2d-8.0252375!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xda2d39b1e3122c3%3A0xab5f7e8e815955a2!2stodra%20gorges%2C%20Tinghir!3m2!1d31.5895278!2d-5.5968086!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97722e4e641617%3A0x82298ec0b0417a51!2sRissani!3m2!1d31.2798384!2d-4.2589619!4m5!1s0xdbb80538b38a023%3A0x5668a92d056600dd!2sAgdz!3m2!1d30.7041312!2d-6.4530072999999994!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708469614412!5m2!1sfr!2sma"
     },
+    {
+        "id": "12_days_grand_tour_of_morocco_from_marrakech_to_chefchaouen",
+        "title": {
+            "fr": "",
+            "en": "12 Days Grand Tour Of Morocco, From Marrakech To Chefchaouen",
+            "es": "Ouarzazate",
+            "pt": "Ouarzazate",
+            "ar": ""
+        },
+        "summaryImg": "summary.jpg",
+        "titleImg": "title.jpg",
+        "descriptionImg": "description.jpg",
+        "description": {
+            "en": `VITA MOROCCO offers to its clients the best Tours in Morocco and make their trips easy and
+            enjoyable. Itinerary of the 12-days Tour from Marrakech to Marrakech, (12 days/11 nights), it
+            is one of the exotic trips through Morocco that combines the Sahara desert, Chefchaouen,
+            imperial cities (Fez, Rabat, Casablanca, Essaouira, Marrakech).
+            This Morocco 12 days tour, Start from Marrakech will let you explore the authentic Morocco
+            and the most interesting attractions in southern & Historical cities, Charming cities travel
+            across the High Atlas Mountains, Exploring Ait Ben Haddou Kasbah, Wander Ouarzazate
+            city. And the charming valleys (Roses Valley & Dades Valley). Discover Merzouga desert.
+            Visit Todra Gorges & Its Palm groves, Oasis. Erfoud, and many Berber (Amazighs) Villages
+            to experience the most beloved highlights in Morocco. Experience camel Trek with sunset &
+            sunrise over Sahara dunes, Sandboarding. Enjoy Overnight Camping in a Berber desert
+            camp under a starry sky with Berber drums music.
+            Travel from Merzouga to Fes across the panoramic views of Ziz Valley, Tizi Ntalghamt pass,
+            Midlet, Cedar forest of Azrou, and the Moroccan Swiss “Ifrane“. Enjoy culture, history and
+            relaxation on this 12-days Tour, by exploring The Blue Pearl of Morocco Chefchaouen, and
+            the capital cultural & crafts of the country, discover the coastal and imperial cities of Morocco
+            Casablanca, Rabat (the capital of the country), Essaouira Mogador the Portugal city, and
+            much more experiences.`,
+        },
+        "destinationCity": "Marrakech",
+        "includedServices": [
+            "Private Vehicle with A/C (SUV, 4WD, or minivan).",
+            "10 Nights Accommodation with breakfast.",
+            "1 Overnight stay in a desert camp (Dinner & breakfast included).",
+            "Dinner & breakfast included in the camp and Dades Gorges.",
+            "Pick up & drop-off at your accommodation.",
+            "English - Spanish speaking driver/Guide.",
+            "Camel trek (Camel per person).",
+            "Sunset or sunrise camel trek.",
+            "Explore attractions like Ait Ben Haddou, Cinema Studios, etc.",
+            "Visit all interesting attractions along the road.",
+            "Visit a female cooperative of Argan.",
+            "Sandboarding (if you're interested).",
+            "Visit the Roman City Volubilis.",
+            "Visit of Ziz Valley.",
+            "Guided Visit to Fez, Marrakech, Chefchaouen.",
+            "Visit The attractions of Rabat & Casablanca.",
+            "Accommodation with half board except Fez, Marrakech, Casablanca, Chefchaouen, Essaouira."
+        ],
+        "departureCity": "Marrakech",
+        "departurePickupTime": "08:00 AM",
+        "returnPickupTime": "05:30 PM",
+        "journeyTime": 4,
+        "journeyTimeUnit": "hours",
+        "highlights": [
+            {
+                "en": "Stop at panoramic sightseeing's to admire Valleys & Berber villages views."
+            },
+            {
+                "en": "Travel across the High Atlas Mountains."
+            },
+            {
+                "en": "Visit the UNESCO World Heritage Sites such as Fez, Essaouira, Kasbah Ait Ben Haddou, Walili."
+            },
+            {
+                "en": "Explore Dades & Todra Gorges, Palm groves & valleys."
+            },
+            {
+                "en": "Experience a Camel ride in Merzouga dunes & Experience Sandboarding."
+            },
+            {
+                "en": "Enjoy a spectacular sunset & sunrise Camel ride."
+            },
+            {
+                "en": "Visit the biggest film studios in north Africa."
+            },
+            {
+                "en": "Spend an overnight in a Berber desert camp."
+            },
+            {
+                "en": "Take memorable Pictures in one of the best parts of Morocco."
+            },
+            {
+                "en": "Immerse yourself inside a rich and different culture."
+            },
+            {
+                "en": "Taste a big variety of different food and dishes."
+            },
+            {
+                "en": "Pass through the Switzerland of Morocco “Ifrane”."
+            },
+            {
+                "en": "A panoramic stop on the Ziz Valley."
+            },
+            {
+                "en": "Discover Fes, Marrakech with local expert guide."
+            },
+            {
+                "en": "Visit & discover the historical & archaeological site Volubilis."
+            },
+            {
+                "en": "Free time to visit the blue pearl of Chefchaouen."
+            },
+            {
+                "en": "Explore the highlights of Rabat city."
+            },
+            {
+                "en": "Visit the mosque of Hassan II in Casablanca."
+            },
+            {
+                "en": "Enjoy exploring the Romantic City of Essaouira Mogador."
+            }
+        ],
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
+        ],
+        "steps": [
+            {
+                title: "Marrakech Airport - Marrakech",
+                description: `Pick up at the Marrakech airport at … with a sign that puts the name of our Agency
+                VITA MOROCCO and Transfer to the Riad / Hotel in the medina of Marrakech, Possibility
+                of having a first contact with the famous Jamaa La Fna square where you can enjoy the
+                delicious food stalls, storytelling, music, dances and games... night in a charming Riad in
+                the medina.`
+            },
+            {
+                title: "MARRAKECH - ATLAS MOUNTAINS - KASBAH AIT BEN HADDOU - ROSES VALLEY - DADES GORGES",
+                description: `Around 8:00 am, our driver will pick you up from your Riad/Hotel in Marrakech. then we
+                start our private 12-days Grand tour from Marrakech to start toward Dades Valley.
+                Firstly, we will Travel across the “Tizi N'Tichka” Pass. And High Atlas Mountains, where
+                we will discover majestic Berber villages camouflaged in the landscape. Then we will
+                continue to Ait Ben Haddou. We will Visit this Castle, a UNESCO world heritage site. It
+                has been used as a backdrop for shooting numerous Hollywood Movies including
+                “Lawrence of Arabia”, “Gladiator”, “Kingdom of Heaven”, “Prince of Persia” and much
+                more… The Kasbahs (fortresses) reflect the Exotic Moroccan architecture & cultures.
+                After exploring the kasbah, you will have time to enjoy a berbere lunch in restaurant
+                with panoramic view to the kasbah. After lunch, we will continue our way to Ouarzazate
+                to explore the Atlas studios (optional), Then we will head to the oasis of Skoura where
+                you can also visit the Kasbah of Amridil, another fascinating site.
+                From there our trip continues to Dades valley via the ‘” road of thousand kasbahs” to
+                catch a spectacular view of a vast valley dotted with small oasis and hundreds of ancient
+                fortifications, till we arrive at the Roses valley, a Town called Kalaat M'gouna, it is well
+                known for the “Roses Festival “, a festival that takes place on the city every year in May. In
+                the evening we'll arrive at our destination “Dades valley,” where we'll stay Overnight in a
+                Riad with Dinner & Breakfast.`
+            },
+            {
+                title: "DADES VALLEY - TODRA GORGES - AMAZIGHS VILLAGES - ERRFOUD - MERZOUGA DESERT (CAMEL TREK & OVERNIGHT IN BERBERE CAMP)",
+                description: `On the second day of our 12-Days Itinerary from Marrakech. Goes on after a traditional
+                delicious breakfast. Then we will take a drive through roads lined with ancient Kasbahs
+                and many attractive Berber villages at the Dades Canyon. You'll enjoy the amazing
+                scenery along the way of the remaining fortified villages hosting the caravan roads till
+                the early 20th century. We will head to Todra within a 15 km breath-taking valley full of
+                palm trees. experience the high walls of grey and pink rock around the road on a walking
+                tour inside Todra gorges.
+                Afterward, we will continue our trip to Merzouga and majestic Erg Chebbi dunes. From
+                there you will take a camel ride Excursion 1H30Min. To get to your authentic Sahara
+                Desert camp. During the Camel trek, you will take a break in the middle of the dunes to
+                catch and enjoy the wonderful sunset. And try the sandboarding activity if you're
+                interested in it. Take pictures and enjoy the scenery. After the sun goes down your
+                Camel trip continues to the camp where you will be welcomed with a glass of mint tea. At
+                the Camp, you will enjoy Berber music, Campfire, starry sky, Dinner, and Overnight
+                under a nomadic desert camp in the middle of Merzouga sand dunes.`
+            },
+            {
+                title: "ERG CHEBBI - KHAMLIA - ERG CHEBBI - RISSANI - MERZOUGA DESERT",
+                description: `After breakfast, we will go to the town of Khamlia, called the "town of blacks", because
+                its population is made up of the descendants of inhabitants from Mali, Sudan, excellent
+                musicians who have made this art their way of life. We will enjoy a small Gnawa music
+                concert and continue our way in a 4WD to the Erg Chebbi dunes, an expanse of sand
+                desert where the Great Dune of Morocco is located, more than 250 meters high,
+                connecting by track with part of the route followed by the old Paris-Dakar, with the
+                mountains that border Algeria in the background. Later stop at a panoramic point where
+                you can see the Erg Chebbi as a whole and the old khol mines and abandoned Berber and
+                French villages. Visit of a nomadic family in their simple tents, where we will learn some
+                secrets of their life and customs. After that we will enjoy a delicious meal in local
+                restaurant (Berber Pizza), then We will go to Rissani to see its authentic African market,
+                the biggest one in the area, where nomads and inhabitants of the nearby towns come to
+                sell their products and buy the items they need. Return to the hotel. Dinner and night in
+                charming Riad in front of the dunes.`
+            },
+            {
+                title: "MERZOUGA DESERT - ZIZ VALLEY - ERRACHIDIA - MIDALT - IFRANE - FEZ CITY",
+                description: `On this day of our Tour, After an early wake-up, you will have also the opportunity to
+                enjoy amazing sunrise over the sand dunes of Merzouga, (optional). And a delicious
+                breakfast in the camp. After that, your camel guide will take you back to the Meeting
+                point in Merzouga centre. On a camel ride or 4WD jeep, Safari depends on your Choice,
+                in order to drive to Fes city.
+                Heading to Fez and going out from the magic desert passing through Errachidia city.
+                Along the road, we will have a stop in the panoramic view of Ziz valley, one of the largest
+                oases in the southeast of Morocco with a huge amount of palm groves and olives, then
+                we will continue through Midelt, after lunch, we keep driving to Azrou to see the
+                macaque monkeys, and the big cedar forest in all Morocco. Our next step will be Ifrane,
+                we will have a small visit to Ifrane city. Then we continue our road to Fez city where we
+                ill spend a night in a charming Riad.`
+            },
+            {
+                title: "FEZ CITY (GUIDED CITY TOUR)",
+                description: `Today, you are going to discover the cultural and craft city of Morocco on a guided tour of
+                Fez. Also known as Fes el Bali, this UNESCO World Heritage Site was founded in the 9th
+                century and is home to the world's oldest university. The city of Fez reached its true
+                economic and cultural heyday in the 13th-14th centuries under the Merinids when it
+                replaced Marrakech as the kingdom's capital. Although the political capital of Morocco
+                was transferred to Rabat in 1912, Fez has retained its status as the country's craft center.
+                The artisan workshops in the medina are as active today as they were 100 years ago and
+                contribute strongly to the industrial economy of the city. Trades such as blacksmithing,
+                leather goods, ceramics, silk, tapestries and sculpture are still practiced in these
+                workshops today. The original walls still protect this ancient city and its approximately
+                9,000 narrow passageways and bustling streets.
+                On this guided tour of Fez, you will visit the following attractions:
+                • Jewish mellah
+                • The tannery
+                • Souk of silk, wool and cotton dyers
+                • Zellij Ceramic and Tile Cooperative
+                • Al Quaraouiyine University.
+                • Royal Palace of Fes
+                • Weavers Cooperative
+                • The panoramic view of Fez el Bali.
+                At the end of the city tour, you will have free time to continue exploring the city by
+                yourself, then we will spend our second night in the Medina of Fez.`
+            },
+            {
+                title: "FEZ - VOLUBILIS (WALILI) - CHEFCHAOUEN",
+                description: `After breakfast we will head north, to the heart of the Rif, to visit Chaouen, the blue city,
+                but before that we will head west until we reach Volubilis, the ancient Roman city where
+                the most important archaeological remains of Morocco are found. Free time in Volu bilis
+                to visit the area quietly. Possibility of a guided tour with a local guide to better
+                understand these important ruins. Then we will start our journey to Chefchaouen, a true
+                jewel of Morocco, located in the Rif region, known for its whitewashed houses with
+                turquoise blue doors, wrought iron windows and tiled roofs, and its blue streets, when
+                we arrive, you can enjoy sitting on the terrace of a cafe, enjoying the attractive view of
+                the great Tarik-Ben-Ziad Mosque. This Andalusian architecture can be found in the
+                kasbah, located in the centre of the medina. A walk in Chefchaouen to see the famous
+                djellaba, this long, flowing dress worn by North African men and women, created in
+                Chefchaouen. chaouen is famous for its basketry and pottery. Then heading towards the
+                famous souk, it is still as alive as ever and a true source of Moroccan culture. you will
+                discover all of this with local Guide in the city of Chefchaouen, Night in Charming Riad in
+                the Medina.`
+            },
+            {
+                title: "CHEFCHAOUEN - RABAT - CASABLANCA",
+                description: `After breakfast in your Riad we will head to the coast to visit the capital of the kingdom,
+                Rabat, where we will have visit to the Mohammed V mausoleum, the Hassan Tower, and
+                free time to wander the Kasbah des oudaya etc.
+                We will continue to Casablanca, where we will visit the exterior of the Hassan II Mosque,
+                the 2nd largest in Africa and a short tour to see the most emblematic points of the city:
+                the Boulevard de la Corniche, the biggest gardens of Casablanca (Jardin des Arabs), the
+                Park of Nations and Mohamed Square. V. Night in beautiful hotel in Casablanca.`
+            },
+            {
+                title: "CASABLANCA - MOSQUE HASSAN II - ESSAOUIRA MOGADOR",
+                description: `Breakfast and departure to the mosque of Hassan II the iconic Landmark of the
+                economic capital, to visit the exterior and interior of the Hassan II Mosque, you will also
+                be able to enjoy take a walk if you feel like it along the beaches on the boulevard de La
+                Corniche. Then we will continue to the coastal city of Essaouira where we will spend the
+                night.`
+            },
+            {
+                title: "ESSAOUIRA MOGADOR - MARRAKECH",
+                description: `After breakfast, free time to visit the city of Essaouira, the old port of Mogador, built by
+                the Portuguese on a narrow peninsula next to an immense crescent of fine sand.
+                Perfectly sheltered by its impressive 18th-century French-built walls, the city is largely
+                pedestrianized and divided into different neighbourhoods by its grid-like layout. From
+                the top of the Skala you can see the colourful fishing port, the fortresses and the Spanish
+                cannons. Essaouira is also famous for its refined crafts, especially wooden objects,
+                interspersed with lemon wood, ebony, mother-of-pearl or copper or silver threads. If you
+                like fish, you can enjoy a tasty meal in the port. then in the evening, we will continue our
+                trip to the starting point Marrakech. Where you can enjoy the atmosphere offered by its
+                famous Jamaa Lfna square with its food stalls, storytelling, dancing and games. Night in
+                charming riad in the medina.`
+            },
+            {
+                title: "MARRAKECH - MARRAKECH (SIGHTSEEING TOUR)",
+                description: `In the Morning around 8h30 or 9h AM our Tour guide will pick you up from your
+                Riad/Hotel to start the Marrakech City Tour.
+                Marrakech is probably best known for central Djemaa El Fna with its juice stalls, dried
+                fruit and nut stalls, women applying henna, snake charmers, storytellers and the myriad
+                of nightly food stalls.
+                You will be able to visit the following places according to time and your preferences: the
+                Majorelle Garden, which belonged to Yves St Laurent and is famous for its special shade
+                of blue, called Majorelle blue.
+                Another famous and stunning garden is le Jardin Secret, a traditional Islamic paradise
+                garden divided into four equal areas on each side of the central crossroads pathway
+                whose water channels are fed directly from the Atlas Mountains The Koutoubia Mosque,
+                which is Marrakech's iconic landmark and can be seen towering over the city, is located
+                near Djemma el Fna and is worth wandering past - non-Muslims are not permitted entry.
+                The garden behind is worth a wander in spring with the overpowering scent of the
+                orange blossom and people competing for the innumerable benches in the shade.
+                El Bahia Palace which means "the palace of the beautiful", the Quranic School, the Ben
+                Youssef Medersa, which used to house some 80 Quranic students, as well as the Saadian
+                Tombs are all worth a visit.
+                Among the souks are the tanneries and the leather workers, the metalwork in the shape
+                of innumerable lamps, carpets and Berber rugs, while the Mellah quarter with the Jewish
+                souks have been beautifully restored. Your Marrakech sightseeing tour ends as your
+                guides escorts you to your riad.`
+            },
+            {
+                title: "MARRAKECH - MARRAKECH AIRPORT",
+                description: `Breakfast and free time to continue exploring the Red City (Marrakech). transfer to the
+                airport of Marrakech, Depending on the departure time of your flight, and end of our
+                services.`
+            },
+        ],
+        "pricing": [],
+        "duration": 12,
+        "durationUnit": "day",
+        "frequency": {
+            "fr": "chaque jour",
+            "en": "Every day",
+            "es": "Cada día",
+            "pt": "Diariamente",
+            "ar": "كل يوم"
+        },
+        informationList: [
+            `Our travel agency, have both choices:
+            12-days / 11-nights Grand Tour of Morocco luxury trip.
+            12-days / 11-nights Grand Tour of Morocco Standard trip (Basic), Depends on your
+            choice.`,
+            `Our 12-days / 11-nights Grand Tour of Morocco is a private Trip. We are sure that the
+            best way to get into the deepest Moroccan culture is through private tours. because
+            You can stop whenever & wherever you like while you're exploring the country by
+            your way.`,
+            `You can always ask your driver-guide about skipping some stops or add some other
+            stops to spend more time where you like.`,
+            `Our customers can choose to go to the camp on a camel trek or by 4WD car.`,
+            `The tour can be adapted to your interests, the starting point can be changed, the
+            stops can be modified.`,
+            `The Tour can be All inclusive.`,
+        ],
+        "mapLink": "!1m76!1m12!1m3!1d3497511.7013296336!2d-8.661706603568263!3d31.12254900003135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sA%C3%A9roport%20international%20Marrakech-M%C3%A9nara%2C%20Marrakech!3m2!1d31.6008085!2d-8.0252375!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xda2d39b1e3122c3%3A0xab5f7e8e815955a2!2stodra%20gorges%2C%20Tinghir!3m2!1d31.5895278!2d-5.5968086!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97722e4e641617%3A0x82298ec0b0417a51!2sRissani!3m2!1d31.2798384!2d-4.2589619!4m5!1s0xdbb80538b38a023%3A0x5668a92d056600dd!2sAgdz!3m2!1d30.7041312!2d-6.4530072999999994!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708469614412!5m2!1sfr!2sma"
+    },
 ]
