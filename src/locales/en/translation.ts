@@ -13,8 +13,9 @@ export const TRANSLATION_EN = {
     available: 'Available',
     ...ALERT_TRANSLATION,
     // B
-    client_testimonials: 'Customer Testimonials',
     // C
+    cancelation: 'Cancelation',
+    client_testimonials: 'Customer Testimonials',
     category: 'Category',
     carousel: {
         0: {
@@ -30,6 +31,7 @@ export const TRANSLATION_EN = {
             description: 'découvrir plus sur cette activité'
         },
     },
+    consult_us: 'Consult Us',
     contact: {
         title: 'Contact',
         message: 'Please fill out the form',
@@ -53,6 +55,7 @@ export const TRANSLATION_EN = {
     duration: 'Duration',
     // E
     email: 'Email',
+    ending_location: 'Ending Location',
     ERROR_TRANSLATION, // Assuming ERROR_TRANSLATION is an object with its own alphabetical order
     excluded_services: {
         food_drink: 'Food and drink.',
@@ -67,6 +70,7 @@ export const TRANSLATION_EN = {
     // F
     faqs: 'FAQs',
     first_name: 'First Name',
+    free: 'Free',
     full_detailed_itinerary: "Full detailed Itinerary",
     // G
     gallery: 'Gallery',
@@ -121,8 +125,9 @@ export const TRANSLATION_EN = {
     // P
     phone_number: 'Telephone',
     pick_up_and_drop_off_from_hotel: 'Pick up and drop off from Your Hotel',
-    pick_up_time_departure: 'Time of pick-up departure',
+    pick_up_time_departure: 'Pick-up time',
     pricing: 'Pricing',
+    price: 'Price',
     pricing_message:
         'The price of the excursion depends on the number of travellers. Below we indicate the prices according to travellers, as well as the services they include. Make up your mind and contact us',
     pricing_warning:
@@ -148,6 +153,7 @@ export const TRANSLATION_EN = {
     refuse_all: "Refuse All",
     // S
     see_more: 'See more',
+    starting_location: 'Starting Location',
     services: {
         activities: {
             title: 'activities',

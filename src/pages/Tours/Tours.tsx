@@ -5,8 +5,10 @@ import { Page } from '../../common/components/Page/Page';
 import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 import { TOUR_ORIGIN_QUERY_NAME } from '../../common/components/utils';
 import { getToursFromOrigin } from '../../common/services/tourService';
-import '../Excursions/Excursions.scss';
 import ExcursionSummary from '../Excursions/components/ExcursionSummary';
+
+import '../Excursions/Excursions.scss';
+
 const ToursText = 'Tours';
 
 export const Tours = (): JSX.Element => {
@@ -14,12 +16,17 @@ export const Tours = (): JSX.Element => {
     const query = new URLSearchParams(location.search);
     const origin = query.get(TOUR_ORIGIN_QUERY_NAME);
     const { data: tours, isLoading } = useQuery(['toursFromOrigin', origin], () => getToursFromOrigin(origin));
+
+    // we can select an aleatoire index...
+    const departureFromCityTitle = origin ? `From ${tours?.[0].departureCity}` : ""
+    const departureFromCityImg = origin ? `${tours?.[0].id}/${tours?.[0].titleImg}` : "tours_title.jpg"
+
     return (
         <Page
             description={ToursText}
             keywords={ToursText}
-            title={ToursText}
-            imgSrc="img/tours/tours_title.jpg"
+            title={`${ToursText} ${departureFromCityTitle}`}
+            imgSrc={`/img/tours/${departureFromCityImg}`}
             className="excursions-page-container"
         >
             {isLoading ? (
@@ -57,7 +64,7 @@ export const Tours = (): JSX.Element => {
                     <h3>Discover the essence of Morocco with us</h3>
                     <div className="excursions-container">
                         {tours?.map((excursion) => (
-                            <ExcursionSummary key={excursion.id} excursion={excursion} type={'tours'} />
+                            <ExcursionSummary key={excursion.id} excursion={excursion} type='tours' />
                         ))}
                     </div>
                 </>

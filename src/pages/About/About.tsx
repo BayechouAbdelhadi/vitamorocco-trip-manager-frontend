@@ -1,10 +1,9 @@
 import { Page } from '../../common/components/Page/Page'
-import './About.scss'
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { SyntheticEvent, useState } from 'react';
-import Logo from '../../common/components/Logo';
+import './About.scss'
 
 const AboutText = 'About Vita Morocco';
 
@@ -12,20 +11,21 @@ export const About = (): JSX.Element => {
     const [value, setValue] = useState(0);
 
     const handleChange = (event: SyntheticEvent, newValue: number) => {
-        console.log('newValue', newValue)
         setValue(newValue);
     };
 
     return (
-        <Page description={AboutText} keywords={AboutText} title={AboutText} imgSrc='img/about/about_title.jpg' className='about-container' style={{ justifyContent: 'flex-start' }}>
-            <Box sx={{ maxWidth: { xs: 350, sm: 680 }, marginTop: '1rem', bgcolor: 'background.paper' }}>
+        <Page description={AboutText} keywords={AboutText} title={AboutText} imgSrc='img/about/about_title.jpg'
+            className='about-container'
+            style={{ justifyContent: 'flex-start' }}
+        >
+            <Box sx={{ maxWidth: { xs: 350, sm: 1000 }, marginTop: '1rem', bgcolor: 'background.paper' }}>
                 <Tabs
                     value={value}
                     onChange={handleChange}
                     variant="scrollable"
                     scrollButtons
                     allowScrollButtonsMobile
-                    aria-label="scrollable force tabs example"
                 >
                     {TABS.map(tab =>
                         <Tab key={tab.label} label={tab.label} />
@@ -43,11 +43,15 @@ const TABS = [
         label: "about",
         component: <>
             <p>
-                <strong>VITA MOROCCO</strong> is a Small local tour company based in Marrakech, created and managed by
-                authentic local Imazighen, the Founder is Mohamed he is young man 25 years old with a
-                degree in Travel agency & Tourism from the southeast of Morocco, with more than 12 years
+                <strong>VITA MOROCCO</strong> is a Small local tour company based in Morocco, created and managed by
+                authentic local Imazighen from the southeast of Morocco, with more than 12 years
                 experience in the Tourism sector, specialized in creating personalized and authentic travel
                 experiences.
+            </p>
+            <p>
+                At <strong>VITA MOROCCO</strong>, we redefine travel in Morocco with our bespoke journey planning
+                service. Our ethos is rooted in delivering unparalleled personalized experiences, catering to
+                the unique tastes and preferences of each traveller
             </p>
             <p>
                 As artisans of journey design, our strength lies in crafting highly exclusive and personalized

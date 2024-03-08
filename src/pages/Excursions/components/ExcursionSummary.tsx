@@ -11,6 +11,19 @@ import ShareButton from '../../../common/components/Buttons/ShareButton/ShareBut
 import { Excursion } from '../../../common/types/excursion';
 import { defaultImage } from '../../../common/utils/imageUtils';
 import { scrollToTop } from '../../../common/utils';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import HailIcon from '@mui/icons-material/Hail';
+import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
+import HourglassTopIcon from '@mui/icons-material/HourglassTop';
+import ShutterSpeedIcon from '@mui/icons-material/ShutterSpeed';
+import DoDisturbIcon from '@mui/icons-material/DoDisturb';
+import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
+import FlightLandIcon from '@mui/icons-material/FlightLand';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+
+import { useTranslation } from 'react-i18next';
+
+
 interface ExcursionSummaryProps {
     readonly excursion: Excursion;
     type?: string
@@ -22,6 +35,11 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
         navigate(`./${excursion.id}`, { relative: 'path' });
         scrollToTop()
     };
+
+    const { t } = useTranslation();
+
+    const duration = type === 'tours' ?
+        `${excursion?.duration} ${excursion?.durationUnit}s / ${excursion?.duration - 1} Nights` : `1 Day`
 
     return (
         <Card className="excursion-summary-card-container" onClick={goToExcursion}>
@@ -42,24 +60,55 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
                 onError={defaultImage.small.errorHandler}
             />
             <CardContent>
-                <Typography variant="body2" color="text.secondary" className="excursion-summary">
-                    {excursion.description}
-                </Typography>
+                <ul className="no-bullets" style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+                    <li className="li-summary">
+                        <HourglassTopIcon color="primary" />
+                        <strong>{t('duration')} :</strong>&nbsp;{duration}
+                    </li>
+                    <li className="li-summary">
+                        <CalendarMonthIcon color="primary" />
+                        <strong>{t('available')} :</strong>&nbsp;{excursion?.frequency}
+                    </li>
+                    <li className="li-summary">
+                        <ShutterSpeedIcon color="primary" />
+                        <strong>{t('pick_up_time_departure')} :</strong>&nbsp;{excursion?.departurePickupTime} ({t('local_time')})
+                    </li>
+                    <li className="li-summary">
+                        <HailIcon color="primary" />
+                        <strong>{t('pick_up_and_drop_off_from_hotel')}</strong>
+                    </li>
+                    <li className="li-summary">
+                        <AttachMoneyIcon color="primary" />
+                        <strong>{t('price')} :</strong>&nbsp;{t('consult_us')}
+                    </li>
+                    <li className="li-summary">
+                        <DoDisturbIcon color="primary" />
+                        <strong>{t('cancelation')} :</strong>&nbsp;{t('free')}
+                    </li>
+                    <li className="li-summary">
+                        <FlightTakeoffIcon color="primary" />
+                        <strong>{t('starting_location')} :</strong>&nbsp;{excursion?.departureCity}
+                    </li>
+                    <li className="li-summary">
+                        <FlightLandIcon color="primary" />
+                        <strong>{t('ending_location')} :</strong>&nbsp;{excursion?.destinationCity}
+                    </li>
+                </ul>
             </CardContent>
-            <CardActions disableSpacing>
-                {/*
+            {/* <CardActions disableSpacing>
+                
                     <IconButton aria-label="add to favorites">
                         <FavoriteIcon />
                     </IconButton>
-                */}
-                {/* <ShareButton
+               
+                <ShareButton
                     shareData={{
                         title: `excursion ${excursion.title}`,
                         text: 'Check out this link!',
                         url: `${window.location.href}/${excursion.id}`,
                     }}
-                /> */}
-            </CardActions>
+                />
+            </CardActions> */}
         </Card>
     );
 }

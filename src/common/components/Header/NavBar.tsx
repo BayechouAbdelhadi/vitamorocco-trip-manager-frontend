@@ -30,7 +30,7 @@ const PrimarySearchAppBar: React.FC = () => {
                         maxWidth: { md: '80%', lg: '60%', xs: '100%' },
                     }}
                 >
-                    <Logo shrinkable />
+                    <Logo />
                     <Box sx={{ display: { xs: 'none', md: 'flex', justifyContent: 'space-between' } }}>
                         {navLinks.map((navBarItem) => (
                             <NavbarItem key={navBarItem.id} navBarItem={navBarItem} type={'laptop'} />
