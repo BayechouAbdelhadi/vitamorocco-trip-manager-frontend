@@ -26,7 +26,8 @@ export const Tours = (): JSX.Element => {
             description={ToursText}
             keywords={ToursText}
             title={`${ToursText} ${departureFromCityTitle}`}
-            imgSrc={`/img/tours/${departureFromCityImg}`}
+            // imgSrc={`/img/tours/${departureFromCityImg}`}
+            imgSrc={`/img/tours/tours_title.jpg`}
             className="excursions-page-container"
         >
             {isLoading ? (

@@ -1,20 +1,27 @@
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import HailIcon from '@mui/icons-material/Hail';
-import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
 import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import ShutterSpeedIcon from '@mui/icons-material/ShutterSpeed';
-import TimerIcon from '@mui/icons-material/Timer';
 import { Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
 import { Excursion } from '../../../common/types/excursion';
+import DoDisturbIcon from '@mui/icons-material/DoDisturb';
+import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
+import FlightLandIcon from '@mui/icons-material/FlightLand';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 
-const ExcursionText = 'Excursion';
 interface ExcursionDetailsInterface {
     excursion: Excursion;
+    type?: string
 }
-export const ExcursionDetails = ({ excursion }: ExcursionDetailsInterface): JSX.Element => {
+
+export const ExcursionDetails = ({ excursion, type = 'excursions' }: ExcursionDetailsInterface): JSX.Element => {
     const { t } = useTranslation();
+
+    const duration = type === 'tours' ?
+        `${excursion?.duration} ${excursion?.durationUnit}s / ${excursion?.duration - 1} Nights` : `1 Day`
+
     return (
         <PanedSection
             title={
@@ -26,33 +33,37 @@ export const ExcursionDetails = ({ excursion }: ExcursionDetailsInterface): JSX.
                 element: (
                     <ul className="no-bullets">
                         <li className="excursion-detail-item padded">
-                            <ShutterSpeedIcon color="primary" /> {t('duration')}: {excursion?.duration}{' '}
-                            {excursion?.durationUnit}
+                            <HourglassTopIcon color="primary" />
+                            <strong>{t('duration')} :</strong>&nbsp;{duration}
                         </li>
                         <li className="excursion-detail-item padded">
                             <CalendarMonthIcon color="primary" />
-                            {t('available')}: {excursion?.frequency}
+                            <strong>{t('available')} :</strong>&nbsp;{excursion?.frequency}
                         </li>
                         <li className="excursion-detail-item padded">
-                            <HourglassTopIcon color="primary" />
-                            {t('pick_up_time_departure')} : {excursion?.departurePickupTime} ({t('local_time')})
-                        </li>
-                        <li className="excursion-detail-item padded">
-                            <HourglassBottomIcon color="primary" />
-                            {t('return_time')}: {excursion?.returnPickupTime} ({t('local_time')})
+                            <ShutterSpeedIcon color="primary" />
+                            <strong>{t('pick_up_time_departure')} :</strong>&nbsp;{excursion?.departurePickupTime} {t('local_time')}
                         </li>
                         <li className="excursion-detail-item padded">
                             <HailIcon color="primary" />
-                            {t('pick_up_and_drop_off_from_hotel')}
+                            <strong>{t('pick_up_and_drop_off')} :</strong>&nbsp;{t('airport_hotel')}
                         </li>
-                        {/* <li className="excursion-detail-item padded">
-                            <TimerIcon color="primary" />
-                            {t('journey_time')}
-                            <strong>
-                                {excursion?.departureCity}-{excursion?.destinationCity}
-                            </strong>
-                            : {excursion?.journeyTime} {excursion?.journeyTimeUnit}
-                        </li> */}
+                        <li className="excursion-detail-item padded">
+                            <AttachMoneyIcon color="primary" />
+                            <strong>{t('price')} :</strong>&nbsp;{t('consult_us')}
+                        </li>
+                        <li className="excursion-detail-item padded">
+                            <DoDisturbIcon color="primary" />
+                            <strong>{t('cancelation')} :</strong>&nbsp;{t('free')}
+                        </li>
+                        <li className="excursion-detail-item padded">
+                            <FlightTakeoffIcon color="primary" />
+                            <strong>{t('starting_location')} :</strong>&nbsp;{excursion?.departureCity}
+                        </li>
+                        <li className="excursion-detail-item padded">
+                            <FlightLandIcon color="primary" />
+                            <strong>{t('ending_location')} :</strong>&nbsp;{excursion?.destinationCity}
+                        </li>
                     </ul>
                 ),
                 className: 'content-pane',

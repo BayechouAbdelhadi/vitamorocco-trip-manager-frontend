@@ -1,7 +1,7 @@
-import { Accordion, AccordionDetails, AccordionSummary, Button, CircularProgress, Container, Typography } from '@mui/material';
+import { CircularProgress, Container, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Page } from '../../common/components/Page/Page';
 import PanedSection from '../../common/components/panes/SectionedPanes';
 import { ExcursionDescription } from '../Excursions/components/ExcursionDescription';
@@ -9,7 +9,6 @@ import { ExcursionDetails } from '../Excursions/components/ExcursionDetails';
 import { ExcursionHighlights } from '../Excursions/components/ExcursionHighlights';
 import { ExcludedServiceList } from '../Excursions/components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from '../Excursions/components/excursion-services/IncludedServices';
-import { scrollToTop } from '../../common/utils';
 import DoneIcon from '@mui/icons-material/Done';
 import { getTour } from '../../common/services/tourService';
 import { TourSteps } from './TourSteps';
@@ -54,7 +53,7 @@ export const Tour = (): JSX.Element => {
                 <Container>
                     <ExcursionDescription excursion={tour} type={'tours'} />
                     <ExcursionHighlights excursion={tour} type={'tours'} />
-                    <ExcursionDetails excursion={tour} />
+                    <ExcursionDetails excursion={tour} type={'tours'} />
                     <TourSteps steps={tour.steps ?? []} />
                     {/* <ExcursionPricing excursion={tour} /> */}
                     <TourPricing />

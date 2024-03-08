@@ -124,7 +124,8 @@ export const TRANSLATION_EN = {
     our_services: 'Our services',
     // P
     phone_number: 'Telephone',
-    pick_up_and_drop_off_from_hotel: 'Pick up and drop off from Your Hotel',
+    pick_up_and_drop_off: 'Pick up & Drop off',
+    airport_hotel: 'Airport / Hotel',
     pick_up_time_departure: 'Pick-up time',
     pricing: 'Pricing',
     price: 'Price',

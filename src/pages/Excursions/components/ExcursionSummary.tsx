@@ -5,7 +5,6 @@ import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
 import ShareButton from '../../../common/components/Buttons/ShareButton/ShareButton';
 import { Excursion } from '../../../common/types/excursion';
@@ -13,7 +12,6 @@ import { defaultImage } from '../../../common/utils/imageUtils';
 import { scrollToTop } from '../../../common/utils';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import HailIcon from '@mui/icons-material/Hail';
-import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
 import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import ShutterSpeedIcon from '@mui/icons-material/ShutterSpeed';
 import DoDisturbIcon from '@mui/icons-material/DoDisturb';
@@ -75,7 +73,7 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
                     </li>
                     <li className="li-summary">
                         <HailIcon color="primary" />
-                        <strong>{t('pick_up_and_drop_off_from_hotel')}</strong>
+                        <strong>{t('pick_up_and_drop_off')} :</strong>&nbsp;{t('airport_hotel')}
                     </li>
                     <li className="li-summary">
                         <AttachMoneyIcon color="primary" />
