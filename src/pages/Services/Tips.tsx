@@ -3,6 +3,7 @@ import { Accordion, AccordionDetails, AccordionSummary, Container, Typography } 
 import React from 'react';
 import { useQuery } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
+import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 import { getTips } from '../../common/services/tipService';
 import './Tips.scss';
 export const Tips = (): JSX.Element => {
@@ -12,6 +13,7 @@ export const Tips = (): JSX.Element => {
     return (
         <Page description={TipsText} keywords={TipsText} title={TipsText} imgSrc="/img/carousel/2.jpeg">
             <Container className="tips-container">
+                <TitleWithLines text="Essential Tips and Advice for Traveling to Morocco" />
                 {(tips ?? []).map((tipCategory, index) => (
                     <React.Fragment key={tipCategory.category}>
                         <Accordion key={tipCategory.category} className="tip-accordion">
@@ -52,6 +54,12 @@ export const Tips = (): JSX.Element => {
                         </Accordion>
                     </React.Fragment>
                 ))}
+                <Typography sx={{ marginTop: 5 }}>
+                    By following these tips and advice, travellers can navigate Morocco with confidence, enjoying all
+                    the beauty, culture, and adventure the country has to offer. This guide aims to ensure visitors have
+                    a memorable and smooth experience from the moment they start planning their trip to their return
+                    journey home.
+                </Typography>
             </Container>
         </Page>
     );
