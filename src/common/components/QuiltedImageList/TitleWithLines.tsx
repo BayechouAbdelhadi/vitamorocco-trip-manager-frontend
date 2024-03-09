@@ -8,7 +8,7 @@ function TextWithLines({ text }: TextWithLinesProps) {
     const isXs = useMediaQuery('(max-width:600px)');
     return (
         <Box sx={{
-            width: { xs: '100%', md: '80%' },
+            width: { xs: '100%', md: '90%' },
             margin: '3rem auto'
         }}
         >

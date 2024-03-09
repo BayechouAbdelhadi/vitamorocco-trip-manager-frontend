@@ -3,15 +3,11 @@
     text-align: justify;
     margin-bottom: 2rem;
 
-    p {
-        text-align: justify;
-    }
-}
-
-@media (max-width: 490px) {
-
-    .about-container {
+    @media (max-width: 490px) {
         width: 90%;
     }
 
+    p {
+        text-align: justify;
+    }
 }

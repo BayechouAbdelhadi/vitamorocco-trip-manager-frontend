@@ -9,7 +9,7 @@ import ExcursionSummary from '../Excursions/components/ExcursionSummary';
 
 import '../Excursions/Excursions.scss';
 
-const ToursText = 'Tours';
+const ToursText = 'Tours & Itineraries';
 
 export const Tours = (): JSX.Element => {
     const location = useLocation();
