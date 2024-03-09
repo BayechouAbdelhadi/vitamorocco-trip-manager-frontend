@@ -204,7 +204,7 @@ export const toursMock = [
     {
         "id": "3_days_trip_marrakech_to_merzouga_sahara_desert",
         "title": {
-            "en": "3 days Trip Marrakech to Merzouga Sahara Desert",
+            "en": "3 days Trip Marrakech to Merzouga Desert via Atlas Mountains",
         },
         "summaryImg": "summary.jpg",
         "titleImg": "title.jpg",
@@ -283,6 +283,9 @@ export const toursMock = [
             'highlight_7.jpg',
             'highlight_8.jpg',
             'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
         ],
         "steps": [
             {
@@ -351,22 +354,17 @@ export const toursMock = [
             "pt": "Diariamente",
             "ar": "كل يوم"
         },
-        "mapLink": "!1m76!1m12!1m3!1d3447709.245826738!2d-8.643263000524586!3d32.44851605544867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xda2d39b1e3122c3%3A0xab5f7e8e815955a2!2stodra%20gorges%2C%20Tinghir!3m2!1d31.5895278!2d-5.5968086!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd99c57a5f7a25f3%3A0x607ac220c3dd35a4!2sOuled%20Chaker!3m2!1d31.7782643!2d-4.2240446!4m5!1s0xd98bf42e8441e9f%3A0x88269ca6a8dbb536!2sMidelt!3m2!1d32.6799423!2d-4.7329267999999995!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!5e0!3m2!1sfr!2sma!4v1708469035140!5m2!1sfr!2sma"
+        "mapLink": "!1m76!1m12!1m3!1d3497684.315025587!2d-8.642006129471975!3d31.117865261412263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakesh%2C%20Morocco!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate%2C%2045000%2C%20Morocco!3m2!1d30.9335436!2d-6.937016!4m5!1s0xdbcb91681153117%3A0x8d04245c82065b74!2sKalaat%20M&#39;Gouna%2C%20Morocco!3m2!1d31.2370612!2d-6.1261925!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sDad%C3%A8s%20Gorges%2C%20Morocco!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xda2d39b1e3122c3%3A0xab5f7e8e815955a2!2sCamp%20todra%20gorges%2C%20HCQ3%2BR78%2C%20Tinghir%2C%20Morocco!3m2!1d31.5895278!2d-5.5968086!4m5!1s0xd977b2c5079550b%3A0xf04c523511a64215!2sErfoud%2C%20Morocco!3m2!1d31.436633399999998!2d-4.234383!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga%2C%20Morocco!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97722e4e641617%3A0x82298ec0b0417a51!2sRissani%2C%20Morocco!3m2!1d31.2798384!2d-4.2589619!4m5!1s0xdbb80538b38a023%3A0x5668a92d056600dd!2sAgdz%2C%20Morocco!3m2!1d30.7041312!2d-6.4530072999999994!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakesh%2C%20Morocco!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sen!2sfr!4v1709944388538!5m2!1sen!2sfr"
     },
     {
         "id": "3_days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains",
         "title": {
-            "fr": "3 days Trip Fes To Marrakech through Sahara Desert & Atlas Mountains",
             "en": "3 days Trip Fes To Marrakech through Sahara Desert & Atlas Mountains",
-            "es": "",
-            "pt": "",
-            "ar": ""
         },
         "summaryImg": "summary.jpg",
         "titleImg": "title.jpg",
         "descriptionImg": "description.jpg",
         "description": {
-            // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
             "en": `VITA MOROCCO Travel agency offers the Best Sahara Desert trips from Fes. And these 3-day Sahara Desert tour Fes to Marrakech 
             is one of the Popular Tours that travellers take.
             This trip lets you travel from the north of Morocco “Fes” to Marrakech's central city. This tour
