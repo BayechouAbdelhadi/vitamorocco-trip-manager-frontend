@@ -2,6 +2,7 @@ import ContactIcon from '@mui/icons-material/Call';
 import GalleryIcon from '@mui/icons-material/Collections';
 import InfoIcon from '@mui/icons-material/Info';
 import RowingIcon from '@mui/icons-material/Rowing';
+import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 export interface NavItem {
     id?: string;
     href?: string;
@@ -57,6 +58,13 @@ export const NAVBAR_ITEMS: NavItem[] = [
         dropdown: [],
         id: 'services-gallery',
         icon: <GalleryIcon />,
+    },
+    {
+        text: 'Tips',
+        href: '/services/tips',
+        dropdown: [],
+        id: 'services-tips',
+        icon: <TipsAndUpdatesIcon />,
     },
     {
         text: 'About',

@@ -1,0 +1,17 @@
+.tips-container {
+    .tip-accordion {
+        margin-top: 1rem;
+    }
+}
+.tip-ul {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    .tip-title {
+        // display: flex;
+        .title {
+            font-weight: 400;
+        }
+    }
+    .tip-highlight {
+    }
+}
