@@ -404,95 +404,43 @@ export const toursMock = [
         "journeyTimeUnit": "hours",
         "highlights": [
             {
-                // "fr": "Visitez le port traditionnel d'Essaouira.",
                 "en": "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
-                // "es": "Visita el puerto tradicional de Essaouira.",
-                // "pt": "Visite o tradicional porto de Essaouira.",
-                // "ar": "زيارة ميناء الصويرة التقليدي."
             },
             {
-                // "fr": "Découvrez le rôle de Skala.",
                 "en": "Travel across the High Atlas Mountains.",
-                // "es": "Explora el papel de Skala.",
-                // "pt": "Explore o papel de Skala.",
-                // "ar": "اكتشف دور سكالا."
             },
             {
-                // "fr": "Visitez l'ancienne médina avec ses artisans et cèdres, ses forgerons, ses tisserands, bijoutiers c'est… sa place Moulay Hassan et bien sûr ses souks.",
                 "en": "Visit the UNESCO World Heritage Site of Kasbah Ait Ben Haddou.",
-                // "es": "Visite la antigua medina con sus artesanos y cedros, sus herreros, sus tejedores, sus joyeros... su plaza Moulay Hassan y, por supuesto, sus zocos.",
-                // "pt": "Visite a antiga medina com os seus artesãos e cedros, os seus ferreiros, os seus tecelões, os seus joalheiros… a sua Place Moulay Hassan e claro os seus souks.",
-                // "ar": "قم بزيارة المدينة القديمة بحرفيها وأرزها والحدادين والنساجين والصائغين... ساحة مولاي حسن وبالطبع أسواقها."
             },
             {
-                // "fr": "Détendez-vous sur une belle plage.",
                 "en": "Explore Dades & Todra Gorges, Palm groves & valleys.",
-                // "es": "Relájate en una hermosa playa.",
-                // "pt": "Relaxe em uma bela praia.",
-                // "ar": "استرخ على الشاطئ الجميل."
             },
             {
-                // "fr": "Visitez une coopérative féminine d'arganier (facultatif).",
                 "en": "Experience a Camel ride in Merzouga dunes & Experience Sandboarding.",
-                // "es": "Visita a una Cooperativa Femenina de Argán (opcional).",
-                // "pt": "Visite uma Cooperativa Feminina de Argan (opcional).",
-                // "ar": "زيارة جمعية تعاونية أرغان النسائية (اختياري)."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Enjoy a spectacular sunset & sunrise Camel ride.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Visit the biggest film studios in north Africa.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Spend an overnight in a nomadic desert camp.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Take memorable Pictures in one of the best parts of Morocco.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Immerse yourself inside a rich and different culture.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Taste a big variety of different food and dishes.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Pass through the Switzerland of Morocco “Ifrane”.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "A panoramic stop on the Ziz Valley.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
         ],
         "highlightImgs": [
@@ -505,6 +453,12 @@ export const toursMock = [
             'highlight_7.jpg',
             'highlight_8.jpg',
             'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
         ],
         "steps": [
             {
@@ -1841,13 +1795,9 @@ export const toursMock = [
         ],
     },
     {
-        "id": "12_days_grand_tour_of_morocco_from_marrakech_to_chefchaouen",
+        "id": "12_days_grand_tour_of_morocco_royal_cities_sahara_desert_and_coast",
         "title": {
-            "fr": "",
-            "en": "12 Days Grand Tour Of Morocco, From Marrakech To Chefchaouen",
-            "es": "Ouarzazate",
-            "pt": "Ouarzazate",
-            "ar": ""
+            "en": "12 Days Grand Tour Of Morocco, Royal Cities, Sahara Desert and Coast",
         },
         "summaryImg": "summary.jpg",
         "titleImg": "title.jpg",
