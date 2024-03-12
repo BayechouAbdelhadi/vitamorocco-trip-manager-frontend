@@ -2,11 +2,11 @@ export const excursionsMock = [
     {
         "id": "ait_ben_haddou",
         "title": {
-            "fr": "Ait ben haddou",
-            "en": "Ait ben haddou",
-            "es": "Ait ben haddou",
-            "pt": "Ait ben haddou",
-            "ar": "Ait ben haddou"
+            "fr": "Ouarzazate & Aït Ben Haddou",
+            "en": "Ouarzazate & Aït Ben Haddou",
+            "es": "Ouarzazate & Aït Ben Haddou",
+            "pt": "Ouarzazate & Aït Ben Haddou",
+            "ar": "Ouarzazate & Aït Ben Haddou"
         },
         "summaryImg": "ait_ben_haddou_summary.jpg",
         "titleImg": "ait_ben_haddou_title.jpg",

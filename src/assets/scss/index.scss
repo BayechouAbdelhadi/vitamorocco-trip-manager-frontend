@@ -58,10 +58,14 @@ a {
 }
 
 .title-text-divider {
+
     &::after,
     &::before {
         border-top: 3px solid rgb(188, 141, 74) !important;
-        width: 20% !important;
+
+        @media (max-width: 480px) {
+            width: 50% !important;
+        }
     }
 }
 

@@ -36,4 +36,4 @@ export const INCLUDED_SERVICES: ServiceOption[] = [
     },
 ];
 
-export const EXCLUDED_SERVICES: string[] = ['food_drink', 'monuments_entrance', 'tip_propina'];
+export const EXCLUDED_SERVICES: string[] = ['food_drink', 'monuments_entrance', 'tip_propina', 'What_s_not_mentioned_in_included'];

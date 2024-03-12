@@ -642,6 +642,13 @@ export const toursMock = [
             'highlight_7.jpg',
             'highlight_8.jpg',
             'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
+            'highlight_16.jpg',
         ],
         "steps": [
             {
@@ -718,7 +725,7 @@ export const toursMock = [
             stops to spend more time where you like.`,
             `Our guests can choose to go to the camp on a camel trek or by 4WD car.`
         ],
-        "mapLink": "!1m64!1m12!1m3!1d3447699.052951429!2d-8.290697874440756!3d32.44878247207188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m49!3e0!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97ffbc8fdf5f09%3A0x7226e3098ee4628!2sTinejdad!3m2!1d31.512853399999997!2d-5.0234472!4m5!1s0xdbd332a576e9eb1%3A0x14e34a1d12e39647!2sTinghir!3m2!1d31.5204633!2d-5.5302337!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdbb67b796faf4b1%3A0x1fb864688fbc92b8!2sSkoura!3m2!1d31.0604911!2d-6.555654!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708467555644!5m2!1sfr!2sma",
+        "mapLink": "!1m58!1m12!1m3!1d3445028.5854603467!2d-7.222506775845878!3d32.5185149283282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2zRsOocw!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd98bf42e8441e9f%3A0x88269ca6a8dbb536!2sMidalt!3m2!1d32.6799423!2d-4.7329267999999995!4m5!1s0xd99cf793a644309%3A0xa4dce471ff9b7fac!2sZiz%20valley%2C%20N13!3m2!1d31.7897222!2d-4.2391667!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97722e4e641617%3A0x82298ec0b0417a51!2sRissani!3m2!1d31.2798384!2d-4.2589619!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2zRsOocw!3m2!1d34.0181246!2d-5.0078451!5e0!3m2!1sfr!2sma!4v1710280419541!5m2!1sfr!2sma",
     },
     {
         "id": "3_days_trip_marrakech_to_fez_through_sahara_desert",
@@ -1615,10 +1622,10 @@ export const toursMock = [
         "mapLink": "!1m76!1m12!1m3!1d3497511.7013296336!2d-8.643390753568253!3d31.12254900003135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xda2d39b1e3122c3%3A0xab5f7e8e815955a2!2stodra%20gorges%2C%20Tinghir!3m2!1d31.5895278!2d-5.5968086!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97722e4e641617%3A0x82298ec0b0417a51!2sRissani!3m2!1d31.2798384!2d-4.2589619!4m5!1s0xdbb80538b38a023%3A0x5668a92d056600dd!2sAgdz!3m2!1d30.7041312!2d-6.4530072999999994!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708469420163!5m2!1sfr!2sma"
     },
     {
-        "id": "5_days_tour_marrakech_and_surrounding",
+        "id": "majestic_marrakech_and_beyond_5_days_discovery_tour",
         "title": {
             "fr": "",
-            "en": "5 days Tour Marrakech & surrounding",
+            "en": "Majestic Marrakech & Beyond : 5-Days Discovery Tour",
             "es": "Ouarzazate",
             "pt": "Ouarzazate",
             "ar": ""
@@ -1795,9 +1802,9 @@ export const toursMock = [
         ],
     },
     {
-        "id": "12_days_grand_tour_of_morocco_royal_cities_sahara_desert_and_coast",
+        "id": "12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast",
         "title": {
-            "en": "12 Days Grand Tour Of Morocco, Royal Cities, Sahara Desert and Coast",
+            "en": "12 Days Moroccan Splendor : Royal Cities, Desert Dunes, and the Coast",
         },
         "summaryImg": "summary.jpg",
         "titleImg": "title.jpg",
