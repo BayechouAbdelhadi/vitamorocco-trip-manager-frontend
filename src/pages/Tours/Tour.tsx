@@ -43,7 +43,7 @@ export const Tour = (): JSX.Element => {
 
     return (
         <Page
-            description={tourTitle}
+            description={tour?.description ?? tourTitle}
             keywords={tourTitle}
             title={tourTitle}
             imgSrc={`/img/tours/${tour?.id}/${tour?.titleImg}`}
