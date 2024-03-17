@@ -5,7 +5,7 @@ import ExcursionSummary from './components/ExcursionSummary';
 import { CircularProgress } from '@mui/material';
 import './Excursions.scss';
 import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
-const ExcursionsText = 'Excursions';
+const ExcursionsText = 'Excursions & Day Trips';
 
 export const Excursions = (): JSX.Element => {
     const { data: excursions, isLoading } = useQuery('excursions', getExcursions);

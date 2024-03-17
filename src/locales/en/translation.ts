@@ -58,9 +58,10 @@ export const TRANSLATION_EN = {
     ending_location: 'Ending Location',
     ERROR_TRANSLATION, // Assuming ERROR_TRANSLATION is an object with its own alphabetical order
     excluded_services: {
-        food_drink: 'Food and drink.',
-        monuments_entrance: 'Entrances of the monuments.',
-        tip_propina: 'Tips  or Propina.',
+        food_drink: 'Lunch & drinks.',
+        monuments_entrance: 'Monuments Fees.',
+        tip_propina: 'Tips',
+        What_s_not_mentioned_in_included: 'What\'s not mentioned in included'
     },
     expenses: {
         name: 'Expenses',
@@ -135,7 +136,7 @@ export const TRANSLATION_EN = {
         'Prices valid for any time of the year, except Christmas and Easter (check prices and availability).',
     // Q
     // R
-    regime: 'Regime',
+    regime: 'Meal Package',
     return_time: 'Return time',
     reviews: {
         0: {

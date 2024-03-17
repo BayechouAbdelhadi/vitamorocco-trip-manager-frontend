@@ -36,7 +36,7 @@ export const Excursion = (): JSX.Element => {
 
     return (
         <Page
-            description={excursionTitle}
+            description={excursion?.description ?? excursionTitle}
             keywords={excursionTitle}
             title={excursionTitle}
             imgSrc={`/img/excursions/${excursion?.id}/${excursion?.titleImg}`}

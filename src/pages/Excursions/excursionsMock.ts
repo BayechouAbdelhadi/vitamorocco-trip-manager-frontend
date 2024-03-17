@@ -2,23 +2,19 @@ export const excursionsMock = [
     {
         "id": "ait_ben_haddou",
         "title": {
-            "fr": "Ait ben haddou",
-            "en": "Ait ben haddou",
-            "es": "Ait ben haddou",
-            "pt": "Ait ben haddou",
-            "ar": "Ait ben haddou"
+            "fr": "Ouarzazate & Aït Ben Haddou",
+            "en": "Ouarzazate & Aït Ben Haddou",
+            "es": "Ouarzazate & Aït Ben Haddou",
+            "pt": "Ouarzazate & Aït Ben Haddou",
+            "ar": "Ouarzazate & Aït Ben Haddou"
         },
         "summaryImg": "ait_ben_haddou_summary.jpg",
         "titleImg": "ait_ben_haddou_title.jpg",
         "descriptionImg": "ait_ben_haddou_description.jpg",
         "description": {
-            // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
             "en": "This long excursion leads us through the High Atlas on an impressive mountain road that winds through picturesque valleys and through numerous Berber villages and semi-precious stone vendors until we reach Tizi n'Tichka, the highest mountain pass in the Atlas at 2,260m. Pick up at the hotel or Riad where you are staying and early departure from Marrakech, we will cross the High Atlas on the way to the port of Tichka (the highest road pass in Africa) where we will admire the peaks of the chain and the beautiful Berber villages with houses traditional adobe. We will arrive at the Kasbah of Ait Benhaddou, the most famous of these fortifications, it is a sandcastle bordered by blossoming almond trees, recognized for its extraordinary beauty even by UNESCO, which is located within the buildings that are world heritage sites. Ait Ben Haddou (the best preserved in Morocco); We will visit and discover the charm of its impressive Kasbahs. Ouarzazate road This world heritage served as a natural setting for several films: Lawrence of Arabia, the Mummy, Gladiator... Then, we will continue to Ouarzazate to have lunch in front of the famous Taourirt Kasbah. Visit of the kasbah and return to Marrakech. The excursion from Marrakech to Ouarzazate starts as early as possible (it is recommended) to enjoy the maximum of the day.",
-            // "es": "Essaouira, o la perla del Atlántico, esta ciudad Patrimonio de la Humanidad, conserva el encanto y la autenticidad de una tierra perdida en el tiempo. Essaouira se ha convertido en una etapa esencial en el viaje a Marruecos. El explorador aventurero quedará fascinado por la amabilidad hospitalaria de la gente de esta ciudad, lo que no es sorprendente, ya que han vivido durante siglos en el cruce de culturas, civilizaciones y religiones. La ciudad es conocida por sus fábricas de madera de tuya, las cooperativas de mujeres para el aceite de argán y las alfombras. En nuestra excursión a Essaouira, le sugerimos hacer una parada en una cooperativa de mujeres para presenciar la demostración de mujeres locales preparando aceite de argán. A su llegada a la ciudad, puede hacer un recorrido gratuito por la Medina de Essaouira, visitar el puerto y luego disfrutar de un almuerzo de pescado fresco a la parrilla en los restaurantes locales del puerto. Si lo desea, podemos proporcionarle un guía local que le mostrará la ciudad. La excursión desde Marrakech a Essaouira comienza lo más temprano posible (se recomienda) para aprovechar al máximo el día.",
-            // "pt": "Essaouira, ou a pérola do Atlântico, esta cidade Patrimônio Mundial, mantém o charme e autenticidade de uma terra perdida no tempo. Essaouira tornou-se uma etapa essencial na viagem a Marrocos. O explorador aventureiro ficará fascinado com a amabilidade acolhedora do povo desta cidade, o que não é surpreendente, já que eles viveram por séculos no cruzamento de culturas, civilizações e religiões. A cidade é conhecida por suas fábricas de madeira de Thuya, cooperativas de mulheres para o óleo de argan e tapetes. Na nossa excursão a Essaouira, sugerimos fazer uma paragem numa cooperativa de mulheres para assistir à demonstração de mulheres locais a preparar óleo de argan. Ao chegar à cidade, pode fazer um passeio gratuito pela Medina de Essaouira, visitar o porto e depois desfrutar de um almoço com peixe fresco grelhado nos restaurantes locais do porto. Se desejar, podemos providenciar um guia local que lhe mostrará a cidade. A excursão de Marraquexe a Essaouira começa o mais cedo possível (recomenda-se) para aproveitar ao máximo o dia.",
-            // "ar": ""
         },
-        "destinationCity": "Ouarzazate",
+        "destinationCity": "Marrakech",
         "includedServices": [
             "private_tour",
             "pickup_at",
@@ -26,60 +22,32 @@ export const excursionsMock = [
             "driver_guide",
             "expenses",
         ],
-        "departureCity": "Ouarzazate",
+        "departureCity": "Marrakech",
         "departurePickupTime": "08:00 AM",
         "returnPickupTime": "05:30 PM",
         "journeyTime": 4,
         "journeyTimeUnit": "hours",
         "highlights": [
             {
-                // "fr": "Visitez le port traditionnel d'Essaouira.",
                 "en": "Enjoy the sightseeing between Marrakech and Ouarzazate during this excursion.",
-                // "es": "Visita el puerto tradicional de Essaouira.",
-                // "pt": "Visite o tradicional porto de Essaouira.",
-                // "ar": "زيارة ميناء الصويرة التقليدي."
             },
             {
-                // "fr": "Découvrez le rôle de Skala.",
                 "en": "Visit the largest movie studio in North Africa.",
-                // "es": "Explora el papel de Skala.",
-                // "pt": "Explore o papel de Skala.",
-                // "ar": "اكتشف دور سكالا."
             },
             {
-                // "fr": "Visitez l'ancienne médina avec ses artisans et cèdres, ses forgerons, ses tisserands, bijoutiers c'est… sa place Moulay Hassan et bien sûr ses souks.",
                 "en": "Visit the kasbah Taouirt.",
-                // "es": "Visite la antigua medina con sus artesanos y cedros, sus herreros, sus tejedores, sus joyeros... su plaza Moulay Hassan y, por supuesto, sus zocos.",
-                // "pt": "Visite a antiga medina com os seus artesãos e cedros, os seus ferreiros, os seus tecelões, os seus joalheiros… a sua Place Moulay Hassan e claro os seus souks.",
-                // "ar": "قم بزيارة المدينة القديمة بحرفيها وأرزها والحدادين والنساجين والصائغين... ساحة مولاي حسن وبالطبع أسواقها."
             },
             {
-                // "fr": "Détendez-vous sur une belle plage.",
                 "en": "Visit the famous Kasbah of Ait Ben Haddou. (World heritage of UNESCO)",
-                // "es": "Relájate en una hermosa playa.",
-                // "pt": "Relaxe em uma bela praia.",
-                // "ar": "استرخ على الشاطئ الجميل."
             },
             {
-                // "fr": "Visitez une coopérative féminine d'arganier (facultatif).",
                 "en": " Discover the most beautiful scenes of villages and high mountain views.",
-                // "es": "Visita a una Cooperativa Femenina de Argán (opcional).",
-                // "pt": "Visite uma Cooperativa Feminina de Argan (opcional).",
-                // "ar": "زيارة جمعية تعاونية أرغان النسائية (اختياري)."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Visit a Female Cooperative of Argan (optional).",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Have stops for photo shooting.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             }
         ],
         "highlightImgs": [
@@ -102,32 +70,20 @@ export const excursionsMock = [
         ],
         "pricing": [
             {
-                // "fr": "Groupe de 1 à 6 personnes : 160€",
                 "en": "Group of 1 to 6 people: 170€",
-                // "es": "Grupo de 1 a 6 personas: 160€",
-                // "pt": "Grupo de 1 a 6 pessoas: 160€",
-                // "ar": "مجموعة من 1 إلى 6 أشخاص: 160 يورو"
             },
             {
-                // "fr": "Groupe de 7 à 10 personnes : 220€",
                 "en": "Group of 7 to 10 people: 250€",
-                // "es": "Grupo de 7 a 10 personas: 220€",
-                // "pt": "Grupo de 7 a 10 pessoas: 220€",
-                // "ar": "مجموعة من 7 إلى 10 أشخاص: 220 يورو"
             },
             {
-                // "fr": "Groupe de 11 à 14 personnes : 250€",
                 "en": "Group of 11 to 14 people: 280€",
-                // "es": "Grupo de 11 a 14 personas: 250€",
-                // "pt": "Grupo de 11 a 14 pessoas: 250€",
-                // "ar": "مجموعة من 11 إلى 14 شخصًا: 250 يورو"
             },
             {
-                // "fr": "Groupe de 15 à 16 personnes : 300€",
+                "fr": "Groupe de 15 à 16 personnes : 320€",
                 "en": "Group of 15 to 16 people: 320€",
-                // "es": "Grupo de 15 a 16 personas: 300€",
-                // "pt": "Grupo de 15 a 16 pessoas: 300€",
-                // "ar": "مجموعة من 15 إلى 16 شخصًا: 300 يورو"
+                "es": "Grupo de 15 a 16 personas: 320€",
+                "pt": "Grupo de 15 a 16 pessoas: 320€",
+                "ar": "مجموعة من 15 إلى 16 شخصًا: 320 يورو"
             }
         ],
         "duration": 1,
@@ -160,7 +116,7 @@ export const excursionsMock = [
             "pt": "Essaouira, ou a pérola do Atlântico, esta cidade Patrimônio Mundial, mantém o charme e autenticidade de uma terra perdida no tempo. Essaouira tornou-se uma etapa essencial na viagem a Marrocos. O explorador aventureiro ficará fascinado com a amabilidade acolhedora do povo desta cidade, o que não é surpreendente, já que eles viveram por séculos no cruzamento de culturas, civilizações e religiões. A cidade é conhecida por suas fábricas de madeira de Thuya, cooperativas de mulheres para o óleo de argan e tapetes. Na nossa excursão a Essaouira, sugerimos fazer uma paragem numa cooperativa de mulheres para assistir à demonstração de mulheres locais a preparar óleo de argan. Ao chegar à cidade, pode fazer um passeio gratuito pela Medina de Essaouira, visitar o porto e depois desfrutar de um almoço com peixe fresco grelhado nos restaurantes locais do porto. Se desejar, podemos providenciar um guia local que lhe mostrará a cidade. A excursão de Marraquexe a Essaouira começa o mais cedo possível (recomenda-se) para aproveitar ao máximo o dia.",
             "ar": "الصويرة، أو لؤلؤة المحيط الأطلسي، هذه المدينة ذات التراث العالمي تحتفظ بسحر وأصالة الأرض التي ضاعت في الزمن. أصبحت الصويرة محطة ضرورية في رحلة إلى المغرب. سيُغرم المستكشف المغامر بلطف سكان هذه المدينة الضيافيين، وهو أمر ليس مفاجئًا لأنهم عاشوا لقرون عديدة على تقاطع الثقافات والحضارات والأديان. تُعرف المدينة جيدًا بمصانعها لخشب التويا وتعاونيات النساء لإنتاج زيت الأركان والسجاد. في رحلتنا إلى الصويرة، نقترح توقفًا في تعاونية للنساء لمشاهدة عرض تحضير النساء المحليات لزيت الأركان. عند وصولك إلى المدينة، يمكنك القيام بجولة مجانية في المدينة القديمة (المدينة القديمة) في الصويرة، ثم زيارة الميناء، وبعد ذلك الاستمتاع بوجبة غداء تتضمن أسماكًا طازجة تُشوى في مطاعم الميناء المحلية. إذا كنت ترغب، يمكننا توفير مرشد محلي سيقوم بجولتك في المدينة. تبدأ الرحلة من مراكش إلى الصويرة في أقرب وقت ممكن (يُفضل) للاستفادة القصوى من اليوم."
         },
-        "destinationCity": "Essaouira Mogador",
+        "destinationCity": "Marrakech",
         "includedServices": [
             "private_tour",
             "pickup_at",
@@ -289,7 +245,7 @@ export const excursionsMock = [
             // "pt": "Essaouira, ou a pérola do Atlântico, esta cidade Patrimônio Mundial, mantém o charme e autenticidade de uma terra perdida no tempo. Essaouira tornou-se uma etapa essencial na viagem a Marrocos. O explorador aventureiro ficará fascinado com a amabilidade acolhedora do povo desta cidade, o que não é surpreendente, já que eles viveram por séculos no cruzamento de culturas, civilizações e religiões. A cidade é conhecida por suas fábricas de madeira de Thuya, cooperativas de mulheres para o óleo de argan e tapetes. Na nossa excursão a Essaouira, sugerimos fazer uma paragem numa cooperativa de mulheres para assistir à demonstração de mulheres locais a preparar óleo de argan. Ao chegar à cidade, pode fazer um passeio gratuito pela Medina de Essaouira, visitar o porto e depois desfrutar de um almoço com peixe fresco grelhado nos restaurantes locais do porto. Se desejar, podemos providenciar um guia local que lhe mostrará a cidade. A excursão de Marraquexe a Essaouira começa o mais cedo possível (recomenda-se) para aproveitar ao máximo o dia.",
             // "ar": "الصويرة، أو لؤلؤة المحيط الأطلسي، هذه المدينة ذات التراث العالمي تحتفظ بسحر وأصالة الأرض التي ضاعت في الزمن. أصبحت الصويرة محطة ضرورية في رحلة إلى المغرب. سيُغرم المستكشف المغامر بلطف سكان هذه المدينة الضيافيين، وهو أمر ليس مفاجئًا لأنهم عاشوا لقرون عديدة على تقاطع الثقافات والحضارات والأديان. تُعرف المدينة جيدًا بمصانعها لخشب التويا وتعاونيات النساء لإنتاج زيت الأركان والسجاد. في رحلتنا إلى الصويرة، نقترح توقفًا في تعاونية للنساء لمشاهدة عرض تحضير النساء المحليات لزيت الأركان. عند وصولك إلى المدينة، يمكنك القيام بجولة مجانية في المدينة القديمة (المدينة القديمة) في الصويرة، ثم زيارة الميناء، وبعد ذلك الاستمتاع بوجبة غداء تتضمن أسماكًا طازجة تُشوى في مطاعم الميناء المحلية. إذا كنت ترغب، يمكننا توفير مرشد محلي سيقوم بجولتك في المدينة. تبدأ الرحلة من مراكش إلى الصويرة في أقرب وقت ممكن (يُفضل) للاستفادة القصوى من اليوم."
         },
-        "destinationCity": "Ourika Valley",
+        "destinationCity": "Marrakech",
         "includedServices": [
             "private_tour",
             "pickup_at",
@@ -298,7 +254,7 @@ export const excursionsMock = [
             "expenses",
             "local_guide"
         ],
-        "departureCity": "Ourika Valley",
+        "departureCity": "Marrakech",
         "departurePickupTime": "09:00 AM",
         "returnPickupTime": "05:00 PM",
         "journeyTime": 1,
@@ -395,7 +351,7 @@ export const excursionsMock = [
         "description": {
             "en": "The Ouzoud waterfalls, located near a village with the same name, with their impressive 100 meters of altitude are what give strength to the waters of the el-Abid river. Pick up at the hotel or Riad where you are staying and early departure towards the OUZOUD waterfalls. Before we will make a stop at Iminifri, a natural bridge of great beauty, with fossilization of the roots of the trees. Then we will head towards Ouzoud, we will enjoy a day under the waterfalls, where we can find water drops of up to 50 meters high. The Ouzoud waterfalls are the largest and most impressive waterfalls in North Africa. They have a height of 110 meters and are located in the province of Tanaghmeilt, 150 kilometers from Marrakech, in the Atlas Mountains. The walk through the waterfalls is very beautiful, you can surround the waterfalls on both sides while you see the vegetation and fauna (it is very common to see monkeys). The most intrepid and hot can choose to bathe in the river, it is a very clean water although it's pretty cold. At middle day you can enjoy a pleasant meal sitting on a terrace overlooking the waterfalls. In the Evening, we return to Marrakech.",
         },
-        "destinationCity": "Ouzoud Waterfalls",
+        "destinationCity": "Marrakech",
         "includedServices": [
             "private_tour",
             "pickup_at",
@@ -403,7 +359,7 @@ export const excursionsMock = [
             "driver_guide",
             "expenses",
         ],
-        "departureCity": "Ourika Valley",
+        "departureCity": "Marrakech",
         "departurePickupTime": "08:30 AM",
         "returnPickupTime": "06:30 PM",
         "journeyTime": 4,
@@ -488,7 +444,7 @@ export const excursionsMock = [
         "description": {
             "en": "Marrakech is the most famous and exciting of the Morocco's Imperial cities. An experienced and knowledgeable guide will show you the red city on this full-day guided sightseeing tour in Marrakech. You will be able to immerse yourself in the vivid art, rich history, local culture, ancient sites, vibrant souks, Moroccan handicrafts, palaces, and gardens... The most iconic places in Marrakech are unquestionably the central Djemaa el Fna square, and the Koutoubia Mosque with its beautiful Minaret, a landmark in the heart of the city. The Bahia Palace, the Ben Youssef Medersa, the Saadian Tombs, the Majorelle Gardens and le Jardin Secret are all places revealing Marrakech's fascination and beauty. You will undoubtedly wish to spend more days exploring this Magical and unique city.",
         },
-        "destinationCity": "Marrakech City Tour",
+        "destinationCity": "Marrakech",
         "includedServices": [
             "private_tour",
             "pickup_at",
@@ -497,7 +453,7 @@ export const excursionsMock = [
             "expenses",
             "local_guide"
         ],
-        "departureCity": "Ourika Valley",
+        "departureCity": "Marrakech",
         "departurePickupTime": "08:30 AM",
         "returnPickupTime": "06:30 PM",
         "journeyTime": 3,
@@ -631,7 +587,7 @@ export const excursionsMock = [
         "description": {
             "en": "Casablanca is the largest & big city in Morocco, with population of almost 5 million, and it's the eighth-largest in the Arab world. Casablanca has Morocco's chief port and one of the largest economic & financial centres in Africa. Located on Morocco's Atlantic coast, Casablanca came to prominence as one of the most important cities of the Berber Barghawata kingdom in the mid-8th century. In the 14th century, it was used as a key port by the Merinids; and in the 15th century, it became known as a safe harbour for a pirate. Casablanca came under Portuguese control shortly afterward in 1755, the town was largely destroyed by an earthquake. It was rebuilt by Sultan Mohammed Ben Abdallah and was colonized in the 20th century by the French. Our Day trip will start from Marrakech by Picking you up at 07H00 in the morning from your hotel/Riad, heading to the White city ( Casabalnca). Discover the emblematic places of Casablanca on a guided walking tour (Optional). Casablanca, Dar El Baïda in Arabic, owes its name, \"white city\", to a group of Spanish and Portuguese navigators seduced by the white facades, facing the sea, of the houses of the Anfa district. Explore this dynamic city and admire its boulevards and modern infrastructure. Stroll through the harbours district, renowned for its small squares and arcade alleys: the marriage between a modern urban setting and the labyrinthine passages of the traditional Medina. Continue the visit to the United Nations Square and the superb Mohammed V Square. Then join the central market to admire the royal palace of the city. Visit the colourful Harbors district and discover the Mahkama, the city's court. Visit the city's two religious' epicentres, Notre-Dame Cathedral in Lourdes and the famous Hassan II Mosque. End the ride in the residential area of Anfa and shop for souvenirs in the brand-new shopping centre that faces the sea, in the evening we will be back to Marrakech around 20:00. The excursion from Marrakech to Ouarzazate starts as early as possible (it is recommended) to enjoy the maximum of the day.",
         },
-        "destinationCity": "Casablanca",
+        "destinationCity": "Marrakech",
         "includedServices": [
             "private_tour",
             "pickup_at",
@@ -639,7 +595,7 @@ export const excursionsMock = [
             "driver_guide",
             "expenses",
         ],
-        "departureCity": "Casablanca",
+        "departureCity": "Marrakech",
         "departurePickupTime": "8:00 AM",
         "returnPickupTime": "06:00 PM",
         "journeyTime": 3,

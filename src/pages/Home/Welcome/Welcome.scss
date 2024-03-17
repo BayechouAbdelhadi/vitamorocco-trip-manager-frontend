@@ -18,11 +18,8 @@
         object-fit: cover;
         border-radius: 5px;
     }
-}
 
-@media (max-width: 490px) {
-
-    .welcome-container {
+    @media (max-width: 490px) {
 
         p,
         h3 {

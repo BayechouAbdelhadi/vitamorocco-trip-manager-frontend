@@ -10,11 +10,10 @@ function TextWithLines({ text }: TextWithLinesProps) {
         <Box
             sx={{
                 width: { xs: '100%', md: '90%' },
-                maxWidth: '100%',
                 margin: '3rem auto',
             }}
         >
-            <Divider sx={{ borderBottomWidth: '45px', whiteSpace: 'pre-wrap' }} className="title-text-divider">
+            <Divider sx={{ borderBottomWidth: '45px', whiteSpace: { xs: 'pre-wrap', md: 'noWrap' } }} className="title-text-divider">
                 <Typography
                     variant={isXs ? 'h4' : 'h3'}
                     style={{

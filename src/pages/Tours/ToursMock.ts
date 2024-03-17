@@ -354,7 +354,7 @@ export const toursMock = [
             "pt": "Diariamente",
             "ar": "كل يوم"
         },
-        "mapLink": "!1m76!1m12!1m3!1d3497684.315025587!2d-8.642006129471975!3d31.117865261412263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakesh%2C%20Morocco!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate%2C%2045000%2C%20Morocco!3m2!1d30.9335436!2d-6.937016!4m5!1s0xdbcb91681153117%3A0x8d04245c82065b74!2sKalaat%20M&#39;Gouna%2C%20Morocco!3m2!1d31.2370612!2d-6.1261925!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sDad%C3%A8s%20Gorges%2C%20Morocco!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xda2d39b1e3122c3%3A0xab5f7e8e815955a2!2sCamp%20todra%20gorges%2C%20HCQ3%2BR78%2C%20Tinghir%2C%20Morocco!3m2!1d31.5895278!2d-5.5968086!4m5!1s0xd977b2c5079550b%3A0xf04c523511a64215!2sErfoud%2C%20Morocco!3m2!1d31.436633399999998!2d-4.234383!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga%2C%20Morocco!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97722e4e641617%3A0x82298ec0b0417a51!2sRissani%2C%20Morocco!3m2!1d31.2798384!2d-4.2589619!4m5!1s0xdbb80538b38a023%3A0x5668a92d056600dd!2sAgdz%2C%20Morocco!3m2!1d30.7041312!2d-6.4530072999999994!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakesh%2C%20Morocco!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sen!2sfr!4v1709944388538!5m2!1sen!2sfr"
+        "mapLink": "!1m58!1m12!1m3!1d3497684.31502559!2d-8.660321979471963!3d31.117865261412266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sMarrakesh%20Menara%20Airport%20(RAK)%20(RAK)%2C%20Marrakech!3m2!1d31.6008085!2d-8.0252375!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sDad%C3%A8s%20Gorges!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sMarrakesh%20Menara%20Airport%20(RAK)%20(RAK)%2C%20Marrakech!3m2!1d31.6008085!2d-8.0252375!5e0!3m2!1sfr!2sma!4v1710599396044!5m2!1sfr!2sma"
     },
     {
         "id": "3_days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains",
@@ -404,95 +404,43 @@ export const toursMock = [
         "journeyTimeUnit": "hours",
         "highlights": [
             {
-                // "fr": "Visitez le port traditionnel d'Essaouira.",
                 "en": "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
-                // "es": "Visita el puerto tradicional de Essaouira.",
-                // "pt": "Visite o tradicional porto de Essaouira.",
-                // "ar": "زيارة ميناء الصويرة التقليدي."
             },
             {
-                // "fr": "Découvrez le rôle de Skala.",
                 "en": "Travel across the High Atlas Mountains.",
-                // "es": "Explora el papel de Skala.",
-                // "pt": "Explore o papel de Skala.",
-                // "ar": "اكتشف دور سكالا."
             },
             {
-                // "fr": "Visitez l'ancienne médina avec ses artisans et cèdres, ses forgerons, ses tisserands, bijoutiers c'est… sa place Moulay Hassan et bien sûr ses souks.",
                 "en": "Visit the UNESCO World Heritage Site of Kasbah Ait Ben Haddou.",
-                // "es": "Visite la antigua medina con sus artesanos y cedros, sus herreros, sus tejedores, sus joyeros... su plaza Moulay Hassan y, por supuesto, sus zocos.",
-                // "pt": "Visite a antiga medina com os seus artesãos e cedros, os seus ferreiros, os seus tecelões, os seus joalheiros… a sua Place Moulay Hassan e claro os seus souks.",
-                // "ar": "قم بزيارة المدينة القديمة بحرفيها وأرزها والحدادين والنساجين والصائغين... ساحة مولاي حسن وبالطبع أسواقها."
             },
             {
-                // "fr": "Détendez-vous sur une belle plage.",
                 "en": "Explore Dades & Todra Gorges, Palm groves & valleys.",
-                // "es": "Relájate en una hermosa playa.",
-                // "pt": "Relaxe em uma bela praia.",
-                // "ar": "استرخ على الشاطئ الجميل."
             },
             {
-                // "fr": "Visitez une coopérative féminine d'arganier (facultatif).",
                 "en": "Experience a Camel ride in Merzouga dunes & Experience Sandboarding.",
-                // "es": "Visita a una Cooperativa Femenina de Argán (opcional).",
-                // "pt": "Visite uma Cooperativa Feminina de Argan (opcional).",
-                // "ar": "زيارة جمعية تعاونية أرغان النسائية (اختياري)."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Enjoy a spectacular sunset & sunrise Camel ride.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Visit the biggest film studios in north Africa.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Spend an overnight in a nomadic desert camp.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Take memorable Pictures in one of the best parts of Morocco.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Immerse yourself inside a rich and different culture.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Taste a big variety of different food and dishes.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Pass through the Switzerland of Morocco “Ifrane”.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "A panoramic stop on the Ziz Valley.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
         ],
         "highlightImgs": [
@@ -505,6 +453,12 @@ export const toursMock = [
             'highlight_7.jpg',
             'highlight_8.jpg',
             'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
         ],
         "steps": [
             {
@@ -688,6 +642,13 @@ export const toursMock = [
             'highlight_7.jpg',
             'highlight_8.jpg',
             'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
+            'highlight_16.jpg',
         ],
         "steps": [
             {
@@ -764,7 +725,7 @@ export const toursMock = [
             stops to spend more time where you like.`,
             `Our guests can choose to go to the camp on a camel trek or by 4WD car.`
         ],
-        "mapLink": "!1m64!1m12!1m3!1d3447699.052951429!2d-8.290697874440756!3d32.44878247207188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m49!3e0!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97ffbc8fdf5f09%3A0x7226e3098ee4628!2sTinejdad!3m2!1d31.512853399999997!2d-5.0234472!4m5!1s0xdbd332a576e9eb1%3A0x14e34a1d12e39647!2sTinghir!3m2!1d31.5204633!2d-5.5302337!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdbb67b796faf4b1%3A0x1fb864688fbc92b8!2sSkoura!3m2!1d31.0604911!2d-6.555654!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708467555644!5m2!1sfr!2sma",
+        "mapLink": "!1m58!1m12!1m3!1d3445028.5854603467!2d-7.222506775845878!3d32.5185149283282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2zRsOocw!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd98bf42e8441e9f%3A0x88269ca6a8dbb536!2sMidalt!3m2!1d32.6799423!2d-4.7329267999999995!4m5!1s0xd99cf793a644309%3A0xa4dce471ff9b7fac!2sZiz%20valley%2C%20N13!3m2!1d31.7897222!2d-4.2391667!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97722e4e641617%3A0x82298ec0b0417a51!2sRissani!3m2!1d31.2798384!2d-4.2589619!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2zRsOocw!3m2!1d34.0181246!2d-5.0078451!5e0!3m2!1sfr!2sma!4v1710280419541!5m2!1sfr!2sma",
     },
     {
         "id": "3_days_trip_marrakech_to_fez_through_sahara_desert",
@@ -779,7 +740,6 @@ export const toursMock = [
         "titleImg": "title.jpg",
         "descriptionImg": "description.jpg",
         "description": {
-            // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
             "en": `A lot of travellers are always looking for short Desert safari trips, either a trip that starts from
             Marrakech and ends in Fez or trip that starts from Fez and ends in Marrakech.
             So, if you are searching for a desert trip that starts from Marrakech going through Merzouga
@@ -791,9 +751,6 @@ export const toursMock = [
             Chebbi Dunes, and some other interesting and memorable destinations along the road. You
             will explore the culture, local traditions, the delicious gastronomy, and the diverse
             architecture that southeast Morocco have.`,
-            // "es": "Essaouira, o la perla del Atlántico, esta ciudad Patrimonio de la Humanidad, conserva el encanto y la autenticidad de una tierra perdida en el tiempo. Essaouira se ha convertido en una etapa esencial en el viaje a Marruecos. El explorador aventurero quedará fascinado por la amabilidad hospitalaria de la gente de esta ciudad, lo que no es sorprendente, ya que han vivido durante siglos en el cruce de culturas, civilizaciones y religiones. La ciudad es conocida por sus fábricas de madera de tuya, las cooperativas de mujeres para el aceite de argán y las alfombras. En nuestra excursión a Essaouira, le sugerimos hacer una parada en una cooperativa de mujeres para presenciar la demostración de mujeres locales preparando aceite de argán. A su llegada a la ciudad, puede hacer un recorrido gratuito por la Medina de Essaouira, visitar el puerto y luego disfrutar de un almuerzo de pescado fresco a la parrilla en los restaurantes locales del puerto. Si lo desea, podemos proporcionarle un guía local que le mostrará la ciudad. La excursión desde Marrakech a Essaouira comienza lo más temprano posible (se recomienda) para aprovechar al máximo el día.",
-            // "pt": "Essaouira, ou a pérola do Atlântico, esta cidade Patrimônio Mundial, mantém o charme e autenticidade de uma terra perdida no tempo. Essaouira tornou-se uma etapa essencial na viagem a Marrocos. O explorador aventureiro ficará fascinado com a amabilidade acolhedora do povo desta cidade, o que não é surpreendente, já que eles viveram por séculos no cruzamento de culturas, civilizações e religiões. A cidade é conhecida por suas fábricas de madeira de Thuya, cooperativas de mulheres para o óleo de argan e tapetes. Na nossa excursão a Essaouira, sugerimos fazer uma paragem numa cooperativa de mulheres para assistir à demonstração de mulheres locais a preparar óleo de argan. Ao chegar à cidade, pode fazer um passeio gratuito pela Medina de Essaouira, visitar o porto e depois desfrutar de um almoço com peixe fresco grelhado nos restaurantes locais do porto. Se desejar, podemos providenciar um guia local que lhe mostrará a cidade. A excursão de Marraquexe a Essaouira começa o mais cedo possível (recomenda-se) para aproveitar ao máximo o dia.",
-            // "ar": ""
         },
         "destinationCity": "Fez",
         "includedServices": [
@@ -816,95 +773,43 @@ export const toursMock = [
         "journeyTimeUnit": "hours",
         "highlights": [
             {
-                // "fr": "Visitez le port traditionnel d'Essaouira.",
                 "en": "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
-                // "es": "Visita el puerto tradicional de Essaouira.",
-                // "pt": "Visite o tradicional porto de Essaouira.",
-                // "ar": "زيارة ميناء الصويرة التقليدي."
             },
             {
-                // "fr": "Découvrez le rôle de Skala.",
                 "en": "Travel across the High Atlas Mountains.",
-                // "es": "Explora el papel de Skala.",
-                // "pt": "Explore o papel de Skala.",
-                // "ar": "اكتشف دور سكالا."
             },
             {
-                // "fr": "Visitez l'ancienne médina avec ses artisans et cèdres, ses forgerons, ses tisserands, bijoutiers c'est… sa place Moulay Hassan et bien sûr ses souks.",
                 "en": "Visit the UNESCO World Heritage Site of Kasbah Ait Ben Haddou.",
-                // "es": "Visite la antigua medina con sus artesanos y cedros, sus herreros, sus tejedores, sus joyeros... su plaza Moulay Hassan y, por supuesto, sus zocos.",
-                // "pt": "Visite a antiga medina com os seus artesãos e cedros, os seus ferreiros, os seus tecelões, os seus joalheiros… a sua Place Moulay Hassan e claro os seus souks.",
-                // "ar": "قم بزيارة المدينة القديمة بحرفيها وأرزها والحدادين والنساجين والصائغين... ساحة مولاي حسن وبالطبع أسواقها."
             },
             {
-                // "fr": "Détendez-vous sur une belle plage.",
                 "en": "Explore Dades & Todra Gorges, Palm groves & valleys.",
-                // "es": "Relájate en una hermosa playa.",
-                // "pt": "Relaxe em uma bela praia.",
-                // "ar": "استرخ على الشاطئ الجميل."
             },
             {
-                // "fr": "Visitez une coopérative féminine d'arganier (facultatif).",
                 "en": "Experience a Camel ride in Merzouga dunes & Experience Sandboarding.",
-                // "es": "Visita a una Cooperativa Femenina de Argán (opcional).",
-                // "pt": "Visite uma Cooperativa Feminina de Argan (opcional).",
-                // "ar": "زيارة جمعية تعاونية أرغان النسائية (اختياري)."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Enjoy a spectacular sunset & sunrise Camel ride.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Visit the biggest film studios in north Africa.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Spend an overnight in a nomadic desert camp.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Take memorable Pictures in one of the best parts of Morocco.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Immerse yourself inside a rich and different culture.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Taste a big variety of different food and dishes.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Pass through the Switzerland of Morocco “Ifrane”",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "A panoramic stop on the Ziz Valley.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
         ],
         "highlightImgs": [
@@ -917,6 +822,12 @@ export const toursMock = [
             'highlight_7.jpg',
             'highlight_8.jpg',
             'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
         ],
         "steps": [
             {
@@ -1002,17 +913,12 @@ export const toursMock = [
     {
         "id": "4_days_tour_fes_to_marrakech_through_sahara_desert_and_atlas_mountains",
         "title": {
-            "fr": "",
-            "en": "4 days Tour Fes to Marrakech through Sahara & Atlas Mountains",
-            "es": "Ouarzazate",
-            "pt": "Ouarzazate",
-            "ar": ""
+            "en": "4 Days Tour Fes to Marrakech through Sahara & Atlas Mountains",
         },
         "summaryImg": "summary.jpg",
         "titleImg": "title.jpg",
         "descriptionImg": "description.jpg",
         "description": {
-            // "fr": "Essaouira or the pearl of the Atlantic, this world heritage city, maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations and religions. The city is well known for its Tuya wood factories, Argan oil women's cooperatives and carpets. On our excursion to Essaouira we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the City. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
             "en": `VITA MOROCCO Travel agency offers the best Morocco desert tours depart from Fes to
             Marrakech through the Merzouga Sahara Desert. And one of the highly recommended trips
             to the Sahara, is the 4-days desert tour From Fes to Marrakech.
@@ -1025,9 +931,6 @@ export const toursMock = [
             Mountains, Cedar Forest, Berber villages, valleys, cities, Gorges, palm groves, oasis,
             UNESCO world heritage sites. Visit Nomads & Experience Camel trekking, overnight stay in
             a Berber desert camp… and much more to do & to see.`,
-            // "es": "Essaouira, o la perla del Atlántico, esta ciudad Patrimonio de la Humanidad, conserva el encanto y la autenticidad de una tierra perdida en el tiempo. Essaouira se ha convertido en una etapa esencial en el viaje a Marruecos. El explorador aventurero quedará fascinado por la amabilidad hospitalaria de la gente de esta ciudad, lo que no es sorprendente, ya que han vivido durante siglos en el cruce de culturas, civilizaciones y religiones. La ciudad es conocida por sus fábricas de madera de tuya, las cooperativas de mujeres para el aceite de argán y las alfombras. En nuestra excursión a Essaouira, le sugerimos hacer una parada en una cooperativa de mujeres para presenciar la demostración de mujeres locales preparando aceite de argán. A su llegada a la ciudad, puede hacer un recorrido gratuito por la Medina de Essaouira, visitar el puerto y luego disfrutar de un almuerzo de pescado fresco a la parrilla en los restaurantes locales del puerto. Si lo desea, podemos proporcionarle un guía local que le mostrará la ciudad. La excursión desde Marrakech a Essaouira comienza lo más temprano posible (se recomienda) para aprovechar al máximo el día.",
-            // "pt": "Essaouira, ou a pérola do Atlântico, esta cidade Patrimônio Mundial, mantém o charme e autenticidade de uma terra perdida no tempo. Essaouira tornou-se uma etapa essencial na viagem a Marrocos. O explorador aventureiro ficará fascinado com a amabilidade acolhedora do povo desta cidade, o que não é surpreendente, já que eles viveram por séculos no cruzamento de culturas, civilizações e religiões. A cidade é conhecida por suas fábricas de madeira de Thuya, cooperativas de mulheres para o óleo de argan e tapetes. Na nossa excursão a Essaouira, sugerimos fazer uma paragem numa cooperativa de mulheres para assistir à demonstração de mulheres locais a preparar óleo de argan. Ao chegar à cidade, pode fazer um passeio gratuito pela Medina de Essaouira, visitar o porto e depois desfrutar de um almoço com peixe fresco grelhado nos restaurantes locais do porto. Se desejar, podemos providenciar um guia local que lhe mostrará a cidade. A excursão de Marraquexe a Essaouira começa o mais cedo possível (recomenda-se) para aproveitar ao máximo o dia.",
-            // "ar": ""
         },
         "destinationCity": "Marrakech",
         "includedServices": [
@@ -1054,116 +957,52 @@ export const toursMock = [
         "journeyTimeUnit": "hours",
         "highlights": [
             {
-                // "fr": "Visitez le port traditionnel d'Essaouira.",
                 "en": "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
-                // "es": "Visita el puerto tradicional de Essaouira.",
-                // "pt": "Visite o tradicional porto de Essaouira.",
-                // "ar": "زيارة ميناء الصويرة التقليدي."
             },
             {
-                // "fr": "Découvrez le rôle de Skala.",
                 "en": "Travel across the High Atlas Mountains.",
-                // "es": "Explora el papel de Skala.",
-                // "pt": "Explore o papel de Skala.",
-                // "ar": "اكتشف دور سكالا."
             },
             {
-                // "fr": "Visitez l'ancienne médina avec ses artisans et cèdres, ses forgerons, ses tisserands, bijoutiers c'est… sa place Moulay Hassan et bien sûr ses souks.",
                 "en": "Visit the UNESCO World Heritage Site of Kasbah Ait Ben Haddou.",
-                // "es": "Visite la antigua medina con sus artesanos y cedros, sus herreros, sus tejedores, sus joyeros... su plaza Moulay Hassan y, por supuesto, sus zocos.",
-                // "pt": "Visite a antiga medina com os seus artesãos e cedros, os seus ferreiros, os seus tecelões, os seus joalheiros… a sua Place Moulay Hassan e claro os seus souks.",
-                // "ar": "قم بزيارة المدينة القديمة بحرفيها وأرزها والحدادين والنساجين والصائغين... ساحة مولاي حسن وبالطبع أسواقها."
             },
             {
-                // "fr": "Détendez-vous sur une belle plage.",
                 "en": "Explore Dades & Todra Gorges, Palm groves & valleys.",
-                // "es": "Relájate en una hermosa playa.",
-                // "pt": "Relaxe em uma bela praia.",
-                // "ar": "استرخ على الشاطئ الجميل."
             },
             {
-                // "fr": "Visitez une coopérative féminine d'arganier (facultatif).",
                 "en": "Experience a Camel ride in Merzouga dunes & Experience Sandboarding.",
-                // "es": "Visita a una Cooperativa Femenina de Argán (opcional).",
-                // "pt": "Visite uma Cooperativa Feminina de Argan (opcional).",
-                // "ar": "زيارة جمعية تعاونية أرغان النسائية (اختياري)."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Enjoy a spectacular sunset & sunrise Camel ride.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Visit the biggest film studios in north Africa.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Spend an overnight in a Berber desert camp in the heart of the dunes.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Take memorable Pictures in one of the best parts of Morocco.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Immerse yourself inside a rich and different culture.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Taste a big variety of different food and dishes.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Enjoy the views of the Draa Valley.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "See how real Nomads lives in the middle of the desert.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Visit the Rissani Souks.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Discover the Culture & traditions of Gnawa.",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
             {
-                // "fr": "Faites des arrêts pour prendre des photos.",
                 "en": "Experience the outdoor activities in the sand (Quads, Buggies and 4WD Tour..)",
-                // "es": "Haga paradas para tomar fotografías.",
-                // "pt": "Faça paradas para tirar fotos.",
-                // "ar": "توقف لالتقاط الصور."
             },
         ],
         "highlightImgs": [
@@ -1176,6 +1015,13 @@ export const toursMock = [
             'highlight_7.jpg',
             'highlight_8.jpg',
             'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
+            'highlight_16.jpg',
         ],
         "steps": [
             {
@@ -1275,7 +1121,8 @@ export const toursMock = [
             `You can always ask your driver-guide about skipping some stops or add some other
             stops to spend more time where you like.`,
             `Our guests can choose to go to the camp on a camel trek or by 4WD car.`
-        ]
+        ],
+        mapLink: "!1m76!1m12!1m3!1d2706982.40703161!2d-8.639626208851142!3d32.44878422017816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sFes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfran!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd973cb9175df3f1%3A0xf65090c1d64e40e2!2sKhemliya!3m2!1d31.0260344!2d-4.005704199999999!4m5!1s0xd97ffbc8fdf5f09%3A0x7226e3098ee4628!2sTinejdad!3m2!1d31.512853399999997!2d-5.0234472!4m5!1s0xdbd331a6d3914af%3A0xcdb9c0416d74335c!2sTodra%2C%20Tinghir!3m2!1d31.479999999999997!2d-5.51!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Benhaddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e1!3m2!1sfr!2sma!4v1710599787641!5m2!1sfr!2sma"
     },
     {
         "id": "4_days_tour_marrakech_to_fes",
@@ -1378,6 +1225,15 @@ export const toursMock = [
             'highlight_7.jpg',
             'highlight_8.jpg',
             'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
+            'highlight_16.jpg',
+            'highlight_17.jpg',
+            'highlight_18.jpg',
         ],
         "steps": [
             {
@@ -1473,7 +1329,8 @@ export const toursMock = [
             `You can always ask your driver-guide about skipping some stops or add some other
             stops to spend more time where you like.`,
             `Our guests can choose to go to the camp on a camel trek or by 4WD car.`
-        ]
+        ],
+        mapLink: "!1m70!1m12!1m3!1d2706990.410031855!2d-8.640628834661044!3d32.4485178035514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m55!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Benhaddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdbd331a6d3914af%3A0xcdb9c0416d74335c!2sTodrha%2C%20Tinghir!3m2!1d31.479999999999997!2d-5.51!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd973cb9175df3f1%3A0xf65090c1d64e40e2!2sKhamlia!3m2!1d31.0260344!2d-4.005704199999999!4m5!1s0xd98bf42e8441e9f%3A0x88269ca6a8dbb536!2sMidelt!3m2!1d32.6799423!2d-4.7329267999999995!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!5e1!3m2!1sfr!2sma!4v1710600117589!5m2!1sfr!2sma"
     },
     {
         "id": "4_days_tour_from_marrakech_to_merzouga_sahara_desert",
@@ -1661,10 +1518,10 @@ export const toursMock = [
         "mapLink": "!1m76!1m12!1m3!1d3497511.7013296336!2d-8.643390753568253!3d31.12254900003135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xda2d39b1e3122c3%3A0xab5f7e8e815955a2!2stodra%20gorges%2C%20Tinghir!3m2!1d31.5895278!2d-5.5968086!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd97722e4e641617%3A0x82298ec0b0417a51!2sRissani!3m2!1d31.2798384!2d-4.2589619!4m5!1s0xdbb80538b38a023%3A0x5668a92d056600dd!2sAgdz!3m2!1d30.7041312!2d-6.4530072999999994!4m5!1s0xdbb104077422057%3A0x26b3cb529b37ab00!2sOuarzazate!3m2!1d30.9335436!2d-6.937016!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708469420163!5m2!1sfr!2sma"
     },
     {
-        "id": "5_days_tour_marrakech_and_surrounding",
+        "id": "majestic_marrakech_and_beyond_5_days_discovery_tour",
         "title": {
             "fr": "",
-            "en": "5 days Tour Marrakech & surrounding",
+            "en": "Majestic Marrakech & Beyond : 5-Days Discovery Tour",
             "es": "Ouarzazate",
             "pt": "Ouarzazate",
             "ar": ""
@@ -1839,15 +1696,12 @@ export const toursMock = [
             `The best option to visit Marrakech and the area is by having everything already setup, so you don’t get lost with what you need to chose or no! by choosing this package
             you will visit the maximum possible of places in Marrakech and the surrounding.`
         ],
+        mapLink : "!1m76!1m12!1m3!1d1738516.0486608725!2d-9.557682505077667!3d31.67382558207769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sA%C3%A9roport%20international%20Marrakech-M%C3%A9nara!3m2!1d31.6008085!2d-8.0252375!4m5!1s0xdafee43ad1cec7d%3A0x91b033ce5d01bbb1!2sJama%C3%A2%20El-Fna%2C%20Marrakech!3m2!1d31.625960199999998!2d-7.989090099999999!4m5!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira!3m2!1d31.5084926!2d-9.7595041!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xda48d6c7dbd3851%3A0x6e9e0fe22217dc35!2sOuzoud%20Falls%2C%20Ouzoud!3m2!1d32.0152153!2d-6.7196026!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbaaa5746eb2bfd%3A0x8c590a8e535966d3!2sOurika%20Valley!3m2!1d31.343779899999998!2d-7.751430399999999!4m5!1s0xdafdc6f683b8ba9%3A0xed7eaae2df67ffc7!2sAgafay!3m2!1d31.4871989!2d-8.1979703!4m5!1s0xdafee43ad1cec7d%3A0x91b033ce5d01bbb1!2sJama%C3%A2%20El-Fna%2C%20Marrakech!3m2!1d31.625960199999998!2d-7.989090099999999!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sA%C3%A9roport%20international%20Marrakech-M%C3%A9nara%2C%20Marrakech!3m2!1d31.6008085!2d-8.0252375!5e0!3m2!1sfr!2sma!4v1710600672743!5m2!1sfr!2sma"
     },
     {
-        "id": "12_days_grand_tour_of_morocco_from_marrakech_to_chefchaouen",
+        "id": "12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast",
         "title": {
-            "fr": "",
-            "en": "12 Days Grand Tour Of Morocco, From Marrakech To Chefchaouen",
-            "es": "Ouarzazate",
-            "pt": "Ouarzazate",
-            "ar": ""
+            "en": "12 Days Moroccan Splendor : Royal Cities, Desert Dunes, and the Coast",
         },
         "summaryImg": "summary.jpg",
         "titleImg": "title.jpg",
@@ -2183,9 +2037,9 @@ export const toursMock = [
         "mapLink": "!1m76!1m12!1m3!1d3425528.725992699!2d-9.527071402090725!3d33.02373065132103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xd0b265e6402d907%3A0x91548980ce97ea0c!2sChefchaouen!3m2!1d35.168796!2d-5.268364099999999!4m5!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat!3m2!1d34.0083637!2d-6.8538748!4m5!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca!3m2!1d33.5731104!2d-7.5898433999999995!4m5!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira!3m2!1d31.5084926!2d-9.7595041!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708470275835!5m2!1sfr!2sma"
     },
     {
-        "id": "13_days_grand_tour_of_morocco_from_casablanca_to_chefchaouen",
+        "id": "13_days_grand_tour_of_morocco",
         "title": {
-            "en": "13 Days Grand Tour Of Morocco, From Casablanca To Chefchaouen",
+            "en": "13 Days Grand Tour Of Morocco",
         },
         "summaryImg": "summary.jpg",
         "titleImg": "title.jpg",
@@ -2210,7 +2064,7 @@ export const toursMock = [
             Casablanca, Rabat (the capital of the country), Essaouira Mogador the Portugal city, and
             much more experiences.`,
         },
-        "destinationCity": "Chefchaouen",
+        "destinationCity": "Marrakech",
         "includedServices": [
             "Private Vehicle with A/C (SUV, 4WD, or minivan).",
             "11 Nights Accommodation with breakfast.",

@@ -20,7 +20,8 @@ function Welcome() {
                     <p>
                         <strong>VITA MOROCCO</strong> is your ultimate travel companion for exploring the enchanting landscapes, vibrant cultures,
                         and rich traditions of Morocco. Our mission is to inspire travelers to venture beyond their comfort zones,
-                        immersing themselves in the unique beauty and diversity that Morocco has to offer.</p>
+                        immersing themselves in the unique beauty and diversity that Morocco has to offer.
+                    </p>
                     <p>
                         From the bustling markets
                         of Marrakech to the historic streets of Fes, we curate a wide array of <strong>Tours and Activities</strong> designed to cater to every
