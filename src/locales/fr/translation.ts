@@ -108,7 +108,7 @@ export const TRANSLATION_FR = {
     pick_up_time_departure: 'Heure de prise de départ',
     pricing: 'Tarification',
     pricing_message:
-        'Le prix de l\'excursion dépend du nombre de voyageurs. Ci-dessous, nous indiquons les prix en fonction des voyageurs, ainsi que les services qu\'ils incluent. Faites votre choix et contactez-nous',
+        'Le prix dépend du nombre de participants. Ci-dessous, nous indiquons les prix en fonction des participants. Prenez votre décision et contactez-nous',
     pricing_warning:
         'Prix valables toute l\'année, sauf à Noël et à Pâques (vérifiez les prix et la disponibilité).',
     // Q

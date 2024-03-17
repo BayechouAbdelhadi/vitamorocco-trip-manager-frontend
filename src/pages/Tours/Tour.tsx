@@ -1,29 +1,26 @@
+import DoneIcon from '@mui/icons-material/Done';
 import { CircularProgress, Container, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
 import { Page } from '../../common/components/Page/Page';
 import PanedSection from '../../common/components/panes/SectionedPanes';
-import { ExcursionDescription } from '../Excursions/components/ExcursionDescription';
-import { ExcursionDetails } from '../Excursions/components/ExcursionDetails';
-import { ExcursionHighlights } from '../Excursions/components/ExcursionHighlights';
-import { ExcludedServiceList } from '../Excursions/components/excursion-services/ExcludedServices';
-import { IncludedServiceCard } from '../Excursions/components/excursion-services/IncludedServices';
-import DoneIcon from '@mui/icons-material/Done';
 import { getTour } from '../../common/services/tourService';
-import { TourSteps } from './TourSteps';
+import { ExcursionDetails } from '../Excursions/components/ExcursionDetails';
+import { PanedDescription } from '../Excursions/components/PanedDescription';
+import { PanedHighlights } from '../Excursions/components/PanedHighlights';
+import { ExcludedServiceList } from '../Excursions/components/excursion-services/ExcludedServices';
 import TourInformation from './TourInformation';
 import { TourPricing } from './TourPricing';
+import { TourSteps } from './TourSteps';
 
+import { ContactForm } from '../Contact/Contact';
 import '../Excursions//Excursion.scss';
 import './Tour.scss';
-import { ContactForm } from '../Contact/Contact';
-
 
 const TourText = 'Tour';
 
 export const Tour = (): JSX.Element => {
-
     const { tourId } = useParams();
     const { t } = useTranslation();
 
@@ -51,8 +48,14 @@ export const Tour = (): JSX.Element => {
         >
             {tour && (
                 <Container>
-                    <ExcursionDescription excursion={tour} type={'tours'} />
-                    <ExcursionHighlights excursion={tour} type={'tours'} />
+                    <PanedDescription
+                        imgSrc={`/img/tours/${tour.id}/${tour.descriptionImg}`}
+                        description={tour.description}
+                    />
+                    <PanedHighlights
+                        highlights={tour?.highlights}
+                        highlightsImgs={tour?.highlightImgs?.map((imgName) => `/img/tours/${tour.id}/${imgName}`)}
+                    />
                     <ExcursionDetails excursion={tour} type={'tours'} />
                     <TourSteps steps={tour.steps ?? []} />
                     {/* <ExcursionPricing excursion={tour} /> */}

@@ -1,29 +1,27 @@
-import { useMemo } from 'react';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import { Typography } from '@mui/material';
+import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
-import { Excursion } from '../../../common/types/excursion';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation'
 import 'swiper/css/autoplay';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination, Navigation, Autoplay } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
-
-interface ExcursionHighlightsInterface {
-    excursion: Excursion;
-    type?: string
+interface PanedHighlightsInterface {
+    highlights: string[];
+    highlightsImgs: string[];
 }
 
-export const ExcursionHighlights = ({ excursion, type = 'excursions' }: ExcursionHighlightsInterface): JSX.Element => {
+export const PanedHighlights = ({ highlights, highlightsImgs }: PanedHighlightsInterface): JSX.Element => {
     const { t } = useTranslation();
 
     return (
@@ -34,13 +32,13 @@ export const ExcursionHighlights = ({ excursion, type = 'excursions' }: Excursio
                 </Typography>
             }
             leftPane={{
-                element: <HighLightsSwiper highlightsImgs={excursion?.highlightImgs?.map(imgName => `/img/${type}/${excursion.id}/${imgName}`)} />,
+                element: <HighLightsSwiper highlightsImgs={highlightsImgs} />,
                 className: 'visual-pane',
             }}
             rightPane={{
                 element: (
                     <ul className="no-bullets">
-                        {excursion?.highlights?.map((highlight: string) => (
+                        {highlights?.map((highlight: string) => (
                             <li key={highlight} className="excursion-detail-item">
                                 <ArrowRightIcon color="primary" />
                                 {highlight}
@@ -54,21 +52,17 @@ export const ExcursionHighlights = ({ excursion, type = 'excursions' }: Excursio
     );
 };
 
-
 interface HighLightsSwiperInterface {
     highlightsImgs?: string[];
 }
 
 export function HighLightsSwiper({ highlightsImgs = [] }: HighLightsSwiperInterface) {
-
     const imgs = useMemo(() => {
+        const imgUrls = highlightsImgs;
+        if (highlightsImgs.length === 0) imgUrls.push('/img/not-found-small.png');
 
-        const imgUrls = highlightsImgs
-        if (highlightsImgs.length === 0) imgUrls.push("/img/not-found-small.png")
-
-        return imgUrls
-
-    }, [highlightsImgs])
+        return imgUrls;
+    }, [highlightsImgs]);
 
     return (
         <Swiper

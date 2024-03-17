@@ -2,6 +2,7 @@ export type Activity = {
     id: string;
     title: string;
     description: string;
+    descriptionImg: string;
     pickUpTime: string;
     schedule: string; //Read the text i supplied you will fin a section named Program than fill schedul with
     highlights: string[];
@@ -14,9 +15,11 @@ export type Activity = {
     excludedServices: string[];
     duration: number;
     durationUnit: string;
+    freeDuration: boolean;
     frequency: string;
     importantDetails: string[];
     summaryImg: string;
     titleImg: string;
     highlightImgs: string[];
+    mapLink: string;
 };

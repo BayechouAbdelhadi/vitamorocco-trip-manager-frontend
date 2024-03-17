@@ -6,6 +6,7 @@ export const ACTIVITIES_MOCK: Activity[] = [
         title: 'Moroccan Cooking Session Led by a Local Chef',
         description:
             'This experience offers a Moroccan culinary immersion that includes purchasing ingredients at a local market, learning how to prepare mint tea, and cooking several traditional dishes like tajines, focusing on authentic techniques of chopping, peeling, and seasoning. The 4-hour cooking class is designed to be interactive and educational, providing a deep understanding of Moroccan traditions. The session ends with tasting the prepared dishes and access to online recipes for further culinary exploration.',
+        descriptionImg: '',
         pickUpTime: '10:00 or 15:00 local time your hotel/Riad',
         schedule: `
     Join Vita Morocco for an intimate journey into the heart of Moroccan cuisine.
@@ -55,6 +56,7 @@ export const ACTIVITIES_MOCK: Activity[] = [
         excludedServices: ['Extra Drinks', 'Tips', 'What not indicated in included'],
         duration: 4,
         durationUnit: 'hours',
+        freeDuration: false,
         frequency: 'Available every day',
         importantDetails: [
             'Wear comfy, modest clothing',
@@ -70,12 +72,14 @@ export const ACTIVITIES_MOCK: Activity[] = [
         summaryImg: '',
         titleImg: '',
         highlightImgs: [],
+        mapLink: '',
     },
     {
         id: 'marrakech-city-tour-hammam-dinner',
         title: 'Marrakech City Tour, Hammam & Traditional Dinner',
         description:
             'Experience the enchantment of Marrakech with our exclusive tour, blending the allure of ancient traditions with the vibrancy of contemporary life. Begin your journey with a convenient pickup, setting the stage for an unforgettable exploration of Jemaa El Fna Square, where the past and present merge seamlessly...',
+        descriptionImg: '',
         pickUpTime: '09:00 local time your hotel/Riad',
         schedule: `
         Join Vita Morocco for an intimate journey into the heart of Moroccan cuisine.
@@ -126,6 +130,7 @@ export const ACTIVITIES_MOCK: Activity[] = [
         excludedServices: ['Lunches', 'Drinks', 'Entrances Fees', 'Tips', 'What not indicated in included'],
         duration: 8,
         durationUnit: 'hours',
+        freeDuration: false,
         frequency: 'Available every day',
         importantDetails: [
             'Confirmation: Confirmed upon payment',
@@ -140,12 +145,14 @@ export const ACTIVITIES_MOCK: Activity[] = [
         summaryImg: '',
         titleImg: '',
         highlightImgs: [],
+        mapLink: '',
     },
     {
         id: 'quad-biking-sahara-merzouga',
         title: 'Quad Biking Thrills: Sahara Adventure in Merzouga',
         description:
             'Experience the thrill of a Quad adventure in the breathtaking Merzouga desert. Begin at the edge of the Sahara, quickly mastering the quad under the guidance of experts. Navigate through vast golden dunes, feeling the adrenaline of ascents and descents amidst the stunning desert landscape...',
+        descriptionImg: '',
         pickUpTime: 'You can choose the time',
         schedule: `
     PROGRAM :
@@ -185,7 +192,8 @@ export const ACTIVITIES_MOCK: Activity[] = [
         ],
         duration: NaN, // You can specify the duration based on the provided information
         durationUnit: 'hours',
-        frequency: 'Depends how many hours the travellers want',
+        freeDuration: true,
+        frequency: 'Available every day',
         importantDetails: [
             'Booking in Advance: Reservations are required at least 24 hours in advance',
             'Age Requirements: Minimum age for quad biking is 14 years. Children under 14 can participate in the Activity under adult supervision',
@@ -200,5 +208,6 @@ export const ACTIVITIES_MOCK: Activity[] = [
         summaryImg: '',
         titleImg: '',
         highlightImgs: [],
+        mapLink: '',
     },
 ];

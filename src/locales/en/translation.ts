@@ -130,7 +130,7 @@ export const TRANSLATION_EN = {
     pricing: 'Pricing',
     price: 'Price',
     pricing_message:
-        'The price of the excursion depends on the number of travellers. Below we indicate the prices according to travellers, as well as the services they include. Make up your mind and contact us',
+        'The price depends on the number of participants. Below we indicate the prices according to participants. Make up your mind and contact us',
     pricing_warning:
         'Prices valid for any time of the year, except Christmas and Easter (check prices and availability).',
     // Q

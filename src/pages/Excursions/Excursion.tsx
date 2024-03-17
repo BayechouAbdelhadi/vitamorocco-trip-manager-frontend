@@ -7,10 +7,10 @@ import PanedSection from '../../common/components/panes/SectionedPanes';
 import { getExcursion } from '../../common/services/excursionService';
 import { ContactForm } from '../Contact/Contact';
 import './Excursion.scss';
-import { ExcursionDescription } from './components/ExcursionDescription';
 import { ExcursionDetails } from './components/ExcursionDetails';
-import { ExcursionHighlights } from './components/ExcursionHighlights';
-import { ExcursionPricing } from './components/ExcursionPricing';
+import { Pricing } from './components/Pricing';
+import { PanedDescription } from './components/PanedDescription';
+import { PanedHighlights } from './components/PanedHighlights';
 import { ExcludedServiceList } from './components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from './components/excursion-services/IncludedServices';
 
@@ -47,10 +47,18 @@ export const Excursion = (): JSX.Element => {
             ) : (
                 excursion && (
                     <Container>
-                        <ExcursionDescription excursion={excursion} />
-                        <ExcursionHighlights excursion={excursion} />
+                        <PanedDescription
+                            imgSrc={`/img/excursions/${excursion.id}/${excursion.descriptionImg}`}
+                            description={excursion.description}
+                        />
+                        <PanedHighlights
+                            highlights={excursion?.highlights}
+                            highlightsImgs={excursion?.highlightImgs?.map(
+                                (imgName) => `/img/excursions/${excursion.id}/${imgName}`
+                            )}
+                        />
                         <ExcursionDetails excursion={excursion} />
-                        <ExcursionPricing excursion={excursion} />
+                        <Pricing pricing={excursion.pricing} />
                         <PanedSection
                             title={
                                 <Typography variant="h5" className="setcion-title left-title">
