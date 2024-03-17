@@ -1,7 +1,6 @@
 import ContactIcon from '@mui/icons-material/Call';
 import GalleryIcon from '@mui/icons-material/Collections';
 import InfoIcon from '@mui/icons-material/Info';
-import RowingIcon from '@mui/icons-material/Rowing';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 export interface NavItem {
     id?: string;
@@ -15,16 +14,6 @@ export interface NavItem {
 }
 
 export const NAVBAR_ITEMS: NavItem[] = [
-    {
-        text: 'Activities',
-        href: '/activities',
-        dropdown: [
-            //FromDB
-        ],
-        id: 'activities',
-
-        icon: <RowingIcon />,
-    },
     // {
     //     text: 'Services',
     //     href: '/services',
