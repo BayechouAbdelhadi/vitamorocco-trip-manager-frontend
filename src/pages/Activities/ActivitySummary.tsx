@@ -30,7 +30,7 @@ export default function ActivitySummary({ activity }: ActivitySummaryProps): JSX
 
     const { t } = useTranslation();
 
-    const duration = `${activity?.duration} ${activity?.durationUnit}s`;
+    const duration = `${activity?.duration} ${activity?.durationUnit}`;
 
     return (
         <Card className="excursion-summary-card-container" onClick={goToActivity}>

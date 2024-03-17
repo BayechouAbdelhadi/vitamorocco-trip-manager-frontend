@@ -31,15 +31,13 @@ export const Activity = (): JSX.Element => {
 
     const activityTitle = activity?.title ?? ActivityText;
 
-    console.log(activity?.includedServices);
-
     if (isLoading) {
         return <CircularProgress />;
     }
 
     return (
         <Page
-            description={activityTitle}
+            description={activity?.description ?? activityTitle}
             keywords={activityTitle}
             title={activityTitle}
             imgSrc={`/img/excursions/${activity?.id}/${activity?.titleImg}`}
@@ -136,7 +134,7 @@ export const Activity = (): JSX.Element => {
                     <p style={{ marginBottom: 20 }}>
                         <strong>Contact us to transform your activity dreams into reality!</strong>
                     </p>
-                    <ContactForm subject={`Excursion ${activity?.title}`} />
+                    <ContactForm subject={`Activity ${activity?.title}`} />
                 </Container>
             )}
         </Page>

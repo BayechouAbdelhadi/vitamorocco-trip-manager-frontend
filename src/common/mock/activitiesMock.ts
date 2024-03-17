@@ -190,7 +190,7 @@ export const ACTIVITIES_MOCK: Activity[] = [
             'Comprehensive travel insurance',
             'What not indicated in included',
         ],
-        duration: NaN, // You can specify the duration based on the provided information
+        duration: 2, // You can specify the duration based on the provided information
         durationUnit: 'hours',
         freeDuration: true,
         frequency: 'Available every day',
