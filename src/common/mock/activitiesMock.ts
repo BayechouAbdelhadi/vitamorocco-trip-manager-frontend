@@ -2,6 +2,69 @@ import { Activity } from '../types/activity';
 
 export const ACTIVITIES_MOCK: Activity[] = [
     {
+        id: 'quad-biking-sahara-merzouga',
+        title: 'Quad Biking Thrills: Sahara Adventure in Merzouga',
+        description:
+            'Experience the thrill of a Quad adventure in the breathtaking Merzouga desert. Begin at the edge of the Sahara, quickly mastering the quad under the guidance of experts. Navigate through vast golden dunes, feeling the adrenaline of ascents and descents amidst the stunning desert landscape...',
+        descriptionImg: '',
+        pickUpTime: 'You can choose the time',
+        schedule: `
+    PROGRAM :
+    Quad Biking & Sandboarding in Merzouga Desert
+    Embark on an exhilarating Quad and sandboarding adventure in the enchanting Merzouga desert, where the vast expanses of the Sahara come alive under your wheels and at your feet. Your journey begins at the desert's edge, greeted by the majestic dunes glowing under a clear blue sky. After a safety briefing and a quick how-to on Quad, you gear up and set off, engines roaring, ready to conquer the shifting sands...
+    `,
+        highlights: [
+            "Begin at Sahara's edge, under a clear blue sky",
+            'Safety first: Quad biking and sandboarding instructions',
+            'Ride quads over golden dunes for thrilling ascents and descents',
+            'Slide down dunes: Experience the joy of sandboarding',
+            'Pause atop high dunes for breathtaking panoramic views',
+            'Spot desert wildlife: foxes and camels in their natural habitat',
+            'Witness the desert glow at sunset, a spectacle of colours',
+            'Feel a deep connection to nature, blending exhilaration with peace',
+            'Create unforgettable memories in the timeless Sahara landscape',
+        ],
+        languages: ['English', 'Spanish', 'French', 'Arabic', 'Italian'],
+        location: 'Merzouga',
+        cancelation: 'Free',
+        pricing: ['Single Quad / 1 Person: 45 Euro per 1 hour', 'Single Quad / 2 Persons: 75 Euro per 1 hour'],
+        includedServices: [
+            'Expert Guides during the activity',
+            'Quad and sandboarding gear plus safety helmets',
+            'Safety instructions briefing',
+            'Activity permits and entrance fees',
+            'Basic accident insurance',
+            'Water and light snacks',
+            'Fotos & Videos',
+        ],
+        excludedServices: [
+            'Food',
+            'Drinks',
+            'Tips',
+            'Comprehensive travel insurance',
+            'What not indicated in included',
+        ],
+        duration: 2, // You can specify the duration based on the provided information
+        durationUnit: 'hours',
+        freeDuration: true,
+        frequency: 'Available every day',
+        importantDetails: [
+            'Booking in Advance: Reservations are required at least 24 hours in advance',
+            'Age Requirements: Minimum age for quad biking is 14 years. Children under 14 can participate in the Activity under adult supervision',
+            'Health & Safety: Participants must be in good health and not suffer from any condition that could be exacerbated by this activity. A waiver must be signed',
+            'Equipment Provided: All necessary equipment for quad biking and sandboarding is provided, including helmets and safety gear',
+            'Dress Code: Comfortable clothing suitable for outdoor activities and closed shoes are recommended. Sunscreen and sunglasses are advised',
+            'Cancellation Policy: Cancellations made 10 hours before the scheduled time are eligible for a full refund. Cancellations made less than 10 hours in advance will incur a 50% cancellation fee',
+            'Weather Conditions: Activities are subject to weather conditions and may be rescheduled in the case of adverse weather',
+            'Insurance: Participants are covered by basic accident insurance, but travel insurance with coverage for adventure activities is highly recommended',
+            'Guided Experience: All adventures are accompanied by experienced and knowledgeable guides to ensure safety and provide assistance',
+        ],
+        summaryImg: '',
+        titleImg: '',
+        highlightImgs: [],
+        mapLink: '',
+    },
+    {
         id: 'moroccan-cooking-session',
         title: 'Moroccan Cooking Session Led by a Local Chef',
         description:
@@ -141,69 +204,6 @@ export const ACTIVITIES_MOCK: Activity[] = [
             'Weather: Sun protection recommended; a light jacket may be needed in the evening',
             'Dietary Needs: Inform us in advance for dietary accommodations',
             'Language: Tours in English, French, Spanish, Italian. Specify preference when booking',
-        ],
-        summaryImg: '',
-        titleImg: '',
-        highlightImgs: [],
-        mapLink: '',
-    },
-    {
-        id: 'quad-biking-sahara-merzouga',
-        title: 'Quad Biking Thrills: Sahara Adventure in Merzouga',
-        description:
-            'Experience the thrill of a Quad adventure in the breathtaking Merzouga desert. Begin at the edge of the Sahara, quickly mastering the quad under the guidance of experts. Navigate through vast golden dunes, feeling the adrenaline of ascents and descents amidst the stunning desert landscape...',
-        descriptionImg: '',
-        pickUpTime: 'You can choose the time',
-        schedule: `
-    PROGRAM :
-    Quad Biking & Sandboarding in Merzouga Desert
-    Embark on an exhilarating Quad and sandboarding adventure in the enchanting Merzouga desert, where the vast expanses of the Sahara come alive under your wheels and at your feet. Your journey begins at the desert's edge, greeted by the majestic dunes glowing under a clear blue sky. After a safety briefing and a quick how-to on Quad, you gear up and set off, engines roaring, ready to conquer the shifting sands...
-    `,
-        highlights: [
-            "Begin at Sahara's edge, under a clear blue sky",
-            'Safety first: Quad biking and sandboarding instructions',
-            'Ride quads over golden dunes for thrilling ascents and descents',
-            'Slide down dunes: Experience the joy of sandboarding',
-            'Pause atop high dunes for breathtaking panoramic views',
-            'Spot desert wildlife: foxes and camels in their natural habitat',
-            'Witness the desert glow at sunset, a spectacle of colours',
-            'Feel a deep connection to nature, blending exhilaration with peace',
-            'Create unforgettable memories in the timeless Sahara landscape',
-        ],
-        languages: ['English', 'Spanish', 'French', 'Arabic', 'Italian'],
-        location: 'Merzouga',
-        cancelation: 'Free',
-        pricing: ['Single Quad / 1 Person: 45 Euro per 1 hour', 'Single Quad / 2 Persons: 75 Euro per 1 hour'],
-        includedServices: [
-            'Expert Guides during the activity',
-            'Quad and sandboarding gear plus safety helmets',
-            'Safety instructions briefing',
-            'Activity permits and entrance fees',
-            'Basic accident insurance',
-            'Water and light snacks',
-            'Fotos & Videos',
-        ],
-        excludedServices: [
-            'Food',
-            'Drinks',
-            'Tips',
-            'Comprehensive travel insurance',
-            'What not indicated in included',
-        ],
-        duration: 2, // You can specify the duration based on the provided information
-        durationUnit: 'hours',
-        freeDuration: true,
-        frequency: 'Available every day',
-        importantDetails: [
-            'Booking in Advance: Reservations are required at least 24 hours in advance',
-            'Age Requirements: Minimum age for quad biking is 14 years. Children under 14 can participate in the Activity under adult supervision',
-            'Health & Safety: Participants must be in good health and not suffer from any condition that could be exacerbated by this activity. A waiver must be signed',
-            'Equipment Provided: All necessary equipment for quad biking and sandboarding is provided, including helmets and safety gear',
-            'Dress Code: Comfortable clothing suitable for outdoor activities and closed shoes are recommended. Sunscreen and sunglasses are advised',
-            'Cancellation Policy: Cancellations made 10 hours before the scheduled time are eligible for a full refund. Cancellations made less than 10 hours in advance will incur a 50% cancellation fee',
-            'Weather Conditions: Activities are subject to weather conditions and may be rescheduled in the case of adverse weather',
-            'Insurance: Participants are covered by basic accident insurance, but travel insurance with coverage for adventure activities is highly recommended',
-            'Guided Experience: All adventures are accompanied by experienced and knowledgeable guides to ensure safety and provide assistance',
         ],
         summaryImg: '',
         titleImg: '',

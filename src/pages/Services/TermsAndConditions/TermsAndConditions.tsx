@@ -5,7 +5,13 @@ export const TermsAndConditions = (): JSX.Element => {
     const ServicesText = 'Terms And Conditions';
 
     return (
-        <Page description={ServicesText} keywords={ServicesText} title={ServicesText} className='terms-and-conditions-container'>
+        <Page 
+            description={ServicesText} 
+            keywords={ServicesText} 
+            title={ServicesText}
+            imgSrc={`/img/terms_and_conditions/title.jpg`}
+            className='terms-and-conditions-container'
+        >
             <p>
                 <span>The Agreement :</span><br />
                 By confirming your trip with VITA MOROCCO, you acknowledge and agree to

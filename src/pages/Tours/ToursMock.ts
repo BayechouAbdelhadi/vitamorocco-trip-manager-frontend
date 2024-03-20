@@ -1427,6 +1427,16 @@ export const toursMock = [
             'highlight_7.jpg',
             'highlight_8.jpg',
             'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
+            'highlight_16.jpg',
+            'highlight_17.jpg',
+            'highlight_18.jpg',
+            'highlight_19.jpg',
         ],
         "steps": [
             {
@@ -1625,6 +1635,11 @@ export const toursMock = [
             'highlight_28.jpg',
             'highlight_29.jpg',
             'highlight_30.jpg',
+            'highlight_31.jpg',
+            'highlight_32.jpg',
+            'highlight_33.jpg',
+            'highlight_34.jpg',
+            'highlight_35.jpg',
         ],
         "steps": [
             {
@@ -2329,5 +2344,220 @@ export const toursMock = [
             `The Tour can be All inclusive.`,
         ],
         "mapLink": "!1m76!1m12!1m3!1d3425519.895130664!2d-9.52707137954194!3d33.02395789180619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca!3m2!1d33.5731104!2d-7.5898433999999995!4m5!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat!3m2!1d34.0083637!2d-6.8538748!4m5!1s0xd0b265e6402d907%3A0x91548980ce97ea0c!2sChefchaouen!3m2!1d35.168796!2d-5.268364099999999!4m5!1s0xda0687d6a592af5%3A0x89bf317b312f3e62!2sVolubilis%2C%20Mekn%C3%A8s!3m2!1d34.0708021!2d-5.552679299999999!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira!3m2!1d31.5084926!2d-9.7595041!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708470746514!5m2!1sfr!2sma",
+    },
+    {
+        "id": "5_days_getaway_tangerto_chefchaouen_fes_and_asilah",
+        "title": {
+            "fr": "",
+            "en": "5-Days Getaway Tanger to Chefchaouen, Fes & Asilah",
+            "es": "",
+            "pt": "",
+            "ar": ""
+        },
+        "summaryImg": "summary.jpg",
+        "titleImg": "title.jpg",
+        "descriptionImg": "description.jpg",
+        "description": {
+            "en": `Embark on a captivating 5-days journey with Vita Morocco, commencing from Tangier and weaving through the heart of Morocco's stunning landscapes and ancient cities.
+            This meticulously curated tour takes you from the mystical blue alleys of Chefchaouen, nestled in
+            the Rif Mountains, to the historic ruins of Volúbilis, offering a unique leap back in time.
+            Discover the spiritual essence of Fez, renowned for its vibrant medina and timeless artisanal
+            heritage. Experience the royal grandeur of Rabat and find solace in the tranquil beauty of
+            Asilah's pristine Medina by the sea. VITA MOROCCO's expertly designed itinerary not only
+            promises a travel experience but also an immersive journey through the rich mosaic of
+            Moroccan culture, history, and awe-inspiring natural vistas.
+            This bespoke tour is more than a mere vacation; it's an exploration into the soul of Morocco,
+            where each moment unfolds as a narrative waiting to be unveiled. Departing from Tangier, a
+            city celebrated for its excellent connectivity via international airport and maritime ports, the
+            tour offers ease of access from various global locations, including the Spanish cities of Tarifa
+            and Algeciras, as well as other international harbours.
+            VITA MOROCCO invites you on this unparalleled adventure, guaranteeing a departure that
+            not only marks the end of your journey but also the beginning of a lifelong connection with
+            Morocco.`,
+        },
+        "destinationCity": "Tanger",
+        "includedServices": [
+            "Private Vehicle with A/C (SUV, 4WD, or minivan).",
+            "4 Nights Accommodation with breakfast",
+            "Pick up & drop-off at the Port or Airport in Tanger.",
+            "English - Spanish speaking driver/Guide.",
+            "Visit all interesting attractions along the road.",
+            "Fuel, tolls, and all expenses associated with transportation.",
+            "Guided city tour in Fez.",
+            "Visit Rabat and Tanger highlights."
+        ]
+        ,
+        "departureCity": "Tanger",
+        "departurePickupTime": "08:00 AM",
+        "returnPickupTime": "05:30 PM",
+        "journeyTime": 4,
+        "journeyTimeUnit": "hours",
+        "highlights": [
+            {
+                "en": "Explore ancient Roman ruins in the Moroccan countryside at Volúbilis."
+            },
+            {
+                "en": "Quick stop at the historic imperial city with grand architecture in Meknes."
+            },
+            {
+                "en": "Dive into the spiritual heart of Morocco with a medina tour in Fez."
+            },
+            {
+                "en": "Discover Morocco's capital, blending modernity with heritage in Rabat."
+            },
+            {
+                "en": "Experience the cultural diversity of Morocco's gateway city in Tangier."
+            },
+            {
+                "en": "Journey through breathtaking landscapes en route to Chaouen in the Rif Mountains."
+            },
+            {
+                "en": "Encounter the natural beauty bordering the route to Fez in Mamora Forest."
+            },
+            {
+                "en": "Witness traditional Moroccan craftsmanship in Fez at the Fez Artisanal Crafts."
+            },
+            {
+                "en": "Visit the final resting place of Morocco's revered king in Rabat at the Mohammed V Mausoleum."
+            },
+            {
+                "en": "Marvel at the towering landmark and symbol of Rabat's historical significance at Hassan Tower."
+            },
+            {
+                "en": "Explore the ancient fortress offering stunning views and a glimpse into Rabat's past at Kasbah of the Udaya’s."
+            },
+            {
+                "en": "Navigate the charming, narrow lanes of this hillside blue city at Chaouen's Medina."
+            },
+            {
+                "en": "Savor the flavors of traditional dishes throughout your journey with Local Moroccan Cuisine."
+            },
+            {
+                "en": "Witness breathtaking sunsets along the Atlantic coast at Sunset in Asilah."
+            },
+            {
+                "en": "Observe the ancient process of leather dyeing, unique to Fez at Fez Leather Tanneries."
+            },
+            {
+                "en": "Visit the lighthouse marking the meeting point of the Atlantic and Mediterranean in Tangier's Cap Spartel."
+            },
+            {
+                "en": "Participate in pottery or weaving workshops, learning from local artisans at Cultural Workshops in Fez."
+            }
+        ],                
+        "highlightImgs": [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
+            'highlight_10.jpg',
+            'highlight_11.jpg',
+            'highlight_12.jpg',
+            'highlight_13.jpg',
+            'highlight_14.jpg',
+            'highlight_15.jpg',
+            'highlight_16.jpg',
+            'highlight_17.jpg',
+            'highlight_18.jpg',
+            'highlight_19.jpg',
+            'highlight_20.jpg',
+        ],
+        "steps": [
+            {
+                title: "TANGIER PORT OR AIRPORT - CHEFCHAOUEN",
+                description: `Pick-up at Tangier Port or Airport according to arrival time with a sign displaying
+                the name of our agency, Vita Morocco, and the start of the route towards
+                Chefchaouen. We will venture into the Rif until we reach Chefchaouen, a
+                mysterious town founded as a secret place from which to attack the Portuguese
+                settled on the northern coast of the country. The entrance to the town was
+                completely forbidden to Europeans until the arrival of Spanish troops in 1920. It
+                is located within a natural biosphere reserve. Chefchaouen is a holy city perched
+                on a mountain, its streets painted in white and blue, a town of wise, kind, and
+                respectful people, offering the visitor beautiful urban landscapes on a decline,
+                lovely samples of local handicraft, and a peace and serenity that is hard to find
+                today. Free day in Chefchaouen to visit the city with an overnight stay at a hotel
+                in Chefchaouen.`
+            },
+            {
+                title: "CHEFCHAOUEN - VOLUBILIS - MEKNES - FEZ",
+                description: `After breakfast, free time to explore the small blue medina of Chefchaouen,
+                surrounded by the Rif mountains, wandering through its winding streets,
+                entering through any of its 5 gates, and letting our senses guide us among its
+                ancient blue and white houses, filled with new smells, colors, and sounds. We
+                continue our route towards Fez, skirting the Mamora forest and detouring about
+                27 km from Meknès (stop to take a look around its square), where the ruins of
+                the Roman city of Volubilis are located. Time to contemplate and stroll among the
+                splendid archaeological remains from the Roman era. Finally, we arrive in Fez
+                where we will spend the night in a riad in the medina.`
+            },
+            {
+                title: "FEZ CITY (GUIDED CITY TOUR)",
+                description: `Today, you are going to discover the cultural and craft city of Morocco on a
+                guided tour of Fez. Also known as Fes el Bali, this UNESCO World Heritage Site
+                was founded in the 9th century and is home to the world's oldest university. The
+                city of Fez reached its true economic and cultural heyday in the 13th-14th
+                centuries under the Merinids when it replaced Marrakech as the kingdom's
+                capital. Although the political capital of Morocco was transferred to Rabat in
+                1912, Fez has retained its status as the country's craft centre. The artisan
+                workshops in the medina are as active today as they were 100 years ago and
+                contribute strongly to the industrial economy of the city. Trades such as
+                blacksmithing, leather goods, ceramics, silk, tapestries and sculpture are still
+                practiced in these workshops today. The original walls still protect this ancient
+                city and its approximately 9,000 narrow passageways and bustling streets.
+                On this guided tour of Fez, you will visit the following attractions:
+                • Jewish mellah
+                • The tannery
+                • Souk of silk, wool and cotton dyers
+                • Zellij Ceramic and Tile Cooperative
+                • Al Quaraouiyine University.
+                • Royal Palace of Fes
+                • Weavers Cooperative
+                • The panoramic view of Fez el Bali.
+                At the end of the city tour, you will have free time to continue exploring the city
+                by yourself, then we will spend our second night in the Medina of Fez.`
+            },
+            {
+                title: "FEZ - RABAT city Tour - ASILAH",
+                description: `Breakfast and departure towards Asilah via Rabat, visit to the capital of Morocco
+                where you can visit the Royal Palace, the Mausoleum of Mohammed V, the
+                Hassan Tower, Kasbah Oudaya, etc. In the afternoon, we will continue to the city
+                of Asilah, where you can relax, swim at the beach, and stroll through its beautiful
+                white Medina. Overnight at a hotel in Asilah.`
+            },
+            {
+                title: "ASILAH - TANGIER PORT OR AIRPORT",
+                description: `Breakfast and transfer to Tangier for a city tour and transfer to the Airport or Port
+                according to departure time.`
+            },
+        ],
+        "pricing": [],
+        "duration": 5,
+        "durationUnit": "day",
+        "frequency": {
+            "fr": "chaque jour",
+            "en": "Every day",
+            "es": "Cada día",
+            "pt": "Diariamente",
+            "ar": "كل يوم"
+        },
+        "informationList": [
+            `At our agency, we offer a range of Tanger Tours the 5-days tour from Tanger, including
+            luxury, mid-range, and basic (standard) options tailored to suit your preferences. Our
+            journey from Tanger is exclusively private, allowing for a more intimate exploration of
+            Morocco's rich cultural tapestry (Discover the advantages of private over group tours).`,
+            `We firmly believe in the transformative power of private tours for a deeper immersion
+            into the Moroccan way of life. Enjoy the freedom to pause and delve into experiences
+            that pique your interest, all at a rhythm that suits you best`,
+            `You can always ask your driver-guide about skipping some stops or add some other
+            stops to spend more time where you like.`,
+            `Feel free to discuss itinerary adjustments with your driver to ensure your time is spent
+            exactly as you wish. enhancing the personalization of your Moroccan adventure.`
+        ],
+        mapLink : "!1m64!1m12!1m3!1d3390112.6587851746!2d-7.466469020096956!3d33.924229141480595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m49!3e0!4m5!1s0xd0b875cf04c132d%3A0x76bfc571bfb4e17a!2sTanger!3m2!1d35.7594651!2d-5.833954299999999!4m5!1s0xd0b265e6402d907%3A0x91548980ce97ea0c!2sChefchaouen!3m2!1d35.168796!2d-5.268364099999999!4m5!1s0xda0687d6a592af5%3A0x89bf317b312f3e62!2sVolubilis%2C%20El%20Menzeh!3m2!1d34.0708021!2d-5.552679299999999!4m5!1s0xda044d23bfc49d1%3A0xfbbf80a99e4cde18!2zTWVrbsOocw!3m2!1d33.8730164!2d-5.5407299!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat!3m2!1d34.0083637!2d-6.8538748!4m5!1s0xd0b94f019723137%3A0x2e207493979aea23!2sAssilah!3m2!1d35.464612699999996!2d-6.0308654!4m5!1s0xd0b875cf04c132d%3A0x76bfc571bfb4e17a!2sTanger!3m2!1d35.7594651!2d-5.833954299999999!5e0!3m2!1sfr!2sma!4v1710972115789!5m2!1sfr!2sma"
     },
 ]
