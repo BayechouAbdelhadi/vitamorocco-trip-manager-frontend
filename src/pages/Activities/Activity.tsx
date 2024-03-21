@@ -10,10 +10,12 @@ import { getActivity } from '../../common/services/activityService';
 import { ContactForm } from '../Contact/Contact';
 import { PanedDescription } from '../Excursions//components/PanedDescription';
 import { PanedHighlights } from '../Excursions//components/PanedHighlights';
-import '../Excursions/Excursions.scss';
 import { Pricing } from '../Excursions/components/Pricing';
-import '../Tours/Tour.scss';
+import parse from 'html-react-parser';
 import { ActivityDetails } from './components/ActivityDetails';
+
+import '../Excursions/Excursions.scss';
+import '../Tours/Tour.scss';
 
 const ActivityText = 'Activity';
 
@@ -65,7 +67,7 @@ export const Activity = (): JSX.Element => {
                         leftPane={{
                             element: (
                                 <p>
-                                    {activity.schedule}
+                                    {parse(activity.schedule)}
                                 </p>
                             ),
                             className: 'content-pane',

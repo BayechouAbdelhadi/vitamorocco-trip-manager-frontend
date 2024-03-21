@@ -4,14 +4,17 @@ const CONTACT_BOXES = [
     {
         text: '(+212) 662310037',
         href: 'tel:212662310037',
+        is_blank_target: true
     },
     {
         text: 'contact@vitamorocco.com',
         href: 'mailto:contact@vitamorocco.com',
+        is_blank_target: true
     },
     {
-        text: 'vitamorocco@gmail.com',
+        text: 'vitamarruecos@gmail.com',
         href: 'mailto:vitamarruecos@gmail.com',
+        is_blank_target: true
     },
     {
         text: 'Contact Us',
@@ -24,10 +27,6 @@ const POLICIES = [
         text: 'About Us',
         href: '/about',
     },
-    // {
-    //   text: 'Privacy Policy',
-    //   href: 'services/privacy',
-    // },
     {
         text: 'Terms and Conditions',
         href: 'services/terms_and_conditions',
@@ -39,14 +38,6 @@ const POLICIES = [
 ];
 
 export const FOOTER_LINKS: NavItem[] = [
-    // {
-    //   text: 'Excursions',
-    //   href: EXCURSIONS,
-    // },
-    // {
-    //   text: 'Tours',
-    //   href: TOURS,
-    // },
     {
         text: 'Contacts',
         dropdown: CONTACT_BOXES,

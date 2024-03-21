@@ -6,10 +6,10 @@ import Logo from '../Logo';
 import './FooterColumn.scss';
 
 function FooterLink({ text, href, is_blank_target: isBlankTarget = false }: NavItem) {
-    // open external link in a new tab
+    // open external link
     if (isBlankTarget) {
         return (
-            <a href={href} target="__blank">
+            <a href={href}>
                 {text}
             </a>
         );

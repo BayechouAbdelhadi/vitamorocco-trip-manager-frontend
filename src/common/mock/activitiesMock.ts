@@ -5,12 +5,12 @@ export const ACTIVITIES_MOCK: Activity[] = [
         id: 'quad_biking_sahara_merzouga',
         title: 'Quad Biking Thrills: Sahara Adventure in Merzouga',
         description: `Experience the thrill of a Quad adventure in the breathtaking Merzouga desert. Begin at the
-            edge of the Sahara, quickly mastering the quad under the guidance of experts. Navigate
+            edge of the Sahara, quickly mastering the quad under the guidance of experts.<br/><br/>Navigate
             through vast golden dunes, feeling the adrenaline of ascents and descents amidst the
             stunning desert landscape. Pause atop a high dune to absorb the serene beauty and
-            vastness of the desert, possibly spotting wildlife like foxes and camels. As the adventure
+            vastness of the desert, possibly spotting wildlife like foxes and camels.<br/><br/>As the adventure
             concludes, the setting sun transforms the sky into a spectacular display of colours, leaving
-            you with a profound sense of connection to this timeless and exhilarating landscape. This
+            you with a profound sense of connection to this timeless and exhilarating landscape.<br/><br/>This
             quad journey offers a unique blend of excitement and tranquillity, deeply etching the majestic
             Sahara into your memories.`,
         descriptionImg: 'description.jpg',
@@ -19,22 +19,22 @@ export const ACTIVITIES_MOCK: Activity[] = [
         desert, where the vast expanses of the Sahara come alive under your wheels and at your
         feet. Your journey begins at the desert's edge, greeted by the majestic dunes glowing under
         a clear blue sky. After a safety briefing and a quick how-to on Quad, you gear up and set off,
-        engines roaring, ready to conquer the shifting sands.
+        engines roaring, ready to conquer the shifting sands.<br/><br/>
         The adventure takes you through a landscape of endless golden dunes, each ascent and
-        descent more thrilling than the last, mimicking the waves of a golden sea. The powerful
-        quads are your key to navigating this rugged terrain, offering both adrenaline-pumping speed
+        descent more thrilling than the last, mimicking the waves of a golden sea.<br/><br/>
+        The powerful quads are your key to navigating this rugged terrain, offering both adrenaline-pumping speed
         and moments of serene beauty. Between quad rides, you'll embrace the thrill of
         sandboarding, sliding down the steep dunes, the sand beneath your board creating a unique
-        soundtrack to this desert experience.
+        soundtrack to this desert experience.<br/><br/>
         Atop a high dune, the world pauses—engines off, boards set aside, the vast silence of the
         Sahara engulfs you, showcasing a breathtaking panorama of timeless desert beauty, a sea of
-        sand stretching into infinity, glowing amber under the sunlight. This is a moment of profound
-        connection with the desert, a blend of exhilaration and peace.
+        sand stretching into infinity, glowing amber under the sunlight.<br/><br/>This is a moment of profound
+        connection with the desert, a blend of exhilaration and peace.<br/><br/>
         In these moments of quiet, you might witness the desert's wildlife—a swift fox darting across
         the dunes or a distant herd of camels, embodiments of the Sahara's wild and enduring spirit.
         The return journey is a reflective path, with the setting sun painting the sky in shades of
         orange and pink, casting long shadows over the desert and marking the end of an
-        unforgettable adventure.
+        unforgettable adventure.<br/><br/>
         This unique combination of quad biking and sandboarding in Merzouga is not just a thrilling
         ride; it's a profound connection with nature, offering a unique blend of exhilaration, beauty,
         and a deep sense of peace. As the desert fades into the distance, the memories of this
@@ -103,35 +103,40 @@ export const ACTIVITIES_MOCK: Activity[] = [
         mapLink: '',
     },
     {
-        id: 'moroccan-cooking-session',
+        id: 'moroccan_cooking_session',
         title: 'Moroccan Cooking Session Led by a Local Chef',
         description:
-            'This experience offers a Moroccan culinary immersion that includes purchasing ingredients at a local market, learning how to prepare mint tea, and cooking several traditional dishes like tajines, focusing on authentic techniques of chopping, peeling, and seasoning. The 4-hour cooking class is designed to be interactive and educational, providing a deep understanding of Moroccan traditions. The session ends with tasting the prepared dishes and access to online recipes for further culinary exploration.',
-        descriptionImg: '',
+            `This experience offers a Moroccan culinary immersion that includes purchasing ingredients at a local market, 
+            learning how to prepare mint tea, and cooking several traditional dishes like tajines, 
+            focusing on authentic techniques of chopping, peeling, and seasoning.<br/><br/>
+            The 4-hours cooking class is designed to be interactive and educational, 
+            providing a deep understanding of Moroccan traditions.<br/><br/>
+            The session ends with tasting the prepared dishes and access to online recipes for further culinary exploration.`,
+        descriptionImg: 'description.jpg',
         pickUpTime: '10:00 or 15:00 local time your hotel/Riad',
-        schedule: `
-    Join Vita Morocco for an intimate journey into the heart of Moroccan cuisine.
-    Starting with a vibrant local market tour, we handpick fresh ingredients, diving
-    into the colourful bounty our region offers (note: market visits are not available
-    on Friday afternoons). Upon returning home, our adventure begins with the
-    ceremonial preparation of Moroccan mint tea, setting the stage for a day of
-    culinary discovery and camaraderie.
-    Under the guidance of our local chefs, you'll delve into the art of Moroccan
-    cooking, mastering the peel, chop, and spice techniques handed down through
-    generations. Our kitchen becomes a gateway to Morocco's rich cultural tapestry
-    as we craft 3 to 4 distinct dishes, from Savory tajines to other traditional
-    delights, each offering a new skill and story.This immersive 4-hour class is more than just a cooking lesson; it's a hands-on
-    experience steeped in tradition, history, and the communal spirit of Moroccan
-    dining. You'll work side by side with fellow travellers, forging connections and
-    memories that extend beyond the kitchen.
-    As our time together draws to a close, we gather to Savor the fruits of our
-    labour, enjoying the dishes we've created in true Moroccan style. The experience
-    doesn't end here; we invite you to take a piece of Morocco home with you,
-    sharing exclusive recipes through our website for you to recreate and share with
-    loved ones.
-    Embrace the essence of Moroccan hospitality and culinary heritage with Vita
-    Morocco, where every dish tells a story and every flavour takes you on a journey.
-    `,
+        schedule: `Join Vita Morocco for an intimate journey into the heart of Moroccan cuisine.
+            Starting with a vibrant local market tour, we handpick fresh ingredients, diving
+            into the colourful bounty our region offers (note: market visits are not available
+            on Friday afternoons).<br/><br/>
+            Upon returning home, our adventure begins with the ceremonial preparation of Moroccan mint tea, 
+            setting the stage for a day of culinary discovery and camaraderie.<br/><br/>
+            Under the guidance of our local chefs, you'll delve into the art of Moroccan
+            cooking, mastering the peel, chop, and spice techniques handed down through
+            generations. Our kitchen becomes a gateway to Morocco's rich cultural tapestry
+            as we craft 3 to 4 distinct dishes, from Savory tajines to other traditional
+            delights, each offering a new skill and story.<br/><br/>
+            This immersive 4-hours class is more than just a cooking lesson; it's a hands-on
+            experience steeped in tradition, history, and the communal spirit of Moroccan
+            dining. You'll work side by side with fellow travellers, forging connections and
+            memories that extend beyond the kitchen.<br/><br/>
+            As our time together draws to a close, we gather to Savor the fruits of our
+            labour, enjoying the dishes we've created in true Moroccan style.<br/><br/>
+            The experience doesn't end here; we invite you to take a piece of Morocco home with you,
+            sharing exclusive recipes through our website for you to recreate and share with
+            loved ones.<br/><br/>
+            Embrace the essence of Moroccan hospitality and culinary heritage with Vita
+            Morocco, where every dish tells a story and every flavour takes you on a journey.`
+        ,
         highlights: [
             'Cook alongside a seasoned chef',
             'Experience making authentic Moroccan mint tea from scratch',
@@ -176,22 +181,22 @@ export const ACTIVITIES_MOCK: Activity[] = [
         mapLink: '',
     },
     {
-        id: 'marrakech-city-tour-hammam-dinner',
+        id: 'marrakech_city_tour_hammam_dinner',
         title: 'Marrakech City Tour, Hammam & Traditional Dinner',
         description: `Experience the enchantment of Marrakech with our exclusive tour, blending the allure of
-ancient traditions with the vibrancy of contemporary life. Begin your journey with a
+ancient traditions with the vibrancy of contemporary life.<br/><br/>Begin your journey with a
 convenient pickup, setting the stage for an unforgettable exploration of Jemaa El Fna
 Square, where the past and present merge seamlessly. Our expert guides will unveil the
 mysteries of Marrakech's rich history, leading you through the ancient medina, majestic
-Bahia Palace, and the historic Saadian Tombs. Immerse yourself in the bustling souks, where
+Bahia Palace, and the historic Saadian Tombs.<br/><br/>Immerse yourself in the bustling souks, where
 the air is fragrant with spices and the vibrant colors of artisan crafts captivate the senses.
 Navigate through Souk Smarine to the Rahba-Kedima square, a place teeming with history
-and local lore.
+and local lore.<br/><br/>
 As the day unfolds, our tour promises not only cultural enlightenment but also relaxation.
 Unwind in the luxury of Morocco's finest spas, choosing from a selection of rejuvenating
 programs tailored to your preferences. Afterwards, indulge in a culinary adventure at
 Marrakech's top dining destinations, where traditional Moroccan dishes meet unparalleled
-service and ambiance.
+service and ambiance.<br/><br/>
 Our commitment to your comfort and enjoyment is unwavering, we guarantee a seamless
 experience from start to finish. Join us for an exquisite journey through Marrakech, where
 every moment is a treasure waiting to be discovered.`,
@@ -201,22 +206,22 @@ every moment is a treasure waiting to be discovered.`,
         Join Vita Morocco for an intimate journey into the heart of Moroccan cuisine.
         Starting with a vibrant local market tour, we handpick fresh ingredients, diving
         into the colourful bounty our region offers (note: market visits are not available
-        on Friday afternoons). Upon returning home, our adventure begins with the
+        on Friday afternoons).<br/><br/>Upon returning home, our adventure begins with the
         ceremonial preparation of Moroccan mint tea, setting the stage for a day of
-        culinary discovery and camaraderie.
+        culinary discovery and camaraderie.<br/><br/>
         Under the guidance of our local chefs, you'll delve into the art of Moroccan
         cooking, mastering the peel, chop, and spice techniques handed down through
         generations. Our kitchen becomes a gateway to Morocco's rich cultural tapestry
         as we craft 3 to 4 distinct dishes, from Savory tajines to other traditional
-        delights, each offering a new skill and story.This immersive 4-hour class is more than just a cooking lesson; it's a hands-on
+        delights, each offering a new skill and story.<br/><br/>This immersive 4-hour class is more than just a cooking lesson; it's a hands-on
         experience steeped in tradition, history, and the communal spirit of Moroccan
         dining. You'll work side by side with fellow travellers, forging connections and
-        memories that extend beyond the kitchen.
+        memories that extend beyond the kitchen.<br/><br/>
         As our time together draws to a close, we gather to Savor the fruits of our
         labour, enjoying the dishes we've created in true Moroccan style. The experience
         doesn't end here; we invite you to take a piece of Morocco home with you,
         sharing exclusive recipes through our website for you to recreate and share with
-        loved ones.
+        loved ones.<br/><br/>
         Embrace the essence of Moroccan hospitality and culinary heritage with Vita
         Morocco, where every dish tells a story and every flavour takes you on a journey.
     `,

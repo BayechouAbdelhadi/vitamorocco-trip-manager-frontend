@@ -2,6 +2,7 @@ import { Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
 import { defaultImage } from '../../../common/utils/imageUtils';
+import parse from 'html-react-parser';
 
 interface PanedDescriptionInterface {
     description: string;
@@ -9,6 +10,7 @@ interface PanedDescriptionInterface {
 }
 export const PanedDescription = ({ description, imgSrc }: PanedDescriptionInterface): JSX.Element => {
     const { t } = useTranslation();
+
     return (
         <PanedSection
             title={
@@ -19,7 +21,7 @@ export const PanedDescription = ({ description, imgSrc }: PanedDescriptionInterf
             leftPane={{
                 element: (
                     <Typography variant="body1" className="description-text">
-                        {description}
+                        {parse(description)}
                     </Typography>
                 ),
                 className: 'content-pane',
