@@ -30,7 +30,7 @@ export default function ActivitySummary({ activity }: ActivitySummaryProps): JSX
 
     const { t } = useTranslation();
 
-    const duration = `${activity?.duration} ${activity?.durationUnit}`;
+    const duration = activity?.freeDuration ? 'Depends how many hours the travellers want' : `${activity?.duration} ${activity?.durationUnit}s`;
 
     return (
         <Card className="excursion-summary-card-container" onClick={goToActivity}>
@@ -76,14 +76,6 @@ export default function ActivitySummary({ activity }: ActivitySummaryProps): JSX
                         <DoDisturbIcon color="primary" />
                         <strong>{t('cancelation')} :</strong>&nbsp;{t('free')}
                     </li>
-                    {/* <li className="li-summary">
-                        <FlightTakeoffIcon color="primary" />
-                        <strong>{t('starting_location')} :</strong>&nbsp;{activity?.departureCity}
-                    </li>
-                    <li className="li-summary">
-                        <FlightLandIcon color="primary" />
-                        <strong>{t('ending_location')} :</strong>&nbsp;{activity?.destinationCity}
-                    </li> */}
                 </ul>
             </CardContent>
             {/* <CardActions disableSpacing>

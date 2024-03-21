@@ -11,7 +11,7 @@ const CONTACT_BOXES = [
     },
     {
         text: 'vitamorocco@gmail.com',
-        href: 'mailto:vitamorocco@gmail.com',
+        href: 'mailto:vitamarruecos@gmail.com',
     },
     {
         text: 'Contact Us',

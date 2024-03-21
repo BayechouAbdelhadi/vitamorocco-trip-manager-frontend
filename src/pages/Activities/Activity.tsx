@@ -40,22 +40,37 @@ export const Activity = (): JSX.Element => {
             description={activity?.description ?? activityTitle}
             keywords={activityTitle}
             title={activityTitle}
-            imgSrc={`/img/excursions/${activity?.id}/${activity?.titleImg}`}
+            imgSrc={`/img/activities/${activity?.id}/${activity?.titleImg}`}
             className="excursion-detail"
         >
             {activity && (
                 <Container>
                     <PanedDescription
-                        imgSrc={`/img/excursions/${activity.id}/${activity.descriptionImg}`}
+                        imgSrc={`/img/activities/${activity.id}/${activity.descriptionImg}`}
                         description={activity.description}
                     />
                     <PanedHighlights
                         highlights={activity?.highlights}
                         highlightsImgs={activity?.highlightImgs?.map(
-                            (imgName) => `/img/excursions/${activity.id}/${imgName}`
+                            (imgName) => `/img/activities/${activity.id}/${imgName}`
                         )}
                     />
                     <ActivityDetails activity={activity} />
+                    <PanedSection
+                        title={
+                            <Typography variant="h5" className="setcion-title left-title">
+                                {t('schedule')}
+                            </Typography>
+                        }
+                        leftPane={{
+                            element: (
+                                <p>
+                                    {activity.schedule}
+                                </p>
+                            ),
+                            className: 'content-pane',
+                        }}
+                    />
                     <Pricing pricing={activity.pricing} />
                     <PanedSection
                         title={

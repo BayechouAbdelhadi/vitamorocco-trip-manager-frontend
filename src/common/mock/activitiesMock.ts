@@ -2,20 +2,48 @@ import { Activity } from '../types/activity';
 
 export const ACTIVITIES_MOCK: Activity[] = [
     {
-        id: 'quad-biking-sahara-merzouga',
+        id: 'quad_biking_sahara_merzouga',
         title: 'Quad Biking Thrills: Sahara Adventure in Merzouga',
-        description:
-            'Experience the thrill of a Quad adventure in the breathtaking Merzouga desert. Begin at the edge of the Sahara, quickly mastering the quad under the guidance of experts. Navigate through vast golden dunes, feeling the adrenaline of ascents and descents amidst the stunning desert landscape...',
-        descriptionImg: '',
+        description: `Experience the thrill of a Quad adventure in the breathtaking Merzouga desert. Begin at the
+            edge of the Sahara, quickly mastering the quad under the guidance of experts. Navigate
+            through vast golden dunes, feeling the adrenaline of ascents and descents amidst the
+            stunning desert landscape. Pause atop a high dune to absorb the serene beauty and
+            vastness of the desert, possibly spotting wildlife like foxes and camels. As the adventure
+            concludes, the setting sun transforms the sky into a spectacular display of colours, leaving
+            you with a profound sense of connection to this timeless and exhilarating landscape. This
+            quad journey offers a unique blend of excitement and tranquillity, deeply etching the majestic
+            Sahara into your memories.`,
+        descriptionImg: 'description.jpg',
         pickUpTime: 'You can choose the time',
-        schedule: `
-    PROGRAM :
-    Quad Biking & Sandboarding in Merzouga Desert
-    Embark on an exhilarating Quad and sandboarding adventure in the enchanting Merzouga desert, where the vast expanses of the Sahara come alive under your wheels and at your feet. Your journey begins at the desert's edge, greeted by the majestic dunes glowing under a clear blue sky. After a safety briefing and a quick how-to on Quad, you gear up and set off, engines roaring, ready to conquer the shifting sands...
-    `,
+        schedule: `Embark on an exhilarating Quad and sandboarding adventure in the enchanting Merzouga
+        desert, where the vast expanses of the Sahara come alive under your wheels and at your
+        feet. Your journey begins at the desert's edge, greeted by the majestic dunes glowing under
+        a clear blue sky. After a safety briefing and a quick how-to on Quad, you gear up and set off,
+        engines roaring, ready to conquer the shifting sands.
+        The adventure takes you through a landscape of endless golden dunes, each ascent and
+        descent more thrilling than the last, mimicking the waves of a golden sea. The powerful
+        quads are your key to navigating this rugged terrain, offering both adrenaline-pumping speed
+        and moments of serene beauty. Between quad rides, you'll embrace the thrill of
+        sandboarding, sliding down the steep dunes, the sand beneath your board creating a unique
+        soundtrack to this desert experience.
+        Atop a high dune, the world pauses—engines off, boards set aside, the vast silence of the
+        Sahara engulfs you, showcasing a breathtaking panorama of timeless desert beauty, a sea of
+        sand stretching into infinity, glowing amber under the sunlight. This is a moment of profound
+        connection with the desert, a blend of exhilaration and peace.
+        In these moments of quiet, you might witness the desert's wildlife—a swift fox darting across
+        the dunes or a distant herd of camels, embodiments of the Sahara's wild and enduring spirit.
+        The return journey is a reflective path, with the setting sun painting the sky in shades of
+        orange and pink, casting long shadows over the desert and marking the end of an
+        unforgettable adventure.
+        This unique combination of quad biking and sandboarding in Merzouga is not just a thrilling
+        ride; it's a profound connection with nature, offering a unique blend of exhilaration, beauty,
+        and a deep sense of peace. As the desert fades into the distance, the memories of this
+        timeless landscape, the exhilaration of conquering its dunes on four wheels, and the thrill of
+        gliding down its slopes on a board will stay with you, a testament to the adventure and the
+        indomitable spirit of the Sahara.`,
         highlights: [
-            "Begin at Sahara's edge, under a clear blue sky",
-            'Safety first: Quad biking and sandboarding instructions',
+            'Begin at Sahara\'s edge, under a clear blue sky',
+            'Safety first : Quad biking and sandboarding instructions',
             'Ride quads over golden dunes for thrilling ascents and descents',
             'Slide down dunes: Experience the joy of sandboarding',
             'Pause atop high dunes for breathtaking panoramic views',
@@ -59,9 +87,19 @@ export const ACTIVITIES_MOCK: Activity[] = [
             'Insurance: Participants are covered by basic accident insurance, but travel insurance with coverage for adventure activities is highly recommended',
             'Guided Experience: All adventures are accompanied by experienced and knowledgeable guides to ensure safety and provide assistance',
         ],
-        summaryImg: '',
-        titleImg: '',
-        highlightImgs: [],
+        summaryImg: 'summary.jpg',
+        titleImg: 'title.jpg',
+        highlightImgs: [
+            'highlight_1.jpg',
+            'highlight_2.jpg',
+            'highlight_3.jpg',
+            'highlight_4.jpg',
+            'highlight_5.jpg',
+            'highlight_6.jpg',
+            'highlight_7.jpg',
+            'highlight_8.jpg',
+            'highlight_9.jpg',
+        ],
         mapLink: '',
     },
     {
@@ -140,8 +178,23 @@ export const ACTIVITIES_MOCK: Activity[] = [
     {
         id: 'marrakech-city-tour-hammam-dinner',
         title: 'Marrakech City Tour, Hammam & Traditional Dinner',
-        description:
-            'Experience the enchantment of Marrakech with our exclusive tour, blending the allure of ancient traditions with the vibrancy of contemporary life. Begin your journey with a convenient pickup, setting the stage for an unforgettable exploration of Jemaa El Fna Square, where the past and present merge seamlessly...',
+        description: `Experience the enchantment of Marrakech with our exclusive tour, blending the allure of
+ancient traditions with the vibrancy of contemporary life. Begin your journey with a
+convenient pickup, setting the stage for an unforgettable exploration of Jemaa El Fna
+Square, where the past and present merge seamlessly. Our expert guides will unveil the
+mysteries of Marrakech's rich history, leading you through the ancient medina, majestic
+Bahia Palace, and the historic Saadian Tombs. Immerse yourself in the bustling souks, where
+the air is fragrant with spices and the vibrant colors of artisan crafts captivate the senses.
+Navigate through Souk Smarine to the Rahba-Kedima square, a place teeming with history
+and local lore.
+As the day unfolds, our tour promises not only cultural enlightenment but also relaxation.
+Unwind in the luxury of Morocco's finest spas, choosing from a selection of rejuvenating
+programs tailored to your preferences. Afterwards, indulge in a culinary adventure at
+Marrakech's top dining destinations, where traditional Moroccan dishes meet unparalleled
+service and ambiance.
+Our commitment to your comfort and enjoyment is unwavering, we guarantee a seamless
+experience from start to finish. Join us for an exquisite journey through Marrakech, where
+every moment is a treasure waiting to be discovered.`,
         descriptionImg: '',
         pickUpTime: '09:00 local time your hotel/Riad',
         schedule: `
