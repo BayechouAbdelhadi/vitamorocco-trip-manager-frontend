@@ -14,49 +14,22 @@ export interface NavItem {
 }
 
 export const NAVBAR_ITEMS: NavItem[] = [
-    // {
-    //     text: 'Services',
-    //     href: '/services',
-    //     dropdown: [
-    //         {
-    //             text: 'Gallery',
-    //             href: '/services/gallery',
-    //             dropdown: [],
-    //             id: 'services-gallery',
-    //         },
-    //         {
-    //             text: 'FAQs',
-    //             href: '/services/faqs',
-    //             dropdown: [],
-    //             id: 'services-faqs',
-    //         },
-    //         {
-    //             text: 'Tips',
-    //             href: '/services/tips',
-    //             dropdown: [],
-    //             id: '/services-tips',
-    //         },
-    //     ],
-    //     id: 'services',
-
-    //     icon: <ServiceIcon />,
-    // },
     {
-        text: 'Gallery',
+        text: 'gallery',
         href: '/services/gallery',
         dropdown: [],
         id: 'services-gallery',
         icon: <GalleryIcon />,
     },
     {
-        text: 'Tips',
+        text: 'tips',
         href: '/services/tips',
         dropdown: [],
         id: 'services-tips',
         icon: <TipsAndUpdatesIcon />,
     },
     {
-        text: 'About',
+        text: 'about',
         href: '/about',
         dropdown: [],
         id: 'about',
@@ -64,7 +37,7 @@ export const NAVBAR_ITEMS: NavItem[] = [
         icon: <InfoIcon />,
     },
     {
-        text: 'Contact',
+        text: 'contact.title',
         href: '/contact',
         dropdown: [
             //FromDB

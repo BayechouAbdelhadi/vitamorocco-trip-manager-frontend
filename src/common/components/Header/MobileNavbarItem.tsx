@@ -4,14 +4,18 @@ import { IconButton, ListItem, ListItemButton, Typography } from '@mui/material'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { NavItem } from './constants';
+import { useTranslation } from 'react-i18next';
+import parse from 'html-react-parser';
 
 interface NavBarItemProps {
     navBarItem: NavItem;
     onSelect: () => void;
 }
 const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
-    const hasDropdown =( navBarItem.dropdown ??[]).length > 0;
+    const hasDropdown = (navBarItem.dropdown ?? []).length > 0;
     const [expanded, setExpanded] = useState<boolean>(false);
+
+    const { t } = useTranslation();
 
     const toggleExp = () => {
         setExpanded(!expanded);
@@ -29,7 +33,7 @@ const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
                             onClick={onSelect}
                         >
                             {navBarItem.icon}
-                            <Typography className="mobile-nav-bar-button-text">{navBarItem.text}</Typography>
+                            <Typography className="mobile-nav-bar-button-text">{parse(t(`${navBarItem.text}`))}</Typography>
                         </ListItemButton>
                         <IconButton onClick={toggleExp}>
                             {expanded ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
@@ -43,7 +47,7 @@ const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
                         onClick={onSelect}
                     >
                         {navBarItem.icon}
-                        <Typography className="mobile-nav-bar-button-text">{navBarItem.text}</Typography>
+                        <Typography className="mobile-nav-bar-button-text">{parse(t(`${navBarItem.text}`))}</Typography>
                     </ListItemButton>
                 )}
             </ListItem>

@@ -2,6 +2,10 @@ import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import DropDown from './DropDown';
 import { NavItem } from './constants';
+import { useTranslation } from 'react-i18next';
+import parse from 'html-react-parser';
+
+
 interface NavBarItemProps {
     navBarItem: NavItem;
     // anchorOrigin?: PopoverOrigin;
@@ -20,9 +24,10 @@ const NavbarItem = ({ navBarItem, type }: NavBarItemProps) => {
 };
 
 const SimpleNavbarItem = ({ navBarItem }: NavBarItemProps) => {
+    const { t } = useTranslation();
     return (
         <Button size="large" color="inherit" component={Link} to={navBarItem.href ?? '#'}>
-            {navBarItem.text}
+            {parse(t(`${navBarItem.text}`))}
         </Button>
     );
 };

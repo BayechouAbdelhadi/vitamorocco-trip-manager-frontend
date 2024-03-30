@@ -4,6 +4,7 @@ import { ERROR_TRANSLATION } from './error';
 
 export const TRANSLATION_EN = {
     // A
+    about: 'About',
     accomodation_type: 'Accomodation type',
     accept_all: 'Accept All',
     activities: {
@@ -19,16 +20,16 @@ export const TRANSLATION_EN = {
     category: 'Category',
     carousel: {
         0: {
-            title: 'Item 1, Note that the development build is not optimized.',
-            description: 'cliquer pour savoir plus'
+            title: 'Crafting Dreams into Stunning Realities',
+            description: 'Start your Dream with a Click'
         },
         1: {
-            title: 'Item 2, To create a production build, use npm run build.',
-            description: 'savoir plus sur ce tour'
+            title: 'From Excursions to Day Trips & Activities, we\'ve got everything covered.',
+            description: 'Dive into the Adventure'
         },
         2: {
-            title: 'Item 3, Note that the development build is not optimized.',
-            description: 'découvrir plus sur cette activité'
+            title: 'Personalized itineraries & Trips, experience unforgettable holidays across Morocco.',
+            description: 'Contact us now And start Tomorrow'
         },
     },
     consult_us: 'Consult Us',
@@ -63,6 +64,7 @@ export const TRANSLATION_EN = {
         tip_propina: 'Tips',
         What_s_not_mentioned_in_included: 'What\'s not mentioned in included'
     },
+    excursions: "Excursions",
     expenses: {
         name: 'Expenses',
         description: 'Fuel, tolls and all associated expenses.',
@@ -77,6 +79,7 @@ export const TRANSLATION_EN = {
     gallery: 'Gallery',
     // H
     highlights: 'Highlights',
+    home: 'Home',
     // I
     included_services: {
         local_guide: {
@@ -174,11 +177,24 @@ export const TRANSLATION_EN = {
     subject: 'Subject',
     submit: 'Submit',
     // T
+    tips: 'Tips',
+    tours: 'Tours',
     tour: 'Tour',
     trip_details: 'Trip details',
     // U
     // V
-    vita_morocco_definition: 'Vita Morocco is a local travel company, specialized in organizing trips, holidays, shared and private tours, honeymoon and different activities in Morocco.',
+    vita_morocco_definition: `<p>
+                        <strong>VITA MOROCCO</strong> is your ultimate travel companion for exploring the enchanting landscapes, vibrant cultures,
+                        and rich traditions of Morocco. Our mission is to inspire travelers to venture beyond their comfort zones,
+                        immersing themselves in the unique beauty and diversity that Morocco has to offer.
+                    </p>
+                    <p>
+                        From the bustling markets
+                        of Marrakech to the historic streets of Fes, we curate a wide array of <strong>Tours and Activities</strong> designed to cater to every
+                        adventurer&apos;s needs. Whether you&apos;re interested in <strong>Day trips, City excursions</strong>, or <strong>Guided tours</strong> through Morocco&apos;s most
+                        iconic cities, <strong>VITA MOROCCO</strong> equips you with all the essential information and tips to make your vacation truly unforgettable.
+                        Join us to enrich your life with new experiences and discoveries in Morocco.
+                    </p>`,
     vita_morocco_goal: 'Our goal is to provide the best iteneraries with real & authentic experience',
     // W
     welcome_to_vita_morocco: 'Welcome to Vita Morocco',

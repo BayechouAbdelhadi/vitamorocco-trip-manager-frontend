@@ -4,6 +4,7 @@ import { ERROR_TRANSLATION } from './error';
 
 export const TRANSLATION_FR = {
     // A
+    about: 'À propos',
     accept_all: 'Accepter tout',
     activities: {
         title: 'Activités',
@@ -15,16 +16,16 @@ export const TRANSLATION_FR = {
     // C
     carousel: {
         0: {
-            title: 'Article 1, Notez que la version de développement n\'est pas optimisée.',
-            description: 'cliquer pour en savoir plus'
+            title: 'Donner vie à vos rêves en des réalités éblouissantes',
+            description: 'Commencez votre rêve en un clic'
         },
         1: {
-            title: 'Article 2, Pour créer une version de production, utilisez npm run build.',
-            description: 'en savoir plus sur cette visite'
+            title: 'Des excursions aux sorties à la journée et aux activités, nous avons tout prévu.',
+            description: 'Plongez dans l\'aventure'
         },
         2: {
-            title: 'Article 3, Notez que la version de développement n\'est pas optimisée.',
-            description: 'découvrir plus sur cette activité'
+            title: 'Itinéraires et voyages personnalisés, vivez des vacances inoubliables à travers le Maroc.',
+            description: 'Contactez-nous maintenant et commencez demain'
         },
     },
     client_testimonials: 'Témoignages clients',
@@ -56,6 +57,7 @@ export const TRANSLATION_FR = {
         monuments_entrance: 'Entrées des monuments.',
         tip_propina: 'Conseils ou Propina.',
     },
+    excursions: "Excursions",
     expenses: {
         name: 'Frais',
         description: 'Carburant, péages et tous les frais associés.',
@@ -68,6 +70,7 @@ export const TRANSLATION_FR = {
     gallery: 'Galerie',
     // H
     highlights: 'Points forts',
+    home: 'Accueil',
     // I
     included_services: {
         local_guide: {
@@ -104,8 +107,8 @@ export const TRANSLATION_FR = {
     // O
     our_services: 'Nos services',
     // P
-    pick_up_and_drop_off_from_hotel: 'Heure de prise de départ',
-    pick_up_time_departure: 'Heure de prise de départ',
+    pick_up_and_drop_off_from_hotel: 'Heure de départ',
+    pick_up_time_departure: 'Heure de départ',
     pricing: 'Tarification',
     pricing_message:
         'Le prix dépend du nombre de participants. Ci-dessous, nous indiquons les prix en fonction des participants. Prenez votre décision et contactez-nous',
@@ -140,17 +143,30 @@ export const TRANSLATION_FR = {
             description: 'Découvrez une gamme captivante d\'itinéraires soigneusement conçus pour vous offrir des expériences de voyage inoubliables'
         },
         activities: {
-            title: 'activities',
-            description: 'plongez-vous dans une diversité d’expériences enrichissantes à découvrir dans notre pays. Des escapades culturelles aux aventures en plein air, explorez les possibilités infinies qui vous attendent'
+            title: 'activités',
+            description: 'plongez-vous dans une diversité d\'expériences enrichissantes à découvrir dans notre pays. Des escapades culturelles aux aventures en plein air, explorez les possibilités infinies qui vous attendent'
         },
     },
     special_request_description: 'Si vous préférez éviter les voyages organisés en grands groupes et appréciez une approche plus flexible, Vita Maroc simplifie votre expérience de voyage en vous permettant de partir à votre propre rythme, sans contraintes, et de personnaliser votre itinéraire selon vos goûts et intérêts.',
     submit: 'Soumettre',
     // T
+    tips: 'Conseils',
+    tours: 'Tours',
     tour: 'Tour',
     // U
     // V
-    vita_morocco_definition: 'Vita Maroc est une agence de voyage locale, spécialisée dans l\'organisation de voyages, vacances, circuits partagés et privés, lunes de miel et différentes activités au Maroc.',
+    vita_morocco_definition: `<p>
+                         <strong>VITA MOROCCO</strong> est votre compagnon de voyage ultime pour explorer les paysages enchanteurs, les cultures vibrantes,
+                         et les riches traditions du Maroc. Notre mission est d'inspirer les voyageurs à s'aventurer au-delà de leur zone de confort,
+                         s'immerger dans la beauté et la diversité uniques que le Maroc a à offrir.
+                     </p>
+                     <p>
+                         Des marchés animés
+                         de Marrakech aux rues historiques de Fès, nous organisons un large éventail de <strong>visites et activités</strong> conçues pour répondre à tous
+                         besoins des aventuriers. Que vous soyez intéressé par des <strong>excursions d'une journée, des excursions en ville</strong> ou des <strong>visites guidées</strong> à travers les régions les plus
+                         villes emblématiques, <strong>VITA MOROCCO</strong> vous fournit toutes les informations et conseils essentiels pour rendre vos vacances vraiment inoubliables.
+                         Rejoignez-nous pour enrichir votre vie de nouvelles expériences et découvertes au Maroc.
+                     </p>`,
     vita_morocco_goal: 'Notre objectif est de fournir les meilleurs itinéraires avec une expérience réelle et authentique',
     // W
     welcome_to_vita_morocco: 'Bienvenue chez Vita Maroc',

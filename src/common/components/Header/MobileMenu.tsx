@@ -6,6 +6,7 @@ import React from 'react';
 import useNavBar from '../../../hooks/front/useNavBar';
 import Logo from '../Logo';
 import MobileNavbarItem from './MobileNavbarItem';
+import LanguagePicker from '../lang';
 const drawerWidth = 300;
 
 interface MobileMenuProps {
@@ -40,7 +41,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isMobileMenuOpen, toggleMobileM
                 {navbarItems.map((navBarItem) => (
                     <MobileNavbarItem navBarItem={navBarItem} key={navBarItem.id} onSelect={toggleMobileMenu} />
                 ))}
-                {/* <LanguagePicker className="mobile-lang-picker" /> */}
+                <LanguagePicker className="mobile-lang-picker" />
             </List>
         </Drawer>
     );

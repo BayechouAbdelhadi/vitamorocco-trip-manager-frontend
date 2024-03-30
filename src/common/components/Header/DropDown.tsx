@@ -3,6 +3,8 @@ import Button from '@mui/material/Button'; // Import Material-UI's Button
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { NavItem } from './constants';
+import { useTranslation } from 'react-i18next';
+import parse from 'html-react-parser';
 
 interface DropDownProps {
     navBarItem: NavItem;
@@ -11,6 +13,8 @@ interface DropDownProps {
 
 function DropDown({ navBarItem, type }: DropDownProps) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const { t } = useTranslation();
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -39,7 +43,8 @@ function DropDown({ navBarItem, type }: DropDownProps) {
                 sx={{ width: '100%', height: '100%' }}
                 endIcon={<KeyboardArrowDownIcon />}
             >
-                {navBarItem.text}
+                {/* {navBarItem.text} */}
+                {parse(t(`${navBarItem.text}`))}
             </Button>
             {isMenuOpen && (
                 <div

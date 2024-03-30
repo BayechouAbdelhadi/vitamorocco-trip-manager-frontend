@@ -6,10 +6,12 @@ import React, { useState } from 'react';
 import Logo from '../Logo';
 import MobileMenu from './MobileMenu'; // Import the MobileMenu component
 import NavbarItem from './NavBarItem';
-import './Navbar.scss';
 import useNavBar from '../../../hooks/front/useNavBar';
 
 const mobileMenuId = 'primary-search-account-menu-mobile';
+
+import './Navbar.scss';
+import LanguagePicker from '../lang';
 
 const PrimarySearchAppBar: React.FC = () => {
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState<null | HTMLElement>(null);
@@ -35,7 +37,7 @@ const PrimarySearchAppBar: React.FC = () => {
                         {navLinks.map((navBarItem) => (
                             <NavbarItem key={navBarItem.id} navBarItem={navBarItem} type={'laptop'} />
                         ))}
-                        {/* <LanguagePicker className='lang-picker' /> */}
+                        <LanguagePicker className='lang-picker' />
                     </Box>
                     <Box
                         sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}

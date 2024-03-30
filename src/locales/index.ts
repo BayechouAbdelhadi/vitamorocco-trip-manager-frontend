@@ -4,6 +4,7 @@ import { TRANSLATION_FR } from './fr/translation';
 import { TRANSLATION_PT } from './pt/translation';
 
 import { FranceFlag, EnglishFlag, PortugalFlag, SpanishFlag } from '../common/components/Flags/Flags';
+
 export enum AvailableLanguage {
     FR = 'fr',
     EN = 'en',

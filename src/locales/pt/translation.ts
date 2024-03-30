@@ -4,6 +4,7 @@ import { ERROR_TRANSLATION } from './error';
 
 export const TRANSLATION_PT = {
     // A
+    about: 'Sobre',
     accept_all: 'Aceitar tudo',
     activities: {
         title: 'Atividades',
@@ -16,16 +17,16 @@ export const TRANSLATION_PT = {
     // C
     carousel: {
         0: {
-            title: 'Item 1, Observe que a versão de desenvolvimento não está otimizada.',
-            description: 'clique para obter mais informações'
+            title: 'Transformando Sonhos em Realidades Deslumbrantes',
+            description: 'Comece seu Sonho com um Clique'
         },
         1: {
-            title: 'Item 2, Para criar uma versão de produção, use npm run build.',
-            description: 'saber mais sobre este passeio'
+            title: 'De Excursões a Passeios e Atividades, temos tudo coberto.',
+            description: 'Mergulhe na Aventura'
         },
         2: {
-            title: 'Item 3, Observe que a versão de desenvolvimento não está otimizada.',
-            description: 'descubra mais sobre esta atividade'
+            title: 'Roteiros e Viagens personalizadas, experimente férias inesquecíveis por todo Marrocos.',
+            description: 'Entre em contato agora e comece amanhã'
         },
     },
     contact: {
@@ -56,6 +57,7 @@ export const TRANSLATION_PT = {
         monuments_entrance: 'Entradas dos monumentos.',
         tip_propina: 'Gorjetas ou Propina.',
     },
+    excursions: "Excursões",
     expenses: {
         name: 'Despesas',
         description: 'Combustível, pedágios e todas as despesas associadas.',
@@ -68,6 +70,7 @@ export const TRANSLATION_PT = {
     gallery: 'Galeria',
     // H
     highlights: 'Destaques',
+    home: 'Início',
     // I
     included_services: {
         local_guide: {
@@ -104,8 +107,8 @@ export const TRANSLATION_PT = {
     // O
     our_services: 'Nossos serviços',
     // P
-    pick_up_and_drop_off_from_hotel: 'Hora de retirada da saída',
-    pick_up_time_departure: 'Hora de retirada da saída',
+    pick_up_and_drop_off_from_hotel: 'Hora da saída',
+    pick_up_time_departure: 'Hora da saída',
     pricing: 'Precificação',
     pricing_message:
         'O preço depende do número de participantes. Abaixo, indicamos os preços de acordo com os participantes. Decida-se e entre em contato conosco',
@@ -147,12 +150,26 @@ export const TRANSLATION_PT = {
     special_request_description: 'Se preferir evitar viagens organizadas em grandes grupos e apreciar uma abordagem mais flexível, a Vita Marrocos simplifica sua experiência de viagem, permitindo que você vá no seu próprio ritmo, sem restrições, e personalize seu itinerário de acordo com seus gostos e interesses.',
     submit: 'Enviar',
     // T
+    tips: 'Dicas',
+    tours: 'Tours',
+    tour: 'Tour',
     tour_details: 'Detalhes do passeio',
     TRANSLATION_PT: 'Tradução PT',
     trip_details: 'Detalhes da viagem',
     // U
     // V
-    vita_morocco_definition: 'Vita Marrocos é uma empresa de viagens local, especializada em organizar viagens, férias, passeios compartilhados e privados, lua de mel e diferentes atividades em Marrocos.',
+    vita_morocco_definition: `<p>
+                         <strong>VITA MOROCCO</strong> é o seu melhor companheiro de viagem para explorar paisagens encantadoras, culturas vibrantes,
+                         e ricas tradições de Marrocos. Nossa missão é inspirar os viajantes a se aventurarem além de suas zonas de conforto,
+                         mergulhando na beleza e diversidade únicas que Marrocos tem para oferecer.
+                     </p>
+                     <p>
+                         Dos mercados movimentados
+                         de Marrakech às ruas históricas de Fez, organizamos uma ampla variedade de <strong>passeios e atividades</strong> projetados para atender a todos
+                         necessidades do aventureiro. Se você está interessado em <strong>viagens de um dia, excursões pela cidade</strong> ou <strong>visitas guiadas</strong> pelas regiões mais
+                         cidades icônicas, <strong>VITA MOROCCO</strong> fornece todas as informações e dicas essenciais para tornar suas férias verdadeiramente inesquecíveis.
+                         Junte-se a nós para enriquecer a sua vida com novas experiências e descobertas em Marrocos.
+                     </p>`,
     vita_morocco_goal: 'Nosso objetivo é fornecer os melhores itinerários com uma experiência real e autêntica',
     // W
     welcome_to_vita_morocco: 'Bem-vindo à Vita Marrocos',

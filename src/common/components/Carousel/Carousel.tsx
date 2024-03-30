@@ -83,8 +83,8 @@ export default function Carousel({ images, slideInterval = 6000, maxWidth = '100
                                 onError={defaultImage.large.errorHandler}
                             />
                             <div className="img-slider-content">
-                                <h2>{images[imageIndex].title}</h2>
-                                <Link to={images[imageIndex].link}><i>{images[imageIndex].description}</i></Link>
+                                <h2>{t(`carousel.${imageIndex}.title`)}</h2>
+                                <Link to={images[imageIndex].link}><i>{t(`carousel.${imageIndex}.description`)}</i></Link>
                             </div>
                         </div>
                     ))}

@@ -14,7 +14,7 @@ export const buildnavbarItems = (
 ): NavItem[] => {
     return [
         {
-            text: 'Home',
+            text: 'home',
             href: '/',
             dropdown: [],
             id: 'home',
@@ -22,7 +22,7 @@ export const buildnavbarItems = (
             icon: <HomeIcon />,
         },
         {
-            text: 'Excursions',
+            text: 'excursions',
             href: '/excursions',
             dropdown: [
                 {
@@ -42,7 +42,7 @@ export const buildnavbarItems = (
             icon: <DirectionsBusIcon />,
         },
         {
-            text: 'Tours',
+            text: 'tours',
             href: '/tours',
             dropdown: [
                 {
@@ -63,7 +63,7 @@ export const buildnavbarItems = (
             icon: <TourIcon />,
         },
         {
-            text: 'Activities',
+            text: 'activities.title',
             href: '/activities',
             dropdown: [
                 {
