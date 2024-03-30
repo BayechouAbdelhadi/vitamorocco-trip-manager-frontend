@@ -7,6 +7,7 @@ import { Excursion } from '../types/excursion';
 import { NAVBAR_ITEMS, NavItem } from './Header/constants';
 
 export const TOUR_ORIGIN_QUERY_NAME = 'origin';
+
 export const buildnavbarItems = (
     excursions: Excursion[],
     availableToursOrigins: string[],

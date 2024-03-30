@@ -45,6 +45,7 @@ export const TRANSLATION_ES = {
     description: 'Descripción',
     destination: 'Destino',
     destination_details: 'Detalles del destino',
+    discover_the_essence_of_morocco_with_us: 'Descubre la esencia de Marruecos con nosotros.',
     driver_guide: {
         name: 'Guía de conductor',
         description: 'Español, Inglés, Francés',
@@ -66,7 +67,10 @@ export const TRANSLATION_ES = {
     explore_morocco_with_us: 'Explora Marruecos con nosotros',
     // F
     faqs: 'Preguntas frecuentes',
-    firstName: 'Nombre',
+    firstName: 'nombre de pila',
+    free: 'Gratis',
+    from: 'Desde',
+    full_detailed_itinerary: "Itinerario completo detallado",
     // G
     gallery: 'Galería',
     // H
@@ -108,6 +112,7 @@ export const TRANSLATION_ES = {
     // N
     // O
     our_services: 'Nuestros servicios',
+    our_exclusive_routes_and_itineraries: 'Nuestras Rutas e Itinerarios Exclusivos',
     // P
     pick_up_and_drop_off_from_hotel: 'Hora de salida',
     pick_up_time_departure: 'Hora de salida',
@@ -158,7 +163,32 @@ export const TRANSLATION_ES = {
     // T
     tips: 'Consejos',
     tours: 'Tours',
+    tours_and_itineraries: 'Tours e Itinerarios',
     tour: 'Tour',
+    tours_description: `<p>
+                          <strong>VITA MOROCCO</strong> ofrece una experiencia de viaje única, personalizada y a medida
+                          específicamente a sus preferencias y deseos de descubrir Marruecos. Nuestro enfoque garantiza que
+                          usted está en el centro de su viaje, ofreciendo la oportunidad de sumergirse en el
+                          vibrante cultura marroquí en sus propios términos.
+                      </p>
+                      <p>
+                          Con <strong>VITA MOROCCO</strong> planificar su viaje es muy sencillo. Háganos saber acerca de su
+                          días disponibles, el tamaño de su grupo, su estilo de alojamiento preferido (Riad / Hotel /
+                          Villa), categoría (Lujo, Estándar o Superior) y sus intereses o actividades deseadas. Nosotros
+                          Organizará cuidadosamente cada aspecto según tus gustos. Nuestros itinerarios a medida se entregan
+                          con opciones de transporte privado y cómodo, Mini-vans, Toyota 4x4 o Minibus, acompañados
+                          por conductores experimentados y guías de habla inglesa y española apasionados por compartir la
+                          riqueza de la vida marroquí contigo.
+                      </p>
+                      <p>
+                          Para aquellos que buscan inspiración, ofrecemos una selección de sugerencias de itinerarios adaptables, diseñadas para
+                          atender a una amplia gama de intereses y preferencias, garantizando un viaje verdaderamente personalizado
+                          experiencia.
+                      </p>
+                      <p>
+                          Deja que <strong>VITA MOROCCO</strong> transforme tu visita a Marruecos en un momento inolvidable
+                          aventura.
+                      </p>`,
     tour_details: 'Detalles del tour',
     TRANSLATION_ES: 'Traducción ES',
     trip_details: 'Detalles del viaje',
