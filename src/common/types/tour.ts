@@ -8,11 +8,8 @@ export type Tour = {
     departureCity: string;
     departurePickupTime: string;
     returnPickupTime: string;
-    journeyTime: number;
-    journeyTimeUnit: string;
     highlights: string[];
     pricing: string[];
-    journeyUnit: string;
     duration: number;
     durationUnit: string;
     frequency: string;
@@ -35,11 +32,8 @@ export type TourMock = {
     departureCity: string;
     departurePickupTime: string;
     returnPickupTime: string;
-    journeyTime?: number;
-    journeyTimeUnit?: string;
     highlights: Translation[];
     pricing: Translation[];
-    journeyUnit?: string;
     duration: number;
     durationUnit: string;
     frequency: Translation;

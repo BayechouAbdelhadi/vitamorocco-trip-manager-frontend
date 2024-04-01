@@ -168,8 +168,8 @@ export const _5_days_special_offer_marrakech_to_sahara_desert: TourMock = {
     departureCity: 'Marrakech',
     departurePickupTime: '08:00 AM',
     returnPickupTime: '05:30 PM',
-    journeyTime: 4,
-    journeyTimeUnit: 'hours',
+    // journeyTime: 4,
+    // journeyTimeUnit: 'hours',
     highlights: [
         {
             en: 'Visit the secrets of Marrakech on Guided City Tour.',
