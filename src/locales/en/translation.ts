@@ -87,6 +87,7 @@ export const TRANSLATION_EN = {
     first_name: 'First Name',
     free: 'Free',
     from: 'From',
+    from_origin:'From {{o}}',
     full_detailed_itinerary: "Full detailed Itinerary",
     // G
     gallery: 'Gallery',

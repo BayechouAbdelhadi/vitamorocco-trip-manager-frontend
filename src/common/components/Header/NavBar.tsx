@@ -37,7 +37,7 @@ const PrimarySearchAppBar: React.FC = () => {
                         {navLinks.map((navBarItem) => (
                             <NavbarItem key={navBarItem.id} navBarItem={navBarItem} type={'laptop'} />
                         ))}
-                        <LanguagePicker className='lang-picker' />
+                        <LanguagePicker className="lang-picker" />
                     </Box>
                     <Box
                         sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}

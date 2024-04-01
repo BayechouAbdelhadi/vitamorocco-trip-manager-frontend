@@ -14,6 +14,7 @@ import TourInformation from './TourInformation';
 import { TourPricing } from './TourPricing';
 import { TourSteps } from './TourSteps';
 
+import { currentLanguage } from '../../common/utils';
 import { ContactForm } from '../Contact/Contact';
 import '../Excursions//Excursion.scss';
 import './Tour.scss';

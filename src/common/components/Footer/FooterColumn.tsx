@@ -1,27 +1,25 @@
 import ExpandIcon from '@mui/icons-material/ExpandMore';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { HashLink } from 'react-router-hash-link';
 import { NavItem } from '../Header/constants';
-import { useTranslation } from 'react-i18next';
 import Logo from '../Logo';
 
-
+import parse from 'html-react-parser';
 import './FooterColumn.scss';
 
 function FooterLink({ text, href, is_blank_target: isBlankTarget = false }: NavItem) {
+    const { t } = useTranslation();
+    if (!text) return null;
     // open external link
     if (isBlankTarget) {
-        return (
-            <a href={href}>
-                {text}
-            </a>
-        );
+        return <a href={href}>{parse(typeof text === 'string' ? t(text) : t(text.key, text.args))}</a>;
     }
 
     // internal link (belongs to this website)
     return (
         <HashLink smooth to={`${href}#top`}>
-            {text}
+            {parse(typeof text === 'string' ? t(text) : t(text.key, text.args))}
         </HashLink>
     );
 }
@@ -36,8 +34,7 @@ function FooterColumn({ navItem: { text, is_logo: isLogo = false, dropdown = [] 
     return (
         <div>
             <div className="column-title" onClick={() => setExpanded(!expanded)}>
-
-                {text ? <h3>{t(text)}</h3> : <Logo />}
+                {text ? <h3>{parse(typeof text === 'string' ? t(text) : t(text.key, text.args))}</h3> : <Logo />}
 
                 {!isLogo && dropdown.length != 0 && (
                     <ExpandIcon

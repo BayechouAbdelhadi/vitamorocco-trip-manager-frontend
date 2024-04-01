@@ -1,9 +1,10 @@
 import LanguageIcon from '@mui/icons-material/Language';
 import { Button, Menu, MenuItem } from '@mui/material';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useQueryClient } from 'react-query';
 import { AvailableLanguage, languages } from '../../../locales';
+import { currentLanguage } from '../../utils';
 // import applicationConfigurationService from '../../services/applicationConfigurationService';
 interface LanguagePickerProps {
     className?: string;
@@ -17,6 +18,11 @@ const LanguagePicker = ({ className = '' }: LanguagePickerProps): JSX.Element =>
     const handleLanguageChange = (event: React.MouseEvent<HTMLButtonElement>) => {
         setAnchorEl(event.currentTarget);
     };
+
+    useEffect(() => {
+        setSelectedLanguage(currentLanguage);
+        i18n.changeLanguage(currentLanguage);
+    }, []);
 
     const handleClose = (language: AvailableLanguage) => {
         // applicationConfigurationService
@@ -33,8 +39,9 @@ const LanguagePicker = ({ className = '' }: LanguagePickerProps): JSX.Element =>
         setAnchorEl(null);
         setSelectedLanguage(language);
         i18n.changeLanguage(language);
-        localStorage.setItem("language", language)
+        localStorage.setItem('language', language);
         queryClient.invalidateQueries(undefined);
+        window.location.reload();
     };
 
     return (

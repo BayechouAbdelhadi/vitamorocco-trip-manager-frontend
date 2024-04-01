@@ -80,6 +80,7 @@ export const TRANSLATION_PT = {
     firstName: 'primeiro nome',
     free: 'Grátis',
     from: 'De',
+    from_origin: 'De {{o}}',
     full_detailed_itinerary: "Itinerário completo detalhado",
     // G
     gallery: 'Galeria',

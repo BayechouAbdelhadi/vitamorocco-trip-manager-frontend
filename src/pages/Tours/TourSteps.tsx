@@ -1,9 +1,9 @@
 import { Accordion, AccordionSummary, AccordionDetails, Typography } from "@mui/material"
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Step } from '../../common/types/excursion';
 import PanedSection from "../../common/components/panes/SectionedPanes";
 import { useTranslation } from "react-i18next";
 import parse from 'html-react-parser';
+import { Step } from "../../common/types/tour";
 
 interface TourStepsProps {
     steps: Step[]

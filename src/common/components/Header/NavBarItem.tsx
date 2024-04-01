@@ -1,10 +1,9 @@
 import { Button } from '@mui/material';
+import parse from 'html-react-parser';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import DropDown from './DropDown';
 import { NavItem } from './constants';
-import { useTranslation } from 'react-i18next';
-import parse from 'html-react-parser';
-
 
 interface NavBarItemProps {
     navBarItem: NavItem;
@@ -25,9 +24,12 @@ const NavbarItem = ({ navBarItem, type }: NavBarItemProps) => {
 
 const SimpleNavbarItem = ({ navBarItem }: NavBarItemProps) => {
     const { t } = useTranslation();
+    if (!navBarItem.text) return null;
     return (
         <Button size="large" color="inherit" component={Link} to={navBarItem.href ?? '#'}>
-            {parse(t(`${navBarItem.text}`))}
+            {parse(
+                typeof navBarItem.text === 'string' ? t(navBarItem.text) : t(navBarItem.text.key, navBarItem.text.args)
+            )}
         </Button>
     );
 };

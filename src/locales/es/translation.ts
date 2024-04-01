@@ -20,15 +20,15 @@ export const TRANSLATION_ES = {
     carousel: {
         0: {
             title: 'Convirtiendo Sueños en Realidades Asombrosas',
-            description: 'Comienza tu Sueño con un Clic'
+            description: 'Comienza tu Sueño con un Clic',
         },
         1: {
             title: 'Desde Excursiones hasta Viajes de un Día y Actividades, lo tenemos todo cubierto.',
-            description: 'Sumérgete en la Aventura'
+            description: 'Sumérgete en la Aventura',
         },
         2: {
             title: 'Itinerarios y Viajes personalizados, experimenta vacaciones inolvidables por todo Marruecos.',
-            description: 'Contáctanos ahora y comienza mañana'
+            description: 'Contáctanos ahora y comienza mañana',
         },
     },
     contact: {
@@ -56,13 +56,13 @@ export const TRANSLATION_ES = {
     // E
     email: 'Correo electrónico',
     ERROR_TRANSLATION, // Suponiendo que ERROR_TRANSLATION es un objeto con su propio orden alfabético
-    essential_tips_and_advice_for_traveling_to_morocco: "Consejos y tips esenciales para viajar a Marruecos",
+    essential_tips_and_advice_for_traveling_to_morocco: 'Consejos y tips esenciales para viajar a Marruecos',
     excluded_services: {
         food_drink: 'Comida y bebida.',
         monuments_entrance: 'Entradas de los monumentos.',
         tip_propina: 'Propinas o Propina.',
     },
-    excursions: "Excursiones",
+    excursions: 'Excursiones',
     excursions_and_day_trips: 'Excursiones y excursiones de un día',
     excursions_description: `<p>
                          Explore nuestra selección curada de excursiones populares de un día con salida desde Marrakech, diseñadas para atender a
@@ -81,14 +81,16 @@ export const TRANSLATION_ES = {
     firstName: 'nombre de pila',
     free: 'Gratis',
     from: 'Desde',
-    full_detailed_itinerary: "Itinerario completo detallado",
+    from_origin: 'Desde {{o}}',
+    full_detailed_itinerary: 'Itinerario completo detallado',
     // G
     gallery: 'Galería',
     // H
     highlights: 'Aspectos destacados',
     home: 'Inicio',
     // I
-    if_you_have_more_questions: '¿Nuestras preguntas frecuentes abordaron sus consultas de manera efectiva? Si tiene más preguntas, estamos aquí para ayudarle más.',
+    if_you_have_more_questions:
+        '¿Nuestras preguntas frecuentes abordaron sus consultas de manera efectiva? Si tiene más preguntas, estamos aquí para ayudarle más.',
     included_services: {
         local_guide: {
             name: 'Guía local',

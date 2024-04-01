@@ -5,7 +5,7 @@ import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 export interface NavItem {
     id?: string;
     href?: string;
-    text?: string;
+    text?: string | { key: string; args: Record<string, string> };
     dropdown?: NavItem[];
     icon?: JSX.Element;
     description?: string;

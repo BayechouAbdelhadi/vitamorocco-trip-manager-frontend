@@ -1,11 +1,11 @@
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { IconButton, ListItem, ListItemButton, Typography } from '@mui/material';
+import parse from 'html-react-parser';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { NavItem } from './constants';
-import { useTranslation } from 'react-i18next';
-import parse from 'html-react-parser';
 
 interface NavBarItemProps {
     navBarItem: NavItem;
@@ -33,7 +33,9 @@ const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
                             onClick={onSelect}
                         >
                             {navBarItem.icon}
-                            <Typography className="mobile-nav-bar-button-text">{parse(t(`${navBarItem.text}`))}</Typography>
+                            <Typography className="mobile-nav-bar-button-text">
+                                {parse(t(`${navBarItem.text}`))}
+                            </Typography>
                         </ListItemButton>
                         <IconButton onClick={toggleExp}>
                             {expanded ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
@@ -61,7 +63,13 @@ const MobileNavbarItem = ({ navBarItem, onSelect }: NavBarItemProps) => {
                         onClick={onSelect}
                     >
                         {dropDownItem.icon}
-                        <Typography className="mobile-nav-bar-button-text">{dropDownItem.text}</Typography>
+                        {dropDownItem.text && (
+                            <Typography className="mobile-nav-bar-button-text">
+                                {typeof dropDownItem.text === 'string'
+                                    ? t(dropDownItem.text)
+                                    : t(dropDownItem.text.key, dropDownItem.text.args)}
+                            </Typography>
+                        )}
                     </ListItemButton>
                 ))}
             </div>

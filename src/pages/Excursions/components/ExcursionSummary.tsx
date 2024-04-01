@@ -1,43 +1,43 @@
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import DoDisturbIcon from '@mui/icons-material/DoDisturb';
+import FlightLandIcon from '@mui/icons-material/FlightLand';
+import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
+import HailIcon from '@mui/icons-material/Hail';
+import HourglassTopIcon from '@mui/icons-material/HourglassTop';
+import ShutterSpeedIcon from '@mui/icons-material/ShutterSpeed';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import { useNavigate } from 'react-router-dom';
-import ShareButton from '../../../common/components/Buttons/ShareButton/ShareButton';
 import { Excursion } from '../../../common/types/excursion';
-import { defaultImage } from '../../../common/utils/imageUtils';
 import { scrollToTop } from '../../../common/utils';
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import HailIcon from '@mui/icons-material/Hail';
-import HourglassTopIcon from '@mui/icons-material/HourglassTop';
-import ShutterSpeedIcon from '@mui/icons-material/ShutterSpeed';
-import DoDisturbIcon from '@mui/icons-material/DoDisturb';
-import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
-import FlightLandIcon from '@mui/icons-material/FlightLand';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import { defaultImage } from '../../../common/utils/imageUtils';
 
 import { useTranslation } from 'react-i18next';
-
+import { Tour } from '../../../common/types/tour';
 
 interface ExcursionSummaryProps {
-    readonly excursion: Excursion;
-    type?: string
+    readonly excursion: Excursion | Tour;
+    type?: string;
 }
 
 export default function ExcursionSummary({ excursion, type = 'excursions' }: ExcursionSummaryProps): JSX.Element {
     const navigate = useNavigate();
     const goToExcursion = () => {
         navigate(`./${excursion.id}`, { relative: 'path' });
-        scrollToTop()
+        scrollToTop();
     };
 
     const { t } = useTranslation();
 
-    const duration = type === 'tours' ?
-        `${excursion?.duration} ${excursion?.durationUnit}s / ${excursion?.duration - 1} Nights` : `1 Day`
+    const duration =
+        type === 'tours'
+            ? `${excursion?.duration} ${excursion?.durationUnit}s / ${excursion?.duration - 1} Nights`
+            : `1 Day`;
 
     return (
         <Card className="excursion-summary-card-container" onClick={goToExcursion}>
@@ -52,7 +52,7 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
             <CardMedia
                 component="img"
                 height="250"
-                loading='lazy'
+                loading="lazy"
                 image={`/img/${type}/${excursion.id}/${excursion.summaryImg}`}
                 alt={`excursion ${excursion.title}`}
                 onError={defaultImage.small.errorHandler}
@@ -69,7 +69,8 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
                     </li>
                     <li className="li-summary">
                         <ShutterSpeedIcon color="primary" />
-                        <strong>{t('pick_up_time_departure')} :</strong>&nbsp;{excursion?.departurePickupTime} ({t('local_time')})
+                        <strong>{t('pick_up_time_departure')} :</strong>&nbsp;{excursion?.departurePickupTime} (
+                        {t('local_time')})
                     </li>
                     <li className="li-summary">
                         <HailIcon color="primary" />

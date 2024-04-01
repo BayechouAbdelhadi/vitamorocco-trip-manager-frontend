@@ -53,7 +53,7 @@ export const buildnavbarItems = (
                     dropdown: [],
                 },
                 ...availableToursOrigins.map((o) => ({
-                    text: `From ${o}`,
+                    text: { key: 'from_origin', args: { o: o } },
                     href: `/tours?${TOUR_ORIGIN_QUERY_NAME}=${o}`,
                     id: o,
                     dropdown: [],
