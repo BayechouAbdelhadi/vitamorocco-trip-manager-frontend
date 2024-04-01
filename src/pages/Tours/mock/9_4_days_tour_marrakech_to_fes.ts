@@ -130,8 +130,8 @@ export const _4_days_tour_marrakech_to_fes: TourMock = {
     departureCity: 'Marrakech',
     departurePickupTime: '08:00 AM',
     returnPickupTime: '05:30 PM',
-    journeyTime: 4,
-    journeyTimeUnit: 'hours',
+    // journeyTime: 4,
+    // journeyTimeUnit: 'hours',
     highlights: [
         {
             "en": "Stop at panoramic viewpoints to admire views of valleys and Berber villages.",

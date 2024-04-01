@@ -116,8 +116,8 @@ export const _4_days_tour_from_marrakech_to_merzouga_sahara_desert: TourMock = {
     departureCity: 'Marrakech',
     departurePickupTime: '08:00 AM',
     returnPickupTime: '05:30 PM',
-    journeyTime: 4,
-    journeyTimeUnit: 'hours',
+    // journeyTime: 4,
+    // journeyTimeUnit: 'hours',
     highlights: [
         {
             en: "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",

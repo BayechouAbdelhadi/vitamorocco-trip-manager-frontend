@@ -1,9 +1,13 @@
-import { TourMock } from "../../../common/types/tour";
+import { TourMock } from '../../../common/types/tour';
 
-const _3_days_tour_fes_to_merzouga_sahara_desert :TourMock = {
+const _3_days_tour_fes_to_merzouga_sahara_desert: TourMock = {
     id: '3_days_tour_fes_to_merzouga_sahara_desert',
     title: {
         en: '3 Days Tour Fes to Merzouga Sahara Desert',
+        fr: 'Tour de 3 jours de Fès à Merzouga Sahara Desert',
+        es: 'Tour de 3 días de Fez a Merzouga Sahara Desert',
+        pt: 'Tour de 3 dias de Fez a Merzouga Sahara Desert',
+        ar: 'جولة 3 أيام من فاس إلى صحراء مرزوقة',
     },
     summaryImg: 'summary.jpg',
     titleImg: 'title.jpg',
@@ -180,8 +184,8 @@ const _3_days_tour_fes_to_merzouga_sahara_desert :TourMock = {
     departureCity: 'Fes',
     departurePickupTime: '08:00 AM',
     returnPickupTime: '05:30 PM',
-    journeyTime: 4,
-    journeyTimeUnit: 'hours',
+    // journeyTime: 4,
+    // journeyTimeUnit: 'hours',
     highlights: [
         {
             en: "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
@@ -295,283 +299,51 @@ const _3_days_tour_fes_to_merzouga_sahara_desert :TourMock = {
     ],
     steps: [
         {
-            en: {
-                title: 'Fes - Atlas Mountains - Ifrane - Azrou - Ziz Valley - Merzouga Sahara Desert (Camel Adventure & overnight in desert camp)',
-                description: `Around 8:00 Am our Driver/guide will pick you up from Your Hotel/Riad in Fes. Then,
-                    start our 3-day Sahara Desert tour from Fes to Marrakech passing through the middle
-                    Atlas Mountains. The first stop in our Fes Sahara Marrakech trip will be in “Ifrane” city,
-                    known as the “Switzerland of Morocco”.<br/><br/>
-                    There you will enjoy Ifrane stunning views &
-                    Forest. Afterward, We will have a stop in “Azrou” to see the monkeys in the cedar forest
-                    (Barbary Macaque). We will have time to take pictures with monkeys on the road. Our
-                    Private 3-day desert trip Fes to Marrakech Continuous to “Midelt” city for a lunch in a
-                    local restaurant (Optional).<br/><br/>
-                    Later, we will head toward the Sahara Desert, we will pass through “Tizi n'Talghamt
-                    pass” to reach “Errachidia” city while admiring the views of Ziz gorges. Furthermore, We
-                    will have free time to take pictures & Memorable moments in the panoramic views of
-                    “Ziz valley”. Our road trip continues to Merzouga Erg Chebbi across Tafilalte Oasis
-                    “Aoufous” & “Erfoud” (Known for its fossils Museums and dates). We will have a visit to a
-                    local fossils craft workshop. (optional)<br/><br/>
-                    Then we will Arrive to Merzouga, you will have free time take an outdoor Merzouga
-                    activity, like ATV quad adventure, to enjoy the charming sunset on the top of Erg Chebbi
-                    sand dunes. Overnight stay in a Riad near Merzouga sand dunes.`,
+            title: {
+                en: 'Fes - Atlas Mountains - Ifrane - Azrou - Ziz Valley - Merzouga Sahara Desert (Camel Adventure & overnight in desert camp)',
+                fr: "Fès - Montagnes de l'Atlas - Ifrane - Azrou - Vallée du Ziz - Merzouga Désert du Sahara (Aventure à dos de chameau et nuit en camp du désert)",
+                es: 'Fez - Montañas del Atlas - Ifrane - Azrou - Valle del Ziz - Desierto del Sahara Merzouga (Aventura en camello y alojamiento en campamento en el desierto)',
+                pt: 'Fes - Montanhas Atlas - Ifrane - Azrou - Vale Ziz - Deserto Merzouga do Saara (aventura de camelo e pernoite em acampamento no deserto)',
+                ar: 'فاس - جبال الأطلس - إفران - أزرو - وادي زيز - صحراء مرزوقة (مغامرة الجمل والمبيت في مخيم صحراوي)',
             },
-            fr: {
-                title: "Fès - Montagnes de l'Atlas - Ifrane - Azrou - Vallée du Ziz - Merzouga Désert du Sahara (Aventure à dos de chameau et nuit en camp du désert)",
-                description: `Vers 8h00, notre chauffeur/guide viendra vous chercher à votre hôtel/riad à Fès. Alors,
-                 commencez notre circuit de 3 jours dans le désert du Sahara de Fès à Marrakech en passant par le milieu
-                 Atlas. La première étape de notre voyage Fès Sahara Marrakech sera dans la ville « Ifrane »,
-                 connue sous le nom de «Suisse du Maroc».<br/><br/>
-                 Là, vous profiterez d'une vue imprenable sur Ifrane et
-                 Forêt. Ensuite, nous ferons un arrêt à « Azrou » pour voir les singes dans la forêt de cèdres.
-                 (Macaque de Barbarie). Nous aurons le temps de prendre des photos avec des singes sur la route. Notre
-                 Voyage privé de 3 jours dans le désert de Fès à Marrakech Continuation vers la ville de « Midelt » pour un déjeuner dans un
-                 restaurant local (facultatif).<br/><br/>
-                 Plus tard, nous nous dirigerons vers le désert du Sahara, nous passerons par « Tizi n'Talghamt
-                 col » pour rejoindre la ville « Errachidia » en admirant la vue sur les gorges du Ziz. De plus, nous
-                 aura du temps libre pour prendre des photos et des moments mémorables dans les vues panoramiques de
-                 «Vallée du Ziz». Notre road trip se poursuit vers Merzouga Erg Chebbi en passant par l'oasis de Tafilalte.
-                 « Aoufous » & « Erfoud » (Connu pour ses musées de fossiles et ses dates). Nous aurons une visite à un
-                 atelier local d'artisanat de fossiles. (facultatif)<br/><br/>
-                 Ensuite, nous arriverons à Merzouga, vous aurez du temps libre pour profiter d'un Merzouga en plein air.
-                 activité, comme l'aventure en VTT quad, pour profiter du charmant coucher de soleil au sommet de l'Erg Chebbi
-                 dunes de sable. Nuitée dans un Riad près des dunes de sable de Merzouga.`,
-            },
-
-            es: {
-                title: 'Fez - Montañas del Atlas - Ifrane - Azrou - Valle del Ziz - Desierto del Sahara Merzouga (Aventura en camello y alojamiento en campamento en el desierto)',
-                description: `Alrededor de las 8:00 am, nuestro conductor/guía lo recogerá de su hotel/Riad en Fez. Entonces,
-                     Comience nuestro recorrido de 3 días por el desierto del Sahara desde Fez a Marrakech pasando por el centro.
-                     Montañas del Atlas. La primera parada de nuestro viaje Fez Sahara Marrakech será en la ciudad de “Ifrane”,
-                     conocida como la “Suiza de Marruecos”.<br/><br/>
-                     Allí podrá disfrutar de las impresionantes vistas de Ifrane y
-                     Bosque. Luego, haremos una parada en "Azrou" para ver los monos en el bosque de cedros.
-                     (Macaco de Berbería). Tendremos tiempo para tomar fotografías con monos en el camino. Nuestro
-                     Viaje privado de 3 días al desierto de Fez a Marrakech Continúe hasta la ciudad "Midelt" para almorzar en un
-                     restaurante local (Opcional).<br/><br/>
-                     Posteriormente nos dirigiremos hacia el Desierto del Sahara, pasaremos por “Tizi n'Talghamt
-                     pase” para llegar a la ciudad de “Errachidia” mientras admira las vistas de las gargantas del Ziz. Además, nosotros
-                     Tendrá tiempo libre para tomar fotografías y momentos memorables en las vistas panorámicas de
-                     “Valle del Ziz”. Nuestro viaje por carretera continúa hacia Merzouga Erg Chebbi a través del Oasis de Tafilalte.
-                     “Aoufous” y “Erfoud” (Conocido por sus museos de fósiles y fechas). Tendremos una visita a un
-                     Taller de artesanía local de fósiles. (opcional)<br/><br/>
-                     Luego llegaremos a Merzouga, tendrá tiempo libre para tomar un Merzouga al aire libre.
-                     Actividad, como aventura en quad, para disfrutar de la encantadora puesta de sol en la cima de Erg Chebbi.
-                     dunas de arena. Pasar la noche en un Riad cerca de las dunas de arena de Merzouga.`,
-            },
-
-            pt: {
-                title: 'Fes - Montanhas Atlas - Ifrane - Azrou - Vale Ziz - Deserto Merzouga do Saara (aventura de camelo e pernoite em acampamento no deserto)',
-                description: `Por volta das 8h, nosso motorista/guia irá buscá-lo em seu hotel/Riad em Fez. Então,
-                     comece nossa excursão de 3 dias no deserto do Saara, de Fez a Marrakech, passando pelo meio
-                     Montanhas Atlas. A primeira parada da nossa viagem Fes Sahara Marrakech será na cidade “Ifrane”,
-                     conhecida como a “Suíça de Marrocos”.<br/><br/>
-                     Lá você poderá desfrutar de vistas deslumbrantes de Ifrane e
-                     Floresta. Depois, faremos uma parada em “Azrou” para ver os macacos na floresta de cedros
-                     (Macaco Barbary). Teremos tempo para tirar fotos com macacos na estrada. Nosso
-                     Viagem privada de 3 dias no deserto de Fes a Marrakech Continuação até a cidade “Midelt” para almoço em um
-                     restaurante local (opcional).<br/><br/>
-                     Mais tarde, iremos em direção ao Deserto do Saara, passaremos por “Tizi n'Talghamt
-                     passe” para chegar à cidade “Errachidia” enquanto admira a vista dos desfiladeiros de Ziz. Além disso, nós
-                     terá tempo livre para tirar fotos e momentos memoráveis nas vistas panorâmicas de
-                     “Vale Ziz”. Nossa viagem continua até Merzouga Erg Chebbi através do Oásis de Tafilalte
-                     “Aoufous” e “Erfoud” (conhecido pelos seus fósseis, museus e datas). Faremos uma visita a um
-                     oficina local de artesanato com fósseis. (opcional)<br/><br/>
-                     Então chegaremos a Merzouga, você terá tempo livre para fazer um Merzouga ao ar livre
-                     atividade, como aventura em quadriciclo ATV, para apreciar o encantador pôr do sol no topo de Erg Chebbi
-                     dunas de areia. Pernoite em Riad perto das dunas de Merzouga.`,
-            },
-
-            ar: {
-                title: 'فاس - جبال الأطلس - إفران - أزرو - وادي زيز - صحراء مرزوقة (مغامرة الجمل والمبيت في مخيم صحراوي)',
-                description: `في حوالي الساعة 8:00 صباحاً، سيصطحبك سائقنا/مرشدنا من فندقك/رياضك في فاس. ثم،
-                     ابدأ جولتنا في الصحراء الكبرى لمدة 3 أيام من فاس إلى مراكش مروراً بالمنتصف
-                     أطلس، الجبال. المحطة الأولى في رحلتنا إلى فاس الصحراء مراكش ستكون في مدينة “إفران”،
-                     المعروفة باسم "سويسرا المغرب".<br/><br/>
-                     هناك سوف تستمتع بمناظر إفران الخلابة و
-                     غابة. بعد ذلك سنتوقف في "أزرو" لرؤية القرود في غابة الأرز
-                     (المكاك البربري). سيكون لدينا الوقت لالتقاط الصور مع القرود على الطريق. ملكنا
-                     رحلة صحراوية خاصة لمدة 3 أيام من فاس إلى مراكش مستمرة إلى مدينة "ميدلت" لتناول طعام الغداء في أحد المطاعم
-                     مطعم محلي (اختياري).<br/><br/>
-                     بعد ذلك سنتجه نحو الصحراء الكبرى، وسنمر عبر "تيزي نطالغامت".
-                     "المرور" للوصول إلى مدينة "الرشيدية" مع الاستمتاع بمناظر مضيق زيز. علاوة على ذلك، نحن
-                     سيكون لديك وقت فراغ لالتقاط الصور ولحظات لا تنسى في المناظر البانورامية
-                     "وادي زيز". تستمر رحلتنا البرية إلى مرزوكة عرق الشبي عبر واحة تافيلالت
-                     "أوفوس" و"أرفود" (المعروفة بمتاحفها وتواريخها الحفرية). سنقوم بزيارة إلى أ
-                     ورشة عمل الحفريات المحلية. (اختياري)<br/><br/>
-                     بعد ذلك سوف نصل إلى مرزوكة، وسيكون لديك وقت فراغ للقيام بجولة في مرزوكة في الهواء الطلق
-                     نشاط، مثل مغامرة ATV الرباعية، للاستمتاع بغروب الشمس الساحر على قمة عرق الشبي
-                     الكثبان الرملية. المبيت في رياض بالقرب من كثبان مرزوكة الرملية
-                     .`,
+            description: {
+                en: "Around 8:00 Am our Driver/guide will pick you up from Your Hotel/Riad in Fes. Then, start our 3-day Sahara Desert tour from Fes to Marrakech passing through the middle Atlas Mountains. The first stop in our Fes Sahara Marrakech trip will be in “Ifrane” city, known as the “Switzerland of Morocco”.<br/><br/>There you will enjoy Ifrane stunning views & Forest. Afterward, We will have a stop in “Azrou” to see the monkeys in the cedar forest (Barbary Macaque). We will have time to take pictures with monkeys on the road. Our Private 3-day desert trip Fes to Marrakech Continuous to “Midelt” city for a lunch in a local restaurant (Optional).<br/><br/>Later, we will head toward the Sahara Desert, we will pass through “Tizi n'Talghamt pass” to reach “Errachidia” city while admiring the views of Ziz gorges. Furthermore, We will have free time to take pictures & Memorable moments in the panoramic views of “Ziz valley”. Our road trip continues to Merzouga Erg Chebbi across Tafilalte Oasis “Aoufous” & “Erfoud” (Known for its fossils Museums and dates). We will have a visit to a local fossils craft workshop. (optional)<br/><br/>Then we will Arrive to Merzouga, you will have free time take an outdoor Merzouga activity, like ATV quad adventure, to enjoy the charming sunset on the top of Erg Chebbi sand dunes. Overnight stay in a Riad near Merzouga sand dunes.",
+                fr: "Vers 8h00, notre chauffeur/guide viendra vous chercher à votre hôtel/riad à Fès. Alors, commencez notre circuit de 3 jours dans le désert du Sahara de Fès à Marrakech en passant par le milieu Atlas. La première étape de notre voyage Fès Sahara Marrakech sera dans la ville « Ifrane », connue sous le nom de «Suisse du Maroc».<br/><br/>Là, vous profiterez d'une vue imprenable sur Ifrane et Forêt. Ensuite, nous ferons un arrêt à « Azrou » pour voir les singes dans la forêt de cèdres. (Macaque de Barbarie). Nous aurons le temps de prendre des photos avec des singes sur la route. Notre Voyage privé de 3 jours dans le désert de Fès à Marrakech Continuation vers la ville de « Midelt » pour un déjeuner dans un restaurant local (facultatif).<br/><br/>Plus tard, nous nous dirigerons vers le désert du Sahara, nous passerons par « Tizi n'Talghamt col » pour rejoindre la ville « Errachidia » en admirant la vue sur les gorges du Ziz. De plus, nous aurons du temps libre pour prendre des photos et des moments mémorables dans les vues panoramiques de «Vallée du Ziz». Notre road trip se poursuit vers Merzouga Erg Chebbi en passant par l'oasis de Tafilalte. « Aoufous » & « Erfoud » (Connu pour ses musées de fossiles et ses dates). Nous aurons une visite à un atelier local d'artisanat de fossiles. (facultatif)<br/><br/>Ensuite, nous arriverons à Merzouga, vous aurez du temps libre pour profiter d'un Merzouga en plein air. Activité, comme l'aventure en VTT quad, pour profiter du charmant coucher de soleil au sommet de l'Erg Chebbi dunes de sable. Nuitée dans un Riad près des dunes de sable de Merzouga.",
+                es: "Alrededor de las 8:00 am, nuestro conductor/guía lo recogerá de su hotel/Riad en Fez. Entonces, Comience nuestro recorrido de 3 días por el desierto del Sahara desde Fez a Marrakech pasando por el centro. Montañas del Atlas. La primera parada de nuestro viaje Fez Sahara Marrakech será en la ciudad de “Ifrane”, conocida como la “Suiza de Marruecos”.<br/><br/>Allí podrá disfrutar de las impresionantes vistas de Ifrane y Bosque. Luego, haremos una parada en 'Azrou' para ver los monos en el bosque de cedros. (Macaco de Berbería). Tendremos tiempo para tomar fotografías con monos en el camino. Nuestro Viaje privado de 3 días al desierto de Fez a Marrakech Continúe hasta la ciudad “Midelt” para almorzar en un restaurante local (Opcional).<br/><br/>Posteriormente nos dirigiremos hacia el Desierto del Sahara, pasaremos por “Tizi n'Talghamt pase” para llegar a la ciudad de “Errachidia” mientras admira las vistas de las gargantas del Ziz. Además, nosotros Tendrá tiempo libre para tomar fotografías y momentos memorables en las vistas panorámicas de “Valle del Ziz”. Nuestro viaje por carretera continúa hacia Merzouga Erg Chebbi a través del Oasis de Tafilalte. “Aoufous” y “Erfoud” (Conocido por sus museos de fósiles y fechas). Tendremos una visita a un Taller de artesanía local de fósiles. (opcional)<br/><br/>Luego llegaremos a Merzouga, tendrá tiempo libre para tomar un Merzouga al aire libre. Actividad, como aventura en quad, para disfrutar de la encantadora puesta de sol en la cima de Erg Chebbi dunes de arena. Pasar la noche en un Riad cerca de las dunas de arena de Merzouga.",
+                pt: "Por volta das 8h, nosso motorista/guia irá buscá-lo em seu hotel/Riad em Fez. Então, comece nossa excursão de 3 dias no deserto do Saara, de Fez a Marrakech, passando pelo meio Montanhas Atlas. A primeira parada da nossa viagem Fes Sahara Marrakech será na cidade “Ifrane”, conhecida como a “Suíça de Marrocos”.<br/><br/>Lá você poderá desfrutar de vistas deslumbrantes de Ifrane e Floresta. Depois, faremos uma parada em “Azrou” para ver os macacos na floresta de cedros (Macaco Barbary). Teremos tempo para tirar fotos com macacos na estrada. Nosso Viagem privada de 3 dias no deserto de Fes a Marrakech Continuação até a cidade “Midelt” para almoço em um restaurante local (opcional).<br/><br/>Mais tarde, iremos em direção ao Deserto do Saara, passaremos por “Tizi n'Talghamt passe” para chegar à cidade “Errachidia” enquanto admira a vista dos desfiladeiros de Ziz. Além disso, nós terá tempo livre para tirar fotos e momentos memoráveis nas vistas panorâmicas de “Vale Ziz”. Nossa viagem continua até Merzouga Erg Chebbi através do Oásis de Tafilalte “Aoufous” e “Erfoud” (conhecido pelos seus fósseis, museus e datas). Faremos uma visita a um oficina local de artesanato com fósseis. (opcional)<br/><br/>Então chegaremos a Merzouga, você terá tempo livre para fazer um Merzouga ao ar livre atividade, como aventura em quadriciclo ATV, para apreciar o encantador pôr do sol no topo de Erg Chebbi dunas de areia. Pernoite em Riad perto das dunas de Merzouga.",
+                ar: 'في حوالي الساعة 8:00 صباحاً، سيصطحبك سائقنا/مرشدنا من فندقك/رياضك في فاس. ثم، ابدأ جولتنا في الصحراء الكبرى لمدة 3 أيام من فاس إلى مراكش مروراً بالمنتصف أطلس، الجبال. المحطة الأولى في رحلتنا إلى فاس الصحراء مراكش ستكون في مدينة “إفران”، المعروفة باسم \'سويسرا المغرب\'.<br/><br/>هناك سوف تستمتع بمناظر إفران الخلابة و غابة. بعد ذلك سنتوقف في "أزرو" لرؤية القرود في غابة الأرز (المكاك البربري). سيكون لدينا الوقت لالتقاط الصور مع القرود على الطريق. ملكنا رحلة صحراوية خاصة لمدة 3 أيام من فاس إلى مراكش مستمرة إلى مدينة "ميدلت" لتناول طعام الغداء في أحد المطاعم المحلية (اختياري).<br/><br/>بعد ذلك سنتجه نحو الصحراء الكبرى، وسنمر عبر "تيزي نطالغامت" col "للوصول إلى مدينة "الرشيدية" مع الاستمتاع بمناظر مضيق زيز. علاوة على ذلك، نحن سيكون لديك وقت فراغ لالتقاط الصور ولحظات لا تنسى في المناظر البانورامية "وادي زيز". تستمر رحلتنا البرية إلى مرزوكة عرق الشبي عبر واحة تافيلالت "أوفوس" و"أرفود" (المعروفة بمتاحفها وتواريخها الحفرية). سنقوم بزيارة إلى ورشة عمل محلية لصناعة الحفريات. (اختياري)<br/><br/>بعد ذلك سوف نصل إلى مرزوكة، وسيكون لديك وقت فراغ للقيام بجولة في مرزوكة في الهواء الطلق نشاط، مثل مغامرة ATV الرباعية، للاستمتاع بغروب الشمس الساحر على قمة عرق الشبي الكثبان الرملية. المبيت في رياض بالقرب من كثبان مرزوكة الرملية.',
             },
         },
         {
-            en: {
-                title: 'Merzouga - Nomads - Khamlia - Rissani - Erg Chebbi (Camel Adventure & Overnight In Desert Camp)',
-                description: `After breakfast, we'll go on a Merzouga Sahara Desert tour, we will explore the most
-                interesting desert surroundings. Firstly, we will visit the Nomads. who are still living
-                really a simple life under simple tents and live by raising goats, camels and sheep.We
-                will spend some time with them and discover their lifestyle.<br/><br/>
-                Then, we will leave for
-                Mifiss's mine of plumb. Further, on the 4WD desert tour, we will head to Khamlia, a small
-                village that is about 5 km from Merzouga centre. Here, you will witness another lifestyle
-                of Gnawa, they preserved their unique culture, traditions and you will have the
-                opportunity to listen to their special music. There are many other places that you will
-                discover. For example, the 4WD cars Museum, and the desert Oasis. Lunch Will be in a
-                local restaurant.<br/><br/>
-                in the afternoon we will go to the city of Rissani the first imperial city in Morocco, about
-                30 Minutes from Merzouga Town, there we will have a visit to the biggest Souk (Market)
-                in the area, where all the people around Rissani, Merzouga and Errfoud go to buy and
-                sell.<br/><br/>
-                After all of this, we will start our camel ride into the Merzouga dunes to see an
-                unforgettable sunset. Also, try Sandboarding in the heart of Erg Chebbi. You will spend a
-                special night in a Sahara Desert camp. where you will sleep in the dunes in a private
-                nomadic tent, as the Berbers do. Here you will enjoy a delicious dinner, music and a
-                starry sky, shooting stars, explore the Sahara by night, Overnight stay in a Berber
-                Merzouga desert camp.`,
+            title: {
+                en: 'Merzouga - Nomads - Khamlia - Rissani - Erg Chebbi (Camel Adventure & Overnight In Desert Camp)',
+                fr: 'Merzouga - Nomades - Khamlia - Rissani - Erg Chebbi (Aventure à dos de chameau et nuit dans un camp dans le désert)',
+                es: 'Merzouga - Nómadas - Khamlia - Rissani - Erg Chebbi (Aventura en camello y alojamiento en campamento en el desierto)',
+                pt: 'Merzouga - Nomads - Khamlia - Rissani - Erg Chebbi (aventura de camelo e pernoite no acampamento no deserto)',
+                ar: 'مرزوقة - البدو - خامليا - الريصاني - عرق الشبي (مغامرة الجمل والمبيت في مخيم الصحراء)',
             },
-            fr: {
-                title: 'Merzouga - Nomades - Khamlia - Rissani - Erg Chebbi (Aventure à dos de chameau et nuit dans un camp dans le désert)',
-                description: `Après le petit-déjeuner, nous partirons pour une visite du désert du Sahara à Merzouga, nous explorerons le plus
-                environnement désertique intéressant. Tout d'abord, nous visiterons les Nomades. qui vivent encore
-                vraiment une vie simple sous de simples tentes et vivons en élevant des chèvres, des chameaux et des moutons.Nous
-                je passerai du temps avec eux et découvrirai leur mode de vie.<br/><br/>
-                Ensuite, nous partirons pour
-                La mine de plomb de Mifiss. Plus loin, lors du tour du désert en 4x4, nous nous dirigerons vers Khamlia, un petit
-                village situé à environ 5 km du centre de Merzouga. Ici, vous serez témoin d'un autre style de vie
-                des Gnawa, ils ont préservé leur culture et leurs traditions uniques et vous aurez le
-                possibilité d'écouter leur musique spéciale. Il existe de nombreux autres endroits où vous pourrez
-                découvrir. Par exemple, le musée des voitures 4x4 et l'oasis du désert. Le déjeuner aura lieu dans un
-                restaurant local.<br/><br/>
-                dans l'après-midi nous irons à la ville de Rissani la première ville impériale du Maroc, environ
-                A 30 minutes de la ville de Merzouga, nous visiterons le plus grand souk (marché)
-                dans la zone, où tous les gens autour de Rissani, Merzouga et Errfoud vont acheter et
-                vendre.<br/><br/>
-                Après tout cela, nous commencerons notre balade à dos de chameau dans les dunes de Merzouga pour voir un
-                coucher de soleil inoubliable. Essayez également le sandboard au cœur de l'Erg Chebbi. Vous passerez un
-                nuit spéciale dans un camp du désert du Sahara. où vous dormirez dans les dunes dans une chambre privée
-                tente nomade, comme le font les Berbères. Ici, vous profiterez d'un délicieux dîner, de musique et d'un
-                ciel étoilé, étoiles filantes, explorez le Sahara de nuit, Nuitée chez un berbère
-                Camp du désert de Merzouga.`,
-            },
-            es: {
-                title: 'Merzouga - Nómadas - Khamlia - Rissani - Erg Chebbi (Aventura en camello y alojamiento en campamento en el desierto)',
-                description: `Después del desayuno, realizaremos un recorrido por el desierto del Sahara en Merzouga, exploraremos las zonas más
-                Interesante entorno desértico. En primer lugar, visitaremos a los Nómadas. que todavía están vivos
-                realmente una vida sencilla bajo tiendas de campaña sencillas y vivimos criando cabras, camellos y ovejas.
-                Pasarás un tiempo con ellos y descubrirás su estilo de vida.<br/><br/>
-                Luego, partiremos hacia
-                Mifiss es la mina de plomo. Luego, en el recorrido en 4x4 por el desierto, nos dirigiremos a Khamlia, una pequeña
-                pueblo que está a unos 5 km del centro de Merzouga. Aquí serás testigo de otro estilo de vida.
-                de Gnawa, conservaron su cultura y tradiciones únicas y tendrás la
-                oportunidad de escuchar su música especial. Hay muchos otros lugares donde podrás
-                descubrir. Por ejemplo, el Museo de los coches 4x4 y el Oasis del desierto. El almuerzo será en un
-                restaurante local.<br/><br/>
-                Por la tarde nos dirigiremos a la ciudad de Rissani la primera ciudad imperial de Marruecos, a unos
-                A 30 minutos de la ciudad de Merzouga, allí visitaremos el zoco (mercado) más grande.
-                en la zona, donde toda la gente de los alrededores de Rissani, Merzouga y Errfoud van a comprar y
-                vender.<br/><br/>
-                Después de todo esto, comenzaremos nuestro paseo en camello por las dunas de Merzouga para ver un
-                atardecer inolvidable. Además, prueba el sandboarding en el corazón de Erg Chebbi. Pasarás un
-                Noche especial en un campamento en el desierto del Sahara. donde dormirás en las dunas en un privado
-                tienda nómada, como hacen los bereberes. Aquí disfrutarás de una deliciosa cena, música y una
-                cielo estrellado, estrellas fugaces, explorar el Sahara de noche, pasar la noche en un hotel bereber
-                Campamento en el desierto de Merzouga.`,
-            },
-            pt: {
-                title: 'Merzouga - Nomads - Khamlia - Rissani - Erg Chebbi (aventura de camelo e pernoite no acampamento no deserto)',
-                description: `Depois do café da manhã, faremos um passeio pelo Deserto Merzouga Sahara, exploraremos o mais
-                arredores interessantes do deserto. Primeiramente visitaremos os Nômades. que ainda vivem
-                realmente uma vida simples sob tendas simples e vivemos criando cabras, camelos e ovelhas.
-                passaremos algum tempo com eles e descobriremos seu estilo de vida.<br/><br/>
-                Então partiremos para
-                Mifiss é meu prumo. Além disso, no passeio 4X4 no deserto, iremos para Khamlia, uma pequena
-                aldeia que fica a cerca de 5 km do centro de Merzouga. Aqui, você testemunhará outro estilo de vida
-                de Gnawa, eles preservaram sua cultura e tradições únicas e você terá a oportunidade
-                oportunidade de ouvir sua música especial. Existem muitos outros lugares onde você
-                descobrir. Por exemplo, o Museu dos carros 4x4 e o Oásis no deserto. O almoço será em um
-                restaurante local.<br/><br/>
-                à tarde iremos para a cidade de Rissani a primeira cidade imperial do Marrocos, cerca de
-                A 30 minutos da cidade de Merzouga, lá teremos uma visita ao maior Souk (mercado)
-                na área, onde todas as pessoas ao redor de Rissani, Merzouga e Errfoud vão comprar e
-                vender.<br/><br/>
-                Depois de tudo isso, iniciaremos nosso passeio de camelo pelas dunas de Merzouga para ver um
-                pôr do sol inesquecível. Além disso, experimente o sandboard no coração de Erg Chebbi. Você vai gastar um
-                noite especial em um acampamento no deserto do Saara. onde você dormirá nas dunas em um ambiente privado
-                tenda nômade, como fazem os berberes. Aqui você desfrutará de um delicioso jantar, música e um
-                céu estrelado, estrelas cadentes, explore o Saara à noite, pernoite em um berbere
-                Acampamento no deserto de Merzouga.`,
-            },
-            ar: {
-                title: 'مرزوقة - البدو - خاملية - الريصاني - عرق الشبي (مغامرة الجمل والمبيت في مخيم الصحراء)',
-                description: `بعد الإفطار سنذهب في جولة في صحراء مرزوكة، سنستكشف أكثر
-                محيط صحراوي مثير للاهتمام. أولاً، سنقوم بزيارة البدو. الذين ما زالوا يعيشون
-                حقا حياة بسيطة في ظل خيام بسيطة ونعيش من خلال تربية الماعز والإبل والأغنام
-                سوف نقضي بعض الوقت معهم ونكتشف أسلوب حياتهم.<br/><br/>
-                ثم، سوف نغادر إلى
-                منجم Mifiss من راسيا. علاوة على ذلك، في جولة الصحراء رباعية الدفع، سنتوجه إلى مدينة الخملية الصغيرة
-                قرية تبعد حوالي 5 كم عن مركز مرزوكة. هنا، سوف تشهد نمط حياة آخر
-                كناوة، لقد حافظوا على ثقافتهم وتقاليدهم الفريدة وسيكون لديك
-                فرصة للاستماع إلى موسيقاهم الخاصة. هناك العديد من الأماكن الأخرى التي سوف
-                يكتشف. على سبيل المثال، متحف سيارات الدفع الرباعي، وواحة الصحراء. الغداء سيكون في
-                مطعم محلي.<br/><br/>
-                وبعد الظهر سنتوجه إلى مدينة الريصاني أول مدينة إمبراطورية في المغرب
-                على بعد 30 دقيقة من مدينة مرزوكة، هناك سنقوم بزيارة إلى أكبر سوق (سوق)
-                في المنطقة، حيث يذهب جميع الأشخاص حول الريصاني ومرزوقة والرفود للشراء و
-                بيع.<br/><br/>
-                بعد كل هذا، سنبدأ ركوب الجمال في كثبان مرزوكة لرؤية
-                غروب الشمس الذي لا ينسى. كما يمكنك تجربة التزلج على الرمال في قلب عرق الشبي. سوف تقضي أ
-                ليلة خاصة في مخيم الصحراء الكبرى. حيث ستنام في الكثبان الرملية بشكل خاص
-                خيمة بدوية كما يفعل البربر. هنا سوف تستمتع بعشاء لذيذ وموسيقى و
-                السماء المرصعة بالنجوم، والنجوم المتساقطة، واستكشاف الصحراء ليلاً، والمبيت في فندق بربري
-                مخيم مرزوكة الصحراوي.`,
+            description: {
+                en: "After breakfast, we'll go on a Merzouga Sahara Desert tour, we will explore the most interesting desert surroundings. Firstly, we will visit the Nomads who are still living a simple life under simple tents and live by raising goats, camels, and sheep. We will spend some time with them and discover their lifestyle. Then, we will leave for Mifiss's mine of plumb. Further, on the 4WD desert tour, we will head to Khamlia, a small village that is about 5 km from Merzouga centre. Here, you will witness another lifestyle of Gnawa, they preserved their unique culture, traditions, and you will have the opportunity to listen to their special music. There are many other places that you will discover. For example, the 4WD cars Museum, and the desert Oasis. Lunch Will be in a local restaurant. In the afternoon, we will go to the city of Rissani, the first imperial city in Morocco, about 30 Minutes from Merzouga Town. There we will have a visit to the biggest Souk (Market) in the area, where all the people around Rissani, Merzouga, and Errfoud go to buy and sell. After all of this, we will start our camel ride into the Merzouga dunes to see an unforgettable sunset. Also, try Sandboarding in the heart of Erg Chebbi. You will spend a special night in a Sahara Desert camp where you will sleep in the dunes in a private nomadic tent, as the Berbers do. Here you will enjoy a delicious dinner, music and a starry sky, shooting stars, explore the Sahara by night, Overnight stay in a Berber Merzouga desert camp.",
+                fr: "Après le petit-déjeuner, nous partirons pour une visite du désert du Sahara à Merzouga, nous explorerons le plus environnement désertique intéressant. Tout d'abord, nous visiterons les Nomades qui vivent encore vraiment une vie simple sous de simples tentes et vivons en élevant des chèvres, des chameaux et des moutons. Nous passerons du temps avec eux et découvrirons leur mode de vie. Ensuite, nous partirons pour La mine de plomb de Mifiss. Plus loin, lors du tour du désert en 4x4, nous nous dirigerons vers Khamlia, un petit village situé à environ 5 km du centre de Merzouga. Ici, vous serez témoin d'un autre style de vie des Gnawa, ils ont préservé leur culture et leurs traditions uniques et vous aurez la possibilité d'écouter leur musique spéciale. Il existe de nombreux autres endroits où vous pourrez découvrir. Par exemple, le musée des voitures 4x4 et l'oasis du désert. Le déjeuner aura lieu dans un restaurant local. Dans l'après-midi, nous irons à la ville de Rissani, la première ville impériale du Maroc, à environ 30 minutes de la ville de Merzouga. Là, nous visiterons le plus grand souk (marché) dans la zone, où tous les gens autour de Rissani, Merzouga et Errfoud vont acheter et vendre. Après tout cela, nous commencerons notre balade à dos de chameau dans les dunes de Merzouga pour voir un coucher de soleil inoubliable. Essayez également le sandboard au cœur de l'Erg Chebbi. Vous passerez une nuit spéciale dans un camp du désert du Sahara où vous dormirez dans les dunes dans une chambre privée tente nomade, comme le font les Berbères. Ici, vous profiterez d'un délicieux dîner, de musique et d'un ciel étoilé, étoiles filantes, explorez le Sahara de nuit, Nuitée chez un berbère Camp du désert de Merzouga.",
+                es: 'Después del desayuno, realizaremos un recorrido por el desierto del Sahara en Merzouga, exploraremos las zonas más Interesante entorno desértico. En primer lugar, visitaremos a los Nómadas. que todavía están vivos realmente una vida sencilla bajo tiendas de campaña sencillas y vivimos criando cabras, camellos y ovejas. Pasarás un tiempo con ellos y descubrirás su estilo de vida. Luego, partiremos hacia Mifiss es la mina de plomo. Luego, en el recorrido en 4x4 por el desierto, nos dirigiremos a Khamlia, una pequeña pueblo que está a unos 5 km del centro de Merzouga. Aquí, serás testigo de otro estilo de vida de Gnawa, conservaron su cultura y tradiciones únicas y tendrás el oportunidad de escuchar su música especial. Hay muchos otros lugares donde podrás descubrir. Por ejemplo, el Museo de los coches 4x4 y el Oasis del desierto. El almuerzo será en un restaurante local. Por la tarde nos dirigiremos a la ciudad de Rissani la primera ciudad imperial de Marruecos, a unos A 30 minutos de la ciudad de Merzouga, allí visitaremos el zoco (mercado) más grande. en la zona, donde toda la gente de los alrededores de Rissani, Merzouga y Errfoud va a comprar y vender. Después de todo esto, comenzaremos nuestro paseo en camello por las dunas de Merzouga para ver un atardecer inolvidable. Además, prueba el sandboarding en el corazón de Erg Chebbi. Pasarás una noche especial en un campamento en el desierto del Sahara. donde dormirás en las dunas en un privado tienda nómada, como hacen los bereberes. Aquí disfrutarás de una deliciosa cena, música y un cielo estrellado, estrellas fugaces, explorar el Sahara de noche, pasar la noche en un hotel bereber Campamento en el desierto de Merzouga.',
+                pt: 'Depois do café da manhã, faremos um passeio pelo Deserto Merzouga Sahara, exploraremos o mais arredores interessantes do deserto. Primeiramente visitaremos os Nômades. que ainda vivem realmente uma vida simples sob tendas simples e vivemos criando cabras, camelos e ovelhas. passaremos algum tempo com eles e descobriremos seu estilo de vida. Então partiremos para Mifiss é meu prumo. Além disso, no passeio 4X4 no deserto, iremos para Khamlia, uma pequena aldeia que fica a cerca de 5 km do centro de Merzouga. Aqui, você testemunhará outro estilo de vida de Gnawa, eles preservaram sua cultura e tradições únicas e você terá a oportunidade oportunidade de ouvir sua música especial. Existem muitos outros lugares onde você descobrir. Por exemplo, o Museu dos carros 4x4 e o Oásis no deserto. O almoço será em um restaurante local. à tarde iremos para a cidade de Rissani a primeira cidade imperial do Marrocos, cerca de A 30 minutos da cidade de Merzouga, lá teremos uma visita ao maior Souk (mercado) na área, onde todas as pessoas ao redor de Rissani, Merzouga e Errfoud vão comprar e vender. Depois de tudo isso, iniciaremos nosso passeio de camelo pelas dunas de Merzouga para ver um pôr do sol inesquecível. Além disso, experimente o sandboard no coração de Erg Chebbi. Você vai gastar uma noite especial em um acampamento no deserto do Saara. onde você dormirá nas dunas em um ambiente privado tenda nômade, como fazem os berberes. Aqui você desfrutará de um delicioso jantar, música e um céu estrelado, estrelas cadentes, explore o Saara à noite, pernoite em um berbere Acampamento no deserto de Merzouga.',
+                ar: 'بعد الإفطار سنذهب في جولة في صحراء مرزوكة، سنستكشف أكثر محيط صحراوي مثير للاهتمام. أولاً، سنقوم بزيارة البدو. الذين ما زالوا يعيشون حقا حياة بسيطة في ظل خيام بسيطة ونعيش من خلال تربية الماعز والإبل والأغنام سوف نقضي بعض الوقت معهم ونكتشف أسلوب حياتهم. ثم، سوف نغادر إلى منجم Mifiss من راسيا. علاوة على ذلك، في جولة الصحراء رباعية الدفع، سنتوجه إلى مدينة الخملية الصغيرة قرية تبعد حوالي 5 كم عن مركز مرزوكة. هنا، سوف تشهد نمط حياة آخر كناوة، لقد حافظوا على ثقافتهم وتقاليدهم الفريدة وسيكون لديك فرصة للاستماع إلى موسيقاهم الخاصة. هناك العديد من الأماكن الأخرى التي سوف يكتشفها. على سبيل المثال، متحف سيارات الدفع الرباعي، وواحة الصحراء. الغداء سيكون في مطعم محلي. بعد الظهر سنتوجه إلى مدينة الريصاني أول مدينة إمبراطورية في المغرب على بعد 30 دقيقة من مدينة مرزوكة، هناك سنقوم بزيارة إلى أكبر سوق (سوق) في المنطقة، حيث يذهب جميع الأشخاص حول الريصاني ومرزوكة والرفود للشراء وبيع. بعد كل هذا، سنبدأ ركوب الجمال في كثبان مرزوكة لرؤية غروب الشمس الذي لا ينسى. كما يمكنك تجربة التزلج على الرمال في قلب عرق الشبي. سوف تقضي ليلة خاصة في مخيم الصحراء الكبرى. حيث ستنام في الكثبان الرملية في خيمة خاصة بكم كما يفعل البربر. هنا سوف تستمتع بعشاء لذيذ وموسيقى والسماء المرصعة بالنجوم، والنجوم المتساقطة، واستكشاف الصحراء ليلاً، ومبيت في فندق بربري مخيم مرزوكة الصحراوي.',
             },
         },
         {
-            en: {
-                title: 'Merzouga desert - Midalt - Fes city',
-                description: `On the last day through our Fes to Merzouga desert tour 3 days, In the morning we will
-                                    enjoy the sunrise in the Sahara Desert from the high dunes. Then we ride our camels
-                                    back to our hotel for breakfast and show.<br/><br/>
-                                    We continue towards Rissani, Erfoud,
-                                    Errachidia, and Midelt, where we stay for lunch. Later we head towards Ifrane and our
-                                    private 3 days desert tour from Fes to Merzouga ends in Fes.`,
+            title: {
+                en: 'Merzouga desert - Midelt - Fes city',
+                fr: 'Désert de Merzouga - Midalt - Ville de Fès',
+                es: 'Desierto de Merzouga - Midalt - Ciudad de Fes',
+                pt: 'Deserto de Merzouga - Midalt - Cidade de Fes',
+                ar: 'صحراء مرزوقة - ميدلت - مدينة فاس',
             },
-            fr: {
-                title: 'Désert de Merzouga - Midalt - Ville de Fès',
-                description: `Le dernier jour de notre excursion de 3 jours de Fès à Merzouga, le matin, nous profiterons
-                                    du lever du soleil dans le désert du Sahara depuis les hautes dunes. Ensuite, nous chevaucherons nos chameaux
-                                    de retour à notre hôtel pour le petit déjeuner et le spectacle. <br/><br/>
-                                    Nous continuons vers Rissani, Erfoud,
-                                    Errachidia et Midelt, où nous nous arrêtons pour le déjeuner. Plus tard, nous nous dirigeons vers Ifrane et notre
-                                    excursion privée de 3 jours dans le désert de Fès à Merzouga se termine à Fès.`,
-            },
-            es: {
-                title: 'Desierto de Merzouga - Midalt - Ciudad de Fes',
-                description: `En el último día de nuestro tour de 3 días de Fez a Merzouga, por la mañana disfrutaremos
-                                    del amanecer en el desierto del Sahara desde las altas dunas. Luego montamos en nuestros camellos
-                                    de regreso a nuestro hotel para el desayuno y el espectáculo. <br/><br/>
-                                    Continuamos hacia Rissani, Erfoud,
-                                    Errachidia y Midelt, donde nos detenemos para almorzar. Más tarde nos dirigimos hacia Ifrane y nuestro
-                                    tour privado de 3 días en el desierto de Fez a Merzouga termina en Fez.`,
-            },
-            pt: {
-                title: 'Deserto de Merzouga - Midalt - Cidade de Fes',
-                description: `No último dia do nosso passeio de 3 dias de Fez a Merzouga, pela manhã, vamos desfrutar
-                                    do nascer do sol no Deserto do Saara a partir das dunas altas. Então montamos em nossos camelos
-                                    de volta ao nosso hotel para o café da manhã e show. <br/><br/>
-                                    Continuamos em direção a Rissani, Erfoud,
-                                    Errachidia e Midelt, onde paramos para o almoço. Mais tarde, seguimos em direção a Ifrane e nosso
-                                    tour privado de 3 dias no deserto de Fez a Merzouga termina em Fez.`,
-            },
-            ar: {
-                title: 'صحراء مرزوقة - ميدلت - مدينة فاس',
-                description: `في اليوم الأخير من جولتنا من فاس إلى صحراء مرزوقة لمدة 3 أيام، في الصباح سنستمتع
-                                    بشروق الشمس في الصحراء الكبرى من الكثبان العالية. ثم نركب الجمال
-                                    مرة أخرى إلى فندقنا لتناول الإفطار والعرض. <br/><br/>
-                                    نواصل في اتجاه ريساني، إرفود،
-                                    الرشيدية، وميدلت، حيث نتوقف لتناول الغداء. في وقت لاحق نتجه نحو إفران وجولتنا
-                                    الخاصة في الصحراء لمدة 3 أيام من فاس إلى مرزوقة تنتهي في فاس.`,
+            description: {
+                en: 'On the last day through our Fes to Merzouga desert tour 3 days, In the morning we will enjoy the sunrise in the Sahara Desert from the high dunes. Then we ride our camels back to our hotel for breakfast and show. We continue towards Rissani, Erfoud, Errachidia, and Midelt, where we stay for lunch. Later we head towards Ifrane and our private 3 days desert tour from Fes to Merzouga ends in Fes.',
+                fr: 'Le dernier jour de notre excursion de 3 jours de Fès à Merzouga, le matin, nous profiterons du lever du soleil dans le désert du Sahara depuis les hautes dunes. Ensuite, nous chevaucherons nos chameaux de retour à notre hôtel pour le petit déjeuner et le spectacle. Nous continuons vers Rissani, Erfoud, Errachidia et Midelt, où nous nous arrêtons pour le déjeuner. Plus tard, nous nous dirigeons vers Ifrane et notre excursion privée de 3 jours dans le désert de Fès à Merzouga se termine à Fès.',
+                es: 'En el último día de nuestro tour de 3 días de Fez a Merzouga, por la mañana disfrutaremos del amanecer en el desierto del Sahara desde las altas dunas. Luego montamos en nuestros camellos de regreso a nuestro hotel para el desayuno y el espectáculo. Continuamos hacia Rissani, Erfoud, Errachidia y Midelt, donde nos detenemos para almorzar. Más tarde nos dirigimos hacia Ifrane y nuestro tour privado de 3 días en el desierto de Fez a Merzouga termina en Fez.',
+                pt: 'No último dia do nosso passeio de 3 dias de Fez a Merzouga, pela manhã, vamos desfrutar do nascer do sol no Deserto do Saara a partir das dunas altas. Então montamos em nossos camelos de volta ao nosso hotel para o café da manhã e show. Continuamos em direção a Rissani, Erfoud, Errachidia e Midelt, onde paramos para o almoço. Mais tarde, seguimos em direção a Ifrane e nosso tour privado de 3 dias no deserto de Fez a Merzouga termina em Fez.',
+                ar: 'في اليوم الأخير من جولتنا من فاس إلى صحراء مرزوقة لمدة 3 أيام، في الصباح سنستمتع بشروق الشمس في الصحراء الكبرى من الكثبان العالية. ثم نركب الجمال مرة أخرى إلى فندقنا لتناول الإفطار والعرض. نواصل في اتجاه ريساني، إرفود، الرشيدية، وميدلت، حيث نتوقف لتناول الغداء. في وقت لاحق نتجه نحو إفران وجولتنا الخاصة في الصحراء لمدة 3 أيام من فاس إلى مرزوقة تنتهي في فاس.',
             },
         },
     ],

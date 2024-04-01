@@ -152,8 +152,8 @@ export const _3_days_trip_marrakech_to_fez_through_sahara_desert: TourMock = {
     departureCity: 'Marrakech',
     departurePickupTime: '08:00 AM',
     returnPickupTime: '05:30 PM',
-    journeyTime: 4,
-    journeyTimeUnit: 'hours',
+    // journeyTime: 4,
+    // journeyTimeUnit: 'hours',
     highlights: [
         {
             en: "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",

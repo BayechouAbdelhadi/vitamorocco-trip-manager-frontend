@@ -241,8 +241,8 @@ export const _13_days_grand_tour_of_morocco: TourMock = {
     departureCity: 'Casablanca',
     departurePickupTime: '08:00 AM',
     returnPickupTime: '05:30 PM',
-    journeyTime: 4,
-    journeyTimeUnit: 'hours',
+    // journeyTime: 4,
+    // journeyTimeUnit: 'hours',
     highlights: [
         {
             en: "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",

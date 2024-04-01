@@ -150,8 +150,8 @@ export const _majestic_marrakech_and_beyond_5_days_discovery_tour: TourMock = {
     departureCity: 'Marrakech',
     departurePickupTime: '08:00 AM',
     returnPickupTime: '05:30 PM',
-    journeyTime: 4,
-    journeyTimeUnit: 'hours',
+    // journeyTime: 4,
+    // journeyTimeUnit: 'hours',
     highlights: [
         {
             en: "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",

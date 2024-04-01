@@ -166,8 +166,8 @@ export const _5_days_getaway_tangerto_chefchaouen_fes_and_asilah: TourMock = {
     departureCity: 'Tanger',
     departurePickupTime: '08:00 AM',
     returnPickupTime: '05:30 PM',
-    journeyTime: 4,
-    journeyTimeUnit: 'hours',
+    // journeyTime: 4,
+    // journeyTimeUnit: 'hours',
     highlights: [
         {
             en: 'Explore ancient Roman ruins in the Moroccan countryside at Volúbilis.',
