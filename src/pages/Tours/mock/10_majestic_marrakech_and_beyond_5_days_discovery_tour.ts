@@ -1,235 +1,235 @@
 export const _majestic_marrakech_and_beyond_5_days_discovery_tour = {
-    "id": "majestic_marrakech_and_beyond_5_days_discovery_tour",
-    "title": {
-        "fr": "Majestic Marrakech & Beyond : circuit découverte de 5 jours",
-        "en": "Majestic Marrakech & Beyond : 5-Days Discovery Tour",
-        "es": "Majestuosa Marrakech y más allá: tour de descubrimiento de 5 días",
-        "pt": "Majestoso Marrakech e além: excursão de descoberta de 5 dias",
-        "ar": "مراكش المهيبة وما بعدها: جولة استكشافية لمدة 5 أيام"
+    id: 'majestic_marrakech_and_beyond_5_days_discovery_tour',
+    title: {
+        fr: 'Majestic Marrakech & Beyond : circuit découverte de 5 jours',
+        en: 'Majestic Marrakech & Beyond : 5-Days Discovery Tour',
+        es: 'Majestuosa Marrakech y más allá: tour de descubrimiento de 5 días',
+        pt: 'Majestoso Marrakech e além: excursão de descoberta de 5 dias',
+        ar: 'مراكش المهيبة وما بعدها: جولة استكشافية لمدة 5 أيام',
     },
-    "summaryImg": "summary.jpg",
-    "titleImg": "title.jpg",
-    "descriptionImg": "description.jpg",
-    "description": {
-        "en": `VITA MOROCCO offers the 5 - day Marrakech Tour packages for those travellers who plan a
+    summaryImg: 'summary.jpg',
+    titleImg: 'title.jpg',
+    descriptionImg: 'description.jpg',
+    description: {
+        en: `VITA MOROCCO offers the 5 - day Marrakech Tour packages for those travellers who plan a
             short Vacation in Morocco, especially to discover Marrakech, and It's surrounding, also to
             experience the authentic Marrakech & Ride camels & Quads, overnight stay in typical Raids,
             Wandering Atlas Mountains, exploring Essaouira Mogador, Waterfalls of Ouzoud and taste
             big variety of the Moroccan kitchen… and much more.`,
-        "fr": `VITA MOROCCO propose des forfaits Marrakech Tour de 5 jours pour les voyageurs qui planifient un
+        fr: `VITA MOROCCO propose des forfaits Marrakech Tour de 5 jours pour les voyageurs qui planifient un
              de courtes vacances au Maroc, notamment pour découvrir Marrakech, et ses environs, également pour
              découvrez l'authentique Marrakech & Ride chameaux & Quads, nuitée dans des Raids typiques,
              Errance dans les montagnes de l'Atlas, découverte d'Essaouira Mogador, cascades d'Ouzoud et dégustation
              grande variété de la cuisine marocaine… et bien plus encore.`,
-        "es": `VITA MOROCCO ofrece los paquetes turísticos de 5 días en Marrakech para aquellos viajeros que planeen una
+        es: `VITA MOROCCO ofrece los paquetes turísticos de 5 días en Marrakech para aquellos viajeros que planeen una
              Vacaciones cortas en Marruecos, especialmente para descubrir Marrakech y sus alrededores, también para
              experimente la auténtica Marrakech y pasee en camellos y quads, pase la noche en incursiones típicas,
             Paseando por las montañas del Atlas, explorando Essaouira Mogador, las cascadas de Ouzoud y el sabor
              Gran variedad de la cocina marroquí… y mucho más.`,
-        "pt": `VITA MOROCCO oferece pacotes turísticos de 5 dias em Marrakech para aqueles viajantes que planejam uma
+        pt: `VITA MOROCCO oferece pacotes turísticos de 5 dias em Marrakech para aqueles viajantes que planejam uma
              Férias curtas em Marrocos, especialmente para descobrir Marrakech, e seus arredores, também para
              experimente os autênticos camelos e quadriciclos de Marrakech & Ride, pernoite em ataques típicos,
             Vagando pelas montanhas do Atlas, explorando Essaouira Mogador, cachoeiras de Ouzoud e sabor
              grande variedade da cozinha marroquina… e muito mais.`,
-        "ar": `تقدم VITA MOROCCO باقات جولة مراكش لمدة 5 أيام للمسافرين الذين يخططون لرحلة إلى مراكش
+        ar: `تقدم VITA MOROCCO باقات جولة مراكش لمدة 5 أيام للمسافرين الذين يخططون لرحلة إلى مراكش
              إجازة قصيرة في المغرب، وخاصة لاكتشاف مراكش والمناطق المحيطة بها، أيضًا
              تجربة مراكش الأصيلة وركوب الجمال والدراجات الرباعية، والبقاء لليلة واحدة في الغارات النموذجية،
              تجول جبال الأطلس واستكشاف الصويرة موكادور وشلالات أوزود والذوق
              تشكيلة كبيرة من المطبخ المغربي...وأكثر من ذلك بكثير.`,
     },
-    "destinationCity": "Marrakech",
-    "includedServices": [
+    destinationCity: 'Marrakech',
+    includedServices: [
         {
-            "en": "Private Vehicle with A/C (SUV, 4WD, or minivan).",
-            "fr": "Véhicule privé avec climatisation (SUV, 4x4 ou minivan).",
-            "es": "Vehículo privado con aire acondicionado (SUV, 4x4 o minivan).",
-            "pt": "Veículo privado com ar condicionado (SUV, 4x4 ou minivan).",
-            "ar": "سيارة خاصة مع تكييف (SUV، 4WD، أو ميني فان)."
+            en: 'Private Vehicle with A/C (SUV, 4WD, or minivan).',
+            fr: 'Véhicule privé avec climatisation (SUV, 4x4 ou minivan).',
+            es: 'Vehículo privado con aire acondicionado (SUV, 4x4 o minivan).',
+            pt: 'Veículo privado com ar condicionado (SUV, 4x4 ou minivan).',
+            ar: 'سيارة خاصة مع تكييف (SUV، 4WD، أو ميني فان).',
         },
         {
-            "en": "Transfer from & to the Airport of Marrakech.",
-            "fr": "Transfert depuis et vers l'aéroport de Marrakech.",
-            "es": "Traslado desde y hacia el aeropuerto de Marrakech.",
-            "pt": "Transferência de e para o Aeroporto de Marraquexe.",
-            "ar": "نقل من وإلى مطار مراكش."
+            en: 'Transfer from & to the Airport of Marrakech.',
+            fr: "Transfert depuis et vers l'aéroport de Marrakech.",
+            es: 'Traslado desde y hacia el aeropuerto de Marrakech.',
+            pt: 'Transferência de e para o Aeroporto de Marraquexe.',
+            ar: 'نقل من وإلى مطار مراكش.',
         },
         {
-            "en": "4 nights Accommodation in charming Riad in Marrakech (bed & breakfast).",
-            "fr": "Hébergement de 4 nuits dans un Riad charmant à Marrakech (nuitées et petit-déjeuner).",
-            "es": "Alojamiento de 4 noches en un encantador Riad en Marrakech (alojamiento y desayuno).",
-            "pt": "Alojamento de 4 noites em um Riad encantador em Marraquexe (cama e café da manhã).",
-            "ar": "إقامة لمدة 4 ليال في رياض ساحر في مراكش (سرير وإفطار)."
+            en: '4 nights Accommodation in charming Riad in Marrakech (bed & breakfast).',
+            fr: 'Hébergement de 4 nuits dans un Riad charmant à Marrakech (nuitées et petit-déjeuner).',
+            es: 'Alojamiento de 4 noches en un encantador Riad en Marrakech (alojamiento y desayuno).',
+            pt: 'Alojamento de 4 noites em um Riad encantador em Marraquexe (cama e café da manhã).',
+            ar: 'إقامة لمدة 4 ليال في رياض ساحر في مراكش (سرير وإفطار).',
         },
         {
-            "en": "Pick up & drop-off at your accommodation.",
-            "fr": "Prise en charge et retour à votre hébergement.",
-            "es": "Recogida y regreso a su alojamiento.",
-            "pt": "Pick-up e drop-off no seu alojamento.",
-            "ar": "الاستلام والتسليم في مكان إقامتك."
+            en: 'Pick up & drop-off at your accommodation.',
+            fr: 'Prise en charge et retour à votre hébergement.',
+            es: 'Recogida y regreso a su alojamiento.',
+            pt: 'Pick-up e drop-off no seu alojamento.',
+            ar: 'الاستلام والتسليم في مكان إقامتك.',
         },
         {
-            "en": "English - Spanish speaking driver/Guide.",
-            "fr": "Chauffeur / Guide parlant anglais - espagnol.",
-            "es": "Conductor / Guía que habla inglés - español.",
-            "pt": "Motorista / Guia que fala inglês - espanhol.",
-            "ar": "سائق / مرشد يتحدث الإنجليزية - الإسبانية."
+            en: 'English - Spanish speaking driver/Guide.',
+            fr: 'Chauffeur / Guide parlant anglais - espagnol.',
+            es: 'Conductor / Guía que habla inglés - español.',
+            pt: 'Motorista / Guia que fala inglês - espanhol.',
+            ar: 'سائق / مرشد يتحدث الإنجليزية - الإسبانية.',
         },
         {
-            "en": "Camel trek (Camel per person)",
-            "fr": "Trekking à dos de chameau (un chameau par personne)",
-            "es": "Excursión en camello (un camello por persona)",
-            "pt": "Trekking de camelo (um camelo por pessoa)",
-            "ar": "رحلة بالجمل (جمل لكل شخص)"
+            en: 'Camel trek (Camel per person)',
+            fr: 'Trekking à dos de chameau (un chameau par personne)',
+            es: 'Excursión en camello (un camello por persona)',
+            pt: 'Trekking de camelo (um camelo por pessoa)',
+            ar: 'رحلة بالجمل (جمل لكل شخص)',
         },
         {
-            "en": "Sunset camel trek.",
-            "fr": "Trekking à dos de chameau au coucher du soleil.",
-            "es": "Excursión en camello al atardecer.",
-            "pt": "Trekking de camelo ao pôr do sol.",
-            "ar": "رحلة بالجمل عند غروب الشمس."
+            en: 'Sunset camel trek.',
+            fr: 'Trekking à dos de chameau au coucher du soleil.',
+            es: 'Excursión en camello al atardecer.',
+            pt: 'Trekking de camelo ao pôr do sol.',
+            ar: 'رحلة بالجمل عند غروب الشمس.',
         },
         {
-            "en": "Free time to explore attractions like Djamaa El Fna square, Koutoubia mosque, etc.",
-            "fr": "Temps libre pour explorer des attractions comme la place Djamaa El Fna, la mosquée Koutoubia, etc.",
-            "es": "Tiempo libre para explorar atracciones como la plaza Djamaa El Fna, la mezquita Koutoubia, etc.",
-            "pt": "Tempo livre para explorar atrações como a praça Djamaa El Fna, a mesquita Koutoubia, etc.",
-            "ar": "وقت حر لاستكشاف الأماكن السياحية مثل ساحة جامع الفنا، ومسجد الكتبية، إلخ."
+            en: 'Free time to explore attractions like Djamaa El Fna square, Koutoubia mosque, etc.',
+            fr: 'Temps libre pour explorer des attractions comme la place Djamaa El Fna, la mosquée Koutoubia, etc.',
+            es: 'Tiempo libre para explorar atracciones como la plaza Djamaa El Fna, la mezquita Koutoubia, etc.',
+            pt: 'Tempo livre para explorar atrações como a praça Djamaa El Fna, a mesquita Koutoubia, etc.',
+            ar: 'وقت حر لاستكشاف الأماكن السياحية مثل ساحة جامع الفنا، ومسجد الكتبية، إلخ.',
         },
         {
-            "en": "Visit all interesting attractions along the 5-days Trip.",
-            "fr": "Visitez toutes les attractions intéressantes le long du voyage de 5 jours.",
-            "es": "Visite todas las atracciones interesantes a lo largo del viaje de 5 días.",
-            "pt": "Visite todas as atrações interessantes ao longo da viagem de 5 dias.",
-            "ar": "زيارة جميع الأماكن السياحية المثيرة على مدار الرحلة لمدة 5 أيام."
+            en: 'Visit all interesting attractions along the 5-days Trip.',
+            fr: 'Visitez toutes les attractions intéressantes le long du voyage de 5 jours.',
+            es: 'Visite todas las atracciones interesantes a lo largo del viaje de 5 días.',
+            pt: 'Visite todas as atrações interessantes ao longo da viagem de 5 dias.',
+            ar: 'زيارة جميع الأماكن السياحية المثيرة على مدار الرحلة لمدة 5 أيام.',
         },
         {
-            "en": "Visit a female cooperative of Argan",
-            "fr": "Visitez une coopérative féminine d'Argan",
-            "es": "Visita una cooperativa femenina de Argán",
-            "pt": "Visite uma cooperativa feminina de Argan",
-            "ar": "زيارة تعاونية نسائية للأركان"
+            en: 'Visit a female cooperative of Argan',
+            fr: "Visitez une coopérative féminine d'Argan",
+            es: 'Visita una cooperativa femenina de Argán',
+            pt: 'Visite uma cooperativa feminina de Argan',
+            ar: 'زيارة تعاونية نسائية للأركان',
         },
         {
-            "en": "City Tour in Marrakech with Local certified guide.",
-            "fr": "Tour de ville à Marrakech avec guide local certifié.",
-            "es": "Tour por la ciudad de Marrakech con guía local certificado.",
-            "pt": "Tour pela cidade de Marraquexe com guia local certificado.",
-            "ar": "جولة في مدينة مراكش مع مرشد محلي معتمد."
+            en: 'City Tour in Marrakech with Local certified guide.',
+            fr: 'Tour de ville à Marrakech avec guide local certifié.',
+            es: 'Tour por la ciudad de Marrakech con guía local certificado.',
+            pt: 'Tour pela cidade de Marraquexe com guia local certificado.',
+            ar: 'جولة في مدينة مراكش مع مرشد محلي معتمد.',
         },
         {
-            "en": "Ouzoud waterfalls Excursion.",
-            "fr": "Excursion aux cascades d'Ouzoud.",
-            "es": "Excursión a las cascadas de Ouzoud.",
-            "pt": "Excursão às Cachoeiras de Ouzoud.",
-            "ar": "رحلة إلى شلالات أوزود."
+            en: 'Ouzoud waterfalls Excursion.',
+            fr: "Excursion aux cascades d'Ouzoud.",
+            es: 'Excursión a las cascadas de Ouzoud.',
+            pt: 'Excursão às Cachoeiras de Ouzoud.',
+            ar: 'رحلة إلى شلالات أوزود.',
         },
         {
-            "en": "Ourika valley & desert Agafay Excursion.",
-            "fr": "Excursion dans la vallée de l'Ourika et le désert d'Agafay.",
-            "es": "Excursión al valle de Ourika y al desierto de Agafay.",
-            "pt": "Excursão ao vale de Ourika e ao deserto de Agafay.",
-            "ar": "رحلة إلى وادي أوريكا وصحراء أكافاي."
+            en: 'Ourika valley & desert Agafay Excursion.',
+            fr: "Excursion dans la vallée de l'Ourika et le désert d'Agafay.",
+            es: 'Excursión al valle de Ourika y al desierto de Agafay.',
+            pt: 'Excursão ao vale de Ourika e ao deserto de Agafay.',
+            ar: 'رحلة إلى وادي أوريكا وصحراء أكافاي.',
         },
         {
-            "en": "Essaouira Mogador Excursion.",
-            "fr": "Excursion à Essaouira Mogador.",
-            "es": "Excursión a Essaouira Mogador.",
-            "pt": "Excursão a Essaouira Mogador.",
-            "ar": "رحلة إلى الصويرة موغادور."
+            en: 'Essaouira Mogador Excursion.',
+            fr: 'Excursion à Essaouira Mogador.',
+            es: 'Excursión a Essaouira Mogador.',
+            pt: 'Excursão a Essaouira Mogador.',
+            ar: 'رحلة إلى الصويرة موغادور.',
         },
         {
-            "en": "Quad Biking in the desert of agafay.",
-            "fr": "Quad dans le désert d'Agafay.",
-            "es": "Quad en el desierto de Agafay.",
-            "pt": "Quad no deserto de Agafay.",
-            "ar": "ركوب الدراجة الرباعية في صحراء أكافاي."
-        }
+            en: 'Quad Biking in the desert of agafay.',
+            fr: "Quad dans le désert d'Agafay.",
+            es: 'Quad en el desierto de Agafay.',
+            pt: 'Quad no deserto de Agafay.',
+            ar: 'ركوب الدراجة الرباعية في صحراء أكافاي.',
+        },
     ],
-    "departureCity": "Marrakech",
-    "departurePickupTime": "08:00 AM",
-    "returnPickupTime": "05:30 PM",
-    "journeyTime": 4,
-    "journeyTimeUnit": "hours",
-    "highlights": [
+    departureCity: 'Marrakech',
+    departurePickupTime: '08:00 AM',
+    returnPickupTime: '05:30 PM',
+    journeyTime: 4,
+    journeyTimeUnit: 'hours',
+    highlights: [
         {
-            "en": "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
-            "fr": "Arrêtez-vous aux points de vue panoramiques pour admirer les vues des vallées et des villages berbères.",
-            "es": "Deténgase en los miradores panorámicos para admirar las vistas de los valles y los pueblos bereberes.",
-            "pt": "Pare em pontos de vista panorâmicos para admirar as vistas dos vales e das aldeias berberes.",
-            "ar": "توقف في المناظر البانورامية لتعجب من مناظر الوديان وقرى البربر."
+            en: "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
+            fr: 'Arrêtez-vous aux points de vue panoramiques pour admirer les vues des vallées et des villages berbères.',
+            es: 'Deténgase en los miradores panorámicos para admirar las vistas de los valles y los pueblos bereberes.',
+            pt: 'Pare em pontos de vista panorâmicos para admirar as vistas dos vales e das aldeias berberes.',
+            ar: 'توقف في المناظر البانورامية لتعجب من مناظر الوديان وقرى البربر.',
         },
         {
-            "en": "Travel across the High Atlas Mountains.",
-            "fr": "Voyagez à travers les montagnes du Haut Atlas.",
-            "es": "Viaja a través de las montañas del Alto Atlas.",
-            "pt": "Viaje através das montanhas do Alto Atlas.",
-            "ar": "السفر عبر جبال الأطلس العالية."
+            en: 'Travel across the High Atlas Mountains.',
+            fr: 'Voyagez à travers les montagnes du Haut Atlas.',
+            es: 'Viaja a través de las montañas del Alto Atlas.',
+            pt: 'Viaje através das montanhas do Alto Atlas.',
+            ar: 'السفر عبر جبال الأطلس العالية.',
         },
         {
-            "en": "Visit the UNESCO World Heritage Sites in Marrakech.",
-            "fr": "Visitez les sites du patrimoine mondial de l'UNESCO à Marrakech.",
-            "es": "Visite los sitios del Patrimonio Mundial de la UNESCO en Marrakech.",
-            "pt": "Visite os locais do Patrimônio Mundial da UNESCO em Marraquexe.",
-            "ar": "زيارة مواقع التراث العالمي لليونسكو في مراكش."
+            en: 'Visit the UNESCO World Heritage Sites in Marrakech.',
+            fr: "Visitez les sites du patrimoine mondial de l'UNESCO à Marrakech.",
+            es: 'Visite los sitios del Patrimonio Mundial de la UNESCO en Marrakech.',
+            pt: 'Visite os locais do Patrimônio Mundial da UNESCO em Marraquexe.',
+            ar: 'زيارة مواقع التراث العالمي لليونسكو في مراكش.',
         },
         {
-            "en": "Explore the coastal city of Essaouira.",
-            "fr": "Explorez la ville côtière d'Essaouira.",
-            "es": "Explora la ciudad costera de Essaouira.",
-            "pt": "Explore a cidade costeira de Essaouira.",
-            "ar": "استكشف مدينة الساحل إساويرة."
+            en: 'Explore the coastal city of Essaouira.',
+            fr: "Explorez la ville côtière d'Essaouira.",
+            es: 'Explora la ciudad costera de Essaouira.',
+            pt: 'Explore a cidade costeira de Essaouira.',
+            ar: 'استكشف مدينة الساحل إساويرة.',
         },
         {
-            "en": "Experience Quad bike and Camel ride in Agafay desert.",
-            "fr": "Découvrez le quad et la balade à dos de chameau dans le désert d'Agafay.",
-            "es": "Experimenta Quad bike y paseo en camello en el desierto de Agafay.",
-            "pt": "Experimente Quad bike e passeio de camelo no deserto de Agafay.",
-            "ar": "تجربة ركوب الدراجة الرباعية وركوب الجمل في صحراء أكافاي."
+            en: 'Experience Quad bike and Camel ride in Agafay desert.',
+            fr: "Découvrez le quad et la balade à dos de chameau dans le désert d'Agafay.",
+            es: 'Experimenta Quad bike y paseo en camello en el desierto de Agafay.',
+            pt: 'Experimente Quad bike e passeio de camelo no deserto de Agafay.',
+            ar: 'تجربة ركوب الدراجة الرباعية وركوب الجمل في صحراء أكافاي.',
         },
         {
-            "en": "Take memorable Pictures in one of the best parts of Morocco.",
-            "fr": "Prenez des photos mémorables dans l'une des plus belles régions du Maroc.",
-            "es": "Toma fotos memorables en una de las mejores partes de Marruecos.",
-            "pt": "Tire fotos memoráveis em uma das melhores partes do Marrocos.",
-            "ar": "التقاط صور لا تُنسى في واحدة من أفضل أجزاء المغرب."
+            en: 'Take memorable Pictures in one of the best parts of Morocco.',
+            fr: "Prenez des photos mémorables dans l'une des plus belles régions du Maroc.",
+            es: 'Toma fotos memorables en una de las mejores partes de Marruecos.',
+            pt: 'Tire fotos memoráveis em uma das melhores partes do Marrocos.',
+            ar: 'التقاط صور لا تُنسى في واحدة من أفضل أجزاء المغرب.',
         },
         {
-            "en": "Immerse yourself inside a rich and different culture.",
-            "fr": "Plongez-vous dans une culture riche et différente.",
-            "es": "Sumérgete en una cultura rica y diferente.",
-            "pt": "Mergulhe em uma cultura rica e diferente.",
-            "ar": "غطس نفسك داخل ثقافة غنية ومختلفة."
+            en: 'Immerse yourself inside a rich and different culture.',
+            fr: 'Plongez-vous dans une culture riche et différente.',
+            es: 'Sumérgete en una cultura rica y diferente.',
+            pt: 'Mergulhe em uma cultura rica e diferente.',
+            ar: 'غطس نفسك داخل ثقافة غنية ومختلفة.',
         },
         {
-            "en": "Taste a big variety of different food and dishes.",
-            "fr": "Goûtez à une grande variété de plats et de plats différents.",
-            "es": "Prueba una gran variedad de alimentos y platos diferentes.",
-            "pt": "Prove uma grande variedade de alimentos e pratos diferentes.",
-            "ar": "تذوق مجموعة متنوعة كبيرة من الأطعمة والأطباق المختلفة."
+            en: 'Taste a big variety of different food and dishes.',
+            fr: 'Goûtez à une grande variété de plats et de plats différents.',
+            es: 'Prueba una gran variedad de alimentos y platos diferentes.',
+            pt: 'Prove uma grande variedade de alimentos e pratos diferentes.',
+            ar: 'تذوق مجموعة متنوعة كبيرة من الأطعمة والأطباق المختلفة.',
         },
         {
-            "en": "Enjoy the beauty of Ourika Valley & Atlas Mountains.",
-            "fr": "Profitez de la beauté de la vallée de l'Ourika et des montagnes de l'Atlas.",
-            "es": "Disfruta de la belleza del Valle de Ourika y las Montañas del Atlas.",
-            "pt": "Desfrute da beleza do Vale de Ourika e das Montanhas do Atlas.",
-            "ar": "استمتع بجمال وادي أوريكا وجبال الأطلس."
+            en: 'Enjoy the beauty of Ourika Valley & Atlas Mountains.',
+            fr: "Profitez de la beauté de la vallée de l'Ourika et des montagnes de l'Atlas.",
+            es: 'Disfruta de la belleza del Valle de Ourika y las Montañas del Atlas.',
+            pt: 'Desfrute da beleza do Vale de Ourika e das Montanhas do Atlas.',
+            ar: 'استمتع بجمال وادي أوريكا وجبال الأطلس.',
         },
         {
-            "en": "Live inside the vibes of the Red city (Marrakech).",
-            "fr": "Vivez à l'intérieur des vibrations de la ville rouge (Marrakech).",
-            "es": "Vive dentro de las vibraciones de la ciudad roja (Marrakech).",
-            "pt": "Viva dentro das vibrações da cidade vermelha (Marraquexe).",
-            "ar": "عيش داخل أجواء المدينة الحمراء (مراكش)."
+            en: 'Live inside the vibes of the Red city (Marrakech).',
+            fr: "Vivez à l'intérieur des vibrations de la ville rouge (Marrakech).",
+            es: 'Vive dentro de las vibraciones de la ciudad roja (Marrakech).',
+            pt: 'Viva dentro das vibrações da cidade vermelha (Marraquexe).',
+            ar: 'عيش داخل أجواء المدينة الحمراء (مراكش).',
         },
         {
-            "en": "Visit the biggest Waterfalls in north Africa.",
-            "fr": "Visitez les plus grandes cascades d'Afrique du Nord.",
-            "es": "Visita las cataratas más grandes del norte de África.",
-            "pt": "Visite as maiores cachoeiras do norte da África.",
-            "ar": "زيارة أكبر شلالات في شمال أفريقيا."
-        }
+            en: 'Visit the biggest Waterfalls in north Africa.',
+            fr: "Visitez les plus grandes cascades d'Afrique du Nord.",
+            es: 'Visita las cataratas más grandes del norte de África.',
+            pt: 'Visite as maiores cachoeiras do norte da África.',
+            ar: 'زيارة أكبر شلالات في شمال أفريقيا.',
+        },
     ],
-    "highlightImgs": [
+    highlightImgs: [
         'highlight_1.jpg',
         'highlight_2.jpg',
         'highlight_3.jpg',
@@ -266,103 +266,128 @@ export const _majestic_marrakech_and_beyond_5_days_discovery_tour = {
         'highlight_34.jpg',
         'highlight_35.jpg',
     ],
-    "steps": [
+    steps: [
         {
-            "title": "Marrakech Airport - Marrakech",
-            "description": `Pick up at the Marrakech airport at … with a sign that puts the name of our Agency
-                VITA MOROCCO and Transfer to the Riad / Hotel in the medina of Marrakech, if you
-                arrive in the morning, you can take a guided tour of the medina of Marrakech, to know
-                the most important places in the city(optional local guide), famous for its Jemaa el Fna
-        square, which will occupy a large part of your time: an unrepeatable amalgamation of
-        aromas, sounds and sensations.The city also has other places to wander and enjoy: the
-                Saadian Tombs, the Bahia Palace, the Ben Youssef Madrasa, the souks...`
+            title: {
+                en: 'Marrakech Airport - Marrakech',
+                fr: 'Aéroport de Marrakech - Marrakech',
+                es: 'Aeropuerto de Marrakech - Marrakech',
+                pt: 'Aeroporto de Marraquexe - Marraquexe',
+                ar: 'مطار مراكش - مراكش',
+            },
+            description: {
+                en: 'Pick up at Marrakech airport at ... with a sign displaying the name of our agency VITA MOROCCO and transfer to the Riad/Hotel in the Medina of Marrakech. If you arrive in the morning, you can take a guided tour of the Medina of Marrakech to visit the most important places in the city (optional local guide). Marrakech is famous for its Jemaa el Fna square, which will occupy a large part of your time: an unrepeatable amalgamation of aromas, sounds, and sensations. The city also has other places to wander and enjoy: the Saadian Tombs, the Bahia Palace, the Ben Youssef Madrasa, the souks...',
+                fr: "Prise en charge à l'aéroport de Marrakech à ... avec une pancarte affichant le nom de notre agence VITA MOROCCO et transfert vers le Riad / Hôtel dans la médina de Marrakech. Si vous arrivez le matin, vous pouvez faire une visite guidée de la médina de Marrakech pour visiter les endroits les plus importants de la ville (guide local en option). Marrakech est célèbre pour sa place Jemaa el Fna, qui occupera une grande partie de votre temps : un mélange inimitable d'arômes, de sons et de sensations. La ville offre également d'autres endroits à découvrir et à apprécier : les Tombeaux Saadiens, le Palais de Bahia, la Médersa Ben Youssef, les souks...",
+                es: 'Recogida en el aeropuerto de Marrakech a las ... con un cartel que muestra el nombre de nuestra agencia VITA MOROCCO y traslado al Riad/Hotel en la Medina de Marrakech. Si llega por la mañana, puede realizar un recorrido guiado por la Medina de Marrakech para visitar los lugares más importantes de la ciudad (guía local opcional). Marrakech es famosa por su plaza Jemaa el Fna, que ocupará gran parte de su tiempo: una amalgama irrepetible de aromas, sonidos y sensaciones. La ciudad también tiene otros lugares para pasear y disfrutar: las Tumbas Saadíes, el Palacio de la Bahía, la Madrasa Ben Youssef, los zocos...',
+                pt: 'Pick-up no aeroporto de Marraquexe às ... com uma placa exibindo o nome de nossa agência VITA MARROCOS e transferência para o Riad/Hotel na Medina de Marraquexe. Se você chegar de manhã, pode fazer um tour guiado pela Medina de Marraquexe para visitar os lugares mais importantes da cidade (guia local opcional). Marraquexe é famosa pela sua praça Jemaa el Fna, que ocupará grande parte do seu tempo: uma amalgama única de aromas, sons e sensações. A cidade também tem outros lugares para passear e desfrutar: as Tumbas Saadianas, o Palácio da Bahia, a Madraça Ben Youssef, os souks...',
+                ar: 'استلامك من مطار مراكش في ... مع لافتة تعرض اسم وكالتنا VITA MOROCCO ونقلك إلى الرياض / الفندق في المدينة القديمة في مراكش. إذا وصلت في الصباح، يمكنك القيام بجولة مرشدة في المدينة القديمة لزيارة أهم الأماكن في المدينة (دليل محلي اختياري). تشتهر مراكش بساحتها جامع الفناء، التي ستشغل جزءًا كبيرًا من وقتك: مزيج لا يمكن تكراره من الروائح والأصوات والإحساسات. تحتوي المدينة أيضًا على أماكن أخرى للتجوال والاستمتاع بها: القبور السعدية، وقصر الباهية، ومدرسة بن يوسف، والأسواق...',
+            },
         },
         {
-            "title": "Marrakech - Essaouira Day trip",
-            "description": `Today we will head to the City of Essaouira or the pearl of the Atlantic, on a day trip, this
-                world heritage city, maintains the charm and authenticity of a land lost in time.< br /> <br/>
-                Essaouira has become an essential stage in the trip to Morocco.The adventurous explorer will be
-                fascinated by the hospitable friendliness of the people of this city, which is not surprising
-                since they have lived for centuries at the crossroads of cultures, civilizations and religions.< br /> <br/>
-                The city is well known for its Tuya wood factories, Argan oil women's cooperatives and
-        carpets.On our excursion to Essaouira we suggest a stop at a women's cooperative to see
-                the demonstration of local women preparing Argan oil.Upon arrival in the city, you can take a
-                free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish
-            in the local restaurants of the port.If you wish, we can hire a local guide who will give you a
-                tour of the city.< br /> <br/>
-                The excursion from Marrakech to Essaouira starts as early as possible(it is recommended)
-                to make the most of the day.`
+            title: {
+                en: 'Marrakech - Essaouira Day trip',
+                fr: "Excursion d'une journée de Marrakech à Essaouira",
+                es: 'Excursión de un día de Marrakech a Essaouira',
+                pt: 'Viagem de um dia de Marraquexe a Essaouira',
+                ar: 'رحلة يومية من مراكش إلى الصويرة',
+            },
+            description: {
+                en: "Today we will head to the City of Essaouira, known as the pearl of the Atlantic, on a day trip. This world heritage city maintains the charm and authenticity of a land lost in time. Essaouira has become an essential stage in the trip to Morocco. The adventurous explorer will be fascinated by the hospitable friendliness of the people of this city, which is not surprising since they have lived for centuries at the crossroads of cultures, civilizations, and religions. The city is well known for its Thuya wood factories, Argan oil women's cooperatives, and carpets. On our excursion to Essaouira, we suggest a stop at a women's cooperative to see the demonstration of local women preparing Argan oil. Upon arrival in the city, you can take a free tour of the Medina of Essaouira, visit the port, and then enjoy a lunch of fresh grilled fish in the local restaurants of the port. If you wish, we can hire a local guide who will give you a tour of the city. The excursion from Marrakech to Essaouira starts as early as possible (it is recommended) to make the most of the day.",
+                fr: "Aujourd'hui, nous nous rendrons à la ville d'Essaouira, également connue sous le nom de perle de l'Atlantique, lors d'une excursion d'une journée. Cette ville classée au patrimoine mondial maintient le charme et l'authenticité d'une terre perdue dans le temps. Essaouira est devenue une étape essentielle dans le voyage au Maroc. L'explorateur aventurier sera fasciné par la convivialité hospitalière des habitants de cette ville, ce qui n'est pas surprenant puisqu'ils vivent depuis des siècles au carrefour des cultures, des civilisations et des religions. La ville est bien connue pour ses usines de bois de Thuya, ses coopératives de femmes produisant de l'huile d'Argan et ses tapis. Lors de notre excursion à Essaouira, nous vous suggérons un arrêt dans une coopérative de femmes pour voir la démonstration des femmes locales préparant de l'huile d'Argan. À votre arrivée dans la ville, vous pouvez faire une visite libre de la Médina d'Essaouira, visiter le port, puis déguster un déjeuner de poisson frais grillé dans les restaurants locaux du port. Si vous le souhaitez, nous pouvons engager un guide local qui vous fera faire une visite de la ville. L'excursion de Marrakech à Essaouira commence le plus tôt possible (il est recommandé) pour profiter au maximum de la journée.",
+                es: 'Hoy nos dirigiremos a la ciudad de Essaouira, conocida como la perla del Atlántico, en una excursión de un día. Esta ciudad, Patrimonio Mundial de la Humanidad, mantiene el encanto y la autenticidad de una tierra perdida en el tiempo. Essaouira se ha convertido en una etapa esencial en el viaje a Marruecos. El explorador aventurero quedará fascinado por la amabilidad hospitalaria de la gente de esta ciudad, lo cual no es sorprendente ya que han vivido durante siglos en el cruce de culturas, civilizaciones y religiones. La ciudad es conocida por sus fábricas de madera de tuya, las cooperativas de mujeres que producen aceite de argán y las alfombras. En nuestra excursión a Essaouira, sugerimos una parada en una cooperativa de mujeres para ver la demostración de las mujeres locales preparando aceite de argán. A su llegada a la ciudad, puede hacer un recorrido libre por la Medina de Essaouira, visitar el puerto y luego disfrutar de un almuerzo de pescado fresco a la parrilla en los restaurantes locales del puerto. Si lo desea, podemos contratar un guía local que le dará un recorrido por la ciudad. La excursión de Marrakech a Essaouira comienza lo antes posible (se recomienda) para aprovechar al máximo el día.',
+                pt: 'Hoje iremos para a cidade de Essaouira, conhecida como a pérola do Atlântico, em uma viagem de um dia. Esta cidade, Patrimônio Mundial da Humanidade, mantém o charme e a autenticidade de uma terra perdida no tempo. Essaouira tornou-se uma etapa essencial na viagem ao Marrocos. O explorador aventureiro ficará fascinado pela simpatia hospitaleira do povo desta cidade, o que não é surpreendente, pois eles vivem há séculos no cruzamento de culturas, civilizações e religiões. A cidade é conhecida por suas fábricas de madeira de Tuya, as cooperativas de mulheres que produzem óleo de argan e os tapetes. Em nossa viagem a Essaouira, sugerimos uma parada em uma cooperativa de mulheres para ver a demonstração das mulheres locais preparando óleo de argan. Ao chegar na cidade, você pode fazer um passeio livre pela Medina de Essaouira, visitar o porto e depois desfrutar de um almoço de peixe fresco grelhado nos restaurantes locais do porto. Se desejar, podemos contratar um guia local que lhe fará um tour pela cidade. A viagem de Marraquexe a Essaouira começa o mais cedo possível (é recomendado) para aproveitar ao máximo o dia.',
+                ar: 'اليوم سنتوجه إلى مدينة الصويرة، المعروفة باسم لؤلؤة المحيط الأطلسي، في رحلة يومية. تحافظ هذه المدينة، التي تُعتبر تراثًا عالميًا، على سحرها وأصالتها كأرض ضائعة في الزمن. أصبحت الصويرة مرحلة أساسية في رحلة إلى المغرب. سيُعجب المستكشف المغامر بالود الحسن الذي يتمتع به سكان هذه المدينة، وهو أمر ليس مستغربًا نظرًا لأنهم عاشوا لقرون على تقاطع الثقافات والحضارات والأديان. تُعرف المدينة بمصانعها للأخشاب التويا، والتعاونيات النسائية التي تنتج زيت الأركان، والسجاد. في رحلتنا إلى الصويرة، نقترح التوقف في تعاونية نسائية لمشاهدة عرض نساء محليات يحضرن زيت الأركان. عند وصولك إلى المدينة، يمكنك القيام بجولة حرة في المدينة القديمة، زيارة الميناء، ثم الاستمتاع بغداء من السمك المشوي الطازج في المطاعم المحلية في الميناء. إذا كنت ترغب، يمكننا توظيف مرشد محلي سيقوم بجولة في المدينة. تبدأ الرحلة من مراكش إلى الصويرة في أقرب وقت ممكن (يُوصى به) للاستفادة القصوى من اليوم.',
+            },
         },
         {
-            "title": "Marrakech - Ouzoud Waterfalls day trip",
-            "description": `On the third day of our 5 - day Packages, we will have an amazing day, the Ouzoud
-        waterfalls, located near a village with the same name, with their impressive 100 meters of
-                altitude are what give strength to the waters of the El - Abid River.<br /> <br/ >
-    Pick up at the hotel or Riad where you are staying and early departure towards the OUZOUD
-waterfalls.we will enjoy a day under the waterfalls, where we can find water drops of up to
-50 meters high.< br /> <br/>
-                The Ouzoud waterfalls are the largest and most impressive waterfalls in
-    North Africa.They have a height of 110 meters and are located in the province of
-Tanaghmeilt, 150 kilometres from Marrakech, in the Atlas Mountains.The walk through the
-                waterfalls is very beautiful, you can surround the waterfalls on both sides while you see the
-                vegetation and fauna(it is very common to see monkeys).< br /> <br/>
-                The most intrepid and hot can choose to bathe in the river, it is a very clean water although
-                it's pretty cold. At middle day you can enjoy a pleasant meal sitting on a terrace overlooking
-                the waterfalls.In the Evening, we return to Marrakech.`
+            title: {
+                en: 'Marrakech - Ouzoud Waterfalls day trip',
+                fr: "Excursion d'une journée de Marrakech aux cascades d'Ouzoud",
+                es: 'Excursión de un día de Marrakech a las cascadas de Ouzoud',
+                pt: 'Viagem de um dia de Marraquexe às cascatas de Ouzoud',
+                ar: 'رحلة يومية من مراكش إلى شلالات أوزود',
+            },
+            description: {
+                en: 'On the third day of our 5-day Packages, we will have an amazing day visiting the Ouzoud waterfalls, located near a village with the same name. These impressive waterfalls, with a height of 100 meters, give strength to the waters of the El-Abid River. We will pick you up at your hotel or Riad for an early departure towards the Ouzoud waterfalls. You will enjoy a day under the waterfalls, where you can find water drops of up to 50 meters high. The Ouzoud waterfalls are the largest and most impressive waterfalls in North Africa, with a height of 110 meters, located in the province of Tanaghmeilt, 150 kilometers from Marrakech, in the Atlas Mountains. The walk through the waterfalls is very beautiful, allowing you to surround the waterfalls on both sides while observing the vegetation and fauna (it is very common to see monkeys). The most intrepid can choose to bathe in the river, although the water is quite cold but very clean. At midday, you can enjoy a pleasant meal sitting on a terrace overlooking the waterfalls. In the evening, we return to Marrakech.',
+                fr: "Le troisième jour de nos forfaits de 5 jours sera une journée incroyable aux cascades d'Ouzoud, situées près d'un village du même nom. Ces impressionnantes cascades, d'une hauteur de 100 mètres, donnent de la force aux eaux de la rivière El-Abid. Nous viendrons vous chercher à votre hôtel ou Riad pour un départ matinal vers les cascades d'Ouzoud. Vous passerez une journée sous les cascades, où vous pourrez trouver des chutes d'eau atteignant jusqu'à 50 mètres de haut. Les cascades d'Ouzoud sont les plus grandes et les plus impressionnantes d'Afrique du Nord, avec une hauteur de 110 mètres, situées dans la province de Tanaghmeilt, à 150 kilomètres de Marrakech, dans les montagnes de l'Atlas. La promenade à travers les cascades est très belle, vous permettant d'entourer les cascades des deux côtés tout en observant la végétation et la faune (il est très courant de voir des singes). Les plus intrépides peuvent choisir de se baigner dans la rivière, bien que l'eau soit assez froide mais très propre. À midi, vous pourrez profiter d'un repas assis sur une terrasse avec vue sur les cascades. En fin de journée, nous retournons à Marrakech.",
+                es: 'El tercer día de nuestros paquetes de 5 días será un día increíble visitando las cascadas de Ouzoud, ubicadas cerca de un pueblo del mismo nombre. Estas impresionantes cascadas, con una altura de 100 metros, dan fuerza a las aguas del río El-Abid. Te recogeremos en tu hotel o Riad para una salida temprano hacia las cascadas de Ouzoud. Pasarás un día bajo las cascadas, donde podrás encontrar gotas de agua de hasta 50 metros de altura. Las cascadas de Ouzoud son las más grandes e impresionantes del norte de África, con una altura de 110 metros, ubicadas en la provincia de Tanaghmeilt, a 150 kilómetros de Marrakech, en las montañas del Atlas. El paseo por las cascadas es muy hermoso, permitiéndote rodear las cascadas por ambos lados mientras observas la vegetación y la fauna (es muy común ver monos). Los más intrépidos pueden optar por bañarse en el río, aunque el agua es bastante fría pero muy limpia. A mediodía, podrás disfrutar de una agradable comida sentado en una terraza con vistas a las cascadas. Por la tarde, regresamos a Marrakech.',
+                pt: "No terceiro dia de nossos pacotes de 5 dias, teremos um dia incrível visitando as cascatas de Ouzoud, localizadas perto de uma aldeia com o mesmo nome. Estas impressionantes cascatas, com uma altura de 100 metros, dão força às águas do rio El-Abid. Iremos buscá-lo em seu hotel ou Riad para uma saída antecipada em direção às cascatas de Ouzoud. Você passará um dia sob as cascatas, onde poderá encontrar gotas d'água com até 50 metros de altura. As cascatas de Ouzoud são as maiores e mais impressionantes do norte da África, com uma altura de 110 metros, localizadas na província de Tanaghmeilt, a 150 quilômetros de Marrakech, nas montanhas do Atlas. O passeio pelas cascatas é muito bonito, permitindo que você rodeie as cascatas em ambos os lados enquanto observa a vegetação e a fauna (é muito comum ver macacos). Os mais intrépidos podem optar por nadar no rio, embora a água seja bastante fria, mas muito limpa. Ao meio-dia, você poderá desfrutar de uma refeição agradável sentado em um terraço com vista para as cascatas. À noite, retornamos a Marrakech.",
+                ar: 'في اليوم الثالث من باقاتنا المدتها 5 أيام، سيكون لدينا يوم رائع بزيارة شلالات أوزود، الموجودة بالقرب من قرية تحمل نفس الاسم. هذه الشلالات المذهلة، بارتفاع 100 متر، تعطي قوة لمياه نهر العبيد. سنقوم بالتوجه إلى فندقك أو رياضك للمغادرة في وقت مبكر نحو شلالات أوزود. ستقضي يومًا تحت الشلالات، حيث يمكنك العثور على قطرات ماء بارتفاع يصل إلى 50 مترًا. تعتبر شلالات أوزود أكبر وأكثر الشلالات إثارة للإعجاب في شمال إفريقيا، حيث يبلغ ارتفاعها 110 مترًا، وتقع في إقليم تناغميلت، على بعد 150 كيلومترًا من مراكش، في جبال الأطلس. المشي في الشلالات جميل للغاية، حيث يمكنك التجول حول الشلالات من الجانبين بينما تراقب النباتات والحيوانات (ومن المعتاد رؤية القرود بكثرة). يمكن للأكثر جرأة الاختيار من السباحة في النهر، على الرغم من أن الماء بارد إلى حد ما ولكنه نظيف جدًا. في فترة الظهيرة، يمكنك الاستمتاع بوجبة لذيذة جالسًا على شرفة تطل على الشلالات. في المساء، نعود إلى مراكش.',
+            },
         },
         {
-            "title": "MARRAKECH - Ourika Valley - Agafay Desert",
-            "description": `Pick up at the hotel / Riad around 9:00 a.m.and start of the excursion to the Ourika Valley,
-                in the heart of the Berber countryside, the Ourika Valley continues to be one of the most
-                beautiful and best valleys preserved in Morocco, the small villages clinging to the flanks
-                of the massifs, the waterfalls and rocky landscapes that blend with the omnipresent
-desert, all this forms a wild harmony and seductive in the confines of the western Atlas.< br /> <br/>
-                On the excursion from Marrakech to the atlas you will be able to visit the Berbere souk
-                every Monday, Thursday and Friday, and we propose one to the Botanical Garden, and
-                another visit to a Berber house, which opens the door for you and invites you to see how
-                to prepare traditional bread, and have a Moroccan tea.When we arrive at the village
-                “Setti Fadma”, we can -if you wish - provide you with the service of a local guide who will
-                show you the waterfalls inside the mountains.< br /> <br/>
-                In the end, you can have lunch at a local restaurant, facing the river that prepares
-                Moroccan cuisine(approximately €10 / menu).Then we will continue our journey to the
-                magical desert of Agafay, to enjoy of more interesting activities such as Quads biking and
-                camel riding to see the wonderful Sunset, after that we Return to Marrakech around 8:00.`
+            title: {
+                en: 'MARRAKECH - Ourika Valley - Agafay Desert',
+                fr: "MARRAKECH - Vallée de l'Ourika - Désert d'Agafay",
+                es: 'MARRAKECH - Valle de Ourika - Desierto de Agafay',
+                pt: 'MARRAQUEXE - Vale do Ourika - Deserto de Agafay',
+                ar: 'مراكش - وادي الأوريكا - صحراء أكافاي',
+            },
+            description: {
+                en: 'Pick up at the hotel/Riad around 9:00 a.m. and start of the excursion to the Ourika Valley, located in the heart of the Berber countryside. The Ourika Valley remains one of the most beautiful and best-preserved valleys in Morocco, with small villages clinging to the flanks of the massifs, waterfalls, and rocky landscapes blending with the omnipresent desert. On this excursion from Marrakech to the Atlas Mountains, you can visit the Berber souk every Monday, Thursday, and Friday. We also propose a visit to the Botanical Garden and a Berber house, where you can see how traditional bread is prepared and enjoy Moroccan tea. Upon arrival in the village of Setti Fadma, we can provide you with the service of a local guide who will show you the waterfalls hidden inside the mountains. Afterward, you can have lunch at a local restaurant by the river, offering Moroccan cuisine (approximately €10/menu). Then, we will continue our journey to the magical Agafay Desert, where you can enjoy activities such as quad biking and camel riding to witness the wonderful sunset. Finally, we return to Marrakech around 8:00 p.m.',
+                fr: "Prise en charge à l'hôtel / Riad vers 9h00 et début de l'excursion vers la vallée de l'Ourika, située au cœur de la campagne berbère. La vallée de l'Ourika reste l'une des plus belles et des mieux préservées du Maroc, avec de petits villages accrochés aux flancs des massifs, des cascades et des paysages rocheux se mêlant au désert omniprésent. Lors de cette excursion depuis Marrakech vers les montagnes de l'Atlas, vous pourrez visiter le souk berbère tous les lundis, jeudis et vendredis. Nous proposons également une visite au jardin botanique et dans une maison berbère, où vous pourrez voir comment le pain traditionnel est préparé et déguster du thé marocain. À l'arrivée au village de Setti Fadma, nous pouvons vous fournir les services d'un guide local qui vous montrera les cascades cachées dans les montagnes. Ensuite, vous pourrez déjeuner dans un restaurant local au bord de la rivière, proposant une cuisine marocaine (environ 10 €/menu). Ensuite, nous poursuivrons notre voyage vers le désert magique d'Agafay, où vous pourrez profiter d'activités telles que le quad et la balade à dos de chameau pour admirer le magnifique coucher de soleil. Enfin, nous retournons à Marrakech vers 20h00.",
+                es: 'Recogida en el hotel/Riad alrededor de las 9:00 a. m. y comienzo de la excursión al Valle de Ourika, ubicado en el corazón del campo bereber. El Valle de Ourika sigue siendo uno de los valles más bellos y mejor conservados de Marruecos, con pequeños pueblos aferrados a las laderas de los macizos, cascadas y paisajes rocosos que se mezclan con el omnipresente desierto. En esta excursión desde Marrakech a las montañas del Atlas, puedes visitar el zoco bereber todos los lunes, jueves y viernes. También proponemos una visita al Jardín Botánico y a una casa bereber, donde puedes ver cómo se prepara el pan tradicional y disfrutar del té marroquí. A su llegada al pueblo de Setti Fadma, podemos ofrecerte el servicio de un guía local que te mostrará las cascadas escondidas dentro de las montañas. Después, puedes almorzar en un restaurante local junto al río, que ofrece cocina marroquí (aproximadamente 10 €/menú). Luego, continuaremos nuestro viaje hacia el mágico Desierto de Agafay, donde podrás disfrutar de actividades como paseos en quad y paseos en camello para presenciar la maravillosa puesta de sol. Finalmente, regresamos a Marrakech alrededor de las 8:00 p. m.',
+                pt: 'Pegue no hotel/Riad por volta das 9h00 e início da excursão para o Vale de Ourika, localizado no coração do campo berbere. O Vale de Ourika continua sendo um dos vales mais bonitos e bem preservados de Marrocos, com pequenas aldeias agarradas às encostas dos maciços, cachoeiras e paisagens rochosas que se misturam com o deserto onipresente. Nesta excursão de Marrakech às montanhas do Atlas, você pode visitar o souk berbere todas as segundas, quintas e sextas-feiras. Também propomos uma visita ao Jardim Botânico e a uma casa berbere, onde você pode ver como o pão tradicional é preparado e desfrutar do chá marroquino. Ao chegar à aldeia de Setti Fadma, podemos oferecer o serviço de um guia local que mostrará as cachoeiras escondidas dentro das montanhas. Depois, você pode almoçar em um restaurante local à beira do rio, que oferece culinária marroquina (aproximadamente 10 €/menu). Em seguida, continuaremos nossa jornada até o mágico Deserto de Agafay, onde você pode desfrutar de atividades como passeios de quadriciclo e passeios de camelo para testemunhar o maravilhoso pôr do sol. Finalmente, retornamos a Marrakech por volta das 20h00.',
+                ar: 'استلام من الفندق/الرياض حوالي الساعة 9:00 صباحًا وبدء الرحلة إلى وادي الأوريكا، الواقع في قلب الريف البربري. يظل وادي الأوريكا واحدًا من أجمل وأكثر الوديان المحفوظة في المغرب، مع القرى الصغيرة المتشبثة بجوانب الكتل الصخرية والشلالات والمناظر الصخرية التي تمتزج مع الصحراء الموجودة في كل مكان. في هذه الرحلة من مراكش إلى جبال الأطلس، يمكنك زيارة السوق البربري كل يوم اثنين وخميس وجمعة. نقترح أيضًا زيارة الحديقة النباتية وزيارة منزل بربري، حيث يمكنك رؤية كيفية تحضير الخبز التقليدي والاستمتاع بالشاي المغربي. عند الوصول إلى قرية ستي فادما، يمكننا توفير خدمة دليل محلي سيُظهر لك الشلالات المخفية داخل الجبال. بعد ذلك، يمكنك تناول الغداء في مطعم محلي بجوار النهر، الذي يقدم المأكولات المغربية (تقريبًا 10 يورو/قائمة). ثم، سنواصل رحلتنا إلى الصحراء الساحرة في أكافاي، حيث يمكنك الاستمتاع بأنشطة مثل ركوب الدراجات الرباعية وركوب الجمال لمشاهدة الغروب الرائع. وأخيرًا، نعود إلى مراكش حوالي الساعة 8:00 مساءً.',
+            },
         },
         {
-            "title": "MARRAKECH - Marrakech Airport",
-            "description": `Breakfast and free time to continue exploring the Red City(Marrakech).transfer to the
-                airport of Marrakech, Depending on the departure time of your flight, and end of our
-services.`
+            title: {
+                en: 'MARRAKECH - Marrakech Airport',
+                fr: 'MARRAKECH - Aéroport de Marrakech',
+                es: 'MARRAKECH - Aeropuerto de Marrakech',
+                pt: 'MARRAKECH - Aeroporto de Marraquexe',
+                ar: 'مراكش - مطار مراكش',
+            },
+            description: {
+                en: 'After breakfast, enjoy free time to continue exploring the Red City (Marrakech). Transfer to Marrakech airport, depending on the departure time of your flight, marking the end of our services.',
+                fr: "Après le petit-déjeuner, profitez de votre temps libre pour continuer à explorer la Ville Rouge (Marrakech). Transfert à l'aéroport de Marrakech, en fonction de l'heure de départ de votre vol, marquant la fin de nos services.",
+                es: 'Después del desayuno, disfruta de tiempo libre para seguir explorando la Ciudad Roja (Marrakech). Traslado al aeropuerto de Marrakech, dependiendo del horario de salida de tu vuelo, marcando el final de nuestros servicios.',
+                pt: 'Após o café da manhã, aproveite o tempo livre para continuar explorando a Cidade Vermelha (Marrakech). Transferência para o aeroporto de Marraquexe, dependendo do horário de partida do seu voo, marcando o fim dos nossos serviços.',
+                ar: 'بعد تناول الإفطار، استمتع بوقت الفراغ للاستمرار في استكشاف المدينة الحمراء (مراكش). الانتقال إلى مطار مراكش، اعتمادًا على موعد رحلتك الجوية، ليكون ذلك نهاية خدماتنا.',
+            },
         },
     ],
-    "pricing": [],
-    "duration": 5,
-    "durationUnit": "day",
-    "frequency": {
-        "fr": "chaque jour",
-        "en": "Every day",
-        "es": "Cada día",
-        "pt": "Diariamente",
-        "ar": "كل يوم"
+    pricing: [],
+    duration: 5,
+    durationUnit: 'day',
+    frequency: {
+        fr: 'chaque jour',
+        en: 'Every day',
+        es: 'Cada día',
+        pt: 'Diariamente',
+        ar: 'كل يوم',
     },
-    "informationList": [],
-    "mapLink": "!1m76!1m12!1m3!1d1738516.0486608725!2d-9.557682505077667!3d31.67382558207769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sA%C3%A9roport%20international%20Marrakech-M%C3%A9nara!3m2!1d31.6008085!2d-8.0252375!4m5!1s0xdafee43ad1cec7d%3A0x91b033ce5d01bbb1!2sJama%C3%A2%20El-Fna%2C%20Marrakech!3m2!1d31.625960199999998!2d-7.989090099999999!4m5!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira!3m2!1d31.5084926!2d-9.7595041!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xda48d6c7dbd3851%3A0x6e9e0fe22217dc35!2sOuzoud%20Falls%2C%20Ouzoud!3m2!1d32.0152153!2d-6.7196026!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbaaa5746eb2bfd%3A0x8c590a8e535966d3!2sOurika%20Valley!3m2!1d31.343779899999998!2d-7.751430399999999!4m5!1s0xdafdc6f683b8ba9%3A0xed7eaae2df67ffc7!2sAgafay!3m2!1d31.4871989!2d-8.1979703!4m5!1s0xdafee43ad1cec7d%3A0x91b033ce5d01bbb1!2sJama%C3%A2%20El-Fna%2C%20Marrakech!3m2!1d31.625960199999998!2d-7.989090099999999!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sA%C3%A9roport%20international%20Marrakech-M%C3%A9nara%2C%20Marrakech!3m2!1d31.6008085!2d-8.0252375!5e0!3m2!1sfr!2sma!4v1710600672743!5m2!1sfr!2sma"
-}
-
-/***
- * 
- * 
- * 
-        `Our travel agency, have both choices:
-Marrakech & surrounding 5 days luxury Trip.
-    Marrakech & surrounding 5 days Standard Trip(Basic), Depends on your choice.`,
-        `Our Marrakech & surrounding 5 days package is a private Trip.We are sure that the
-            best way to get into the deepest Moroccan culture is through private tours.because
-            You can stop whenever & wherever you like while you're exploring the country by
-            your way.`,
-        `You can always ask your driver - guide about skipping some stops or add some other
-            stops to spend more time where you like.`,
-        `The best option to visit Marrakech and the area is by having everything already setup, so you don’t get lost with what you need to chose or no! by choosing this package
-            you will visit the maximum possible of places in Marrakech and the surrounding.`
-    
- */
+    informationList: [
+        {
+            en: 'Our travel agency, have both choices: Marrakech & surrounding 5 days luxury Trip. Marrakech & surrounding 5 days Standard Trip(Basic), Depends on your choice.',
+            fr: 'Notre agence de voyage propose les deux options : Marrakech et ses environs 5 jours de voyage de luxe. Marrakech et ses environs 5 jours de voyage standard (de base), Dépend de votre choix.',
+            es: 'Nuestra agencia de viajes, tiene ambas opciones: Marrakech y alrededores 5 días de viaje de lujo. Marrakech y alrededores 5 días de viaje estándar (básico), Depende de tu elección.',
+            pt: 'Nossa agência de viagens oferece ambas as opções: Marrakech e arredores 5 dias de viagem de luxo. Marrakech e arredores 5 dias de viagem padrão (básico), Depende da sua escolha.',
+            ar: 'وكالتنا للسفر، لديها كلا الخيارين: مراكش ومحيطها رحلة فاخرة لمدة 5 أيام. مراكش ومحيطها رحلة قياسية لمدة 5 أيام (أساسية)، تعتمد على اختيارك.',
+        },
+        {
+            en: "Our Marrakech & surrounding 5 days package is a private Trip. We are sure that the best way to get into the deepest Moroccan culture is through private tours. because You can stop whenever & wherever you like while you're exploring the country by your way.",
+            fr: 'Notre forfait Marrakech et ses environs 5 jours est un voyage privé. Nous sommes sûrs que la meilleure façon de plonger dans la culture marocaine la plus profonde est à travers des visites privées. Parce que vous pouvez vous arrêter quand et où vous le souhaitez pendant que vous explorez le pays à votre manière.',
+            es: 'Nuestro paquete de 5 días en Marrakech y sus alrededores es un viaje privado. Estamos seguros de que la mejor manera de sumergirse en la cultura marroquí más profunda es a través de tours privados. Porque puedes detenerte cuando y donde quieras mientras exploras el país a tu manera.',
+            pt: 'Nosso pacote de 5 dias em Marrakech e arredores é uma viagem particular. Temos certeza de que a melhor maneira de mergulhar na cultura marroquina mais profunda é através de passeios privados. Porque você pode parar quando e onde quiser enquanto explora o país do seu jeito.',
+            ar: 'حزمتنا لمراكش ومحيطها لمدة 5 أيام هي رحلة خاصة. نحن واثقون من أن أفضل طريقة للانغماس في الثقافة المغربية الأعمق هي من خلال الجولات الخاصة. لأنه يمكنك التوقف في أي وقت وأينما تشاء أثناء استكشافك للبلاد على طريقتك.',
+        },
+        {
+            en: 'You can always ask your driver - guide about skipping some stops or add some other stops to spend more time where you like.',
+            fr: "Vous pouvez toujours demander à votre chauffeur-guide de sauter certains arrêts ou d'ajouter d'autres arrêts pour passer plus de temps où vous le souhaitez.",
+            es: 'Siempre puedes preguntarle a tu conductor-guía sobre omitir algunas paradas o agregar algunas otras paradas para pasar más tiempo donde prefieras.',
+            pt: 'Você sempre pode perguntar ao seu motorista-guia sobre pular algumas paradas ou adicionar algumas outras paradas para passar mais tempo onde você gosta.',
+            ar: 'يمكنك دائمًا طلب من سائقك المرشد تخطي بعض التوقفات أو إضافة بعض التوقفات الأخرى لقضاء المزيد من الوقت في المكان الذي تفضله.',
+        },
+        {
+            en: 'The best option to visit Marrakech and the area is by having everything already setup, so you don’t get lost with what you need to chose or no! by choosing this package you will visit the maximum possible of places in Marrakech and the surrounding.',
+            fr: "La meilleure option pour visiter Marrakech et la région est d'avoir tout déjà configuré, afin de ne pas vous perdre avec ce que vous devez choisir ou non! en choisissant ce forfait, vous visiterez le maximum possible d'endroits à Marrakech et ses environs.",
+            es: 'La mejor opción para visitar Marrakech y la zona es tener todo ya configurado, para que no te pierdas con lo que necesitas elegir o no! al elegir este paquete visitarás el máximo posible de lugares en Marrakech y sus alrededores.',
+            pt: 'A melhor opção para visitar Marrakech e a região é ter tudo já configurado, para que você não se perca com o que precisa escolher ou não! ao escolher este pacote, você visitará o máximo possível de lugares em Marrakech e arredores.',
+            ar: 'أفضل خيار لزيارة مراكش والمنطقة هو بإعداد كل شيء بالفعل، حتى لا تضيع مع ما تحتاج إلى اختياره أو لا! عن طريق اختيار هذه الحزمة ستزور أكبر عدد ممكن من الأماكن في مراكش والمناطق المحيطة بها.',
+        },
+    ],
+    mapLink:
+        '!1m76!1m12!1m3!1d1738516.0486608725!2d-9.557682505077667!3d31.67382558207769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sA%C3%A9roport%20international%20Marrakech-M%C3%A9nara!3m2!1d31.6008085!2d-8.0252375!4m5!1s0xdafee43ad1cec7d%3A0x91b033ce5d01bbb1!2sJama%C3%A2%20El-Fna%2C%20Marrakech!3m2!1d31.625960199999998!2d-7.989090099999999!4m5!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira!3m2!1d31.5084926!2d-9.7595041!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xda48d6c7dbd3851%3A0x6e9e0fe22217dc35!2sOuzoud%20Falls%2C%20Ouzoud!3m2!1d32.0152153!2d-6.7196026!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbaaa5746eb2bfd%3A0x8c590a8e535966d3!2sOurika%20Valley!3m2!1d31.343779899999998!2d-7.751430399999999!4m5!1s0xdafdc6f683b8ba9%3A0xed7eaae2df67ffc7!2sAgafay!3m2!1d31.4871989!2d-8.1979703!4m5!1s0xdafee43ad1cec7d%3A0x91b033ce5d01bbb1!2sJama%C3%A2%20El-Fna%2C%20Marrakech!3m2!1d31.625960199999998!2d-7.989090099999999!4m5!1s0xdafeed09eb0c575%3A0xc3f5815b7b3d9fe7!2sA%C3%A9roport%20international%20Marrakech-M%C3%A9nara%2C%20Marrakech!3m2!1d31.6008085!2d-8.0252375!5e0!3m2!1sfr!2sma!4v1710600672743!5m2!1sfr!2sma',
+};
