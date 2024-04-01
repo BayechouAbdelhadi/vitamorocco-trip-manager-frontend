@@ -7,10 +7,10 @@ import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLi
 import { getTips } from '../../common/services/tipService';
 import { useTranslation } from 'react-i18next';
 import parse from 'html-react-parser';
+import { AvailableLanguage } from '../../locales';
 
 
 import './Tips.scss';
-import { AvailableLanguage } from '../../locales';
 
 const TipsText = 'Tips & Advice';
 
