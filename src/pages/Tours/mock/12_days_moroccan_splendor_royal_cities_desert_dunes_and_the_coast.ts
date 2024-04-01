@@ -1,6 +1,6 @@
 import { TourMock } from "../../../common/types/tour";
 
-export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast:TourMock = {
+export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast: TourMock = {
     id: '12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast',
     title: {
         en: '12 Days Moroccan Splendor : Royal Cities, Desert Dunes, and the Coast',

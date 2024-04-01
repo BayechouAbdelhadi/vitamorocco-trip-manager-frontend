@@ -1,41 +1,131 @@
 import { TourMock } from "../../../common/types/tour";
 
-export const _4_days_tour_marrakech_to_fes:TourMock = {
+export const _4_days_tour_marrakech_to_fes: TourMock = {
     id: '4_days_tour_marrakech_to_fes',
     title: {
-        en: '4 days Tour Marrakech to Fez',
+        "en": "4 days Tour Marrakech to Fez",
+        "fr": "Tour de 4 jours de Marrakech à Fès",
+        "es": "Tour de 4 días de Marrakech a Fez",
+        "pt": "Tour de 4 dias de Marrakech a Fez",
+        "ar": "جولة 4 أيام من مراكش إلى فاس"
     },
     summaryImg: 'summary.jpg',
     titleImg: 'title.jpg',
     descriptionImg: 'description.jpg',
     description: {
-        en: `Are you looking for a Sahara Desert tour that departs from Marrakech and ends in Fes ?
-            VITA MOROCCO offers the best Morocco Trips from Marrakech.And the 4 Days desert tour
-            from Marrakech to Fez is one of the highly recommended desert trips that includes two
-        nights in the Sahara Desert.< br /> <br/>
-            Our 4 days Morocco Tour will take you to explore the impressive
-            Attractions that southern Morocco has to offer.Atlas Mountains, Valleys, Kasbah, Cedar
-        Forest, gorges, Oasis palm groves, sand dunes.Also, UNESCO World Heritage sites.< br /> <br/>
-        Therefore, Visit Nomads.Enjoy a 4WD discovery desert trip, Ride camels, and much more
-        Activities & Things to see.`,
+        "en": "Are you looking for a Sahara Desert tour that departs from Marrakech and ends in Fes? VITA MOROCCO offers the best Morocco Trips from Marrakech. And the 4 Days desert tour from Marrakech to Fez is one of the highly recommended desert trips that includes two nights in the Sahara Desert.<br/><br/>Our 4 days Morocco Tour will take you to explore the impressive Attractions that southern Morocco has to offer. Atlas Mountains, Valleys, Kasbah, Cedar Forest, gorges, Oasis palm groves, sand dunes. Also, UNESCO World Heritage sites.<br/><br/>Therefore, Visit Nomads. Enjoy a 4WD discovery desert trip, Ride camels, and much more Activities & Things to see.",
+        "fr": "Vous recherchez une excursion dans le désert du Sahara qui part de Marrakech et se termine à Fès? VITA MOROCCO propose les meilleurs voyages au Maroc depuis Marrakech. Et le tour du désert de 4 jours de Marrakech à Fez est l'une des excursions dans le désert les plus recommandées, comprenant deux nuits dans le désert du Sahara.<br/><br/>Notre circuit de 4 jours au Maroc vous emmènera découvrir les attractions impressionnantes que le sud du Maroc a à offrir. Montagnes de l'Atlas, vallées, kasbah, forêt de cèdres, gorges, oasis, dunes de sable. Aussi, sites du patrimoine mondial de l'UNESCO.<br/><br/>Par conséquent, Visitez les nomades. Profitez d'une excursion en 4x4 dans le désert, faites une balade à dos de chameau et bien plus encore d'activités et de choses à voir.",
+        "es": "¿Estás buscando un tour por el desierto del Sahara que salga de Marrakech y termine en Fez? VITA MOROCCO ofrece los mejores viajes por Marruecos desde Marrakech. Y el tour de 4 días por el desierto desde Marrakech hasta Fez es uno de los tours por el desierto más recomendados que incluye dos noches en el desierto del Sahara.<br/><br/>Nuestro tour de 4 días por Marruecos te llevará a explorar las impresionantes atracciones que el sur de Marruecos tiene para ofrecer. Montañas del Atlas, valles, kasbah, bosque de cedros, gargantas, oasis, dunas de arena. Además, sitios del Patrimonio Mundial de la UNESCO.<br/><br/>Por lo tanto, visita a los nómadas. Disfruta de un viaje de descubrimiento en 4x4 por el desierto, monta en camellos y mucho más actividades y cosas para ver.",
+        "pt": "Você está procurando um passeio pelo Deserto do Saara que parte de Marrakech e termina em Fez? A VITA MOROCCO oferece as melhores Viagens ao Marrocos saindo de Marrakech. E o tour de 4 dias pelo deserto de Marrakech a Fez é um dos tours pelo deserto mais recomendados, que inclui duas noites no Deserto do Saara.<br/><br/>Nosso Tour de 4 dias pelo Marrocos levará você a explorar as impressionantes Atrações que o sul do Marrocos tem a oferecer. Montanhas do Atlas, Vales, Kasbah, Floresta de Cedros, gargantas, oásis, dunas de areia. Além disso, sítios do Patrimônio Mundial da UNESCO.<br/><br/>Portanto, visite os nômades. Desfrute de uma viagem de descoberta no deserto em 4x4, ande de camelo e muito mais atividades e coisas para ver.",
+        "ar": "هل تبحث عن جولة في الصحراء الكبرى تنطلق من مراكش وتنتهي في فاس؟ تقدم VITA MOROCCO أفضل رحلات المغرب من مراكش. وجولة الصحراء لمدة 4 أيام من مراكش إلى فاس هي واحدة من أكثر الرحلات في الصحراء توصيًا بشدة والتي تشمل ليلتين في صحراء الساحل.<br/><br/>ستأخذك جولتنا في المغرب لمدة 4 أيام لاستكشاف الجذب الرائعة التي تقدمها جنوب المغرب. جبال الأطلس والوديان والقصبة وغابة الأرز والمضاغف والواحات والكثبان الرملية. بالإضافة إلى ذلك، المواقع التراثية لليونسكو.<br/><br/>لذلك، قم بزيارة البدو. استمتع برحلة استكشاف الصحراء بسيارة دفع رباعي، اركب الجمال، والمزيد من الأنشطة والأشياء للرؤية."
     },
     destinationCity: 'Fes',
     includedServices: [
-        'Private Vehicle with A/C (SUV, 4WD, or minivan).',
-        '1 Night Accommodation in Dades Valley (Dinner & breakfast included)',
-        '1 night Accommodation in charming Riad in Merzouga.',
-        '1 night stay in a desert camp (Dinner & breakfast included)',
-        'Pick up & drop-off at your accommodation.',
-        'English - Spanish speaking driver/Guide.',
-        'Camel trek (Camel per person)',
-        'Sunset or sunrise camel trek.',
-        'Free time to explore attractions like Ait Ben Haddou, Cinema Studios, etc.',
-        'Visit all interesting attractions along the road.',
-        'Visit a female cooperative of Argan.',
-        "Sandboarding (if you're interested).",
-        'Visit the Rissani Souk.',
-        '4WD Tour in Erg Chebbi desert.',
-        'Nomads Visit.',
+        {
+            en: 'Private Vehicle with A/C (SUV, 4WD, or minivan).',
+            fr: 'Véhicule privé avec climatisation (SUV, 4x4 ou minivan).',
+            es: 'Vehículo privado con aire acondicionado (SUV, 4x4 o minivan).',
+            pt: 'Veículo privado com ar condicionado (SUV, 4x4 ou minivan).',
+            ar: 'سيارة خاصة مع تكييف (SUV، 4WD، أو ميني فان).',
+        },
+        {
+            "en": "1 Night Accommodation in Dades Valley (Dinner & breakfast included)",
+            "fr": "1 nuit d'hébergement dans la vallée des Dades (dîner et petit-déjeuner compris)",
+            "es": "1 noche de alojamiento en el Valle de Dades (cena y desayuno incluidos)",
+            "pt": "1 noite de alojamento no Vale de Dades (jantar e café da manhã incluídos)",
+            "ar": "إقامة ليلة واحدة في وادي الدادس (العشاء والإفطار متضمنان)"
+        },
+        {
+            "en": "1 night Accommodation in charming Riad in Merzouga.",
+            "fr": "1 nuit d'hébergement dans un Riad charmant à Merzouga.",
+            "es": "1 noche de alojamiento en un encantador Riad en Merzouga.",
+            "pt": "1 noite de alojamento em um Riad encantador em Merzouga.",
+            "ar": "إقامة ليلة واحدة في رياض ساحر في مرزوقة."
+        },
+        {
+            "en": "1 night stay in a desert camp (Dinner & breakfast included)",
+            "fr": "1 nuit de séjour dans un campement désertique (dîner et petit-déjeuner compris)",
+            "es": "1 noche de estancia en un campamento en el desierto (cena y desayuno incluidos)",
+            "pt": "1 noite de estadia em um acampamento no deserto (jantar e café da manhã incluídos)",
+            "ar": "إقامة ليلة واحدة في مخيم في الصحراء (العشاء والإفطار متضمنان)"
+        },
+        {
+            "en": "Pick up & drop-off at your accommodation.",
+            "fr": "Prise en charge et retour à votre hébergement.",
+            "es": "Recogida y regreso a su alojamiento.",
+            "pt": "Coleta e entrega em sua acomodação.",
+            "ar": "التقاط وإسقاط في مكان إقامتك."
+        },
+        {
+            "en": "English - Spanish speaking driver/Guide.",
+            "fr": "Chauffeur / guide parlant anglais - espagnol.",
+            "es": "Conductor / guía que habla inglés - español.",
+            "pt": "Motorista / guia que fala inglês - espanhol.",
+            "ar": "سائق / مرشد يتحدث الإنجليزية - الإسبانية."
+        },
+        {
+            en: 'Camel trek (Camel per person)',
+            fr: 'Trekking à dos de chameau (un chameau par personne)',
+            es: 'Excursión en camello (un camello por persona)',
+            pt: 'Trekking de camelo (um camelo por pessoa)',
+            ar: 'رحلة بالجمل (جمل لكل شخص)',
+        },
+        {
+            en: 'Sunset camel trek.',
+            fr: 'Trekking à dos de chameau au coucher du soleil.',
+            es: 'Excursión en camello al atardecer.',
+            pt: 'Trekking de camelo ao pôr do sol.',
+            ar: 'رحلة بالجمل عند غروب الشمس.',
+        },
+        {
+            "en": "Free time to explore attractions like Ait Ben Haddou, Cinema Studios, etc.",
+            "fr": "Temps libre pour explorer des attractions telles que Ait Ben Haddou, Studios de Cinéma, etc.",
+            "es": "Tiempo libre para explorar atracciones como Ait Ben Haddou, Estudios de Cine, etc.",
+            "pt": "Tempo livre para explorar atrações como Ait Ben Haddou, Estúdios de Cinema, etc.",
+            "ar": "وقت حر لاستكشاف الأماكن السياحية مثل آيت بن حدّو واستوديوهات السينما، وما إلى ذلك."
+        },
+        {
+            "en": "Visit all interesting attractions along the road.",
+            "fr": "Visitez toutes les attractions intéressantes le long de la route.",
+            "es": "Visitar todas las atracciones interesantes a lo largo del camino.",
+            "pt": "Visitar todas as atrações interessantes ao longo do caminho.",
+            "ar": "زيارة جميع الجذب السياحية المثيرة على طول الطريق."
+        },
+        {
+            "en": "Visit a female cooperative of Argan.",
+            "fr": "Visitez une coopérative féminine d'Argan.",
+            "es": "Visitar una cooperativa femenina de Argán.",
+            "pt": "Visitar uma cooperativa feminina de Argan.",
+            "ar": "زيارة تعاونية نسائية للأركان."
+        },
+        {
+            "en": "Sandboarding (if you're interested).",
+            "fr": "Faire du sandboard (si vous êtes intéressé).",
+            "es": "Sandboarding (si estás interesado).",
+            "pt": "Sandboarding (se você estiver interessado).",
+            "ar": "ركوب الرمال (إذا كنت مهتماً)."
+        },
+        {
+            "en": "Visit the Rissani Souk.",
+            "fr": "Visitez le Souk de Rissani.",
+            "es": "Visitar el Zoco de Rissani.",
+            "pt": "Visitar o Souk de Rissani.",
+            "ar": "زيارة سوق الريساني."
+        },
+        {
+            "en": "4WD Tour in Erg Chebbi desert.",
+            "fr": "Excursion en 4x4 dans le désert d'Erg Chebbi.",
+            "es": "Tour en 4x4 en el desierto de Erg Chebbi.",
+            "pt": "Tour em 4x4 no deserto de Erg Chebbi.",
+            "ar": "جولة بسيارة رباعية الدفع في صحراء إرغ شبّي."
+        },
+        {
+            "en": "Nomads Visit.",
+            "fr": "Visite des nomades.",
+            "es": "Visita a los nómadas.",
+            "pt": "Visita aos nômades.",
+            "ar": "زيارة الرحل."
+        },
     ],
     departureCity: 'Marrakech',
     departurePickupTime: '08:00 AM',
@@ -44,52 +134,119 @@ export const _4_days_tour_marrakech_to_fes:TourMock = {
     journeyTimeUnit: 'hours',
     highlights: [
         {
-            en: "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
+            "en": "Stop at panoramic viewpoints to admire views of valleys and Berber villages.",
+            "fr": "Arrêt aux points de vue panoramiques pour admirer les vues sur les vallées et les villages berbères.",
+            "es": "Parada en miradores panorámicos para admirar las vistas de valles y pueblos bereberes.",
+            "pt": "Parada em mirantes panorâmicos para admirar as vistas dos vales e aldeias berberes.",
+            "ar": "توقف في مناطق المشاهدة البانورامية لمشاهدة مناظر الوديان والقرى البربرية."
+        },
+
+        {
+            "en": "Travel across the High Atlas Mountains.",
+            "fr": "Voyage à travers les montagnes du Haut Atlas.",
+            "es": "Viaja a través de las montañas del Alto Atlas.",
+            "pt": "Viaje através das montanhas do Alto Atlas.",
+            "ar": "السفر عبر جبال الأطلس الكبيرة."
         },
         {
-            en: 'Travel across the High Atlas Mountains.',
+            "en": "Visit the UNESCO World Heritage Site of Kasbah Ait Ben Haddou.",
+            "fr": "Visitez le site du patrimoine mondial de l'UNESCO de la Kasbah Ait Ben Haddou.",
+            "es": "Visita el sitio de Patrimonio Mundial de la UNESCO de la Kasbah Ait Ben Haddou.",
+            "pt": "Visite o Patrimônio Mundial da UNESCO, a Kasbah Ait Ben Haddou.",
+            "ar": "زيارة موقع التراث العالمي لليونسكو لقصبة آيت بن حدّو."
         },
         {
-            en: 'Visit the UNESCO World Heritage Site of Kasbah Ait Ben Haddou.',
+            "en": "Explore Dades & Todra Gorges, Palm groves & valleys.",
+            "fr": "Explorez les gorges du Dadès et du Todra, les palmeraies et les vallées.",
+            "es": "Explore los desfiladeros de Dades y Todra, los palmerales y los valles.",
+            "pt": "Explore os desfiladeiros de Dades e Todra, as palmeiras e os vales.",
+            "ar": "استكشاف مضائق داديس وتودرا، ونخيل ووادي داديس وتودرا."
         },
         {
-            en: 'Explore Dades & Todra Gorges, Palm groves & valleys.',
+            "en": "Experience a Camel ride in Merzouga dunes & Experience Sandboarding.",
+            "fr": "Faites une balade à dos de chameau dans les dunes de Merzouga et faites du sandboard.",
+            "es": "Experimenta un paseo en camello en las dunas de Merzouga y prueba el sandboard.",
+            "pt": "Experimente um passeio de camelo nas dunas de Merzouga e experimente o sandboard.",
+            "ar": "تجربة ركوب الجمل في كثبان مرزوقة وتجربة التزلج على الرمال."
         },
         {
-            en: 'Experience a Camel ride in Merzouga dunes & Experience Sandboarding.',
+            "en": "Enjoy a spectacular sunset & sunrise Camel ride.",
+            "fr": "Profitez d'une balade à dos de chameau spectaculaire au coucher du soleil et au lever du soleil.",
+            "es": "Disfruta de un paseo en camello espectacular al atardecer y al amanecer.",
+            "pt": "Desfrute de um passeio de camelo espetacular ao pôr do sol e ao nascer do sol.",
+            "ar": "استمتع بجولة ركوب الجمل المذهلة عند غروب الشمس وشروق الشمس."
         },
         {
-            en: 'Enjoy a spectacular sunset & sunrise Camel ride.',
+            "en": "Visit the biggest film studios in North Africa.",
+            "fr": "Visitez les plus grands studios de cinéma en Afrique du Nord.",
+            "es": "Visita los mayores estudios de cine en el norte de África.",
+            "pt": "Visite os maiores estúdios de cinema do norte da África.",
+            "ar": "زور أكبر استوديوهات السينما في شمال أفريقيا."
         },
         {
-            en: 'Visit the biggest film studios in north Africa.',
+            "en": "Spend an overnight in a Berber desert camp in the heart of the dunes.",
+            "fr": "Passez une nuit dans un campement berbère au cœur des dunes.",
+            "es": "Pase una noche en un campamento bereber en el corazón de las dunas.",
+            "pt": "Passe uma noite em um acampamento berbere no coração das dunas.",
+            "ar": "قضِ ليلة في مخيم البربر في قلب الكثبان."
+        },
+
+        {
+            "en": "Take memorable pictures in one of the best parts of Morocco.",
+            "fr": "Prenez des photos mémorables dans l'une des meilleures parties du Maroc.",
+            "es": "Tome fotos memorables en una de las mejores partes de Marruecos.",
+            "pt": "Tire fotos memoráveis em uma das melhores partes do Marrocos.",
+            "ar": "خذ صوراً لا تُنسى في واحدة من أفضل مناطق المغرب."
         },
         {
-            en: 'Spend an overnight in a Berber desert camp in the heart of the dunes.',
+            "en": "Immerse yourself inside a rich and different culture.",
+            "fr": "Plongez-vous dans une culture riche et différente.",
+            "es": "Sumérgete en una cultura rica y diferente.",
+            "pt": "Mergulhe em uma cultura rica e diferente.",
+            "ar": "انغمس داخل ثقافة غنية ومختلفة."
         },
         {
-            en: 'Take memorable Pictures in one of the best parts of Morocco.',
+            "en": "Immerse yourself in a rich and diverse culture.",
+            "fr": "Immergez-vous dans une culture riche et diversifiée.",
+            "es": "Sumérgete en una cultura rica y diversa.",
+            "pt": "Mergulhe em uma cultura rica e diversa.",
+            "ar": "انغمس في ثقافة غنية ومتنوعة."
         },
         {
-            en: 'Immerse yourself inside a rich and different culture.',
+            "en": "Indulge in a wide variety of different foods and dishes.",
+            "fr": "Dégustez une grande variété de plats et mets différents.",
+            "es": "Disfruta de una amplia variedad de alimentos y platos diferentes.",
+            "pt": "Desfrute de uma ampla variedade de alimentos e pratos diferentes.",
+            "ar": "تذوق مجموعة واسعة من الأطعمة والأطباق المختلفة."
         },
         {
-            en: 'Taste a big variety of different food and dishes.',
+            "en": "Enjoy the views of the Draa Valley.",
+            "fr": "Profitez des vues de la vallée du Draa.",
+            "es": "Disfruta de las vistas del Valle del Draa.",
+            "pt": "Desfrute das vistas do Vale do Draa.",
+            "ar": "استمتع بمناظر وادي الدرع."
+        },
+
+        {
+            "en": "Enjoy the Ziz Valley views.",
+            "fr": "Profitez des vues de la vallée du Ziz.",
+            "es": "Disfruta de las vistas del Valle del Ziz.",
+            "pt": "Desfrute das vistas do Vale do Ziz.",
+            "ar": "استمتع بمشاهد وادي زيز."
         },
         {
-            en: 'Enjoy the views of the Draa Valley.',
+            "en": "Visit the Rissani Souks.",
+            "fr": "Visitez les souks de Rissani.",
+            "es": "Visita los zocos de Rissani.",
+            "pt": "Visite os souks de Rissani.",
+            "ar": "زر سوق الريصاني."
         },
         {
-            en: 'See how real Nomads lives in the middle of the desert.',
-        },
-        {
-            en: 'Enjoy the Ziz Valley views.',
-        },
-        {
-            en: 'Visit the Rissani Souks.',
-        },
-        {
-            en: 'Discover the Culture & traditions of Gnawa.',
+            "en": "Discover the Culture & traditions of Gnawa.",
+            "fr": "Découvrez la culture et les traditions des Gnawa.",
+            "es": "Descubre la cultura y tradiciones de los Gnawa.",
+            "pt": "Descubra a cultura e tradições dos Gnawa.",
+            "ar": "اكتشف ثقافة وتقاليد الغناوة."
         },
     ],
     highlightImgs: [
@@ -218,6 +375,5 @@ export const _4_days_tour_marrakech_to_fes:TourMock = {
             ar: 'يمكن لضيوفنا اختيار الذهاب إلى المخيم في رحلة على ظهر الجمل أو بسيارة رباعية الدفع.',
         },
     ],
-    mapLink:
-        '!1m70!1m12!1m3!1d2706990.410031855!2d-8.640628834661044!3d32.4485178035514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m55!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Benhaddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdbd331a6d3914af%3A0xcdb9c0416d74335c!2sTodrha%2C%20Tinghir!3m2!1d31.479999999999997!2d-5.51!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd973cb9175df3f1%3A0xf65090c1d64e40e2!2sKhamlia!3m2!1d31.0260344!2d-4.005704199999999!4m5!1s0xd98bf42e8441e9f%3A0x88269ca6a8dbb536!2sMidelt!3m2!1d32.6799423!2d-4.7329267999999995!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!5e1!3m2!1sfr!2sma!4v1710600117589!5m2!1sfr!2sma',
+    mapLink: '!1m70!1m12!1m3!1d2706990.410031855!2d-8.640628834661044!3d32.4485178035514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m55!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Benhaddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdbd331a6d3914af%3A0xcdb9c0416d74335c!2sTodrha%2C%20Tinghir!3m2!1d31.479999999999997!2d-5.51!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd973cb9175df3f1%3A0xf65090c1d64e40e2!2sKhamlia!3m2!1d31.0260344!2d-4.005704199999999!4m5!1s0xd98bf42e8441e9f%3A0x88269ca6a8dbb536!2sMidelt!3m2!1d32.6799423!2d-4.7329267999999995!4m5!1s0xda1d772f32d140b%3A0x7253cf1d404c7ca3!2sIfrane!3m2!1d33.5228062!2d-5.110955199999999!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!5e1!3m2!1sfr!2sma!4v1710600117589!5m2!1sfr!2sma',
 };

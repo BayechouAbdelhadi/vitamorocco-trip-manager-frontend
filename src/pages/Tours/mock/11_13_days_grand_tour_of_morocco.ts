@@ -1,6 +1,6 @@
 import { TourMock } from "../../../common/types/tour";
 
-export const _13_days_grand_tour_of_morocco :TourMock= {
+export const _13_days_grand_tour_of_morocco: TourMock = {
     id: '13_days_grand_tour_of_morocco',
     title: {
         en: '13 Days Grand Tour Of Morocco',
@@ -32,6 +32,82 @@ export const _13_days_grand_tour_of_morocco :TourMock= {
             the capital cultural & crafts of the country, discover the coastal and imperial cities of Morocco
             Casablanca, Rabat (the capital of the country), Essaouira Mogador the Portugal city, and
             much more experiences.`,
+        fr: `VITA MOROCCO propose à ses clients les meilleurs circuits au Maroc et rend leurs voyages faciles et
+             agréable. Itinéraire du Circuit de 13 jours de Marrakech à Marrakech, (13 jours/12 nuits), il
+             est l'un des voyages exotiques à travers le Maroc qui combine le désert du Sahara, Chefchaouen,
+             villes impériales (Fès, Rabat, Casablanca, Essaouira, Marrakech).<br/><br/>
+             Ce circuit Maroc de 13 jours, au départ de Marrakech vous permettra d'explorer le Maroc authentique
+             et les attractions les plus intéressantes des villes du sud et historiques, Voyage dans les villes de charme
+             à travers les montagnes du Haut Atlas, à la découverte de la kasbah d'Ait Ben Haddou, flânez à Ouarzazate
+             ville. Et les charmantes vallées (Vallée des Roses & Vallée du Dadès). Découvrez le désert de Merzouga.
+             Visitez les Gorges du Todra et ses palmeraies, son oasis. Erfoud et de nombreux villages berbères (Amazighs)
+             pour découvrir les moments forts les plus appréciés du Maroc.<br/><br/>
+             Vivez une randonnée à dos de chameau avec le coucher du soleil et
+             lever du soleil sur les dunes du Sahara, Sandboard. Profitez d'un camping de nuit dans un désert berbère
+             campez sous un ciel étoilé avec de la musique de tambours berbères.<br/><br/>
+             Voyagez de Merzouga à Fès à travers les vues panoramiques de la vallée du Ziz, du col de Tizi Ntalghamt,
+             Midlet, Forêt de Cèdres d'Azrou, et la Suisse marocaine « Ifrane ».<br/><br/>
+             Profitez de la culture, de l'histoire et de la détente lors de ce circuit de 13 jours, en explorant la perle bleue du Maroc, Chefchaouen, et
+             la capitale culturelle & artisanale du pays, découvrez les villes côtières et impériales du Maroc
+             Casablanca, Rabat (la capitale du pays), Essaouira Mogador la ville du Portugal, et
+             beaucoup plus d'expériences.`,
+        es: `VITA MOROCCO ofrece a sus clientes los mejores Tours en Marruecos y hace que sus viajes sean fáciles y
+             agradable. Itinerario del Tour de 13 días de Marrakech a Marrakech, (13 días/12 noches),
+             es uno de los viajes exóticos por Marruecos que combina el desierto del Sahara, Chefchaouen,
+             ciudades imperiales (Fez, Rabat, Casablanca, Essaouira, Marrakech).<br/><br/>
+             Este tour de 13 días por Marruecos, con inicio desde Marrakech, le permitirá explorar el auténtico Marruecos.
+             y las atracciones más interesantes del sur & Ciudades históricas, Viajes a ciudades con encanto
+             a través de las montañas del Alto Atlas, explorando Ait Ben Haddou Kasbah, paseando por Ouarzazate
+             ciudad. Y los valles con encanto (Valle de las Rosas y Valle del Dades). Descubre el desierto de Merzouga.
+             Visite las gargantas del Todra y sus palmerales, Oasis. Erfoud y muchos pueblos bereberes (amazighs)
+             para experimentar los aspectos más destacados más queridos de Marruecos.<br/><br/>
+             Experimente la caminata en camello con puesta de sol y
+             Amanecer sobre las dunas del Sahara, Sandboard. Disfrute de un campamento nocturno en un desierto bereber
+             Acampa bajo un cielo estrellado con música de tambores bereberes.<br/><br/>
+             Viaje de Merzouga a Fez a través de las vistas panorámicas del valle de Ziz, el paso de Tizi Ntalghamt,
+             Midlet, el bosque de cedros de Azrou y el suizo marroquí “Ifrane”.<br/><br/>
+             Disfrute de la cultura, la historia y la relajación en este Tour de 13 días, explorando La Perla Azul de Marruecos Chefchaouen y
+             la capital cultural y artesanal del país, descubre las ciudades costeras e imperiales de Marruecos
+             Casablanca, Rabat (la capital del país), Essaouira Mogador, la ciudad de Portugal, y
+             muchas más experiencias.`,
+        pt: `VITA MOROCCO oferece aos seus clientes os melhores Tours em Marrocos e facilita suas viagens e
+             agradável. Itinerário do Tour de 13 dias de Marrakech a Marrakech, (13 dias/12 noites), é
+             é uma das viagens exóticas por Marrocos que combina o deserto do Saara, Chefchaouen,
+             cidades imperiais (Fez, Rabat, Casablanca, Essaouira, Marrakech).<br/><br/>
+             Esta excursão de 13 dias em Marrocos, começando em Marrakech, permitirá que você explore o autêntico Marrocos
+             e as atrações mais interessantes das cidades históricas e do sul, viagens por cidades encantadoras
+             pelas montanhas do Alto Atlas, explorando Ait Ben Haddou Kasbah, Wander Ouarzazate
+             cidade. E os encantadores vales (Roses Valley e Dades Valley). Descubra o deserto de Merzouga.
+             Visite Todra Gorges e seus palmeirais, Oasis. Erfoud e muitas aldeias berberes (Amazighs)
+             para conhecer os destaques mais queridos do Marrocos.<br/><br/>
+             Experimente Camel Trek com pôr do sol e
+             nascer do sol sobre as dunas do Saara, Sandboard. Desfrute de um acampamento noturno em um deserto berbere
+             acampe sob um céu estrelado ao som de tambores berberes.<br/><br/>
+             Viaje de Merzouga a Fes através das vistas panorâmicas do Vale Ziz, passagem Tizi Ntalghamt,
+             Midlet, Floresta de Cedro de Azrou e o Suíço Marroquino “Ifrane”.<br/><br/>
+             Desfrute de cultura, história e relaxamento nesta excursão de 13 dias, explorando a Pérola Azul de Marrocos Chefchaouen, e
+             a capital cultural e artesanal do país, descubra as cidades costeiras e imperiais de Marrocos
+             Casablanca, Rabat (a capital do país), Essaouira Mogador a cidade de Portugal, e
+             muito mais experiências.`,
+        ar: `تقدم VITA MOROCCO لعملائها أفضل الجولات السياحية في المغرب وتجعل رحلاتهم سهلة وميسرة
+             ممتعة. خط سير الرحلة من مراكش إلى مراكش لمدة 13 يوم (13 يوم / 12 ليلة)
+             هي إحدى الرحلات الغريبة عبر المغرب التي تجمع بين الصحراء الكبرى وشفشاون،
+             المدن الإمبراطورية (فاس، الرباط، الدار البيضاء، الصويرة، مراكش).<br/><br/>
+             ستتيح لك جولة البداية من مراكش هذه في المغرب والتي تستغرق 13 يومًا استكشاف المغرب الأصيل
+             والمعالم السياحية الأكثر إثارة للاهتمام في المدن الجنوبية والتاريخية، سفر المدن الساحرة
+             عبر جبال الأطلس الكبير، واستكشاف قصبة آيت بن حدو، وواندر ورزازات
+             مدينة. والوديان الساحرة (وادي الورد ووادي دادس). اكتشف صحراء مرزوكة.
+             - زيارة مضيق تودرا وبساتين النخيل بالواحة. أرفود، والعديد من قرى البربر (الأمازيغ).
+             لتجربة أهم المعالم السياحية المحبوبة في المغرب.<br/><br/>
+             تجربة رحلة الهجن مع غروب الشمس &
+             شروق الشمس فوق كثبان الصحراء، والتزلج على الرمال. استمتع بالتخييم طوال الليل في الصحراء البربرية
+             قم بالتخييم تحت سماء مليئة بالنجوم مع موسيقى الطبول البربرية.<br/><br/>
+             سافر من مرزوكة إلى فاس عبر المناظر البانورامية لوادي زيز وممر تيزي نطالغامت،
+             ميدلت وغابة أرز أزرو و”إفران” المغربية السويسرية.<br/><br/>
+             استمتع بالثقافة والتاريخ والاسترخاء في هذه الجولة التي تستغرق 13 يومًا، من خلال استكشاف لؤلؤة المغرب الزرقاء شفشاون، و
+             العاصمة الثقافية والحرفية للبلاد، اكتشف المدن الساحلية والإمبراطورية في المغرب
+             الدار البيضاء، الرباط (عاصمة البلاد)، الصويرة موكادور مدينة البرتغال، و
+             المزيد من التجارب.`,
     },
     destinationCity: 'Marrakech',
     includedServices: [

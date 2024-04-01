@@ -1,44 +1,117 @@
 import { TourMock } from "../../../common/types/tour";
 
-export const _4_days_tour_from_marrakech_to_merzouga_sahara_desert:TourMock = {
+export const _4_days_tour_from_marrakech_to_merzouga_sahara_desert: TourMock = {
     id: '4_days_tour_from_marrakech_to_merzouga_sahara_desert',
     title: {
-        en: '4 days Tour from Marrakech to Merzouga Sahara Desert',
+        "en": "4 days Tour from Marrakech to Merzouga Sahara Desert",
+        "fr": "Tour de 4 jours de Marrakech au désert du Sahara de Merzouga",
+        "es": "Tour de 4 días desde Marrakech hasta el desierto del Sahara de Merzouga",
+        "pt": "Tour de 4 dias de Marrakech ao deserto do Saara de Merzouga",
+        "ar": "جولة لمدة 4 أيام من مراكش إلى صحراء مرزوقة في الصحراء"
     },
     summaryImg: 'summary.jpg',
     titleImg: 'title.jpg',
     descriptionImg: 'description.jpg',
     description: {
-        en: `On the 4 days private tour to the Sahara desert Departs from Marrakech Through the High
-            Atlas crossing the Tizi - n - Tichka path, through the continuously changing landscape and
-            colours of these beautiful kasbahs & Berber villages.We will make stops on the road for
-            taking pictures.before Arriving to the Ait Ben haddou Kasbah.Here we will visit the famous
-        Kasbah, declared UNESCO World Heritage.We will also visit the City of Ouarzazate, the
-            Kasbah of Taourirt, and the Atlas Studios movie studios, the largest in Africa.< br /> <br/>
-            Then we will go through Ouarzazate, the famous Valley of Roses, and the Dades valley, take
-            a short walking trip in Todra gorges.< br /> <br/>
-            Enjoy the colourful desert landscapes until we reach the
-            gate of Erg Chebbi “Merzouga Sahara desert”, where we will spend an overnight in a Sahara
-            desert camp in the heart of its dunes, Camel trek, sandboarding, ATV quad biking(Not
-            included on the tour), Sunset & sunrise in Merzouga.We will also, wander the spectacular
-            Draa valley & Skoura with its Kasbahs, having also a visit to the spectacular Kasbah of
-        Telouat in the valley of Ounila.`,
+        "en": "On the 4 days private tour to the Sahara desert Departs from Marrakech Through the High Atlas crossing the Tizi - n - Tichka path, through the continuously changing landscape and colours of these beautiful kasbahs & Berber villages. We will make stops on the road for taking pictures. before Arriving to the Ait Ben haddou Kasbah. Here we will visit the famous Kasbah, declared UNESCO World Heritage. We will also visit the City of Ouarzazate, the Kasbah of Taourirt, and the Atlas Studios movie studios, the largest in Africa. Then we will go through Ouarzazate, the famous Valley of Roses, and the Dades valley, take a short walking trip in Todra gorges. Enjoy the colourful desert landscapes until we reach the gate of Erg Chebbi “Merzouga Sahara desert”, where we will spend an overnight in a Sahara desert camp in the heart of its dunes, Camel trek, sandboarding, ATV quad biking (Not included on the tour), Sunset & sunrise in Merzouga. We will also, wander the spectacular Draa valley & Skoura with its Kasbahs, having also a visit to the spectacular Kasbah of Telouat in the valley of Ounila.",
+        "fr": "Sur la visite privée de 4 jours dans le désert du Sahara Départ de Marrakech à travers le Haut Atlas en traversant le col de Tizi - n - Tichka, à travers le paysage en constante évolution et les couleurs de ces belles kasbahs et villages berbères. Nous ferons des arrêts en route pour prendre des photos. avant d'arriver à la Kasbah Ait Ben haddou. Ici, nous visiterons la célèbre Kasbah, déclarée site du patrimoine mondial de l'UNESCO. Nous visiterons également la ville d'Ouarzazate, la Kasbah de Taourirt et les studios de cinéma Atlas, les plus grands d'Afrique. Ensuite, nous passerons par Ouarzazate, la célèbre vallée des roses et la vallée des Dades, ferons une courte promenade dans les gorges de Todra. Profitez des paysages désertiques colorés jusqu'à ce que nous atteignions la porte d'Erg Chebbi “désert du Sahara de Merzouga”, où nous passerons une nuit dans un campement dans le cœur de ses dunes, randonnée à dos de chameau, sandboard, quad VTT (non inclus dans le tour), coucher de soleil et lever de soleil à Merzouga. Nous explorerons également la spectaculaire vallée du Draa & Skoura avec ses Kasbahs, en visitant également la spectaculaire Kasbah de Telouat dans la vallée de l'Ounila.",
+        "es": "En el tour privado de 4 días al desierto del Sahara, salimos de Marrakech a través del Alto Atlas cruzando el paso de Tizi - n - Tichka, a través del paisaje en constante cambio y los colores de estas hermosas kasbahs y pueblos bereberes. Haremos paradas en el camino para tomar fotos. antes de llegar a la Kasbah Ait Ben haddou. Aquí visitaremos la famosa Kasbah, declarada Patrimonio de la Humanidad por la UNESCO. También visitaremos la ciudad de Ouarzazate, la Kasbah de Taourirt y los estudios de cine Atlas, los más grandes de África. Luego pasaremos por Ouarzazate, la famosa Valle de las Rosas y el valle de Dades, haremos un corto paseo por las gargantas de Todra. Disfruta de los paisajes desérticos coloridos hasta llegar a la puerta de Erg Chebbi “desierto del Sahara de Merzouga”, donde pasaremos una noche en un campamento en el corazón de sus dunas, paseo en camello, sandboard, quad (no incluido en el tour), atardecer y amanecer en Merzouga. También exploraremos el espectacular valle del Draa y Skoura con sus Kasbahs, y visitaremos la espectacular Kasbah de Telouat en el valle de Ounila.",
+        "pt": "No tour privado de 4 dias para o deserto do Saara, partimos de Marrakech atravessando o Alto Atlas pelo caminho de Tizi - n - Tichka, através da paisagem em constante mudança e cores dessas belas kasbahs e aldeias berberes. Faremos paradas no caminho para tirar fotos. antes de chegar à Kasbah Ait Ben haddou. Aqui visitaremos a famosa Kasbah, declarada Patrimônio Mundial pela UNESCO. Também visitaremos a cidade de Ouarzazate, a Kasbah de Taourirt e os estúdios de cinema Atlas, os maiores da África. Em seguida, passaremos por Ouarzazate, o famoso Vale das Rosas e o vale de Dades, faremos uma curta caminhada pelas gargantas de Todra.Aproveite as paisagens desérticas coloridas até chegarmos à porta de Erg Chebbi “deserto do Saara de Merzouga”, onde passaremos uma noite em um acampamento no coração de suas dunas, passeio de camelo, sandboard, quad(não incluído no tour), pôr do sol e nascer do sol em Merzouga.Também exploraremos o espetacular vale do Draa e Skoura com suas Kasbahs, e visitaremos a espetacular Kasbah de Telouat no vale de Ounila.",
+        "ar": "في جولة خاصة لمدة 4 أيام إلى الصحراء، نغادر من مراكش عبر جبال الأطلس العالية عبر ممر تيزي - إن - تيشكا، من خلال المناظر الطبيعية المتغيرة باستمرار وألوان هذه القصب والقرى الأمازيغية الجميلة. سنقوم بالتوقف في الطريق لالتقاط الصور. قبل الوصول إلى قصبة آيت بن حدو. هنا سنزور القصبة الشهيرة، التي أعلنت موقع التراث العالمي لليونسكو. سنزور أيضًا مدينة ورزازات، وقصبة تاوريرت، وأستوديوهات السينما أطلس، أكبرها في أفريقيا. ثم سنمر عبر ورزازات، ووادي الورود الشهير، ووادي دادس، ونقوم برحلة قصيرة سيرًا على الأقدام في مضيق تودرا. استمتع بالمناظر الطبيعية الصحراوية الملونة حتى نصل إلى بوابة إرغ شبي “صحراء مرزوقة ”، حيث سنقضي ليلة في مخيم صحراوي في قلب الكثبان الرملية، ركوب الجمال، الساندبورد، ركوب الرباعيات (غير متضمن في الجولة)، غروب الشمس وشروق الشمس في مرزوقة. سنستكشف أيضًا وادي الدرعة وسكورا الرائعة مع قصباتها، وسنزور أيضًا القصبة الرائعة في تيلوات في وادي أونيلا."
     },
     destinationCity: 'Marrakech',
     includedServices: [
-        'Private Vehicle with A/C (SUV, 4WD, or minivan).',
-        '1 Night Accommodation in Dades Valley (Dinner & breakfast included)',
-        '1 night Accommodation in charming Riad in Ouarzazate.',
-        'Overnight stay in a desert camp (Dinner & breakfast included)',
-        'Pick up & drop-off at your accommodation.',
-        'English - Spanish speaking driver/Guide.',
-        'Camel trek (Camel per person)',
-        'Sunset or sunrise camel trek.',
-        'Free time to explore attractions like Ait Ben Haddou, Cinema Studios, etc.',
-        'Visit all interesting attractions along the road.',
-        'Visit a female cooperative of Argan.',
-        "Sandboarding (if you're interested).",
-        'Visit the Rissani Souk.',
+        {
+            "en": "Private Vehicle with A/C (SUV, 4WD, or minivan).",
+            "fr": "Véhicule privé avec climatisation (SUV, 4x4 ou minivan).",
+            "es": "Vehículo privado con aire acondicionado (SUV, 4x4 o minivan).",
+            "pt": "Veículo privado com ar condicionado (SUV, 4x4 ou minivan).",
+            "ar": "مركبة خاصة مع تكييف الهواء (SUV، 4WD، أو ميني فان)."
+        },
+        {
+            "en": "1 Night Accommodation in Dades Valley (Dinner & breakfast included)",
+            "fr": "1 nuit d'hébergement dans la vallée des Dades (dîner et petit-déjeuner compris)",
+            "es": "1 noche de alojamiento en el Valle del Dades (cena y desayuno incluidos)",
+            "pt": "1 noite de acomodação no Vale do Dades (jantar e café da manhã incluídos)",
+            "ar": "إقامة ليلية واحدة في وادي الدادس (العشاء والإفطار متضمنان)"
+        },
+        {
+            "en": "1 night Accommodation in charming Riad in Ouarzazate.",
+            "fr": "1 nuit d'hébergement dans un charmant Riad à Ouarzazate.",
+            "es": "1 noche de alojamiento en un encantador Riad en Ouarzazate.",
+            "pt": "1 noite de acomodação em um charmoso Riad em Ouarzazate.",
+            "ar": "إقامة ليلية واحدة في رياض ساحر في ورزازات."
+        },
+        {
+            "en": "Overnight stay in a desert camp (Dinner & breakfast included)",
+            "fr": "Nuitée dans un campement dans le désert (dîner et petit-déjeuner compris)",
+            "es": "Estancia nocturna en un campamento en el desierto (cena y desayuno incluidos)",
+            "pt": "Estadia noturna em um acampamento no deserto (jantar e café da manhã incluídos)",
+            "ar": "إقامة ليلية في مخيم في الصحراء (العشاء والإفطار متضمنان)"
+        },
+        {
+            "en": "Pick up & drop-off at your accommodation.",
+            "fr": "Prise en charge et dépose à votre hébergement.",
+            "es": "Recogida y regreso a su alojamiento.",
+            "pt": "Pick-up e drop-off em sua acomodação.",
+            "ar": "التقاط وإسقاط في مكان الإقامة الخاص بك."
+        },
+        {
+            "en": "English - Spanish speaking driver/Guide.",
+            "fr": "Chauffeur/guide anglophone - hispanophone.",
+            "es": "Conductor/guía que habla inglés - español.",
+            "pt": "Motorista/guia que fala inglês - espanhol.",
+            "ar": "سائق/مرشد يتحدث الإنجليزية - الإسبانية."
+        },
+        {
+            "en": "Camel trek (Camel per person)",
+            "fr": "Randonnée en chameau (un chameau par personne)",
+            "es": "Excursión en camello (un camello por persona)",
+            "pt": "Passeio de camelo (um camelo por pessoa)",
+            "ar": "رحلة بالجمل (جمل لكل شخص)"
+        },
+        {
+            "en": "Sunset or sunrise camel trek.",
+            "fr": "Randonnée à dos de chameau au coucher ou au lever du soleil.",
+            "es": "Excursión en camello al atardecer o al amanecer.",
+            "pt": "Passeio de camelo ao pôr do sol ou ao nascer do sol.",
+            "ar": "رحلة بالجمل عند غروب الشمس أو شروقها."
+        },
+        {
+            "en": "Free time to explore attractions like Ait Ben Haddou, Cinema Studios, etc.",
+            "fr": "Temps libre pour explorer des attractions comme Ait Ben Haddou, les Studios de Cinéma, etc.",
+            "es": "Tiempo libre para explorar atracciones como Ait Ben Haddou, los Estudios de Cine, etc.",
+            "pt": "Tempo livre para explorar atrações como Ait Ben Haddou, os Estúdios de Cinema, etc.",
+            "ar": "وقت حر لاستكشاف الأماكن السياحية مثل آيت بن حدّو، استوديوهات السينما، وما إلى ذلك."
+        },
+        {
+            "en": "Visit all interesting attractions along the road.",
+            "fr": "Visitez toutes les attractions intéressantes le long de la route.",
+            "es": "Visitar todas las atracciones interesantes a lo largo del camino.",
+            "pt": "Visitar todas as atrações interessantes ao longo do caminho.",
+            "ar": "زيارة جميع الجذب السياحية المثيرة على طول الطريق."
+        },
+        {
+            "en": "Visit a female cooperative of Argan.",
+            "fr": "Visitez une coopérative féminine d'Argan.",
+            "es": "Visitar una cooperativa femenina de Argán.",
+            "pt": "Visitar uma cooperativa feminina de Argan.",
+            "ar": "زيارة تعاونية نسائية للأركان."
+        },
+        {
+            "en": "Sandboarding (if you're interested).",
+            "fr": "Faire du sandboard (si vous êtes intéressé).",
+            "es": "Sandboarding (si estás interesado).",
+            "pt": "Sandboarding (se você estiver interessado).",
+            "ar": "ركوب الرمال (إذا كنت مهتماً)."
+        },
+        {
+            "en": "Visit the Rissani Souk.",
+            "fr": "Visitez le Souk de Rissani.",
+            "es": "Visitar el Zoco de Rissani.",
+            "pt": "Visitar o Souk de Rissani.",
+            "ar": "زيارة سوق الريساني."
+        }
     ],
     departureCity: 'Marrakech',
     departurePickupTime: '08:00 AM',
