@@ -1,4 +1,6 @@
-import { AvailableLanguage } from "../../locales";
+import { AvailableLanguage } from '../../locales';
 
-// export type Translation = Record<AvailableLanguage, string>
-export type Translation = Record<string, string>
+// export type Translation = Record<AvailableLanguage, string>;
+export type Translation = {
+    [key in AvailableLanguage]: string;
+};

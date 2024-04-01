@@ -1,4 +1,4 @@
-import { Translation } from "./translation";
+import { Translation } from './translation';
 export type Tour = {
     id: string;
     title: string;
@@ -49,9 +49,8 @@ export type TourMock = {
     descriptionImg: string;
     highlightImgs: string[];
     steps: StepMock[];
-    // steps: Step[];
     informationList: Translation[];
-}
+};
 
 export type Step = {
     title: string;

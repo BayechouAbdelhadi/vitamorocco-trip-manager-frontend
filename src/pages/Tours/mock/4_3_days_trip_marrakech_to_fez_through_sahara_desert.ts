@@ -1,4 +1,6 @@
-export const _3_days_trip_marrakech_to_fez_through_sahara_desert = {
+import { TourMock } from "../../../common/types/tour";
+
+export const _3_days_trip_marrakech_to_fez_through_sahara_desert:TourMock = {
     id: '3_days_trip_marrakech_to_fez_through_sahara_desert',
     title: {
         fr: 'Voyage de 3 jours de Marrakech à Fès à travers le désert du Sahara',

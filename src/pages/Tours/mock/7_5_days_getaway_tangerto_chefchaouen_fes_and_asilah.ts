@@ -1,4 +1,6 @@
-export const _ = {
+import { TourMock } from '../../../common/types/tour';
+
+export const _5_days_getaway_tangerto_chefchaouen_fes_and_asilah: TourMock = {
     id: '5_days_getaway_tangerto_chefchaouen_fes_and_asilah',
     title: {
         fr: 'Escapade de 5 jours de Tanger à Chefchaouen, Fès et Asilah',

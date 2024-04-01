@@ -1,4 +1,6 @@
-export const _majestic_marrakech_and_beyond_5_days_discovery_tour = {
+import { TourMock } from "../../../common/types/tour";
+
+export const _majestic_marrakech_and_beyond_5_days_discovery_tour:TourMock = {
     id: 'majestic_marrakech_and_beyond_5_days_discovery_tour',
     title: {
         fr: 'Majestic Marrakech & Beyond : circuit découverte de 5 jours',
