@@ -10,6 +10,7 @@ import parse from 'html-react-parser';
 
 
 import './Tips.scss';
+import { AvailableLanguage } from '../../locales';
 
 const TipsText = 'Tips & Advice';
 
@@ -17,6 +18,8 @@ export const Tips = (): JSX.Element => {
     const { data: tips, isLoading, isError } = useQuery(['tips'], () => getTips());
 
     const { t } = useTranslation()
+
+    const currentLanguage = (localStorage.getItem("language") ?? "en") as AvailableLanguage
 
     return (
         <Page description={TipsText} keywords={TipsText} title={t('tips_description')} imgSrc="/img/carousel/2.jpeg">
@@ -26,33 +29,33 @@ export const Tips = (): JSX.Element => {
                     {parse(t('tips_description'))}
                 </Typography>
                 {(tips ?? []).map(tipCategory => (
-                    <React.Fragment key={tipCategory.category}>
-                        <Accordion key={tipCategory.category} className="tip-accordion">
+                    <React.Fragment key={tipCategory.category[currentLanguage]}>
+                        <Accordion key={tipCategory.category[currentLanguage]} className="tip-accordion">
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 aria-controls="panel1-content"
                                 id="panel1-header"
                             >
                                 <Typography color="primary" variant="h5">
-                                    <strong>{tipCategory.category}</strong>
+                                    <strong>{tipCategory.category[currentLanguage]}</strong>
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <div>
                                     {tipCategory.tips.map((tip) => (
-                                        <div className="tip-ul" key={tip.title}>
+                                        <div className="tip-ul" key={tip.title[currentLanguage]}>
                                             <div className="tip-title">
                                                 <Typography className="title" variant="h6">
-                                                    {tip.title}:
+                                                    {tip.title[currentLanguage]}:
                                                 </Typography>
                                                 <Typography className="description">
-                                                    {tip.content.description}
+                                                    {tip.content.description[currentLanguage]}
                                                 </Typography>
                                             </div>
                                             <ul>
                                                 {tip.content.highlights.map((tipHighlight) => (
-                                                    <li key={tipHighlight}>
-                                                        <Typography className="title">{tipHighlight}</Typography>
+                                                    <li key={tipHighlight[currentLanguage]}>
+                                                        <Typography className="title">{tipHighlight[currentLanguage]}</Typography>
                                                     </li>
                                                 ))}
                                             </ul>
