@@ -46,6 +46,7 @@ export const TRANSLATION_FR = {
     destination: 'Destination',
     destination_details: 'Détails de la destination',
     discover_the_essence_of_morocco_with_us: 'Découvrez l\'essence du Maroc avec nous',
+    dont_hesitate_to_connect: 'N\'hésitez pas à vous connecter !',
     driver_guide: {
         name: 'Chauffeur-guide',
         description: 'Espagnol, anglais, français',
@@ -54,6 +55,7 @@ export const TRANSLATION_FR = {
     // E
     email: 'Email',
     ERROR_TRANSLATION,
+    essential_tips_and_advice_for_traveling_to_morocco: "Trucs et conseils essentiels pour voyager au Maroc",
     excluded_services: {
         food_drink: 'Nourriture et boisson.',
         monuments_entrance: 'Entrées des monuments.',
@@ -85,6 +87,7 @@ export const TRANSLATION_FR = {
     highlights: 'Points forts',
     home: 'Accueil',
     // I
+    if_you_have_more_questions: 'Notre FAQ a-t-elle répondu efficacement à vos demandes? Si vous avez d\'autres questions, nous sommes là pour vous aider davantage.',
     included_services: {
         local_guide: {
             name: 'Guide local',
@@ -173,6 +176,10 @@ export const TRANSLATION_FR = {
                  les conditions de réservation suivantes décrites ci-dessous :
              </p>`,
     tips: 'Conseils',
+    tips_description: `En suivant ces astuces et conseils, les voyageurs peuvent naviguer au Maroc en toute confiance, en profitant de tout
+                     la beauté, la culture et l'aventure que le pays a à offrir. Le guide <strong>VITA MOROCCO</strong> a pour objectif de garantir aux visiteurs
+                     une expérience mémorable et fluide depuis le moment où ils commencent à planifier leur voyage jusqu'à leur retour
+                     voyage de retour.`,
     tours: 'Circuits',
     tours_and_itineraries: 'Visites et itinéraires',
     tour: 'Circuit',

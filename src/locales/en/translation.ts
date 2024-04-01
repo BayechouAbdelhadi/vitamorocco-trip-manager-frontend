@@ -51,6 +51,7 @@ export const TRANSLATION_EN = {
     destination: 'Destination',
     destination_details: 'Destination details',
     discover_the_essence_of_morocco_with_us: 'Discover the essence of Morocco with us',
+    dont_hesitate_to_connect: 'Don\'t hesitate to connect!',
     driver_guide: {
         name: 'Driver-guide',
         description: 'Spanish, English, French ',
@@ -60,6 +61,7 @@ export const TRANSLATION_EN = {
     email: 'Email',
     ending_location: 'Ending Location',
     ERROR_TRANSLATION, // Assuming ERROR_TRANSLATION is an object with its own alphabetical order
+    essential_tips_and_advice_for_traveling_to_morocco: "Essential Tips and Advice for Traveling to Morocco",
     excluded_services: {
         food_drink: 'Lunch & drinks.',
         monuments_entrance: 'Monuments Fees.',
@@ -92,6 +94,7 @@ export const TRANSLATION_EN = {
     highlights: 'Highlights',
     home: 'Home',
     // I
+    if_you_have_more_questions: 'Did our FAQs address your inquiries effectively? If you have more questions, we\'re here to assist you further.',
     included_services: {
         local_guide: {
             name: 'Local guide',
@@ -198,6 +201,10 @@ export const TRANSLATION_EN = {
                 the following booking conditions outlined below :
             </p>`,
     tips: 'Tips',
+    tips_description: `By following these tips and advice, travellers can navigate Morocco with confidence, enjoying all
+                    the beauty, culture, and adventure the country has to offer. <strong>VITA MOROCCO</strong> guide aims to ensure visitors have
+                    a memorable and smooth experience from the moment they start planning their trip to their return
+                    journey home.`,
     tours: 'Tours',
     tours_and_itineraries: 'Tours & Itineraries',
     tour: 'Tour',

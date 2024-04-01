@@ -10,9 +10,9 @@ const ServicesText = 'Terms And Conditions';
 
 export const TermsAndConditions = (): JSX.Element => {
 
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
 
-    const currentLanguage = (i18n.language ?? "en") as AvailableLanguage
+    const currentLanguage = (localStorage.getItem("language") ?? "en") as AvailableLanguage
 
     return (
         <Page

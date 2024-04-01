@@ -6,6 +6,8 @@ import { SyntheticEvent, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import parse from 'html-react-parser';
 import { AvailableLanguage } from '../../locales';
+
+
 import './About.scss'
 
 const AboutText = 'About Vita Morocco';
@@ -13,9 +15,9 @@ const AboutText = 'About Vita Morocco';
 
 export const About = (): JSX.Element => {
     const [value, setValue] = useState(0);
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
 
-    const currentLanguage = (i18n.language ?? "en") as AvailableLanguage
+    const currentLanguage = (localStorage.getItem("language") ?? "en") as AvailableLanguage
 
     const handleChange = (event: SyntheticEvent, newValue: number) => {
         setValue(newValue);

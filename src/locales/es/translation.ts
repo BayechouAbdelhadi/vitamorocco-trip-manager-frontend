@@ -47,6 +47,7 @@ export const TRANSLATION_ES = {
     destination: 'Destino',
     destination_details: 'Detalles del destino',
     discover_the_essence_of_morocco_with_us: 'Descubre la esencia de Marruecos con nosotros.',
+    dont_hesitate_to_connect: '¡No dudes en conectarte!',
     driver_guide: {
         name: 'Guía de conductor',
         description: 'Español, Inglés, Francés',
@@ -55,6 +56,7 @@ export const TRANSLATION_ES = {
     // E
     email: 'Correo electrónico',
     ERROR_TRANSLATION, // Suponiendo que ERROR_TRANSLATION es un objeto con su propio orden alfabético
+    essential_tips_and_advice_for_traveling_to_morocco: "Consejos y tips esenciales para viajar a Marruecos",
     excluded_services: {
         food_drink: 'Comida y bebida.',
         monuments_entrance: 'Entradas de los monumentos.',
@@ -86,6 +88,7 @@ export const TRANSLATION_ES = {
     highlights: 'Aspectos destacados',
     home: 'Inicio',
     // I
+    if_you_have_more_questions: '¿Nuestras preguntas frecuentes abordaron sus consultas de manera efectiva? Si tiene más preguntas, estamos aquí para ayudarle más.',
     included_services: {
         local_guide: {
             name: 'Guía local',
@@ -179,6 +182,10 @@ export const TRANSLATION_ES = {
                  las siguientes condiciones de reserva que se detallan a continuación:
              </p>`,
     tips: 'Consejos',
+    tips_description: `Siguiendo estos consejos y sugerencias, los viajeros podrán navegar por Marruecos con confianza, disfrutando de todas
+                     la belleza, la cultura y la aventura que el país tiene para ofrecer. La guía <strong>VITA MOROCCO</strong> tiene como objetivo garantizar que los visitantes tengan
+                     una experiencia memorable y fluida desde el momento en que comienzan a planificar su viaje hasta su regreso
+                     viaje a casa.`,
     tours: 'Tours',
     tours_and_itineraries: 'Tours e Itinerarios',
     tour: 'Tour',

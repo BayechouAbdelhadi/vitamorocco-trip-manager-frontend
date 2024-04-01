@@ -5,21 +5,25 @@ import { useQuery } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
 import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 import { getTips } from '../../common/services/tipService';
+import { useTranslation } from 'react-i18next';
+import parse from 'html-react-parser';
+
+
 import './Tips.scss';
 
+const TipsText = 'Tips & Advice';
+
 export const Tips = (): JSX.Element => {
-    const TipsText = 'Tips & Advice';
     const { data: tips, isLoading, isError } = useQuery(['tips'], () => getTips());
 
+    const { t } = useTranslation()
+
     return (
-        <Page description={TipsText} keywords={TipsText} title={TipsText} imgSrc="/img/carousel/2.jpeg">
+        <Page description={TipsText} keywords={TipsText} title={t('tips_description')} imgSrc="/img/carousel/2.jpeg">
             <Container className="tips-container">
-                <TitleWithLines text="Essential Tips and Advice for Traveling to Morocco" />
+                <TitleWithLines text={t("essential_tips_and_advice_for_traveling_to_morocco")} />
                 <Typography sx={{ marginBottom: 5 }}>
-                    By following these tips and advice, travellers can navigate Morocco with confidence, enjoying all
-                    the beauty, culture, and adventure the country has to offer. <strong>VITA MOROCCO</strong> guide aims to ensure visitors have
-                    a memorable and smooth experience from the moment they start planning their trip to their return
-                    journey home.
+                    {parse(t('tips_description'))}
                 </Typography>
                 {(tips ?? []).map(tipCategory => (
                     <React.Fragment key={tipCategory.category}>
@@ -29,11 +33,9 @@ export const Tips = (): JSX.Element => {
                                 aria-controls="panel1-content"
                                 id="panel1-header"
                             >
-                                <b>
-                                    <Typography color="primary" variant="h5">
-                                        {tipCategory.category}
-                                    </Typography>
-                                </b>
+                                <Typography color="primary" variant="h5">
+                                    <strong>{tipCategory.category}</strong>
+                                </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <div>
