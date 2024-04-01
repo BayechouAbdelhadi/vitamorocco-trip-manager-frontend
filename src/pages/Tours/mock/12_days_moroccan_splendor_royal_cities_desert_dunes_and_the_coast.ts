@@ -1,17 +1,17 @@
 export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast = {
-    "id": "12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast",
-    "title": {
-        "en": "12 Days Moroccan Splendor : Royal Cities, Desert Dunes, and the Coast",
-        "fr": "12 jours de splendeurs marocaines : villes royales, dunes du désert et côte",
-        "es": "12 días de esplendor marroquí: ciudades reales, dunas del desierto y la costa",
-        "pt": "12 dias de esplendor marroquino: cidades reais, dunas do deserto e costa",
-        "ar": "12 يومًا روعة المغرب: المدن الملكية، والكثبان الصحراوية، والساحل",
+    id: '12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast',
+    title: {
+        en: '12 Days Moroccan Splendor : Royal Cities, Desert Dunes, and the Coast',
+        fr: '12 jours de splendeurs marocaines : villes royales, dunes du désert et côte',
+        es: '12 días de esplendor marroquí: ciudades reales, dunas del desierto y la costa',
+        pt: '12 dias de esplendor marroquino: cidades reais, dunas do deserto e costa',
+        ar: '12 يومًا روعة المغرب: المدن الملكية، والكثبان الصحراوية، والساحل',
     },
-    "summaryImg": "summary.jpg",
-    "titleImg": "title.jpg",
-    "descriptionImg": "description.jpg",
-    "description": {
-        "en": `VITA MOROCCO offers to its clients the best Tours in Morocco and make their trips easy and
+    summaryImg: 'summary.jpg',
+    titleImg: 'title.jpg',
+    descriptionImg: 'description.jpg',
+    description: {
+        en: `VITA MOROCCO offers to its clients the best Tours in Morocco and make their trips easy and
             enjoyable. Itinerary of the 12-days Tour from Marrakech to Marrakech, (12 days/11 nights), it
             is one of the exotic trips through Morocco that combines the Sahara desert, Chefchaouen,
             imperial cities (Fez, Rabat, Casablanca, Essaouira, Marrakech).<br/><br/>
@@ -30,7 +30,7 @@ export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast 
             the capital cultural & crafts of the country, discover the coastal and imperial cities of Morocco
             Casablanca, Rabat (the capital of the country), Essaouira Mogador the Portugal city, and
             much more experiences.`,
-        "fr": `VITA MOROCCO propose à ses clients les meilleurs circuits au Maroc et rend leurs déplacements faciles et
+        fr: `VITA MOROCCO propose à ses clients les meilleurs circuits au Maroc et rend leurs déplacements faciles et
              agréable. Itinéraire du Circuit de 12 jours de Marrakech à Marrakech, (12 jours/11 nuits), il
              est l'un des voyages exotiques à travers le Maroc qui combine le désert du Sahara, Chefchaouen,
              villes impériales (Fès, Rabat, Casablanca, Essaouira, Marrakech).<br/><br/>
@@ -49,7 +49,7 @@ export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast 
              la capitale culturelle & artisanale du pays, découvrez les villes côtières et impériales du Maroc
              Casablanca, Rabat (la capitale du pays), Essaouira Mogador la ville du Portugal, et
              beaucoup plus d'expériences.`,
-        "es": `VITA MOROCCO ofrece a sus clientes los mejores Tours en Marruecos y hace que sus viajes sean fáciles y
+        es: `VITA MOROCCO ofrece a sus clientes los mejores Tours en Marruecos y hace que sus viajes sean fáciles y
              agradable. Itinerario del Tour de 12 días de Marrakech a Marrakech, (12 días/11 noches),
              es uno de los viajes exóticos por Marruecos que combina el desierto del Sahara, Chefchaouen,
              ciudades imperiales (Fez, Rabat, Casablanca, Essaouira, Marrakech).<br/><br/>
@@ -68,7 +68,7 @@ export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast 
              la capital cultural y artesanal del país, descubre las ciudades costeras e imperiales de Marruecos
              Casablanca, Rabat (la capital del país), Essaouira Mogador, la ciudad de Portugal, y
              muchas más experiencias.`,
-        "pt": `VITA MOROCCO oferece aos seus clientes os melhores Tours em Marrocos e torna suas viagens fáceis e
+        pt: `VITA MOROCCO oferece aos seus clientes os melhores Tours em Marrocos e torna suas viagens fáceis e
              agradável. Itinerário do Tour de 12 dias de Marrakech a Marrakech, (12 dias/11 noites),
              é uma das viagens exóticas por Marrocos que combina o deserto do Saara, Chefchaouen,
              cidades imperiais (Fez, Rabat, Casablanca, Essaouira, Marrakech).<br/><br/>
@@ -87,7 +87,7 @@ export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast 
              a capital cultural e artesanal do país, descubra as cidades costeiras e imperiais de Marrocos
              Casablanca, Rabat (a capital do país), Essaouira Mogador a cidade de Portugal, e
              muito mais experiências.`,
-        "ar": `تقدم شركة VITA MOROCCO لعملائها أفضل الرحلات السياحية في المغرب وتجعل رحلاتهم سهلة وميسرة
+        ar: `تقدم شركة VITA MOROCCO لعملائها أفضل الرحلات السياحية في المغرب وتجعل رحلاتهم سهلة وميسرة
              ممتعة. خط سير الرحلة من مراكش إلى مراكش لمدة 12 يوم (12 يوم / 11 ليلة)
              هي إحدى الرحلات الغريبة عبر المغرب التي تجمع بين الصحراء الكبرى وشفشاون،
              المدن الإمبراطورية (فاس، الرباط، الدار البيضاء، الصويرة، مراكش).<br/><br/>
@@ -107,269 +107,269 @@ export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast 
              الدار البيضاء، الرباط (عاصمة البلاد)، الصويرة موكادور مدينة البرتغال، و
              المزيد من التجارب.`,
     },
-    "destinationCity": "Marrakech",
-    "includedServices": [
+    destinationCity: 'Marrakech',
+    includedServices: [
         {
-            "en": "Private Vehicle with A/C (SUV, 4WD, or minivan).",
-            "fr": "Véhicule privé avec climatisation (SUV, 4x4 ou minivan).",
-            "es": "Vehículo privado con aire acondicionado (SUV, 4x4 o minivan).",
-            "pt": "Veículo privado com ar condicionado (SUV, 4x4 ou minivan).",
-            "ar": "سيارة خاصة مع مكيف هواء (سيارة دفع رباعي، سيارة رباعية الدفع أو سيارة صغيرة)."
+            en: 'Private Vehicle with A/C (SUV, 4WD, or minivan).',
+            fr: 'Véhicule privé avec climatisation (SUV, 4x4 ou minivan).',
+            es: 'Vehículo privado con aire acondicionado (SUV, 4x4 o minivan).',
+            pt: 'Veículo privado com ar condicionado (SUV, 4x4 ou minivan).',
+            ar: 'سيارة خاصة مع مكيف هواء (سيارة دفع رباعي، سيارة رباعية الدفع أو سيارة صغيرة).',
         },
         {
-            "en": "10 Nights Accommodation with breakfast.",
-            "fr": "10 nuits d'hébergement avec petit-déjeuner.",
-            "es": "10 noches de alojamiento con desayuno.",
-            "pt": "10 noites de acomodação com café da manhã.",
-            "ar": "10 ليالٍ من الإقامة مع وجبة إفطار."
+            en: '10 Nights Accommodation with breakfast.',
+            fr: "10 nuits d'hébergement avec petit-déjeuner.",
+            es: '10 noches de alojamiento con desayuno.',
+            pt: '10 noites de acomodação com café da manhã.',
+            ar: '10 ليالٍ من الإقامة مع وجبة إفطار.',
         },
         {
-            "en": "1 Overnight stay in a desert camp (Dinner & breakfast included).",
-            "fr": "1 nuit en bivouac dans le désert (dîner et petit-déjeuner inclus).",
-            "es": "1 noche de estancia en un campamento en el desierto (cena y desayuno incluidos).",
-            "pt": "1 noite de estadia em um acampamento no deserto (jantar e café da manhã incluídos).",
-            "ar": "إقامة ليلية واحدة في مخيم في الصحراء (تشمل العشاء والإفطار)."
+            en: '1 Overnight stay in a desert camp (Dinner & breakfast included).',
+            fr: '1 nuit en bivouac dans le désert (dîner et petit-déjeuner inclus).',
+            es: '1 noche de estancia en un campamento en el desierto (cena y desayuno incluidos).',
+            pt: '1 noite de estadia em um acampamento no deserto (jantar e café da manhã incluídos).',
+            ar: 'إقامة ليلية واحدة في مخيم في الصحراء (تشمل العشاء والإفطار).',
         },
         {
-            "en": "Dinner & breakfast included in the camp and Dades Gorges.",
-            "fr": "Dîner et petit-déjeuner inclus dans le camp et les gorges du Dadès.",
-            "es": "Cena y desayuno incluidos en el campamento y las gargantas del Dades.",
-            "pt": "Jantar e café da manhã incluídos no acampamento e nas Gargantas do Dades.",
-            "ar": "تشمل العشاء والإفطار في المخيم ومضيقات داديس."
+            en: 'Dinner & breakfast included in the camp and Dades Gorges.',
+            fr: 'Dîner et petit-déjeuner inclus dans le camp et les gorges du Dadès.',
+            es: 'Cena y desayuno incluidos en el campamento y las gargantas del Dades.',
+            pt: 'Jantar e café da manhã incluídos no acampamento e nas Gargantas do Dades.',
+            ar: 'تشمل العشاء والإفطار في المخيم ومضيقات داديس.',
         },
         {
-            "en": "Pick up & drop-off at your accommodation.",
-            "fr": "Prise en charge et retour à votre hébergement.",
-            "es": "Recogida y entrega en su alojamiento.",
-            "pt": "Pegar e deixar no seu alojamento.",
-            "ar": "الالتقاط والتسليم في مكان إقامتك."
+            en: 'Pick up & drop-off at your accommodation.',
+            fr: 'Prise en charge et retour à votre hébergement.',
+            es: 'Recogida y entrega en su alojamiento.',
+            pt: 'Pegar e deixar no seu alojamento.',
+            ar: 'الالتقاط والتسليم في مكان إقامتك.',
         },
         {
-            "en": "English - Spanish speaking driver/Guide.",
-            "fr": "Chauffeur/Guide parlant anglais - espagnol.",
-            "es": "Conductor/Guía de habla inglesa - española.",
-            "pt": "Inglês - Motorista/Guia que fala espanhol.",
-            "ar": "الإنجليزية - سائق / مرشد يتحدث الإسبانية."
+            en: 'English - Spanish speaking driver/Guide.',
+            fr: 'Chauffeur/Guide parlant anglais - espagnol.',
+            es: 'Conductor/Guía de habla inglesa - española.',
+            pt: 'Inglês - Motorista/Guia que fala espanhol.',
+            ar: 'الإنجليزية - سائق / مرشد يتحدث الإسبانية.',
         },
         {
-            "en": "Camel trek (Camel per person).",
-            "fr": "Randonnée à dos de chameau (chameau par personne).",
-            "es": "Excursión en camello (camello por persona).",
-            "pt": "Trekking de camelo (camelo por pessoa).",
-            "ar": "رحلة على الجمل (جمل لكل شخص)."
+            en: 'Camel trek (Camel per person).',
+            fr: 'Randonnée à dos de chameau (chameau par personne).',
+            es: 'Excursión en camello (camello por persona).',
+            pt: 'Trekking de camelo (camelo por pessoa).',
+            ar: 'رحلة على الجمل (جمل لكل شخص).',
         },
         {
-            "en": "Sunset or sunrise camel trek.",
-            "fr": "Randonnée en chameau au coucher ou au lever du soleil.",
-            "es": "Excursión en camello al atardecer o al amanecer.",
-            "pt": "Trekking de camelo ao pôr do sol ou ao nascer do sol.",
-            "ar": "رحلة على الجمل عند غروب الشمس أو شروقها."
+            en: 'Sunset or sunrise camel trek.',
+            fr: 'Randonnée en chameau au coucher ou au lever du soleil.',
+            es: 'Excursión en camello al atardecer o al amanecer.',
+            pt: 'Trekking de camelo ao pôr do sol ou ao nascer do sol.',
+            ar: 'رحلة على الجمل عند غروب الشمس أو شروقها.',
         },
         {
-            "en": "Explore attractions like Ait Ben Haddou, Cinema Studios, etc.",
-            "fr": "Explorer des attractions comme Ait Ben Haddou, les studios de cinéma, etc.",
-            "es": "Explorar atracciones como Ait Ben Haddou, estudios de cine, etc.",
-            "pt": "Explorar atrações como Ait Ben Haddou, Estúdios de Cinema, etc.",
-            "ar": "استكشاف المعالم السياحية مثل آيت بن حدو واستوديوهات السينما، إلخ."
+            en: 'Explore attractions like Ait Ben Haddou, Cinema Studios, etc.',
+            fr: 'Explorer des attractions comme Ait Ben Haddou, les studios de cinéma, etc.',
+            es: 'Explorar atracciones como Ait Ben Haddou, estudios de cine, etc.',
+            pt: 'Explorar atrações como Ait Ben Haddou, Estúdios de Cinema, etc.',
+            ar: 'استكشاف المعالم السياحية مثل آيت بن حدو واستوديوهات السينما، إلخ.',
         },
         {
-            "en": "Visit all interesting attractions along the road.",
-            "fr": "Visitez toutes les attractions intéressantes le long de la route.",
-            "es": "Visitar todas las atracciones interesantes a lo largo del camino.",
-            "pt": "Visite todas as atrações interessantes ao longo do caminho.",
-            "ar": "زيارة جميع المعالم السياحية المثيرة على طول الطريق."
+            en: 'Visit all interesting attractions along the road.',
+            fr: 'Visitez toutes les attractions intéressantes le long de la route.',
+            es: 'Visitar todas las atracciones interesantes a lo largo del camino.',
+            pt: 'Visite todas as atrações interessantes ao longo do caminho.',
+            ar: 'زيارة جميع المعالم السياحية المثيرة على طول الطريق.',
         },
         {
-            "en": "Visit a female cooperative of Argan.",
-            "fr": "Visite d'une coopérative féminine d'argan.",
-            "es": "Visitar una cooperativa femenina de argán.",
-            "pt": "Visitar uma cooperativa feminina de argan.",
-            "ar": "زيارة تعاونية نسائية للأركان."
+            en: 'Visit a female cooperative of Argan.',
+            fr: "Visite d'une coopérative féminine d'argan.",
+            es: 'Visitar una cooperativa femenina de argán.',
+            pt: 'Visitar uma cooperativa feminina de argan.',
+            ar: 'زيارة تعاونية نسائية للأركان.',
         },
         {
-            "en": "Sandboarding (if you're interested).",
-            "fr": "Sandboarding (si vous êtes intéressé).",
-            "es": "Sandboarding (si estás interesado).",
-            "pt": "Sandboarding (se estiver interessado).",
-            "ar": "تزلج الرمال (إذا كنت مهتمًا)."
+            en: "Sandboarding (if you're interested).",
+            fr: 'Sandboarding (si vous êtes intéressé).',
+            es: 'Sandboarding (si estás interesado).',
+            pt: 'Sandboarding (se estiver interessado).',
+            ar: 'تزلج الرمال (إذا كنت مهتمًا).',
         },
         {
-            "en": "Visit the Roman City Volubilis.",
-            "fr": "Visitez la ville romaine de Volubilis.",
-            "es": "Visitar la ciudad romana de Volubilis.",
-            "pt": "Visite a cidade romana de Volubilis.",
-            "ar": "زيارة مدينة فولوبيليس الرومانية."
+            en: 'Visit the Roman City Volubilis.',
+            fr: 'Visitez la ville romaine de Volubilis.',
+            es: 'Visitar la ciudad romana de Volubilis.',
+            pt: 'Visite a cidade romana de Volubilis.',
+            ar: 'زيارة مدينة فولوبيليس الرومانية.',
         },
         {
-            "en": "Visit of Ziz Valley.",
-            "fr": "Visite de la vallée du Ziz.",
-            "es": "Visita del Valle del Ziz.",
-            "pt": "Visita ao Vale do Ziz.",
-            "ar": "زيارة وادي زيز."
+            en: 'Visit of Ziz Valley.',
+            fr: 'Visite de la vallée du Ziz.',
+            es: 'Visita del Valle del Ziz.',
+            pt: 'Visita ao Vale do Ziz.',
+            ar: 'زيارة وادي زيز.',
         },
         {
-            "en": "Guided Visit to Fez, Marrakech, Chefchaouen.",
-            "fr": "Visite guidée de Fès, Marrakech, Chefchaouen.",
-            "es": "Visita guiada a Fez, Marrakech, Chefchaouen.",
-            "pt": "Visita guiada a Fez, Marrakech, Chefchaouen.",
-            "ar": "زيارة موجّهة إلى فاس، مراكش، شفشاون."
+            en: 'Guided Visit to Fez, Marrakech, Chefchaouen.',
+            fr: 'Visite guidée de Fès, Marrakech, Chefchaouen.',
+            es: 'Visita guiada a Fez, Marrakech, Chefchaouen.',
+            pt: 'Visita guiada a Fez, Marrakech, Chefchaouen.',
+            ar: 'زيارة موجّهة إلى فاس، مراكش، شفشاون.',
         },
         {
-            "en": "Visit The attractions of Rabat & Casablanca.",
-            "fr": "Visitez les attractions de Rabat & Casablanca.",
-            "es": "Visitar las atracciones de Rabat y Casablanca.",
-            "pt": "Visite as atrações de Rabat & Casablanca.",
-            "ar": "زيارة معالم الرباط والدار البيضاء."
+            en: 'Visit The attractions of Rabat & Casablanca.',
+            fr: 'Visitez les attractions de Rabat & Casablanca.',
+            es: 'Visitar las atracciones de Rabat y Casablanca.',
+            pt: 'Visite as atrações de Rabat & Casablanca.',
+            ar: 'زيارة معالم الرباط والدار البيضاء.',
         },
         {
-            "en": "Accommodation with half board except Fez, Marrakech, Casablanca, Chefchaouen, Essaouira.",
-            "fr": "Hébergement en demi-pension sauf à Fès, Marrakech, Casablanca, Chefchaouen, Essaouira.",
-            "es": "Alojamiento con media pensión excepto en Fez, Marrakech, Casablanca, Chefchaouen, Essaouira.",
-            "pt": "Alojamento com meia pensão exceto em Fez, Marrakech, Casablanca, Chefchaouen, Essaouira.",
-            "ar": "إقامة بنصف الإقامة ما عدا فاس، مراكش، الدار البيضاء، شفشاون، الصويرة."
-        }
+            en: 'Accommodation with half board except Fez, Marrakech, Casablanca, Chefchaouen, Essaouira.',
+            fr: 'Hébergement en demi-pension sauf à Fès, Marrakech, Casablanca, Chefchaouen, Essaouira.',
+            es: 'Alojamiento con media pensión excepto en Fez, Marrakech, Casablanca, Chefchaouen, Essaouira.',
+            pt: 'Alojamento com meia pensão exceto em Fez, Marrakech, Casablanca, Chefchaouen, Essaouira.',
+            ar: 'إقامة بنصف الإقامة ما عدا فاس، مراكش، الدار البيضاء، شفشاون، الصويرة.',
+        },
     ],
-    "departureCity": "Marrakech",
-    "departurePickupTime": "08:00 AM",
-    "returnPickupTime": "05:30 PM",
-    "journeyTime": 4,
-    "journeyTimeUnit": "hours",
-    "highlights": [
+    departureCity: 'Marrakech',
+    departurePickupTime: '08:00 AM',
+    returnPickupTime: '05:30 PM',
+    journeyTime: 4,
+    journeyTimeUnit: 'hours',
+    highlights: [
         {
-            "en": "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
-            "fr": "Arrêt aux points de vue panoramiques pour admirer les vues sur les vallées et les villages berbères.",
-            "es": "Parada en miradores panorámicos para admirar las vistas de los valles y los pueblos bereberes.",
-            "pt": "Parar em mirantes panorâmicos para admirar as vistas dos vales e das aldeias berberes.",
-            "ar": "التوقف في المناظر الطبيعية البانورامية للتمتع بالمناظر الجميلة للوديان وقرى البربر."
+            en: "Stop at panoramic sightseeing's to admire Valleys & Berber villages views.",
+            fr: 'Arrêt aux points de vue panoramiques pour admirer les vues sur les vallées et les villages berbères.',
+            es: 'Parada en miradores panorámicos para admirar las vistas de los valles y los pueblos bereberes.',
+            pt: 'Parar em mirantes panorâmicos para admirar as vistas dos vales e das aldeias berberes.',
+            ar: 'التوقف في المناظر الطبيعية البانورامية للتمتع بالمناظر الجميلة للوديان وقرى البربر.',
         },
         {
-            "en": "Travel across the High Atlas Mountains.",
-            "fr": "Voyage à travers les montagnes du Haut Atlas.",
-            "es": "Viaje a través de las montañas del Alto Atlas.",
-            "pt": "Viajar pelas montanhas do Alto Atlas.",
-            "ar": "السفر عبر جبال الأطلس العالية."
+            en: 'Travel across the High Atlas Mountains.',
+            fr: 'Voyage à travers les montagnes du Haut Atlas.',
+            es: 'Viaje a través de las montañas del Alto Atlas.',
+            pt: 'Viajar pelas montanhas do Alto Atlas.',
+            ar: 'السفر عبر جبال الأطلس العالية.',
         },
         {
-            "en": "Visit the UNESCO World Heritage Sites such as Fez, Essaouira, Kasbah Ait Ben Haddou, Walili.",
-            "fr": "Visitez les sites du patrimoine mondial de l'UNESCO tels que Fès, Essaouira, Kasbah Ait Ben Haddou, Walili.",
-            "es": "Visita los sitios del Patrimonio Mundial de la UNESCO como Fez, Essaouira, Kasbah Ait Ben Haddou, Walili.",
-            "pt": "Visite os locais do Patrimônio Mundial da UNESCO, como Fez, Essaouira, Kasbah Ait Ben Haddou, Walili.",
-            "ar": "زيارة مواقع التراث العالمي التابعة لليونسكو مثل فاس، الصويرة، قصبة آيت بن حدو، والوليلي."
+            en: 'Visit the UNESCO World Heritage Sites such as Fez, Essaouira, Kasbah Ait Ben Haddou, Walili.',
+            fr: "Visitez les sites du patrimoine mondial de l'UNESCO tels que Fès, Essaouira, Kasbah Ait Ben Haddou, Walili.",
+            es: 'Visita los sitios del Patrimonio Mundial de la UNESCO como Fez, Essaouira, Kasbah Ait Ben Haddou, Walili.',
+            pt: 'Visite os locais do Patrimônio Mundial da UNESCO, como Fez, Essaouira, Kasbah Ait Ben Haddou, Walili.',
+            ar: 'زيارة مواقع التراث العالمي التابعة لليونسكو مثل فاس، الصويرة، قصبة آيت بن حدو، والوليلي.',
         },
         {
-            "en": "Explore Dades & Todra Gorges, Palm groves & valleys.",
-            "fr": "Explorez les gorges du Dadès et du Todra, les palmeraies et les vallées.",
-            "es": "Explora las gargantas de Dades y Todra, palmerales y valles.",
-            "pt": "Explore as gargantas de Dades e Todra, palmeirais e vales.",
-            "ar": "استكشاف مضيقي داديس وتودرا، ومزارع النخيل والوديان."
+            en: 'Explore Dades & Todra Gorges, Palm groves & valleys.',
+            fr: 'Explorez les gorges du Dadès et du Todra, les palmeraies et les vallées.',
+            es: 'Explora las gargantas de Dades y Todra, palmerales y valles.',
+            pt: 'Explore as gargantas de Dades e Todra, palmeirais e vales.',
+            ar: 'استكشاف مضيقي داديس وتودرا، ومزارع النخيل والوديان.',
         },
         {
-            "en": "Experience a Camel ride in Merzouga dunes & Experience Sandboarding.",
-            "fr": "Faites l'expérience d'une balade à dos de chameau dans les dunes de Merzouga et de sandboard.",
-            "es": "Experimenta un paseo en camello por las dunas de Merzouga y practica sandboard.",
-            "pt": "Experimente um passeio de camelo nas dunas de Merzouga e pratique sandboard.",
-            "ar": "تجربة ركوب الجمل في كثبان مرزوقة وتجربة التزلج على الرمال."
+            en: 'Experience a Camel ride in Merzouga dunes & Experience Sandboarding.',
+            fr: "Faites l'expérience d'une balade à dos de chameau dans les dunes de Merzouga et de sandboard.",
+            es: 'Experimenta un paseo en camello por las dunas de Merzouga y practica sandboard.',
+            pt: 'Experimente um passeio de camelo nas dunas de Merzouga e pratique sandboard.',
+            ar: 'تجربة ركوب الجمل في كثبان مرزوقة وتجربة التزلج على الرمال.',
         },
         {
-            "en": "Enjoy a spectacular sunset & sunrise Camel ride.",
-            "fr": "Profitez d'un coucher de soleil spectaculaire et d'un lever de soleil en chameau.",
-            "es": "Disfruta de un espectacular atardecer y amanecer en camello.",
-            "pt": "Desfrute de um pôr do sol espetacular e nascer do sol em camelo.",
-            "ar": "استمتع بغروب وشروق شمس رائعين على متن الجمل."
+            en: 'Enjoy a spectacular sunset & sunrise Camel ride.',
+            fr: "Profitez d'un coucher de soleil spectaculaire et d'un lever de soleil en chameau.",
+            es: 'Disfruta de un espectacular atardecer y amanecer en camello.',
+            pt: 'Desfrute de um pôr do sol espetacular e nascer do sol em camelo.',
+            ar: 'استمتع بغروب وشروق شمس رائعين على متن الجمل.',
         },
         {
-            "en": "Visit the biggest film studios in north Africa.",
-            "fr": "Visitez les plus grands studios de cinéma d'Afrique du Nord.",
-            "es": "Visita los mayores estudios de cine de África del Norte.",
-            "pt": "Visite os maiores estúdios de cinema do norte da África.",
-            "ar": "زيارة أكبر استوديوهات السينما في شمال أفريقيا."
+            en: 'Visit the biggest film studios in north Africa.',
+            fr: "Visitez les plus grands studios de cinéma d'Afrique du Nord.",
+            es: 'Visita los mayores estudios de cine de África del Norte.',
+            pt: 'Visite os maiores estúdios de cinema do norte da África.',
+            ar: 'زيارة أكبر استوديوهات السينما في شمال أفريقيا.',
         },
         {
-            "en": "Spend an overnight in a Berber desert camp.",
-            "fr": "Passez une nuit dans un campement berbère dans le désert.",
-            "es": "Pasar una noche en un campamento bereber en el desierto.",
-            "pt": "Passe uma noite em um acampamento berbere no deserto.",
-            "ar": "قضاء ليلة في معسكر بربري في الصحراء."
+            en: 'Spend an overnight in a Berber desert camp.',
+            fr: 'Passez une nuit dans un campement berbère dans le désert.',
+            es: 'Pasar una noche en un campamento bereber en el desierto.',
+            pt: 'Passe uma noite em um acampamento berbere no deserto.',
+            ar: 'قضاء ليلة في معسكر بربري في الصحراء.',
         },
         {
-            "en": "Take memorable Pictures in one of the best parts of Morocco.",
-            "fr": "Prenez des photos mémorables dans l'une des meilleures parties du Maroc.",
-            "es": "Toma fotos memorables en una de las mejores partes de Marruecos.",
-            "pt": "Tire fotos memoráveis em uma das melhores partes de Marrocos.",
-            "ar": "التقط صورًا لا تُنسى في إحدى أفضل مناطق المغرب."
+            en: 'Take memorable Pictures in one of the best parts of Morocco.',
+            fr: "Prenez des photos mémorables dans l'une des meilleures parties du Maroc.",
+            es: 'Toma fotos memorables en una de las mejores partes de Marruecos.',
+            pt: 'Tire fotos memoráveis em uma das melhores partes de Marrocos.',
+            ar: 'التقط صورًا لا تُنسى في إحدى أفضل مناطق المغرب.',
         },
         {
-            "en": "Immerse yourself inside a rich and different culture.",
-            "fr": "Immergez-vous dans une culture riche et différente.",
-            "es": "Sumérgete en una cultura rica y diferente.",
-            "pt": "Mergulhe em uma cultura rica e diferente.",
-            "ar": "انغمس في ثقافة غنية ومختلفة."
+            en: 'Immerse yourself inside a rich and different culture.',
+            fr: 'Immergez-vous dans une culture riche et différente.',
+            es: 'Sumérgete en una cultura rica y diferente.',
+            pt: 'Mergulhe em uma cultura rica e diferente.',
+            ar: 'انغمس في ثقافة غنية ومختلفة.',
         },
         {
-            "en": "Taste a big variety of different food and dishes.",
-            "fr": "Goûtez à une grande variété de plats et de plats différents.",
-            "es": "Prueba una gran variedad de comidas y platos diferentes.",
-            "pt": "Prove uma grande variedade de alimentos e pratos diferentes.",
-            "ar": "تذوق مجموعة متنوعة كبيرة من الطعام والأطباق المختلفة."
+            en: 'Taste a big variety of different food and dishes.',
+            fr: 'Goûtez à une grande variété de plats et de plats différents.',
+            es: 'Prueba una gran variedad de comidas y platos diferentes.',
+            pt: 'Prove uma grande variedade de alimentos e pratos diferentes.',
+            ar: 'تذوق مجموعة متنوعة كبيرة من الطعام والأطباق المختلفة.',
         },
         {
-            "en": "Pass through the Switzerland of Morocco “Ifrane”.",
-            "fr": "Traversez la Suisse du Maroc « Ifrane ».",
-            "es": "Pase por Suiza de Marruecos “Ifrane”.",
-            "pt": "Passe pela Suíça do Marrocos “Ifrane”.",
-            "ar": "المرور عبر سويسرا المغرب « إفران »."
+            en: 'Pass through the Switzerland of Morocco “Ifrane”.',
+            fr: 'Traversez la Suisse du Maroc « Ifrane ».',
+            es: 'Pase por Suiza de Marruecos “Ifrane”.',
+            pt: 'Passe pela Suíça do Marrocos “Ifrane”.',
+            ar: 'المرور عبر سويسرا المغرب « إفران ».',
         },
         {
-            "en": "A panoramic stop on the Ziz Valley.",
-            "fr": "Un arrêt panoramique sur la vallée du Ziz.",
-            "es": "Una parada panorámica en el Valle del Ziz.",
-            "pt": "Uma parada panorâmica no Vale do Ziz.",
-            "ar": "توقف بانورامي على وادي زيز."
+            en: 'A panoramic stop on the Ziz Valley.',
+            fr: 'Un arrêt panoramique sur la vallée du Ziz.',
+            es: 'Una parada panorámica en el Valle del Ziz.',
+            pt: 'Uma parada panorâmica no Vale do Ziz.',
+            ar: 'توقف بانورامي على وادي زيز.',
         },
         {
-            "en": "Discover Fes, Marrakech with local expert guide.",
-            "fr": "Découvrez Fès, Marrakech avec un guide local expert.",
-            "es": "Descubre Fez, Marrakech con un guía local experto.",
-            "pt": "Descubra Fez, Marrakech com um guia local especializado.",
-            "ar": "اكتشاف فاس، مراكش مع مرشد محلي متخصص."
+            en: 'Discover Fes, Marrakech with local expert guide.',
+            fr: 'Découvrez Fès, Marrakech avec un guide local expert.',
+            es: 'Descubre Fez, Marrakech con un guía local experto.',
+            pt: 'Descubra Fez, Marrakech com um guia local especializado.',
+            ar: 'اكتشاف فاس، مراكش مع مرشد محلي متخصص.',
         },
         {
-            "en": "Visit & discover the historical & archaeological site Volubilis.",
-            "fr": "Visitez et découvrez le site historique et archéologique de Volubilis.",
-            "es": "Visite y descubra el sitio histórico y arqueológico de Volubilis.",
-            "pt": "Visite e descubra o site histórico e arqueológico de Volubilis.",
-            "ar": "زيارة واكتشاف الموقع التاريخي والأثري فولوبيليس."
+            en: 'Visit & discover the historical & archaeological site Volubilis.',
+            fr: 'Visitez et découvrez le site historique et archéologique de Volubilis.',
+            es: 'Visite y descubra el sitio histórico y arqueológico de Volubilis.',
+            pt: 'Visite e descubra o site histórico e arqueológico de Volubilis.',
+            ar: 'زيارة واكتشاف الموقع التاريخي والأثري فولوبيليس.',
         },
         {
-            "en": "Free time to visit the blue pearl of Chefchaouen.",
-            "fr": "Temps libre pour visiter la perle bleue de Chefchaouen.",
-            "es": "Tiempo libre para visitar la perla azul de Chefchaouen.",
-            "pt": "Tempo livre para visitar a pérola azul de Chefchaouen.",
-            "ar": "وقت حر لزيارة اللؤلؤة الزرقاء في شفشاون."
+            en: 'Free time to visit the blue pearl of Chefchaouen.',
+            fr: 'Temps libre pour visiter la perle bleue de Chefchaouen.',
+            es: 'Tiempo libre para visitar la perla azul de Chefchaouen.',
+            pt: 'Tempo livre para visitar a pérola azul de Chefchaouen.',
+            ar: 'وقت حر لزيارة اللؤلؤة الزرقاء في شفشاون.',
         },
         {
-            "en": "Explore the highlights of Rabat city.",
-            "fr": "Explorez les points forts de la ville de Rabat.",
-            "es": "Explora los puntos destacados de la ciudad de Rabat.",
-            "pt": "Explore os destaques da cidade de Rabat.",
-            "ar": "استكشاف أبرز معالم مدينة الرباط."
+            en: 'Explore the highlights of Rabat city.',
+            fr: 'Explorez les points forts de la ville de Rabat.',
+            es: 'Explora los puntos destacados de la ciudad de Rabat.',
+            pt: 'Explore os destaques da cidade de Rabat.',
+            ar: 'استكشاف أبرز معالم مدينة الرباط.',
         },
         {
-            "en": "Visit the mosque of Hassan II in Casablanca.",
-            "fr": "Visitez la mosquée Hassan II à Casablanca.",
-            "es": "Visita la mezquita de Hassan II en Casablanca.",
-            "pt": "Visite a mesquita Hassan II em Casablanca.",
-            "ar": "زيارة مسجد الحسن الثاني في الدار البيضاء."
+            en: 'Visit the mosque of Hassan II in Casablanca.',
+            fr: 'Visitez la mosquée Hassan II à Casablanca.',
+            es: 'Visita la mezquita de Hassan II en Casablanca.',
+            pt: 'Visite a mesquita Hassan II em Casablanca.',
+            ar: 'زيارة مسجد الحسن الثاني في الدار البيضاء.',
         },
         {
-            "en": "Enjoy exploring the Romantic City of Essaouira Mogador.",
-            "fr": "Profitez de l'exploration de la ville romantique d'Essaouira Mogador.",
-            "es": "Disfruta explorando la Ciudad Romántica de Essaouira Mogador.",
-            "pt": "Aproveite para explorar a Cidade Romântica de Essaouira Mogador.",
-            "ar": "استمتع باستكشاف المدينة الرومانسية إيساويرا موغادور."
-        }
+            en: 'Enjoy exploring the Romantic City of Essaouira Mogador.',
+            fr: "Profitez de l'exploration de la ville romantique d'Essaouira Mogador.",
+            es: 'Disfruta explorando la Ciudad Romántica de Essaouira Mogador.',
+            pt: 'Aproveite para explorar a Cidade Romântica de Essaouira Mogador.',
+            ar: 'استمتع باستكشاف المدينة الرومانسية إيساويرا موغادور.',
+        },
     ],
-    "highlightImgs": [
+    highlightImgs: [
         'highlight_1.jpg',
         'highlight_2.jpg',
         'highlight_3.jpg',
@@ -407,7 +407,7 @@ export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast 
         'highlight_35.jpg',
         'highlight_36.jpg',
     ],
-    "steps": [
+    steps: [
         {
             "title": {
                 "en": "Marrakech Airport - Marrakech",
@@ -601,15 +601,15 @@ export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast 
             }
         },
     ],
-    "pricing": [],
-    "duration": 12,
-    "durationUnit": "day",
-    "frequency": {
-        "fr": "chaque jour",
-        "en": "Every day",
-        "es": "Cada día",
-        "pt": "Diariamente",
-        "ar": "كل يوم"
+    pricing: [],
+    duration: 12,
+    durationUnit: 'day',
+    frequency: {
+        fr: 'chaque jour',
+        en: 'Every day',
+        es: 'Cada día',
+        pt: 'Diariamente',
+        ar: 'كل يوم',
     },
     "informationList": [
         {
@@ -655,5 +655,5 @@ export const _12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast 
             "ar": "يمكن أن يكون الجولة شاملة الكل، تغطي جوانب مختلفة من رحلتك."
         }
     ],
-    "mapLink": "!1m76!1m12!1m3!1d3425528.725992699!2d-9.527071402090725!3d33.02373065132103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xd0b265e6402d907%3A0x91548980ce97ea0c!2sChefchaouen!3m2!1d35.168796!2d-5.268364099999999!4m5!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat!3m2!1d34.0083637!2d-6.8538748!4m5!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca!3m2!1d33.5731104!2d-7.5898433999999995!4m5!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira!3m2!1d31.5084926!2d-9.7595041!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708470275835!5m2!1sfr!2sma"
-}
+    mapLink: '!1m76!1m12!1m3!1d3425528.725992699!2d-9.527071402090725!3d33.02373065132103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdbae06120411439%3A0x4d090f64a0ec123a!2sA%C3%AFt%20Ben%20Haddou!3m2!1d31.047043!2d-7.1318996!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xd0b265e6402d907%3A0x91548980ce97ea0c!2sChefchaouen!3m2!1d35.168796!2d-5.268364099999999!4m5!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat!3m2!1d34.0083637!2d-6.8538748!4m5!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca!3m2!1d33.5731104!2d-7.5898433999999995!4m5!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira!3m2!1d31.5084926!2d-9.7595041!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708470275835!5m2!1sfr!2sma',
+};
