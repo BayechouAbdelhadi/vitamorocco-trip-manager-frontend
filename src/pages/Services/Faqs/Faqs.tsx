@@ -4,7 +4,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Link } from 'react-router-dom';
-import { Button } from '@mui/material';
+import parse from 'html-react-parser';
 import { scrollToTop } from '../../../common/utils';
 
 import './Faqs.scss'
@@ -13,7 +13,13 @@ export const Faqs = (): JSX.Element => {
     const FaqsText = 'FAQS';
 
     return (
-        <Page description={FaqsText} keywords={FaqsText} title={FaqsText} imgSrc='/img/faqs/title.jpg' className='faqs-container'>
+        <Page
+            description={FaqsText}
+            keywords={FaqsText}
+            title={FaqsText}
+            imgSrc='/img/faqs/title.jpg'
+            className='faqs-container'
+        >
             <ol>
                 {
                     FAQs.map(faq => (
@@ -29,7 +35,7 @@ export const Faqs = (): JSX.Element => {
                                         {item.question}
                                     </AccordionSummary>
                                     <AccordionDetails>
-                                        <em>{item.answer}</em>
+                                        <em>{parse(item.answer)}</em>
                                     </AccordionDetails>
                                 </Accordion>
                             )}
@@ -122,7 +128,22 @@ const FAQs = [
         listFaqs: [
             {
                 question: "What is the difference between authentic and luxury camps?",
-                answer: ""
+                answer: `
+                    ▪ Traditional camps: <br/>
+                        The tents themselves are modelled on the tents traditionally used by the local nomads, and to
+                        prevent the rain, sand and dust from entering, the walls and ceiling are lined. Sometimes the door is
+                        wooden but other camps hang a traditional goat hair blanket, or a woven Berber blanket or rug.
+                        There are wooden or metal bedsteads, clean sheets and pillowcases, blankets, electric light, a table
+                        and rugs on the floor.<br/>
+                        Each family or couple has their own tent and the bathroom facilities are shared with hot water
+                        provided by solar panels. There is a communal dining area.<br/><br/>
+                    ▪ Luxury camps:<br/>
+                        The tents are made of a very different white and black material which is waterproof. These private
+                        tents are spacious and are equipped with king-sized beds. The furnishings are equally luxurious with
+                        beautiful metal lamps and there are large tables, mirrors and armchairs to relax in, and electric
+                        sockets.<br/>
+                        Each tent has its own bathroom, with a separate shower and toilet. Meals are eaten communally in a
+                        large, beautifully decorated, separate restaurant tent.`
             },
             {
                 question: "Is there electricity in the camp in the desert to charge our phones and cameras?",
@@ -163,7 +184,29 @@ const FAQs = [
         listFaqs: [
             {
                 question: "What's are the traditional meals in Morocco",
-                answer: ""
+                answer: `
+                    Moroccan cuisine is known for its rich Flavors, spices, and diverse influences. Some traditional meals
+                    in Morocco include:
+                    ✓ Tagine: A slow-cooked stew typically made with meat (like lamb, chicken, or beef),
+                    vegetables, and a blend of aromatic spices. It's named after the clay pot it's cooked in.<br/>
+                    ✓ Couscous: A staple made from steamed wheat granules, often served with vegetables, meat
+                    (such as lamb or chicken), and a flavourful broth.<br/>
+                    ✓ Harira: A hearty soup, especially popular during Ramadan, made with tomatoes, lentils,
+                    chickpeas, and various spices. It often includes meat and is served with dates.<br/>
+                    ✓ Pastilla: A Savory and sweet pastry filled with pigeon or chicken, almonds, and spices, all
+                    wrapped in layers of thin pastry.<br/>
+                    ✓ Mechoui: Roasted lamb or goat, seasoned with various spices and slow-cooked until tender.
+                    It's often prepared during festive occasions.<br/>
+                    ✓ Kefta: Ground meat (usually beef or lamb) mixed with herbs and spices, shaped into small
+                    patties or skewers, and grilled.<br/>
+                    ✓ Briouat: Triangular pastries filled with a mixture of meat (often chicken or lamb), almonds,
+                    and spices, then fried until crispy.<br/>
+                    ✓ Zaalouk: A salad made with cooked eggplant and tomatoes, flavoured with garlic, cumin, and
+                    coriander.<br/>
+                    ✓ Msemen: Square-shaped, layered flatbread often served for breakfast or as a snack,
+                    sometimes accompanied by honey or jam.<br/><br/>
+                    Moroccan cuisine is diverse, and these dishes represent just a glimpse of the culinary richness found
+                    in the country. Meals are often accompanied by mint tea, a signature beverage in Moroccan culture.`
             },
             {
                 question: "Should we bring our own water on the tour?",

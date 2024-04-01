@@ -1,5 +1,13 @@
-export const toursMock = [
-    {
+import { TourMock } from "../../common/types/tour";
+import { _5_days_special_offer_marrakech_to_sahara_desert } from "./mock/1_5_days_special_offer_marrakech_to_sahara_desert";
+
+export const toursMock : TourMock[] = [
+    // _5_days_special_offer_marrakech_to_sahara_desert
+]
+
+/**
+ * 
+ * {
         "id": "5_days_special_offer_marrakech_to_sahara_desert",
         "title": {
             "en": "5 days Special offer Marrakech & Sahara Desert",
@@ -2630,4 +2638,4 @@ export const toursMock = [
         ],
         "mapLink": "!1m76!1m12!1m3!1d3425519.895130664!2d-9.52707137954194!3d33.02395789180619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca!3m2!1d33.5731104!2d-7.5898433999999995!4m5!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat!3m2!1d34.0083637!2d-6.8538748!4m5!1s0xd0b265e6402d907%3A0x91548980ce97ea0c!2sChefchaouen!3m2!1d35.168796!2d-5.268364099999999!4m5!1s0xda0687d6a592af5%3A0x89bf317b312f3e62!2sVolubilis%2C%20Mekn%C3%A8s!3m2!1d34.0708021!2d-5.552679299999999!4m5!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sCommune%20de%20Fes!3m2!1d34.0181246!2d-5.0078451!4m5!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!3m2!1d31.0801676!2d-4.013361!4m5!1s0xda3328c8a8c64bf%3A0x257d57d5120009c0!2sGorges%20du%20Dad%C3%A8s!3m2!1d31.4532146!2d-5.9675869!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!4m5!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sEssaouira!3m2!1d31.5084926!2d-9.7595041!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!3m2!1d31.622522399999998!2d-7.989825799999999!5e0!3m2!1sfr!2sma!4v1708470746514!5m2!1sfr!2sma",
     },
-]
+ */

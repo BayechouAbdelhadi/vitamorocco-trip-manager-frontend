@@ -11,7 +11,7 @@ import parse from 'html-react-parser';
 
 import '../Excursions/Excursions.scss';
 
-const ToursText = 'tours_and_itineraries';
+const ToursText = 'Tours & Itineraries';
 
 export const Tours = (): JSX.Element => {
     const location = useLocation();
@@ -29,7 +29,7 @@ export const Tours = (): JSX.Element => {
         <Page
             description={t('tours_description')}
             keywords={ToursText}
-            title={`${t(ToursText)} ${departureFromCityTitle}`}
+            title={`${t('tours_and_itineraries')} ${departureFromCityTitle}`}
             // imgSrc={`/img/tours/${departureFromCityImg}`}
             imgSrc={`/img/tours/tours_title.jpg`}
             className="excursions-page-container"

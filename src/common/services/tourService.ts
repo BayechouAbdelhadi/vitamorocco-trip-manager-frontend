@@ -1,7 +1,11 @@
 import { toursMock } from '../../pages/Tours/ToursMock';
 import { CommonExcursionProperties, Excursion } from '../types/excursion';
+import { Tour } from '../types/tour';
+import { currentLanguage } from '../utils';
 
 export const getTour = (id: string) => Promise.resolve(toursMapper().find((excursion) => excursion.id === id));
+export const getTours = () => Promise.resolve(toursMapper());
+
 export const getToursFromOrigin = (origin?: string | null) => {
     if (origin) {
         return Promise.resolve(toursMapper().filter((excursion) => excursion.departureCity === origin));
@@ -9,18 +13,17 @@ export const getToursFromOrigin = (origin?: string | null) => {
     return Promise.resolve(toursMapper());
 };
 export const getAvailableToursOrigins = () => Promise.resolve(computeAvailableToursOrigins());
-export const getTours = () => Promise.resolve(toursMapper());
 
-const toursMapper = (): Array<Excursion> =>
-    toursMock.map((exMock) => {
-        const { title, description, highlights, pricing, frequency, ...common } = exMock;
+const toursMapper = (): Array<Tour> =>
+    toursMock.map((tourMock) => {
+        const { title, description, highlights, pricing, frequency, ...common } = tourMock;
         const excursion: Excursion = {
             ...(common as CommonExcursionProperties),
-            title: title.en as string,
-            description: description.en as string,
-            highlights: highlights.map((h: any) => h.en as string),
-            pricing: pricing.map((p: any) => p.en as string),
-            frequency: frequency.en as string,
+            title: title[currentLanguage] as string,
+            description: description[currentLanguage] as string,
+            highlights: highlights.map((h: any) => h[currentLanguage] as string),
+            pricing: pricing.map((p: any) => p[currentLanguage] as string),
+            frequency: frequency[currentLanguage] as string,
         };
 
         return excursion;

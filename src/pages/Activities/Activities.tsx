@@ -4,23 +4,27 @@ import { Page } from '../../common/components/Page/Page';
 import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 import { getActivities } from '../../common/services/activityService';
 import ActivitySummary from './ActivitySummary';
+import { useTranslation } from 'react-i18next';
+
+const ActivitiesText = 'Activities';
 
 export const Activities = (): JSX.Element => {
-    const ActivitiesText = 'Activities';
     const { data: activities, isLoading } = useQuery('activities', getActivities);
+
+    const { t } = useTranslation();
 
     return (
         <Page
             description={ActivitiesText}
             keywords={ActivitiesText}
-            title={ActivitiesText}
+            title={t('activities.title')}
             imgSrc="/img/activities/activity_title.jpg"
         >
             {isLoading ? (
                 <CircularProgress />
             ) : (
                 <>
-                    <TitleWithLines text="Our activities Selection" />
+                    <TitleWithLines text={t("our_activities_selection")} />
                     {/* <p>
                         Explore our curated selection of popular one-day excursions departing from Marrakech, designed
                         to cater to the discerning traveler. <strong>VITA MOROCCO</strong> ensures a seamless

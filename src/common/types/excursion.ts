@@ -20,14 +20,11 @@ export type Excursion = {
     titleImg: string;
     descriptionImg: string;
     highlightImgs: string[];
-    steps: Step[];
+    // steps: Step[];
     informationList: string[];
 };
 
 export type CommonExcursionProperties = Omit<Excursion, 'title' | 'description' | 'highlights' | 'pricing' | 'frequency'>;
 
 
-export type Step = {
-    title: string;
-    description: string;
-};
+

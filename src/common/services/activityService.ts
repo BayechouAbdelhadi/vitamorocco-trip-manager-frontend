@@ -1,4 +1,5 @@
 import { ACTIVITIES_MOCK } from '../mock/activitiesMock';
+import { ACTIVITIES_MOCK_EDITED } from '../mock/activitiesMock_edited';
 
 export const getActivities = () => Promise.resolve(ACTIVITIES_MOCK);
 

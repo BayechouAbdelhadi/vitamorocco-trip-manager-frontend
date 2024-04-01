@@ -5,6 +5,7 @@ import { ERROR_TRANSLATION } from './error';
 export const TRANSLATION_EN = {
     // A
     about: 'About',
+    about_vita_morocco: 'About Vita Morocco',
     accomodation_type: 'Accomodation type',
     accept_all: 'Accept All',
     activities: {
@@ -66,6 +67,14 @@ export const TRANSLATION_EN = {
         What_s_not_mentioned_in_included: 'What\'s not mentioned in included'
     },
     excursions: "Excursions",
+    excursions_and_day_trips: 'Excursions & Day Trips',
+    excursions_description: `<p>
+                        Explore our curated selection of popular one-day excursions departing from Marrakech, designed to cater to
+                        the discerning traveler. <strong>VITA MOROCCO</strong> ensures a seamless experience, providing comprehensive pick-up
+                        and drop-off services from your hotel or riad. Our excursions are exclusively private and fully customizable,
+                        affording you the freedom to design your journey, from choosing specific stops to determining the length of
+                        your stay at each. For bespoke travel experiences tailored to your unique preferences, reach out to us.
+                    </p>`,
     expenses: {
         name: 'Expenses',
         description: 'Fuel, tolls and all associated expenses.',
@@ -127,8 +136,10 @@ export const TRANSLATION_EN = {
     number_of_kids: 'Kids',
     number_of_adults: 'Adults',
     // O
+    our_activities_selection: 'Our activities Selection',
     our_services: 'Our services',
     our_exclusive_routes_and_itineraries: 'Our Exclusive Routes & Itineraries',
+    our_excursions_selection: 'Our Excursions Selection',
     // P
     phone_number: 'Telephone',
     pick_up_and_drop_off: 'Pick up & Drop off',
@@ -180,6 +191,12 @@ export const TRANSLATION_EN = {
     subject: 'Subject',
     submit: 'Submit',
     // T
+    terms_and_conditions: 'Terms And Conditions',
+    the_agreement: `<p>
+                <span>The Agreement :</span><br />
+                By confirming your trip with VITA MOROCCO, you acknowledge and agree to
+                the following booking conditions outlined below :
+            </p>`,
     tips: 'Tips',
     tours: 'Tours',
     tours_and_itineraries: 'Tours & Itineraries',

@@ -5,6 +5,7 @@ import { ERROR_TRANSLATION } from './error';
 export const TRANSLATION_FR = {
     // A
     about: 'À propos',
+    about_vita_morocco: 'À propos de Vita Maroc',
     accept_all: 'Accepter tout',
     activities: {
         title: 'Activités',
@@ -59,6 +60,14 @@ export const TRANSLATION_FR = {
         tip_propina: 'Conseils ou Propina.',
     },
     excursions: "Excursions",
+    excursions_and_day_trips: 'Excursions et excursions d\'une journée',
+    excursions_description: `<p>
+                         Découvrez notre sélection d'excursions populaires d'une journée au départ de Marrakech, conçues pour répondre aux besoins des
+                         le voyageur avisé. <strong>VITA MOROCCO</strong> garantit une expérience fluide, offrant une prise en charge complète
+                         et services de dépose depuis votre hôtel ou riad. Nos excursions sont exclusivement privées et entièrement personnalisables,
+                         vous offrant la liberté de concevoir votre voyage, du choix des arrêts spécifiques à la détermination de la durée
+                         votre séjour à chacun. Pour des expériences de voyage sur mesure adaptées à vos préférences uniques, contactez-nous.
+                     </p>`,
     expenses: {
         name: 'Frais',
         description: 'Carburant, péages et tous les frais associés.',
@@ -109,8 +118,10 @@ export const TRANSLATION_FR = {
     },
     // N
     // O
+    our_activities_selection: 'Nos activités Sélection',
     our_services: 'Nos services',
     our_exclusive_routes_and_itineraries: 'Nos Itinéraires et Circuits Exclusifs',
+    our_excursions_selection: 'Notre sélection d\'excursions',
     // P
     pick_up_and_drop_off_from_hotel: 'Heure de départ',
     pick_up_time_departure: 'Heure de départ',
@@ -155,6 +166,12 @@ export const TRANSLATION_FR = {
     special_request_description: 'Si vous préférez éviter les voyages organisés en grands groupes et appréciez une approche plus flexible, Vita Maroc simplifie votre expérience de voyage en vous permettant de partir à votre propre rythme, sans contraintes, et de personnaliser votre itinéraire selon vos goûts et intérêts.',
     submit: 'Soumettre',
     // T
+    terms_and_conditions: 'Termes et conditions',
+    the_agreement: `<p>
+                 <span>L'accord :</span><br />
+                 En confirmant votre voyage avec VITA MOROCCO, vous reconnaissez et acceptez
+                 les conditions de réservation suivantes décrites ci-dessous :
+             </p>`,
     tips: 'Conseils',
     tours: 'Circuits',
     tours_and_itineraries: 'Visites et itinéraires',
@@ -183,6 +200,7 @@ export const TRANSLATION_FR = {
                          Laissez <strong>VITA MOROCCO</strong> transformer votre visite au Maroc en un moment inoubliable
                          aventure.
                      </p>`,
+    trip_details: 'Détails du voyage',
     // U
     // V
     vita_morocco_definition: `<p>
