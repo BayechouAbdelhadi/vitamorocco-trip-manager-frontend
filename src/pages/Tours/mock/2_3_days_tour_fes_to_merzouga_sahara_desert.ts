@@ -1,6 +1,6 @@
 import { TourMock } from '../../../common/types/tour';
 
-const _3_days_tour_fes_to_merzouga_sahara_desert: TourMock = {
+export const _2_3_days_tour_fes_to_merzouga_sahara_desert: TourMock = {
     id: '3_days_tour_fes_to_merzouga_sahara_desert',
     title: {
         en: '3 Days Tour Fes to Merzouga Sahara Desert',

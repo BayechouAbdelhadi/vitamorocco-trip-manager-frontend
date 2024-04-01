@@ -1,6 +1,6 @@
 import { TourMock } from '../../../common/types/tour';
 
-export const _5_days_special_offer_marrakech_to_sahara_desert: TourMock = {
+export const _1_5_days_special_offer_marrakech_to_sahara_desert: TourMock = {
     id: '5_days_special_offer_marrakech_to_sahara_desert',
     title: {
         en: '5 days Special offer Marrakech & Sahara Desert',

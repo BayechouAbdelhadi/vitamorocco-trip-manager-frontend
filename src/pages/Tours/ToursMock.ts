@@ -1,9 +1,31 @@
-import { TourMock } from "../../common/types/tour";
-import { _5_days_special_offer_marrakech_to_sahara_desert } from "./mock/1_5_days_special_offer_marrakech_to_sahara_desert";
+import { TourMock } from '../../common/types/tour';
+import { _10_majestic_marrakech_and_beyond_5_days_discovery_tour } from './mock/10_majestic_marrakech_and_beyond_5_days_discovery_tour';
+import { _11_12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast } from './mock/11_12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast';
+import { _12_13_days_grand_tour_of_morocco } from './mock/12_13_days_grand_tour_of_morocco';
+import { _1_5_days_special_offer_marrakech_to_sahara_desert } from './mock/1_5_days_special_offer_marrakech_to_sahara_desert';
+import { _2_3_days_tour_fes_to_merzouga_sahara_desert } from './mock/2_3_days_tour_fes_to_merzouga_sahara_desert';
+import { _3_3_days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains } from './mock/3_3_days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains';
+import { _4_3_days_trip_marrakech_to_fez_through_sahara_desert } from './mock/4_3_days_trip_marrakech_to_fez_through_sahara_desert';
+import { _5_4_days_tour_fes_to_marrakech_through_sahara_desert_and_atlas_mountains } from './mock/5_4_days_tour_fes_to_marrakech_through_sahara_desert_and_atlas_mountains';
+import { _6_3_days_trip_marrakech_to_merzouga_sahara_desert } from './mock/6_4_days_trip_marrakech_to_merzouga_sahara_desert';
+import { _7_5_days_getaway_tangerto_chefchaouen_fes_and_asilah } from './mock/7_5_days_getaway_tangerto_chefchaouen_fes_and_asilah';
+import { _8_4_days_tour_from_marrakech_to_merzouga_sahara_desert } from './mock/8_5_days_tour_from_marrakech_to_merzouga_sahara_desert';
+import { _9_4_days_tour_marrakech_to_fes } from './mock/9_4_days_tour_marrakech_to_fes';
 
-export const toursMock : TourMock[] = [
-    // _5_days_special_offer_marrakech_to_sahara_desert
-]
+export const toursMock: TourMock[] = [
+    _1_5_days_special_offer_marrakech_to_sahara_desert,
+    _2_3_days_tour_fes_to_merzouga_sahara_desert,
+    _3_3_days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains,
+    _4_3_days_trip_marrakech_to_fez_through_sahara_desert,
+    _5_4_days_tour_fes_to_marrakech_through_sahara_desert_and_atlas_mountains,
+    _6_3_days_trip_marrakech_to_merzouga_sahara_desert,
+    _7_5_days_getaway_tangerto_chefchaouen_fes_and_asilah,
+    _8_4_days_tour_from_marrakech_to_merzouga_sahara_desert,
+    _9_4_days_tour_marrakech_to_fes,
+    _10_majestic_marrakech_and_beyond_5_days_discovery_tour,
+    _11_12_days_moroccan_splendor_royal_cities_desert_dunes_and_the_coast,
+    _12_13_days_grand_tour_of_morocco,
+];
 
 /**
  * 

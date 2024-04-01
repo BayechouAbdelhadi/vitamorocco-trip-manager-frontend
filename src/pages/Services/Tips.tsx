@@ -11,6 +11,7 @@ import { AvailableLanguage } from '../../locales';
 
 
 import './Tips.scss';
+import { currentLanguage } from '../../common/utils';
 
 const TipsText = 'Tips & Advice';
 
@@ -18,8 +19,6 @@ export const Tips = (): JSX.Element => {
     const { data: tips, isLoading, isError } = useQuery(['tips'], () => getTips());
 
     const { t } = useTranslation()
-
-    const currentLanguage = (localStorage.getItem("language") ?? "en") as AvailableLanguage
 
     return (
         <Page description={TipsText} keywords={TipsText} title={t('tips_description')} imgSrc="/img/carousel/2.jpeg">

@@ -1,6 +1,6 @@
 import { TourMock } from '../../../common/types/tour';
 
-export const _3_days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains: TourMock = {
+export const _3_3_days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains: TourMock = {
     id: '3_days_trip_fes_to_marrakech_through_sahara_desert_and_atlas_mountains',
     title: {
         en: '3 days Trip Fes To Marrakech through Sahara Desert & Atlas Mountains',

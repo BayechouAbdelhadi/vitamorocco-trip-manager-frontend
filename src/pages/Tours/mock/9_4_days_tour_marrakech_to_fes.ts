@@ -1,6 +1,6 @@
 import { TourMock } from "../../../common/types/tour";
 
-export const _4_days_tour_marrakech_to_fes: TourMock = {
+export const _9_4_days_tour_marrakech_to_fes: TourMock = {
     id: '4_days_tour_marrakech_to_fes',
     title: {
         "en": "4 days Tour Marrakech to Fez",
