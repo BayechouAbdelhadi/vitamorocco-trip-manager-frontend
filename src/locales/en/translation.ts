@@ -35,7 +35,9 @@ export const TRANSLATION_EN = {
             description: 'Contact us now And start Tomorrow',
         },
     },
+    company: 'Company',
     consult_us: 'Consult Us',
+    contacts: 'contacts',
     contact: {
         title: 'Contact',
         message: 'Please fill out the form',
@@ -43,7 +45,7 @@ export const TRANSLATION_EN = {
         success_message: `Thank you for contacting us. Your message has been received. You can expect to receive a response
         within 24 hours at the email address you provided.`,
         to_reserv_trip_message: 'Contact us to transform your travel dreams into reality !',
-        to_reserv_activity_message: 'Contact us to transform your activity dreams into reality !',
+        to_reserve_activity_message: 'Contact us to transform your activity dreams into reality !',
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {
@@ -103,6 +105,7 @@ export const TRANSLATION_EN = {
     full_detailed_itinerary: 'Full detailed Itinerary',
     // G
     gallery: 'Gallery',
+    good_to_know: 'Good to know',
     // H
     highlights: 'Highlights',
     home: 'Home',
@@ -218,6 +221,7 @@ export const TRANSLATION_EN = {
                 'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences',
         },
     },
+    schedule: 'Schedule',
     special_request_description:
         'If you prefer to avoid organized trips in large groups and appreciate a more flexible approach, <b>Vita Morocco</b> simplifies your travel experience by allowing you to leave at your own pace, without constraints, and to personalize your itinerary according to your own tastes and interests.',
     subject: 'Subject',

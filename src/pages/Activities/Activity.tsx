@@ -117,7 +117,7 @@ export const Activity = (): JSX.Element => {
                     <PanedSection
                         title={
                             <Typography variant="h5" className="setcion-title left-title">
-                                {t('Good to know')}
+                                {t('good_to_know')}
                             </Typography>
                         }
                         leftPane={{
@@ -137,7 +137,7 @@ export const Activity = (): JSX.Element => {
                         }}
                     />
                     {/* <ExcludedServiceList /> */}
-                    <hr />
+                    <hr style={{ margin: '1rem 0' }} />
                     {/* <p>
                             Our excursions are fully customizable to cater to your unique interests and preferences.
                             Whether you&apos;re seeking adventure, culture, relaxation, or a blend of experiences,
@@ -145,7 +145,7 @@ export const Activity = (): JSX.Element => {
                             the perfect itinerary just for you.
                         </p> */}
                     <p style={{ marginBottom: 20 }}>
-                        <strong>{t('contact.to_reserv_activity_message')}</strong>
+                        <strong>{t('contact.to_reserve_activity_message')}</strong>
                     </p>
                     <ContactForm subject={`Activity ${activity?.title}`} />
                 </Container>

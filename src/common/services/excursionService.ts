@@ -1,25 +1,26 @@
 import { excursionsMock } from '../../pages/Excursions/excursionsMock';
-import { CommonExcursionProperties, Excursion } from '../types/excursion';
+import { Excursion } from '../types/excursion';
+import { currentLanguage } from '../utils';
 
 // export const getExcursions = () => vitaGet<Excursion[]>('excursions?summary=true');
-export const getExcursions = () => Promise.resolve(ExcursionsMapper());
+export const getExcursions = () => Promise.resolve(excursionsMapper());
 
 // export const getExcursion = (id: string) => vitaGet<Excursion>(`excursions/${id}`);
 export const getExcursion = (id: string) =>
-    Promise.resolve(ExcursionsMapper().find((excursion) => excursion.id === id));
+    Promise.resolve(excursionsMapper().find((excursion) => excursion.id === id));
 
 export default { getExcursions };
 
-const ExcursionsMapper = (): Array<Excursion> =>
+const excursionsMapper = (): Array<Excursion> =>
     excursionsMock.map((exMock) => {
-        const { title, description, highlights, pricing, frequency, ...common } = exMock;
+        const { title, description, highlights, pricing, frequency, ...strFields } = exMock;
         const excursion: Excursion = {
-            ...(common as CommonExcursionProperties),
-            title: title.en as string,
-            description: description.en as string,
-            highlights: highlights.map((h: any) => h.en as string),
-            pricing: pricing.map((p: any) => p.en as string),
-            frequency: frequency.en as string,
+            ...strFields,
+            title: title[currentLanguage],
+            description: description[currentLanguage],
+            highlights: highlights.map((h: any) => h[currentLanguage]),
+            pricing: pricing.map((p: any) => p[currentLanguage]),
+            frequency: frequency[currentLanguage],
         };
 
         return excursion;

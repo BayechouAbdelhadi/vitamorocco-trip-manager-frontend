@@ -1,4 +1,5 @@
 import { Translation } from './translation';
+
 export type Tour = {
     id: string;
     title: string;

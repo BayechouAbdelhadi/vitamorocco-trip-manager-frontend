@@ -1,3 +1,5 @@
+import { Translation } from './translation';
+
 export type Excursion = {
     id: string;
     title: string;
@@ -11,7 +13,6 @@ export type Excursion = {
     journeyTimeUnit: string;
     highlights: string[];
     pricing: string[];
-    journeyUnit: string;
     duration: number;
     durationUnit: string;
     frequency: string;
@@ -20,11 +21,27 @@ export type Excursion = {
     titleImg: string;
     descriptionImg: string;
     highlightImgs: string[];
-    // steps: Step[];
-    informationList: string[];
 };
 
-export type CommonExcursionProperties = Omit<Excursion, 'title' | 'description' | 'highlights' | 'pricing' | 'frequency'>;
-
-
-
+export type ExcursionMock = {
+    id: string;
+    title: Translation;
+    description: Translation;
+    destinationCity: string;
+    includedServices: string[];
+    departureCity: string;
+    departurePickupTime: string;
+    returnPickupTime: string;
+    journeyTime: number;
+    journeyTimeUnit: string;
+    highlights: Translation[];
+    pricing: Translation[];
+    duration: number;
+    durationUnit: string;
+    frequency: Translation;
+    mapLink: string;
+    summaryImg: string;
+    titleImg: string;
+    descriptionImg: string;
+    highlightImgs: string[];
+};

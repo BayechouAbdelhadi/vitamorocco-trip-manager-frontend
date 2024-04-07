@@ -26,7 +26,7 @@ const SimpleNavbarItem = ({ navBarItem }: NavBarItemProps) => {
     const { t } = useTranslation();
     if (!navBarItem.text) return null;
     return (
-        <Button size="large" color="inherit" component={Link} to={navBarItem.href ?? '#'}>
+        <Button size="large" color="inherit" component={Link} to={navBarItem.href ?? '#'} style={{ whiteSpace: 'nowrap' }}>
             {parse(
                 typeof navBarItem.text === 'string' ? t(navBarItem.text) : t(navBarItem.text.key, navBarItem.text.args)
             )}

@@ -35,6 +35,9 @@ export const TRANSLATION_FR = {
     },
     client_testimonials: 'Témoignages clients',
     category: 'Catégorie',
+    company: 'Entreprise',
+    consult_us: 'Consultez-nous',
+    contacts: 'Contacts',
     contact: {
         title: 'Contact',
         error_message: "Impossible d'envoyer votre message. Veuillez nous contacter sur WhatsApp.",
@@ -42,7 +45,7 @@ export const TRANSLATION_FR = {
             "Merci de nous avoir contactés. Votre message a bien été reçu. Vous pouvez vous attendre à recevoir une réponse dans les 24 heures à l'adresse e-mail que vous avez fournie.",
         message: 'Veuillez remplir le formulaire',
         to_reserv_trip_message: 'Contactez-nous pour transformer vos rêves de voyage en réalité !',
-        to_reserv_activity_message: "Contactez-nous pour transformer vos rêves d'activités en réalité !",
+        to_reserve_activity_message: "Contactez-nous pour transformer vos rêves d'activités en réalité !",
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {
@@ -100,6 +103,7 @@ export const TRANSLATION_FR = {
     full_detailed_itinerary: 'Itinéraire détaillé complet',
     // G
     gallery: 'Galerie',
+    good_to_know: 'Bon à savoir',
     // H
     highlights: 'Points forts',
     home: 'Accueil',
@@ -215,6 +219,7 @@ export const TRANSLATION_FR = {
                 "plongez-vous dans une diversité d'expériences enrichissantes à découvrir dans notre pays. Des escapades culturelles aux aventures en plein air, explorez les possibilités infinies qui vous attendent",
         },
     },
+    schedule: 'Programme',
     special_request_description:
         'Si vous préférez éviter les voyages organisés en grands groupes et appréciez une approche plus flexible, Vita Maroc simplifie votre expérience de voyage en vous permettant de partir à votre propre rythme, sans contraintes, et de personnaliser votre itinéraire selon vos goûts et intérêts.',
     subject: 'Objet',

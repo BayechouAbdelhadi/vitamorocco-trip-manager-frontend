@@ -19,7 +19,7 @@ export const Tips = (): JSX.Element => {
     const { t } = useTranslation();
     return (
         <Page
-            description={TipsText}
+            description={t('tips_description')}
             keywords={TipsText}
             title={t('tips')}
             imgSrc="/img/carousel/2.jpeg"

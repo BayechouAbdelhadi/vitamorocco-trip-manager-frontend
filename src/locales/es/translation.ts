@@ -35,6 +35,9 @@ export const TRANSLATION_ES = {
             description: 'Contáctanos ahora y comienza mañana',
         },
     },
+    company: 'Empresa',
+    consult_us: 'Consulte con nosotros',
+    contacts: 'Contactos',
     contact: {
         title: 'Contacto',
         error_message: 'No se pudo enviar su mensaje. Por favor, contáctenos en WhatsApp.',
@@ -42,7 +45,7 @@ export const TRANSLATION_ES = {
             'Gracias por contactarnos. Hemos recibido su mensaje. Espere recibir una respuesta dentro de las 24 horas en la dirección de correo electrónico proporcionada.',
         message: 'Por favor, completa el formulario para contactarnos',
         to_reserv_trip_message: '¡Contáctenos para convertir sus sueños de viaje en realidad!',
-        to_reserv_activity_message: '¡Contáctenos para convertir sus sueños de actividades en realidad!',
+        to_reserve_activity_message: '¡Contáctenos para convertir sus sueños de actividades en realidad!',
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {
@@ -100,6 +103,7 @@ export const TRANSLATION_ES = {
     full_detailed_itinerary: 'Itinerario completo detallado',
     // G
     gallery: 'Galería',
+    good_to_know: 'Es bueno saberlo',
     // H
     highlights: 'Aspectos destacados',
     home: 'Inicio',
@@ -215,6 +219,7 @@ export const TRANSLATION_ES = {
                 'Descubre una cautivadora variedad de itinerarios cuidadosamente diseñados para ofrecerte experiencias de viaje inolvidables',
         },
     },
+    schedule: 'Cronograma',
     special_request_description:
         'Si prefieres evitar los viajes organizados en grupos grandes y aprecias un enfoque más flexible, Vita Marruecos simplifica tu experiencia de viaje permitiéndote ir a tu propio ritmo, sin restricciones y personalizar tu itinerario según tus gustos e intereses.',
     subject: 'Asunto',

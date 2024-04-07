@@ -88,7 +88,7 @@ export const Tour = (): JSX.Element => {
                     />
                     <ExcludedServiceList />
                     <TourInformation informationList={tour.informationList ?? []} />
-                    <hr />
+                    <hr style={{ margin: '1rem 0' }} />
                     <p>{t('flexible_trip_message')}</p>
                     <p style={{ marginBottom: 20 }}>
                         <strong>{t('contact.to_reserv_trip_message')}</strong>

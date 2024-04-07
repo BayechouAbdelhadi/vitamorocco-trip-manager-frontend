@@ -21,13 +21,13 @@ export const _7_5_days_getaway_tangerto_chefchaouen_fes_and_asilah: TourMock = {
             Asilah's pristine Medina by the sea.<br/><br/>
             VITA MOROCCO's expertly designed itinerary not only
             promises a travel experience but also an immersive journey through the rich mosaic of
-            Moroccan culture, history, and awe - inspiring natural vistas.< br /> <br/>
+            Moroccan culture, history, and awe - inspiring natural vistas.<br/><br/>
             This bespoke tour is more than a mere vacation; it's an exploration into the soul of Morocco,
-            where each moment unfolds as a narrative waiting to be unveiled.< br /> <br/>
+            where each moment unfolds as a narrative waiting to be unveiled.<br/><br/>
             Departing from Tangier, a
             city celebrated for its excellent connectivity via international airport and maritime ports, the
             tour offers ease of access from various global locations, including the Spanish cities of Tarifa
-            and Algeciras, as well as other international harbours.< br /> <br/>
+            and Algeciras, as well as other international harbours.<br/><br/>
             VITA MOROCCO invites you on this unparalleled adventure, guaranteeing a departure that
             not only marks the end of your journey but also the beginning of a lifelong connection with
             Morocco.`,
@@ -39,7 +39,7 @@ export const _7_5_days_getaway_tangerto_chefchaouen_fes_and_asilah: TourMock = {
              La médina immaculée d'Asilah au bord de la mer.<br/><br/>
              L'itinéraire savamment conçu de VITA MOROCCO non seulement
              promet une expérience de voyage mais aussi un voyage immersif à travers la riche mosaïque de
-             Culture marocaine, histoire et panoramas naturels impressionnants.< br /> <br/>
+             Culture marocaine, histoire et panoramas naturels impressionnants.<br/><br/>
              Cette visite sur mesure est plus que de simples vacances; c'est une exploration de l'âme du Maroc,
             où chaque instant se déroule comme un récit attendant d'être dévoilé.<br/><br/>
              Au départ de Tanger, un
@@ -54,16 +54,16 @@ export const _7_5_days_getaway_tangerto_chefchaouen_fes_and_asilah: TourMock = {
              las montañas del Rif, hasta las ruinas históricas de Volúbilis, que ofrecen un salto en el tiempo único.
              Descubra la esencia espiritual de Fez, famosa por su vibrante medina y su artesanía atemporal.
             herencia.Experimente la grandeza real de Rabat y encuentre consuelo en la tranquila belleza de
-             La prístina Medina de Asilah junto al mar.< br /> <br/>
+             La prístina Medina de Asilah junto al mar.<br/><br/>
              El itinerario diseñado por expertos de VITA MOROCCO no sólo
              promete una experiencia de viaje pero también un viaje de inmersión a través del rico mosaico de
-        Cultura, historia y paisajes naturales impresionantes de Marruecos.< br /> <br/>
+        Cultura, historia y paisajes naturales impresionantes de Marruecos.<br/><br/>
              Este recorrido personalizado es más que unas simples vacaciones; es una exploración del alma de Marruecos,
-            donde cada momento se desarrolla como una narrativa esperando ser desvelada.< br /> <br/>
+            donde cada momento se desarrolla como una narrativa esperando ser desvelada.<br/><br/>
              Partiendo de Tánger, un
              ciudad celebrada por su excelente conectividad a través de aeropuertos internacionales y puertos marítimos, la
              El recorrido ofrece fácil acceso desde varios lugares del mundo, incluidas las ciudades españolas de Tarifa.
-             y Algeciras, así como otros puertos internacionales.< br /> <br/>
+             y Algeciras, así como otros puertos internacionales.<br/><br/>
              VITA MOROCCO le invita a esta aventura incomparable, garantizándole una salida que
              no sólo marca el final de tu viaje sino también el comienzo de una conexión para toda la vida con
         Marruecos.`,
@@ -72,16 +72,16 @@ export const _7_5_days_getaway_tangerto_chefchaouen_fes_and_asilah: TourMock = {
              das Montanhas Rif, até às ruínas históricas de Volúbilis, oferecendo um salto único no tempo.
              Descubra a essência espiritual de Fez, conhecida pela sua medina vibrante e artesanato atemporal
         herança.Experimente a grandeza real de Rabat e encontre consolo na beleza tranquila de
-             A imaculada Medina de Asilah à beira - mar.< br /> <br/>
+             A imaculada Medina de Asilah à beira - mar.<br/><br/>
              O itinerário habilmente elaborado da VITA MOROCCO não só
              promete uma experiência de viagem, mas também uma viagem envolvente através do rico mosaico de
-             Cultura marroquina, história e paisagens naturais inspiradoras.< br /> <br/>
+             Cultura marroquina, história e paisagens naturais inspiradoras.<br/><br/>
              Este passeio personalizado é mais do que simples férias; é uma exploração da alma de Marrocos,
-            onde cada momento se desenrola como uma narrativa à espera de ser desvendada.< br /> <br/>
+            onde cada momento se desenrola como uma narrativa à espera de ser desvendada.<br/><br/>
              Partindo de Tânger, um
              cidade famosa por sua excelente conectividade via aeroporto internacional e portos marítimos, o
              tour oferece facilidade de acesso a partir de vários locais do mundo, incluindo as cidades espanholas de Tarifa
-             e Algeciras, bem como outros portos internacionais.< br /> <br/>
+             e Algeciras, bem como outros portos internacionais.<br/><br/>
              VITA MOROCCO convida você para esta aventura inigualável, garantindo uma saída que
              marca não apenas o fim da sua jornada, mas também o início de uma conexão para toda a vida com
         Marrocos.`,
@@ -90,16 +90,16 @@ export const _7_5_days_getaway_tangerto_chefchaouen_fes_and_asilah: TourMock = {
              جبال الريف، إلى آثار فولوبيليس التاريخية، مما يوفر قفزة فريدة عبر الزمن.
              اكتشف الجوهر الروحي لمدينة فاس، المشهورة بمدينتها النابضة بالحياة والحرفية الخالدة
         إرث.استمتع بعظمة الرباط الملكية واكتشف العزاء في جمالها الهادئ
-             مدينة أصيلة البكر بجوار البحر.< br /> <br/>
+             مدينة أصيلة البكر بجوار البحر.<br/><br/>
              خط سير VITA MOROCCO المصمم بخبرة ليس فقط
              يعد بتجربة سفر ولكن أيضًا برحلة غامرة عبر فسيفساء غنية
-             الثقافة والتاريخ المغربي والمناظر الطبيعية المذهلة.< br /> <br/>
+             الثقافة والتاريخ المغربي والمناظر الطبيعية المذهلة.<br/><br/>
              هذه الجولة المفصلة هي أكثر من مجرد إجازة؛ إنه استكشاف لروح المغرب،
-             حيث تتكشف كل لحظة كقصة تنتظر الكشف عنها.< br /> <br/>
+             حيث تتكشف كل لحظة كقصة تنتظر الكشف عنها.<br/><br/>
              المغادرين من طنجة، أ
              احتفلت المدينة باتصالها الممتاز عبر المطار الدولي والموانئ البحرية
              توفر الجولة سهولة الوصول من مواقع عالمية مختلفة، بما في ذلك مدن طريفة الإسبانية
-             والجزيرة الخضراء، بالإضافة إلى الموانئ الدولية الأخرى.< br /> <br/>
+             والجزيرة الخضراء، بالإضافة إلى الموانئ الدولية الأخرى.<br/><br/>
              VITA MOROCCO تدعوك إلى هذه المغامرة التي لا مثيل لها، مما يضمن لك المغادرة
              لا يمثل نهاية رحلتك فحسب، بل يمثل أيضًا بداية اتصال مدى الحياة معك
         المغرب.`,

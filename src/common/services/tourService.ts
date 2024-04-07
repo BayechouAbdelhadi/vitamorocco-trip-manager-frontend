@@ -24,21 +24,22 @@ const toursMapper = (): Array<Tour> =>
             includedServices,
             informationList,
             steps,
-            ...strFileds
+            ...strFields
         } = tourMock;
+
         const tour: Tour = {
             title: title[currentLanguage],
-            description: description[currentLanguage] as string,
-            highlights: highlights.map((h: any) => h[currentLanguage] as string),
-            includedServices: highlights.map((is: any) => is[currentLanguage] as string),
-            pricing: pricing.map((p: any) => p[currentLanguage] as string),
-            frequency: frequency[currentLanguage] as string,
+            description: description[currentLanguage],
+            highlights: highlights.map((h: any) => h[currentLanguage]),
+            includedServices: highlights.map((is: any) => is[currentLanguage]),
+            pricing: pricing.map((p: any) => p[currentLanguage]),
+            frequency: frequency[currentLanguage],
             steps: steps.map((s: any) => ({
                 title: s.title[currentLanguage],
                 description: s.description[currentLanguage],
             })),
-            informationList: informationList.map((i: any) => i[currentLanguage] as string),
-            ...strFileds,
+            informationList: informationList.map((i: any) => i[currentLanguage]),
+            ...strFields,
         };
 
         return tour;

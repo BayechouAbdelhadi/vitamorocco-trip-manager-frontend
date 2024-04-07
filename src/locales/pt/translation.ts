@@ -35,6 +35,9 @@ export const TRANSLATION_PT = {
             description: 'Entre em contato agora e comece amanhã',
         },
     },
+    company: 'Empresa',
+    consult_us: 'Consulte-nos',
+    contacts: 'Contatos',
     contact: {
         title: 'Contato',
         error_message: 'Não foi possível enviar sua mensagem. Por favor, entre em contato conosco no WhatsApp.',
@@ -42,7 +45,7 @@ export const TRANSLATION_PT = {
             'Obrigado por entrar em contato. Sua mensagem foi recebida. Você pode esperar receber uma resposta dentro de 24 horas no endereço de e-mail fornecido.',
         message: 'Por favor, preencha o formulário para entrar em contato conosco',
         to_reserv_trip_message: 'Entre em contato conosco para transformar seus sonhos de viagem em realidade!',
-        to_reserv_activity_message: 'Entre em contato conosco para transformar seus sonhos de atividades em realidade!',
+        to_reserve_activity_message: 'Entre em contato conosco para transformar seus sonhos de atividades em realidade!',
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {
@@ -100,6 +103,7 @@ export const TRANSLATION_PT = {
     full_detailed_itinerary: 'Itinerário completo detalhado',
     // G
     gallery: 'Galeria',
+    good_to_know: 'É bom saber',
     // H
     highlights: 'Destaques',
     home: 'Início',
@@ -215,6 +219,7 @@ export const TRANSLATION_PT = {
                 'Descubra uma variedade cativante de itinerários cuidadosamente elaborados para oferecer experiências de viagem inesquecíveis',
         },
     },
+    schedule: 'Agendar',
     special_request_description:
         'Se preferir evitar viagens organizadas em grandes grupos e apreciar uma abordagem mais flexível, a Vita Marrocos simplifica sua experiência de viagem, permitindo que você vá no seu próprio ritmo, sem restrições, e personalize seu itinerário de acordo com seus gostos e interesses.',
     subject: 'Assunto',

@@ -28,7 +28,7 @@ const POLICIES = [
         href: '/about',
     },
     {
-        text: 'Terms and Conditions',
+        text: 'terms_and_conditions',
         href: 'services/terms_and_conditions',
     },
     {
@@ -39,11 +39,11 @@ const POLICIES = [
 
 export const FOOTER_LINKS: NavItem[] = [
     {
-        text: 'Contacts',
+        text: 'contacts',
         dropdown: CONTACT_BOXES,
     },
     {
-        text: 'Company',
+        text: 'company',
         dropdown: POLICIES,
     },
 ];
