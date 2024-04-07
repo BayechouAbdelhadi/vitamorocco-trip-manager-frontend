@@ -14,7 +14,6 @@ import TourInformation from './TourInformation';
 import { TourPricing } from './TourPricing';
 import { TourSteps } from './TourSteps';
 
-import { currentLanguage } from '../../common/utils';
 import { ContactForm } from '../Contact/Contact';
 import '../Excursions//Excursion.scss';
 import './Tour.scss';
@@ -90,14 +89,9 @@ export const Tour = (): JSX.Element => {
                     <ExcludedServiceList />
                     <TourInformation informationList={tour.informationList ?? []} />
                     <hr />
-                    <p>
-                        Our tours are fully customizable to cater to your unique interests and preferences. Whether
-                        you&apos;re seeking adventure, culture, relaxation, or a blend of experiences, we&apos;ve got
-                        you covered. Simply reach out to us with your ideas, and we&apos;ll tailor the perfect itinerary
-                        just for you.
-                    </p>
+                    <p>{t('flexible_trip_message')}</p>
                     <p style={{ marginBottom: 20 }}>
-                        <strong>Contact us to transform your travel dreams into reality!</strong>
+                        <strong>{t('contact.to_reserv_trip_message')}</strong>
                     </p>
                     <ContactForm subject={`Tour ${tour?.title}`} />
                 </Container>

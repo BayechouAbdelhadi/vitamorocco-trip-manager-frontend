@@ -6,16 +6,19 @@ export const TRANSLATION_FR = {
     // A
     about: 'À propos',
     about_vita_morocco: 'À propos de Vita Maroc',
+    accomodation_type: "Type d'hébergement",
     accept_all: 'Accepter tout',
     activities: {
         title: 'Activités',
         description:
             "Immergez-vous dans une diversité d'expériences enrichissantes à découvrir dans notre pays. Des échappées culturelles aux aventures en plein air, explorez les possibilités infinies qui vous attendent",
     },
+    all_rights_reserved: 'Tous droits réservés',
     available: 'Disponible',
     ...ALERT_TRANSLATION,
     // B
     // C
+    cancelation: 'Annulation',
     carousel: {
         0: {
             title: 'Donner vie à vos rêves en des réalités éblouissantes',
@@ -31,18 +34,26 @@ export const TRANSLATION_FR = {
         },
     },
     client_testimonials: 'Témoignages clients',
+    category: 'Catégorie',
     contact: {
         title: 'Contact',
+        error_message: "Impossible d'envoyer votre message. Veuillez nous contacter sur WhatsApp.",
+        success_message:
+            "Merci de nous avoir contactés. Votre message a bien été reçu. Vous pouvez vous attendre à recevoir une réponse dans les 24 heures à l'adresse e-mail que vous avez fournie.",
         message: 'Veuillez remplir le formulaire',
+        to_reserv_trip_message: 'Contactez-nous pour transformer vos rêves de voyage en réalité !',
+        to_reserv_activity_message: "Contactez-nous pour transformer vos rêves d'activités en réalité !",
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {
         title: 'Politique de cookies',
         text: 'Nous utilisons des cookies pour personnaliser le contenu, fournir des fonctionnalités de médias sociaux et analyser notre trafic. Ce site Web utilise des cookies pour vous garantir la meilleure expérience sur notre site.',
     },
+    country: 'Pays',
     customer_testimonials: 'Témoignages clients',
     // D
     date: 'Date',
+    departure_date: 'Date de départ',
     description: 'Description',
     destination: 'Destination',
     destination_details: 'Détails de la destination',
@@ -55,6 +66,7 @@ export const TRANSLATION_FR = {
     duration: 'Durée',
     // E
     email: 'Email',
+    ending_location: 'Lieu de fin',
     ERROR_TRANSLATION,
     essential_tips_and_advice_for_traveling_to_morocco: 'Trucs et conseils essentiels pour voyager au Maroc',
     excluded_services: {
@@ -78,7 +90,10 @@ export const TRANSLATION_FR = {
     explore_morocco_with_us: 'Explorez le Maroc avec nous',
     // F
     faqs: 'FAQ',
-    firstName: 'Prénom',
+    flexible_trip_message: `Nos voyages sont entièrement personnalisables pour répondre à vos intérêts et préférences uniques.
+    Que vous recherchiez l'aventure, la culture, la détente ou une combinaison d'expériences, nous avons ce qu'il vous faut.
+    Il vous suffit de nous contacter avec vos idées, et nous créerons l'itinéraire parfait pour vous.`,
+    first_name: 'Prénom',
     free: 'Gratuit',
     from: 'Depuis',
     from_origin: 'Depuis {{o}}',
@@ -88,6 +103,14 @@ export const TRANSLATION_FR = {
     // H
     highlights: 'Points forts',
     home: 'Accueil',
+    housing_regimes: {
+        BED_AND_BREAK_FAST: 'Chambre et petit déjeuner',
+        HALF_PENSION: 'Demi-pension',
+        FULL_BOARD: 'Pension complète',
+        ALL_INCLUSIVE: 'Tout inclus',
+    },
+    housing_types: { RIAD: 'Riad', HOTEL: 'Hôtel', RURAL_HOUSE: 'Maison Rurale', OTHER: 'Autre' },
+
     // I
     if_you_have_more_questions:
         "Notre FAQ a-t-elle répondu efficacement à vos demandes? Si vous avez d'autres questions, nous sommes là pour vous aider davantage.",
@@ -96,25 +119,32 @@ export const TRANSLATION_FR = {
             name: 'Guide local',
             description: 'Disponible',
         },
+        expenses: {
+            name: 'Frais',
+            description: 'Carburant, péages et tous les frais associés.',
+        },
+        driver_guide: {
+            name: 'Guide chauffeur',
+            description: 'Guide-chauffeur parlant espagnol, anglais ou français.',
+        },
         pickup_at: {
             name: 'Prise en charge à',
             description: "Prise en charge à l'hôtel, au riad, à l'aéroport ou où vous le souhaitez.",
         },
         private_tour: {
-            name: 'Tour privé',
-            description:
-                "Il n'y aura plus de personnes dans le groupe. Vous pouvez vous arrêter quand vous le souhaitez.",
+            name: 'Visite privée',
+            description: "Il n'y aura plus de personnes dans le groupe. Vous pouvez vous arrêter quand vous voulez.",
         },
         transport: {
             name: 'Transport',
-            description: 'Transport en 4x4, Minivan ou minibus, en fonction du nombre de voyageurs.',
+            description: 'Transport en 4x4, Minivan ou minibus, selon le nombre de voyageurs.',
         },
     },
     // J
     journey_time: 'Durée du voyage',
     // K
     // L
-    lastName: 'Nom de famille',
+    last_name: 'Nom de famille',
     learn_more: 'En savoir plus',
     local_time: 'Heure locale',
     // M
@@ -125,21 +155,32 @@ export const TRANSLATION_FR = {
             "Explorez les moments mémorables capturés tout au long de nos voyages. Les témoignages visuels et narratifs vous invitent à revivre l'essence de chaque destination, créant une galerie unique d'expériences partagées. Découvrez les trésors visuels qui donnent vie à nos aventures et capturent l'essence de chaque voyage.",
     },
     // N
+    number_of_kids: 'Enfants',
+    number_of_adults: 'Adultes',
     // O
     our_activities_selection: 'Nos activités Sélection',
     our_services: 'Nos services',
-    our_exclusive_routes_and_itineraries: 'Nos Itinéraires et Circuits Exclusifs',
+    our_exclusive_routes_and_itineraries: 'Nos Itinéraires et tours Exclusifs',
     our_excursions_selection: "Notre sélection d'excursions",
     // P
     pick_up_and_drop_off_from_hotel: 'Heure de départ',
+    phone_number: 'Téléphone',
+    pick_up_and_drop_off: 'Prise en charge et dépose',
+    airport_hotel: 'Aéroport / Hôtel',
     pick_up_time_departure: 'Heure de départ',
+    popular_activities: 'Activités Populaires',
+    popular_excursions: 'Excursions Populaires',
+    popular_tours: 'Tours Populaires',
     pricing: 'Tarification',
+    price: 'Tarif',
     pricing_message:
         'Le prix dépend du nombre de participants. Ci-dessous, nous indiquons les prix en fonction des participants. Prenez votre décision et contactez-nous',
     pricing_warning: "Prix valables toute l'année, sauf à Noël et à Pâques (vérifiez les prix et la disponibilité).",
     // Q
     // R
+    regime: 'Forfait repas',
     return_time: 'Heure de retour',
+    return_date: 'Date de retour',
     reviews: {
         0: {
             text: "Vita Maroc a offert un voyage exceptionnel de 10 jours, explorant Marrakech, Fès, le désert et Chefchaouen. L'itinéraire diversifié a mis en valeur la richesse culturelle du Maroc. Mohamed, notre guide-chauffeur, était exceptionnel, contribuant à l'expérience mémorable globale. Hautement recommandé.",
@@ -156,6 +197,7 @@ export const TRANSLATION_FR = {
     },
     // S
     see_more: 'Voir plus',
+    starting_location: ' Lieu de départ',
     services: {
         excursions: {
             title: 'Excursions',
@@ -163,7 +205,7 @@ export const TRANSLATION_FR = {
                 "Explorez une variété d'options dans la section des excursions, et gardez à l'esprit que nous pouvons les personnaliser selon vos préférences.",
         },
         tours: {
-            title: 'Circuits',
+            title: 'Tours',
             description:
                 "Découvrez une gamme captivante d'itinéraires soigneusement conçus pour vous offrir des expériences de voyage inoubliables",
         },
@@ -175,6 +217,7 @@ export const TRANSLATION_FR = {
     },
     special_request_description:
         'Si vous préférez éviter les voyages organisés en grands groupes et appréciez une approche plus flexible, Vita Maroc simplifie votre expérience de voyage en vous permettant de partir à votre propre rythme, sans contraintes, et de personnaliser votre itinéraire selon vos goûts et intérêts.',
+    subject: 'Objet',
     submit: 'Soumettre',
     // T
     terms_and_conditions: 'Termes et conditions',
@@ -188,9 +231,9 @@ export const TRANSLATION_FR = {
                      la beauté, la culture et l'aventure que le pays a à offrir. Le guide <strong>VITA MOROCCO</strong> a pour objectif de garantir aux visiteurs
                      une expérience mémorable et fluide depuis le moment où ils commencent à planifier leur voyage jusqu'à leur retour
                      voyage de retour.`,
-    tours: 'Circuits',
+    tours: 'Tours',
     tours_and_itineraries: 'Visites et itinéraires',
-    tour: 'Circuit',
+    tour: 'Tour',
     tours_description: `<p>
                          <strong>VITA MOROCCO</strong> propose une expérience de voyage unique, personnalisée, sur mesure
                          spécifiquement à vos préférences et envies de découverte du Maroc. Notre approche garantit que

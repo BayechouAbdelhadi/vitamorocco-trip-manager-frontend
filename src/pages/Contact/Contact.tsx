@@ -218,13 +218,13 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
             </div>
             <div className="groupped-fields">
                 <DateTimePicker
-                    label="Departure Date"
+                    label={t('departure_date')}
                     value={dayjs(contactData.departureDate)}
                     onChange={handleDepartureDateChange}
                     className="form-field"
                 />
                 <DateTimePicker
-                    label="Return Date"
+                    label={t('return_date')}
                     value={dayjs(contactData.returnDate)}
                     onChange={handleReturnDateChange}
                     className="form-field"
@@ -232,7 +232,7 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
             </div>
             <div className="groupped-fields">
                 <SelectBox
-                    options={HOUSING_TYPES.map((t) => ({ label: t, value: t }))}
+                    options={HOUSING_TYPES.map((ht) => ({ label: t(`housing_types.${ht}`), value: ht }))}
                     value={contactData.housingType ?? ''}
                     onChange={(value: string) => {
                         setContactData({ ...contactData, housingType: value as HousingType });
@@ -259,7 +259,7 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
                     parentClassName="form-field"
                 />
                 <SelectBox
-                    options={HOUSING_REGIME.map((t) => ({ label: t, value: t }))}
+                    options={HOUSING_REGIME.map((hg) => ({ label: t(`housing_regimes.${hg}`), value: hg }))}
                     value={contactData.housingRegime ?? ''}
                     onChange={(value: string) => {
                         setContactData({ ...contactData, housingRegime: value as HousingRegime });
@@ -283,13 +283,12 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
             />{' '}
             {isSuccess && (
                 <Alert severity="success" variant="outlined" style={{ marginBottom: 5 }}>
-                    Thank you for contacting us. Your message has been received. You can expect to receive a response
-                    within 24 hours at the email address you provided.{' '}
+                    {t('contact.success_message')}{' '}
                 </Alert>
             )}
             {isError && (
                 <Alert severity="error" variant="outlined" style={{ marginBottom: 5 }}>
-                    Could not send your message please contact us on whatsapp{' '}
+                    {t('contact.error_message')}{' '}
                     <u>
                         <a href="https://wa.me/message/RECE76NM33GCB1" target="__blank">
                             (+212) 662310037

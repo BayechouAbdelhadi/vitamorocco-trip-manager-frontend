@@ -4,27 +4,27 @@ const CONTACT_BOXES = [
     {
         text: '(+212) 662310037',
         href: 'tel:212662310037',
-        is_blank_target: true
+        is_blank_target: true,
     },
     {
         text: 'contact@vitamorocco.com',
         href: 'mailto:contact@vitamorocco.com',
-        is_blank_target: true
+        is_blank_target: true,
     },
     {
         text: 'vitamarruecos@gmail.com',
         href: 'mailto:vitamarruecos@gmail.com',
-        is_blank_target: true
+        is_blank_target: true,
     },
     {
-        text: 'Contact Us',
+        text: 'contact.title',
         href: '/contact',
     },
 ];
 
 const POLICIES = [
     {
-        text: 'About Us',
+        text: 'about',
         href: '/about',
     },
     {

@@ -6,17 +6,21 @@ export const TRANSLATION_ES = {
     // A
     about: 'Acerca de',
     about_vita_morocco: 'Acerca de Vita Marruecos',
+    accomodation_type: 'Tipo de alojamiento',
     accept_all: 'Aceptar todo',
     activities: {
         title: 'Actividades',
         description:
             'Sumérgete en una diversidad de experiencias enriquecedoras para descubrir en nuestro país. Desde escapes culturales hasta aventuras al aire libre, explora las infinitas posibilidades que te esperan',
     },
+    all_rights_reserved: 'Reservados todos los derechos',
     available: 'Disponible',
     ...ALERT_TRANSLATION,
     // B
-    client_testimonials: 'Testimonios de clientes',
     // C
+    cancelation: 'Cancelamento',
+    category: 'Categoría',
+    client_testimonials: 'Testimonios de clientes',
     carousel: {
         0: {
             title: 'Convirtiendo Sueños en Realidades Asombrosas',
@@ -33,16 +37,23 @@ export const TRANSLATION_ES = {
     },
     contact: {
         title: 'Contacto',
+        error_message: 'No se pudo enviar su mensaje. Por favor, contáctenos en WhatsApp.',
+        success_message:
+            'Gracias por contactarnos. Hemos recibido su mensaje. Espere recibir una respuesta dentro de las 24 horas en la dirección de correo electrónico proporcionada.',
         message: 'Por favor, completa el formulario para contactarnos',
+        to_reserv_trip_message: '¡Contáctenos para convertir sus sueños de viaje en realidad!',
+        to_reserv_activity_message: '¡Contáctenos para convertir sus sueños de actividades en realidad!',
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {
         title: 'Política de cookies',
         text: 'Utilizamos cookies para personalizar el contenido, proporcionar funciones de redes sociales y analizar nuestro tráfico. Este sitio web utiliza cookies para garantizar que obtengas la mejor experiencia en nuestro sitio.',
     },
+    country: 'País',
     customer_testimonials: 'Testimonios de clientes',
     // D
     date: 'Fecha',
+    departure_date: 'Fecha de salida',
     description: 'Descripción',
     destination: 'Destino',
     destination_details: 'Detalles del destino',
@@ -55,6 +66,7 @@ export const TRANSLATION_ES = {
     duration: 'Duración',
     // E
     email: 'Correo electrónico',
+    ending_location: 'Ubicación final',
     ERROR_TRANSLATION, // Suponiendo que ERROR_TRANSLATION es un objeto con su propio orden alfabético
     essential_tips_and_advice_for_traveling_to_morocco: 'Consejos y tips esenciales para viajar a Marruecos',
     excluded_services: {
@@ -78,7 +90,10 @@ export const TRANSLATION_ES = {
     explore_morocco_with_us: 'Explora Marruecos con nosotros',
     // F
     faqs: 'Preguntas frecuentes',
-    firstName: 'nombre de pila',
+    flexible_trip_message: `Nuestros viajes son completamente personalizables para satisfacer sus intereses y preferencias únicas.
+                                    Ya sea que busque aventura, cultura, relajación o una combinación de experiencias, nosotros nos encargamos.
+                                    Simplemente contáctenos con sus ideas y adaptaremos el itinerario perfecto para usted.`,
+    first_name: 'Nombre de pila',
     free: 'Gratis',
     from: 'Desde',
     from_origin: 'Desde {{o}}',
@@ -88,6 +103,13 @@ export const TRANSLATION_ES = {
     // H
     highlights: 'Aspectos destacados',
     home: 'Inicio',
+    housing_regimes: {
+        BED_AND_BREAK_FAST: 'Cama y desayuno',
+        HALF_PENSION: 'Media pensión',
+        FULL_BOARD: 'Pensión completa',
+        ALL_INCLUSIVE: 'Todo incluido',
+    },
+    housing_types: { RIAD: 'Riad', HOTEL: 'Hotel', RURAL_HOUSE: 'Casa Rural', OTHER: 'Otro' },
     // I
     if_you_have_more_questions:
         '¿Nuestras preguntas frecuentes abordaron sus consultas de manera efectiva? Si tiene más preguntas, estamos aquí para ayudarle más.',
@@ -96,24 +118,32 @@ export const TRANSLATION_ES = {
             name: 'Guía local',
             description: 'Disponible',
         },
+        expenses: {
+            name: 'Gastos',
+            description: 'Combustible, peajes y todos los gastos asociados.',
+        },
+        driver_guide: {
+            name: 'Guía conductor',
+            description: 'Guía-conductor que habla español, inglés o francés.',
+        },
         pickup_at: {
             name: 'Recogida en',
-            description: 'Recogida en el hotel, riad, aeropuerto o donde quieras.',
+            description: 'Recogida en el hotel, riad, aeropuerto o donde prefiera.',
         },
         private_tour: {
             name: 'Tour privado',
-            description: 'No habrá más personas en el grupo. Puedes detenerte cuando quieras.',
+            description: 'No habrá más personas en el grupo. Puedes parar cuando quieras.',
         },
         transport: {
             name: 'Transporte',
-            description: 'Transporte en 4×4, Minivan o minibús, según el número de viajeros.',
+            description: 'Transporte en 4x4, Minivan o minibús, dependiendo del número de viajeros.',
         },
     },
     // J
     journey_time: 'Tiempo de viaje',
     // K
     // L
-    lastName: 'Apellido',
+    last_name: 'Apellido',
     learn_more: 'Saber más',
     local_time: 'Hora local',
     // M
@@ -124,6 +154,8 @@ export const TRANSLATION_ES = {
     },
     message: 'Mensaje',
     // N
+    number_of_kids: 'Niños',
+    number_of_adults: 'Adultos',
     // O
     our_activities_selection: 'Nuestras actividades Selección',
     our_services: 'Nuestros servicios',
@@ -131,15 +163,24 @@ export const TRANSLATION_ES = {
     our_excursions_selection: 'Nuestra selección de excursiones',
     // P
     pick_up_and_drop_off_from_hotel: 'Hora de salida',
+    phone_number: 'Teléfono',
+    pick_up_and_drop_off: 'Recogida y entrega',
+    airport_hotel: 'Aeropuerto / Hotel',
     pick_up_time_departure: 'Hora de salida',
+    popular_activities: 'Actividades Populares',
+    popular_excursions: 'Excursiones Populares',
+    popular_tours: 'Tours Populares',
     pricing: 'Tarificación',
+    price: 'Precio',
     pricing_message:
         'El precio depende del número de participantes. A continuación, indicamos los precios según los participantes. Decídase y contáctenos',
     pricing_warning:
         'Precios válidos en cualquier época del año, excepto Navidad y Semana Santa (verifica precios y disponibilidad).',
     // Q
     // R
+    regime: 'Paquete de comidas',
     return_time: 'Hora de regreso',
+    return_date: 'Fecha de regreso',
     reviews: {
         0: {
             text: 'Vita Marruecos ofreció un viaje excepcional de 10 días, explorando Marrakech, Fes, el desierto y Chefchaouen. El diverso itinerario destacó la riqueza cultural de Marruecos. Mohamed, nuestro guía-chofer, fue excepcional, contribuyendo a la experiencia memorable en general. Muy recomendado.',
@@ -156,6 +197,7 @@ export const TRANSLATION_ES = {
     },
     // S
     see_more: 'Ver más',
+    starting_location: 'Lugar de inicio',
     services: {
         activities: {
             title: 'Actividades',
@@ -175,6 +217,7 @@ export const TRANSLATION_ES = {
     },
     special_request_description:
         'Si prefieres evitar los viajes organizados en grupos grandes y aprecias un enfoque más flexible, Vita Marruecos simplifica tu experiencia de viaje permitiéndote ir a tu propio ritmo, sin restricciones y personalizar tu itinerario según tus gustos e intereses.',
+    subject: 'Asunto',
     submit: 'Enviar',
     // T
     terms_and_conditions: 'Términos y condiciones',

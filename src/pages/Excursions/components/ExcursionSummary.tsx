@@ -78,7 +78,7 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
                     </li>
                     <li className="li-summary">
                         <AttachMoneyIcon color="primary" />
-                        <strong>{t('price')} :</strong>&nbsp;{t('consult_us')}
+                        <strong>{t('price')} :</strong>&nbsp;{t('contact.title')}
                     </li>
                     <li className="li-summary">
                         <DoDisturbIcon color="primary" />

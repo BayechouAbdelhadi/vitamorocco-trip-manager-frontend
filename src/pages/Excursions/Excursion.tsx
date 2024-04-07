@@ -8,9 +8,9 @@ import { getExcursion } from '../../common/services/excursionService';
 import { ContactForm } from '../Contact/Contact';
 import './Excursion.scss';
 import { ExcursionDetails } from './components/ExcursionDetails';
-import { Pricing } from './components/Pricing';
 import { PanedDescription } from './components/PanedDescription';
 import { PanedHighlights } from './components/PanedHighlights';
+import { Pricing } from './components/Pricing';
 import { ExcludedServiceList } from './components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from './components/excursion-services/IncludedServices';
 
@@ -72,14 +72,9 @@ export const Excursion = (): JSX.Element => {
                         />
                         <ExcludedServiceList />
                         <hr />
-                        <p>
-                            Our excursions are fully customizable to cater to your unique interests and preferences.
-                            Whether you&apos;re seeking adventure, culture, relaxation, or a blend of experiences,
-                            we&apos;ve got you covered. Simply reach out to us with your ideas, and we&apos;ll tailor
-                            the perfect itinerary just for you.
-                        </p>
+                        <p>{t('flexible_trip_message')}</p>
                         <p style={{ marginBottom: 20 }}>
-                            <strong>Contact us to transform your travel dreams into reality!</strong>
+                            <strong>{t('contact.to_reserv_trip_message')}</strong>
                         </p>
                         <ContactForm subject={`Excursion ${excursion?.title}`} />
                     </Container>

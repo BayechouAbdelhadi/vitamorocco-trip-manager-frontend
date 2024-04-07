@@ -27,7 +27,7 @@ export const buildnavbarItems = (
             href: '/excursions',
             dropdown: [
                 {
-                    text: 'Popular excursions',
+                    text: 'popular_excursions',
                     href: `/excursions`,
                     id: 'popular',
                     dropdown: [],
@@ -47,7 +47,7 @@ export const buildnavbarItems = (
             href: '/tours',
             dropdown: [
                 {
-                    text: 'Popular tours',
+                    text: 'popular_tours',
                     href: `/tours`,
                     id: 'popular',
                     dropdown: [],
@@ -68,7 +68,7 @@ export const buildnavbarItems = (
             href: '/activities',
             dropdown: [
                 {
-                    text: 'Popular activities',
+                    text: 'popular_activities',
                     href: `/activities`,
                     id: 'popular',
                     dropdown: [],

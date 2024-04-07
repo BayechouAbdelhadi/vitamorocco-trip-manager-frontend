@@ -1,6 +1,7 @@
 import CloseIcon from '@mui/icons-material/Close';
 import DoneIcon from '@mui/icons-material/Done';
 import { CircularProgress, Container, Typography } from '@mui/material';
+import parse from 'html-react-parser';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
@@ -11,7 +12,6 @@ import { ContactForm } from '../Contact/Contact';
 import { PanedDescription } from '../Excursions//components/PanedDescription';
 import { PanedHighlights } from '../Excursions//components/PanedHighlights';
 import { Pricing } from '../Excursions/components/Pricing';
-import parse from 'html-react-parser';
 import { ActivityDetails } from './components/ActivityDetails';
 
 import '../Excursions/Excursions.scss';
@@ -65,11 +65,7 @@ export const Activity = (): JSX.Element => {
                             </Typography>
                         }
                         leftPane={{
-                            element: (
-                                <p>
-                                    {parse(activity.schedule)}
-                                </p>
-                            ),
+                            element: <p>{parse(activity.schedule)}</p>,
                             className: 'content-pane',
                         }}
                     />
@@ -149,7 +145,7 @@ export const Activity = (): JSX.Element => {
                             the perfect itinerary just for you.
                         </p> */}
                     <p style={{ marginBottom: 20 }}>
-                        <strong>Contact us to transform your activity dreams into reality!</strong>
+                        <strong>{t('contact.to_reserv_activity_message')}</strong>
                     </p>
                     <ContactForm subject={`Activity ${activity?.title}`} />
                 </Container>

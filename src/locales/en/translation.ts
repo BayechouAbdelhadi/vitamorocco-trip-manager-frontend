@@ -10,8 +10,10 @@ export const TRANSLATION_EN = {
     accept_all: 'Accept All',
     activities: {
         title: 'Activities',
-        description: 'Immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you'
+        description:
+            'Immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you',
     },
+    all_rights_reserved: 'All rights reserved',
     available: 'Available',
     ...ALERT_TRANSLATION,
     // B
@@ -22,36 +24,42 @@ export const TRANSLATION_EN = {
     carousel: {
         0: {
             title: 'Crafting Dreams into Stunning Realities',
-            description: 'Start your Dream with a Click'
+            description: 'Start your Dream with a Click',
         },
         1: {
-            title: 'From Excursions to Day Trips & Activities, we\'ve got everything covered.',
-            description: 'Dive into the Adventure'
+            title: "From Excursions to Day Trips & Activities, we've got everything covered.",
+            description: 'Dive into the Adventure',
         },
         2: {
             title: 'Personalized itineraries & Trips, experience unforgettable holidays across Morocco.',
-            description: 'Contact us now And start Tomorrow'
+            description: 'Contact us now And start Tomorrow',
         },
     },
     consult_us: 'Consult Us',
     contact: {
         title: 'Contact',
         message: 'Please fill out the form',
+        error_message: 'Could not send your message please contact us on whatsapp',
+        success_message: `Thank you for contacting us. Your message has been received. You can expect to receive a response
+        within 24 hours at the email address you provided.`,
+        to_reserv_trip_message: 'Contact us to transform your travel dreams into reality !',
+        to_reserv_activity_message: 'Contact us to transform your activity dreams into reality !',
     },
     CONFIRM_TRANSLATION,
     cookies_policy: {
         title: 'Cookies Policy',
-        text: 'We use cookies to personalise content, to provide social media features and to analyse our traffic. This website uses cookies to ensure you get the best experience on our website.'
+        text: 'We use cookies to personalise content, to provide social media features and to analyse our traffic. This website uses cookies to ensure you get the best experience on our website.',
     },
     country: 'Country',
     customer_testimonials: 'Customer Testimonials',
     // D
     date: 'Date',
+    departure_date: 'Departure date',
     description: 'Description',
     destination: 'Destination',
     destination_details: 'Destination details',
     discover_the_essence_of_morocco_with_us: 'Discover the essence of Morocco with us',
-    dont_hesitate_to_connect: 'Don\'t hesitate to connect!',
+    dont_hesitate_to_connect: "Don't hesitate to connect!",
     driver_guide: {
         name: 'Driver-guide',
         description: 'Spanish, English, French ',
@@ -61,14 +69,14 @@ export const TRANSLATION_EN = {
     email: 'Email',
     ending_location: 'Ending Location',
     ERROR_TRANSLATION, // Assuming ERROR_TRANSLATION is an object with its own alphabetical order
-    essential_tips_and_advice_for_traveling_to_morocco: "Essential Tips and Advice for Traveling to Morocco",
+    essential_tips_and_advice_for_traveling_to_morocco: 'Essential Tips and Advice for Traveling to Morocco',
     excluded_services: {
         food_drink: 'Lunch & drinks.',
         monuments_entrance: 'Monuments Fees.',
         tip_propina: 'Tips',
-        What_s_not_mentioned_in_included: 'What\'s not mentioned in included'
+        What_s_not_mentioned_in_included: "What's not mentioned in included",
     },
-    excursions: "Excursions",
+    excursions: 'Excursions',
     excursions_and_day_trips: 'Excursions & Day Trips',
     excursions_description: `<p>
                         Explore our curated selection of popular one-day excursions departing from Marrakech, designed to cater to
@@ -84,18 +92,30 @@ export const TRANSLATION_EN = {
     explore_morocco_with_us: 'Explore Morocco with us',
     // F
     faqs: 'FAQs',
+    flexible_trip_message: `Our journies are fully customizable to cater to your unique interests and preferences.
+    Whether you&apos;re seeking adventure, culture, relaxation, or a blend of experiences,
+    we&apos;ve got you covered. Simply reach out to us with your ideas, and we&apos;ll tailor
+    the perfect itinerary just for you.`,
     first_name: 'First Name',
     free: 'Free',
     from: 'From',
-    from_origin:'From {{o}}',
-    full_detailed_itinerary: "Full detailed Itinerary",
+    from_origin: 'From {{o}}',
+    full_detailed_itinerary: 'Full detailed Itinerary',
     // G
     gallery: 'Gallery',
     // H
     highlights: 'Highlights',
     home: 'Home',
+    housing_regimes: {
+        BED_AND_BREAK_FAST: 'Bed and Breakfast',
+        HALF_PENSION: 'Half Board',
+        FULL_BOARD: 'Full Board',
+        ALL_INCLUSIVE: 'All Inclusive',
+    },
+    housing_types: { RIAD: 'Riad', HOTEL: 'Hotel', RURAL_HOUSE: 'Rural House', OTHER: 'Other' },
     // I
-    if_you_have_more_questions: 'Did our FAQs address your inquiries effectively? If you have more questions, we\'re here to assist you further.',
+    if_you_have_more_questions:
+        "Did our FAQs address your inquiries effectively? If you have more questions, we're here to assist you further.",
     included_services: {
         local_guide: {
             name: 'Local guide',
@@ -133,7 +153,8 @@ export const TRANSLATION_EN = {
     // M
     memories_we_collect: {
         title: 'Memories We Collect',
-        description: 'explore the memorable moments captured throughout our travels. Visual and narrative testimonies invite you to relive the essence of each destination, creating a unique gallery of shared experiences. Discover the visual treasures that bring our adventures to life and capture the essence of every journey.'
+        description:
+            'explore the memorable moments captured throughout our travels. Visual and narrative testimonies invite you to relive the essence of each destination, creating a unique gallery of shared experiences. Discover the visual treasures that bring our adventures to life and capture the essence of every journey.',
     },
     message: 'Message',
     // N
@@ -149,6 +170,9 @@ export const TRANSLATION_EN = {
     pick_up_and_drop_off: 'Pick up & Drop off',
     airport_hotel: 'Airport / Hotel',
     pick_up_time_departure: 'Pick-up time',
+    popular_activities: 'Popular Activities',
+    popular_excursions: 'Popular Excursions',
+    popular_tours: 'Popular Tours',
     pricing: 'Pricing',
     price: 'Price',
     pricing_message:
@@ -161,37 +185,41 @@ export const TRANSLATION_EN = {
     return_time: 'Return time',
     reviews: {
         0: {
-            text: 'Vita Morocco delivered an exceptional 10-day trip, exploring Marrakech, Fes, the desert, and Chefchaouen. The diverse itinerary showcased the cultural richness of Morocco. Mohamed, our guide driver, was outstanding, contributing to the overall memorable experience. Highly recommended.'
+            text: 'Vita Morocco delivered an exceptional 10-day trip, exploring Marrakech, Fes, the desert, and Chefchaouen. The diverse itinerary showcased the cultural richness of Morocco. Mohamed, our guide driver, was outstanding, contributing to the overall memorable experience. Highly recommended.',
         },
         1: {
-            text: 'I did a trip with Mohamed from vita morocco for 10 days, One of the best tours in my Life with my wife, we visited a lot of cities, Marrakech, fes, the desert of merzouga, thanks tò the perefct organiztion of vita morocco and the service of Mohamed with his knowledge, we learned a lot about his country and berbera.'
+            text: 'I did a trip with Mohamed from vita morocco for 10 days, One of the best tours in my Life with my wife, we visited a lot of cities, Marrakech, fes, the desert of merzouga, thanks tò the perefct organiztion of vita morocco and the service of Mohamed with his knowledge, we learned a lot about his country and berbera.',
         },
         2: {
-            text: 'Our 7 day 1800km tour through Morocco out of Marrakech by Vita Morocco, with our guide and driver Mohamed was perfectly executed. Mohamed\'s wealth of knowledge of the different regions allowed us to easily access the cultural differences of all of the different regions that we were lucky enough to visit. Accommodation each night was brilliant and Mohamed was very flexible and great company. Loved this trip.'
+            text: "Our 7 day 1800km tour through Morocco out of Marrakech by Vita Morocco, with our guide and driver Mohamed was perfectly executed. Mohamed's wealth of knowledge of the different regions allowed us to easily access the cultural differences of all of the different regions that we were lucky enough to visit. Accommodation each night was brilliant and Mohamed was very flexible and great company. Loved this trip.",
         },
         3: {
-            text: 'Our holiday in Morocco was magical! Partly thanks to Vita Morocco. It started with a fantastic tour through the city. Thanks to a knowledgeable guide, who thought we should experience the city, it was great. That means: taste, see, smell. Experience with all our senses. The excursion we had to Ourika Valley with the waterfalls and Agafay desert was also an experience we will never forget. Put on your walking shoes, because it is quite a climb to the top. Along the way you will enjoy beautiful views, refreshing river water and the waterfalls themselves are definitely worth it. We also undertook an excursion to Essaouira. Wonderful if you want to escape the hustle and bustle of Marrakech.'
+            text: 'Our holiday in Morocco was magical! Partly thanks to Vita Morocco. It started with a fantastic tour through the city. Thanks to a knowledgeable guide, who thought we should experience the city, it was great. That means: taste, see, smell. Experience with all our senses. The excursion we had to Ourika Valley with the waterfalls and Agafay desert was also an experience we will never forget. Put on your walking shoes, because it is quite a climb to the top. Along the way you will enjoy beautiful views, refreshing river water and the waterfalls themselves are definitely worth it. We also undertook an excursion to Essaouira. Wonderful if you want to escape the hustle and bustle of Marrakech.',
         },
     },
-    refuse_all: "Refuse All",
+    refuse_all: 'Refuse All',
     // S
     see_more: 'See more',
     starting_location: 'Starting Location',
     services: {
         activities: {
             title: 'activities',
-            description: 'immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you'
+            description:
+                'immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you',
         },
         excursions: {
             title: 'excursions',
-            description: 'Explore a variety of options in the excursions section, and keep in mind that we can tailor them to match your preferences'
+            description:
+                'Explore a variety of options in the excursions section, and keep in mind that we can tailor them to match your preferences',
         },
         tours: {
             title: 'tours',
-            description: 'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences'
+            description:
+                'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences',
         },
     },
-    special_request_description: 'If you prefer to avoid organized trips in large groups and appreciate a more flexible approach, <b>Vita Morocco</b> simplifies your travel experience by allowing you to leave at your own pace, without constraints, and to personalize your itinerary according to your own tastes and interests.',
+    special_request_description:
+        'If you prefer to avoid organized trips in large groups and appreciate a more flexible approach, <b>Vita Morocco</b> simplifies your travel experience by allowing you to leave at your own pace, without constraints, and to personalize your itinerary according to your own tastes and interests.',
     subject: 'Subject',
     submit: 'Submit',
     // T
