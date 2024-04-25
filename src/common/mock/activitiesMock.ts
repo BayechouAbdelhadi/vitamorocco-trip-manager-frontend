@@ -427,352 +427,352 @@ export const activitiesMock: ActivityMock[] = [
         ],
         "mapLink": '!1m18!1m12!1m3!1d54672.37289026151!2d-4.055537994042821!3d31.08127871092698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd973c279834dfe5%3A0x5639fab2b5de4a44!2sMerzouga!5e0!3m2!1sen!2sma!4v1712482419113!5m2!1sen!2sma',
     },
-    {
-        "id": 'moroccan_cooking_session',
-        "title": {
-            "en": "Moroccan Cooking Session Led by a Local Chef",
-            "fr": "Session de cuisine marocaine animée par un chef local",
-            "es": "Sesión de cocina marroquí dirigida por un chef local",
-            "pt": "Sessão de Culinária Marroquina Conduzida por um Chef Local",
-            "ar": "جلسة طهي المأكولات المغربية بإشراف الشيف المحلي"
-        },
-        "description": {
-            "fr": `Cette expérience propose une immersion culinaire marocaine qui comprend l'achat d'ingrédients sur un marché local,
-                          apprendre à préparer le thé à la menthe et cuisiner plusieurs plats traditionnels comme les tajines,
-                          se concentrant sur des techniques authentiques de hachage, d'épluchage et d'assaisonnement.<br/><br/>
-                          Le cours de cuisine de 4 heures est conçu pour être interactif et pédagogique,
-                          offrant une compréhension approfondie des traditions marocaines.<br/><br/>
-                          La séance se termine par la dégustation des plats préparés et l'accès à des recettes en ligne pour une exploration culinaire plus approfondie.`,
-            "en": `This experience offers a Moroccan culinary immersion that includes purchasing ingredients at a local market, 
-                         learning how to prepare mint tea, and cooking several traditional dishes like tajines, 
-                         focusing on authentic techniques of chopping, peeling, and seasoning.<br/><br/>
-                         The 4-hours cooking class is designed to be interactive and educational, 
-                         providing a deep understanding of Moroccan traditions.<br/><br/>
-                         The session ends with tasting the prepared dishes and access to online recipes for further culinary exploration.`,
-            "es": `Esta experiencia ofrece una inmersión culinaria marroquí que incluye la compra de ingredientes en un mercado local,
-                          aprender a preparar té de menta y cocinar varios platos tradicionales como tajines,
-                          centrándose en técnicas auténticas de picar, pelar y condimentar.<br/><br/>
-                          La clase de cocina de 4 horas está diseñada para ser interactiva y educativa,
-                          proporcionando una comprensión profunda de las tradiciones marroquíes.<br/><br/>
-                          La sesión finaliza con la degustación de los platos preparados y el acceso a recetas en línea para una mayor exploración culinaria.`,
-            "pt": `Esta experiência oferece uma imersão culinária marroquina que inclui a compra de ingredientes no mercado local,
-                          aprendendo a preparar chá de menta e cozinhando diversos pratos tradicionais como tajines,
-                          focando em técnicas autênticas de picar, descascar e temperar.<br/><br/>
-                          A aula de culinária de 4 horas foi projetada para ser interativa e educativa,
-                          proporcionando uma compreensão profunda das tradições marroquinas.<br/><br/>
-                          A sessão termina com a degustação dos pratos preparados e o acesso a receitas online para posterior exploração culinária.`,
-            "ar": ""
-        },
-        "descriptionImg": 'description.jpg',
-        "pickUpTime": {
-            "en": "10:00 or 15:00 local time at your hotel/Riad",
-            "fr": "À 10h00 ou 15h00 heure locale à votre hôtel/Riad",
-            "es": "A las 10:00 o a las 15:00 hora local en su hotel/Riad",
-            "pt": "Às 10h00 ou 15h00 no horário local no seu hotel/Riad",
-            "ar": "الساعة 10:00 أو 15:00 بالتوقيت المحلي في فندقك/رياضك"
-        },
-        "schedule": {
-            "fr": `Rejoignez Vita Maroc pour un voyage intimiste au cœur de la cuisine marocaine.
-                En commençant par une visite dynamique du marché local, nous sélectionnons à la main des ingrédients frais, plongeons
-                dans la générosité colorée qu'offre notre région (remarque : les visites de marché ne sont pas disponibles
-                le vendredi après- midi).<br/><br/>
-                De retour chez nous, notre aventure commence par la préparation cérémonielle du thé à la menthe marocain,
-        préparant le terrain pour une journée de découverte culinaire et de camaraderie.<br/><br/>
-                Sous la direction de nos chefs locaux, vous plongerez dans l'art marocain.
-                cuisine, maîtrisant les techniques d'épluchage, de hachage et d'épices transmises par
-                générations.Notre cuisine devient une porte d'entrée vers la riche tapisserie culturelle du Maroc
-                car nous élaborons 3 à 4 plats distincts, des tajines salés aux autres plats traditionnels
-                délices, chacun offrant une nouvelle compétence et une nouvelle histoire.<br/><br/>
-                Ce cours immersif de 4 heures est plus qu'un simple cours de cuisine ; c'est une pratique
-                expérience imprégnée de tradition, d'histoire et de l'esprit communautaire du Maroc
-                à manger.Vous travaillerez côte à côte avec d'autres voyageurs, tissant des liens et
-                des souvenirs qui s'étendent au-delà de la cuisine.<br/><br/>
-                Alors que notre temps ensemble touche à sa fin, nous nous réunissons pour savourer les fruits de notre
-                travailler, en savourant les plats que nous avons créés dans le plus pur style marocain.<br/><br/>
-                L'expérience ne s'arrête pas là ; nous vous invitons à emporter un morceau du Maroc chez vous,
-        partager des recettes exclusives via notre site Web pour que vous puissiez les recréer et les partager avec
-                vos proches.<br/><br/>
-                Embrassez l'essence de l'hospitalité et du patrimoine culinaire marocains avec Vita
-                Le Maroc, où chaque plat raconte une histoire et chaque saveur vous fait voyager.`,
-            "en": `Join Vita Morocco for an intimate journey into the heart of Moroccan cuisine.
-                Starting with a vibrant local market tour, we handpick fresh ingredients, diving
-                into the colourful bounty our region offers(note: market visits are not available
-                on Friday afternoons).<br/><br/>
-                Upon returning home, our adventure begins with the ceremonial preparation of Moroccan mint tea,
-        setting the stage for a day of culinary discovery and camaraderie.<br/><br/>
-                Under the guidance of our local chefs, you'll delve into the art of Moroccan
-                cooking, mastering the peel, chop, and spice techniques handed down through
-                generations.Our kitchen becomes a gateway to Morocco's rich cultural tapestry
-                as we craft 3 to 4 distinct dishes, from Savory tajines to other traditional
-                delights, each offering a new skill and story.<br/><br/>
-                This immersive 4-hours class is more than just a cooking lesson; it's a hands-on
-                experience steeped in tradition, history, and the communal spirit of Moroccan
-                dining.You'll work side by side with fellow travellers, forging connections and
-                memories that extend beyond the kitchen.<br/><br/>
-                As our time together draws to a close, we gather to Savor the fruits of our
-                labour, enjoying the dishes we've created in true Moroccan style.<br/><br/>
-                The experience doesn't end here; we invite you to take a piece of Morocco home with you,
-                sharing exclusive recipes through our website for you to recreate and share with
-                loved ones.<br/><br/>
-                Embrace the essence of Moroccan hospitality and culinary heritage with Vita
-                Morocco, where every dish tells a story and every flavour takes you on a journey.`,
-            "es": `Únase a Vita Marruecos para un viaje íntimo al corazón de la cocina marroquí.
-                Comenzando con un vibrante recorrido por el mercado local, seleccionamos cuidadosamente ingredientes frescos, buceamos
-                en la colorida generosidad que ofrece nuestra región(nota: las visitas al mercado no están disponibles
-                los viernes por la tarde).<br/><br/>
-                Al regresar a casa, nuestra aventura comienza con la preparación ceremonial del té de menta marroquí,
-        preparando el escenario para un día de descubrimiento culinario y camaradería.<br/><br/>
-                De la mano de nuestros chefs locales, profundizarás en el arte marroquí.
-            cocinar, dominar las técnicas de pelar, picar y condimentar transmitidas a través
-                generaciones.Nuestra cocina se convierte en una puerta de entrada al rico tapiz cultural de Marruecos
-                mientras elaboramos de 3 a 4 platos distintos, desde tajines salados hasta otros tradicionales
-                delicias, cada una de las cuales ofrece una nueva habilidad e historia.<br/><br/>
-                Esta clase inmersiva de 4 horas es más que una simple lección de cocina; es una practica
-                experiencia llena de tradición, historia y el espíritu comunitario de Marruecos
-                comida.Trabajarás codo a codo con compañeros de viaje, forjando conexiones y
-                recuerdos que se extienden más allá de la cocina.<br/><br/>
-                A medida que nuestro tiempo juntos llega a su fin, nos reunimos para saborear los frutos de nuestra
-                trabajo, disfrutando de los platos que hemos creado al más puro estilo marroquí.<br/><br/>
-                La experiencia no termina aquí; te invitamos a que te lleves un pedacito de Marruecos a casa,
-        compartiendo recetas exclusivas a través de nuestro sitio web para que las recrees y compartas con
-                seres queridos.<br/><br/>
-                Abrace la esencia de la hospitalidad y el patrimonio culinario marroquíes con Vita
-                Marruecos, donde cada plato cuenta una historia y cada sabor te lleva a un viaje.`,
-            "pt": `Junte-se ao Vita Marrocos para uma viagem íntima ao coração da culinária marroquina.
-                Começando com um vibrante passeio pelo mercado local, escolhemos a dedo ingredientes frescos, mergulhamos
-                nas riquezas coloridas que nossa região oferece(nota: visitas ao mercado não estão disponíveis
-                nas tardes de sexta- feira).<br/><br/>
-                Ao voltar para casa nossa aventura começa com a preparação cerimonial do chá de menta marroquino
-                preparando o cenário para um dia de descoberta culinária e camaradagem.<br/><br/>
-                Sob a orientação de nossos chefs locais, você mergulhará na arte marroquina
-cozinhar, dominando as técnicas de descascar, picar e temperar transmitidas através
-gerações.A nossa cozinha torna - se uma porta de entrada para a rica tapeçaria cultural de Marrocos
-                à medida que elaboramos 3 a 4 pratos distintos, desde tajines salgados a outros tradicionais
-delícias, cada uma oferecendo uma nova habilidade e história.<br/><br/>
-                Esta aula envolvente de 4 horas é mais do que apenas uma aula de culinária; é uma prática
-                experiência rica em tradição, história e espírito comunitário do Marrocos
-                jantar.Você trabalhará lado a lado com outros viajantes, estabelecendo conexões e
-                memórias que vão além da cozinha.<br/><br/>
-                À medida que o nosso tempo juntos chega ao fim, reunimo - nos para saborear os frutos da nossa
-trabalhando, saboreando os pratos que criamos no verdadeiro estilo marroquino.<br/><br/>
-                A experiência não termina aqui; convidamos você a levar um pedaço do Marrocos para casa,
-    compartilhando receitas exclusivas através do nosso site para você recriar e compartilhar com
-                entes queridos.<br/><br/>
-                Abrace a essência da hospitalidade e da herança culinária marroquina com Vita
-Marrocos, onde cada prato conta uma história e cada sabor leva numa viagem.`,
-            "ar": ""
-        },
-        "highlights": [
-            {
-                "en": "Cook alongside a seasoned chef",
-                "fr": "Cuisinez aux côtés d'un chef expérimenté",
-                "es": "Cocine junto a un chef experimentado",
-                "pt": "Cozinhe ao lado de um chef experiente",
-                "ar": ""
-            },
-            {
-                "en": "Experience making authentic Moroccan mint tea from scratch",
-                "fr": "Découvrez comment préparer du thé à la menthe marocain authentique à partir de zéro",
-                "es": "Experimenta haciendo auténtico té de menta marroquí desde cero",
-                "pt": "Experimente fazer autêntico chá de hortelã marroquino do zero",
-                "ar": ""
-            },
-            {
-                "en": "Embark on a guided market tour to select the freshest ingredients like a true local",
-                "fr": "Partez pour une visite guidée du marché pour sélectionner les ingrédients les plus frais comme un vrai local",
-                "es": "Embárquese en un recorrido guiado por el mercado para seleccionar los ingredientes más frescos como un verdadero local",
-                "pt": "Embarque em um tour guiado pelo mercado para selecionar os ingredientes mais frescos como um verdadeiro local",
-                "ar": ""
-            },
-            {
-                "en": "Unlock the secrets to traditional Moroccan dishes with easy-to-follow recipes",
-                "fr": "Découvrez les secrets des plats traditionnels marocains avec des recettes faciles à suivre",
-                "es": "Descubre los secretos de los platos tradicionales marroquíes con recetas fáciles de seguir",
-                "pt": "Desvende os segredos dos pratos tradicionais marroquinos com receitas fáceis de seguir",
-                "ar": ""
-            },
-            {
-                "en": "Enjoy the fruits of your labour by savouring the dishes you've created in a friendly, communal setting",
-                "fr": "Dégustez les fruits de votre travail en savourant les plats que vous avez créés dans un cadre convivial et communautaire",
-                "es": "Disfruta de los frutos de tu trabajo saboreando los platos que has creado en un entorno amigable y comunitario",
-                "pt": "Desfrute dos frutos do seu trabalho saboreando os pratos que você criou em um ambiente amigável e comunitário",
-                "ar": ""
-            },
-            {
-                "en": "Take home not just recipes, but memories and skills that will last a lifetime",
-                "fr": "Rapportez chez vous non seulement des recettes, mais aussi des souvenirs et des compétences qui dureront toute une vie",
-                "es": "Llévate a casa no solo recetas, sino también recuerdos y habilidades que durarán toda la vida",
-                "pt": "Leve para casa não apenas receitas, mas também memórias e habilidades que durarão a vida toda",
-                "ar": ""
-            },
-            {
-                "en": "After the class, get exclusive access to purchase high-quality culinary tools and spices at preferential rates",
-                "fr": "Après le cours, bénéficiez d'un accès exclusif pour acheter des outils culinaires de haute qualité et des épices à des tarifs préférentiels",
-                "es": "Después de la clase, obtenga acceso exclusivo para comprar herramientas culinarias de alta calidad y especias a tarifas preferenciales",
-                "pt": "Após a aula, obtenha acesso exclusivo para comprar ferramentas culinárias de alta qualidade e especiarias a taxas preferenciais",
-                "ar": ""
-            }
-        ],
-        "languages": ['English', 'Spanish', 'French', 'Arabic'],
-        "location": 'Marrakech',
-        "cancelation": 'Free',
-        // "groupRequirement": 'Minimum of 2 participants',
-        "pricing": [
-            {
-                "en": "Starts from 60 Euro per Person",
-                "fr": "À partir de 60 euros par personne",
-                "es": "Desde 60 euros por persona",
-                "pt": "A partir de 60 euros por pessoa",
-                "ar": "يبدأ من 60 يورو للشخص الواحد"
-            }
-        ],
-        "includedServices": [
-            {
-                "en": "Cooking Class with Local Chef",
-                "es": "Clase de cocina con chef local",
-                "fr": "Cours de cuisine avec un chef local",
-                "ar": "دورة طهي مع الشيف المحلي",
-                "pt": "Aula de culinária com chef local"
-            },
-            {
-                "en": "Pick up from your hotel in Marrakech",
-                "es": "Recogida desde su hotel en Marrakech",
-                "fr": "Prise en charge depuis votre hôtel à Marrakech",
-                "ar": "الاستلام من فندقك في مراكش",
-                "pt": "Recolha no seu hotel em Marraquexe"
-            },
-            {
-                "en": "Licensed English/French/Spanish/Italian speaking local guide",
-                "es": "Guía local con licencia que habla inglés/francés/español/italiano",
-                "fr": "Guide local agréé parlant anglais/français/espagnol/italien",
-                "ar": "مرشد محلي مرخص يتحدث الإنجليزية / الفرنسية / الإسبانية / الإيطالية",
-                "pt": "Guia local licenciado que fala inglês/francês/espanhol/italiano"
-            },
-            {
-                "en": "Quality Service",
-                "es": "Servicio de calidad",
-                "fr": "Service de qualité",
-                "ar": "خدمة ذات جودة عالية",
-                "pt": "Serviço de qualidade"
-            },
-            {
-                "en": "Mint Tea & Water",
-                "es": "Té de menta y agua",
-                "fr": "Thé à la menthe et eau",
-                "ar": "شاي النعناع والماء",
-                "pt": "Chá de menta e água"
-            },
-            {
-                "en": "Traditional Meal for Lunch or Dinner",
-                "es": "Comida tradicional para el almuerzo o la cena",
-                "fr": "Repas traditionnel pour le déjeuner ou le dîner",
-                "ar": "وجبة تقليدية للغداء أو العشاء",
-                "pt": "Refeição tradicional para almoço ou jantar"
-            }
-        ],
-        "excludedServices": [
-            {
-                "en": "Extra Drinks",
-                "es": "Bebidas adicionales",
-                "fr": "Boissons supplémentaires",
-                "ar": "مشروبات إضافية",
-                "pt": "Bebidas extras"
-            },
-            {
-                "en": "Tips",
-                "es": "Propinas",
-                "fr": "Conseils",
-                "ar": "نصائح",
-                "pt": "Gorjetas"
-            },
-            {
-                "en": "What not indicated in included",
-                "es": "Lo que no está indicado como incluido",
-                "fr": "Ce qui n'est pas indiqué comme inclus",
-                "ar": "ما لم يُشار إليه كما هو مدرج",
-                "pt": "O que não está indicado como incluído"
-            }
-        ],
-        "duration": 4,
-        "durationUnit": 'hours',
-        "freeDuration": false,
-        "frequency": {
-            "fr": "chaque jour",
-            "en": "Every day",
-            "es": "Cada día",
-            "pt": "Diariamente",
-            "ar": "كل يوم"
-        },
-        "importantDetails": [
-            {
-                "en": "Wear comfy, modest clothing",
-                "fr": "Portez des vêtements confortables et modestes",
-                "es": "Use ropa cómoda y modesta",
-                "pt": "Use roupas confortáveis e modestas",
-                "ar": ""
-            },
-            {
-                "en": "Inform about dietary needs/allergies",
-                "fr": "Informez-nous de vos besoins alimentaires/allergies",
-                "es": "Informar sobre necesidades dietéticas/alergias",
-                "pt": "Informe sobre necessidades dietéticas/alergias",
-                "ar": ""
-            },
-            {
-                "en": "Drink water, especially in the heat",
-                "fr": "Buvez de l'eau, surtout par temps chaud",
-                "es": "Beber agua, especialmente con calor",
-                "pt": "Beba água, especialmente no calor",
-                "ar": ""
-            },
-            {
-                "en": "Choose from English, Spanish, French, Arabic",
-                "fr": "Choisissez parmi l'anglais, l'espagnol, le français, l'arabe",
-                "es": "Elija entre inglés, español, francés, árabe",
-                "pt": "Escolha entre inglês, espanhol, francês, árabe",
-                "ar": ""
-            },
-            {
-                "en": "Embrace and respect local traditions",
-                "fr": "Adoptez et respectez les traditions locales",
-                "es": "Abrace y respete las tradiciones locales",
-                "pt": "Abrace e respeite as tradições locais",
-                "ar": ""
-            },
-            {
-                "en": "No market visits on Friday PM",
-                "fr": "Pas de visites au marché le vendredi après-midi",
-                "es": "No hay visitas al mercado los viernes por la tarde",
-                "pt": "Não há visitas ao mercado na sexta-feira à tarde",
-                "ar": ""
-            },
-            {
-                "en": "Dive into communal dining",
-                "fr": "Plongez dans les repas communautaires",
-                "es": "Sumérgete en las comidas comunitarias",
-                "pt": "Mergulhe nas refeições comunitárias",
-                "ar": ""
-            },
-            {
-                "en": "Stick to pick-up schedule",
-                "fr": "Respectez l'horaire de ramassage",
-                "es": "Siga el horario de recogida",
-                "pt": "Mantenha-se ao horário de coleta",
-                "ar": ""
-            },
-            {
-                "en": "Advance notice for cancellations appreciated",
-                "fr": "Un préavis pour les annulations est apprécié",
-                "es": "Se agradece aviso anticipado para cancelaciones",
-                "pt": "Aviso antecipado para cancelamentos é apreciado",
-                "ar": ""
-            }
-        ],
-        "summaryImg": '',
-        "titleImg": '',
-        "highlightImgs": [],
-        "mapLink": '',
-    },
+    //     {
+    //         "id": 'moroccan_cooking_session',
+    //         "title": {
+    //             "en": "Moroccan Cooking Session Led by a Local Chef",
+    //             "fr": "Session de cuisine marocaine animée par un chef local",
+    //             "es": "Sesión de cocina marroquí dirigida por un chef local",
+    //             "pt": "Sessão de Culinária Marroquina Conduzida por um Chef Local",
+    //             "ar": "جلسة طهي المأكولات المغربية بإشراف الشيف المحلي"
+    //         },
+    //         "description": {
+    //             "fr": `Cette expérience propose une immersion culinaire marocaine qui comprend l'achat d'ingrédients sur un marché local,
+    //                           apprendre à préparer le thé à la menthe et cuisiner plusieurs plats traditionnels comme les tajines,
+    //                           se concentrant sur des techniques authentiques de hachage, d'épluchage et d'assaisonnement.<br/><br/>
+    //                           Le cours de cuisine de 4 heures est conçu pour être interactif et pédagogique,
+    //                           offrant une compréhension approfondie des traditions marocaines.<br/><br/>
+    //                           La séance se termine par la dégustation des plats préparés et l'accès à des recettes en ligne pour une exploration culinaire plus approfondie.`,
+    //             "en": `This experience offers a Moroccan culinary immersion that includes purchasing ingredients at a local market, 
+    //                          learning how to prepare mint tea, and cooking several traditional dishes like tajines, 
+    //                          focusing on authentic techniques of chopping, peeling, and seasoning.<br/><br/>
+    //                          The 4-hours cooking class is designed to be interactive and educational, 
+    //                          providing a deep understanding of Moroccan traditions.<br/><br/>
+    //                          The session ends with tasting the prepared dishes and access to online recipes for further culinary exploration.`,
+    //             "es": `Esta experiencia ofrece una inmersión culinaria marroquí que incluye la compra de ingredientes en un mercado local,
+    //                           aprender a preparar té de menta y cocinar varios platos tradicionales como tajines,
+    //                           centrándose en técnicas auténticas de picar, pelar y condimentar.<br/><br/>
+    //                           La clase de cocina de 4 horas está diseñada para ser interactiva y educativa,
+    //                           proporcionando una comprensión profunda de las tradiciones marroquíes.<br/><br/>
+    //                           La sesión finaliza con la degustación de los platos preparados y el acceso a recetas en línea para una mayor exploración culinaria.`,
+    //             "pt": `Esta experiência oferece uma imersão culinária marroquina que inclui a compra de ingredientes no mercado local,
+    //                           aprendendo a preparar chá de menta e cozinhando diversos pratos tradicionais como tajines,
+    //                           focando em técnicas autênticas de picar, descascar e temperar.<br/><br/>
+    //                           A aula de culinária de 4 horas foi projetada para ser interativa e educativa,
+    //                           proporcionando uma compreensão profunda das tradições marroquinas.<br/><br/>
+    //                           A sessão termina com a degustação dos pratos preparados e o acesso a receitas online para posterior exploração culinária.`,
+    //             "ar": ""
+    //         },
+    //         "descriptionImg": 'description.jpg',
+    //         "pickUpTime": {
+    //             "en": "10:00 or 15:00 local time at your hotel/Riad",
+    //             "fr": "À 10h00 ou 15h00 heure locale à votre hôtel/Riad",
+    //             "es": "A las 10:00 o a las 15:00 hora local en su hotel/Riad",
+    //             "pt": "Às 10h00 ou 15h00 no horário local no seu hotel/Riad",
+    //             "ar": "الساعة 10:00 أو 15:00 بالتوقيت المحلي في فندقك/رياضك"
+    //         },
+    //         "schedule": {
+    //             "fr": `Rejoignez Vita Maroc pour un voyage intimiste au cœur de la cuisine marocaine.
+    //                 En commençant par une visite dynamique du marché local, nous sélectionnons à la main des ingrédients frais, plongeons
+    //                 dans la générosité colorée qu'offre notre région (remarque : les visites de marché ne sont pas disponibles
+    //                 le vendredi après- midi).<br/><br/>
+    //                 De retour chez nous, notre aventure commence par la préparation cérémonielle du thé à la menthe marocain,
+    //         préparant le terrain pour une journée de découverte culinaire et de camaraderie.<br/><br/>
+    //                 Sous la direction de nos chefs locaux, vous plongerez dans l'art marocain.
+    //                 cuisine, maîtrisant les techniques d'épluchage, de hachage et d'épices transmises par
+    //                 générations.Notre cuisine devient une porte d'entrée vers la riche tapisserie culturelle du Maroc
+    //                 car nous élaborons 3 à 4 plats distincts, des tajines salés aux autres plats traditionnels
+    //                 délices, chacun offrant une nouvelle compétence et une nouvelle histoire.<br/><br/>
+    //                 Ce cours immersif de 4 heures est plus qu'un simple cours de cuisine ; c'est une pratique
+    //                 expérience imprégnée de tradition, d'histoire et de l'esprit communautaire du Maroc
+    //                 à manger.Vous travaillerez côte à côte avec d'autres voyageurs, tissant des liens et
+    //                 des souvenirs qui s'étendent au-delà de la cuisine.<br/><br/>
+    //                 Alors que notre temps ensemble touche à sa fin, nous nous réunissons pour savourer les fruits de notre
+    //                 travailler, en savourant les plats que nous avons créés dans le plus pur style marocain.<br/><br/>
+    //                 L'expérience ne s'arrête pas là ; nous vous invitons à emporter un morceau du Maroc chez vous,
+    //         partager des recettes exclusives via notre site Web pour que vous puissiez les recréer et les partager avec
+    //                 vos proches.<br/><br/>
+    //                 Embrassez l'essence de l'hospitalité et du patrimoine culinaire marocains avec Vita
+    //                 Le Maroc, où chaque plat raconte une histoire et chaque saveur vous fait voyager.`,
+    //             "en": `Join Vita Morocco for an intimate journey into the heart of Moroccan cuisine.
+    //                 Starting with a vibrant local market tour, we handpick fresh ingredients, diving
+    //                 into the colourful bounty our region offers(note: market visits are not available
+    //                 on Friday afternoons).<br/><br/>
+    //                 Upon returning home, our adventure begins with the ceremonial preparation of Moroccan mint tea,
+    //         setting the stage for a day of culinary discovery and camaraderie.<br/><br/>
+    //                 Under the guidance of our local chefs, you'll delve into the art of Moroccan
+    //                 cooking, mastering the peel, chop, and spice techniques handed down through
+    //                 generations.Our kitchen becomes a gateway to Morocco's rich cultural tapestry
+    //                 as we craft 3 to 4 distinct dishes, from Savory tajines to other traditional
+    //                 delights, each offering a new skill and story.<br/><br/>
+    //                 This immersive 4-hours class is more than just a cooking lesson; it's a hands-on
+    //                 experience steeped in tradition, history, and the communal spirit of Moroccan
+    //                 dining.You'll work side by side with fellow travellers, forging connections and
+    //                 memories that extend beyond the kitchen.<br/><br/>
+    //                 As our time together draws to a close, we gather to Savor the fruits of our
+    //                 labour, enjoying the dishes we've created in true Moroccan style.<br/><br/>
+    //                 The experience doesn't end here; we invite you to take a piece of Morocco home with you,
+    //                 sharing exclusive recipes through our website for you to recreate and share with
+    //                 loved ones.<br/><br/>
+    //                 Embrace the essence of Moroccan hospitality and culinary heritage with Vita
+    //                 Morocco, where every dish tells a story and every flavour takes you on a journey.`,
+    //             "es": `Únase a Vita MOROCCO para un viaje íntimo al corazón de la cocina marroquí.
+    //                 Comenzando con un vibrante recorrido por el mercado local, seleccionamos cuidadosamente ingredientes frescos, buceamos
+    //                 en la colorida generosidad que ofrece nuestra región(nota: las visitas al mercado no están disponibles
+    //                 los viernes por la tarde).<br/><br/>
+    //                 Al regresar a casa, nuestra aventura comienza con la preparación ceremonial del té de menta marroquí,
+    //         preparando el escenario para un día de descubrimiento culinario y camaradería.<br/><br/>
+    //                 De la mano de nuestros chefs locales, profundizarás en el arte marroquí.
+    //             cocinar, dominar las técnicas de pelar, picar y condimentar transmitidas a través
+    //                 generaciones.Nuestra cocina se convierte en una puerta de entrada al rico tapiz cultural de Marruecos
+    //                 mientras elaboramos de 3 a 4 platos distintos, desde tajines salados hasta otros tradicionales
+    //                 delicias, cada una de las cuales ofrece una nueva habilidad e historia.<br/><br/>
+    //                 Esta clase inmersiva de 4 horas es más que una simple lección de cocina; es una practica
+    //                 experiencia llena de tradición, historia y el espíritu comunitario de Marruecos
+    //                 comida.Trabajarás codo a codo con compañeros de viaje, forjando conexiones y
+    //                 recuerdos que se extienden más allá de la cocina.<br/><br/>
+    //                 A medida que nuestro tiempo juntos llega a su fin, nos reunimos para saborear los frutos de nuestra
+    //                 trabajo, disfrutando de los platos que hemos creado al más puro estilo marroquí.<br/><br/>
+    //                 La experiencia no termina aquí; te invitamos a que te lleves un pedacito de Marruecos a casa,
+    //         compartiendo recetas exclusivas a través de nuestro sitio web para que las recrees y compartas con
+    //                 seres queridos.<br/><br/>
+    //                 Abrace la esencia de la hospitalidad y el patrimonio culinario marroquíes con Vita
+    //                 Marruecos, donde cada plato cuenta una historia y cada sabor te lleva a un viaje.`,
+    //             "pt": `Junte-se ao Vita Marrocos para uma viagem íntima ao coração da culinária marroquina.
+    //                 Começando com um vibrante passeio pelo mercado local, escolhemos a dedo ingredientes frescos, mergulhamos
+    //                 nas riquezas coloridas que nossa região oferece(nota: visitas ao mercado não estão disponíveis
+    //                 nas tardes de sexta- feira).<br/><br/>
+    //                 Ao voltar para casa nossa aventura começa com a preparação cerimonial do chá de menta marroquino
+    //                 preparando o cenário para um dia de descoberta culinária e camaradagem.<br/><br/>
+    //                 Sob a orientação de nossos chefs locais, você mergulhará na arte marroquina
+    // cozinhar, dominando as técnicas de descascar, picar e temperar transmitidas através
+    // gerações.A nossa cozinha torna - se uma porta de entrada para a rica tapeçaria cultural de Marrocos
+    //                 à medida que elaboramos 3 a 4 pratos distintos, desde tajines salgados a outros tradicionais
+    // delícias, cada uma oferecendo uma nova habilidade e história.<br/><br/>
+    //                 Esta aula envolvente de 4 horas é mais do que apenas uma aula de culinária; é uma prática
+    //                 experiência rica em tradição, história e espírito comunitário do Marrocos
+    //                 jantar.Você trabalhará lado a lado com outros viajantes, estabelecendo conexões e
+    //                 memórias que vão além da cozinha.<br/><br/>
+    //                 À medida que o nosso tempo juntos chega ao fim, reunimo - nos para saborear os frutos da nossa
+    // trabalhando, saboreando os pratos que criamos no verdadeiro estilo marroquino.<br/><br/>
+    //                 A experiência não termina aqui; convidamos você a levar um pedaço do Marrocos para casa,
+    //     compartilhando receitas exclusivas através do nosso site para você recriar e compartilhar com
+    //                 entes queridos.<br/><br/>
+    //                 Abrace a essência da hospitalidade e da herança culinária marroquina com Vita
+    // Marrocos, onde cada prato conta uma história e cada sabor leva numa viagem.`,
+    //             "ar": ""
+    //         },
+    //         "highlights": [
+    //             {
+    //                 "en": "Cook alongside a seasoned chef",
+    //                 "fr": "Cuisinez aux côtés d'un chef expérimenté",
+    //                 "es": "Cocine junto a un chef experimentado",
+    //                 "pt": "Cozinhe ao lado de um chef experiente",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Experience making authentic Moroccan mint tea from scratch",
+    //                 "fr": "Découvrez comment préparer du thé à la menthe marocain authentique à partir de zéro",
+    //                 "es": "Experimenta haciendo auténtico té de menta marroquí desde cero",
+    //                 "pt": "Experimente fazer autêntico chá de hortelã marroquino do zero",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Embark on a guided market tour to select the freshest ingredients like a true local",
+    //                 "fr": "Partez pour une visite guidée du marché pour sélectionner les ingrédients les plus frais comme un vrai local",
+    //                 "es": "Embárquese en un recorrido guiado por el mercado para seleccionar los ingredientes más frescos como un verdadero local",
+    //                 "pt": "Embarque em um tour guiado pelo mercado para selecionar os ingredientes mais frescos como um verdadeiro local",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Unlock the secrets to traditional Moroccan dishes with easy-to-follow recipes",
+    //                 "fr": "Découvrez les secrets des plats traditionnels marocains avec des recettes faciles à suivre",
+    //                 "es": "Descubre los secretos de los platos tradicionales marroquíes con recetas fáciles de seguir",
+    //                 "pt": "Desvende os segredos dos pratos tradicionais marroquinos com receitas fáceis de seguir",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Enjoy the fruits of your labour by savouring the dishes you've created in a friendly, communal setting",
+    //                 "fr": "Dégustez les fruits de votre travail en savourant les plats que vous avez créés dans un cadre convivial et communautaire",
+    //                 "es": "Disfruta de los frutos de tu trabajo saboreando los platos que has creado en un entorno amigable y comunitario",
+    //                 "pt": "Desfrute dos frutos do seu trabalho saboreando os pratos que você criou em um ambiente amigável e comunitário",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Take home not just recipes, but memories and skills that will last a lifetime",
+    //                 "fr": "Rapportez chez vous non seulement des recettes, mais aussi des souvenirs et des compétences qui dureront toute une vie",
+    //                 "es": "Llévate a casa no solo recetas, sino también recuerdos y habilidades que durarán toda la vida",
+    //                 "pt": "Leve para casa não apenas receitas, mas também memórias e habilidades que durarão a vida toda",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "After the class, get exclusive access to purchase high-quality culinary tools and spices at preferential rates",
+    //                 "fr": "Après le cours, bénéficiez d'un accès exclusif pour acheter des outils culinaires de haute qualité et des épices à des tarifs préférentiels",
+    //                 "es": "Después de la clase, obtenga acceso exclusivo para comprar herramientas culinarias de alta calidad y especias a tarifas preferenciales",
+    //                 "pt": "Após a aula, obtenha acesso exclusivo para comprar ferramentas culinárias de alta qualidade e especiarias a taxas preferenciais",
+    //                 "ar": ""
+    //             }
+    //         ],
+    //         "languages": ['English', 'Spanish', 'French', 'Arabic'],
+    //         "location": 'Marrakech',
+    //         "cancelation": 'Free',
+    //         // "groupRequirement": 'Minimum of 2 participants',
+    //         "pricing": [
+    //             {
+    //                 "en": "Starts from 60 Euro per Person",
+    //                 "fr": "À partir de 60 euros par personne",
+    //                 "es": "Desde 60 euros por persona",
+    //                 "pt": "A partir de 60 euros por pessoa",
+    //                 "ar": "يبدأ من 60 يورو للشخص الواحد"
+    //             }
+    //         ],
+    //         "includedServices": [
+    //             {
+    //                 "en": "Cooking Class with Local Chef",
+    //                 "es": "Clase de cocina con chef local",
+    //                 "fr": "Cours de cuisine avec un chef local",
+    //                 "ar": "دورة طهي مع الشيف المحلي",
+    //                 "pt": "Aula de culinária com chef local"
+    //             },
+    //             {
+    //                 "en": "Pick up from your hotel in Marrakech",
+    //                 "es": "Recogida desde su hotel en Marrakech",
+    //                 "fr": "Prise en charge depuis votre hôtel à Marrakech",
+    //                 "ar": "الاستلام من فندقك في مراكش",
+    //                 "pt": "Recolha no seu hotel em Marraquexe"
+    //             },
+    //             {
+    //                 "en": "Licensed English/French/Spanish/Italian speaking local guide",
+    //                 "es": "Guía local con licencia que habla inglés/francés/español/italiano",
+    //                 "fr": "Guide local agréé parlant anglais/français/espagnol/italien",
+    //                 "ar": "مرشد محلي مرخص يتحدث الإنجليزية / الفرنسية / الإسبانية / الإيطالية",
+    //                 "pt": "Guia local licenciado que fala inglês/francês/espanhol/italiano"
+    //             },
+    //             {
+    //                 "en": "Quality Service",
+    //                 "es": "Servicio de calidad",
+    //                 "fr": "Service de qualité",
+    //                 "ar": "خدمة ذات جودة عالية",
+    //                 "pt": "Serviço de qualidade"
+    //             },
+    //             {
+    //                 "en": "Mint Tea & Water",
+    //                 "es": "Té de menta y agua",
+    //                 "fr": "Thé à la menthe et eau",
+    //                 "ar": "شاي النعناع والماء",
+    //                 "pt": "Chá de menta e água"
+    //             },
+    //             {
+    //                 "en": "Traditional Meal for Lunch or Dinner",
+    //                 "es": "Comida tradicional para el almuerzo o la cena",
+    //                 "fr": "Repas traditionnel pour le déjeuner ou le dîner",
+    //                 "ar": "وجبة تقليدية للغداء أو العشاء",
+    //                 "pt": "Refeição tradicional para almoço ou jantar"
+    //             }
+    //         ],
+    //         "excludedServices": [
+    //             {
+    //                 "en": "Extra Drinks",
+    //                 "es": "Bebidas adicionales",
+    //                 "fr": "Boissons supplémentaires",
+    //                 "ar": "مشروبات إضافية",
+    //                 "pt": "Bebidas extras"
+    //             },
+    //             {
+    //                 "en": "Tips",
+    //                 "es": "Propinas",
+    //                 "fr": "Conseils",
+    //                 "ar": "نصائح",
+    //                 "pt": "Gorjetas"
+    //             },
+    //             {
+    //                 "en": "What not indicated in included",
+    //                 "es": "Lo que no está indicado como incluido",
+    //                 "fr": "Ce qui n'est pas indiqué comme inclus",
+    //                 "ar": "ما لم يُشار إليه كما هو مدرج",
+    //                 "pt": "O que não está indicado como incluído"
+    //             }
+    //         ],
+    //         "duration": 4,
+    //         "durationUnit": 'hours',
+    //         "freeDuration": false,
+    //         "frequency": {
+    //             "fr": "chaque jour",
+    //             "en": "Every day",
+    //             "es": "Cada día",
+    //             "pt": "Diariamente",
+    //             "ar": "كل يوم"
+    //         },
+    //         "importantDetails": [
+    //             {
+    //                 "en": "Wear comfy, modest clothing",
+    //                 "fr": "Portez des vêtements confortables et modestes",
+    //                 "es": "Use ropa cómoda y modesta",
+    //                 "pt": "Use roupas confortáveis e modestas",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Inform about dietary needs/allergies",
+    //                 "fr": "Informez-nous de vos besoins alimentaires/allergies",
+    //                 "es": "Informar sobre necesidades dietéticas/alergias",
+    //                 "pt": "Informe sobre necessidades dietéticas/alergias",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Drink water, especially in the heat",
+    //                 "fr": "Buvez de l'eau, surtout par temps chaud",
+    //                 "es": "Beber agua, especialmente con calor",
+    //                 "pt": "Beba água, especialmente no calor",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Choose from English, Spanish, French, Arabic",
+    //                 "fr": "Choisissez parmi l'anglais, l'espagnol, le français, l'arabe",
+    //                 "es": "Elija entre inglés, español, francés, árabe",
+    //                 "pt": "Escolha entre inglês, espanhol, francês, árabe",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Embrace and respect local traditions",
+    //                 "fr": "Adoptez et respectez les traditions locales",
+    //                 "es": "Abrace y respete las tradiciones locales",
+    //                 "pt": "Abrace e respeite as tradições locais",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "No market visits on Friday PM",
+    //                 "fr": "Pas de visites au marché le vendredi après-midi",
+    //                 "es": "No hay visitas al mercado los viernes por la tarde",
+    //                 "pt": "Não há visitas ao mercado na sexta-feira à tarde",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Dive into communal dining",
+    //                 "fr": "Plongez dans les repas communautaires",
+    //                 "es": "Sumérgete en las comidas comunitarias",
+    //                 "pt": "Mergulhe nas refeições comunitárias",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Stick to pick-up schedule",
+    //                 "fr": "Respectez l'horaire de ramassage",
+    //                 "es": "Siga el horario de recogida",
+    //                 "pt": "Mantenha-se ao horário de coleta",
+    //                 "ar": ""
+    //             },
+    //             {
+    //                 "en": "Advance notice for cancellations appreciated",
+    //                 "fr": "Un préavis pour les annulations est apprécié",
+    //                 "es": "Se agradece aviso anticipado para cancelaciones",
+    //                 "pt": "Aviso antecipado para cancelamentos é apreciado",
+    //                 "ar": ""
+    //             }
+    //         ],
+    //         "summaryImg": '',
+    //         "titleImg": '',
+    //         "highlightImgs": [],
+    //         "mapLink": '',
+    //     },
     {
         "id": 'marrakech_city_tour_hammam_dinner',
         "title": {

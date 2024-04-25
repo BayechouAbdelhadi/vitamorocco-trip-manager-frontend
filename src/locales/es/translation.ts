@@ -5,7 +5,7 @@ import { ERROR_TRANSLATION } from './error';
 export const TRANSLATION_ES = {
     // A
     about: 'Acerca de',
-    about_vita_morocco: 'Acerca de Vita Marruecos',
+    about_vita_morocco: 'Acerca de Vita MOROCCO',
     accomodation_type: 'Tipo de alojamiento',
     accept_all: 'Aceptar todo',
     activities: {
@@ -187,16 +187,16 @@ export const TRANSLATION_ES = {
     return_date: 'Fecha de regreso',
     reviews: {
         0: {
-            text: 'Vita Marruecos ofreció un viaje excepcional de 10 días, explorando Marrakech, Fes, el desierto y Chefchaouen. El diverso itinerario destacó la riqueza cultural de Marruecos. Mohamed, nuestro guía-chofer, fue excepcional, contribuyendo a la experiencia memorable en general. Muy recomendado.',
+            text: 'Vita MOROCCO ofreció un viaje excepcional de 10 días, explorando Marrakech, Fes, el desierto y Chefchaouen. El diverso itinerario destacó la riqueza cultural de Marruecos. Mohamed, nuestro guía-chofer, fue excepcional, contribuyendo a la experiencia memorable en general. Muy recomendado.',
         },
         1: {
-            text: 'Hice un viaje con Mohamed de Vita Marruecos durante 10 días, uno de los mejores viajes de mi vida con mi esposa. Visitamos muchas ciudades, Marrakech, Fes, el desierto de Merzouga, gracias a la organización perfecta de Vita Marruecos y al servicio de Mohamed con su conocimiento, aprendimos mucho sobre su país y los bereberes.',
+            text: 'Hice un viaje con Mohamed de Vita MOROCCO durante 10 días, uno de los mejores viajes de mi vida con mi esposa. Visitamos muchas ciudades, Marrakech, Fes, el desierto de Merzouga, gracias a la organización perfecta de Vita MOROCCO y al servicio de Mohamed con su conocimiento, aprendimos mucho sobre su país y los bereberes.',
         },
         2: {
-            text: 'Nuestro recorrido de 7 días y 1800 km por Marruecos desde Marrakech con Vita Marruecos, con nuestro guía y conductor Mohamed, fue perfectamente ejecutado. La riqueza de conocimientos de Mohamed sobre las diferentes regiones nos permitió acceder fácilmente a las diferencias culturales de todas las regiones que tuvimos la suerte de visitar. El alojamiento cada noche fue brillante y Mohamed fue muy flexible y una excelente compañía. Me encantó este viaje.',
+            text: 'Nuestro recorrido de 7 días y 1800 km por Marruecos desde Marrakech con Vita MOROCCO, con nuestro guía y conductor Mohamed, fue perfectamente ejecutado. La riqueza de conocimientos de Mohamed sobre las diferentes regiones nos permitió acceder fácilmente a las diferencias culturales de todas las regiones que tuvimos la suerte de visitar. El alojamiento cada noche fue brillante y Mohamed fue muy flexible y una excelente compañía. Me encantó este viaje.',
         },
         3: {
-            text: '¡Nuestras vacaciones en Marruecos fueron mágicas! En parte gracias a Vita Marruecos. Comenzó con una fantástica visita a la ciudad. Gracias a un guía conocedor, que pensó que deberíamos vivir la ciudad, fue genial. Eso significa: degustar, ver, oler. Experiencia con todos nuestros sentidos. La excursión que hicimos al Valle de Ourika con las cascadas y el desierto de Agafay también fue una experiencia que nunca olvidaremos. Ponte tus zapatos para caminar, porque es bastante empinado hasta la cima. En el camino, disfrutarás de hermosas vistas, agua de río refrescante y las propias cascadas realmente valen la pena. También emprendimos una excursión a Essaouira. Maravilloso si quieres escapar del bullicio de Marrakech.',
+            text: '¡Nuestras vacaciones en Marruecos fueron mágicas! En parte gracias a Vita MOROCCO. Comenzó con una fantástica visita a la ciudad. Gracias a un guía conocedor, que pensó que deberíamos vivir la ciudad, fue genial. Eso significa: degustar, ver, oler. Experiencia con todos nuestros sentidos. La excursión que hicimos al Valle de Ourika con las cascadas y el desierto de Agafay también fue una experiencia que nunca olvidaremos. Ponte tus zapatos para caminar, porque es bastante empinado hasta la cima. En el camino, disfrutarás de hermosas vistas, agua de río refrescante y las propias cascadas realmente valen la pena. También emprendimos una excursión a Essaouira. Maravilloso si quieres escapar del bullicio de Marrakech.',
         },
     },
     // S
@@ -221,7 +221,7 @@ export const TRANSLATION_ES = {
     },
     schedule: 'Cronograma',
     special_request_description:
-        'Si prefieres evitar los viajes organizados en grupos grandes y aprecias un enfoque más flexible, Vita Marruecos simplifica tu experiencia de viaje permitiéndote ir a tu propio ritmo, sin restricciones y personalizar tu itinerario según tus gustos e intereses.',
+        'Si prefieres evitar los viajes organizados en grupos grandes y aprecias un enfoque más flexible, Vita MOROCCO simplifica tu experiencia de viaje permitiéndote ir a tu propio ritmo, sin restricciones y personalizar tu itinerario según tus gustos e intereses.',
     subject: 'Asunto',
     submit: 'Enviar',
     // T
@@ -282,7 +282,7 @@ export const TRANSLATION_ES = {
                      </p>`,
     vita_morocco_goal: 'Nuestro objetivo es proporcionar los mejores itinerarios con una experiencia real y auténtica',
     // W
-    welcome_to_vita_morocco: 'Bienvenido a Vita Marruecos',
+    welcome_to_vita_morocco: 'Bienvenido a Vita MOROCCO',
     whats_included: 'Lo que está incluido',
     whats_not_included: 'Lo que no está incluido',
     // X

@@ -49,7 +49,7 @@ export const _7_5_days_getaway_tangerto_chefchaouen_fes_and_asilah: TourMock = {
              VITA MOROCCO vous invite dans cette aventure sans précédent, garantissant un départ qui
              marque non seulement la fin de votre voyage mais aussi le début d'une connexion permanente avec
         Maroc.`,
-        es: `Embárquese en un cautivador viaje de 5 días con Vita Marruecos, comenzando desde Tánger y atravesando el corazón de los impresionantes paisajes y las ciudades antiguas de Marruecos.
+        es: `Embárquese en un cautivador viaje de 5 días con Vita MOROCCO, comenzando desde Tánger y atravesando el corazón de los impresionantes paisajes y las ciudades antiguas de Marruecos.
              Este recorrido meticulosamente seleccionado lo lleva desde los místicos callejones azules de Chefchaouen, ubicados en
              las montañas del Rif, hasta las ruinas históricas de Volúbilis, que ofrecen un salto en el tiempo único.
              Descubra la esencia espiritual de Fez, famosa por su vibrante medina y su artesanía atemporal.
