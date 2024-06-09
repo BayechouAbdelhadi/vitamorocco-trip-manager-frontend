@@ -11,6 +11,7 @@ export const Footer = (): JSX.Element => {
         <footer className="footer-container">
             <FooterColumns />
             <div className="bottom-content">
+                <img src='/img/payment_methods.png' width={190} height={35} />
                 <small className="rights-reserved">
                     {t('all_rights_reserved')} &#xA9; 2019-{new Date().getFullYear()}{' '}
                     <Link to="/" onClick={scrollToTop}>
