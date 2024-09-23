@@ -14,13 +14,13 @@ export interface NavItem {
 }
 
 export const NAVBAR_ITEMS: NavItem[] = [
-    {
-        text: 'gallery',
-        href: '/services/gallery',
-        dropdown: [],
-        id: 'services-gallery',
-        icon: <GalleryIcon />,
-    },
+    // {
+    //     text: 'gallery',
+    //     href: '/services/gallery',
+    //     dropdown: [],
+    //     id: 'services-gallery',
+    //     icon: <GalleryIcon />,
+    // },
     {
         text: 'tips',
         href: '/services/tips',
@@ -33,7 +33,6 @@ export const NAVBAR_ITEMS: NavItem[] = [
         href: '/about',
         dropdown: [],
         id: 'about',
-
         icon: <InfoIcon />,
     },
     {
@@ -43,7 +42,6 @@ export const NAVBAR_ITEMS: NavItem[] = [
             //FromDB
         ],
         id: 'contact',
-
         icon: <ContactIcon />,
     },
 ];
