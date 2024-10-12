@@ -228,13 +228,6 @@ export const _1_5_days_special_offer_marrakech_to_sahara_desert: TourMock = {
             ar: 'استمتع بغروب الشمس المذهل وركوب الجمال عند شروق الشمس.',
         },
         {
-            en: 'Visit the biggest film studios in north Africa.',
-            fr: "Visitez les plus grands studios de cinéma d'Afrique du Nord.",
-            es: 'Visite los mayores estudios de cine del norte de África.',
-            pt: 'Visite os maiores estúdios de cinema do norte da África.',
-            ar: 'قم بزيارة أكبر استوديوهات السينما في شمال أفريقيا.',
-        },
-        {
             en: 'Spend an overnight in a nomadic desert camp.',
             fr: 'Passez une nuit dans un campement nomade dans le désert.',
             es: 'Pasa la noche en un campamento nómada en el desierto.',
