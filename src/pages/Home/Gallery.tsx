@@ -23,34 +23,34 @@ export default function Gallery() {
 
 const images = [
     {
-        url: '/img/home_gallery/1.jpg',
+        url: '/img/home_gallery/1.webp',
         rows: 2,
         cols: 2,
     },
     {
-        url: '/img/home_gallery/2.jpg',
+        url: '/img/home_gallery/2.webp',
         rows: 2,
     },
     {
-        url: '/img/home_gallery/3.jpg',
+        url: '/img/home_gallery/3.webp',
     },
     {
-        url: '/img/home_gallery/4.jpg',
+        url: '/img/home_gallery/4.webp',
     },
     {
-        url: '/img/home_gallery/5.jpg',
+        url: '/img/home_gallery/5.webp',
         rows: 2,
     },
     {
-        url: '/img/home_gallery/6.jpg',
+        url: '/img/home_gallery/6.webp',
         rows: 2,
     },
     {
-        url: '/img/home_gallery/7.jpg',
+        url: '/img/home_gallery/7.webp',
         rows: 2,
     },
     {
-        url: '/img/home_gallery/8.jpg',
+        url: '/img/home_gallery/8.webp',
         rows: 2,
     }
 ];

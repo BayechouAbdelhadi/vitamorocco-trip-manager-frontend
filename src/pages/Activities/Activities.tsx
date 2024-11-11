@@ -18,7 +18,7 @@ export const Activities = (): JSX.Element => {
             description={ActivitiesText}
             keywords={ActivitiesText}
             title={t('activities.title')}
-            imgSrc="/img/activities/activity_title.jpg"
+            imgSrc="/img/activities/activity_title.webp"
         >
             {isLoading ? (
                 <CircularProgress />

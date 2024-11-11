@@ -77,6 +77,7 @@ export default function Carousel({ images, slideInterval = 6000, maxWidth = '100
                             <img
                                 src={img_src}
                                 alt={alt}
+                                loading="lazy"
                                 aria-hidden={imageIndex !== index}
                                 className="img-slider-img"
                                 style={{ translate: `${-100 * imageIndex}%` }}

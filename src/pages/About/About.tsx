@@ -26,7 +26,7 @@ export const About = (): JSX.Element => {
             description={AboutText}
             keywords={AboutText}
             title={t('about_vita_morocco')}
-            imgSrc='img/about/about_title.jpg'
+            imgSrc='img/about/about_title.webp'
             className='about-container'
             style={{ justifyContent: 'flex-start' }}
         >

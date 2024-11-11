@@ -2,8 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { app } from '../../constants/appConstants';
 import { scrollToTop } from '../../utils';
-import './Footer.scss';
 import FooterColumns from './FooterColumns';
+import './Footer.scss';
 
 export const Footer = (): JSX.Element => {
     const { t } = useTranslation();
@@ -11,7 +11,7 @@ export const Footer = (): JSX.Element => {
         <footer className="footer-container">
             <FooterColumns />
             <div className="bottom-content">
-                <img src='/img/payment_methods.png' width={190} height={35} />
+                <img src='/img/payment_methods.webp' width={190} height={35} alt='accepted payment methods' />
                 <small className="rights-reserved">
                     {t('all_rights_reserved')} &#xA9; 2019-{new Date().getFullYear()}{' '}
                     <Link to="/" onClick={scrollToTop}>

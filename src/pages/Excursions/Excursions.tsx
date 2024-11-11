@@ -21,7 +21,7 @@ export const Excursions = (): JSX.Element => {
             description={t('excursions_description')}
             keywords={ExcursionsText}
             title={t('excursions_and_day_trips')}
-            imgSrc='img/excursions/excursions_title.jpg'
+            imgSrc='img/excursions/excursions_title.webp'
             className='excursions-page-container'
         >
             {isLoading ? (

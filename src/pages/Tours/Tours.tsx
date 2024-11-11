@@ -23,7 +23,7 @@ export const Tours = (): JSX.Element => {
 
     // we can select an aleatoire index...
     const departureFromCityTitle = origin ? `${t('from')} ${tours?.[0].departureCity}` : ""
-    const departureFromCityImg = origin ? `${tours?.[0].id}/${tours?.[0].titleImg}` : "tours_title.jpg"
+    const departureFromCityImg = origin ? `${tours?.[0].id}/${tours?.[0].titleImg}` : "tours_title.webp"
 
     return (
         <Page
@@ -31,7 +31,7 @@ export const Tours = (): JSX.Element => {
             keywords={ToursText}
             title={`${t('tours_and_itineraries')} ${departureFromCityTitle}`}
             // imgSrc={`/img/tours/${departureFromCityImg}`}
-            imgSrc={`/img/tours/tours_title.jpg`}
+            imgSrc={`/img/tours/tours_title.webp`}
             className="excursions-page-container"
         >
             {isLoading ? (

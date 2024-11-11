@@ -19,7 +19,7 @@ function Welcome() {
                 </div>
                 <img
                     className="welcome-image"
-                    src="/img/welcome.jpg"
+                    src="/img/welcome.webp"
                     alt="Home"
                     loading="lazy"
                     height={350}

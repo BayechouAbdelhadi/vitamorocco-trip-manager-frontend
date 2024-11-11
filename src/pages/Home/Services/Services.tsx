@@ -3,9 +3,9 @@ import TextWithLines from "../../../common/components/QuiltedImageList/TitleWith
 import { defaultImage } from "../../../common/utils/imageUtils";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { scrollToTop } from "../../../common/utils";
 
 import './Services.scss'
-import { scrollToTop } from "../../../common/utils";
 
 
 function Services() {
@@ -41,7 +41,7 @@ export default Services
 
 const SERVICES = [
     {
-        img: '/img/destinations/excursion.jpg',
+        img: '/img/destinations/excursion.webp',
         title: 'excursions',
         description: 'Explore a variety of options in the excursions section, and keep in mind that we can tailor them to match your preferences',
         rows: 2,
@@ -49,12 +49,12 @@ const SERVICES = [
         featured: true,
     },
     {
-        img: '/img/destinations/tour.jpg',
+        img: '/img/destinations/tour.webp',
         title: 'tours',
         description: 'you will discover a captivating range of itineraries carefully designed to offer you unforgettable travel experiences',
     },
     {
-        img: '/img/destinations/activity.jpg',
+        img: '/img/destinations/activity.webp',
         title: 'activities',
         description: 'immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you',
     }
