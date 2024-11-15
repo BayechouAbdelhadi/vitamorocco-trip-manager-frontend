@@ -27,7 +27,7 @@ export const PanedDescription = ({ description, imgSrc }: PanedDescriptionInterf
                 className: 'content-pane',
             }}
             rightPane={{
-                element: <img src={imgSrc} alt="description" onError={defaultImage.large.errorHandler} />,
+                element: <img src={imgSrc} loading='lazy' alt="description" onError={defaultImage.large.errorHandler} />,
                 className: 'visual-pane',
             }}
         />

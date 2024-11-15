@@ -14,7 +14,7 @@ import './Tips.scss';
 const TipsText = 'Tips & Advice';
 
 export const Tips = (): JSX.Element => {
-    const { data: tips, isLoading, isError } = useQuery(['tips'], () => getTips());
+    const { data: tips } = useQuery(['tips'], () => getTips());
 
     const { t } = useTranslation();
     return (
@@ -22,7 +22,7 @@ export const Tips = (): JSX.Element => {
             description={t('tips_description')}
             keywords={TipsText}
             title={t('tips')}
-            imgSrc="/img/carousel/2.jpeg"
+            imgSrc="/img/carousel/2.webp"
         >
             <Container className="tips-container">
                 <TitleWithLines text={t('essential_tips_and_advice_for_traveling_to_morocco')} />

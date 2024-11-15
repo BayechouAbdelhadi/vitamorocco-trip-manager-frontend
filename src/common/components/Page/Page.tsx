@@ -43,6 +43,7 @@ export const Page = ({
                         <img
                             src={imgSrc}
                             alt={`title-${title}`}
+                            loading='lazy'
                             className='title-img'
                             onError={defaultImage.large.errorHandler}
                         />

@@ -16,6 +16,7 @@ function Logo({ shrinkable = false }: LogoProps) {
             <Box
                 component="img"
                 src="/img/logo-vita-morocco.svg"
+                loading="lazy"
                 alt="logo"
                 sx={{
                     display: shrinkable
@@ -32,6 +33,7 @@ function Logo({ shrinkable = false }: LogoProps) {
                 component="img"
                 src="/img/mini-logo-vita-morocco.svg"
                 alt="logo"
+                loading="lazy"
                 sx={{
                     display: shrinkable
                         ? {
