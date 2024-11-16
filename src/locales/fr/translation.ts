@@ -50,7 +50,7 @@ export const TRANSLATION_FR = {
     CONFIRM_TRANSLATION,
     cookies_policy: {
         title: 'Politique de cookies',
-        text: 'Nous utilisons des cookies pour personnaliser le contenu, fournir des fonctionnalités de médias sociaux et analyser notre trafic. Ce site Web utilise des cookies pour vous garantir la meilleure expérience sur notre site.',
+        text: 'Ce site Web utilise des cookies pour vous garantir la meilleure expérience sur notre site.',
     },
     country: 'Pays',
     customer_testimonials: 'Témoignages clients',
@@ -97,6 +97,7 @@ export const TRANSLATION_FR = {
     Que vous recherchiez l'aventure, la culture, la détente ou une combinaison d'expériences, nous avons ce qu'il vous faut.
     Il vous suffit de nous contacter avec vos idées, et nous créerons l'itinéraire parfait pour vous.`,
     first_name: 'Prénom',
+    full_name: 'Nom et prénom',
     free: 'Gratuit',
     from: 'Depuis',
     from_origin: 'Depuis {{o}}',

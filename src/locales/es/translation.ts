@@ -50,7 +50,7 @@ export const TRANSLATION_ES = {
     CONFIRM_TRANSLATION,
     cookies_policy: {
         title: 'Política de cookies',
-        text: 'Utilizamos cookies para personalizar el contenido, proporcionar funciones de redes sociales y analizar nuestro tráfico. Este sitio web utiliza cookies para garantizar que obtengas la mejor experiencia en nuestro sitio.',
+        text: 'Este sitio web utiliza cookies para garantizar que obtengas la mejor experiencia en nuestro sitio.',
     },
     country: 'País',
     customer_testimonials: 'Testimonios de clientes',
@@ -97,6 +97,7 @@ export const TRANSLATION_ES = {
                                     Ya sea que busque aventura, cultura, relajación o una combinación de experiencias, nosotros nos encargamos.
                                     Simplemente contáctenos con sus ideas y adaptaremos el itinerario perfecto para usted.`,
     first_name: 'Nombre de pila',
+    full_name: 'Nombre completo',
     free: 'Gratis',
     from: 'Desde',
     from_origin: 'Desde {{o}}',

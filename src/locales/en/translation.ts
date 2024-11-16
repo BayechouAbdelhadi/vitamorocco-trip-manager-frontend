@@ -50,7 +50,7 @@ export const TRANSLATION_EN = {
     CONFIRM_TRANSLATION,
     cookies_policy: {
         title: 'Cookies Policy',
-        text: 'We use cookies to personalise content, to provide social media features and to analyse our traffic. This website uses cookies to ensure you get the best experience on our website.',
+        text: 'This website uses cookies to ensure you get the best experience on our website.',
     },
     country: 'Country',
     customer_testimonials: 'Customer Testimonials',
@@ -99,6 +99,7 @@ export const TRANSLATION_EN = {
     we&apos;ve got you covered. Simply reach out to us with your ideas, and we&apos;ll tailor
     the perfect itinerary just for you.`,
     first_name: 'First Name',
+    full_name: 'Full Name',
     free: 'Free',
     from: 'From',
     from_origin: 'From {{o}}',
@@ -186,6 +187,7 @@ export const TRANSLATION_EN = {
     // R
     regime: 'Meal Package',
     return_time: 'Return time',
+    return_date: 'Return date',
     reviews: {
         0: {
             text: 'Vita Morocco delivered an exceptional 10-day trip, exploring Marrakech, Fes, the desert, and Chefchaouen. The diverse itinerary showcased the cultural richness of Morocco. Mohamed, our guide driver, was outstanding, contributing to the overall memorable experience. Highly recommended.',
@@ -229,7 +231,7 @@ export const TRANSLATION_EN = {
     // T
     terms_and_conditions: 'Terms And Conditions',
     the_agreement: `<p>
-                <span>The Agreement :</span><br />
+                <span>The Agreement</span><br />
                 By confirming your trip with VITA MOROCCO, you acknowledge and agree to
                 the following booking conditions outlined below :
             </p>`,

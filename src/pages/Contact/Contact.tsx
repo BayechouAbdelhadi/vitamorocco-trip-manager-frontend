@@ -1,10 +1,8 @@
-import StarIcon from '@mui/icons-material/Star';
 import { Container } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import { DateTimeValidationError, PickerChangeHandlerContext } from '@mui/x-date-pickers';
-import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
+import { DatePicker } from '@mui/x-date-pickers';
 import dayjs, { Dayjs } from 'dayjs';
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -13,15 +11,17 @@ import { Page } from '../../common/components/Page/Page';
 import TextWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 import SelectBox from '../../common/components/select/select';
 import contactService from '../../common/services/contactService';
-import { HousingRegime, HousingType, Contact as Message } from '../../common/types/contact';
+import { HousingType, Contact as Message } from '../../common/types/contact';
+import { HOUSING_TYPES } from './constants';
 import './Contact.scss';
-import { HOUSING_REGIME, HOUSING_TYPES } from './constants';
 
 const ContactText = 'contact.title';
 
-const initialContact: Omit<Message, 'fullName'> & { firstname: string; lastname: string } = {
-    firstname: '',
-    lastname: '',
+const FORMAT_DATE_DD_MM_YYYY = 'DD/MM/YYYY';
+const ARGUMENT_FORMAT_DATE = 'fr-FR';
+
+const initialContact: Message = {
+    fullName: '',
     email: '',
     country: '',
     phoneNumber: '',
@@ -29,12 +29,12 @@ const initialContact: Omit<Message, 'fullName'> & { firstname: string; lastname:
     message: '',
     numberOfAdults: 1,
     numberOfKids: 0,
-    departureDate: new Date().toISOString(),
-    returnDate: new Date().toISOString(),
+    departureDate: new Date().toLocaleDateString(ARGUMENT_FORMAT_DATE),
+    returnDate: new Date().toLocaleDateString(ARGUMENT_FORMAT_DATE),
     housingType: null,
-    housingCategory: null,
-    housingRegime: null,
-    flexibleDates: true,
+    // housingCategory: null,
+    // housingRegime: null,
+    // flexibleDates: true,
 };
 
 export const Contact = (): JSX.Element => {
@@ -70,7 +70,7 @@ interface ContactForm {
     subject?: string;
 }
 export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
-    const { t } = useTranslation(); // 'contact' should match the namespace in your i18n configuration
+    const { t } = useTranslation();
     const { isLoading, isSuccess, isError, mutateAsync } = useMutation(contactService.saveContact);
     const [contactData, setContactData] = useState(initialContact);
 
@@ -82,11 +82,8 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
 
     function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
-        const { firstname, lastname, ...otherContactFields } = contactData;
-
-        const contact: Message = { fullName: `${lastname} ${firstname}`, ...otherContactFields };
-
-        return mutateAsync(contact)
+        
+        return mutateAsync(contactData)
             .then(() => {
                 setContactData(initialContact);
             })
@@ -103,46 +100,27 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
         });
     };
 
-    const handleDepartureDateChange = (
-        value: Dayjs | null,
-        context: PickerChangeHandlerContext<DateTimeValidationError>
-    ) => {
-        setContactData({ ...contactData, departureDate: value?.toISOString() || null });
+    const handleDepartureDateChange = (value: Dayjs | null) => {
+        setContactData({ ...contactData, departureDate: value?.format(FORMAT_DATE_DD_MM_YYYY) || null });
     };
 
-    const handleReturnDateChange = (
-        value: Dayjs | null,
-        context: PickerChangeHandlerContext<DateTimeValidationError>
-    ) => {
-        setContactData({ ...contactData, returnDate: value?.toISOString() || null });
+    const handleReturnDateChange = (value: Dayjs | null) => {
+        setContactData({ ...contactData, returnDate: value?.format(FORMAT_DATE_DD_MM_YYYY) || null });
     };
 
     return (
         <form onSubmit={handleSubmit} className="contact-form">
-            <div className="groupped-fields">
-                <TextField
-                    label={t('first_name')}
-                    required
-                    variant="outlined"
-                    fullWidth
-                    value={contactData.firstname}
-                    onChange={handleInputChange}
-                    margin="normal"
-                    name="firstname"
-                    className="form-field"
-                />
-                <TextField
-                    label={t('last_name')}
-                    required
-                    variant="outlined"
-                    fullWidth
-                    value={contactData.lastname}
-                    onChange={handleInputChange}
-                    margin="normal"
-                    name="lastname"
-                    className="form-field"
-                />
-            </div>
+            <TextField
+                label={t('full_name')}
+                required
+                variant="outlined"
+                fullWidth
+                value={contactData.fullName}
+                onChange={handleInputChange}
+                margin="normal"
+                name="fullName"
+                className="form-field"
+            />
             <TextField
                 label={t('email')}
                 required
@@ -217,20 +195,30 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
                 />
             </div>
             <div className="groupped-fields">
-                <DateTimePicker
+                <DatePicker
                     label={t('departure_date')}
-                    value={dayjs(contactData.departureDate)}
+                    value={dayjs(contactData.departureDate, ARGUMENT_FORMAT_DATE)}
                     onChange={handleDepartureDateChange}
                     className="form-field"
                 />
-                <DateTimePicker
+                <DatePicker
                     label={t('return_date')}
-                    value={dayjs(contactData.returnDate)}
+                    value={dayjs(contactData.returnDate, ARGUMENT_FORMAT_DATE)}
                     onChange={handleReturnDateChange}
                     className="form-field"
                 />
             </div>
-            <div className="groupped-fields">
+            <SelectBox
+                options={HOUSING_TYPES.map((ht) => ({ label: t(`housing_types.${ht}`), value: ht }))}
+                value={contactData.housingType ?? ''}
+                onChange={(value: string) => {
+                    setContactData({ ...contactData, housingType: value as HousingType });
+                }}
+                label={t('accomodation_type')}
+                labelId="housing-type"
+                parentClassName="form-field"
+            />
+            {/* <div className="groupped-fields">
                 <SelectBox
                     options={HOUSING_TYPES.map((ht) => ({ label: t(`housing_types.${ht}`), value: ht }))}
                     value={contactData.housingType ?? ''}
@@ -268,7 +256,7 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
                     labelId="housing-regime"
                     parentClassName="form-field"
                 />
-            </div>
+            </div> */}
             <TextField
                 label={t('message')}
                 variant="outlined"

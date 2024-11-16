@@ -22,11 +22,11 @@ export type Contact = {
 
     housingType: HousingType | null;
 
-    housingCategory: number | null;
+    // housingCategory: number | null;
 
-    housingRegime: HousingRegime | null;
+    // housingRegime: HousingRegime | null;
 
-    flexibleDates: boolean | null;
+    // flexibleDates: boolean | null;
 };
 
 export enum HousingType {

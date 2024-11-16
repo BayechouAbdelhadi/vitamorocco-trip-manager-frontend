@@ -27,9 +27,7 @@ const CookiesNotice: React.FC = () => {
     useEffect(() => {
         // Check if the "cookieAccepted" cookie is set
         const isCookieAccepted = document.cookie.split(';').some((item) => item.trim().startsWith('cookieAccepted=true'));
-        // // if (isCookieAccepted) {
         setCookieState(isCookieAccepted);
-        // }
     }, []);
 
     if (isCookieAccepted) {
@@ -43,7 +41,7 @@ const CookiesNotice: React.FC = () => {
                 <hr style={{ width: "100%" }} />
             </div>
             <p>{t('cookies_policy.text')}</p>
-            <Link to="/faqs" onClick={scrollToTop}>{t('faqs')}</Link>
+            <Link to="/services/faqs" onClick={scrollToTop}>{t('faqs')}</Link>
             <Link to="/services/terms_and_conditions" onClick={scrollToTop}>{t('learn_more')}</Link>
             <Button onClick={handleAccept}>{t('accept_all')}</Button>
             <Button onClick={handleDeny}>{t('refuse_all')}</Button>
