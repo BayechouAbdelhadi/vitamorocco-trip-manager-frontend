@@ -13,6 +13,7 @@ import SelectBox from '../../common/components/select/select';
 import contactService from '../../common/services/contactService';
 import { HousingType, Contact as Message } from '../../common/types/contact';
 import { HOUSING_TYPES } from './constants';
+
 import './Contact.scss';
 
 const ContactText = 'contact.title';
@@ -27,6 +28,7 @@ const initialContact: Message = {
     phoneNumber: '',
     subject: '',
     message: '',
+    refUrl: '',
     numberOfAdults: 1,
     numberOfKids: 0,
     departureDate: new Date().toLocaleDateString(ARGUMENT_FORMAT_DATE),
@@ -66,10 +68,10 @@ export const Contact = (): JSX.Element => {
     );
 };
 
-interface ContactForm {
+interface ContactFormProps {
     subject?: string;
 }
-export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
+export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
     const { t } = useTranslation();
     const { isLoading, isSuccess, isError, mutateAsync } = useMutation(contactService.saveContact);
     const [contactData, setContactData] = useState(initialContact);
@@ -83,13 +85,14 @@ export const ContactForm: React.FC<ContactForm> = ({ subject }) => {
     function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
         
-        return mutateAsync(contactData)
+        return mutateAsync({...contactData, refUrl: window.location.href})
             .then(() => {
                 setContactData(initialContact);
             })
             .catch((err) => {
                 console.log(err);
-            });
+            }
+        );
     }
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

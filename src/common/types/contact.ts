@@ -1,5 +1,6 @@
 export type Contact = {
     id?: string;
+
     fullName: string;
 
     email: string;
@@ -21,6 +22,8 @@ export type Contact = {
     returnDate: string | null;
 
     housingType: HousingType | null;
+
+    refUrl: string | null;
 
     // housingCategory: number | null;
 
