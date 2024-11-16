@@ -7,6 +7,7 @@ import useNavBar from '../../../hooks/front/useNavBar';
 import Logo from '../Logo';
 import MobileNavbarItem from './MobileNavbarItem';
 import LanguagePicker from '../lang';
+
 const drawerWidth = 300;
 
 interface MobileMenuProps {

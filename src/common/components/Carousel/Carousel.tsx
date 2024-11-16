@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Box } from "@mui/material"
+import { Box, useMediaQuery } from "@mui/material"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew'
 import AdjustIcon from '@mui/icons-material/Adjust'
@@ -16,6 +16,7 @@ type ImageSliderProps = {
         title: string
         description: string
         img_src: string
+        img_mobile_src: string
         alt: string
         link: string
     }[],
@@ -29,6 +30,8 @@ export default function Carousel({ images, slideInterval = 6000, maxWidth = '100
     const [isHovered, setIsHovered] = useState(false)
 
     const { t } = useTranslation()
+
+    const isXs = useMediaQuery('(max-width:600px)');
 
     const displayControls = images.length > 1
 
@@ -72,10 +75,10 @@ export default function Carousel({ images, slideInterval = 6000, maxWidth = '100
         >
             <section aria-label="Image Slider" style={{ width: '100%', height: '100%', position: 'relative' }}>
                 <div className="img-slider-container">
-                    {images.map(({ img_src, alt }, index) => (
+                    {images.map(({ img_src, img_mobile_src, alt }, index) => (
                         <div key={img_src} className="img-slider-item">
                             <img
-                                src={img_src}
+                                src={isXs ? img_mobile_src : img_src}
                                 alt={alt}
                                 loading={imageIndex === 0 ? "eager" : "lazy"}
                                 aria-hidden={imageIndex !== index}

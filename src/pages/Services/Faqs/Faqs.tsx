@@ -20,7 +20,7 @@ export const Faqs = (): JSX.Element => {
             description={FaqsText}
             keywords={FaqsText}
             title={FaqsText}
-            imgSrc="/img/faqs/title.jpg"
+            imgSrc="/img/faqs/title.webp"
             className="faqs-container"
         >
             <ol>

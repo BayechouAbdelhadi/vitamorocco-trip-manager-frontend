@@ -4,14 +4,14 @@ import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import React, { useState } from 'react';
 import Logo from '../Logo';
-import MobileMenu from './MobileMenu'; // Import the MobileMenu component
+import MobileMenu from './MobileMenu';
 import NavbarItem from './NavBarItem';
 import useNavBar from '../../../hooks/front/useNavBar';
-
-const mobileMenuId = 'primary-search-account-menu-mobile';
+import LanguagePicker from '../lang';
 
 import './Navbar.scss';
-import LanguagePicker from '../lang';
+
+const mobileMenuId = 'primary-search-account-menu-mobile';
 
 const PrimarySearchAppBar: React.FC = () => {
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState<null | HTMLElement>(null);

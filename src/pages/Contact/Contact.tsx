@@ -38,13 +38,13 @@ const initialContact: Message = {
 };
 
 export const Contact = (): JSX.Element => {
-    const { t } = useTranslation(); // 'contact' should match the namespace in your i18n configuration
+    const { t } = useTranslation();
     return (
         <Page
             description={t(ContactText)}
             keywords={t(ContactText)}
             title={t(ContactText)}
-            imgSrc="img/contact/contact_title.jpg"
+            imgSrc="img/contact/contact_title.webp"
             className="contact-page"
         >
             <Container>

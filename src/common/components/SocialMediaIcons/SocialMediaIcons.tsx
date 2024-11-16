@@ -12,7 +12,7 @@ interface ISocialMediaIcons {
 
 export default function SocialMediaIcons({ displayColumn = false, float = false }: ISocialMediaIcons) {
     const isVisible = useScrollDetection(300);
-    const isXs = useMediaQuery('(max-width:450px)');
+    const isXs = useMediaQuery('(max-width:600px)');
 
     if (!isVisible) return null
 

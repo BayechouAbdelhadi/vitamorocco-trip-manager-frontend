@@ -17,7 +17,7 @@ export const TermsAndConditions = (): JSX.Element => {
             description={ServicesText}
             keywords={ServicesText}
             title={t('terms_and_conditions')}
-            imgSrc={`/img/terms_and_conditions/title.jpg`}
+            imgSrc={`/img/terms_and_conditions/title.webp`}
             className='terms-and-conditions-container'
         >
             {parse(t('the_agreement'))}

@@ -1,5 +1,5 @@
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'; // Import the arrow icon
-import Button from '@mui/material/Button'; // Import Material-UI's Button
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import Button from '@mui/material/Button';
 import parse from 'html-react-parser';
 import { Fragment, useState } from 'react';
 import { useTranslation } from 'react-i18next';

@@ -29,6 +29,7 @@ export const Page = ({
     style,
 }: PropsWithChildren<PageProps>): JSX.Element => {
     const isXs = useMediaQuery('(max-width:600px)');
+    
     return (
         <HelmetProvider>
             <Helmet defaultTitle={app.name} titleTemplate={`${app.name} | %s`}>
