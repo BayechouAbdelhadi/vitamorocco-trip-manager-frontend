@@ -18,16 +18,13 @@ const ShareButton = ({ shareData, ...buttonProps }: SharedButtonProps) => {
         setIsSharingSupported(Boolean(navigator.share));
     }, []);
 
-    const handleShareClick = async () => {
-        if (navigator.share) {
-            try {
-                await navigator.share(shareData);
-            } catch (error) {
-                console.error('Error sharing:', error);
-            }
-        } else {
-            // Fallback behavior for unsupported browsers
-            alert('Sharing is not supported in your browser.');
+    const handleShareClick = async (e: React.MouseEvent<HTMLButtonElement>) => {
+        // to prevent triggering parent click handlers
+        e.stopPropagation()
+        try {
+            await navigator.share(shareData);
+        } catch (error) {
+            console.error('Error sharing:', error);
         }
     };
 

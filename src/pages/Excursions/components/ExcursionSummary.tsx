@@ -16,9 +16,10 @@ import { useNavigate } from 'react-router-dom';
 import { Excursion } from '../../../common/types/excursion';
 import { scrollToTop } from '../../../common/utils';
 import { defaultImage } from '../../../common/utils/imageUtils';
-
 import { useTranslation } from 'react-i18next';
 import { Tour } from '../../../common/types/tour';
+import { CardActions } from '@mui/material';
+import ShareButton from '../../../common/components/Buttons/ShareButton/ShareButton';
 
 interface ExcursionSummaryProps {
     readonly excursion: Excursion | Tour;
@@ -92,20 +93,19 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
                     </li>
                 </ul>
             </CardContent>
-            {/* <CardActions disableSpacing>
-                
-                    <IconButton aria-label="add to favorites">
-                        <FavoriteIcon />
-                    </IconButton>
+            <CardActions disableSpacing>
+                {/* <IconButton aria-label="add to favorites">
+                    <FavoriteIcon />
+                </IconButton> */}
                
                 <ShareButton
                     shareData={{
-                        title: `excursion ${excursion.title}`,
+                        title: `${excursion.title}`,
                         text: 'Check out this link!',
                         url: `${window.location.href}/${excursion.id}`,
                     }}
                 />
-            </CardActions> */}
+            </CardActions>
         </Card>
     );
 }

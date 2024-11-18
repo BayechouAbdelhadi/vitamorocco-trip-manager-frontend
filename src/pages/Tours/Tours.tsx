@@ -23,7 +23,7 @@ export const Tours = (): JSX.Element => {
 
     // we can select an aleatoire index...
     const departureFromCityTitle = origin ? `${t('from')} ${tours?.[0].departureCity}` : ""
-    const departureFromCityImg = origin ? `${tours?.[0].id}/${tours?.[0].titleImg}` : "tours_title.webp"
+    // const departureFromCityImg = origin ? `${tours?.[0].id}/${tours?.[0].titleImg}` : "tours_title.webp"
 
     return (
         <Page
