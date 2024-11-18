@@ -56,6 +56,7 @@ export const TRANSLATION_FR = {
     customer_testimonials: 'Témoignages clients',
     // D
     date: 'Date',
+    day: 'Jour',
     departure_date: 'Date de départ',
     description: 'Description',
     destination: 'Destination',
@@ -160,6 +161,7 @@ export const TRANSLATION_FR = {
             "Explorez les moments mémorables capturés tout au long de nos voyages. Les témoignages visuels et narratifs vous invitent à revivre l'essence de chaque destination, créant une galerie unique d'expériences partagées. Découvrez les trésors visuels qui donnent vie à nos aventures et capturent l'essence de chaque voyage.",
     },
     // N
+    nights: 'Nuits',
     number_of_kids: 'Enfants',
     number_of_adults: 'Adultes',
     // O

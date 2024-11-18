@@ -35,9 +35,7 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
     const { t } = useTranslation();
 
     const duration =
-        type === 'tours'
-            ? `${excursion?.duration} ${excursion?.durationUnit}s / ${excursion?.duration - 1} Nights`
-            : `1 Day`;
+        type === 'tours'? `${excursion?.duration} ${t(excursion?.durationUnit)}s / ${excursion?.duration - 1} ${t('nights')}` : `1 ${t('day')}`;
 
     return (
         <Card className="excursion-summary-card-container" onClick={goToExcursion}>

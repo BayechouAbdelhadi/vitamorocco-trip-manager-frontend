@@ -56,6 +56,7 @@ export const TRANSLATION_EN = {
     customer_testimonials: 'Customer Testimonials',
     // D
     date: 'Date',
+    day: 'Day',
     departure_date: 'Departure date',
     description: 'Description',
     destination: 'Destination',
@@ -162,6 +163,7 @@ export const TRANSLATION_EN = {
     },
     message: 'Message',
     // N
+    nights: 'Nights',
     number_of_kids: 'Kids',
     number_of_adults: 'Adults',
     // O
