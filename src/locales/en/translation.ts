@@ -43,7 +43,7 @@ export const TRANSLATION_EN = {
         message: 'Please fill out the form',
         error_message: 'Could not send your message please contact us on whatsapp',
         success_message: `Thank you for contacting us. Your message has been received. You can expect to receive a response
-        within 24 hours at the email address you provided.`,
+        within 24 hours at the email address you provided.<br/><br/> If you don't receive a response within this timeframe, please check your SPAM or junk mail folder, as our email may have been filtered there.`,
         to_reserv_trip_message: 'Contact us to transform your travel dreams into reality !',
         to_reserve_activity_message: 'Contact us to transform your activity dreams into reality !',
     },

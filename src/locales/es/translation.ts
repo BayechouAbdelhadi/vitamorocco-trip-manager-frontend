@@ -41,8 +41,7 @@ export const TRANSLATION_ES = {
     contact: {
         title: 'Contacto',
         error_message: 'No se pudo enviar su mensaje. Por favor, contáctenos en WhatsApp.',
-        success_message:
-            'Gracias por contactarnos. Hemos recibido su mensaje. Espere recibir una respuesta dentro de las 24 horas en la dirección de correo electrónico proporcionada.',
+        success_message: 'Gracias por contactarnos. Hemos recibido su mensaje. Espere recibir una respuesta dentro de las 24 horas en la dirección de correo electrónico proporcionada.<br/><br/> Si no recibe una respuesta dentro de este tiempo, por favor revise su carpeta de SPAM o correo no deseado, ya que nuestro correo podría haber sido filtrado allí.',
         message: 'Por favor, completa el formulario para contactarnos',
         to_reserv_trip_message: '¡Contáctenos para convertir sus sueños de viaje en realidad!',
         to_reserve_activity_message: '¡Contáctenos para convertir sus sueños de actividades en realidad!',

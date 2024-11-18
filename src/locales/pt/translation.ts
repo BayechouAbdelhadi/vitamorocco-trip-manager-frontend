@@ -41,8 +41,7 @@ export const TRANSLATION_PT = {
     contact: {
         title: 'Contato',
         error_message: 'Não foi possível enviar sua mensagem. Por favor, entre em contato conosco no WhatsApp.',
-        success_message:
-            'Obrigado por entrar em contato. Sua mensagem foi recebida. Você pode esperar receber uma resposta dentro de 24 horas no endereço de e-mail fornecido.',
+        success_message: 'Obrigado por entrar em contato. Sua mensagem foi recebida. Você pode esperar receber uma resposta dentro de 24 horas no endereço de e-mail fornecido.<br/><br/> Se não receber uma resposta nesse prazo, verifique sua pasta de SPAM ou de lixo eletrônico, pois nosso e-mail pode ter sido filtrado para lá.',
         message: 'Por favor, preencha o formulário para entrar em contato conosco',
         to_reserv_trip_message: 'Entre em contato conosco para transformar seus sonhos de viagem em realidade!',
         to_reserve_activity_message: 'Entre em contato conosco para transformar seus sonhos de atividades em realidade!',

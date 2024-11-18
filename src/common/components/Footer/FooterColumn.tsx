@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { HashLink } from 'react-router-hash-link';
 import { NavItem } from '../Header/constants';
 import Logo from '../Logo';
-
 import parse from 'html-react-parser';
+
 import './FooterColumn.scss';
 
 function FooterLink({ text, href, is_blank_target: isBlankTarget = false }: NavItem) {

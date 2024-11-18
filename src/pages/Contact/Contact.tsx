@@ -1,4 +1,5 @@
-import { Container } from '@mui/material';
+import parse from 'html-react-parser';
+import { CircularProgress, Container } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
@@ -274,7 +275,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
             />{' '}
             {isSuccess && (
                 <Alert severity="success" variant="outlined" style={{ marginBottom: 5 }}>
-                    {t('contact.success_message')}{' '}
+                    {parse(t('contact.success_message'))}{' '}
                 </Alert>
             )}
             {isError && (
@@ -288,6 +289,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
                 </Alert>
             )}
             <Button type="submit" variant="contained" color="primary" disabled={isLoading}>
+                {isLoading && <CircularProgress size="1rem" style={{ marginRight: "0.5rem"}}/>}
                 {t('submit')}
             </Button>
         </form>

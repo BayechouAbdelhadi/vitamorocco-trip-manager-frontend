@@ -42,7 +42,7 @@ export const TRANSLATION_FR = {
         title: 'Contact',
         error_message: "Impossible d'envoyer votre message. Veuillez nous contacter sur WhatsApp.",
         success_message:
-            "Merci de nous avoir contactés. Votre message a bien été reçu. Vous pouvez vous attendre à recevoir une réponse dans les 24 heures à l'adresse e-mail que vous avez fournie.",
+            "Merci de nous avoir contactés. Votre message a bien été reçu. Vous pouvez vous attendre à recevoir une réponse dans les 24 heures à l'adresse e-mail que vous avez fournie.<br/><br/> Si vous ne recevez pas de réponse dans ce délai, veuillez vérifier votre dossier SPAM ou courrier indésirable, car notre e-mail peut y avoir été filtré.",
         message: 'Veuillez remplir le formulaire',
         to_reserv_trip_message: 'Contactez-nous pour transformer vos rêves de voyage en réalité !',
         to_reserve_activity_message: "Contactez-nous pour transformer vos rêves d'activités en réalité !",
