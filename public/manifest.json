@@ -1,55 +1,76 @@
 {
-  "background_color": "#ffffff",
-  "categories": ["React", "starter", "application"],
-  "description": "React starter application.",
-  "dir": "ltr",
-  "display": "standalone",
-  "iarc_rating_id": "",
-  "icons": [],
-  "lang": "en-US",
-  "name": "React Starter",
-  "orientation": "any",
-  "prefer_related_applications": false,
-  "related_applications": [
-    {
-      "platform": "webapp",
-      "url": "https://example.com"
-    },
-    {
-      "id": "com.example",
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=com.example"
-    },
-    {
-      "platform": "itunes",
-      "url": "https://apps.apple.com/us/app/example/id0123456789"
-    }
-  ],
-  "scope": ".",
-  "screenshots": [
-    {
-      "sizes": "512x512",
-      "src": "static/images/icons/manifest-icon-512.png",
-      "type": "image/png"
-    }
-  ],
-  "short_name": "RS",
-  "shortcuts": [
-    {
-      "description": "React starter application.",
-      "icons": [
-        {
-          "purpose": "maskable any",
-          "sizes": "512x512",
-          "src": "static/images/icons/manifest-icon-512.png",
-          "type": "image/png"
-        }
-      ],
-      "name": "React Starter",
-      "short_name": "RS",
-      "url": "/"
-    }
-  ],
-  "start_url": ".",
-  "theme_color": "#ffffff"
-}
+    "background_color": "#ffffff",
+    "categories": ["travel", "tours", "excursions", "Morocco", "adventure"],
+    "description": "VITA MOROCCO is your ultimate travel companion for exploring the enchanting landscapes, vibrant cultures, and rich traditions of Morocco.",
+    "dir": "ltr",
+    "display": "standalone",
+    "iarc_rating_id": "",
+    "icons": [
+      {
+        "src": "/img/mini-logo-vita-morocco-white.svg",
+        "sizes": "192x192",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/img/mini-logo-vita-morocco-white.svg",
+        "sizes": "512x512",
+        "type": "image/svg+xml"
+      }
+    ],
+    "lang": "en-US",
+    "name": "VITA MOROCCO - Explore Morocco",
+    "orientation": "portrait",
+    "prefer_related_applications": false,
+    "related_applications": [
+      {
+        "platform": "webapp",
+        "url": "https://www.vitamorocco.com"
+      },
+      {
+        "platform": "webapp",
+        "url": "https://www.vitamarruecos.com"
+      }
+    ],
+    "scope": "/",
+    "screenshots": [
+      {
+        "sizes": "512x512",
+        "src": "/img/mini-logo-vita-morocco-white.svg",
+        "type": "image/svg+xml"
+      }
+    ],
+    "short_name": "VITA",
+    "shortcuts": [
+      {
+        "name": "Plan Your Morocco Adventure",
+        "short_name": "Plan Adventure",
+        "description": "Start exploring Morocco's top destinations and tours.",
+        "url": "/tours",
+        "icons": [
+          {
+            "src": "/img/mini-logo-vita-morocco-white.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any"
+          }
+        ]
+      },
+      {
+        "name": "View Excursions",
+        "short_name": "Excursions",
+        "description": "Discover curated excursions in Morocco.",
+        "url": "/excursions",
+        "icons": [
+          {
+            "src": "/img/mini-logo-vita-morocco-white.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any"
+          }
+        ]
+      }
+    ],
+    "start_url": "/?utm_source=webapp_manifest",
+    "theme_color": "#ff6600"
+  }
+  
