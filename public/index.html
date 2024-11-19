@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="robots" content="index, follow" />
-  
-  
+
   <meta name="author" content="VITA MOROCCO Team" />
   <meta name="keywords" content="Morocco travel, Morocco tours, Morocco excursions, Moroccan culture, Moroccan traditions, 
   travel to Morocco, explore Morocco, Moroccan landscapes, adventure in Morocco, Moroccan travel guide, Sahara desert tours, 
@@ -18,7 +17,6 @@
   excursiones en Marrakech, excursiones en Fez, trekking en las montañas del Atlas, experiencias de viaje Marruecos, 
   viajes culturales Marruecos, vacaciones en Marruecos, agencia de viajes Marruecos, descubre Marruecos" />
 
-
   <meta name="description" content="VITA MOROCCO is your ultimate travel companion for exploring the enchanting landscapes, 
   vibrant cultures, and rich traditions of Morocco. Our mission is to inspire travelers to venture beyond their comfort zones,
   immersing themselves in the unique beauty and diversity that Morocco has to offer." />
@@ -26,9 +24,12 @@
   <link rel="canonical" href="https://www.vitamorocco.com/" />
   <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/img/mini-logo-vita-morocco-white.svg">
   <link rel="shortcut icon" type="image/svg+xml" href="%PUBLIC_URL%/img/mini-logo-vita-morocco-white.svg">
-  
-  <link rel="preload" as="image" fetchpriority="high" href="%PUBLIC_URL%/img/carousel/1.webp" media="(min-width: 600px)" type="image/webp" />
-  <link rel="preload" as="image" fetchpriority="high" href="%PUBLIC_URL%/img/carousel/1_mobile.webp" media="(max-width: 600px)" type="image/webp" />
+
+  <!-- <link rel="preload" as="image" fetchpriority="high" href="%PUBLIC_URL%/img/carousel/1.webp" media="(min-width: 600px)"
+    type="image/webp" />
+  <link rel="preload" as="image" fetchpriority="high" href="%PUBLIC_URL%/img/carousel/1_mobile.webp"
+    media="(max-width: 600px)" type="image/webp" /> -->
+
   <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css" crossorigin="anonymous"/> -->
   <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -53,6 +54,12 @@
   <meta property="og:type" content="website" />
 
 </head>
+
+<!-- Trip Advisor Bravo Widget (added in Footer) -->
+<script async
+  src="https://www.tripadvisor.com/WidgetEmbed-excellent?amp;locationId=26194088&amp;lang=en&amp;display_version=2&amp;uniq=472"
+  data-loadtrk></script>
+
 <!--Start of Tawk.to Script-->
 <script defer type="text/javascript">
   var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -83,7 +90,7 @@
     "name": "VITA MOROCCO",
     "description": "Your ultimate travel companion for exploring the enchanting landscapes, vibrant cultures, and rich traditions of Morocco.",
     "url": "https://www.vitamorocco.com/",
-    "logo": "/img/mini-logo-vita-morocco-white.svg",
+    "logo": "%PUBLIC_URL%/img/mini-logo-vita-morocco-white.svg",
     "sameAs": [
       "https://www.facebook.com/vitamorocco",
       "https://www.instagram.com/vitamorocco"
@@ -94,7 +101,7 @@
       "addressCountry": "Morocco"
     }
   }
-  </script>
+</script>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>

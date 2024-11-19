@@ -80,7 +80,7 @@ export default function Carousel({ images, slideInterval = 6000, maxWidth = '100
                             <img
                                 src={isXs ? img_mobile_src : img_src}
                                 alt={alt}
-                                loading={imageIndex === 0 ? "eager" : "lazy"}
+                                // loading={imageIndex === 0 ? "eager" : "lazy"}
                                 aria-hidden={imageIndex !== index}
                                 className="img-slider-img"
                                 style={{ translate: `${-100 * imageIndex}%` }}

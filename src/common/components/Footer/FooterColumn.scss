@@ -10,6 +10,14 @@
         transition: all 0.3s;
         color: $primary-color
     }
+
+
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
 }
 
 .arrow-icon {

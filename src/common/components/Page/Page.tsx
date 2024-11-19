@@ -1,12 +1,12 @@
 import { Typography } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
-
 import { PropsWithChildren, ReactNode } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { app } from '../../constants/appConstants';
 import { LayoutContainerProps } from '../LayoutContainer/LayoutContainer';
-import './Page.scss';
 import { defaultImage } from '../../utils/imageUtils';
+
+import './Page.scss';
 
 interface PageProps extends LayoutContainerProps {
     description: string;
@@ -29,7 +29,7 @@ export const Page = ({
     style,
 }: PropsWithChildren<PageProps>): JSX.Element => {
     const isXs = useMediaQuery('(max-width:600px)');
-    
+
     return (
         <HelmetProvider>
             <Helmet defaultTitle={app.name} titleTemplate={`${app.name} | %s`}>

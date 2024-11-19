@@ -34,7 +34,15 @@ function FooterColumn({ navItem: { text, is_logo: isLogo = false, dropdown = [] 
     return (
         <div>
             <div className="column-title" onClick={() => setExpanded(!expanded)}>
-                {text ? <h3>{parse(typeof text === 'string' ? t(text) : t(text.key, text.args))}</h3> : <Logo />}
+                {text ?
+                    <h3>{parse(typeof text === 'string' ? t(text) : t(text.key, text.args))}</h3>
+                    :
+                    <div className="logo-container">
+                        <Logo />
+                        {/* Trip Advisor Bravo Widget */}
+                        <div id="TA_excellent472" className="TA_excellent"></div>
+                    </div>
+                }
 
                 {!isLogo && dropdown.length != 0 && (
                     <ExpandIcon
