@@ -6,9 +6,7 @@ import ScrollToTopButton from '../Buttons/ScrollToTopButton';
 import { ErrorBoundarySuspense } from '../ErrorBoundarySuspense/ErrorBoundarySuspense';
 import SocialMediaIcons from '../SocialMediaIcons';
 
-import { Footer } from '../Footer/Footer';
-// const Footer = lazyComponent('Footer', import('../Footer/Footer'));
-
+const Footer = lazyComponent('Footer', import('../Footer/Footer'));
 const Header = lazyComponent('Header', import('../Header/Header'));
 
 import './MainLayout.scss';
