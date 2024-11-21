@@ -17,6 +17,7 @@ export const Activities = (): JSX.Element => {
         <Page
             description={ActivitiesText}
             keywords={ActivitiesText}
+            elements={<link rel="canonical" href={window.location.href} />}
             title={t('activities.title')}
             imgSrc="/img/activities/activity_title.webp"
         >

@@ -21,6 +21,7 @@ export const Tips = (): JSX.Element => {
         <Page
             description={t('tips_description')}
             keywords={TipsText}
+            elements={<link rel="canonical" href={window.location.href} />}
             title={t('tips')}
             imgSrc="/img/carousel/2.webp"
         >

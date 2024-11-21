@@ -20,6 +20,7 @@ export const Excursions = (): JSX.Element => {
         <Page
             description={t('excursions_description')}
             keywords={ExcursionsText}
+            elements={<link rel="canonical" href={window.location.href} />}
             title={t('excursions_and_day_trips')}
             imgSrc='img/excursions/excursions_title.webp'
             className='excursions-page-container'

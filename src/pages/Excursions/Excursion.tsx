@@ -39,6 +39,7 @@ export const Excursion = (): JSX.Element => {
             description={excursion?.description ?? excursionTitle}
             keywords={excursionTitle}
             title={excursionTitle}
+            elements={<link rel="canonical" href={window.location.href} />}
             imgSrc={`/img/excursions/${excursion?.id}/${excursion?.titleImg}`}
             className="excursion-detail"
         >

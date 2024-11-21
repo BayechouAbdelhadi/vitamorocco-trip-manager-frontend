@@ -47,6 +47,7 @@ export const Contact = (): JSX.Element => {
             description={t(ContactText)}
             keywords={t(ContactText)}
             title={t(ContactText)}
+            elements={<link rel="canonical" href={window.location.href} />}
             imgSrc="img/contact/contact_title.webp"
             className="contact-page"
         >
@@ -85,15 +86,15 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
 
     function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
-        
-        return mutateAsync({...contactData, refUrl: window.location.href})
+
+        return mutateAsync({ ...contactData, refUrl: window.location.href })
             .then(() => {
                 setContactData(initialContact);
             })
             .catch((err) => {
                 console.log(err);
             }
-        );
+            );
     }
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -289,7 +290,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
                 </Alert>
             )}
             <Button type="submit" variant="contained" color="primary" disabled={isLoading}>
-                {isLoading && <CircularProgress size="1rem" style={{ marginRight: "0.5rem"}}/>}
+                {isLoading && <CircularProgress size="1rem" style={{ marginRight: "0.5rem" }} />}
                 {t('submit')}
             </Button>
         </form>

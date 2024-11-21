@@ -20,6 +20,7 @@ export const Faqs = (): JSX.Element => {
             description={FaqsText}
             keywords={FaqsText}
             title={FaqsText}
+            elements={<link rel="canonical" href={window.location.href} />}
             imgSrc="/img/faqs/title.webp"
             className="faqs-container"
         >

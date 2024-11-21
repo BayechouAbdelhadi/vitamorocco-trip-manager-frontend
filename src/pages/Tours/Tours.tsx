@@ -29,6 +29,7 @@ export const Tours = (): JSX.Element => {
         <Page
             description={t('tours_description')}
             keywords={ToursText}
+            elements={<link rel="canonical" href={window.location.href} />}
             title={`${t('tours_and_itineraries')} ${departureFromCityTitle}`}
             // imgSrc={`/img/tours/${departureFromCityImg}`}
             imgSrc={`/img/tours/tours_title.webp`}

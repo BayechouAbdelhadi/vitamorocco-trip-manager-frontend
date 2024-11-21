@@ -11,11 +11,12 @@ import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import { useNavigate } from 'react-router-dom';
-
 import { useTranslation } from 'react-i18next';
 import { Activity } from '../../common/types/activity';
 import { scrollToTop } from '../../common/utils';
 import { defaultImage } from '../../common/utils/imageUtils';
+import { CardActions } from '@mui/material';
+import ShareButton from '../../common/components/Buttons/ShareButton/ShareButton';
 
 interface ActivitySummaryProps {
     readonly activity: Activity;
@@ -78,20 +79,20 @@ export default function ActivitySummary({ activity }: ActivitySummaryProps): JSX
                     </li>
                 </ul>
             </CardContent>
-            {/* <CardActions disableSpacing>
-                
-                    <IconButton aria-label="add to favorites">
+            <CardActions disableSpacing>
+
+                {/* <IconButton aria-label="add to favorites">
                         <FavoriteIcon />
-                    </IconButton>
-               
+                    </IconButton> */}
+
                 <ShareButton
                     shareData={{
-                        title: `excursion ${excursion.title}`,
+                        title: `${activity.title}`,
                         text: 'Check out this link!',
-                        url: `${window.location.href}/${excursion.id}`,
+                        url: `${window.location.href}/${activity.id}`,
                     }}
                 />
-            </CardActions> */}
+            </CardActions>
         </Card>
     );
 }

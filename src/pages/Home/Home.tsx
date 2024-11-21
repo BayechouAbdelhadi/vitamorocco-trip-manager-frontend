@@ -40,7 +40,13 @@ export const Home = (): JSX.Element => {
     const homeText = 'Home';
 
     return (
-        <Page description={homeText} keywords={homeText} title={homeText} displayTitle={false}>
+        <Page
+            description={homeText}
+            keywords={homeText}
+            title={homeText}
+            displayTitle={false}
+            elements={<link rel="canonical" href={window.location.href} />}
+        >
             <Carousel images={IMAGES} />
             <div style={{ width: '100%', maxWidth: '1400px', padding: '0px 30px' }}>
                 <Welcome />
