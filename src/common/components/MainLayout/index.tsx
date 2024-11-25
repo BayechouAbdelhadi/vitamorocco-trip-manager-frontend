@@ -6,14 +6,15 @@ import { ErrorBoundarySuspense } from '../ErrorBoundarySuspense/ErrorBoundarySus
 import SocialMediaIcons from '../SocialMediaIcons';
 
 const Footer = lazyComponent('Footer', import('../Footer/Footer'));
-// const Header = lazyComponent('Header', import('../Header/Header'));
-import { Header } from '../Header/Header';
+const Header = lazyComponent('Header', import('../Header/Header'));
 
 import './MainLayout.scss';
 
 export const MainLayout = ({ children }: PropsWithChildren<Record<string, unknown>>): JSX.Element => (
     <div className="main-container">
-        <Header />
+        <ErrorBoundarySuspense>
+            <Header />
+        </ErrorBoundarySuspense>
         <ErrorBoundarySuspense>
             <SocialMediaIcons float />
         </ErrorBoundarySuspense>

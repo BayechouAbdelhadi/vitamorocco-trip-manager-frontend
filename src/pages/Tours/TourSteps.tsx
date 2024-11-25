@@ -27,15 +27,11 @@ export const TourSteps = ({ steps = [] }: TourStepsProps) => {
                             steps.map((step, index) => (
                                 <li key={step.title}>
                                     <Accordion key={step.title}>
-                                        <AccordionSummary
-                                            expandIcon={<ExpandMoreIcon />}
-                                            aria-controls="panel1-content"
-                                            id="panel1-header"
-                                        >
+                                        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1-content" id="panel1-header">
                                             <strong>Day {index + 1} :</strong>&nbsp;{step.title}
                                         </AccordionSummary>
                                         <AccordionDetails>
-                                            <em>{parse(step.description)}</em>
+                                            {parse(step.description)}
                                         </AccordionDetails>
                                     </Accordion>
                                 </li>
