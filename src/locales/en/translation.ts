@@ -207,6 +207,7 @@ export const TRANSLATION_EN = {
     refuse_all: 'Refuse All',
     // S
     see_more: 'See more',
+    see_more_on_trip_advisor: 'See more on TripAdvisor',
     starting_location: 'Starting Location',
     services: {
         activities: {
