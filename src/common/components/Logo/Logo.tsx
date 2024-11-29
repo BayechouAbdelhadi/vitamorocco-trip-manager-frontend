@@ -1,7 +1,8 @@
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
-import './Logo.scss';
 import { scrollToTop } from '../../utils';
+
+import './Logo.scss';
 
 interface LogoProps {
     shrinkable?: boolean;

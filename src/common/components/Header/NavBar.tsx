@@ -32,15 +32,9 @@ const PrimarySearchAppBar: React.FC = () => {
                         maxWidth: { md: '80%', lg: '60%', xs: '100%' },
                     }}
                 >
-                    <Logo />
-                    <Box sx={{ display: { xs: 'none', md: 'flex', justifyContent: 'space-between' } }}>
-                        {navLinks.map((navBarItem) => (
-                            <NavbarItem key={navBarItem.id} navBarItem={navBarItem} type={'laptop'} />
-                        ))}
-                        <LanguagePicker className="lang-picker" />
-                    </Box>
+                    {/* NavBar mobile screen */}
                     <Box
-                        sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}
+                        sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-start' }}
                         className="mobile-menu-button-container"
                     >
                         <IconButton
@@ -53,6 +47,14 @@ const PrimarySearchAppBar: React.FC = () => {
                         >
                             <MenuIcon />
                         </IconButton>
+                    </Box>
+                    <Logo />
+                    {/* NavBar large screen */}
+                    <Box sx={{ display: { xs: 'none', md: 'flex', justifyContent: 'space-between' } }}>
+                        {navLinks.map((navBarItem) => (
+                            <NavbarItem key={navBarItem.id} navBarItem={navBarItem} type={'laptop'} />
+                        ))}
+                        <LanguagePicker className="lang-picker" />
                     </Box>
                 </Toolbar>
             </div>
