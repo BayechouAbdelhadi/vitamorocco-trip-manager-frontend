@@ -41,8 +41,6 @@ export const Home = (): JSX.Element => {
 
     return (
         <Page
-            description={homeText}
-            keywords={homeText}
             title={homeText}
             displayTitle={false}
             elements={<link rel="canonical" href={window.location.href} />}

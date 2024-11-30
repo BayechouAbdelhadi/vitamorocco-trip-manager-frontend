@@ -9,9 +9,9 @@ export const _12_13_days_grand_tour_of_morocco: TourMock = {
         pt: 'Grande Tour de 13 dias pelo Marrocos',
         ar: 'جولة كبرى في المغرب لمدة 13 يومًا',
     },
-    summaryImg: 'summary.jpg',
-    titleImg: 'title.jpg',
-    descriptionImg: 'description.jpg',
+    summaryImg: 'summary.webp',
+    titleImg: 'title.webp',
+    descriptionImg: 'description.webp',
     description: {
         en: `VITA MOROCCO offers to its clients the best Tours in Morocco and make their trips easy and
             enjoyable. Itinerary of the 13-days Tour from Marrakech to Marrakech, (13 days/12 nights), it

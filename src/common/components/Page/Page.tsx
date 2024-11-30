@@ -9,7 +9,7 @@ import { defaultImage } from '../../utils/imageUtils';
 import './Page.scss';
 
 interface PageProps extends LayoutContainerProps {
-    description: string;
+    description?: string;
     elements?: ReactNode;
     keywords?: string;
     title: string;
@@ -33,7 +33,7 @@ export const Page = ({
     return (
         <HelmetProvider>
             <Helmet defaultTitle={app.name} titleTemplate={`${app.name} | %s`}>
-                <meta name="description" content={description} />
+                {description && <meta name="description" content={description} />}
                 {keywords && <meta name="keywords" content={keywords} />}
                 <title>{title}</title>
                 {elements}

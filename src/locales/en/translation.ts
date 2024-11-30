@@ -77,7 +77,6 @@ export const TRANSLATION_EN = {
         food_drink: 'Lunch & drinks.',
         monuments_entrance: 'Monuments Fees.',
         tip_propina: 'Tips',
-        What_s_not_mentioned_in_included: "What's not mentioned in included",
     },
     excursions: 'Excursions',
     excursions_and_day_trips: 'Excursions & Day Trips',
@@ -180,6 +179,11 @@ export const TRANSLATION_EN = {
     popular_excursions: 'Popular Excursions',
     popular_tours: 'Popular Tours',
     pricing: 'Pricing',
+    pricing_tour_description: `<p>Consult us according to season and number of travellers.</p>
+                    <p>
+                        The Tour can be adapted to your interests, also modifying the departure and arrival
+                        points, don&apos;t miss it !
+                    </p>`,
     price: 'Price',
     pricing_message:
         'The price depends on the number of participants. Below we indicate the prices according to participants. Make up your mind and contact us',

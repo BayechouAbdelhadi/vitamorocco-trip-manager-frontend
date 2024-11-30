@@ -177,6 +177,10 @@ export const TRANSLATION_ES = {
     popular_excursions: 'Excursiones Populares',
     popular_tours: 'Tours Populares',
     pricing: 'Tarificación',
+    pricing_tour_description: `<p>Consúltanos según la temporada y el número de viajeros.</p>
+                            <p>
+                                El tour puede adaptarse a tus intereses, modificando también los puntos de partida y llegada. ¡No te lo pierdas!
+                            </p>`,
     price: 'Precio',
     pricing_message:
         'El precio depende del número de participantes. A continuación, indicamos los precios según los participantes. Decídase y contáctenos',

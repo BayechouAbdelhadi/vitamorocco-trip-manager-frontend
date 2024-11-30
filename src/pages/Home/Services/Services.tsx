@@ -13,7 +13,7 @@ function Services() {
     return (
         <>
             <TextWithLines text={t('our_services')} />
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', gap: '1.5rem', padding: '1rem' }}>
+            <div className="services-container">
                 {SERVICES.map(service =>
                     <div key={service.img} className="service-card">
                         <img

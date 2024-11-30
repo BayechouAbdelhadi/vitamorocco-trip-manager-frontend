@@ -28,7 +28,7 @@ export const TourSteps = ({ steps = [] }: TourStepsProps) => {
                                 <li key={step.title}>
                                     <Accordion key={step.title}>
                                         <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1-content" id="panel1-header">
-                                            <strong>Day {index + 1} :</strong>&nbsp;{step.title}
+                                            <strong>{t('day')} {index + 1} :</strong>&nbsp;{step.title}
                                         </AccordionSummary>
                                         <AccordionDetails>
                                             {parse(step.description)}

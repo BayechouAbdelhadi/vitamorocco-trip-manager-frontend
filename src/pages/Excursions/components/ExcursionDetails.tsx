@@ -22,7 +22,7 @@ export const ExcursionDetails = ({ excursion, type = 'excursions' }: ExcursionDe
 
     const duration =
         type === 'tours'
-            ? `${excursion?.duration} ${excursion?.durationUnit}s / ${excursion?.duration - 1} ${t('nights')}`
+            ? `${excursion?.duration} ${t(excursion?.durationUnit)}s / ${excursion?.duration - 1} ${t('nights')}`
             : `1 ${t('day')}`;
 
     return (
