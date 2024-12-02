@@ -1,5 +1,9 @@
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Accordion, AccordionDetails, AccordionSummary, Container, Typography } from '@mui/material';
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
 import parse from 'html-react-parser';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
@@ -7,8 +11,8 @@ import { useQuery } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
 import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 import { getTips } from '../../common/services/tipService';
-
 import { currentLanguage } from '../../common/utils';
+
 import './Tips.scss';
 
 const TipsText = 'Tips & Advice';
@@ -21,7 +25,12 @@ export const Tips = (): JSX.Element => {
         <Page
             description={t('tips_description')}
             keywords={TipsText}
-            elements={<link rel="canonical" href={window.location.href} />}
+            elements={
+                <>
+                    <link rel="canonical" href={window.location.href} />
+                    <link rel="preload" as="image" href="/img/carousel/2.webp" type="image/webp" />
+                </>
+            }
             title={t('tips')}
             imgSrc="/img/carousel/2.webp"
         >

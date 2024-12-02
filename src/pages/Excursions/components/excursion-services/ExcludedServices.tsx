@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { EXCLUDED_SERVICES } from '../../constant';
-import { Typography } from '@mui/material';
+import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import PanedSection from '../../../../common/components/panes/SectionedPanes';
 

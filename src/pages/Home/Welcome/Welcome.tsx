@@ -1,7 +1,8 @@
-import './Welcome.scss'
 import TextWithLines from '../../../common/components/QuiltedImageList/TitleWithLines';
 import { useTranslation } from 'react-i18next';
 import parse from 'html-react-parser';
+
+import './Welcome.scss';
 
 function Welcome() {
     const { t } = useTranslation();

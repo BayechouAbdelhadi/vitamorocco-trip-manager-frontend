@@ -1,4 +1,4 @@
-import { Box } from '@mui/material';
+import Box from '@mui/material/Box';
 import { Link } from 'react-router-dom';
 import { scrollToTop } from '../../utils';
 

@@ -1,7 +1,7 @@
-import { Button } from "@mui/material";
+import Button from "@mui/material/Button";
 import TextWithLines from "../../../common/components/QuiltedImageList/TitleWithLines";
 import { defaultImage } from "../../../common/utils/imageUtils";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { scrollToTop } from "../../../common/utils";
 
@@ -9,13 +9,22 @@ import './Services.scss'
 
 
 function Services() {
+    const navigate = useNavigate();
+    const goToService = (serviceUri: string) => {
+        navigate(`./${serviceUri}`, { relative: 'path' });
+        scrollToTop();
+    };
+
     const { t } = useTranslation();
+
+
+
     return (
         <>
             <TextWithLines text={t('our_services')} />
             <div className="services-container">
                 {SERVICES.map(service =>
-                    <div key={service.img} className="service-card">
+                    <div key={service.img} className="service-card" onClick={() => goToService(service.title)}>
                         <img
                             className="service-card-img"
                             src={service.img}
@@ -28,7 +37,9 @@ function Services() {
                         <div className="service-card-information">
                             <h2><em>{t(`services.${service.title}.title`)}</em></h2>
                             <p>{t(`services.${service.title}.description`)}</p>
-                            <Button component={Link} to={`/${service.title}`} onClick={scrollToTop}>{t('see_more')}</Button>
+                            <Button component={Link} to={`/${service.title}`} onClick={scrollToTop}>
+                                {t('see_more')} {t(`services.${service.title}.title`)}
+                            </Button>
                         </div>
                     </div>
                 )}

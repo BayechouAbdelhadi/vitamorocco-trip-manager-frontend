@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
-import { Box, useMediaQuery } from "@mui/material"
+import Box from "@mui/material/Box"
+import useMediaQuery from "@mui/material/useMediaQuery"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew'
 import AdjustIcon from '@mui/icons-material/Adjust'

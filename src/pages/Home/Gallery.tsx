@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import QuiltedImageList from '../../common/components/QuiltedImageList'
 import TextWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
-import { Button, Typography } from '@mui/material';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 import { useTranslation } from 'react-i18next';
+import { scrollToTop } from '../../common/utils';
 
 export default function Gallery() {
     const { t } = useTranslation();
@@ -16,7 +18,9 @@ export default function Gallery() {
                 lineHeight: 2.5
             }}>{t('memories_we_collect.description')}</Typography>
             <QuiltedImageList images={images} />
-            <Button component={Link} to='/services/gallery' className='secondary-button'>{t('see_more')}</Button>
+            <Button component={Link} to='/services/gallery' onClick={scrollToTop} className='secondary-button'>
+                {t('see_more_photos')}
+            </Button>
         </div>
     )
 }

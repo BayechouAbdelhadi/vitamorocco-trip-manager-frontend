@@ -1,4 +1,8 @@
-import { Box, Divider, Typography, useMediaQuery } from '@mui/material';
+import Box from '@mui/material/Box';
+import Divider from '@mui/material/Divider';
+import Typography from '@mui/material/Typography';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 
 interface TextWithLinesProps {
     text: string;

@@ -10,12 +10,12 @@ import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
+import CardActions from '@mui/material/CardActions';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Activity } from '../../common/types/activity';
 import { scrollToTop } from '../../common/utils';
 import { defaultImage } from '../../common/utils/imageUtils';
-import { CardActions } from '@mui/material';
 import ShareButton from '../../common/components/Buttons/ShareButton/ShareButton';
 
 interface ActivitySummaryProps {

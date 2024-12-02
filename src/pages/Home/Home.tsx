@@ -5,6 +5,7 @@ import Services from './Services/Services'
 import Gallery from './Gallery'
 import TripAdvisorReviews from './TripAdvisorReviews'
 import Welcome from './Welcome/Welcome'
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 const IMAGES = [
     {
@@ -36,14 +37,24 @@ const IMAGES = [
     },
 ];
 
+const homeText = 'Home';
+
 export const Home = (): JSX.Element => {
-    const homeText = 'Home';
+
+    const isXs = useMediaQuery('(max-width:600px)');
+
+    const imageToPreload = isXs ? "/img/carousel/1_mobile.webp" : "/img/carousel/1.webp"
 
     return (
         <Page
             title={homeText}
             displayTitle={false}
-            elements={<link rel="canonical" href={window.location.href} />}
+            elements={
+                <>
+                    <link rel="canonical" href={window.location.href} />
+                    <link rel="preload" as="image" href={imageToPreload} type="image/webp" />
+                </>
+            }
         >
             <Carousel images={IMAGES} />
             <div style={{ width: '100%', maxWidth: '1400px', padding: '0px 30px' }}>

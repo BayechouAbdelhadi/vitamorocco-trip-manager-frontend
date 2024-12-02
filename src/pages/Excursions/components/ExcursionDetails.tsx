@@ -6,7 +6,7 @@ import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
 import HailIcon from '@mui/icons-material/Hail';
 import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import ShutterSpeedIcon from '@mui/icons-material/ShutterSpeed';
-import { Typography } from '@mui/material';
+import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
 import { Excursion } from '../../../common/types/excursion';

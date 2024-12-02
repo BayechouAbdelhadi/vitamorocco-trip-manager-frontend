@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Typography } from '@mui/material';
+import Typography from '@mui/material/Typography';
 import PanedSection from '../../common/components/panes/SectionedPanes';
 import parse from 'html-react-parser';
 

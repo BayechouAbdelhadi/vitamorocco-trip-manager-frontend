@@ -1,6 +1,7 @@
-import { ButtonProps, IconButton } from '@mui/material';
 import { useEffect, useState } from 'react';
+import IconButton from '@mui/material/IconButton';
 import ShareIcon from '@mui/icons-material/Share';
+import { ButtonProps } from '@mui/material/Button';
 
 type shareData = {
     title: string;

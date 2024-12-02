@@ -12,13 +12,13 @@ import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
+import CardActions from '@mui/material/CardActions';
 import { useNavigate } from 'react-router-dom';
 import { Excursion } from '../../../common/types/excursion';
 import { scrollToTop } from '../../../common/utils';
 import { defaultImage } from '../../../common/utils/imageUtils';
 import { useTranslation } from 'react-i18next';
 import { Tour } from '../../../common/types/tour';
-import { CardActions } from '@mui/material';
 import ShareButton from '../../../common/components/Buttons/ShareButton/ShareButton';
 
 interface ExcursionSummaryProps {
@@ -36,7 +36,7 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
     const { t } = useTranslation();
 
     const duration =
-        type === 'tours'? `${excursion?.duration} ${t(excursion?.durationUnit)}s / ${excursion?.duration - 1} ${t('nights')}` : `1 ${t('day')}`;
+        type === 'tours' ? `${excursion?.duration} ${t(excursion?.durationUnit)}s / ${excursion?.duration - 1} ${t('nights')}` : `1 ${t('day')}`;
 
     return (
         <Card className="excursion-summary-card-container" onClick={goToExcursion}>
@@ -97,7 +97,7 @@ export default function ExcursionSummary({ excursion, type = 'excursions' }: Exc
                 {/* <IconButton aria-label="add to favorites">
                     <FavoriteIcon />
                 </IconButton> */}
-               
+
                 <ShareButton
                     shareData={{
                         title: `${excursion.title}`,

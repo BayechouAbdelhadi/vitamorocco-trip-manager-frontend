@@ -10,7 +10,7 @@ const ScrollToTopButton: React.FC = () => {
     if (!isVisible) return null
 
     return (
-        <button className="scroll-to-top" onClick={scrollToTop}>
+        <button className="scroll-to-top" onClick={scrollToTop} aria-label="Scroll to top button">
             <ArrowUpwardIcon />
         </button>
     );

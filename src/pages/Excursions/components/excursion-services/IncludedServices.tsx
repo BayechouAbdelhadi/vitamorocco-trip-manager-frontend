@@ -1,4 +1,6 @@
-import { Grid, Paper, Typography } from '@mui/material';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import { INCLUDED_SERVICES } from '../../constant';
 import './ExcursionService.scss';

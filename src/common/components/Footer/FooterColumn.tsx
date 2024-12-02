@@ -5,6 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 import { NavItem } from '../Header/constants';
 import Logo from '../Logo';
 import parse from 'html-react-parser';
+import TripAdvisorWidget from '../TripAdvisorWidget/TripAdvisorWidget';
 
 import './FooterColumn.scss';
 
@@ -37,7 +38,13 @@ function FooterColumn({ navItem: { text, is_logo: isLogo = false, dropdown = [] 
                 {text ?
                     <h3>{parse(typeof text === 'string' ? t(text) : t(text.key, text.args))}</h3>
                     :
-                    <Logo />
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <Logo />
+                        <TripAdvisorWidget
+                            widgetScriptLink="https://www.tripadvisor.com/WidgetEmbed-excellent?locationId=26194088&lang=en_US&display_version=2&uniq=189"
+                            idWidget="TA_excellent189"
+                        />
+                    </div>
                 }
 
                 {!isLogo && dropdown.length != 0 && (

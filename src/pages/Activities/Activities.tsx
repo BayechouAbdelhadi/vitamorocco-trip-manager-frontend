@@ -1,4 +1,4 @@
-import { CircularProgress } from '@mui/material';
+import CircularProgress from '@mui/material/CircularProgress';
 import { useQuery } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
 import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
@@ -17,7 +17,12 @@ export const Activities = (): JSX.Element => {
         <Page
             description={ActivitiesText}
             keywords={ActivitiesText}
-            elements={<link rel="canonical" href={window.location.href} />}
+            elements={
+                <>
+                    <link rel="canonical" href={window.location.href} />
+                    <link rel="preload" as="image" href="/img/activities/activity_title.webp" type="image/webp" />
+                </>
+            }
             title={t('activities.title')}
             imgSrc="/img/activities/activity_title.webp"
         >

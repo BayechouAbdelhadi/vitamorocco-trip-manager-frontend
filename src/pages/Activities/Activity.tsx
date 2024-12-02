@@ -1,6 +1,8 @@
 import CloseIcon from '@mui/icons-material/Close';
 import DoneIcon from '@mui/icons-material/Done';
-import { CircularProgress, Container, Typography } from '@mui/material';
+import CircularProgress from '@mui/material/CircularProgress';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 import parse from 'html-react-parser';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
@@ -16,6 +18,7 @@ import { ActivityDetails } from './components/ActivityDetails';
 
 import '../Excursions/Excursions.scss';
 import '../Tours/Tour.scss';
+import TripAdvisorWidget from '../../common/components/TripAdvisorWidget';
 
 const ActivityText = 'Activity';
 
@@ -40,9 +43,13 @@ export const Activity = (): JSX.Element => {
     return (
         <Page
             description={activity?.description ?? activityTitle}
-            keywords={activityTitle}
             title={activityTitle}
-            elements={<link rel="canonical" href={window.location.href} />}
+            elements={
+                <>
+                    <link rel="canonical" href={window.location.href} />
+                    <link rel="preload" as="image" href={`/img/activities/${activity?.id}/${activity?.titleImg}`} />
+                </>
+            }
             imgSrc={`/img/activities/${activity?.id}/${activity?.titleImg}`}
             className="excursion-detail"
         >
@@ -148,7 +155,10 @@ export const Activity = (): JSX.Element => {
                     <p style={{ marginBottom: 20 }}>
                         <strong>{t('contact.to_reserve_activity_message')}</strong>
                     </p>
-                    <ContactForm subject={`Activity ${activity?.title}`} />
+                    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+                        <TripAdvisorWidget />
+                        <ContactForm subject={`Activity ${activity?.title}`} />
+                    </div>
                 </Container>
             )}
         </Page>

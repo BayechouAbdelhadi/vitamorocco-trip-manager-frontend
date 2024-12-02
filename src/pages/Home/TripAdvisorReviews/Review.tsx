@@ -1,5 +1,5 @@
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote'
-import { Button } from '@mui/material'
+import Button from '@mui/material/Button'
 import { useTranslation } from 'react-i18next'
 import { defaultImage } from '../../../common/utils/imageUtils'
 

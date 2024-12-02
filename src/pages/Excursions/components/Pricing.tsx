@@ -1,11 +1,10 @@
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
-import { Excursion } from '../../../common/types/excursion';
-import { Typography } from '@mui/material';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
 
 interface ExcursionPricingInterface {
-    pricing:string[]
+    pricing: string[]
 }
 export const Pricing = ({ pricing }: ExcursionPricingInterface): JSX.Element => {
     const { t } = useTranslation();

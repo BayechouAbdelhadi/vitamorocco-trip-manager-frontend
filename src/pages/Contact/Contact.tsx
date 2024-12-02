@@ -1,9 +1,9 @@
 import parse from 'html-react-parser';
-import { CircularProgress, Container } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
-import { DatePicker } from '@mui/x-date-pickers';
+import TextField from '@mui/material/TextField/';
+import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+import Container from '@mui/material/Container';
 import dayjs, { Dayjs } from 'dayjs';
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -16,6 +16,7 @@ import { HousingType, Contact as Message } from '../../common/types/contact';
 import { HOUSING_TYPES } from './constants';
 
 import './Contact.scss';
+import CircularProgress from '@mui/material/CircularProgress';
 
 const ContactText = 'contact.title';
 
@@ -47,7 +48,12 @@ export const Contact = (): JSX.Element => {
             description={t(ContactText)}
             keywords={t(ContactText)}
             title={t(ContactText)}
-            elements={<link rel="canonical" href={window.location.href} />}
+            elements={
+                <>
+                    <link rel="canonical" href={window.location.href} />
+                    <link rel="preload" as="image" href="img/contact/contact_title.webp" type="image/webp" />
+                </>
+            }
             imgSrc="img/contact/contact_title.webp"
             className="contact-page"
         >

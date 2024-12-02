@@ -1,4 +1,6 @@
-import { CircularProgress, Container, Typography } from '@mui/material';
+import CircularProgress from '@mui/material/CircularProgress';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
@@ -6,13 +8,15 @@ import { Page } from '../../common/components/Page/Page';
 import PanedSection from '../../common/components/panes/SectionedPanes';
 import { getExcursion } from '../../common/services/excursionService';
 import { ContactForm } from '../Contact/Contact';
-import './Excursion.scss';
 import { ExcursionDetails } from './components/ExcursionDetails';
 import { PanedDescription } from './components/PanedDescription';
 import { PanedHighlights } from './components/PanedHighlights';
 import { Pricing } from './components/Pricing';
 import { ExcludedServiceList } from './components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from './components/excursion-services/IncludedServices';
+
+import './Excursion.scss';
+import TripAdvisorWidget from '../../common/components/TripAdvisorWidget';
 
 const ExcursionText = 'Excursion';
 
@@ -37,9 +41,13 @@ export const Excursion = (): JSX.Element => {
     return (
         <Page
             description={excursion?.description ?? excursionTitle}
-            keywords={excursionTitle}
             title={excursionTitle}
-            elements={<link rel="canonical" href={window.location.href} />}
+            elements={
+                <>
+                    <link rel="canonical" href={window.location.href} />
+                    <link rel="preload" as="image" href={`/img/excursions/${excursion?.id}/${excursion?.titleImg}`} />
+                </>
+            }
             imgSrc={`/img/excursions/${excursion?.id}/${excursion?.titleImg}`}
             className="excursion-detail"
         >
@@ -77,7 +85,10 @@ export const Excursion = (): JSX.Element => {
                         <p style={{ marginBottom: 20 }}>
                             <strong>{t('contact.to_reserv_trip_message')}</strong>
                         </p>
-                        <ContactForm subject={`Excursion ${excursion?.title}`} />
+                        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+                            <TripAdvisorWidget />
+                            <ContactForm subject={`Excursion ${excursion?.title}`} />
+                        </div>
                     </Container>
                 )
             )}

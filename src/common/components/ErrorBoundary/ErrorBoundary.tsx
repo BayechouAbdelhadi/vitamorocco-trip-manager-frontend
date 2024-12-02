@@ -1,4 +1,4 @@
-import React, { Component, ErrorInfo, ReactNode } from 'react';
+import { Component, ErrorInfo, ReactNode } from 'react';
 import { LayoutContainer } from '../LayoutContainer/LayoutContainer';
 
 interface ErrorBoundaryProps {
@@ -19,10 +19,10 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
     return { hasError: true };
   }
 
-  componentDidCatch(error: Error, errorInfo: ErrorInfo): void { 
+  componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
     console.log('error', error)
     console.log('errorInfo', errorInfo)
-   }
+  }
 
   render(): ReactNode {
     const { children } = this.props;

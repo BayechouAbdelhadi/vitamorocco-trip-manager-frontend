@@ -1,5 +1,7 @@
 import DoneIcon from '@mui/icons-material/Done';
-import { CircularProgress, Container, Typography } from '@mui/material';
+import CircularProgress from '@mui/material/CircularProgress';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
@@ -13,9 +15,10 @@ import { ExcludedServiceList } from '../Excursions/components/excursion-services
 import TourInformation from './TourInformation';
 import { TourPricing } from './TourPricing';
 import { TourSteps } from './TourSteps';
-
 import { ContactForm } from '../Contact/Contact';
-import '../Excursions//Excursion.scss';
+import TripAdvisorWidget from "../../common/components/TripAdvisorWidget";
+
+import '../Excursions/Excursion.scss';
 import './Tour.scss';
 
 const TourText = 'Tour';
@@ -41,9 +44,13 @@ export const Tour = (): JSX.Element => {
     return (
         <Page
             description={tour?.description ?? tourTitle}
-            keywords={tourTitle}
             title={tourTitle}
-            elements={<link rel="canonical" href={window.location.href} />}
+            elements={
+                <>
+                    <link rel="canonical" href={window.location.href} />
+                    <link rel="preload" as="image" href={`/img/tours/${tour?.id}/${tour?.titleImg}`} />
+                </>
+            }
             imgSrc={`/img/tours/${tour?.id}/${tour?.titleImg}`}
             className="excursion-detail"
         >
@@ -94,7 +101,10 @@ export const Tour = (): JSX.Element => {
                     <p style={{ marginBottom: 20 }}>
                         <strong>{t('contact.to_reserv_trip_message')}</strong>
                     </p>
-                    <ContactForm subject={`Tour ${tour?.title}`} />
+                    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+                        <TripAdvisorWidget />
+                        <ContactForm subject={`Tour ${tour?.title}`} />
+                    </div>
                 </Container>
             )}
         </Page>

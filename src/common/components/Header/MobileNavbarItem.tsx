@@ -1,6 +1,9 @@
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import { IconButton, ListItem, ListItemButton, Typography } from '@mui/material';
+import IconButton from '@mui/material/IconButton';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import Typography from '@mui/material/Typography';
 import parse from 'html-react-parser';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';

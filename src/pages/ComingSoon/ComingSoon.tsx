@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Page } from '../../common/components/Page/Page'
-import { Box } from '@mui/material'
+import Box from '@mui/material/Box'
 import './ComingSoon.scss'
 
 export default function ComingSoon() {

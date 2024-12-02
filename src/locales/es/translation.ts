@@ -207,6 +207,7 @@ export const TRANSLATION_ES = {
     },
     // S
     see_more: 'Ver más',
+    see_more_photos: 'Ver más fotos',
     see_more_on_trip_advisor: 'Ver más en TripAdvisor',
     starting_location: 'Lugar de inicio',
     services: {

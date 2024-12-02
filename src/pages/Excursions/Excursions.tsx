@@ -2,7 +2,7 @@ import { useQuery } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
 import { getExcursions } from '../../common/services/excursionService';
 import ExcursionSummary from './components/ExcursionSummary';
-import { CircularProgress } from '@mui/material';
+import CircularProgress from '@mui/material/CircularProgress';
 import TitleWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
 import { useTranslation } from 'react-i18next';
 import parse from 'html-react-parser';
@@ -19,8 +19,12 @@ export const Excursions = (): JSX.Element => {
     return (
         <Page
             description={t('excursions_description')}
-            keywords={ExcursionsText}
-            elements={<link rel="canonical" href={window.location.href} />}
+            elements={
+                <>
+                    <link rel="canonical" href={window.location.href} />
+                    <link rel="preload" as="image" href="img/excursions/excursions_title.webp" type="image/webp" />
+                </>
+            }
             title={t('excursions_and_day_trips')}
             imgSrc='img/excursions/excursions_title.webp'
             className='excursions-page-container'

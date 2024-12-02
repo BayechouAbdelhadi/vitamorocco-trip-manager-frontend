@@ -1,4 +1,4 @@
-import { CircularProgress } from '@mui/material';
+import CircularProgress from '@mui/material/CircularProgress';
 import { useQuery } from 'react-query';
 import { useLocation } from 'react-router';
 import { Page } from '../../common/components/Page/Page';
@@ -28,8 +28,12 @@ export const Tours = (): JSX.Element => {
     return (
         <Page
             description={t('tours_description')}
-            keywords={ToursText}
-            elements={<link rel="canonical" href={window.location.href} />}
+            elements={
+                <>
+                    <link rel="canonical" href={window.location.href} />
+                    <link rel="preload" as="image" href="/img/tours/tours_title.webp" type="image/webp" />
+                </>
+            }
             title={`${t('tours_and_itineraries')} ${departureFromCityTitle}`}
             // imgSrc={`/img/tours/${departureFromCityImg}`}
             imgSrc={`/img/tours/tours_title.webp`}

@@ -1,5 +1,5 @@
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import { Typography } from '@mui/material';
+import Typography from '@mui/material/Typography';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';

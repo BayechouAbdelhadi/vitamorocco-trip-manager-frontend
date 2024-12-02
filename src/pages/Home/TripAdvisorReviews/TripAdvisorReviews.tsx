@@ -2,9 +2,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import Review from "./Review";
 import TextWithLines from "../../../common/components/QuiltedImageList/TitleWithLines";
-import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTranslation } from "react-i18next";
 
 

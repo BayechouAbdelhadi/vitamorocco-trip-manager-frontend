@@ -1,8 +1,12 @@
 import FacebookIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import { Box, SvgIcon, useMediaQuery } from '@mui/material';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import Box from '@mui/material/Box';
+import SvgIcon from '@mui/material/SvgIcon';
 import useScrollDetection from '../../../hooks/front/useScrollDetection'
+
+
 import './SocialMediaIcons.scss';
 
 interface ISocialMediaIcons {
