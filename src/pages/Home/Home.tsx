@@ -49,12 +49,6 @@ export const Home = (): JSX.Element => {
         <Page
             title={homeText}
             displayTitle={false}
-            elements={
-                <>
-                    <link rel="canonical" href={window.location.href} />
-                    <link rel="preload" as="image" href={imageToPreload} type="image/webp" />
-                </>
-            }
         >
             <Carousel images={IMAGES} />
             <div style={{ width: '100%', maxWidth: '1400px', padding: '0px 30px' }}>

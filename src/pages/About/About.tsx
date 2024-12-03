@@ -24,13 +24,6 @@ export const About = (): JSX.Element => {
     return (
         <Page
             description={AboutText}
-            keywords={AboutText}
-            elements={
-                <>
-                    <link rel="canonical" href={window.location.href} />
-                    <link rel="preload" as="image" href="img/about/about_title.webp" type="image/webp" />
-                </>
-            }
             title={t('about_vita_morocco')}
             imgSrc='img/about/about_title.webp'
             className='about-container'

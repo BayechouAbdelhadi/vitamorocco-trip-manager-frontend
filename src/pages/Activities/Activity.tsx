@@ -44,12 +44,6 @@ export const Activity = (): JSX.Element => {
         <Page
             description={activity?.description ?? activityTitle}
             title={activityTitle}
-            elements={
-                <>
-                    <link rel="canonical" href={window.location.href} />
-                    <link rel="preload" as="image" href={`/img/activities/${activity?.id}/${activity?.titleImg}`} />
-                </>
-            }
             imgSrc={`/img/activities/${activity?.id}/${activity?.titleImg}`}
             className="excursion-detail"
         >

@@ -25,7 +25,13 @@ const TripAdvisorWidget = ({ widgetScriptLink, idWidget }: TripAdvisorWidgetProp
     }
 
 
+
     useEffect(() => {
+        // Check if script already exists
+        if (document.querySelector(`script[src="${widgetScriptLink}"]`)) {
+            return; // Script already exists, don't add it again
+        }
+
         // Dynamically load the TripAdvisor script
         const script = document.createElement("script");
         script.src = widgetScriptLink!!;

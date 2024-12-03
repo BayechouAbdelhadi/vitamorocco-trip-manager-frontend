@@ -35,6 +35,9 @@ export const Page = ({
             <Helmet defaultTitle={app.name} titleTemplate={`${app.name} | %s`}>
                 {description && <meta name="description" content={description} />}
                 {keywords && <meta name="keywords" content={keywords} />}
+                <link rel="canonical" href={window.location.href} />
+                <link rel="preload" as="image" href={imgSrc} />
+
                 <title>{title}</title>
                 {elements}
             </Helmet>
@@ -44,7 +47,6 @@ export const Page = ({
                         <img
                             src={imgSrc}
                             alt={`title-${title}`}
-                            // loading='lazy'
                             className='title-img'
                             onError={defaultImage.large.errorHandler}
                         />

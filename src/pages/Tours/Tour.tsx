@@ -45,12 +45,6 @@ export const Tour = (): JSX.Element => {
         <Page
             description={tour?.description ?? tourTitle}
             title={tourTitle}
-            elements={
-                <>
-                    <link rel="canonical" href={window.location.href} />
-                    <link rel="preload" as="image" href={`/img/tours/${tour?.id}/${tour?.titleImg}`} />
-                </>
-            }
             imgSrc={`/img/tours/${tour?.id}/${tour?.titleImg}`}
             className="excursion-detail"
         >

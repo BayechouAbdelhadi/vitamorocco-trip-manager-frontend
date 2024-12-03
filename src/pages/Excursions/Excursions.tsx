@@ -19,12 +19,6 @@ export const Excursions = (): JSX.Element => {
     return (
         <Page
             description={t('excursions_description')}
-            elements={
-                <>
-                    <link rel="canonical" href={window.location.href} />
-                    <link rel="preload" as="image" href="img/excursions/excursions_title.webp" type="image/webp" />
-                </>
-            }
             title={t('excursions_and_day_trips')}
             imgSrc='img/excursions/excursions_title.webp'
             className='excursions-page-container'

@@ -4,7 +4,7 @@ export const Services = (): JSX.Element => {
     const ServicesText = 'Services';
 
     return (
-        <Page description={ServicesText} keywords={ServicesText} elements={<link rel="canonical" href={window.location.href} />} title={ServicesText}>
+        <Page description={ServicesText} title={ServicesText}>
             Services
         </Page>
     );

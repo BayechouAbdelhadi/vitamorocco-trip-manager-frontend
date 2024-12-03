@@ -18,14 +18,7 @@ export const Faqs = (): JSX.Element => {
     return (
         <Page
             description={FaqsText}
-            keywords={FaqsText}
             title={FaqsText}
-            elements={
-                <>
-                    <link rel="canonical" href={window.location.href} />
-                    <link rel="preload" as="image" href="/img/faqs/title.webp" type="image/webp" />
-                </>
-            }
             imgSrc="/img/faqs/title.webp"
             className="faqs-container"
         >

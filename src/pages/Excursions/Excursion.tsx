@@ -14,9 +14,9 @@ import { PanedHighlights } from './components/PanedHighlights';
 import { Pricing } from './components/Pricing';
 import { ExcludedServiceList } from './components/excursion-services/ExcludedServices';
 import { IncludedServiceCard } from './components/excursion-services/IncludedServices';
+import TripAdvisorWidget from '../../common/components/TripAdvisorWidget';
 
 import './Excursion.scss';
-import TripAdvisorWidget from '../../common/components/TripAdvisorWidget';
 
 const ExcursionText = 'Excursion';
 
@@ -42,12 +42,6 @@ export const Excursion = (): JSX.Element => {
         <Page
             description={excursion?.description ?? excursionTitle}
             title={excursionTitle}
-            elements={
-                <>
-                    <link rel="canonical" href={window.location.href} />
-                    <link rel="preload" as="image" href={`/img/excursions/${excursion?.id}/${excursion?.titleImg}`} />
-                </>
-            }
             imgSrc={`/img/excursions/${excursion?.id}/${excursion?.titleImg}`}
             className="excursion-detail"
         >

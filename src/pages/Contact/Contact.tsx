@@ -48,12 +48,6 @@ export const Contact = (): JSX.Element => {
             description={t(ContactText)}
             keywords={t(ContactText)}
             title={t(ContactText)}
-            elements={
-                <>
-                    <link rel="canonical" href={window.location.href} />
-                    <link rel="preload" as="image" href="img/contact/contact_title.webp" type="image/webp" />
-                </>
-            }
             imgSrc="img/contact/contact_title.webp"
             className="contact-page"
         >

@@ -15,8 +15,6 @@ export const TermsAndConditions = (): JSX.Element => {
     return (
         <Page
             description={ServicesText}
-            keywords={ServicesText}
-            elements={<link rel="canonical" href={window.location.href} />}
             title={t('terms_and_conditions')}
             imgSrc={`/img/terms_and_conditions/title.webp`}
             className='terms-and-conditions-container'

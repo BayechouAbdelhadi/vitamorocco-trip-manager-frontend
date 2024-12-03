@@ -24,13 +24,6 @@ export const Tips = (): JSX.Element => {
     return (
         <Page
             description={t('tips_description')}
-            keywords={TipsText}
-            elements={
-                <>
-                    <link rel="canonical" href={window.location.href} />
-                    <link rel="preload" as="image" href="/img/carousel/2.webp" type="image/webp" />
-                </>
-            }
             title={t('tips')}
             imgSrc="/img/carousel/2.webp"
         >
