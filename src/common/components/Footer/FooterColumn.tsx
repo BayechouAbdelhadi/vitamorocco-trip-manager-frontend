@@ -5,7 +5,6 @@ import { HashLink } from 'react-router-hash-link';
 import { NavItem } from '../Header/constants';
 import Logo from '../Logo';
 import parse from 'html-react-parser';
-import TripAdvisorWidget from '../TripAdvisorWidget/TripAdvisorWidget';
 
 import './FooterColumn.scss';
 
@@ -40,10 +39,15 @@ function FooterColumn({ navItem: { text, is_logo: isLogo = false, dropdown = [] 
                     :
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                         <Logo />
-                        <TripAdvisorWidget
-                            widgetScriptLink="https://www.tripadvisor.com/WidgetEmbed-excellent?locationId=26194088&lang=en_US&display_version=2&uniq=189"
-                            idWidget="TA_excellent189"
-                        />
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g293734-d26194088-Reviews-Vita_Morocco-Marrakech_Marrakech_Safi.html" target='__blank'>
+                            <img
+                                src="/img/trip_advisor_reviews/excellence_widget.png"
+                                width={148}
+                                height={104}
+                                alt="tripe advisor excellence widget"
+                                loading="lazy"
+                            />
+                        </a>
                     </div>
                 }
 
