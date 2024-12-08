@@ -1,10 +1,9 @@
+import { useEffect, useState } from 'react';
 import parse from 'html-react-parser';
-import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField/';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import dayjs, { Dayjs } from 'dayjs';
-import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useMutation } from 'react-query';
 import SelectBox from '../../common/components/select/select';
@@ -14,6 +13,10 @@ import { HOUSING_TYPES } from './constants';
 import CircularProgress from '@mui/material/CircularProgress';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import { ErrorBoundarySuspense } from '../../common/components/ErrorBoundarySuspense/ErrorBoundarySuspense';
+import { lazyComponent } from '../../common/utils/lazy';
+import { AlertProps } from '@mui/material/Alert/Alert';
+const Alert = lazyComponent(import('@mui/material/Alert/Alert')) as React.ComponentType<AlertProps>;
 
 const FORMAT_DATE_DD_MM_YYYY = 'DD/MM/YYYY';
 const ARGUMENT_FORMAT_DATE = 'fr-FR';
@@ -242,19 +245,23 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
                     className="form-field"
                 />{' '}
                 {isSuccess && (
-                    <Alert severity="success" variant="outlined" style={{ marginBottom: 5 }}>
-                        {parse(t('contact.success_message'))}{' '}
-                    </Alert>
+                    <ErrorBoundarySuspense>
+                        <Alert severity="success" variant="outlined" style={{ marginBottom: 5 }}>
+                            {parse(t('contact.success_message'))}{' '}
+                        </Alert>
+                    </ErrorBoundarySuspense>
                 )}
                 {isError && (
-                    <Alert severity="error" variant="outlined" style={{ marginBottom: 5 }}>
-                        {t('contact.error_message')}{' '}
-                        <u>
-                            <a href="https://wa.me/message/RECE76NM33GCB1" target="__blank">
-                                (+212) 662310037
-                            </a>
-                        </u>
-                    </Alert>
+                    <ErrorBoundarySuspense>
+                        <Alert severity="error" variant="outlined" style={{ marginBottom: 5 }}>
+                            {t('contact.error_message')}{' '}
+                            <u>
+                                <a href="https://wa.me/message/RECE76NM33GCB1" target="__blank">
+                                    (+212) 662310037
+                                </a>
+                            </u>
+                        </Alert>
+                    </ErrorBoundarySuspense>
                 )}
                 <Button type="submit" variant="contained" color="primary" disabled={isLoading}>
                     {isLoading && <CircularProgress size="1rem" style={{ marginRight: "0.5rem" }} />}

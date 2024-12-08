@@ -5,12 +5,9 @@ import Box from '@mui/material/Box';
 import { SyntheticEvent, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import parse from 'html-react-parser';
-
-
-import './About.scss'
 import { currentLanguage } from '../../common/utils';
 
-const AboutText = 'About Vita Morocco';
+import './About.scss'
 
 
 export const About = (): JSX.Element => {
@@ -23,7 +20,6 @@ export const About = (): JSX.Element => {
 
     return (
         <Page
-            description={AboutText}
             title={t('about_vita_morocco')}
             imgSrc='img/about/about_title.webp'
             className='about-container'

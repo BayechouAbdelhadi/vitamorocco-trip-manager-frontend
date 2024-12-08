@@ -6,15 +6,13 @@ import Box from '@mui/material/Box';
 import SvgIcon from '@mui/material/SvgIcon';
 import useScrollDetection from '../../../hooks/front/useScrollDetection'
 
-
 import './SocialMediaIcons.scss';
 
 interface ISocialMediaIcons {
-    displayColumn?: boolean;
     float?: boolean;
 }
 
-export default function SocialMediaIcons({ displayColumn = false, float = false }: ISocialMediaIcons) {
+export default function SocialMediaIcons({ float = false }: ISocialMediaIcons) {
     const isVisible = useScrollDetection(300);
     const isXs = useMediaQuery('(max-width:600px)');
 

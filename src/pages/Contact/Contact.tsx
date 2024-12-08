@@ -1,23 +1,10 @@
-import parse from 'html-react-parser';
-import Alert from '@mui/material/Alert';
-import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField/';
-import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import Container from '@mui/material/Container';
-import dayjs, { Dayjs } from 'dayjs';
-import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useMutation } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
 import TextWithLines from '../../common/components/QuiltedImageList/TitleWithLines';
-import SelectBox from '../../common/components/select/select';
-import contactService from '../../common/services/contactService';
-import { HousingType, Contact as Message } from '../../common/types/contact';
-import { HOUSING_TYPES } from './constants';
-import CircularProgress from '@mui/material/CircularProgress';
+import { ContactForm } from './ContactForm';
 
 import './Contact.scss';
-import { ContactForm } from './ContactForm';
 
 const ContactText = 'contact.title';
 
