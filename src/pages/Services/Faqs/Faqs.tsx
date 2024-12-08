@@ -36,7 +36,7 @@ export const Faqs = (): JSX.Element => {
                                     {item.question[currentLanguage]}
                                 </AccordionSummary>
                                 <AccordionDetails>
-                                    <em>{parse(item.answer[currentLanguage])}</em>
+                                    {parse(item.answer[currentLanguage])}
                                 </AccordionDetails>
                             </Accordion>
                         ))}

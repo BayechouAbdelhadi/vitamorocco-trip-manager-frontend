@@ -1,97 +1,63 @@
-import { useEffect, useState } from 'react';
+import { useRef } from 'react';
 import parse from 'html-react-parser';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField/';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import dayjs, { Dayjs } from 'dayjs';
-import { useTranslation } from 'react-i18next';
-import { useMutation } from 'react-query';
-import SelectBox from '../../common/components/select/select';
-import contactService from '../../common/services/contactService';
-import { HousingType, Contact as Message } from '../../common/types/contact';
-import { HOUSING_TYPES } from './constants';
-import CircularProgress from '@mui/material/CircularProgress';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import dayjs from 'dayjs';
+import { useTranslation } from 'react-i18next';
+import { useMutation } from 'react-query';
+import contactService from '../../common/services/contactService';
+import { Contact as Message } from '../../common/types/contact';
+import { HOUSING_TYPES } from './constants';
+import CircularProgress from '@mui/material/CircularProgress';
 import { ErrorBoundarySuspense } from '../../common/components/ErrorBoundarySuspense/ErrorBoundarySuspense';
 import { lazyComponent } from '../../common/utils/lazy';
 import { AlertProps } from '@mui/material/Alert/Alert';
+import Select from '@mui/material/Select/Select';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl/FormControl';
+import InputLabel from '@mui/material/InputLabel/InputLabel';
 const Alert = lazyComponent(import('@mui/material/Alert/Alert')) as React.ComponentType<AlertProps>;
-
-const FORMAT_DATE_DD_MM_YYYY = 'DD/MM/YYYY';
-const ARGUMENT_FORMAT_DATE = 'fr-FR';
-
-const initialContact: Message = {
-    fullName: '',
-    email: '',
-    country: '',
-    phoneNumber: '',
-    subject: '',
-    message: '',
-    refUrl: '',
-    numberOfAdults: 1,
-    numberOfKids: 0,
-    departureDate: new Date().toLocaleDateString(ARGUMENT_FORMAT_DATE),
-    returnDate: new Date().toLocaleDateString(ARGUMENT_FORMAT_DATE),
-    housingType: null,
-    // housingCategory: null,
-    // housingRegime: null,
-    // flexibleDates: true,
-};
 
 interface ContactFormProps {
     subject?: string;
 }
+
+// Uncontrolled form
 export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
+    const formRef = useRef<HTMLFormElement>(null);
     const { t } = useTranslation();
     const { isLoading, isSuccess, isError, mutateAsync } = useMutation(contactService.saveContact);
-    const [contactData, setContactData] = useState(initialContact);
 
-    useEffect(() => {
-        if (subject) {
-            setContactData({ ...contactData, subject });
-        }
-    }, [subject]);
-
-    function handleSubmit(e: React.FormEvent) {
+    async function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
 
-        return mutateAsync({ ...contactData, refUrl: window.location.href })
+        const form = formRef.current;
+
+        const formData = new FormData(form!!);
+        const data = Object.fromEntries(formData.entries());
+
+        const contactData = { ...data, refUrl: window.location.href } as Message
+
+        return mutateAsync(contactData)
             .then(() => {
-                setContactData(initialContact);
+                form!!.reset();
             })
             .catch((err) => {
                 console.log(err);
-            }
-            );
+            });
     }
-
-    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        const { name, value } = e.target;
-        setContactData({
-            ...contactData,
-            [name]: value,
-        });
-    };
-
-    const handleDepartureDateChange = (value: Dayjs | null) => {
-        setContactData({ ...contactData, departureDate: value?.format(FORMAT_DATE_DD_MM_YYYY) || null });
-    };
-
-    const handleReturnDateChange = (value: Dayjs | null) => {
-        setContactData({ ...contactData, returnDate: value?.format(FORMAT_DATE_DD_MM_YYYY) || null });
-    };
 
     return (
         <LocalizationProvider dateAdapter={AdapterDayjs}>
-            <form onSubmit={handleSubmit} className="contact-form">
+            <form ref={formRef} onSubmit={handleSubmit} className="contact-form">
                 <TextField
                     label={t('full_name')}
                     required
                     variant="outlined"
                     fullWidth
-                    value={contactData.fullName}
-                    onChange={handleInputChange}
                     margin="normal"
                     name="fullName"
                     className="form-field"
@@ -101,8 +67,6 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
                     required
                     variant="outlined"
                     fullWidth
-                    value={contactData.email}
-                    onChange={handleInputChange}
                     margin="normal"
                     name="email"
                     className="form-field"
@@ -113,8 +77,6 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
                         required
                         variant="outlined"
                         fullWidth
-                        value={contactData.country}
-                        onChange={handleInputChange}
                         margin="normal"
                         name="country"
                         className="form-field"
@@ -124,8 +86,6 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
                         required
                         variant="outlined"
                         fullWidth
-                        value={contactData.phoneNumber}
-                        onChange={handleInputChange}
                         margin="normal"
                         name="phoneNumber"
                         className="form-field"
@@ -136,8 +96,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
                     required
                     variant="outlined"
                     fullWidth
-                    value={contactData.subject}
-                    onChange={handleInputChange}
+                    defaultValue={subject}
                     margin="normal"
                     name="subject"
                     className="form-field"
@@ -151,19 +110,16 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
                         required
                         variant="outlined"
                         type="number"
-                        value={contactData.numberOfAdults}
-                        onChange={handleInputChange}
+                        defaultValue={1}
                         margin="normal"
                         name="numberOfAdults"
                         className="form-field"
                     />
                     <TextField
                         label={t('number_of_kids')}
-                        // required
                         variant="outlined"
                         type="number"
-                        value={contactData.numberOfKids}
-                        onChange={handleInputChange}
+                        defaultValue={0}
                         margin="normal"
                         name="numberOfKids"
                         className="form-field"
@@ -171,75 +127,39 @@ export const ContactForm: React.FC<ContactFormProps> = ({ subject }) => {
                 </div>
                 <div className="groupped-fields">
                     <DatePicker
+                        name="departureDate"
                         label={t('departure_date')}
-                        value={dayjs(contactData.departureDate, ARGUMENT_FORMAT_DATE)}
-                        onChange={handleDepartureDateChange}
+                        defaultValue={dayjs(new Date().toDateString())}
                         className="form-field"
                     />
                     <DatePicker
+                        name="returnDate"
                         label={t('return_date')}
-                        value={dayjs(contactData.returnDate, ARGUMENT_FORMAT_DATE)}
-                        onChange={handleReturnDateChange}
+                        defaultValue={dayjs(new Date().toDateString())}
                         className="form-field"
                     />
                 </div>
-                <SelectBox
-                    options={HOUSING_TYPES.map((ht) => ({ label: t(`housing_types.${ht}`), value: ht }))}
-                    value={contactData.housingType ?? ''}
-                    onChange={(value: string) => {
-                        setContactData({ ...contactData, housingType: value as HousingType });
-                    }}
-                    label={t('accomodation_type')}
-                    labelId="housing-type"
-                    parentClassName="form-field"
-                />
-                {/* <div className="groupped-fields">
-                <SelectBox
-                    options={HOUSING_TYPES.map((ht) => ({ label: t(`housing_types.${ht}`), value: ht }))}
-                    value={contactData.housingType ?? ''}
-                    onChange={(value: string) => {
-                        setContactData({ ...contactData, housingType: value as HousingType });
-                    }}
-                    label={t('accomodation_type')}
-                    labelId="housing-type"
-                    parentClassName="form-field"
-                />
-                <SelectBox
-                    options={[1, 2, 3, 4, 5].map((i) => ({
-                        label: (
-                            <div className="category-star-row">
-                                <div>{i}</div> <StarIcon />
-                            </div>
-                        ),
-                        value: i.toString(),
-                    }))}
-                    value={contactData.housingCategory?.toString() ?? ''}
-                    onChange={(value: string) => {
-                        setContactData({ ...contactData, housingCategory: parseInt(value) });
-                    }}
-                    label={t('category')}
-                    labelId="housing-category"
-                    parentClassName="form-field"
-                />
-                <SelectBox
-                    options={HOUSING_REGIME.map((hg) => ({ label: t(`housing_regimes.${hg}`), value: hg }))}
-                    value={contactData.housingRegime ?? ''}
-                    onChange={(value: string) => {
-                        setContactData({ ...contactData, housingRegime: value as HousingRegime });
-                    }}
-                    label={t('regime')}
-                    labelId="housing-regime"
-                    parentClassName="form-field"
-                />
-            </div> */}
+                <FormControl className="form-field">
+                    <InputLabel id="housing-type-label">{t('accomodation_type')}</InputLabel>
+                    <Select
+                        name="housingType"
+                        label={t('accomodation_type')}
+                        defaultValue=""
+                        labelId="housing-type-label"
+                    >
+                        {HOUSING_TYPES.map((ht) => (
+                            <MenuItem key={ht} value={ht}>
+                                {t(`housing_types.${ht}`)}
+                            </MenuItem>
+                        ))}
+                    </Select>
+                </FormControl>
                 <TextField
                     label={t('message')}
                     variant="outlined"
                     fullWidth
                     multiline
                     rows={10}
-                    value={contactData.message}
-                    onChange={handleInputChange}
                     margin="normal"
                     name="message"
                     className="form-field"
