@@ -10,7 +10,7 @@ import { useParams } from 'react-router-dom';
 import { Page } from '../../common/components/Page/Page';
 import PanedSection from '../../common/components/panes/SectionedPanes';
 import { getActivity } from '../../common/services/activityService';
-import { ContactForm } from '../Contact/Contact';
+import { ContactForm } from '../Contact/ContactForm';
 import { PanedDescription } from '../Excursions//components/PanedDescription';
 import { PanedHighlights } from '../Excursions//components/PanedHighlights';
 import { Pricing } from '../Excursions/components/Pricing';

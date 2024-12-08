@@ -3,8 +3,8 @@ import { lazyComponent } from '../../utils/lazy';
 import { ErrorBoundarySuspense } from '../ErrorBoundarySuspense/ErrorBoundarySuspense';
 import SocialMediaIcons from '../SocialMediaIcons';
 import { Header } from '../Header/Header';
+import { Footer } from '../Footer/Footer';
 
-const Footer = lazyComponent(import('../Footer/Footer'), 'Footer');
 const ScrollToTopButton = lazyComponent(import('../Buttons/ScrollToTopButton'));
 const CookiesNotice = lazyComponent(import('../CookiesNotice'));
 
@@ -19,9 +19,7 @@ export const MainLayout = ({ children }: PropsWithChildren<Record<string, unknow
 
         <ErrorBoundarySuspense>{children}</ErrorBoundarySuspense>
 
-        <ErrorBoundarySuspense>
-            <Footer />
-        </ErrorBoundarySuspense>
+        <Footer />
 
         <ErrorBoundarySuspense>
             <ScrollToTopButton />

@@ -15,7 +15,7 @@ import { ExcludedServiceList } from '../Excursions/components/excursion-services
 import TourInformation from './TourInformation';
 import { TourPricing } from './TourPricing';
 import { TourSteps } from './TourSteps';
-import { ContactForm } from '../Contact/Contact';
+import { ContactForm } from '../Contact/ContactForm';
 import TripAdvisorWidget from "../../common/components/TripAdvisorWidget";
 
 import '../Excursions/Excursion.scss';
