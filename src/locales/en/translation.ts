@@ -8,6 +8,7 @@ export const TRANSLATION_EN = {
     about_vita_morocco: 'About Vita Morocco',
     accomodation_type: 'Accomodation type',
     accept_all: 'Accept All',
+    activity: 'Activity',
     activities: {
         title: 'Activities',
         description:
@@ -78,6 +79,7 @@ export const TRANSLATION_EN = {
         monuments_entrance: 'Monuments Fees.',
         tip_propina: 'Tips',
     },
+    excursion: 'Excursion',
     excursions: 'Excursions',
     excursions_and_day_trips: 'Excursions & Day Trips',
     excursions_description: `<p>

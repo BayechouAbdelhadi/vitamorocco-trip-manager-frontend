@@ -1,9 +1,9 @@
 import { Route } from 'react-router-dom';
 import ErrorBoundaryRoutes from '../../common/components/ErrorBoundary/ErrorBoundaryRoutes';
 import { lazyComponent } from '../../common/utils/lazy';
-const Tour = lazyComponent('Tour', import('./Tour'));
-const Tours = lazyComponent('Tours', import('./Tours'));
-const PageNotFound = lazyComponent('PageNotFound', import('../PageNotFound/PageNotFound'));
+const Tour = lazyComponent(import('./Tour'), 'Tour');
+const Tours = lazyComponent(import('./Tours'), 'Tours');
+const PageNotFound = lazyComponent(import('../PageNotFound/PageNotFound'), 'PageNotFound');
 
 const ToursRoutes = () => {
     return (

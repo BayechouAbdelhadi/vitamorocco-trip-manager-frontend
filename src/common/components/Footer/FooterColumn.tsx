@@ -41,7 +41,7 @@ function FooterColumn({ navItem: { text, is_logo: isLogo = false, dropdown = [] 
                         <Logo />
                         <a href="https://www.tripadvisor.com/Attraction_Review-g293734-d26194088-Reviews-Vita_Morocco-Marrakech_Marrakech_Safi.html" target='__blank'>
                             <img
-                                src="/img/trip_advisor_reviews/excellence_widget.png"
+                                src="/img/trip_advisor_reviews/excellence_widget.webp"
                                 width={148}
                                 height={104}
                                 alt="tripe advisor excellence widget"

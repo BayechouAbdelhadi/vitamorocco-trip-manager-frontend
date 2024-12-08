@@ -49,6 +49,7 @@ export const Home = (): JSX.Element => {
         <Page
             title={homeText}
             displayTitle={false}
+            imgSrc={imageToPreload}
         >
             <Carousel images={IMAGES} />
             <div style={{ width: '100%', maxWidth: '1400px', padding: '0px 30px' }}>

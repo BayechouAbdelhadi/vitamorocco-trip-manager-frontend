@@ -14,9 +14,9 @@ import SelectBox from '../../common/components/select/select';
 import contactService from '../../common/services/contactService';
 import { HousingType, Contact as Message } from '../../common/types/contact';
 import { HOUSING_TYPES } from './constants';
+import CircularProgress from '@mui/material/CircularProgress';
 
 import './Contact.scss';
-import CircularProgress from '@mui/material/CircularProgress';
 
 const ContactText = 'contact.title';
 

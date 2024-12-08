@@ -1,10 +1,10 @@
 import { FC, lazy, LazyExoticComponent } from 'react';
 
 export const lazyComponent = (
-  name: string,
-  importer: Promise<Record<string, FC>>
+  importer: Promise<Record<string, FC>>,
+  name: string | null = null
 ): LazyExoticComponent<FC> =>
   lazy(async () => {
     const component = await importer;
-    return { default: component[name] };
+    return name ? { default: component[name] } : { default: component.default };
   });

@@ -42,6 +42,12 @@ export const Excursion = (): JSX.Element => {
         <Page
             description={excursion?.description ?? excursionTitle}
             title={excursionTitle}
+            elements={
+                <>
+                    <link rel="dns-prefetch" href="//static.tacdn.com" />
+                    <link rel="preconnect" href="https://static.tacdn.com" />
+                </>
+            }
             imgSrc={`/img/excursions/${excursion?.id}/${excursion?.titleImg}`}
             className="excursion-detail"
         >
@@ -81,7 +87,7 @@ export const Excursion = (): JSX.Element => {
                         </p>
                         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
                             <TripAdvisorWidget />
-                            <ContactForm subject={`Excursion ${excursion?.title}`} />
+                            <ContactForm subject={`${t('excursion')} ${excursion?.title}`} />
                         </div>
                     </Container>
                 )

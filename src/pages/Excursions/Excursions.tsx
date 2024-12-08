@@ -9,8 +9,6 @@ import parse from 'html-react-parser';
 
 import './Excursions.scss';
 
-const ExcursionsText = 'Excursions & Day Trips';
-
 export const Excursions = (): JSX.Element => {
     const { data: excursions, isLoading } = useQuery('excursions', getExcursions);
 

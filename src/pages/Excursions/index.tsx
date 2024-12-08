@@ -1,9 +1,9 @@
 import { Route } from 'react-router-dom';
 import ErrorBoundaryRoutes from '../../common/components/ErrorBoundary/ErrorBoundaryRoutes';
 import { lazyComponent } from '../../common/utils/lazy';
-const Excursion = lazyComponent('Excursion', import('./Excursion'));
-const Excursions = lazyComponent('Excursions', import('./Excursions'));
-const PageNotFound = lazyComponent('PageNotFound', import('../PageNotFound/PageNotFound'));
+const Excursion = lazyComponent(import('./Excursion'), 'Excursion');
+const Excursions = lazyComponent(import('./Excursions'), 'Excursions');
+const PageNotFound = lazyComponent(import('../PageNotFound/PageNotFound'), 'PageNotFound');
 
 const ExcursionsRoutes = () => {
     return (
