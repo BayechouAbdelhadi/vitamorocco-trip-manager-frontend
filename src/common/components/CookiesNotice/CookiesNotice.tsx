@@ -1,9 +1,10 @@
 import Button from '@mui/material/Button';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { scrollToTop } from '../../utils';
-import './CookiesNotice.scss';
 import { useTranslation } from 'react-i18next';
+
+import './CookiesNotice.scss';
 
 const CookiesNotice: React.FC = () => {
     const [isCookieAccepted, setCookieState] = useState(false);
@@ -24,11 +25,6 @@ const CookiesNotice: React.FC = () => {
         setCookieState(true);
     };
 
-    useEffect(() => {
-        // Check if the "cookieAccepted" cookie is set
-        const isCookieAccepted = document.cookie.split(';').some((item) => item.trim().startsWith('cookieAccepted=true'));
-        setCookieState(isCookieAccepted);
-    }, []);
 
     if (isCookieAccepted) {
         return null; // The notice is hidden

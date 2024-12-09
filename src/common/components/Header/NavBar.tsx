@@ -2,7 +2,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Logo from '../Logo';
 import MobileMenu from './MobileMenu';
 import NavbarItem from './NavBarItem';
@@ -29,7 +29,7 @@ const PrimarySearchAppBar: React.FC = () => {
                     className="tool-bar"
                     sx={{
                         justifyContent: { xs: 'space-between', md: 'center' },
-                        maxWidth: { md: '80%', lg: '60%', xs: '100%' },
+                        width: { md: '80%', lg: '60%', xs: '100%' },
                     }}
                 >
                     {/* NavBar mobile screen */}

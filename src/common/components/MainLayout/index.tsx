@@ -1,32 +1,33 @@
 import { PropsWithChildren } from 'react';
-import { lazyComponent } from '../../utils/lazy';
 import { ErrorBoundarySuspense } from '../ErrorBoundarySuspense/ErrorBoundarySuspense';
 import SocialMediaIcons from '../SocialMediaIcons';
 import { Header } from '../Header/Header';
 import { Footer } from '../Footer/Footer';
-
-const ScrollToTopButton = lazyComponent(import('../Buttons/ScrollToTopButton'));
+import ScrollToTopButton from '../Buttons/ScrollToTopButton';
+import { lazyComponent } from '../../utils/lazy';
 const CookiesNotice = lazyComponent(import('../CookiesNotice'));
 
 import './MainLayout.scss';
 
-export const MainLayout = ({ children }: PropsWithChildren<Record<string, unknown>>): JSX.Element => (
-    <div className="main-container">
+const isCookieAccepted = document.cookie.split(';').some((item) => item.trim().startsWith('cookieAccepted=true'));
 
-        <Header />
+export const MainLayout = ({ children }: PropsWithChildren<Record<string, unknown>>): JSX.Element => {
 
-        <SocialMediaIcons float />
+    return (
+        <div className="main-container">
 
-        <ErrorBoundarySuspense>{children}</ErrorBoundarySuspense>
+            <Header />
 
-        <Footer />
+            <SocialMediaIcons float />
 
-        <ErrorBoundarySuspense>
+            <ErrorBoundarySuspense>
+                {children}
+                {!isCookieAccepted && <CookiesNotice />}
+            </ErrorBoundarySuspense>
+
+            <Footer />
+
             <ScrollToTopButton />
-        </ErrorBoundarySuspense>
-
-        <ErrorBoundarySuspense>
-            <CookiesNotice />
-        </ErrorBoundarySuspense>
-    </div>
-);
+        </div>
+    )
+};
