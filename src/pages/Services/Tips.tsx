@@ -5,7 +5,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import parse from 'html-react-parser';
-import React from 'react';
+import { Fragment } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 import { Page } from '../../common/components/Page/Page';
@@ -14,8 +14,6 @@ import { getTips } from '../../common/services/tipService';
 import { currentLanguage } from '../../common/utils';
 
 import './Tips.scss';
-
-const TipsText = 'Tips & Advice';
 
 export const Tips = (): JSX.Element => {
     const { data: tips } = useQuery(['tips'], () => getTips());
@@ -26,12 +24,13 @@ export const Tips = (): JSX.Element => {
             description={t('tips_description')}
             title={t('tips')}
             imgSrc="/img/carousel/2.webp"
+            className="tips-container"
         >
-            <Container className="tips-container">
-                <TitleWithLines text={t('essential_tips_and_advice_for_traveling_to_morocco')} />
+            <Container>
+                <TitleWithLines text={t('essential_tips_and_advice')} />
                 <Typography sx={{ marginBottom: 5 }}>{parse(t('tips_description'))}</Typography>
                 {(tips ?? []).map((tipCategory) => (
-                    <React.Fragment key={tipCategory.category[currentLanguage]}>
+                    <Fragment key={tipCategory.category[currentLanguage]}>
                         <Accordion key={tipCategory.category[currentLanguage]} className="tip-accordion">
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
@@ -68,7 +67,7 @@ export const Tips = (): JSX.Element => {
                                 </div>
                             </AccordionDetails>
                         </Accordion>
-                    </React.Fragment>
+                    </Fragment>
                 ))}
             </Container>
         </Page>

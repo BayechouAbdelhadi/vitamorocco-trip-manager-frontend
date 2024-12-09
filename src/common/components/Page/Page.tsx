@@ -3,17 +3,17 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { PropsWithChildren, ReactNode } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { app } from '../../constants/appConstants';
-import { LayoutContainerProps } from '../LayoutContainer/LayoutContainer';
 import { defaultImage } from '../../utils/imageUtils';
 
 import './Page.scss';
 
-interface PageProps extends LayoutContainerProps {
+interface PageProps extends React.HTMLAttributes<HTMLElement> {
     description?: string;
     elements?: ReactNode;
     keywords?: string;
     title: string;
     imgSrc?: string;
+    className?: string | undefined;
     displayTitle?: boolean;
 }
 

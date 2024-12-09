@@ -72,7 +72,7 @@ export const TRANSLATION_PT = {
     email: 'E-mail',
     ending_location: 'Local de término',
     ERROR_TRANSLATION, // Supondo que ERROR_TRANSLATION é um objeto com seu próprio ordenamento alfabético
-    essential_tips_and_advice_for_traveling_to_morocco: 'Dicas e conselhos essenciais para viajar para Marrocos',
+    essential_tips_and_advice: 'Dicas e conselhos essenciais',
     excluded_services: {
         food_drink: 'Comida e bebida.',
         monuments_entrance: 'Entradas dos monumentos.',
@@ -243,7 +243,7 @@ export const TRANSLATION_PT = {
              </p>`,
     tips: 'Dicas',
     tips_description: `Seguindo essas dicas e conselhos, os viajantes poderão navegar pelo Marrocos com confiança, aproveitando todos
-                     a beleza, cultura e aventura que o país tem a oferecer. O guia <strong>VITA MOROCCO</strong> visa garantir que os visitantes tenham
+                     a beleza, cultura e aventura que o país tem a oferecer. <br/><br/>O guia <strong>VITA MOROCCO</strong> visa garantir que os visitantes tenham
                      uma experiência memorável e tranquila desde o momento em que começam a planejar a viagem até o retorno
                      viagem para casa.`,
     tours: 'Tours',

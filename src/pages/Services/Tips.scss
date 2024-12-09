@@ -1,4 +1,9 @@
 .tips-container {
+
+    @media (max-width: 480px) {
+        width: 100%;
+    }
+
     .tip-accordion {
         margin-top: 1rem;
     }

@@ -73,7 +73,7 @@ export const TRANSLATION_FR = {
     email: 'Email',
     ending_location: 'Lieu de fin',
     ERROR_TRANSLATION,
-    essential_tips_and_advice_for_traveling_to_morocco: 'Trucs et conseils essentiels pour voyager au Maroc',
+    essential_tips_and_advice: 'Trucs et conseils essentiels',
     excluded_services: {
         food_drink: 'Nourriture et boisson.',
         monuments_entrance: 'Entrées des monuments.',
@@ -244,7 +244,7 @@ export const TRANSLATION_FR = {
              </p>`,
     tips: 'Conseils',
     tips_description: `En suivant ces astuces et conseils, les voyageurs peuvent naviguer au Maroc en toute confiance, en profitant de tout
-                     la beauté, la culture et l'aventure que le pays a à offrir. Le guide <strong>VITA MOROCCO</strong> a pour objectif de garantir aux visiteurs
+                     la beauté, la culture et l'aventure que le pays a à offrir. <br/><br/>Le guide <strong>VITA MOROCCO</strong> a pour objectif de garantir aux visiteurs
                      une expérience mémorable et fluide depuis le moment où ils commencent à planifier leur voyage jusqu'à leur retour
                      voyage de retour.`,
     tours: 'Tours',
