@@ -38,7 +38,7 @@ const CookiesNotice: React.FC = () => {
             </div>
             <p>{t('cookies_policy.text')}</p>
             <Link to="/services/faqs" onClick={scrollToTop}>{t('faqs')}</Link>
-            <Link to="/services/terms_and_conditions" onClick={scrollToTop}>{t('learn_more')}</Link>
+            <Link to="/services/terms_and_conditions" onClick={scrollToTop}>{t('terms_and_conditions')}</Link>
             <Button onClick={handleAccept}>{t('accept_all')}</Button>
             <Button onClick={handleDeny}>{t('refuse_all')}</Button>
         </div>
