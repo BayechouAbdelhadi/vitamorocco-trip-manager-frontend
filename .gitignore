@@ -4,6 +4,7 @@
 /.idea
 /.vscode
 /build
+/dist
 /coverage
 /logs
 /node_modules

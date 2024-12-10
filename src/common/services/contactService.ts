@@ -10,9 +10,9 @@ export const getContactById = (id: string) => vitaGet<Excursion>(`contacts/${id}
 // export const saveContact = (contact: Contact) => vitaPost<Contact>(`contacts/`, contact);
 export const saveContact = (contact: Contact) => {
     var data = {
-        service_id: process.env.REACT_APP_EMAILJS_SERVICE,
-        template_id: process.env.REACT_APP_EMAILJS_TEMPLATE,
-        user_id: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        service_id: import.meta.env.VITE_EMAILJS_SERVICE,
+        template_id: import.meta.env.VITE_EMAILJS_TEMPLATE,
+        user_id: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
         template_params: contact,
     };
 
