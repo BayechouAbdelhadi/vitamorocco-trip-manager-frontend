@@ -19,9 +19,17 @@ events {
 
 http {
 	gzip on;
+    gzip_types text/plain text/css application/javascript text/xml application/json application/rss+xml application/atom+xml image/svg+xml;
 	gzip_comp_level 2;
 	gzip_min_length 512;
 	gzip_proxied any; # Heroku router sends Via header
+    gzip_vary on;        # Add `Vary: Accept-Encoding` header
+
+    # Enable Brotli Compression (Optional but Recommended) Brotli is more efficient than Gzip and is widely supported.
+    brotli on;
+    brotli_types text/plain text/css application/javascript text/xml application/json application/rss+xml application/atom+xml image/svg+xml;
+    brotli_comp_level 6;
+    brotli_static always;
 
 	server_tokens off;
 
