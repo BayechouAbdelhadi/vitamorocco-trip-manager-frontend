@@ -1,1 +1,1 @@
-web: npx serve -s build
+web: bin/start-nginx-static
