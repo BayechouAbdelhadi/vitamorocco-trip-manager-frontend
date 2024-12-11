@@ -1,4 +1,4 @@
-@import '../../../assets/scss/theme';
+@use '../../../assets/scss/theme' as *;
 
 .navbar {
     display: flex;

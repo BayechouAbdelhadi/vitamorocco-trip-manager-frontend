@@ -1,4 +1,4 @@
-@import '../../../assets/scss/theme';
+@use '../../../assets/scss/theme' as *;
 
 .column-title {
     display: flex;
