@@ -89,7 +89,7 @@ export default function Carousel({ images, slideInterval = 6000, maxWidth = '100
                             />
                             <div className="img-slider-content">
                                 <h2>{t(`carousel.${imageIndex}.title`)}</h2>
-                                <Link to={images[imageIndex].link}><i>{t(`carousel.${imageIndex}.description`)}</i></Link>
+                                <Link to={images[imageIndex].link}>{t(`carousel.${imageIndex}.description`)}</Link>
                             </div>
                         </div>
                     ))}

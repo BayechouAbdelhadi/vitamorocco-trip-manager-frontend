@@ -19,7 +19,7 @@
         transform: scale(1.05);
 
         .service-card-img {
-            filter: brightness(80%);
+            filter: brightness(65%);
         }
     }
 
@@ -54,7 +54,11 @@
         }
 
         a {
-            padding: 0;
+            margin-top: 10px;
+            background-color: rgb(188, 141, 74);
+            color: #fff;
+            padding: 4px;
+            font-family: 'Chalkduster';
         }
     }
 }

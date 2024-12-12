@@ -24,7 +24,12 @@ const Review = ({ index, avatar, pseudo, text, alt }: ReviewProps) => {
             </div>
             <h4 className="author">{pseudo}</h4>
             <p className="text">{t(`reviews.${index}.text`)}</p>
-            <Button component="a" href="https://www.tripadvisor.com/Attraction_Review-g293734-d26194088-Reviews-Vita_Morocco-Marrakech_Marrakech_Safi.html" target='__blank'>{t('see_more_on_trip_advisor')}</Button>
+            <a
+                href="https://www.tripadvisor.com/Attraction_Review-g293734-d26194088-Reviews-Vita_Morocco-Marrakech_Marrakech_Safi.html"
+                target='__blank'
+            >
+                {t('see_more_on_trip_advisor')}
+            </a>
         </article>
     )
 }

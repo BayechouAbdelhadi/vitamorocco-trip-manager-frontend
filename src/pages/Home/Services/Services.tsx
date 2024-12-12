@@ -37,9 +37,9 @@ function Services() {
                         <div className="service-card-information">
                             <h2><em>{t(`services.${service.title}.title`)}</em></h2>
                             <p>{t(`services.${service.title}.description`)}</p>
-                            <Button component={Link} to={`/${service.title}`} onClick={scrollToTop}>
+                            <Link to={`/${service.title}`}>
                                 {t('see_more')} {t(`services.${service.title}.title`)}
-                            </Button>
+                            </Link>
                         </div>
                     </div>
                 )}
@@ -57,7 +57,6 @@ const SERVICES = [
         description: 'Explore a variety of options in the excursions section, and keep in mind that we can tailor them to match your preferences',
         rows: 2,
         cols: 2,
-        featured: true,
     },
     {
         img: '/img/destinations/tour.webp',

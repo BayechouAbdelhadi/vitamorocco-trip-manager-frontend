@@ -32,14 +32,15 @@
     width: 50px;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(56, 245, 255, 0.2);
+    background-color: rgb(188, 141, 74);
+    color: #fff;
     transform: translateY(-50%);
     cursor: pointer;
     z-index: 10;
 }
 
 :is(.button-next, .button-prev):hover {
-    background-color: rgba(56, 245, 255, 0.3);
+    background-color: rgba(188, 141, 74, 0.9);
 }
 
 .button-next {

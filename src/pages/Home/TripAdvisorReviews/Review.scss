@@ -2,7 +2,6 @@
     height: 400px;
     background: white;
     padding: 1.5rem 1rem;
-    border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
 
@@ -62,6 +61,14 @@
         overflow: hidden;
         display: -webkit-box;
         -webkit-line-clamp: 10;
+        line-clamp: 10;
         -webkit-box-orient: vertical;
+    }
+
+    a {
+        background-color: rgb(188, 141, 74);
+        color: #fff;
+        padding: 4px 10px;
+        font-family: 'Chalkduster';
     }
 }
