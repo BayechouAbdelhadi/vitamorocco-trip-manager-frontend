@@ -45,7 +45,7 @@ const toursMapper = (): Array<Tour> =>
         return tour;
     });
 
-const computeAvailableToursOrigins = () => {
+export const computeAvailableToursOrigins = () => {
     const tours = toursMapper();
     return Array.from(new Set(tours.map((t) => t.departureCity)));
 };

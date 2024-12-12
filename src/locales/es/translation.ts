@@ -14,6 +14,7 @@ export const TRANSLATION_ES = {
         description:
             'Sumérgete en una diversidad de experiencias enriquecedoras para descubrir en nuestro país. Desde escapes culturales hasta aventuras al aire libre, explora las infinitas posibilidades que te esperan',
     },
+    all: "Todo",
     all_rights_reserved: 'Reservados todos los derechos',
     available: 'Disponible',
     ...ALERT_TRANSLATION,

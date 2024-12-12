@@ -14,6 +14,7 @@ export const TRANSLATION_EN = {
         description:
             'Immerse yourself in a diversity of enriching experiences to discover in our country. From cultural escapes to outdoor adventures, explore the endless possibilities that await you',
     },
+    all: "All",
     all_rights_reserved: 'All rights reserved',
     available: 'Available',
     ...ALERT_TRANSLATION,

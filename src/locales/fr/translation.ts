@@ -14,6 +14,7 @@ export const TRANSLATION_FR = {
         description:
             "Immergez-vous dans une diversité d'expériences enrichissantes à découvrir dans notre pays. Des échappées culturelles aux aventures en plein air, explorez les possibilités infinies qui vous attendent",
     },
+    all: "Tout",
     all_rights_reserved: 'Tous droits réservés',
     available: 'Disponible',
     ...ALERT_TRANSLATION,
