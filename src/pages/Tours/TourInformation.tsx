@@ -1,4 +1,3 @@
-import Typography from "@mui/material/Typography"
 import PanedSection from "../../common/components/panes/SectionedPanes"
 import { useTranslation } from "react-i18next";
 
@@ -12,9 +11,9 @@ function TourInformation({ informationList }: TourInformationProps) {
     return (
         <PanedSection
             title={
-                <Typography variant="h5" className="setcion-title left-title">
+                <h5 className="setcion-title left-title">
                     {t('information')}
-                </Typography>
+                </h5>
             }
             leftPane={{
                 element: <ol className='information-lo'>

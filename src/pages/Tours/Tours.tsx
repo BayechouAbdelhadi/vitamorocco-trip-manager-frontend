@@ -11,7 +11,6 @@ import parse from 'html-react-parser';
 
 import '../Excursions/Excursions.scss';
 
-const ToursText = 'Tours & Itineraries';
 
 export const Tours = (): JSX.Element => {
     const location = useLocation();
@@ -23,14 +22,13 @@ export const Tours = (): JSX.Element => {
 
     // we can select an aleatoire index...
     const departureFromCityTitle = origin ? `${t('from')} ${tours?.[0].departureCity}` : ""
-    // const departureFromCityImg = origin ? `${tours?.[0].id}/${tours?.[0].titleImg}` : "tours_title.webp"
+    const departureFromCityImg = origin ? `${tours?.[0].id}/${tours?.[0].titleImg}` : "tours_title.webp"
 
     return (
         <Page
             description={t('tours_description')}
             title={`${t('tours_and_itineraries')} ${departureFromCityTitle}`}
-            // imgSrc={`/img/tours/${departureFromCityImg}`}
-            imgSrc={`/img/tours/tours_title.webp`}
+            imgSrc={`/img/tours/${departureFromCityImg}`}
             className="excursions-page-container"
         >
             {isLoading ? (

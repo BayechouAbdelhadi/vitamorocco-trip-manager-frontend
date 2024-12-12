@@ -1,4 +1,3 @@
-import Button from "@mui/material/Button";
 import TextWithLines from "../../../common/components/QuiltedImageList/TitleWithLines";
 import { defaultImage } from "../../../common/utils/imageUtils";
 import { Link, useNavigate } from "react-router-dom";

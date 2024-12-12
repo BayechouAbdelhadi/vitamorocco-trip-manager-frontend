@@ -1,4 +1,3 @@
-import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
 import { defaultImage } from '../../../common/utils/imageUtils';
@@ -14,15 +13,15 @@ export const PanedDescription = ({ description, imgSrc }: PanedDescriptionInterf
     return (
         <PanedSection
             title={
-                <Typography variant="h5" className="setcion-title left-title">
+                <h5 className="setcion-title left-title">
                     {t('description')}
-                </Typography>
+                </h5>
             }
             leftPane={{
                 element: (
-                    <Typography variant="body1" className="description-text">
+                    <p>
                         {parse(description)}
-                    </Typography>
+                    </p>
                 ),
                 className: 'content-pane',
             }}

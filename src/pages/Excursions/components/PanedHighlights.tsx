@@ -1,5 +1,4 @@
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import Typography from '@mui/material/Typography';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import PanedSection from '../../../common/components/panes/SectionedPanes';
@@ -27,9 +26,9 @@ export const PanedHighlights = ({ highlights, highlightsImgs }: PanedHighlightsI
     return (
         <PanedSection
             title={
-                <Typography variant="h5" className="setcion-title left-title">
+                <h5 className="setcion-title left-title">
                     {t('highlights')}
-                </Typography>
+                </h5>
             }
             leftPane={{
                 element: <HighLightsSwiper highlightsImgs={highlightsImgs} />,

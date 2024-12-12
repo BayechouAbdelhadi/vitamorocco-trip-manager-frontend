@@ -1,7 +1,6 @@
 import Accordion from "@mui/material/Accordion"
 import AccordionSummary from "@mui/material/AccordionSummary"
 import AccordionDetails from "@mui/material/AccordionDetails"
-import Typography from "@mui/material/Typography"
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import PanedSection from "../../common/components/panes/SectionedPanes";
 import { useTranslation } from "react-i18next";
@@ -19,9 +18,9 @@ export const TourSteps = ({ steps = [] }: TourStepsProps) => {
     return (
         <PanedSection
             title={
-                <Typography variant="h5" className="setcion-title left-title">
+                <h5 className="setcion-title left-title">
                     {t('full_detailed_itinerary')}
-                </Typography>
+                </h5>
             }
             leftPane={{
                 element: (

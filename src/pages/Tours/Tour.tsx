@@ -1,7 +1,6 @@
 import DoneIcon from '@mui/icons-material/Done';
 import CircularProgress from '@mui/material/CircularProgress';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
@@ -70,9 +69,9 @@ export const Tour = (): JSX.Element => {
                     <TourPricing />
                     <PanedSection
                         title={
-                            <Typography variant="h5" className="setcion-title left-title">
+                            <h5 className="setcion-title left-title">
                                 {t('whats_included')}
-                            </Typography>
+                            </h5>
                         }
                         // leftPane={{
                         //     element: <IncludedServiceCard services={tour.includedServices ?? []} />,

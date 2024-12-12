@@ -1,8 +1,9 @@
-import Grid from '@mui/material/Grid';
+import Grid from '@mui/material/Grid2';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import { INCLUDED_SERVICES } from '../../constant';
+
 import './ExcursionService.scss';
 
 interface IncludedServicesProps {
@@ -26,18 +27,14 @@ export const IncludedServiceList = ({ services }: IncludedServicesProps) => {
 };
 
 export const IncludedServiceCard = ({ services }: IncludedServicesProps) => {
-    const { t } = useTranslation(); // Initialize the translation hook
+    const { t } = useTranslation();
 
     return (
         <div className="included-services-card">
             <Grid container spacing={2} justifyContent="center" className="included-services-container">
                 {INCLUDED_SERVICES.filter((s) => services.includes(s.name)).map((service) => (
                     <Grid
-                        item
                         key={service.name}
-                        xs={12}
-                        sm={6}
-                        md={1}
                         className="included-item"
                         component={Paper}
                         elevation={3}

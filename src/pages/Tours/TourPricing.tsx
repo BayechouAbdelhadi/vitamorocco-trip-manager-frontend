@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import Typography from '@mui/material/Typography';
 import PanedSection from '../../common/components/panes/SectionedPanes';
 import parse from 'html-react-parser';
 
@@ -9,9 +8,9 @@ export const TourPricing = (): JSX.Element => {
     return (
         <PanedSection
             title={
-                <Typography variant="h5" className="setcion-title left-title">
+                <h5 className="setcion-title left-title">
                     {t('pricing')}
-                </Typography>
+                </h5>
             }
             leftPane={{
                 element: <div className="pricing-container">

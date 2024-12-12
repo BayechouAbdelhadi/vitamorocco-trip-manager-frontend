@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import { EXCLUDED_SERVICES } from '../../constant';
-import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import PanedSection from '../../../../common/components/panes/SectionedPanes';
 
@@ -10,9 +9,7 @@ export const ExcludedServiceList = () => {
     return (
         <PanedSection
             title={
-                <Typography variant="h5" className="setcion-title left-title">
-                    {t('whats_not_included')}
-                </Typography>
+                <h5 className="setcion-title left-title">{t('whats_not_included')}</h5>
             }
             leftPane={{
                 element: <div className="excluded-services-list">
@@ -20,7 +17,7 @@ export const ExcludedServiceList = () => {
                         {EXCLUDED_SERVICES.map((service) => (
                             <li key={service}>
                                 <CloseIcon color="error" />
-                                <div>{t(`excluded_services.${service}`)}</div>
+                                <p>{t(`excluded_services.${service}`)}</p>
                             </li>
                         ))}
                     </ul>
